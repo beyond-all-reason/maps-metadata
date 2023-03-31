@@ -28,9 +28,4 @@ export PATH="$PWD/.deno/bin:$PATH"
 export DENO_INSTALL=.deno/
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
-log "Cache JavaScript dependencies"
-export DENO_INSTALL_ROOT="$PWD/.deno/bin"
-export DENO_DIR="$PWD/.deno/cache"
-deno cache scripts/js/*
-
 log "Finished setup"
