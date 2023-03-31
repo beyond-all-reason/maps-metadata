@@ -1,0 +1,14 @@
+FROM docker.io/library/debian:bullseye
+
+RUN apt-get update \
+ && apt-get upgrade -y \
+ && apt-get install -y python3 python3-venv unzip nano vim less file curl make
+
+COPY . /build
+
+WORKDIR /build
+
+RUN ./scripts/install.sh \
+ && echo "source .envrc" >> $HOME/.bashrc
+
+ENTRYPOINT ["/bin/bash"]

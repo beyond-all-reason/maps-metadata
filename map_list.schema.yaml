@@ -1,0 +1,55 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: MapList
+description: List of maps with their basic metadata
+type: array
+items:
+  type: object
+  properties:
+    springname:
+      type: string
+    author:
+      type: string
+    width:
+      type: integer
+    height:
+      type: integer
+    description:
+      type: string
+    game_type:
+      type: array
+      items:
+        type: string
+        enum:
+          - ffa
+          - 1v1
+          - team
+      uniqueItems: true
+      default: []
+    terrain:
+      type: array
+      items:
+        type: string
+        enum:
+          - water
+          - hills
+          - flat
+      uniqueItems: true
+      default: []
+    player_count:
+      type: integer
+    team_count:
+      type: integer
+    certified:
+      type: boolean
+      default: true
+    in_pool:
+      type: boolean
+      default: true
+    special:
+      type: string
+  additionalProperties: false
+  required:
+    - springname
+    - width
+    - height
+    - author
