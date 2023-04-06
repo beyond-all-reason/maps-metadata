@@ -10,7 +10,6 @@ import child_process from 'node:child_process';
 import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
 import sevenBin from '7zip-bin';
-import Jimp from "jimp";
 
 const execFile = promisify(child_process.execFile);
 
@@ -53,23 +52,24 @@ async function isArchiveSolid(archivePath: string): Promise<boolean> {
     }
 }
 
-async function donwloadMap(springName: string, destination: string): Promise<boolean> {
+async function downloadMap(springName: string, destination: string): Promise<string | null> {
     const response = await axios.get(`https://files-cdn.beyondallreason.dev/find?category=map&springname=${encodeURIComponent(springName)}`);
 
     if (response.data.length === 0) {
-        return false;
+        return null;
     }
 
     const mapUrl = response.data[0].mirrors[0];
+    const fileName = path.join(destination, response.data[0].filename);
 
     const { data: mapData } = await axios.get<Readable>(mapUrl, { responseType: 'stream' });
-    const mapFile = await fs.open(destination, 'w');
+    const mapFile = await fs.open(fileName, 'w');
     try {
         await stream.pipeline(mapData, mapFile.createWriteStream());
     } finally {
         await mapFile.close();
     }
-    return true;
+    return fileName;
 }
 
 app.get('/parse-map/:springName', async (req, res) => {
@@ -83,19 +83,21 @@ app.get('/parse-map/:springName', async (req, res) => {
             baseUrl: `${publicUrlBase}/${encodeURI(baseBucketPath)}`,
         };
 
-        // Check if the cache exists and has the same version
-        const [alreadyCached] = await storage.bucket(bucketName).file(`${baseBucketPath}/metadata.json`).exists();
-        if (alreadyCached) {
-            res.status(200).json({
-                message: 'Cache found.',
-                ...baseOkRes
-            });
-            return;
+        if (bucketName !== "local") {
+            // Check if the cache exists and has the same version
+            const [alreadyCached] = await storage.bucket(bucketName).file(`${baseBucketPath}/metadata.json`).exists();
+            if (alreadyCached) {
+                res.status(200).json({
+                    message: 'Cache found.',
+                    ...baseOkRes
+                });
+                return;
+            }
         }
 
         // Download map file
-        const mapPath = path.join(tempDir, 'map.sd7');
-        if (! await donwloadMap(springName, mapPath)) {
+        const mapPath = await downloadMap(springName, tempDir);
+        if (!mapPath) {
             res.status(404).json({ message: 'Map not found.' });
             return;
         }
@@ -103,7 +105,12 @@ app.get('/parse-map/:springName', async (req, res) => {
         const isSolid = await isArchiveSolid(mapPath);
 
         // Parse map
-        const parser = new MapParser({ verbose: false, mipmapSize: 16, skipSmt: false, parseSpecular: true });
+        const parser = new MapParser({
+            verbose: false,
+            mipmapSize: 16,
+            skipSmt: false,
+            parseSpecular: true
+        });
         const map = await parser.parseMap(mapPath);
 
         const fileNames = [
@@ -138,12 +145,22 @@ app.get('/parse-map/:springName', async (req, res) => {
 
         await Promise.all(writePromises);
 
-        const uploadPromises = fileNames.map(fileName => {
-            const filePath = path.join(tempDir, fileName);
-            return storage.bucket(bucketName).upload(filePath, { destination: `${baseBucketPath}/${fileName}` });
-        });
+        if (bucketName !== 'local') {
+            const uploadPromises = fileNames.map(fileName => {
+                const filePath = path.join(tempDir, fileName);
+                return storage.bucket(bucketName).upload(filePath, { destination: `${baseBucketPath}/${fileName}` });
+            });
+            await Promise.all(uploadPromises);
+        }
 
-        await Promise.all(uploadPromises);
+        // Create smf object copy without tables that contain a lot of data.
+        let smfCopy: any = undefined;
+        if (map.smf) {
+            smfCopy = Object.assign({}, map.smf);
+            for (const prop of ['heightMap', 'metalMap', 'miniMap', 'typeMap', 'tileIndexMap', 'heightMapValues']) {
+                delete smfCopy[prop];
+            }
+        }
 
         // Save metadata as JSON
         const metadata = {
@@ -153,12 +170,16 @@ app.get('/parse-map/:springName', async (req, res) => {
             fileName: map.fileNameWithExt,
             springName: springName,
             isSolid,
+            smd: map.smd,
+            smf: smfCopy,
             cacheVersion: CACHE_VERSION
         };
 
         const metadataPath = path.join(tempDir, 'metadata.json');
         await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
-        await storage.bucket(bucketName).upload(metadataPath, { destination: `${baseBucketPath}/metadata.json` });
+        if (bucketName !== 'local') {
+            await storage.bucket(bucketName).upload(metadataPath, { destination: `${baseBucketPath}/metadata.json` });
+        }
 
         res.status(200).json({
             message: 'Cache generated.',
@@ -169,8 +190,12 @@ app.get('/parse-map/:springName', async (req, res) => {
         console.error(error);
         res.status(500).json({ message: 'Internal server error.' });
     } finally {
-        // Cleanup local temp files
-        await fs.rm(tempDir, { recursive: true });
+        if (bucketName !== 'local') {
+            // Cleanup local temp files
+            await fs.rm(tempDir, { recursive: true });
+        } else {
+            console.log(`Wrote files to ${tempDir}`);
+        }
     }
 });
 
