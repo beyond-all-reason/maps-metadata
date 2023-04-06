@@ -10,6 +10,7 @@ import child_process from 'node:child_process';
 import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
 import sevenBin from '7zip-bin';
+import Jimp from "jimp";
 
 const execFile = promisify(child_process.execFile);
 
@@ -27,7 +28,7 @@ const publicUrlBase = process.env.PUBLIC_URL || `https://storage.googleapis.com/
 const storage = new Storage();
 
 // Must change this value when making incompatible change to the cache.
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 
 async function isArchiveSolid(archivePath: string): Promise<boolean> {
     const { stdout } = await execFile(
@@ -102,31 +103,34 @@ app.get('/parse-map/:springName', async (req, res) => {
         const isSolid = await isArchiveSolid(mapPath);
 
         // Parse map
-        const parser = new MapParser({ verbose: false, mipmapSize: 4, skipSmt: false, parseSpecular: true });
+        const parser = new MapParser({ verbose: false, mipmapSize: 16, skipSmt: false, parseSpecular: true });
         const map = await parser.parseMap(mapPath);
 
         const fileNames = [
-            'texture.png',
+            'texture.jpg',
+            'texture-preview.jpg',
             'height.png',
             'metal.png',
             'type.png',
-            'mini.png',
+            'mini.jpg',
             // 'specular.png', // There is currently some bug in extracing specular, so ignore for now.
         ];
 
         const writePromises = fileNames.map((fileName) => {
             const filePath = path.join(tempDir, fileName);
             switch (fileName) {
-                case 'texture.png':
-                    return map.textureMap!.writeAsync(filePath);
+                case 'texture.jpg':
+                    return map.textureMap!.clone().quality(90).writeAsync(filePath);
+                case 'texture-preview.jpg':
+                    return map.textureMap!.clone().scaleToFit(600, 600).quality(80).writeAsync(filePath);
                 case 'height.png':
                     return map.heightMap!.writeAsync(filePath);
                 case 'metal.png':
                     return map.metalMap!.writeAsync(filePath);
                 case 'type.png':
                     return map.typeMap!.writeAsync(filePath);
-                case 'mini.png':
-                    return map.miniMap!.writeAsync(filePath);
+                case 'mini.jpg':
+                    return map.miniMap!.clone().quality(85).writeAsync(filePath);
                 case 'specular.png':
                     return map.specularMap!.writeAsync(filePath);
             }
