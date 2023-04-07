@@ -12,7 +12,9 @@ WORKDIR /package
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev \
  && cd node_modules \
- && rm -rf spring-map-parser/test typescript prettier @babel @typescript-eslint
+ && find . -regex '^./7zip-bin/\(linux/[^x]\|win\|mac\).*$' -delete  \
+ && find . -regex '^./.*/test/.*$' -delete \
+ && rm -rf tga/testFiles
 
 FROM gcr.io/distroless/nodejs18-debian11
 

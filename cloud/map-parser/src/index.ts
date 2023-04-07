@@ -10,6 +10,7 @@ import child_process from 'node:child_process';
 import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
 import sevenBin from '7zip-bin';
+import Jimp from 'jimp';
 
 const execFile = promisify(child_process.execFile);
 
@@ -29,7 +30,7 @@ const storage = new Storage();
 // Must change this value when making incompatible change to the cache.
 const CACHE_VERSION = 'v2';
 
-async function isArchiveSolid(archivePath: string): Promise<boolean> {
+async function is7zArchiveSolid(archivePath: string): Promise<boolean> {
     const { stdout } = await execFile(
         sevenBin.path7za, ['l', '-x!*', archivePath]
     );
@@ -49,6 +50,17 @@ async function isArchiveSolid(archivePath: string): Promise<boolean> {
             return false;
         default:
             throw new Error('Unexpected value for the solid archive, expected + or -.');
+    }
+}
+
+async function isMapArchiveSolid(archivePath: string): Promise<boolean> {
+    switch (path.extname(archivePath)) {
+        case '.sd7':
+            return await is7zArchiveSolid(archivePath);
+        case '.sdz':
+            return false;
+        default:
+            throw new Error('Only .sd7 and .sdz files supported');
     }
 }
 
@@ -79,7 +91,7 @@ app.get('/parse-map/:springName', async (req, res) => {
         const baseBucketPath = `${springName}/cache-${CACHE_VERSION}`;
         const baseOkRes = {
             bucket: bucketName,
-            path: baseBucketPath,
+            path: bucketName == 'local' ? tempDir : baseBucketPath,
             baseUrl: `${publicUrlBase}/${encodeURI(baseBucketPath)}`,
         };
 
@@ -102,51 +114,41 @@ app.get('/parse-map/:springName', async (req, res) => {
             return;
         }
 
-        const isSolid = await isArchiveSolid(mapPath);
+        const isArchiveSolid = await isMapArchiveSolid((mapPath));
 
         // Parse map
         const parser = new MapParser({
-            verbose: false,
+            verbose: true,
             mipmapSize: 16,
             skipSmt: false,
-            parseSpecular: true
+            // For now skip parsing resources, we will enable it once we better
+            // know what kind of formats are useful for export as raw files
+            // are just massive and not that usefull in cache.
+            parseResources: false,
         });
         const map = await parser.parseMap(mapPath);
 
-        const fileNames = [
-            'texture.jpg',
-            'texture-preview.jpg',
-            'height.png',
-            'metal.png',
-            'type.png',
-            'mini.jpg',
-            // 'specular.png', // There is currently some bug in extracing specular, so ignore for now.
-        ];
-
-        const writePromises = fileNames.map((fileName) => {
-            const filePath = path.join(tempDir, fileName);
-            switch (fileName) {
-                case 'texture.jpg':
-                    return map.textureMap!.clone().quality(90).writeAsync(filePath);
-                case 'texture-preview.jpg':
-                    return map.textureMap!.clone().scaleToFit(600, 600).quality(80).writeAsync(filePath);
-                case 'height.png':
-                    return map.heightMap!.writeAsync(filePath);
-                case 'metal.png':
-                    return map.metalMap!.writeAsync(filePath);
-                case 'type.png':
-                    return map.typeMap!.writeAsync(filePath);
-                case 'mini.jpg':
-                    return map.miniMap!.clone().quality(85).writeAsync(filePath);
-                case 'specular.png':
-                    return map.specularMap!.writeAsync(filePath);
+        const images: Record<string, Jimp> = {
+            'texture.jpg': map.textureMap!.clone().quality(90),
+            'texture-preview.jpg': map.textureMap!.clone().scaleToFit(600, 600).quality(80),
+            'height.png': map.heightMap!,
+            'type.png': map.typeMap!,
+            'metal.png': map.metalMap!,
+            'mini.jpg': map.miniMap!.clone().quality(85)
+        };
+        for (const [resource, image] of Object.entries(map.resources ?? {})) {
+            if (image) {
+                images[`res_${resource}.png`] = image;
             }
-        });
+        }
 
+        const writePromises = Object.entries(images).map(([fileName, image]) => {
+            return image.writeAsync(path.join(tempDir, fileName));  
+        });
         await Promise.all(writePromises);
 
         if (bucketName !== 'local') {
-            const uploadPromises = fileNames.map(fileName => {
+            const uploadPromises = Object.keys(images).map(fileName => {
                 const filePath = path.join(tempDir, fileName);
                 return storage.bucket(bucketName).upload(filePath, { destination: `${baseBucketPath}/${fileName}` });
             });
@@ -169,10 +171,11 @@ app.get('/parse-map/:springName', async (req, res) => {
             maxHeight: map.maxHeight,
             fileName: map.fileNameWithExt,
             springName: springName,
-            isSolid,
+            isArchiveSolid,
             smd: map.smd,
             smf: smfCopy,
-            cacheVersion: CACHE_VERSION
+            cacheVersion: CACHE_VERSION,
+            extractedFiles: Object.keys(images)
         };
 
         const metadataPath = path.join(tempDir, 'metadata.json');
