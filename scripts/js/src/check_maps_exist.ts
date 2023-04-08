@@ -13,10 +13,10 @@ const mapListContent = await fs.readFile(mapListFile, { encoding: 'utf8' });
 const maps = JSON.parse(mapListContent) as MapList;
 
 const limit = pLimit(10);
-const requests = maps.map(m => limit(() => got('https://files-cdn.beyondallreason.dev/find', {
+const requests = Object.values(maps).map(m => limit(() => got('https://files-cdn.beyondallreason.dev/find', {
     searchParams: {
         'category': 'map',
-        'springname': m.springname
+        'springname': m.springName
     }
 })));
 const mapsInfo = await Promise.all(requests);
