@@ -1,25 +1,51 @@
-- springname: Aberdeen3v3v3
-  author: Bana
-  width: 16
-  height: 16
-  description: Optimal for 3 teams, up to 3 players each. Cross the rivers to secure the resources in the center.
-  game_type:
-    - team
+2Jm1E7F819zbEWOr2Bwc:
+  author: IceXuick
+  certified: true
+  gameType:
     - ffa
+  inPool: true
+  playerCount: 16
+  springName: Neurope_Remake 4.2
+  teamCount: 16
+  terrain:
+    - water
+    - flat
+p5q4vnb8BqgpmyEfB2xh:
+  author: IceXuick
+  certified: true
+  description: Medium sized map, optimal for 8 to 10 players. Fight in the hills
+    in the north to secure strategic points or wage war in on the flats in the
+    south.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: DSDR 4.1
+  teamCount: 2
   terrain:
     - hills
-  certified: false
-  player_count: 9
-  team_count: 3
-- springname: AcidicQuarry 5.16
+zzzzzzzzzzzzzzzzzzzx:
   author: BasiC
-  width: 12
-  height: 12
-  game_type:
+  certified: true
+  gameType:
     - team
     - ffa
+  inPool: true
   special: Air
+  springName: AcidicQuarry 5.16
   terrain:
     - hills
-
-# TODO(add all maps from BYAR-Chobby mapDetails.lua)
+zzzzzzzzzzzzzzzzzzzy:
+  author: Bana
+  certified: false
+  description: Optimal for 3 teams, up to 3 players each. Cross the rivers to
+    secure the resources in the center.
+  gameType:
+    - team
+    - ffa
+  inPool: true
+  playerCount: 9
+  springName: Aberdeen3v3v3
+  teamCount: 3
+  terrain:
+    - hills

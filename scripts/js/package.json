@@ -16,7 +16,8 @@
     "commander": "~10.0.0",
     "got": "^12.6.0",
     "json-stable-stringify": "^1.0.2",
-    "p-limit": "^4.0.0"
+    "p-limit": "^4.0.0",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "@types/json-stable-stringify": "^1.0.34",

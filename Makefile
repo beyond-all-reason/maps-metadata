@@ -16,7 +16,12 @@ check_listed_maps_exist: gen/map_list.validated.json gen/types/map_list.d.ts
 test: check_listed_maps_exist
 	echo ok
 
+types: gen/types/map_list.d.ts gen/map_list.schema.json
+
+update_all_from_rowy: gen/map_list.schema.json
+	ts-node scripts/js/src/update_from_rowy.ts map_list.yaml all
+
 clean:
 	rm -rf gen/*
 
-.PHONY: clean test check_listed_maps_exist
+.PHONY: clean test check_listed_maps_exist types update_all_from_rowy

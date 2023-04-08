@@ -1,21 +1,17 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 title: MapList
 description: List of maps with their basic metadata
-type: array
-items:
+type: object
+additionalProperties:
   type: object
   properties:
-    springname:
+    springName:
       type: string
     author:
       type: string
-    width:
-      type: integer
-    height:
-      type: integer
     description:
       type: string
-    game_type:
+    gameType:
       type: array
       items:
         type: string
@@ -35,21 +31,19 @@ items:
           - flat
       uniqueItems: true
       default: []
-    player_count:
+    playerCount:
       type: integer
-    team_count:
+    teamCount:
       type: integer
     certified:
       type: boolean
-      default: true
-    in_pool:
+      default: false
+    inPool:
       type: boolean
-      default: true
+      default: false
     special:
       type: string
   additionalProperties: false
   required:
-    - springname
-    - width
-    - height
+    - springName
     - author
