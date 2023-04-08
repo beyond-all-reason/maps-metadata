@@ -1,3 +1,67 @@
+0jMFtrg8MuFKGgxmk6No:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Seths Ravine Remake 1.3
+  terrain:
+    - flat
+1D03UHTgJ5axEHRPrjzh:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Talus_v2
+  terrain:
+    - hills
+1FfJKeljSZeWodN5FZsW:
+  author: Beherith
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  springName: Tropical-v2
+  terrain:
+    - flat
+    - water
+1JL7kMOT8mYsx2OEQnv8:
+  author: BasiC
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Sertagatta_V5
+  terrain:
+    - flat
+1kGT39gW0lJEkp6VxeZU:
+  author: Beherith
+  certified: true
+  description: Large map optimal for 4 way Team Free For All but just as suitable
+    for large FFAs or teamgames with 16 players (or more).
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Crescent_Bay_V2
+  teamCount: 4
+  terrain:
+    - hills
+    - water
+20rGnfO4wwkmV5v2fXVZ:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  special: Dam
+  springName: FolsomDamR 1.16
+  terrain:
+    - hills
+    - water
 2Jm1E7F819zbEWOr2Bwc:
   author: IceXuick
   certified: true
@@ -10,6 +74,1399 @@
   terrain:
     - water
     - flat
+2NeyVyHXbe13LF9P85pz:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Archsimkats_Valley_V1
+  terrain:
+    - hills
+2foOuFOeWdmm1DkMqfJv:
+  author: Nikuksis
+  certified: true
+  description: Fight for the red planet river.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Red River Remake v1.2
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+2sZ9PltxKHn43NG3OA2y:
+  author: Johannes
+  certified: true
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Mithril Mountain v2
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+3BfXteSuIxUz2NGWwZAq:
+  author: Beherith
+  certified: true
+  description: Flooded version. Optimal for 2 teams, up to 3 players each. Small
+    map that lends itself for t1 fights. Reclaim the metal rocks quickly and
+    fight over the scarce expansion options.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Altair_Pass_V4
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+3QOjI5FJqvQEJElcRgTQ:
+  author: Moose
+  certified: true
+  description: This desolate asteroid is fought over only for the rich metal deposits.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Rosetta 1.4
+  teamCount: 4
+  terrain:
+    - flat
+3XVaIgjKnh120KPs7fv0:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: KnockoutR 1.5
+  terrain:
+    - hills
+44vuVzD9DD5wyzZz0L7i:
+  author: Johannes
+  certified: true
+  description: Fight over the numerous ridges leading to the central hill. A good
+    fit for 1v1-3v3 games, inspired by the Starcraft map Heartbreak Ridge.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Heartbreak Hill v4
+  teamCount: 2
+  terrain:
+    - hills
+4FOX0gezL8gapbMPNmKH:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Glacier Pass 1.2
+  terrain:
+    - hills
+4WiZnMfXPyjUARuQumRM:
+  author: Phalange
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Hades Ponds 0.7
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+4egdlg54rpZQh1bvbS8p:
+  author: Moose
+  certified: true
+  description: Valleys of dense forest and dry grassland.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Otago Redux 1.33
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+4onApLu0oFbtFuY9up67:
+  author: Johannes
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Into Battle Redux v3
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+5MwuaG7iaqfPXeKCKhUD:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 8
+  special: Metal
+  springName: Iron_Isle_V1
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+6CH8jHCPxDERYtemJRtM:
+  author: Moose
+  certified: false
+  description: Optimal for 2 teams with 5 players each. Can also be played as 4
+    way Free For All. Open, low metal, map with interesting terrain that
+    provides options for both kbot, vehicles and air
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: Calamity 1.1
+  teamCount: 4
+  terrain:
+    - flat
+7pm2zaEOk8QaxaEeOnZJ:
+  author: UNKNOWN
+  certified: true
+  description: Guide your horse through this barren landscape, but be vary of
+    enemy horses pushing your way.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Eight Horses 1.2
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - water
+8NJ4dy6hrSPsrezNmczE:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - 1v1
+  inPool: true
+  springName: Pillar_of_Doom_V1
+  terrain:
+    - hills
+9Z3VnJ2cFcGhcaq6z1bJ:
+  author: Johannes
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 10
+  springName: Red Rock Desert v1
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+9enrMlkiT7SwhG3D35LB:
+  author: Nikuksis
+  certified: false
+  description: Remake of Cavedog map
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  springName: Crater Islands Remake v1.0
+  terrain:
+    - hills
+    - water
+9pCv5iZ1gaLWioi1A8KJ:
+  author: IceXuick
+  certified: true
+  description: Large map that is optimal for 2 teams, up to 5 players each. Fight
+    over and reclaim the metal rocks in center quickly. Build your base in
+    relative safety behind high hills and secure the metal spots in the middle.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: Altored Divide Bar Remake 1.6
+  teamCount: 2
+  terrain:
+    - hills
+ACgCe99NC8yZFecMwRCn:
+  author: IceXuick
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  springName: Zed Remake 3.3
+  terrain:
+    - hills
+An6zReiqIWD15Yx7bZ3b:
+  author: Beherith
+  certified: true
+  description: Optimal for 2 teams, up to 3 players each. Small map that lends
+    itself for t1 fights. Reclaim the metal rocks quickly and fight over the
+    scarce expansion options.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Altair_Crossing_V4
+  teamCount: 2
+  terrain:
+    - flat
+BHxtx4DPxKgPkUTkRg9e:
+  author: ShoX
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 10
+  springName: Tangerine_Remake 1.0
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+Cs5xNBZyuBzWCmPJKDbO:
+  author: " (original by Beherith)"
+  certified: false
+  description: 10x10 Duel 1v1/2v2 map.
+  gameType:
+    - 1v1
+  inPool: true
+  springName: Ravaged Remake v1.1
+  terrain:
+    - hills
+DA1NmvXlhztKR1WGRc62:
+  author: Bluestone
+  certified: false
+  description: Medium sized map, up to 4 players per team. Fight in the valley in
+    the middle or try fighting an uphill battle on the side.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 8
+  springName: Cervino v1
+  teamCount: 2
+  terrain:
+    - hills
+DyHExxTkkRB4DweNDViM:
+  author: Nikuksis
+  certified: true
+  description: Fight across the melting ice.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Melting Glacier v1.1
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+E17BdeDITeBMZ8YwcBie:
+  author: IceXuick
+  certified: true
+  description: Optimal for large teamgames with up to 7 players per team. High
+    hills and deep canyons provide several strategic points to capture. Be sure
+    to reclaim the many metal rocks early on.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 14
+  springName: Colorado_V2 1.1
+  teamCount: 2
+  terrain:
+    - hills
+EiT2c89HcHhHeuZxXako:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: TheRock_V3
+  terrain:
+    - hills
+F40FJFEjKm3hcVzdnIvA:
+  author: IceXuick
+  certified: true
+  description: Survival map.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 5
+  springName: Requiem Outpost 1.0
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+GPSFfpSd1wtmx4CZRGA6:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+  inPool: true
+  springName: Trefoil Remake 2.20
+  terrain:
+    - flat
+    - water
+GT4UKIBCLBwdONdOMChl:
+  author: Moose
+  certified: true
+  description: A subtropical island suitable for 4-way FFA.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Cirolata 1.02
+  teamCount: 4
+  terrain:
+    - flat
+    - water
+Gkh9KVgCUNbGTXWBjPoV:
+  author: Nikuksis
+  certified: true
+  description: Huge sea map with lots of small islands.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Serene Caldera v1.1
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+GuTvi5G3QCGO8KASbbs1:
+  author: Nikuksis
+  certified: true
+  description: Fight over the terminator.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Lightside Darkside v2.0
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+GxjYgcmTFdC3JivNsghb:
+  author: Nikuksis
+  certified: true
+  description: Medium sized map, optimal for 4 to 6 players. Fight for the circle
+    of islands and shallow water in the middle.
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 10
+  springName: Ring_Atoll_Remake_V1.1
+  teamCount: 5
+  terrain:
+    - water
+Gydc5ydDuhV4hS7cyJJm:
+  author: Johannes
+  certified: true
+  description: Small map, optimal for 1v1 - 3v3.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 6
+  springName: Death Valley v1
+  teamCount: 2
+  terrain:
+    - hills
+HQXPXfVXBGBMRgezuakx:
+  author: BasiC
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Sertaleina_V8
+  terrain:
+    - flat
+HdwZWKydw2luEc8EascR:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+  inPool: true
+  springName: Pentos_V1
+  terrain:
+    - flat
+    - water
+I7GpETWic750BOdwvkdh:
+  author: Beherith
+  certified: true
+  description: "Narrow, metal-rich crevasse between two large ice flues. Easily
+    defendable starting positions, and center ford is vulnerable to artillery. "
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Frozen_Ford_V2
+  teamCount: 2
+  terrain:
+    - flat
+JWJVrROvEUieLeIfuS9a:
+  author: IceXuick
+  certified: true
+  description: Small map, optimal for 1v1 or 2v2. The low resources
+    and  interesting mountains and passes reward the more nimble Bots.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: BarR 1.1
+  teamCount: 2
+  terrain:
+    - hills
+Jdb4pZyLQPb0IkSmaVrO:
+  author: IceXuick
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  springName: Quicksilver Remake 1.24
+  terrain:
+    - flat
+    - water
+Lpy4w1DTM7BjEfERE3wK:
+  author: Johannes
+  certified: true
+  description: Small map, optimal for 1v1 or 2v2. The hills on the sides and the
+    passable lake in middle present opportunities to kbots while the flat
+    terrain gives way to vehicles.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Callisto v3
+  teamCount: 2
+  terrain:
+    - flat
+LutAHarULFOEKKA21AvQ:
+  author: Johannes
+  certified: true
+  description: Small map, optimal for 3 way Free For All. Players start on hills
+    that are traversable by kbots. Reclaim the metal rocks and fight for the
+    metal spots in the middle.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Desolation v1
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+MqDO00JzJMESdzVDkkT5:
+  author: Nikuksis (original by Hunterw)
+  certified: false
+  description: 4v4 map where only bots can pass side hills.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Tumult Remake v1.0
+  terrain:
+    - flat
+    - hills
+MuFsIEswFS9FbuamCfbS:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Shore_to_Shore_V3
+  terrain:
+    - water
+NULeDCjbZw5azkUT66rZ:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  special: Metal
+  springName: Asteroid_Mines_V2.1
+  teamCount: 4
+  terrain:
+    - flat
+OgYCeZrIVMN1b9sUbweo:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Tau12
+  terrain:
+    - hills
+    - water
+PiT4WHNB94kc8vlAZtot:
+  author: Nikuksis
+  certified: true
+  description: This is a crucible to forge your victory.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Forge v1.4
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+PlmJPs87RuAnAlL6inG1:
+  author: Nikuksis
+  certified: true
+  description: Screaming won"t be all you do on this forgotten world.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Ice Scream v2.4
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+QlanwpEXsYOy3ZYYp3iu:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Tabula_Remake 1.5
+  terrain:
+    - hills
+QsD0vDtYMgk8ATraKoNI:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+  inPool: true
+  special: Asteroid
+  springName: TMA20X 1.8
+  terrain:
+    - flat
+RT3Y6Qyjvt3pTGXWjWPK:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+  inPool: true
+  special: Lava
+  springName: Hotstepper 5 1.2
+  terrain: []
+SHA84LfmzYbxT8iIyTtU:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Rifted_V2
+  terrain:
+    - flat
+SQpSGbxxp50QcMKG2TJp:
+  author: Nikuksis
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Supreme Strait v1.3
+  terrain:
+    - flat
+    - hills
+    - water
+SYB0blENn3hqhEyLC24B:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+  inPool: true
+  springName: Throne_V8
+  terrain:
+    - hills
+    - water
+SulTQCK9iY0nr7H3JiKr:
+  author: Moose
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  springName: SapphireShores_V2.2
+  terrain:
+    - flat
+    - water
+T9CfXfwVVubXUcJbMNra:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: Tetrad_V2
+  terrain:
+    - hills
+TBlG9YF5CxIvchMI0DZX:
+  author: Nikuksis
+  certified: true
+  description: Fog of Death surrounding this odd island.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  special: Air
+  springName: Sky Isle v1.1
+  teamCount: 2
+  terrain:
+    - hills
+U8PJYIPdYQoMXGJND2Kg:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: EmainMacha Remake 2.1
+  teamCount: 2
+  terrain:
+    - hills
+UeeBymo7RdXE5ty3amFw:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: Kolmogorov Remake 3.0
+  terrain:
+    - hills
+UhGP9ish5WdFio1VfrU6:
+  author: Beherith
+  certified: true
+  description: Best for 5v5 Team games, where every factory type has a useful
+    role. All units can cross the shallows and move along the center, while
+    ships can bombard most coastal areas, and hovercraft can easily dominate the
+    map.
+  gameType:
+    - team
+  inPool: true
+  springName: Boulder_Beach_V1
+  terrain:
+    - hills
+    - water
+UywijIj1uPuFeoV231kL:
+  author: IceXuick
+  certified: true
+  description: Large Free For All map. Lots of metal.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 8
+  springName: DSD 8 Way 1.1
+  teamCount: 8
+  terrain:
+    - hills
+    - water
+WJBtRZ22UUHZi2GTQ2FQ:
+  author: Nikuksis
+  certified: true
+  description: The forsaken vault still keeps its treasures.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  special: PVE
+  springName: Ancient Vault v1.4
+  teamCount: 2
+  terrain:
+    - hills
+WOlmGcTZXUtV5iy57Kc9:
+  author: Nikuksis
+  certified: false
+  description: 18x18 suitable for 8v8 hybrid map
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 16
+  springName: Mariposa Island v2.4
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+WuwJQPBtwMfJR9czmWuQ:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Krakatoa_V1
+  teamCount: 4
+  terrain:
+    - hills
+    - water
+X0N11knnIS4fWqkoFPBC:
+  author: UNKNOWN
+  certified: true
+  description: Large mountains and many passes.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Twin Lakes Park Redux 1.2
+  teamCount: 8
+  terrain:
+    - hills
+XAYu2CrwVdR5GlcpOxL0:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Supreme_Crossing 2.2
+  terrain:
+    - flat
+    - water
+XLh1oCb0Qdog1h40avFL:
+  author: IceXuick
+  certified: true
+  description: Large map, optimal for 2 teams, up to 6 players each. Fight for the
+    strategically important center hills or push through on the sides. Water
+    around the center focuses fights while also providing amphibious options.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Centerrock Remake 1.2
+  teamCount: 2
+  terrain:
+    - hills
+XMFpTWsDjFSPjJ4nOZSO:
+  author: Nikuksis
+  certified: true
+  description: Red planet triangle.
+  gameType:
+    - ffa
+    - 1v1
+  inPool: true
+  playerCount: 9
+  springName: Red Triangle Remake v1.3
+  teamCount: 3
+  terrain:
+    - water
+XipxkGywEz3REbHKrvP6:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Taldarim_V3
+  terrain:
+    - hills
+XnCjzq4LvLB6mik5aib1:
+  author: IceXuick
+  certified: true
+  description: Small map,optimal for 1v1. Keep the pressure on your opponent and
+    fight for every metal spot while building your army to finish them off.
+  gameType:
+    - 1v1
+  inPool: true
+  playerCount: 2
+  springName: Avalanche 3.4
+  teamCount: 2
+  terrain:
+    - flat
+Xut8FRCmn2h5DuUqzF26:
+  author: IceXuick
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  springName: Red Comet Remake 1.8
+  terrain:
+    - flat
+Y5e7sl891wO5G2ttwjmr:
+  author: PtaQ/Moose
+  certified: true
+  description: A lush river cuts through the bottom of this deep chasm. East vs West.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Rustcrown Canyon 1.1
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+YNaJCperEfYJu4vFKJWT:
+  author: Beherith
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  springName: Tabula_Flooded_v04
+  terrain:
+    - hills
+    - water
+Ydjj7Fy4NpaLHdkvhsIn:
+  author: Beherith
+  certified: true
+  description: One of the smallest, large playercount maps with a 20% speed boost
+    to all units in the central trench
+  gameType:
+    - team
+  inPool: true
+  playerCount: 20
+  springName: Ditched_V1
+  teamCount: 2
+  terrain:
+    - flat
+Yhwa2neMfDTUXyAiSJXC:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: Incandescence Remake 3.3
+  teamCount: 2
+  terrain:
+    - flat
+Z4WHfukbvXeat57zPFGW:
+  author: IceXuick
+  certified: true
+  description: Large map, optimal for 2 teams, up to 6 players each. Fight for the
+    strategically important center hills or push through on the sides.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Centerrock Remake Dry 1.2
+  teamCount: 2
+  terrain:
+    - hills
+Z7wmue7EsjaTNpsdBuyx:
+  author: UNKNOWN
+  certified: true
+  description: Team game map capable of 8v8.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Pawn Retreat 1.2
+  teamCount: 2
+  terrain:
+    - hills
+ZJNeHQG2ls2h2Xq1hHUy:
+  author: Beherith
+  certified: true
+  description: Enourmous free-for-all map with roads connecting the major resource
+    points. All units can pass the shallow land bridges
+  gameType:
+    - ffa
+  inPool: true
+  playerCount: 32
+  springName: Mediterraneum_V1
+  teamCount: 32
+  terrain:
+    - flat
+    - water
+ZeOLwTAgEU10BGvcdQ45:
+  author: Beherith
+  certified: true
+  description: Large Free For All map that supports up to 16 players. Lots of
+    metal and geothermal spot. Be aware that kbots can traverse most hills so
+    attacks can come from any direction.
+  gameType:
+    - ffa
+  inPool: true
+  playerCount: 16
+  springName: DWorld_V3
+  teamCount: 16
+  terrain:
+    - flat
+    - water
+ZrnTf20mPzbrMjtHa9Wg:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: Riverrun_V1
+  terrain:
+    - flat
+ZxFS2VuODjyLH5V8mHfR:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Mescaline_V2
+  terrain:
+    - flat
+    - hills
+Zy8Ha3O3lHl7mUMvM8Gs:
+  author: IceXuick
+  certified: true
+  description: Survival map. Perfect against Chickens or Scavengers.
+  gameType:
+    - ffa
+  inPool: true
+  playerCount: 4
+  special: Survival
+  springName: LV412 1.3
+  teamCount: 2
+  terrain:
+    - hills
+aUhyiiVDKaRECJfqPBAo:
+  author: BasiC
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  springName: Flooded_Valley_V5
+  terrain:
+    - hills
+    - water
+bLBXDWyEuUqG825WYzHj:
+  author: Nikuksis
+  certified: true
+  description: Large flat map with small hills. Ideally for flooding with waterlevel 200.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Deeploria Fields v1.5
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+bkIRTcsnvtmQVsm3SsNJ:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  special: Metal
+  springName: SpeedMetal BAR V2
+  terrain: []
+byucseTLrpgU0J70dFC0:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: Ghenna Rising 4.0
+  terrain:
+    - flat
+    - hills
+bzjvHRwFOT6unJsQVVhc:
+  author: IceXuick
+  certified: false
+  description: Small map, optimal for 3 way Free For All. Players start on hills
+    that are traversable by kbots. Reclaim the metal rocks and fight for the
+    metal spots in the middle.
+  gameType:
+    - ffa
+  inPool: true
+  playerCount: 3
+  springName: DesertTriad
+  teamCount: 3
+  terrain:
+    - hills
+c8VOLOtft95bMvYUg60R:
+  author: Beherith
+  certified: true
+  description: Battle in orbit among asteroids conected by girders. Metal can be
+    extracted from the structures anywhere, and the strong solar winds bolster
+    energy production. Naval units cannot be built, and only aircraft can pass
+    over the void.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 8
+  special: Metal
+  springName: Cloud9_V2
+  teamCount: 8
+  terrain:
+    - flat
+cQ5LLQmNqCPCnYFiTlcb:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Koom Valley 3 3.1
+  terrain:
+    - flat
+    - hills
+cYgRxanQzvg7Bx9xXk1H:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 8
+  springName: Valles Marineris 2.6
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+cvpud6KzRzucgumjiBgk:
+  author: Johannes
+  certified: true
+  description: A large map for big battles, can be fought either East vs West or
+    North vs South. Also works for 4-way FFA.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Silveridge v1
+  teamCount: 2
+  terrain:
+    - hills
+eLHwUEMIb0S3qLy0OT6G:
+  author: SirArtturi
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  springName: Titan v3.1
+  terrain:
+    - hills
+eR6j6L2F2OSP7QeCfW8O:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Paradise_Lost_V4
+  terrain:
+    - water
+etCTTwexgYVGMV63rOWy:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Fallendell_V4
+  terrain:
+    - hills
+fivY9RQRkefErWygMT09:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 12
+  springName: Industrial_Revolution_V2
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+fkhBIvsAdLiL9CvVlp2l:
+  author: Johannes
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Silent Sea v1
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+frJOFVdgDIROpNVzgDed:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Entrenched_Plains_V2
+  terrain:
+    - flat
+fvLhZp85DLroyv0Iozhe:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 6
+  springName: Eye Of Horus 1.7
+  teamCount: 2
+  terrain:
+    - hills
+g7NeIaS3XxFSn2KcrCiL:
+  author: Moose
+  certified: true
+  description: Flat 1vs1 map with many small pillars.
+  gameType:
+    - 1v1
+  inPool: true
+  playerCount: 2
+  springName: Crystallized Plains 1.01
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+gEgiWXCvonENJseDsfjj:
+  author: Nikuksis
+  certified: true
+  description: Slight speed buff on the rocky terrain. Side hills are bots-only
+    passable. Single mexes are richer.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Bismuth Valley v2.2
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+gf2s52iInoEKNyK1vA19:
+  author: Moose
+  certified: true
+  description: Rugged mountains and grassy plains.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 16
+  springName: Sunderance V1.3
+  teamCount: 4
+  terrain:
+    - flat
+ggVDNTLRh7HNk4mf9mf6:
+  author: IceXuick
+  certified: true
+  description: Large, mostly flat, map that can be played both east-west as
+    north-south. Interesting for anything from 1v1 to 8v8. Vehicles do have the
+    upper hand.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 16
+  springName: Comet Catcher Remake 1.8
+  teamCount: 2
+  terrain:
+    - flat
+hC5Ic7adKaK6YBA68mKY:
+  author: Nikuksis
+  certified: true
+  description: Duel map. Small rocky maze and sparse metal.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: The Halite Maze v1.3
+  teamCount: 2
+  terrain:
+    - hills
+iQZFWB7rheiOseoQXihq:
+  author: NOiZE
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Great Divide V1
+  terrain:
+    - hills
+iq0vEBrVv1ZudgcWr2ST:
+  author: Nikuksis (original by qray)
+  certified: true
+  description: 2-6 player island map. Great tidals. Beware of hovers.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Gecko Isle Remake v1.2
+  terrain:
+    - flat
+    - hills
+j29MVJU3ctlnvyEQ6HNb:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Small_Supreme_Battlefield_V3
+  terrain:
+    - flat
+    - water
+j3X9bepS3FrtzjLLNmmu:
+  author: Angelwing
+  certified: true
+  description: Battle over land, sea and mountains at this crossing between continents.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 10
+  springName: Angel Crossing 1.5
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+kYhfUnNWQdYfYBIyRbKY:
+  author: Johannes
+  certified: true
+  description: Survival map. Perfect against Chickens or Scavengers.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Lake Carne dry v1
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+kesPeWO0ScnmWF2An8qA:
+  author: Nikuksis
+  certified: true
+  description: Large flat map for team games up to 8 v 8. Expands are the way to
+    victory. Fight for the territory and its metal. Bots are better in the
+    hills/forests while vehicles perform better on the plains.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 20
+  springName: Flats and Forests v2.1
+  teamCount: 10
+  terrain:
+    - flat
+kgpwvzDGdXoVcD6whG3C:
+  author: Beherith
+  certified: true
+  description: A large, open map with a resource rich lake in the center. All
+    units can pass in the shallows along the shore. You can set the map to dry
+    with the mapoption WaterLevel 1, and set it to almost completely flooded
+    with WaterLevel 2
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Tempest_V3
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+lJQnSRqDN7rNPS5pe80C:
+  author: Beherith
+  certified: true
+  description: Metal map with strong solar wind, with impassable empty space
+    between the metal structures.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  special: Metal
+  springName: Oort_Cloud_V2
+  teamCount: 16
+  terrain:
+    - flat
+ljx3Fdz1TLbewjyAIoVw:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Tundra_V2
+  terrain:
+    - flat
+oBOBWCmenCo2tbkwYNJt:
+  author: Beherith
+  certified: true
+  description: Large map with start positions supporting up to 9 players per team.
+    Variations of more and less open terrain with small hills. Securing hills
+    helps to control parts of the map. Both kbots and vehicles are valid options
+    to win.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 18
+  springName: Coastlines_Dry_V2.2
+  teamCount: 2
+  terrain:
+    - flat
+oHTuEk42qfvZt8tddOnA:
+  author: Nikuksis
+  certified: true
+  description: The Red Planet mountain region.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Carrot Mountains v1.0
+  teamCount: 2
+  terrain:
+    - hills
+oX7eHI8mlpVvJUYs4v4Y:
+  author: Nikuksis
+  certified: true
+  description: Mesa with both flat and canyon areas
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: All That Glitters v1.2
+  teamCount: 2
+  terrain:
+    - flat
+    - water
 p5q4vnb8BqgpmyEfB2xh:
   author: IceXuick
   certified: true
@@ -24,6 +1481,337 @@ p5q4vnb8BqgpmyEfB2xh:
   teamCount: 2
   terrain:
     - hills
+pZko6a1Lqs5ZYeVO0BqS:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Supreme_Crossing_V1
+  terrain:
+    - flat
+    - water
+pqGeTK0PB1xPJ6A1u6CO:
+  author: SirArtturi
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  springName: TitanDuel_V3
+  terrain:
+    - flat
+pzZ5zAyferpDePxtC2hG:
+  author: Nikuksis
+  certified: true
+  description: Large map, optimal for 2 teams, up to 10 players each. Fight for
+    the strategically important center continents or push through the middle
+    water passage. Early fights for reclaim on the middle ridges.
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 20
+  springName: Tundra Continents v2.3
+  teamCount: 10
+  terrain:
+    - hills
+    - water
+rQ8v6BePPrXIaQaaQjam:
+  author: Raghna
+  certified: true
+  gameType:
+    - 1v1
+  inPool: true
+  playerCount: 2
+  springName: Hooked 1.1
+  teamCount: 2
+  terrain:
+    - flat
+s7nrY1vJEItDuPwHAKEO:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  special: Craters
+  springName: MoonQ20XR2 2.5
+  terrain:
+    - flat
+    - hills
+sKu3wAd6qfR5jG8fC6KU:
+  author: Johannes
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: Shallow Straits v1
+  teamCount: 2
+  terrain:
+    - water
+snRldJIaPiKTiNiEAPEg:
+  author: Beherith
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  springName: Stronghold V4
+  terrain:
+    - flat
+    - hills
+te9bV2b9aiw8w9qgzTJg:
+  author: Nikuksis
+  certified: true
+  description: Fighting on an ice sheet with very strong winds. BAR Remake.
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 6
+  springName: The Cold Place BAR v1.1
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - water
+u17mWZp6jqx5b5s0Or5z:
+  author: Phalange
+  certified: false
+  description: Team map. Color palette based on Crystallized Plains by Moose.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 8
+  springName: Theta Crystals 1.0
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - water
+uV4t5gveu4Ru1Lrm1e1l:
+  author: Nikuksis
+  certified: true
+  description: PVE / FFA map. Try to not pass away on this grim alien planet.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 10
+  special: Asymmetrical
+  springName: Point of No Return v1.0
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+uZq5zZ1FTcdZ7FS4k3lc:
+  author: Nikuksis (original by BA_Baracus)
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  springName: Hotlips Remake v3.1
+  terrain:
+    - flat
+    - hills
+vFNwoJJ3cCMzSaAAQPvR:
+  author: Phalange
+  certified: true
+  description: Sandy slopes are vehicle passable. Most ridges are bots passable.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  springName: Starwatcher 0.9
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+vTVisQEv3JM2pa0TvUHy:
+  author: NOiZE
+  certified: true
+  gameType:
+    - ffa
+    - 1v1
+  inPool: true
+  springName: Evad River Confluence_V2
+  terrain:
+    - flat
+    - water
+veW9CUoQ0oV7OofQab4y:
+  author: Beherith
+  certified: true
+  description: Designed for 4v4 and PvE games vs. Chickens or Scavengers.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 8
+  springName: Cape_Violet_V1
+  teamCount: 2
+  terrain:
+    - flat
+    - water
+vryCgnmiXKEfnJuBLobP:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  special: No Metal
+  springName: Greenest Fields 1.3
+  terrain:
+    - flat
+wQa6jdSr4HBUH6p21eI8:
+  author: Beherith
+  certified: true
+  description: Medium sized Free For All map. Battle four other players till one remains.
+  gameType:
+    - ffa
+  inPool: true
+  playerCount: 5
+  springName: BlackStar_v2
+  teamCount: 5
+  terrain:
+    - hills
+wyCcSCcx7UYOY5bT4d5P:
+  author: Raghna
+  certified: false
+  gameType:
+    - ffa
+    - team
+    - 1v1
+  inPool: true
+  springName: ReRaghnarok 1
+  terrain:
+    - flat
+    - hills
+x0Y6f1ou7U5tF3S9xllC:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Riverdale Remake 2.1
+  terrain:
+    - flat
+    - hills
+x3jIjnV9aipWzVVWjZlL:
+  author: Beherith
+  certified: true
+  description: A large sea with small industrial islands. The islands are very metal rich.
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 18
+  special: Metal
+  springName: Nine_Metal_Islands_V1
+  teamCount: 8
+  terrain:
+    - flat
+    - water
+xbJTsdeXIKFQmuvBHW3d:
+  author: IceXuick
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 6
+  special: Asymmetrical
+  springName: Timna Island 1.0
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+xn2aVcKlkpTQAakCC3Z8:
+  author: Johannes
+  certified: true
+  description: Smallish map dominated by a hill in the middle. For 1v1, small
+    teamgames also doable.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Copper Hill v1
+  teamCount: 2
+  terrain:
+    - hills
+yhOJI5yH4yGFmx9PMt9T:
+  author: Johannes
+  certified: true
+  description: Survival map. Perfect against Chickens or Scavengers.
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  playerCount: 4
+  springName: Lake Carne v2
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - water
+z7TZ4CbeIBJtjEjNAwer:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  playerCount: 10
+  springName: Downs_of_Destruction_V2
+  teamCount: 2
+  terrain:
+    - hills
+    - water
+zfA6sKjimXZO5kz0jtz1:
+  author: PeaceFighter
+  certified: true
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  playerCount: 4
+  springName: Omega Valley V0.1
+  teamCount: 2
+  terrain:
+    - hills
+zoXOP8VC1sNWpsP41IYV:
+  author: NOiZE
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Plethora_of_Ponds_V1
+  terrain:
+    - flat
+    - water
+zvBCoDF2TaUPp7AwfCUr:
+  author: Beherith
+  certified: true
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  springName: Pinewood_Derby_V1
+  terrain:
+    - hills
+zvTEXnewG2G8LaMjFq4o:
+  author: IceXuick
+  certified: true
+  gameType:
+    - team
+  inPool: true
+  springName: Nuclear Winter Bar 1.4
+  terrain:
+    - flat
 zzzzzzzzzzzzzzzzzzzx:
   author: BasiC
   certified: true
