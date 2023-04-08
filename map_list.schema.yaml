@@ -47,3 +47,7 @@ additionalProperties:
   required:
     - springName
     - author
+    - gameType
+    - terrain
+    - certified
+    - inPool
