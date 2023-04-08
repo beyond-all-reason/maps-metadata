@@ -1,16 +1,16 @@
 {
   "name": "map-parser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node --enable-source-maps ./dist/index.js",
     "dev": "ts-node ./src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "BAR Developers",
+  "license": "Apache-2.0",
+  "private": true,
   "dependencies": {
     "@google-cloud/storage": "^6.9.5",
     "7zip-bin": "5.1.1",

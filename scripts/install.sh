@@ -21,11 +21,9 @@ source .pyenv/bin/activate
 log "Install python scripts dependencies"
 pip install -r scripts/py/requirements.txt
 
-# JavasSript scipts
-log "Install deno"
-mkdir -p .deno/bin
-export PATH="$PWD/.deno/bin:$PATH"
-export DENO_INSTALL=.deno/
-curl -fsSL https://deno.land/x/install/install.sh | sh
+# JavasSript dependencies
+log "Install JavaScript dependencies"
+cd scripts/js
+npm ci
 
 log "Finished setup"

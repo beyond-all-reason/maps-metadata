@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:bullseye
+FROM docker.io/library/node:18-bullseye
 
 RUN apt-get update \
  && apt-get upgrade -y \
