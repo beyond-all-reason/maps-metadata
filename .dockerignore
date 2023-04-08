@@ -1,3 +1,4 @@
 .pyenv/
-.deno/
 gen/*
+**/node_modules/
+**/dist/
