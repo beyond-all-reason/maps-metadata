@@ -103,6 +103,7 @@ function serializeMapDetails(mapDetails: MapDetails): string {
             } else {
                 value = `'${escapeLuaString(details[field].toString())}'`;
             }
+            fields.push(`${field}=${value}`);
         }
         lines.push(`['${escapeLuaString(springName)}']={${fields.join(', ')}},`);
     }
