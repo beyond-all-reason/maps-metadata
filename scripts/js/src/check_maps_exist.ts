@@ -1,3 +1,6 @@
+// A simple check script that verifies that all maps referenced from map_list.yaml
+// actually exist, it might be deprecated but, but works quite well as example.
+
 import type { MapList } from '../../../gen/types/map_list.js';
 import got from 'got';
 import { program } from '@commander-js/extra-typings';

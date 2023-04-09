@@ -1,3 +1,6 @@
+// A script to generate map_list.yaml file from data export from Firebase database
+// build using Rowy.
+
 import { Firestore } from '@google-cloud/firestore';
 import mapSchema from '../../../gen/map_list.schema.json' assert { type: "json" };
 import YAML from 'yaml';

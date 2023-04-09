@@ -1,3 +1,6 @@
+// Batch script that was used to seed Fierebase Rowy database with existing
+// list of maps. Not realy used for anything currently, it's here as reference.
+
 import { Firestore } from '@google-cloud/firestore';
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';

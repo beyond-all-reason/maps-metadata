@@ -1,3 +1,5 @@
+// Script that validates a JSON file against a JSON Schema.
+
 import AjvModule from "ajv/dist/2020.js";
 const Ajv = AjvModule.default;
 import stringify from "json-stable-stringify";

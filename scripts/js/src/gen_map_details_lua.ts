@@ -1,3 +1,5 @@
+// Script generating mapDetails.lua used in BYAR-Chobby repo for maps list.
+
 import { getMapFilePath, readMapList } from './maps_metadata.js';
 import pLimit from 'p-limit';
 import fs from 'node:fs/promises';
