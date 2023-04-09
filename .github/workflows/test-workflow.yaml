@@ -1,0 +1,14 @@
+name: Test Workflow
+on:
+  repository_dispatch:
+    types:
+      - test
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Client Payload
+        run: |
+          echo "Client Payload: $CLIENT_PAYLOAD"
+        env:
+          CLIENT_PAYLOAD: ${{ toJSON(github.event.client_payload) }}
