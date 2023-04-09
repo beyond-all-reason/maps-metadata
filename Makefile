@@ -8,7 +8,10 @@ gen/types/%.d.ts: gen/%.schema.json
 	mkdir -p gen/types
 	json2ts $< > $@
 
-all: gen/map_list.validated.json
+gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts 
+	ts-node scripts/js/src/gen_map_details_lua.ts $@
+
+all: gen/map_list.validated.json gen/mapDetails.lua
 
 check_listed_maps_exist: gen/map_list.validated.json gen/types/map_list.d.ts
 	ts-node scripts/js/src/check_maps_exist.ts $<

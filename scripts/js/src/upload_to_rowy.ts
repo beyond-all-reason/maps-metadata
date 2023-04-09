@@ -2,6 +2,7 @@ import { Firestore } from '@google-cloud/firestore';
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
 import type { MapList } from '../../../gen/types/map_list.js';
+import type { MapDetails } from './gen_map_details_lua.js';
 
 /*
 To create dump:
@@ -25,26 +26,6 @@ const prog = program
     .argument('<mapDetails>', 'Map details in JSON.')
     .parse();
 const [mapDetailsPath] = prog.processedArgs;
-
-interface MapDetails {
-    [k: string]: {
-        Width: number;
-        Height: number;
-        Is1v1?: number;
-        IsTeam?: number;
-        IsFFA?: number;
-        IsCertified?: number;
-        Special?: string;
-        Flat?: number;
-        Hills?: number;
-        Water?: number;
-        IsInPool?: number;
-        PlayerCount?: string;
-        TeamCount?: string;
-        Author?: string;
-        InfoText?: string;
-    };
-}
 
 const mapDetails: MapDetails = JSON.parse(await fs.readFile(mapDetailsPath, { encoding: 'utf8' }));
 
