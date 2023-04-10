@@ -15,7 +15,10 @@ function log {
 
 # Python scripts
 log "Setup python virtual env" 
-python3 -m venv .pyenv
+if [ ! -d .pyenv ]; then
+    log "Create virtual env"
+    python3 -m venv .pyenv
+fi
 source .pyenv/bin/activate
 
 log "Install python scripts dependencies"
