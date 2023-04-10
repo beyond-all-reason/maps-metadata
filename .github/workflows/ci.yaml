@@ -1,0 +1,64 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy?'
+        required: true
+        type: boolean
+        default: false
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: actions/cache@v3
+        if: ${{ !env.ACT }}
+        with:
+          path: |
+            .pyenv
+            .scripts/js/node_modules
+          key: scripts-deps-${{ hashFiles('scripts/js/package-lock.json', 'scripts/py/requirements.txt') }}
+      - uses: actions/cache@v3
+        if: ${{ !env.ACT }}
+        with:
+          path: .maps-cache
+          key: maps-cache-cache-v2
+      - name: Install dependencies
+        run: ./scripts/install.sh
+      - name: Build
+        run: source .envrc && make
+      - name: Test
+        run: source .envrc && make test
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: gen-artifacts
+          path: gen
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: gen-artifacts
+          path: gen
+      - name: Install RClone
+        run: |
+          curl -L https://rclone.org/install.sh | bash
+      - name: Deploy
+        run: ./scripts/deploy.sh ${{ github.sha }} ${{ !env.ACT && (github.ref == 'refs/heads/main' || github.event.inputs.deploy == true) }}
