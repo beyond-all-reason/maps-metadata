@@ -57,8 +57,13 @@ jobs:
         with:
           name: gen-artifacts
           path: gen
-      - name: Install RClone
+      - name: Install Rclone
         run: |
-          curl -L https://rclone.org/install.sh | bash
+          curl -L https://rclone.org/install.sh | sudo bash
       - name: Deploy
         run: ./scripts/deploy.sh ${{ github.sha }} ${{ !env.ACT && (github.ref == 'refs/heads/main' || github.event.inputs.deploy == true) }}
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ACCESS_KEY_ID: ${{ vars.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME: ${{ vars.MAPS_METADATA_BUCKET_NAME }}
