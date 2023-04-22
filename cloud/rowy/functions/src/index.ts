@@ -4,7 +4,7 @@
 import * as functions from "firebase-functions";
 import { initializeApp } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
-import { getDatabase } from "firebase-admin/database";
+import { getFirestore } from "firebase-admin/firestore";
 
 initializeApp();
 
@@ -14,7 +14,7 @@ export const processSignUp = functions
     .onCreate(async (user) => {
         try {
             await getAuth().setCustomUserClaims(user.uid, { roles: ["VIEWER"] });
-            await getDatabase().ref(`_rowy_/userManagement/users/${user.uid}`).set({
+            await getFirestore().collection("_rowy_/userManagement/users").doc(user.uid).set({
                 roles: ["VIEWER"],
                 user: {
                     email: user.email,
