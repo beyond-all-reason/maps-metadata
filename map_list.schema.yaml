@@ -19,6 +19,7 @@ additionalProperties:
           - ffa
           - 1v1
           - team
+          - pve
       uniqueItems: true
       default: []
     terrain:
