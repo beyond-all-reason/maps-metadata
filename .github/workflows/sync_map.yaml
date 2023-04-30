@@ -1,0 +1,81 @@
+name: Sync Map
+on:
+  workflow_dispatch:
+    inputs:
+      map_to_sync:
+        description: ID of the map to sync or `all` to sync all maps
+        required: true
+        default: all
+      pr_title:
+        description: Title of the PR to create
+        required: false
+  repository_dispatch:
+    types: [sync_map]
+  schedule:
+    - cron: '0 5 * * *'
+jobs:
+  sync_map:
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set map sync properties
+        id: set_properties
+        env:
+            to_sync: ${{ github.event.inputs.map_to_sync || github.event.client_payload.map_to_sync }}
+            pr_title: ${{ github.event.inputs.pr_title || github.event.client_payload.pr_title }}
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            to_sync="all"
+          fi
+          if [[ -z "${to_sync}" ]]; then
+            echo "No map ID provided"
+            exit 1
+          fi
+          echo "map_to_sync=${to_sync}" >> $GITHUB_OUTPUT
+
+          if [[ ! -z "${pr_title}" ]]; then
+            echo "pr_title=${pr_title}" >> $GITHUB_OUTPUT
+          elif [[ "${to_sync}" == "all" ]]; then
+            echo "pr_title=Update all maps from rowy" >> $GITHUB_OUTPUT
+          else
+            echo "pr_title=Update map ${to_sync} from rowy" >> $GITHUB_OUTPUT
+          fi
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: actions/cache@v3
+        with:
+          path: |
+            .pyenv
+            .scripts/js/node_modules
+          key: scripts-deps-${{ hashFiles('scripts/js/package-lock.json', 'scripts/py/requirements.txt') }}
+      - name: Install dependencies
+        run: ./scripts/install.sh
+      - name: Authenticate to Google Cloud
+        id: auth
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: projects/187238959541/locations/global/workloadIdentityPools/github-actions/providers/github
+          service_account: github-actions@rowy-1f075.iam.gserviceaccount.com
+      - name: Update from Rowy
+        run: |
+            source .envrc
+            make types
+            ts-node scripts/js/src/update_from_rowy.ts map_list.yaml ${{ steps.set_properties.outputs.map_to_sync }}
+      - name: Commit and create or update PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update map_list.yaml with new map data
+          branch: sync-map-${{ steps.set_properties.outputs.map_to_sync }}
+          title: ${{ steps.set_properties.outputs.pr_title }}
+          body: Automaticly generated update of map data from Rowy
+          base: main
+          delete-branch: true

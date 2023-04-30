@@ -1,2 +1,3 @@
 .pyenv/
 .maps-cache/
+gha-creds-*.json
