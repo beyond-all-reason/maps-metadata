@@ -1,3 +1,17 @@
+0jMFtrg8MuFKGgxmk6Nn:
+  author: Nikuksis
+  certified: true
+  description: Descending lava will open the ways to the opposite site.
+  gameType:
+    - team
+  inPool: true
+  playerCount: 16
+  special: Lava
+  springName: Thermal Shock v1.1
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
 0jMFtrg8MuFKGgxmk6No:
   author: IceXuick
   certified: true
