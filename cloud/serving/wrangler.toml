@@ -4,10 +4,18 @@ compatibility_date = "2023-04-18"
 account_id = "5e015123d861c65819b733acb27db18e"
 
 [[r2_buckets]]
-binding = "R2_BUCKET"
+binding = "R2_MAPS_METADATA"
 bucket_name = "maps-metadata-prod-3462"
 preview_bucket_name = "maps-metadata-dev-3462"
+
+[[r2_buckets]]
+binding = "R2_IMAGOR_RESULTS"
+bucket_name = "imagor-results-prod-2434"
+preview_bucket_name = "imagor-results-dev-2434"
 
 [[routes]]
 pattern = "maps-metadata.beyondallreason.dev"
 custom_domain = true
+
+[vars]
+IMAGOR_URL = "https://imagor-oseq47fmga-ew.a.run.app"

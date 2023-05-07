@@ -1,18 +1,98 @@
 export interface Env {
-	R2_BUCKET: R2Bucket;
+	R2_MAPS_METADATA: R2Bucket;
+	R2_IMAGOR_RESULTS: R2Bucket;
+	IMAGOR_URL: string;
 }
 
 const CACHE_FOREVER = 'public, max-age=31536000, immutable';
 const CACHE_HEAD = 'public, max-age=600';
 const CACHE_LATEST = 'public, max-age=1800, stale-while-revalidate=1800, stale-if-error=86400';
 
-async function getContents(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+// This function is super delicate, and requires also correct configuration of S3_SAFE_CHARS env
+// variable in the imagor service. As of version 1.4.4 it should be set to `' ":,`.
+function escapeImagorResultsPath(path: string): string {
+	let encoded = encodeURIComponent(path.replace(/[\r\n\v\f\u0085\u2028\u2029]+/g, ''));
+	for (const c of `/" :,`) {
+		encoded = encoded.replaceAll(encodeURIComponent(c), c);
+	}
+	return encoded;
+}
+
+async function sleep(ms: number): Promise<void> {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+class Retryable extends Error { }
+class RetryLimitExceeded extends Error { }
+
+async function exponentialRetry<T>(maxRetry: number, baseDelayMs: number, func: () => Promise<T>): Promise<T> {
+	for (let retry = 0; retry < maxRetry; ++retry) {
+		try {
+			return await func();
+		} catch (e) {
+			if (!(e instanceof Retryable)) {
+				throw e;
+			}
+			await sleep((2 ** retry * baseDelayMs) * (0.5 + Math.random()));
+		}
+	}
+	throw new RetryLimitExceeded();
+}
+
+async function getImage(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 	const url = new URL(request.url);
 	const cache = caches.default;
 
-	if (url.pathname === '/') {
-		return new Response('maps-metadata');
+	// Try to get load object from cache
+	const cacheKey = new Request(new URL(url.pathname, url.origin), request);
+	const cachedRes = await cache.match(cacheKey);
+	if (cachedRes) {
+		const response = new Response(cachedRes.body, cachedRes);
+		response.headers.set('x-maps-metadata-imagor-cache', 'hit');
+		return response;
 	}
+
+	const path = url.pathname.substring('/i/'.length);
+	const objectPath = escapeImagorResultsPath(path);
+	let object = await env.R2_IMAGOR_RESULTS.get(objectPath);
+	let r2Hit = true;
+	if (!object) {
+		r2Hit = false;
+		const res = await fetch(`${env.IMAGOR_URL}/unsafe/${path}`);
+		if (!res.ok) {
+			return new Response(`Imagor failed: ${await res.text()}`, { status: res.status });
+		}
+
+		// Wait for imagor result to be available in R2 bucket.
+		try {
+			object = await exponentialRetry(7, 20, async () => {
+				const object = await env.R2_IMAGOR_RESULTS.get(objectPath);
+				if (!object) {
+					throw new Retryable();
+				}
+				return object;
+			});
+		} catch (e) {
+			if (e instanceof RetryLimitExceeded) {
+				return new Response(`Failed to resolve object in imagor result storage path: ${objectPath}`, { status: 404 });
+			}
+			throw e;
+		}
+	}
+
+	const headers = new Headers();
+	object.writeHttpMetadata(headers);
+	headers.set('etag', object.httpEtag);
+	headers.set('cache-control', CACHE_FOREVER);
+	headers.set('x-maps-metadata-imagor-cache', r2Hit ? 'r2-hit' : 'miss');
+	const response = new Response(object.body, { headers });
+	ctx.waitUntil(cache.put(cacheKey, response.clone()));
+	return response;
+}
+
+async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+	const url = new URL(request.url);
+	const cache = caches.default;
 
 	const path = url.pathname.slice(1).split('/');
 	if (path[path.length - 1] === '') {
@@ -30,7 +110,7 @@ async function getContents(request: Request, env: Env, ctx: ExecutionContext): P
 			headCacheHit = true;
 		} else {
 			headCacheHit = false;
-			const headObj = await env.R2_BUCKET.get('HEAD');
+			const headObj = await env.R2_MAPS_METADATA.get('HEAD');
 			if (!headObj) {
 				return new Response('Not found', { status: 404 });
 			}
@@ -78,7 +158,7 @@ async function getContents(request: Request, env: Env, ctx: ExecutionContext): P
 	}
 
 	// Fallback to loading from R2
-	const object = await env.R2_BUCKET.get(objectPath);
+	const object = await env.R2_MAPS_METADATA.get(objectPath);
 	if (!object) {
 		return new Response('Not found', { status: 404 });
 	}
@@ -109,7 +189,14 @@ export default {
 				});
 			}
 
-			return await getContents(request, env, ctx);
+			const url = new URL(request.url);
+			if (url.pathname === '/') {
+				return new Response('maps-metadata');
+			} else if (url.pathname.startsWith('/i/')) {
+				return await getImage(request, env, ctx);
+			} else {
+				return await getFile(request, env, ctx);
+			}
 		} catch (e: any) {
 			return new Response(`Internal error: ${e.stack}`, { status: 500 });
 		}
