@@ -21,6 +21,20 @@
   springName: Seths Ravine Remake 1.3
   terrain:
     - flat
+0rkuPKU4nx2GuhlUC8sH:
+  author: Nikuksis
+  certified: true
+  description: A lot of shallow rivers flow across this mossy hills.
+  gameType:
+    - ffa
+    - 1v1
+    - team
+  inPool: true
+  playerCount: 8
+  springName: Sphagnum Bog v1.1
+  teamCount: 2
+  terrain:
+    - flat
 1D03UHTgJ5axEHRPrjzh:
   author: Beherith
   certified: true
@@ -364,9 +378,20 @@ Cs5xNBZyuBzWCmPJKDbO:
   gameType:
     - 1v1
   inPool: true
-  springName: Ravaged Remake v1.1
+  springName: Ravaged Remake v1.2
   terrain:
     - hills
+Cz4OYo0Z2yht9PUP8vcN:
+  author: Nikuksis
+  certified: true
+  description: West vs South team game map. A lot of hot geysers spread here.
+  inPool: true
+  playerCount: 16
+  special: West vs South
+  springName: Sulphur Springs v1.1
+  teamCount: 2
+  terrain:
+    - flat
 DA1NmvXlhztKR1WGRc62:
   author: Bluestone
   certified: false
@@ -422,6 +447,7 @@ F40FJFEjKm3hcVzdnIvA:
   description: Survival map.
   gameType:
     - team
+    - pve
     - 1v1
   inPool: true
   playerCount: 5
@@ -477,7 +503,7 @@ GuTvi5G3QCGO8KASbbs1:
     - team
   inPool: true
   playerCount: 16
-  springName: Lightside Darkside v2.0
+  springName: Darkside v3.0
   teamCount: 2
   terrain:
     - flat
@@ -628,6 +654,7 @@ NULeDCjbZw5azkUT66rZ:
     - ffa
     - team
     - 1v1
+    - pve
   inPool: true
   playerCount: 4
   special: Metal
@@ -635,6 +662,19 @@ NULeDCjbZw5azkUT66rZ:
   teamCount: 4
   terrain:
     - flat
+NhuWJFWJBBS46Z1qsmBJ:
+  author: Nikuksis
+  certified: true
+  description: Strong tides, build tidals in the little ponds!
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  playerCount: 8
+  springName: Center Command BAR v1.0
+  teamCount: 2
+  terrain:
+    - hills
 OgYCeZrIVMN1b9sUbweo:
   author: Beherith
   certified: true
@@ -667,7 +707,7 @@ PlmJPs87RuAnAlL6inG1:
     - team
   inPool: true
   playerCount: 16
-  springName: Ice Scream v2.4
+  springName: Ice Scream v2.5
   teamCount: 2
   terrain:
     - flat
@@ -691,6 +731,20 @@ QsD0vDtYMgk8ATraKoNI:
   springName: TMA20X 1.8
   terrain:
     - flat
+RDAUlsjOhgAH2fDvAEmI:
+  author: Nikuksis
+  certified: true
+  description: Small assymetric island map.
+  gameType:
+    - 1v1
+    - ffa
+  inPool: true
+  playerCount: 5
+  special: Asymmetrical
+  springName: Gods of War Remake v1.3
+  teamCount: 5
+  terrain:
+    - water
 RT3Y6Qyjvt3pTGXWjWPK:
   author: IceXuick
   certified: true
@@ -706,6 +760,7 @@ SHA84LfmzYbxT8iIyTtU:
   gameType:
     - team
     - 1v1
+    - pve
   inPool: true
   springName: Rifted_V2
   terrain:
@@ -716,7 +771,7 @@ SQpSGbxxp50QcMKG2TJp:
   gameType:
     - team
   inPool: true
-  springName: Supreme Strait v1.3
+  springName: Supreme Strait v1.4
   terrain:
     - flat
     - hills
@@ -821,6 +876,7 @@ WJBtRZ22UUHZi2GTQ2FQ:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 16
   special: PVE
@@ -966,6 +1022,7 @@ Ydjj7Fy4NpaLHdkvhsIn:
     to all units in the central trench
   gameType:
     - team
+    - pve
   inPool: true
   playerCount: 20
   springName: Ditched_V1
@@ -977,6 +1034,7 @@ Yhwa2neMfDTUXyAiSJXC:
   certified: true
   gameType:
     - team
+    - pve
   inPool: true
   playerCount: 10
   springName: Incandescence Remake 3.3
@@ -1032,7 +1090,7 @@ ZeOLwTAgEU10BGvcdQ45:
     - ffa
   inPool: true
   playerCount: 16
-  springName: DWorld_V3
+  springName: DWorld_V4
   teamCount: 16
   terrain:
     - flat
@@ -1063,6 +1121,7 @@ Zy8Ha3O3lHl7mUMvM8Gs:
   description: Survival map. Perfect against Chickens or Scavengers.
   gameType:
     - ffa
+    - pve
   inPool: true
   playerCount: 4
   special: Survival
@@ -1092,8 +1151,7 @@ bLBXDWyEuUqG825WYzHj:
   springName: Deeploria Fields v1.5
   teamCount: 2
   terrain:
-    - flat
-    - hills
+    - water
 bkIRTcsnvtmQVsm3SsNJ:
   author: Beherith
   certified: true
@@ -1240,6 +1298,7 @@ frJOFVdgDIROpNVzgDed:
   certified: true
   gameType:
     - team
+    - pve
   inPool: true
   springName: Entrenched_Plains_V2
   terrain:
@@ -1319,7 +1378,7 @@ hC5Ic7adKaK6YBA68mKY:
     - 1v1
   inPool: true
   playerCount: 6
-  springName: The Halite Maze v1.3
+  springName: The Halite Maze v1.4
   teamCount: 2
   terrain:
     - hills
@@ -1414,6 +1473,18 @@ kgpwvzDGdXoVcD6whG3C:
   terrain:
     - flat
     - water
+kovRjd67kdlVUNN4szAP:
+  author: Phalange
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  playerCount: 8
+  springName: High Noon Remake 1.0
+  teamCount: 2
+  terrain:
+    - hills
+    - water
 lJQnSRqDN7rNPS5pe80C:
   author: Beherith
   certified: true
@@ -1422,6 +1493,7 @@ lJQnSRqDN7rNPS5pe80C:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 16
   special: Metal
@@ -1439,6 +1511,20 @@ ljx3Fdz1TLbewjyAIoVw:
   springName: Tundra_V2
   terrain:
     - flat
+mzdkzzTL3zgPanW6zQx4:
+  author: UNKNOWN
+  certified: true
+  description: A deep space battle arena; used as a secret final testing ground
+    for upcoming commanders
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  playerCount: 4
+  springName: Faster Than Light 1.1
+  teamCount: 2
+  terrain:
+    - hills
 oBOBWCmenCo2tbkwYNJt:
   author: Beherith
   certified: true
@@ -1475,12 +1561,11 @@ oX7eHI8mlpVvJUYs4v4Y:
   gameType:
     - team
   inPool: true
-  playerCount: 10
-  springName: All That Glitters v1.2
+  playerCount: 16
+  springName: All That Glitters v2.0
   teamCount: 2
   terrain:
     - flat
-    - water
 p5q4vnb8BqgpmyEfB2xh:
   author: IceXuick
   certified: true
@@ -1709,6 +1794,7 @@ x0Y6f1ou7U5tF3S9xllC:
   gameType:
     - team
     - 1v1
+    - pve
   inPool: true
   springName: Riverdale Remake 2.1
   terrain:
@@ -1721,6 +1807,7 @@ x3jIjnV9aipWzVVWjZlL:
   gameType:
     - ffa
     - team
+    - pve
   inPool: true
   playerCount: 18
   special: Metal
