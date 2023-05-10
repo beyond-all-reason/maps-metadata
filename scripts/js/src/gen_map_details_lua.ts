@@ -92,7 +92,7 @@ function serializeMapDetails(mapDetails: MapDetails): string {
 
     const lines: string[] = ['return {'];
     const springNames = Object.keys(mapDetails);
-    springNames.sort();
+    springNames.sort((a, b) => a.localeCompare(b, 'en-US'));
     for (const springName of springNames) {
         const details: any = mapDetails[springName];
         const fields: string[] = [];
@@ -105,7 +105,9 @@ function serializeMapDetails(mapDetails: MapDetails): string {
             } else {
                 value = `'${escapeLuaString(details[field].toString())}'`;
             }
-            fields.push(`${field}=${value}`);
+            if (field !== 'Author' || value !== 'nil') {
+                fields.push(`${field}=${value}`);
+            }
         }
         lines.push(`['${escapeLuaString(springName)}']={${fields.join(', ')}},`);
     }
