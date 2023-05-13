@@ -1,8 +1,10 @@
 $schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/map_list.schema.json
 title: MapList
 description: List of maps with their basic metadata
 type: object
 additionalProperties:
+  title: MapInfo
   type: object
   properties:
     springName:
@@ -14,6 +16,7 @@ additionalProperties:
     gameType:
       type: array
       items:
+        title: GameType
         type: string
         enum:
           - ffa
@@ -26,6 +29,7 @@ additionalProperties:
       type: array
       items:
         type: string
+        title: TerrainType
         enum:
           - water
           - hills
@@ -44,6 +48,12 @@ additionalProperties:
       default: false
     special:
       type: string
+    photo:
+      type: array
+      items:
+        $ref: '#/$defs/uploadedFile'
+      minItems: 1
+      maxItems: 1
   additionalProperties: false
   required:
     - springName
@@ -52,3 +62,31 @@ additionalProperties:
     - terrain
     - certified
     - inPool
+    - photo
+$defs:
+  uploadedFile:
+    title: UploadedFile
+    type: object
+    properties:
+      ref:
+        type: string
+        $comment: Path to the file in storage bucket
+      downloadURL:
+        type: string
+        $comment: URL to download the file
+      name:
+        type: string
+        $comment: Name of the file
+      type:
+        type: string
+        $comment: MIME type of the file
+      lastModifiedTS:
+        type: integer
+        $comment: Timestamp of the last modification
+    required:
+      - ref
+      - downloadURL
+      - name
+      - type
+      - lastModifiedTS
+    additionalProperties: false
