@@ -5,6 +5,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nn%2Fphoto%2FRxP6l8iDzf64UjquGzLd-thermal_shock_v1.1.jpg?alt=media&token=bfb2d5f0-d810-4aae-8521-df13846f5297
+      lastModifiedTS: 1682776299679
+      name: thermal_shock_v1.1.jpg
+      ref: maps/0jMFtrg8MuFKGgxmk6Nn/photo/RxP6l8iDzf64UjquGzLd-thermal_shock_v1.1.jpg
+      type: image/jpeg
   playerCount: 16
   special: Lava
   springName: Thermal Shock v1.1
@@ -18,6 +24,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/0jMFtrg8MuFKGgxmk6No/photo/yWvndwIRIkO3jUwo8NUs-Seths_Ravine_Remake_1.3.jpg
+      lastModifiedTS: 1683982247725
+      name: Seths_Ravine_Remake_1.3.jpg
+      ref: maps/0jMFtrg8MuFKGgxmk6No/photo/yWvndwIRIkO3jUwo8NUs-Seths_Ravine_Remake_1.3.jpg
+      type: image/jpeg
   springName: Seths Ravine Remake 1.3
   terrain:
     - flat
@@ -30,6 +42,12 @@
     - 1v1
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/0rkuPKU4nx2GuhlUC8sH/photo/3QFsvRpz7psmFzZsKKAP-sphagnum_bog_v1.1.jpg
+      lastModifiedTS: 1683982248399
+      name: sphagnum_bog_v1.1.jpg
+      ref: maps/0rkuPKU4nx2GuhlUC8sH/photo/3QFsvRpz7psmFzZsKKAP-sphagnum_bog_v1.1.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Sphagnum Bog v1.1
   teamCount: 2
@@ -41,6 +59,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/1D03UHTgJ5axEHRPrjzh/photo/wHTfmpydRIXwwEinapAa-Talus_V2.jpg
+      lastModifiedTS: 1683982168556
+      name: Talus_V2.jpg
+      ref: maps/1D03UHTgJ5axEHRPrjzh/photo/wHTfmpydRIXwwEinapAa-Talus_V2.jpg
+      type: image/jpeg
   springName: Talus_v2
   terrain:
     - hills
@@ -50,6 +74,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/1FfJKeljSZeWodN5FZsW/photo/VrCiOL6zRIl89ofHJrkz-Tropical-v2.jpg
+      lastModifiedTS: 1683982248894
+      name: Tropical-v2.jpg
+      ref: maps/1FfJKeljSZeWodN5FZsW/photo/VrCiOL6zRIl89ofHJrkz-Tropical-v2.jpg
+      type: image/jpeg
   springName: Tropical-v2
   terrain:
     - flat
@@ -62,6 +92,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1JL7kMOT8mYsx2OEQnv8%2Fphoto%2FfhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg?alt=media&token=55e38608-c45d-4e71-a548-316a3df81941
+      lastModifiedTS: 1684276108988
+      name: sertagatta_v6.0.jpg
+      ref: maps/1JL7kMOT8mYsx2OEQnv8/photo/fhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg
+      type: image/jpeg
   springName: Sertagatta v6.0
   terrain:
     - flat
@@ -75,6 +111,12 @@
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/1kGT39gW0lJEkp6VxeZU/photo/w4zplBbAHkPxm60DQOYY-Crescent_Bay_V2.jpg
+      lastModifiedTS: 1683982250174
+      name: Crescent_Bay_V2.jpg
+      ref: maps/1kGT39gW0lJEkp6VxeZU/photo/w4zplBbAHkPxm60DQOYY-Crescent_Bay_V2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Crescent_Bay_V2
   teamCount: 4
@@ -87,6 +129,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/20rGnfO4wwkmV5v2fXVZ/photo/4O4NoLJsYr1lDxac7ReW-FolsomdamR_1.16.jpg
+      lastModifiedTS: 1683982250686
+      name: FolsomdamR_1.16.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/4O4NoLJsYr1lDxac7ReW-FolsomdamR_1.16.jpg
+      type: image/jpeg
   special: Dam
   springName: FolsomDamR 1.16
   terrain:
@@ -98,6 +146,12 @@
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2Jm1E7F819zbEWOr2Bwc/photo/Q0c0xJDxHPO8jm1t9Yrj-Neurope_Remake_4.2.jpg
+      lastModifiedTS: 1683982251243
+      name: Neurope_Remake_4.2.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/photo/Q0c0xJDxHPO8jm1t9Yrj-Neurope_Remake_4.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Neurope_Remake 4.2
   teamCount: 16
@@ -110,6 +164,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
+      lastModifiedTS: 1683982251805
+      name: archsimkats_valley_v1.jpg
+      ref: maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
+      type: image/jpeg
   springName: Archsimkats_Valley_V1
   terrain:
     - hills
@@ -121,6 +181,12 @@
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2foOuFOeWdmm1DkMqfJv/photo/3E5I1jnQTFaKNmMVZE3a-red_river_remake_v1.2.jpg
+      lastModifiedTS: 1683982252307
+      name: red_river_remake_v1.2.jpg
+      ref: maps/2foOuFOeWdmm1DkMqfJv/photo/3E5I1jnQTFaKNmMVZE3a-red_river_remake_v1.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Red River Remake v1.2
   teamCount: 2
@@ -135,6 +201,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
+      lastModifiedTS: 1683982252921
+      name: Mithril_Mountain_V2.jpg
+      ref: maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Mithril Mountain v2
   teamCount: 2
@@ -151,6 +223,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3BfXteSuIxUz2NGWwZAq/photo/lIa8eD9PPDC7nJ6dESNe-Altair_Pass_V4.jpg
+      lastModifiedTS: 1683982253460
+      name: Altair_Pass_V4.jpg
+      ref: maps/3BfXteSuIxUz2NGWwZAq/photo/lIa8eD9PPDC7nJ6dESNe-Altair_Pass_V4.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Altair_Pass_V4
   teamCount: 2
@@ -165,6 +243,12 @@
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
+      lastModifiedTS: 1683982253960
+      name: Rosetta_1.4.jpg
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Rosetta 1.4
   teamCount: 4
@@ -177,6 +261,12 @@
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3XVaIgjKnh120KPs7fv0/photo/O4fORVz0DqzhSga3OH1p-KnockoutR_1.5.jpg
+      lastModifiedTS: 1683982254462
+      name: KnockoutR_1.5.jpg
+      ref: maps/3XVaIgjKnh120KPs7fv0/photo/O4fORVz0DqzhSga3OH1p-KnockoutR_1.5.jpg
+      type: image/jpeg
   springName: KnockoutR 1.5
   terrain:
     - hills
@@ -189,6 +279,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/44vuVzD9DD5wyzZz0L7i/photo/53EKcKJnTd4XqpI6xHLX-heartbreak_hill_v4.jpg
+      lastModifiedTS: 1683982255048
+      name: heartbreak_hill_v4.jpg
+      ref: maps/44vuVzD9DD5wyzZz0L7i/photo/53EKcKJnTd4XqpI6xHLX-heartbreak_hill_v4.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Heartbreak Hill v4
   teamCount: 2
@@ -201,6 +297,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4FOX0gezL8gapbMPNmKH/photo/iXB6JADCVzq9rwVDmGAM-glacier_pass_1.2.jpg
+      lastModifiedTS: 1683982255598
+      name: glacier_pass_1.2.jpg
+      ref: maps/4FOX0gezL8gapbMPNmKH/photo/iXB6JADCVzq9rwVDmGAM-glacier_pass_1.2.jpg
+      type: image/jpeg
   springName: Glacier Pass 1.2
   terrain:
     - hills
@@ -210,6 +312,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
+      lastModifiedTS: 1683982256150
+      name: Hades_Ponds_0.7.jpg
+      ref: maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Hades Ponds 0.7
   teamCount: 2
@@ -224,6 +332,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4egdlg54rpZQh1bvbS8p/photo/sVu36AtSabPruQXh4GjC-Otago_Redux_1.33.jpg
+      lastModifiedTS: 1683982256779
+      name: Otago_Redux_1.33.jpg
+      ref: maps/4egdlg54rpZQh1bvbS8p/photo/sVu36AtSabPruQXh4GjC-Otago_Redux_1.33.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Otago Redux 1.33
   teamCount: 2
@@ -237,6 +351,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4onApLu0oFbtFuY9up67/photo/Y4VoGlxQhGKtczeLAVHQ-Into_Battle_Redux_v3.jpg
+      lastModifiedTS: 1683982257342
+      name: Into_Battle_Redux_v3.jpg
+      ref: maps/4onApLu0oFbtFuY9up67/photo/Y4VoGlxQhGKtczeLAVHQ-Into_Battle_Redux_v3.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Into Battle Redux v3
   teamCount: 2
@@ -250,6 +370,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/5MwuaG7iaqfPXeKCKhUD/photo/2Fx2veofN4rKzi7HS4tD-Iron_Isle_V1.jpg
+      lastModifiedTS: 1683982257973
+      name: Iron_Isle_V1.jpg
+      ref: maps/5MwuaG7iaqfPXeKCKhUD/photo/2Fx2veofN4rKzi7HS4tD-Iron_Isle_V1.jpg
+      type: image/jpeg
   playerCount: 8
   special: Metal
   springName: Iron_Isle_V1
@@ -266,6 +392,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/6CH8jHCPxDERYtemJRtM/photo/zITazKAGV8tCMSqqdHeO-Calamity_1.1.jpg
+      lastModifiedTS: 1683982258615
+      name: Calamity_1.1.jpg
+      ref: maps/6CH8jHCPxDERYtemJRtM/photo/zITazKAGV8tCMSqqdHeO-Calamity_1.1.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Calamity 1.1
   teamCount: 4
@@ -279,6 +411,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/7pm2zaEOk8QaxaEeOnZJ/photo/sleyZLPZimdCReuNnIUO-eight_horses_1.2.jpg
+      lastModifiedTS: 1683982259122
+      name: eight_horses_1.2.jpg
+      ref: maps/7pm2zaEOk8QaxaEeOnZJ/photo/sleyZLPZimdCReuNnIUO-eight_horses_1.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Eight Horses 1.2
   teamCount: 2
@@ -293,6 +431,12 @@
     - ffa
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/8NJ4dy6hrSPsrezNmczE/photo/t4w4oj4YXpfORr3v7VUi-Pillar_of_Doom_v1.jpg
+      lastModifiedTS: 1683982259684
+      name: Pillar_of_Doom_v1.jpg
+      ref: maps/8NJ4dy6hrSPsrezNmczE/photo/t4w4oj4YXpfORr3v7VUi-Pillar_of_Doom_v1.jpg
+      type: image/jpeg
   springName: Pillar_of_Doom_V1
   terrain:
     - hills
@@ -303,6 +447,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/9Z3VnJ2cFcGhcaq6z1bJ/photo/hjVTf6pDN4hTwy1jQ6RR-Red_Rock_Desert_v1.jpg
+      lastModifiedTS: 1683982260219
+      name: Red_Rock_Desert_v1.jpg
+      ref: maps/9Z3VnJ2cFcGhcaq6z1bJ/photo/hjVTf6pDN4hTwy1jQ6RR-Red_Rock_Desert_v1.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Red Rock Desert v1
   teamCount: 2
@@ -318,6 +468,12 @@
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/9enrMlkiT7SwhG3D35LB/photo/UudMg7yKSUnpboIl3sFI-Crater_Islands_Remake_v1.0.jpg
+      lastModifiedTS: 1683982260758
+      name: Crater_Islands_Remake_v1.0.jpg
+      ref: maps/9enrMlkiT7SwhG3D35LB/photo/UudMg7yKSUnpboIl3sFI-Crater_Islands_Remake_v1.0.jpg
+      type: image/jpeg
   springName: Crater Islands Remake v1.0
   terrain:
     - hills
@@ -331,6 +487,12 @@
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/9pCv5iZ1gaLWioi1A8KJ/photo/e6KcfYWnj72WunjwrEkD-altored_divide_bar_remake_1.6.jpg
+      lastModifiedTS: 1683982261304
+      name: altored_divide_bar_remake_1.6.jpg
+      ref: maps/9pCv5iZ1gaLWioi1A8KJ/photo/e6KcfYWnj72WunjwrEkD-altored_divide_bar_remake_1.6.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Altored Divide Bar Remake 1.6
   teamCount: 2
@@ -342,6 +504,12 @@ ACgCe99NC8yZFecMwRCn:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ACgCe99NC8yZFecMwRCn/photo/28JjEDk0ysfb5y4Eou36-Zed_Remake_3.3.jpg
+      lastModifiedTS: 1683982261820
+      name: Zed_Remake_3.3.jpg
+      ref: maps/ACgCe99NC8yZFecMwRCn/photo/28JjEDk0ysfb5y4Eou36-Zed_Remake_3.3.jpg
+      type: image/jpeg
   springName: Zed Remake 3.3
   terrain:
     - hills
@@ -355,6 +523,12 @@ An6zReiqIWD15Yx7bZ3b:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/An6zReiqIWD15Yx7bZ3b/photo/heuM6R3jGDJawc5i0pwn-Altair_Crossing_V4.jpg
+      lastModifiedTS: 1683983646376
+      name: Altair_Crossing_V4.jpg
+      ref: maps/An6zReiqIWD15Yx7bZ3b/photo/heuM6R3jGDJawc5i0pwn-Altair_Crossing_V4.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Altair_Crossing_V4
   teamCount: 2
@@ -367,6 +541,12 @@ BHxtx4DPxKgPkUTkRg9e:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/BHxtx4DPxKgPkUTkRg9e/photo/3qlS02qEv0213d0Kvcwr-Tangerine_Remake_1.0.jpg
+      lastModifiedTS: 1683982263012
+      name: Tangerine_Remake_1.0.jpg
+      ref: maps/BHxtx4DPxKgPkUTkRg9e/photo/3qlS02qEv0213d0Kvcwr-Tangerine_Remake_1.0.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Tangerine_Remake 1.0
   teamCount: 2
@@ -380,6 +560,12 @@ Cs5xNBZyuBzWCmPJKDbO:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Cs5xNBZyuBzWCmPJKDbO/photo/1rE2SG34EfyDL9wswhfm-ravaged_remake_v1.2.jpg
+      lastModifiedTS: 1683982263568
+      name: ravaged_remake_v1.2.jpg
+      ref: maps/Cs5xNBZyuBzWCmPJKDbO/photo/1rE2SG34EfyDL9wswhfm-ravaged_remake_v1.2.jpg
+      type: image/jpeg
   springName: Ravaged Remake v1.2
   terrain:
     - hills
@@ -388,6 +574,12 @@ Cz4OYo0Z2yht9PUP8vcN:
   certified: true
   description: West vs South team game map. A lot of hot geysers spread here.
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Cz4OYo0Z2yht9PUP8vcN/photo/ofMDo329YT9AZXhjA7lY-sulphur_springs_v1.1.jpg
+      lastModifiedTS: 1683982264084
+      name: sulphur_springs_v1.1.jpg
+      ref: maps/Cz4OYo0Z2yht9PUP8vcN/photo/ofMDo329YT9AZXhjA7lY-sulphur_springs_v1.1.jpg
+      type: image/jpeg
   playerCount: 16
   special: West vs South
   springName: Sulphur Springs v1.1
@@ -402,6 +594,12 @@ DA1NmvXlhztKR1WGRc62:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/DA1NmvXlhztKR1WGRc62/photo/E02u6MYXdMbLIcajLYCU-cervino_v1.jpg
+      lastModifiedTS: 1683982264632
+      name: cervino_v1.jpg
+      ref: maps/DA1NmvXlhztKR1WGRc62/photo/E02u6MYXdMbLIcajLYCU-cervino_v1.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Cervino v1
   teamCount: 2
@@ -414,6 +612,12 @@ DyHExxTkkRB4DweNDViM:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/DyHExxTkkRB4DweNDViM/photo/wBvtLEP7XXJpM37Dui5L-melting_glacier_v1.1.jpg
+      lastModifiedTS: 1683982265276
+      name: melting_glacier_v1.1.jpg
+      ref: maps/DyHExxTkkRB4DweNDViM/photo/wBvtLEP7XXJpM37Dui5L-melting_glacier_v1.1.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Melting Glacier v1.1
   teamCount: 2
@@ -429,6 +633,12 @@ E17BdeDITeBMZ8YwcBie:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/E17BdeDITeBMZ8YwcBie/photo/UoIK0rrY5wc4E1q1OKQp-Colorado_V2_1.1.jpg
+      lastModifiedTS: 1683982265824
+      name: Colorado_V2_1.1.jpg
+      ref: maps/E17BdeDITeBMZ8YwcBie/photo/UoIK0rrY5wc4E1q1OKQp-Colorado_V2_1.1.jpg
+      type: image/jpeg
   playerCount: 14
   springName: Colorado_V2 1.1
   teamCount: 2
@@ -440,6 +650,12 @@ EiT2c89HcHhHeuZxXako:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/EiT2c89HcHhHeuZxXako/photo/GjhiWTzQMSzcLO3Zpiva-TheRock_V3.jpg
+      lastModifiedTS: 1683982266423
+      name: TheRock_V3.jpg
+      ref: maps/EiT2c89HcHhHeuZxXako/photo/GjhiWTzQMSzcLO3Zpiva-TheRock_V3.jpg
+      type: image/jpeg
   springName: TheRock_V3
   terrain:
     - hills
@@ -452,6 +668,12 @@ F40FJFEjKm3hcVzdnIvA:
     - pve
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/F40FJFEjKm3hcVzdnIvA/photo/wGRkjzEWDGvyY3oTJ4oI-Requiem_Outpost_1.0.jpg
+      lastModifiedTS: 1683982267104
+      name: Requiem_Outpost_1.0.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/photo/wGRkjzEWDGvyY3oTJ4oI-Requiem_Outpost_1.0.jpg
+      type: image/jpeg
   playerCount: 5
   springName: Requiem Outpost 1.0
   teamCount: 2
@@ -464,6 +686,12 @@ GPSFfpSd1wtmx4CZRGA6:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GPSFfpSd1wtmx4CZRGA6/photo/MdA8kk63cbQbnOQJWaj7-Trefoil_Remake_2.20.jpg
+      lastModifiedTS: 1683982267555
+      name: Trefoil_Remake_2.20.jpg
+      ref: maps/GPSFfpSd1wtmx4CZRGA6/photo/MdA8kk63cbQbnOQJWaj7-Trefoil_Remake_2.20.jpg
+      type: image/jpeg
   springName: Trefoil Remake 2.20
   terrain:
     - flat
@@ -476,6 +704,12 @@ GT4UKIBCLBwdONdOMChl:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GT4UKIBCLBwdONdOMChl/photo/MQqPwx31SAoWlD7w63dq-Cirolata_1.02.jpg
+      lastModifiedTS: 1683982268136
+      name: Cirolata_1.02.jpg
+      ref: maps/GT4UKIBCLBwdONdOMChl/photo/MQqPwx31SAoWlD7w63dq-Cirolata_1.02.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Cirolata 1.02
   teamCount: 4
@@ -490,6 +724,12 @@ Gkh9KVgCUNbGTXWBjPoV:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Gkh9KVgCUNbGTXWBjPoV/photo/SACwKHuIxx8qjTElcOSU-serene_caldera_v1.1.jpg
+      lastModifiedTS: 1683982268581
+      name: serene_caldera_v1.1.jpg
+      ref: maps/Gkh9KVgCUNbGTXWBjPoV/photo/SACwKHuIxx8qjTElcOSU-serene_caldera_v1.1.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Serene Caldera v1.1
   teamCount: 2
@@ -504,6 +744,12 @@ GuTvi5G3QCGO8KASbbs1:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GuTvi5G3QCGO8KASbbs1/photo/U9PkCHCekBsKZrhNTHNp-darkside_v3.0.jpg
+      lastModifiedTS: 1683982269169
+      name: darkside_v3.0.jpg
+      ref: maps/GuTvi5G3QCGO8KASbbs1/photo/U9PkCHCekBsKZrhNTHNp-darkside_v3.0.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Darkside v3.0
   teamCount: 2
@@ -520,6 +766,12 @@ GxjYgcmTFdC3JivNsghb:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GxjYgcmTFdC3JivNsghb/photo/mKhQJ64cMKInJaAOeyxn-Ring_Atoll_Remake_V1.1.jpg
+      lastModifiedTS: 1683982269724
+      name: Ring_Atoll_Remake_V1.1.jpg
+      ref: maps/GxjYgcmTFdC3JivNsghb/photo/mKhQJ64cMKInJaAOeyxn-Ring_Atoll_Remake_V1.1.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Ring_Atoll_Remake_V1.1
   teamCount: 5
@@ -533,6 +785,12 @@ Gydc5ydDuhV4hS7cyJJm:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Gydc5ydDuhV4hS7cyJJm/photo/7EsUN26wgQdrEBvmJNFV-Death_valley_v1.jpg
+      lastModifiedTS: 1683982270349
+      name: Death_valley_v1.jpg
+      ref: maps/Gydc5ydDuhV4hS7cyJJm/photo/7EsUN26wgQdrEBvmJNFV-Death_valley_v1.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Death Valley v1
   teamCount: 2
@@ -544,6 +802,12 @@ HdwZWKydw2luEc8EascR:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/HdwZWKydw2luEc8EascR/photo/gUxRcnq8izgR45LLNyFX-Pentos_V1.jpg
+      lastModifiedTS: 1683982271389
+      name: Pentos_V1.jpg
+      ref: maps/HdwZWKydw2luEc8EascR/photo/gUxRcnq8izgR45LLNyFX-Pentos_V1.jpg
+      type: image/jpeg
   springName: Pentos_V1
   terrain:
     - flat
@@ -557,6 +821,12 @@ I7GpETWic750BOdwvkdh:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/I7GpETWic750BOdwvkdh/photo/I8Ql4gunXlKI8HklE8yP-Frozen_Ford_V2.jpg
+      lastModifiedTS: 1683982271886
+      name: Frozen_Ford_V2.jpg
+      ref: maps/I7GpETWic750BOdwvkdh/photo/I8Ql4gunXlKI8HklE8yP-Frozen_Ford_V2.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Frozen_Ford_V2
   teamCount: 2
@@ -571,6 +841,12 @@ JWJVrROvEUieLeIfuS9a:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/JWJVrROvEUieLeIfuS9a/photo/txnEKdN1myT3RgGXltOI-BarR_1.1.jpg
+      lastModifiedTS: 1683982272556
+      name: BarR_1.1.jpg
+      ref: maps/JWJVrROvEUieLeIfuS9a/photo/txnEKdN1myT3RgGXltOI-BarR_1.1.jpg
+      type: image/jpeg
   playerCount: 4
   springName: BarR 1.1
   teamCount: 2
@@ -582,6 +858,12 @@ Jdb4pZyLQPb0IkSmaVrO:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Jdb4pZyLQPb0IkSmaVrO/photo/ITwy4hNgCKfIhqaKztjZ-Quicksilver_Remake_1.24.jpg
+      lastModifiedTS: 1683982273187
+      name: Quicksilver_Remake_1.24.jpg
+      ref: maps/Jdb4pZyLQPb0IkSmaVrO/photo/ITwy4hNgCKfIhqaKztjZ-Quicksilver_Remake_1.24.jpg
+      type: image/jpeg
   springName: Quicksilver Remake 1.24
   terrain:
     - flat
@@ -596,6 +878,12 @@ Lpy4w1DTM7BjEfERE3wK:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Lpy4w1DTM7BjEfERE3wK/photo/KmG6Ksdr3HtuCZbX4Kda-Callisto_v3.jpg
+      lastModifiedTS: 1683982273729
+      name: Callisto_v3.jpg
+      ref: maps/Lpy4w1DTM7BjEfERE3wK/photo/KmG6Ksdr3HtuCZbX4Kda-Callisto_v3.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Callisto v3
   teamCount: 2
@@ -611,6 +899,12 @@ LutAHarULFOEKKA21AvQ:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
+      lastModifiedTS: 1683982274266
+      name: Desolation_v1.jpg
+      ref: maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Desolation v1
   teamCount: 2
@@ -625,6 +919,12 @@ MqDO00JzJMESdzVDkkT5:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/MqDO00JzJMESdzVDkkT5/photo/ppl1uBCIqn6z3ievxZBe-tumult_remake_v1.0.jpg
+      lastModifiedTS: 1683982274896
+      name: tumult_remake_v1.0.jpg
+      ref: maps/MqDO00JzJMESdzVDkkT5/photo/ppl1uBCIqn6z3ievxZBe-tumult_remake_v1.0.jpg
+      type: image/jpeg
   springName: Tumult Remake v1.0
   terrain:
     - flat
@@ -636,6 +936,12 @@ MuFsIEswFS9FbuamCfbS:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/MuFsIEswFS9FbuamCfbS/photo/GiVvxCDqf08BAdrIrf8u-Shore_to_Shore_V3.jpg
+      lastModifiedTS: 1683982275597
+      name: Shore_to_Shore_V3.jpg
+      ref: maps/MuFsIEswFS9FbuamCfbS/photo/GiVvxCDqf08BAdrIrf8u-Shore_to_Shore_V3.jpg
+      type: image/jpeg
   springName: Shore_to_Shore_V3
   terrain:
     - water
@@ -648,6 +954,12 @@ NULeDCjbZw5azkUT66rZ:
     - 1v1
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/NULeDCjbZw5azkUT66rZ/photo/MaIjEsuchC9mvMLlMQSa-Asteroid_Mines_V2.1.jpg
+      lastModifiedTS: 1683982276307
+      name: Asteroid_Mines_V2.1.jpg
+      ref: maps/NULeDCjbZw5azkUT66rZ/photo/MaIjEsuchC9mvMLlMQSa-Asteroid_Mines_V2.1.jpg
+      type: image/jpeg
   playerCount: 4
   special: Metal
   springName: Asteroid_Mines_V2.1
@@ -662,6 +974,12 @@ NhuWJFWJBBS46Z1qsmBJ:
     - 1v1
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/NhuWJFWJBBS46Z1qsmBJ/photo/omFiv9dfTwZGVgQbjTII-center_command_bar_v1.0.jpg
+      lastModifiedTS: 1683982277003
+      name: center_command_bar_v1.0.jpg
+      ref: maps/NhuWJFWJBBS46Z1qsmBJ/photo/omFiv9dfTwZGVgQbjTII-center_command_bar_v1.0.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Center Command BAR v1.0
   teamCount: 2
@@ -673,6 +991,12 @@ OgYCeZrIVMN1b9sUbweo:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
+      lastModifiedTS: 1683982277515
+      name: Tau12.jpg
+      ref: maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
+      type: image/jpeg
   springName: Tau12
   terrain:
     - hills
@@ -685,6 +1009,12 @@ PiT4WHNB94kc8vlAZtot:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/PiT4WHNB94kc8vlAZtot/photo/Chk6uSrG0Ck99458ynJS-forge_v1.4.jpg
+      lastModifiedTS: 1683982278044
+      name: forge_v1.4.jpg
+      ref: maps/PiT4WHNB94kc8vlAZtot/photo/Chk6uSrG0Ck99458ynJS-forge_v1.4.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Forge v1.4
   teamCount: 2
@@ -698,6 +1028,12 @@ PlmJPs87RuAnAlL6inG1:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/PlmJPs87RuAnAlL6inG1/photo/cl6aOGXREvjdJnoV4ojI-ice_scream_v2.5.jpg
+      lastModifiedTS: 1683982278558
+      name: ice_scream_v2.5.jpg
+      ref: maps/PlmJPs87RuAnAlL6inG1/photo/cl6aOGXREvjdJnoV4ojI-ice_scream_v2.5.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Ice Scream v2.5
   teamCount: 2
@@ -710,6 +1046,12 @@ QlanwpEXsYOy3ZYYp3iu:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/QlanwpEXsYOy3ZYYp3iu/photo/EG9ZHJ3p3xQjqvMGX98W-Tabula_Remake_1.5.jpg
+      lastModifiedTS: 1683982279245
+      name: Tabula_Remake_1.5.jpg
+      ref: maps/QlanwpEXsYOy3ZYYp3iu/photo/EG9ZHJ3p3xQjqvMGX98W-Tabula_Remake_1.5.jpg
+      type: image/jpeg
   springName: Tabula_Remake 1.5
   terrain:
     - hills
@@ -719,6 +1061,12 @@ QsD0vDtYMgk8ATraKoNI:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/QsD0vDtYMgk8ATraKoNI/photo/JapTghABM3TOuBy0GSSP-tma20x_1.8.jpg
+      lastModifiedTS: 1683982279718
+      name: tma20x_1.8.jpg
+      ref: maps/QsD0vDtYMgk8ATraKoNI/photo/JapTghABM3TOuBy0GSSP-tma20x_1.8.jpg
+      type: image/jpeg
   special: Asteroid
   springName: TMA20X 1.8
   terrain:
@@ -731,6 +1079,12 @@ RDAUlsjOhgAH2fDvAEmI:
     - 1v1
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/RDAUlsjOhgAH2fDvAEmI/photo/GoMUsvsau8A4aHWF4s97-gods_of_war_remake_v1.3.jpg
+      lastModifiedTS: 1683982280245
+      name: gods_of_war_remake_v1.3.jpg
+      ref: maps/RDAUlsjOhgAH2fDvAEmI/photo/GoMUsvsau8A4aHWF4s97-gods_of_war_remake_v1.3.jpg
+      type: image/jpeg
   playerCount: 5
   special: Asymmetrical
   springName: Gods of War Remake v1.3
@@ -743,6 +1097,12 @@ RT3Y6Qyjvt3pTGXWjWPK:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/RT3Y6Qyjvt3pTGXWjWPK/photo/84dvIGI3vOp6IcaK8XIO-hotstepper_5_1.2.jpg
+      lastModifiedTS: 1683982280753
+      name: hotstepper_5_1.2.jpg
+      ref: maps/RT3Y6Qyjvt3pTGXWjWPK/photo/84dvIGI3vOp6IcaK8XIO-hotstepper_5_1.2.jpg
+      type: image/jpeg
   special: Lava
   springName: Hotstepper 5 1.2
   terrain: []
@@ -754,6 +1114,12 @@ SHA84LfmzYbxT8iIyTtU:
     - 1v1
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SHA84LfmzYbxT8iIyTtU/photo/Lfq7Vb90oXDH2kYbZybf-Rifted_V2.jpg
+      lastModifiedTS: 1683982281265
+      name: Rifted_V2.jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/photo/Lfq7Vb90oXDH2kYbZybf-Rifted_V2.jpg
+      type: image/jpeg
   springName: Rifted_V2
   terrain:
     - flat
@@ -763,6 +1129,12 @@ SQpSGbxxp50QcMKG2TJp:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SQpSGbxxp50QcMKG2TJp/photo/qPWKjt0rYNj9cmrLzQdV-supreme_strait_v1.4.jpg
+      lastModifiedTS: 1683982281856
+      name: supreme_strait_v1.4.jpg
+      ref: maps/SQpSGbxxp50QcMKG2TJp/photo/qPWKjt0rYNj9cmrLzQdV-supreme_strait_v1.4.jpg
+      type: image/jpeg
   springName: Supreme Strait v1.4
   terrain:
     - flat
@@ -774,6 +1146,12 @@ SYB0blENn3hqhEyLC24B:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SYB0blENn3hqhEyLC24B/photo/YF4HSzBHaipGgq4R3cNq-Throne_V8.jpg
+      lastModifiedTS: 1683982282508
+      name: Throne_V8.jpg
+      ref: maps/SYB0blENn3hqhEyLC24B/photo/YF4HSzBHaipGgq4R3cNq-Throne_V8.jpg
+      type: image/jpeg
   springName: Throne_V8
   terrain:
     - hills
@@ -784,6 +1162,12 @@ SulTQCK9iY0nr7H3JiKr:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SulTQCK9iY0nr7H3JiKr/photo/rDKV0cylFcF344y9rU77-SapphireShores_V2.2.jpg
+      lastModifiedTS: 1683982283142
+      name: SapphireShores_V2.2.jpg
+      ref: maps/SulTQCK9iY0nr7H3JiKr/photo/rDKV0cylFcF344y9rU77-SapphireShores_V2.2.jpg
+      type: image/jpeg
   springName: SapphireShores_V2.2
   terrain:
     - flat
@@ -795,6 +1179,12 @@ T9CfXfwVVubXUcJbMNra:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/T9CfXfwVVubXUcJbMNra/photo/RTeYQoM3sqz3nZeS0J0e-tetrad_v2.jpg
+      lastModifiedTS: 1683982283652
+      name: tetrad_v2.jpg
+      ref: maps/T9CfXfwVVubXUcJbMNra/photo/RTeYQoM3sqz3nZeS0J0e-tetrad_v2.jpg
+      type: image/jpeg
   springName: Tetrad_V2
   terrain:
     - hills
@@ -806,6 +1196,12 @@ TBlG9YF5CxIvchMI0DZX:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/TBlG9YF5CxIvchMI0DZX/photo/8NKvwzrJyHIXfIqSIcpy-sky_isle_v1.1.jpg
+      lastModifiedTS: 1683982284276
+      name: sky_isle_v1.1.jpg
+      ref: maps/TBlG9YF5CxIvchMI0DZX/photo/8NKvwzrJyHIXfIqSIcpy-sky_isle_v1.1.jpg
+      type: image/jpeg
   playerCount: 6
   special: Air
   springName: Sky Isle v1.1
@@ -818,6 +1214,12 @@ U8PJYIPdYQoMXGJND2Kg:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/U8PJYIPdYQoMXGJND2Kg/photo/D9wTn9oFZOXb8Xz4fqea-EmainMacha_Remake_2.1.jpg
+      lastModifiedTS: 1683982284741
+      name: EmainMacha_Remake_2.1.jpg
+      ref: maps/U8PJYIPdYQoMXGJND2Kg/photo/D9wTn9oFZOXb8Xz4fqea-EmainMacha_Remake_2.1.jpg
+      type: image/jpeg
   playerCount: 10
   springName: EmainMacha Remake 2.1
   teamCount: 2
@@ -830,6 +1232,12 @@ UeeBymo7RdXE5ty3amFw:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/UeeBymo7RdXE5ty3amFw/photo/3hqflPxPOFrZSv9HzdBd-Kolmogorov_Remake_3.0.jpg
+      lastModifiedTS: 1683982285419
+      name: Kolmogorov_Remake_3.0.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/photo/3hqflPxPOFrZSv9HzdBd-Kolmogorov_Remake_3.0.jpg
+      type: image/jpeg
   springName: Kolmogorov Remake 3.0
   terrain:
     - hills
@@ -843,6 +1251,12 @@ UhGP9ish5WdFio1VfrU6:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/UhGP9ish5WdFio1VfrU6/photo/WGvUXAwB1KRGcFUnOEUR-boulder_beach_v1.jpg
+      lastModifiedTS: 1683982285908
+      name: boulder_beach_v1.jpg
+      ref: maps/UhGP9ish5WdFio1VfrU6/photo/WGvUXAwB1KRGcFUnOEUR-boulder_beach_v1.jpg
+      type: image/jpeg
   springName: Boulder_Beach_V1
   terrain:
     - hills
@@ -855,6 +1269,12 @@ UywijIj1uPuFeoV231kL:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/UywijIj1uPuFeoV231kL/photo/wR01lxorxZn0nT5VZZTD-dsd_8_way_1.1.jpg
+      lastModifiedTS: 1683982286584
+      name: dsd_8_way_1.1.jpg
+      ref: maps/UywijIj1uPuFeoV231kL/photo/wR01lxorxZn0nT5VZZTD-dsd_8_way_1.1.jpg
+      type: image/jpeg
   playerCount: 8
   springName: DSD 8 Way 1.1
   teamCount: 8
@@ -870,6 +1290,12 @@ WJBtRZ22UUHZi2GTQ2FQ:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/WJBtRZ22UUHZi2GTQ2FQ/photo/6UpWvsm7pPO97cxeNgFQ-ancient_vault_v1.4.jpg
+      lastModifiedTS: 1683982287073
+      name: ancient_vault_v1.4.jpg
+      ref: maps/WJBtRZ22UUHZi2GTQ2FQ/photo/6UpWvsm7pPO97cxeNgFQ-ancient_vault_v1.4.jpg
+      type: image/jpeg
   playerCount: 16
   special: PVE
   springName: Ancient Vault v1.4
@@ -884,6 +1310,12 @@ WOlmGcTZXUtV5iy57Kc9:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/WOlmGcTZXUtV5iy57Kc9/photo/cgP4uDSbKeEYFBt0TD06-Mariposa_Island_v2.4.jpg
+      lastModifiedTS: 1683982287607
+      name: Mariposa_Island_v2.4.jpg
+      ref: maps/WOlmGcTZXUtV5iy57Kc9/photo/cgP4uDSbKeEYFBt0TD06-Mariposa_Island_v2.4.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Mariposa Island v2.4
   teamCount: 2
@@ -897,6 +1329,12 @@ WuwJQPBtwMfJR9czmWuQ:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/WuwJQPBtwMfJR9czmWuQ/photo/plfMXkCqfuJI0gQcp6El-Krakatoa_V1.jpg
+      lastModifiedTS: 1683982288088
+      name: Krakatoa_V1.jpg
+      ref: maps/WuwJQPBtwMfJR9czmWuQ/photo/plfMXkCqfuJI0gQcp6El-Krakatoa_V1.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Krakatoa_V1
   teamCount: 4
@@ -911,6 +1349,12 @@ X0N11knnIS4fWqkoFPBC:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
+      lastModifiedTS: 1683982288630
+      name: Twin_Lakes_Park_Redux_1.2.jpg
+      ref: maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Twin Lakes Park Redux 1.2
   teamCount: 8
@@ -922,6 +1366,12 @@ XAYu2CrwVdR5GlcpOxL0:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
+      lastModifiedTS: 1683982289182
+      name: Supreme_Crossing_2.2.jpg
+      ref: maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
+      type: image/jpeg
   springName: Supreme_Crossing 2.2
   terrain:
     - flat
@@ -935,6 +1385,12 @@ XLh1oCb0Qdog1h40avFL:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XLh1oCb0Qdog1h40avFL/photo/RcEJbg53gqrr55G9ccp6-centerrock_remake_1.2.jpg
+      lastModifiedTS: 1683982289787
+      name: centerrock_remake_1.2.jpg
+      ref: maps/XLh1oCb0Qdog1h40avFL/photo/RcEJbg53gqrr55G9ccp6-centerrock_remake_1.2.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Centerrock Remake 1.2
   teamCount: 2
@@ -948,6 +1404,12 @@ XMFpTWsDjFSPjJ4nOZSO:
     - ffa
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XMFpTWsDjFSPjJ4nOZSO/photo/3iPL1Vc0wy5b0FRaUylY-red_triangle_remake_v1.3.jpg
+      lastModifiedTS: 1683982290446
+      name: red_triangle_remake_v1.3.jpg
+      ref: maps/XMFpTWsDjFSPjJ4nOZSO/photo/3iPL1Vc0wy5b0FRaUylY-red_triangle_remake_v1.3.jpg
+      type: image/jpeg
   playerCount: 9
   springName: Red Triangle Remake v1.3
   teamCount: 3
@@ -959,6 +1421,12 @@ XipxkGywEz3REbHKrvP6:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XipxkGywEz3REbHKrvP6/photo/PxTkWSgFuECDpTd7fxAi-Taldarim_V3.jpg
+      lastModifiedTS: 1683982290999
+      name: Taldarim_V3.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/photo/PxTkWSgFuECDpTd7fxAi-Taldarim_V3.jpg
+      type: image/jpeg
   springName: Taldarim_V3
   terrain:
     - hills
@@ -970,6 +1438,12 @@ XnCjzq4LvLB6mik5aib1:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XnCjzq4LvLB6mik5aib1/photo/zsZJEIhOImwEdhXIieKn-avalanche_3.4.jpg
+      lastModifiedTS: 1683982291693
+      name: avalanche_3.4.jpg
+      ref: maps/XnCjzq4LvLB6mik5aib1/photo/zsZJEIhOImwEdhXIieKn-avalanche_3.4.jpg
+      type: image/jpeg
   playerCount: 2
   springName: Avalanche 3.4
   teamCount: 2
@@ -981,6 +1455,12 @@ Xut8FRCmn2h5DuUqzF26:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Xut8FRCmn2h5DuUqzF26/photo/r3MAxdHpBW5w6D0bEtjn-Red_Comet_Remake_1.8.jpg
+      lastModifiedTS: 1683982292185
+      name: Red_Comet_Remake_1.8.jpg
+      ref: maps/Xut8FRCmn2h5DuUqzF26/photo/r3MAxdHpBW5w6D0bEtjn-Red_Comet_Remake_1.8.jpg
+      type: image/jpeg
   springName: Red Comet Remake 1.8
   terrain:
     - flat
@@ -991,6 +1471,12 @@ Y5e7sl891wO5G2ttwjmr:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Y5e7sl891wO5G2ttwjmr/photo/Q83GPWg2dnYPDXDPfGqf-Rustcrown_Canyon_1.1.jpg
+      lastModifiedTS: 1683982292674
+      name: Rustcrown_Canyon_1.1.jpg
+      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/Q83GPWg2dnYPDXDPfGqf-Rustcrown_Canyon_1.1.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Rustcrown Canyon 1.1
   teamCount: 2
@@ -1003,6 +1489,12 @@ YNaJCperEfYJu4vFKJWT:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/YNaJCperEfYJu4vFKJWT/photo/sn5wKkfUO0VDNIUpodzz-Tabula_Flooded_v04.jpg
+      lastModifiedTS: 1683982293194
+      name: Tabula_Flooded_v04.jpg
+      ref: maps/YNaJCperEfYJu4vFKJWT/photo/sn5wKkfUO0VDNIUpodzz-Tabula_Flooded_v04.jpg
+      type: image/jpeg
   springName: Tabula_Flooded_v04
   terrain:
     - hills
@@ -1016,6 +1508,12 @@ Ydjj7Fy4NpaLHdkvhsIn:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Ydjj7Fy4NpaLHdkvhsIn/photo/c8wxgQ68uTk9aFTMR4gh-Ditched_V1.jpg
+      lastModifiedTS: 1683982293744
+      name: Ditched_V1.jpg
+      ref: maps/Ydjj7Fy4NpaLHdkvhsIn/photo/c8wxgQ68uTk9aFTMR4gh-Ditched_V1.jpg
+      type: image/jpeg
   playerCount: 20
   springName: Ditched_V1
   teamCount: 2
@@ -1028,6 +1526,12 @@ Yhwa2neMfDTUXyAiSJXC:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
+      lastModifiedTS: 1683982294256
+      name: incandescence_remake_3.3.jpg
+      ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Incandescence Remake 3.3
   teamCount: 2
@@ -1041,6 +1545,12 @@ Z4WHfukbvXeat57zPFGW:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Z4WHfukbvXeat57zPFGW/photo/N7eOCeUTid3ivecCLD5A-centerrock_remake_dry_1.2.jpg
+      lastModifiedTS: 1683982294770
+      name: centerrock_remake_dry_1.2.jpg
+      ref: maps/Z4WHfukbvXeat57zPFGW/photo/N7eOCeUTid3ivecCLD5A-centerrock_remake_dry_1.2.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Centerrock Remake Dry 1.2
   teamCount: 2
@@ -1053,6 +1563,12 @@ Z7wmue7EsjaTNpsdBuyx:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Z7wmue7EsjaTNpsdBuyx/photo/rOjHpHjs0v2pwDkFlXr3-pawn_retreat_1.2.jpg
+      lastModifiedTS: 1683982295311
+      name: pawn_retreat_1.2.jpg
+      ref: maps/Z7wmue7EsjaTNpsdBuyx/photo/rOjHpHjs0v2pwDkFlXr3-pawn_retreat_1.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Pawn Retreat 1.2
   teamCount: 2
@@ -1066,6 +1582,12 @@ ZJNeHQG2ls2h2Xq1hHUy:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZJNeHQG2ls2h2Xq1hHUy/photo/4ApsuHeiEa4NO9691x0v-Mediterraneum_V1.jpg
+      lastModifiedTS: 1683982295995
+      name: Mediterraneum_V1.jpg
+      ref: maps/ZJNeHQG2ls2h2Xq1hHUy/photo/4ApsuHeiEa4NO9691x0v-Mediterraneum_V1.jpg
+      type: image/jpeg
   playerCount: 32
   springName: Mediterraneum_V1
   teamCount: 32
@@ -1081,6 +1603,12 @@ ZeOLwTAgEU10BGvcdQ45:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZeOLwTAgEU10BGvcdQ45/photo/ca69Hzqvj103N6u4IjHV-dworld_v4.jpg
+      lastModifiedTS: 1683982296516
+      name: dworld_v4.jpg
+      ref: maps/ZeOLwTAgEU10BGvcdQ45/photo/ca69Hzqvj103N6u4IjHV-dworld_v4.jpg
+      type: image/jpeg
   playerCount: 16
   springName: DWorld_V4
   teamCount: 16
@@ -1094,6 +1622,12 @@ ZrnTf20mPzbrMjtHa9Wg:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
+      lastModifiedTS: 1683982297054
+      name: Riverrun_V1.jpg
+      ref: maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
+      type: image/jpeg
   springName: Riverrun_V1
   terrain:
     - flat
@@ -1103,6 +1637,12 @@ ZxFS2VuODjyLH5V8mHfR:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZxFS2VuODjyLH5V8mHfR/photo/vGQNFBxiVIgCVpK9r80o-Mescaline_V2.jpg
+      lastModifiedTS: 1683982297743
+      name: Mescaline_V2.jpg
+      ref: maps/ZxFS2VuODjyLH5V8mHfR/photo/vGQNFBxiVIgCVpK9r80o-Mescaline_V2.jpg
+      type: image/jpeg
   springName: Mescaline_V2
   terrain:
     - flat
@@ -1115,6 +1655,12 @@ Zy8Ha3O3lHl7mUMvM8Gs:
     - ffa
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Zy8Ha3O3lHl7mUMvM8Gs/photo/mLBbiUdlIdZRFAQ25ku0-LV412_1.3.jpg
+      lastModifiedTS: 1683982298522
+      name: LV412_1.3.jpg
+      ref: maps/Zy8Ha3O3lHl7mUMvM8Gs/photo/mLBbiUdlIdZRFAQ25ku0-LV412_1.3.jpg
+      type: image/jpeg
   playerCount: 4
   special: Survival
   springName: LV412 1.3
@@ -1127,6 +1673,12 @@ aUhyiiVDKaRECJfqPBAo:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/aUhyiiVDKaRECJfqPBAo/photo/gBaBpjiZOrEdPRlChXDL-Flooded_Valley_V5.jpg
+      lastModifiedTS: 1683982298997
+      name: Flooded_Valley_V5.jpg
+      ref: maps/aUhyiiVDKaRECJfqPBAo/photo/gBaBpjiZOrEdPRlChXDL-Flooded_Valley_V5.jpg
+      type: image/jpeg
   springName: Flooded_Valley_V5
   terrain:
     - hills
@@ -1139,6 +1691,12 @@ bLBXDWyEuUqG825WYzHj:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/bLBXDWyEuUqG825WYzHj/photo/bOuoBPW05Ya1jm2cTrnJ-deeploria_fields_v1.5.jpg
+      lastModifiedTS: 1683982299522
+      name: deeploria_fields_v1.5.jpg
+      ref: maps/bLBXDWyEuUqG825WYzHj/photo/bOuoBPW05Ya1jm2cTrnJ-deeploria_fields_v1.5.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Deeploria Fields v1.5
   teamCount: 2
@@ -1151,6 +1709,12 @@ bkIRTcsnvtmQVsm3SsNJ:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/bkIRTcsnvtmQVsm3SsNJ/photo/9I2cjldlLIAtkv4uXoDa-SpeedMetal_BAR_V2.jpg
+      lastModifiedTS: 1683982300130
+      name: SpeedMetal_BAR_V2.jpg
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/photo/9I2cjldlLIAtkv4uXoDa-SpeedMetal_BAR_V2.jpg
+      type: image/jpeg
   special: Metal
   springName: SpeedMetal BAR V2
   terrain: []
@@ -1161,6 +1725,12 @@ byucseTLrpgU0J70dFC0:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/byucseTLrpgU0J70dFC0/photo/FnQtxUYk7b2dU4VNw087-ghenna_rising_4.0.jpg
+      lastModifiedTS: 1683982300685
+      name: ghenna_rising_4.0.jpg
+      ref: maps/byucseTLrpgU0J70dFC0/photo/FnQtxUYk7b2dU4VNw087-ghenna_rising_4.0.jpg
+      type: image/jpeg
   springName: Ghenna Rising 4.0
   terrain:
     - flat
@@ -1174,6 +1744,12 @@ bzjvHRwFOT6unJsQVVhc:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/bzjvHRwFOT6unJsQVVhc/photo/GZtGbbOnwbuJGDtwIALd-DesertTriad.jpg
+      lastModifiedTS: 1683982301162
+      name: DesertTriad.jpg
+      ref: maps/bzjvHRwFOT6unJsQVVhc/photo/GZtGbbOnwbuJGDtwIALd-DesertTriad.jpg
+      type: image/jpeg
   playerCount: 3
   springName: DesertTriad
   teamCount: 3
@@ -1190,6 +1766,12 @@ c8VOLOtft95bMvYUg60R:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/c8VOLOtft95bMvYUg60R/photo/5oYKAyg7B30SfNbSo61I-Cloud9_V2.jpg
+      lastModifiedTS: 1683982301680
+      name: Cloud9_V2.jpg
+      ref: maps/c8VOLOtft95bMvYUg60R/photo/5oYKAyg7B30SfNbSo61I-Cloud9_V2.jpg
+      type: image/jpeg
   playerCount: 8
   special: Metal
   springName: Cloud9_V2
@@ -1202,6 +1784,12 @@ cQ5LLQmNqCPCnYFiTlcb:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cQ5LLQmNqCPCnYFiTlcb/photo/YiCxALW1GA30M8aaQ6YD-koom_valley_3_3.1.jpg
+      lastModifiedTS: 1683982302213
+      name: koom_valley_3_3.1.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/YiCxALW1GA30M8aaQ6YD-koom_valley_3_3.1.jpg
+      type: image/jpeg
   springName: Koom Valley 3 3.1
   terrain:
     - flat
@@ -1212,6 +1800,12 @@ cYgRxanQzvg7Bx9xXk1H:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cYgRxanQzvg7Bx9xXk1H/photo/PLGdCe5NFsZgi30hWW2u-valles_marineris_2.6.jpg
+      lastModifiedTS: 1683982302768
+      name: valles_marineris_2.6.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/photo/PLGdCe5NFsZgi30hWW2u-valles_marineris_2.6.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Valles Marineris 2.6
   teamCount: 2
@@ -1227,6 +1821,12 @@ cvpud6KzRzucgumjiBgk:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cvpud6KzRzucgumjiBgk/photo/sfvXuiMEVeTMtyODXqSD-Silveridge_v1.jpg
+      lastModifiedTS: 1683982303294
+      name: Silveridge_v1.jpg
+      ref: maps/cvpud6KzRzucgumjiBgk/photo/sfvXuiMEVeTMtyODXqSD-Silveridge_v1.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Silveridge v1
   teamCount: 2
@@ -1238,6 +1838,12 @@ eLHwUEMIb0S3qLy0OT6G:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/eLHwUEMIb0S3qLy0OT6G/photo/TalH8v7eyFa2l311K9qR-Titan_v3.1.jpg
+      lastModifiedTS: 1683982303802
+      name: Titan_v3.1.jpg
+      ref: maps/eLHwUEMIb0S3qLy0OT6G/photo/TalH8v7eyFa2l311K9qR-Titan_v3.1.jpg
+      type: image/jpeg
   springName: Titan v3.1
   terrain:
     - hills
@@ -1247,6 +1853,12 @@ eR6j6L2F2OSP7QeCfW8O:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/eR6j6L2F2OSP7QeCfW8O/photo/JtQ3QbhD184zhfnDn2Sr-Paradise_Lost_V4.jpg
+      lastModifiedTS: 1683982304314
+      name: Paradise_Lost_V4.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/JtQ3QbhD184zhfnDn2Sr-Paradise_Lost_V4.jpg
+      type: image/jpeg
   springName: Paradise_Lost_V4
   terrain:
     - water
@@ -1257,6 +1869,12 @@ etCTTwexgYVGMV63rOWy:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/etCTTwexgYVGMV63rOWy/photo/PxfK0OVAJ6nbA4e1RRPL-Fallendell_V4.jpg
+      lastModifiedTS: 1683982304828
+      name: Fallendell_V4.jpg
+      ref: maps/etCTTwexgYVGMV63rOWy/photo/PxfK0OVAJ6nbA4e1RRPL-Fallendell_V4.jpg
+      type: image/jpeg
   springName: Fallendell_V4
   terrain:
     - hills
@@ -1266,6 +1884,12 @@ fivY9RQRkefErWygMT09:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fivY9RQRkefErWygMT09/photo/f703Hp4ng5o7sfd6hRId-Industrial_Revolution_V2.jpg
+      lastModifiedTS: 1683982305459
+      name: Industrial_Revolution_V2.jpg
+      ref: maps/fivY9RQRkefErWygMT09/photo/f703Hp4ng5o7sfd6hRId-Industrial_Revolution_V2.jpg
+      type: image/jpeg
   playerCount: 12
   springName: Industrial_Revolution_V2
   teamCount: 2
@@ -1279,6 +1903,12 @@ fkhBIvsAdLiL9CvVlp2l:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
+      lastModifiedTS: 1683982306044
+      name: Silent_Sea_v1.jpg
+      ref: maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Silent Sea v1
   teamCount: 2
@@ -1292,6 +1922,12 @@ frJOFVdgDIROpNVzgDed:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/frJOFVdgDIROpNVzgDed/photo/BOIqRlkT58MQkJp0km86-Entrenched_Plains_V2.jpg
+      lastModifiedTS: 1683982306658
+      name: Entrenched_Plains_V2.jpg
+      ref: maps/frJOFVdgDIROpNVzgDed/photo/BOIqRlkT58MQkJp0km86-Entrenched_Plains_V2.jpg
+      type: image/jpeg
   springName: Entrenched_Plains_V2
   terrain:
     - flat
@@ -1301,6 +1937,12 @@ fvLhZp85DLroyv0Iozhe:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fvLhZp85DLroyv0Iozhe/photo/xadVx3D5ZkhwgzghtQEw-Eye_Of_Horus_1.7.jpg
+      lastModifiedTS: 1683982307184
+      name: Eye_Of_Horus_1.7.jpg
+      ref: maps/fvLhZp85DLroyv0Iozhe/photo/xadVx3D5ZkhwgzghtQEw-Eye_Of_Horus_1.7.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Eye Of Horus 1.7
   teamCount: 2
@@ -1313,6 +1955,12 @@ g7NeIaS3XxFSn2KcrCiL:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
+      lastModifiedTS: 1683982307731
+      name: Crystallized_Plains_1.01.jpg
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
+      type: image/jpeg
   playerCount: 2
   springName: Crystallized Plains 1.01
   teamCount: 2
@@ -1327,6 +1975,12 @@ gEgiWXCvonENJseDsfjj:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/gEgiWXCvonENJseDsfjj/photo/wyPXxJEn9pyzUMyrqjVN-Bismuth_Valley_v2.2.jpg
+      lastModifiedTS: 1683982308312
+      name: Bismuth_Valley_v2.2.jpg
+      ref: maps/gEgiWXCvonENJseDsfjj/photo/wyPXxJEn9pyzUMyrqjVN-Bismuth_Valley_v2.2.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Bismuth Valley v2.2
   teamCount: 2
@@ -1341,6 +1995,12 @@ gf2s52iInoEKNyK1vA19:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/gf2s52iInoEKNyK1vA19/photo/Bb2OJnltHK40gH8KMvdM-Sunderance_V1.3.jpg
+      lastModifiedTS: 1683982308791
+      name: Sunderance_V1.3.jpg
+      ref: maps/gf2s52iInoEKNyK1vA19/photo/Bb2OJnltHK40gH8KMvdM-Sunderance_V1.3.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Sunderance V1.3
   teamCount: 4
@@ -1356,6 +2016,12 @@ ggVDNTLRh7HNk4mf9mf6:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ggVDNTLRh7HNk4mf9mf6/photo/ijrIkllRW3hLX1VvJ8cv-Comet_Catcher_Remake_1.8.jpg
+      lastModifiedTS: 1683982309304
+      name: Comet_Catcher_Remake_1.8.jpg
+      ref: maps/ggVDNTLRh7HNk4mf9mf6/photo/ijrIkllRW3hLX1VvJ8cv-Comet_Catcher_Remake_1.8.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Comet Catcher Remake 1.8
   teamCount: 2
@@ -1369,6 +2035,12 @@ hC5Ic7adKaK6YBA68mKY:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/hC5Ic7adKaK6YBA68mKY/photo/vhes5B1eRLndPPHPPYiY-the_halite_maze_v1.4.jpg
+      lastModifiedTS: 1683982309913
+      name: the_halite_maze_v1.4.jpg
+      ref: maps/hC5Ic7adKaK6YBA68mKY/photo/vhes5B1eRLndPPHPPYiY-the_halite_maze_v1.4.jpg
+      type: image/jpeg
   playerCount: 6
   springName: The Halite Maze v1.4
   teamCount: 2
@@ -1381,6 +2053,12 @@ iQZFWB7rheiOseoQXihq:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/iQZFWB7rheiOseoQXihq/photo/JcFcpkK9Zh08Bp9C0sAI-Great_Divide_V1.jpg
+      lastModifiedTS: 1683982310459
+      name: Great_Divide_V1.jpg
+      ref: maps/iQZFWB7rheiOseoQXihq/photo/JcFcpkK9Zh08Bp9C0sAI-Great_Divide_V1.jpg
+      type: image/jpeg
   springName: Great Divide V1
   terrain:
     - hills
@@ -1392,6 +2070,12 @@ iq0vEBrVv1ZudgcWr2ST:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/iq0vEBrVv1ZudgcWr2ST/photo/KFioSWYgeuSQCiF8k7N6-Gecko_Isle_Remake_v1.2.jpg
+      lastModifiedTS: 1683982310973
+      name: Gecko_Isle_Remake_v1.2.jpg
+      ref: maps/iq0vEBrVv1ZudgcWr2ST/photo/KFioSWYgeuSQCiF8k7N6-Gecko_Isle_Remake_v1.2.jpg
+      type: image/jpeg
   springName: Gecko Isle Remake v1.2
   terrain:
     - flat
@@ -1402,6 +2086,12 @@ j29MVJU3ctlnvyEQ6HNb:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/j29MVJU3ctlnvyEQ6HNb/photo/UtaFrIo8gcGulk5zfvhI-Small_Supreme_Battlefield_V3.jpg
+      lastModifiedTS: 1683982311610
+      name: Small_Supreme_Battlefield_V3.jpg
+      ref: maps/j29MVJU3ctlnvyEQ6HNb/photo/UtaFrIo8gcGulk5zfvhI-Small_Supreme_Battlefield_V3.jpg
+      type: image/jpeg
   springName: Small_Supreme_Battlefield_V3
   terrain:
     - flat
@@ -1414,6 +2104,12 @@ j3X9bepS3FrtzjLLNmmu:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/j3X9bepS3FrtzjLLNmmu/photo/iwyoPZitwfUUPhihaUsH-Angel_Crossing_1.5.jpg
+      lastModifiedTS: 1683982312132
+      name: Angel_Crossing_1.5.jpg
+      ref: maps/j3X9bepS3FrtzjLLNmmu/photo/iwyoPZitwfUUPhihaUsH-Angel_Crossing_1.5.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Angel Crossing 1.5
   teamCount: 2
@@ -1428,6 +2124,12 @@ kYhfUnNWQdYfYBIyRbKY:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kYhfUnNWQdYfYBIyRbKY/photo/jN7OWFNtveQSpG5mpcLd-Lake_Carne_dry_v1.jpg
+      lastModifiedTS: 1683982312642
+      name: Lake_Carne_dry_v1.jpg
+      ref: maps/kYhfUnNWQdYfYBIyRbKY/photo/jN7OWFNtveQSpG5mpcLd-Lake_Carne_dry_v1.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Lake Carne dry v1
   teamCount: 2
@@ -1444,6 +2146,12 @@ kesPeWO0ScnmWF2An8qA:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kesPeWO0ScnmWF2An8qA/photo/gMLbch0XYbcC3ytggvgD-Flats_and_Forests_v2.1.jpg
+      lastModifiedTS: 1683982313288
+      name: Flats_and_Forests_v2.1.jpg
+      ref: maps/kesPeWO0ScnmWF2An8qA/photo/gMLbch0XYbcC3ytggvgD-Flats_and_Forests_v2.1.jpg
+      type: image/jpeg
   playerCount: 20
   springName: Flats and Forests v2.1
   teamCount: 10
@@ -1459,6 +2167,12 @@ kgpwvzDGdXoVcD6whG3C:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kgpwvzDGdXoVcD6whG3C/photo/7bl3Pxk69JimaFOLX431-Tempest_V3.jpg
+      lastModifiedTS: 1683982313894
+      name: Tempest_V3.jpg
+      ref: maps/kgpwvzDGdXoVcD6whG3C/photo/7bl3Pxk69JimaFOLX431-Tempest_V3.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Tempest_V3
   teamCount: 2
@@ -1471,6 +2185,12 @@ kovRjd67kdlVUNN4szAP:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kovRjd67kdlVUNN4szAP/photo/zT5llnnzUXnQjoTjoPEk-High_Noon_Remake_1.0.jpg
+      lastModifiedTS: 1683982314396
+      name: High_Noon_Remake_1.0.jpg
+      ref: maps/kovRjd67kdlVUNN4szAP/photo/zT5llnnzUXnQjoTjoPEk-High_Noon_Remake_1.0.jpg
+      type: image/jpeg
   playerCount: 8
   springName: High Noon Remake 1.0
   teamCount: 2
@@ -1487,6 +2207,12 @@ lJQnSRqDN7rNPS5pe80C:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/lJQnSRqDN7rNPS5pe80C/photo/Tna3awRgScCouq7rL174-Oort_Cloud_V2.jpg
+      lastModifiedTS: 1683982314952
+      name: Oort_Cloud_V2.jpg
+      ref: maps/lJQnSRqDN7rNPS5pe80C/photo/Tna3awRgScCouq7rL174-Oort_Cloud_V2.jpg
+      type: image/jpeg
   playerCount: 16
   special: Metal
   springName: Oort_Cloud_V2
@@ -1500,6 +2226,12 @@ ljx3Fdz1TLbewjyAIoVw:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ljx3Fdz1TLbewjyAIoVw/photo/lxAbvb4fC6mncreiUXuY-Tundra_V2.jpg
+      lastModifiedTS: 1683982315470
+      name: Tundra_V2.jpg
+      ref: maps/ljx3Fdz1TLbewjyAIoVw/photo/lxAbvb4fC6mncreiUXuY-Tundra_V2.jpg
+      type: image/jpeg
   springName: Tundra_V2
   terrain:
     - flat
@@ -1512,6 +2244,12 @@ mzdkzzTL3zgPanW6zQx4:
     - 1v1
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/mzdkzzTL3zgPanW6zQx4/photo/ipAhkXQGdeX0kYWcEHoj-faster_than_light_1.1.jpg
+      lastModifiedTS: 1683982316121
+      name: faster_than_light_1.1.jpg
+      ref: maps/mzdkzzTL3zgPanW6zQx4/photo/ipAhkXQGdeX0kYWcEHoj-faster_than_light_1.1.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Faster Than Light 1.1
   teamCount: 2
@@ -1528,6 +2266,12 @@ oBOBWCmenCo2tbkwYNJt:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/oBOBWCmenCo2tbkwYNJt/photo/BAfhTexWVMIGJuD4G5xP-Coastlines_Dry_V2.2.jpg
+      lastModifiedTS: 1683982316556
+      name: Coastlines_Dry_V2.2.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/photo/BAfhTexWVMIGJuD4G5xP-Coastlines_Dry_V2.2.jpg
+      type: image/jpeg
   playerCount: 18
   springName: Coastlines_Dry_V2.2
   teamCount: 2
@@ -1541,6 +2285,12 @@ oHTuEk42qfvZt8tddOnA:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/oHTuEk42qfvZt8tddOnA/photo/xxCqpA2KDZAslz2VdBKp-carrot_mountains_v1.0.jpg
+      lastModifiedTS: 1683982317074
+      name: carrot_mountains_v1.0.jpg
+      ref: maps/oHTuEk42qfvZt8tddOnA/photo/xxCqpA2KDZAslz2VdBKp-carrot_mountains_v1.0.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Carrot Mountains v1.0
   teamCount: 2
@@ -1553,6 +2303,12 @@ oX7eHI8mlpVvJUYs4v4Y:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2F9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg?alt=media&token=96768372-bde0-460f-bbeb-d77e8539e492
+      lastModifiedTS: 1684275889294
+      name: all_that_glitters_v2.1.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg
+      type: image/jpeg
   playerCount: 16
   springName: All That Glitters v2.1
   teamCount: 2
@@ -1567,6 +2323,12 @@ p5q4vnb8BqgpmyEfB2xh:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/p5q4vnb8BqgpmyEfB2xh/photo/NnkGspGJBAOPi2d1XEZa-DSDR_4.1.jpg
+      lastModifiedTS: 1683982318190
+      name: DSDR_4.1.jpg
+      ref: maps/p5q4vnb8BqgpmyEfB2xh/photo/NnkGspGJBAOPi2d1XEZa-DSDR_4.1.jpg
+      type: image/jpeg
   playerCount: 10
   springName: DSDR 4.1
   teamCount: 2
@@ -1578,6 +2340,12 @@ pZko6a1Lqs5ZYeVO0BqS:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pZko6a1Lqs5ZYeVO0BqS/photo/vuzJhK6oTcjcDXqvuY4Y-Supreme_Crossing_V1.jpg
+      lastModifiedTS: 1683982318704
+      name: Supreme_Crossing_V1.jpg
+      ref: maps/pZko6a1Lqs5ZYeVO0BqS/photo/vuzJhK6oTcjcDXqvuY4Y-Supreme_Crossing_V1.jpg
+      type: image/jpeg
   springName: Supreme_Crossing_V1
   terrain:
     - flat
@@ -1588,6 +2356,12 @@ pqGeTK0PB1xPJ6A1u6CO:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
+      lastModifiedTS: 1683982319245
+      name: TitanDuel_V3.jpg
+      ref: maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
+      type: image/jpeg
   springName: TitanDuel_V3
   terrain:
     - flat
@@ -1602,6 +2376,12 @@ pzZ5zAyferpDePxtC2hG:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pzZ5zAyferpDePxtC2hG/photo/0CAb9kEtVoZ8KyiL4ahV-Tundra_Continents_v2.3.jpg
+      lastModifiedTS: 1683982319855
+      name: Tundra_Continents_v2.3.jpg
+      ref: maps/pzZ5zAyferpDePxtC2hG/photo/0CAb9kEtVoZ8KyiL4ahV-Tundra_Continents_v2.3.jpg
+      type: image/jpeg
   playerCount: 20
   springName: Tundra Continents v2.3
   teamCount: 10
@@ -1614,6 +2394,12 @@ rQ8v6BePPrXIaQaaQjam:
   gameType:
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/rQ8v6BePPrXIaQaaQjam/photo/MmfXe44hf11iDl8b7R9k-Hooked_1.1.jpg
+      lastModifiedTS: 1683982320420
+      name: Hooked_1.1.jpg
+      ref: maps/rQ8v6BePPrXIaQaaQjam/photo/MmfXe44hf11iDl8b7R9k-Hooked_1.1.jpg
+      type: image/jpeg
   playerCount: 2
   springName: Hooked 1.1
   teamCount: 2
@@ -1625,6 +2411,12 @@ s7nrY1vJEItDuPwHAKEO:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/s7nrY1vJEItDuPwHAKEO/photo/juyu4YwxfkiWk42GGV0B-MoonQ20XR2_2.5.jpg
+      lastModifiedTS: 1683982320946
+      name: MoonQ20XR2_2.5.jpg
+      ref: maps/s7nrY1vJEItDuPwHAKEO/photo/juyu4YwxfkiWk42GGV0B-MoonQ20XR2_2.5.jpg
+      type: image/jpeg
   special: Craters
   springName: MoonQ20XR2 2.5
   terrain:
@@ -1637,6 +2429,12 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
+      lastModifiedTS: 1683982321469
+      name: Shallow_Straits_v1.jpg
+      ref: maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
+      type: image/jpeg
   playerCount: 6
   springName: Shallow Straits v1
   teamCount: 2
@@ -1649,6 +2447,12 @@ snRldJIaPiKTiNiEAPEg:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/snRldJIaPiKTiNiEAPEg/photo/ImrpiWt31vesbpJULyML-Stronghold_V4.jpg
+      lastModifiedTS: 1683982322183
+      name: Stronghold_V4.jpg
+      ref: maps/snRldJIaPiKTiNiEAPEg/photo/ImrpiWt31vesbpJULyML-Stronghold_V4.jpg
+      type: image/jpeg
   springName: Stronghold V4
   terrain:
     - flat
@@ -1662,6 +2466,12 @@ te9bV2b9aiw8w9qgzTJg:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/te9bV2b9aiw8w9qgzTJg/photo/3kS3nwib1cFpLNeozUQt-the_cold_place_BAR_v1.1.jpg
+      lastModifiedTS: 1683982322887
+      name: the_cold_place_BAR_v1.1.jpg
+      ref: maps/te9bV2b9aiw8w9qgzTJg/photo/3kS3nwib1cFpLNeozUQt-the_cold_place_BAR_v1.1.jpg
+      type: image/jpeg
   playerCount: 6
   springName: The Cold Place BAR v1.1
   teamCount: 2
@@ -1677,6 +2487,12 @@ u17mWZp6jqx5b5s0Or5z:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/u17mWZp6jqx5b5s0Or5z/photo/NiUxJcSpj8NU9YDK3cZD-theta_crystals_1.0.jpg
+      lastModifiedTS: 1683982323358
+      name: theta_crystals_1.0.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/NiUxJcSpj8NU9YDK3cZD-theta_crystals_1.0.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Theta Crystals 1.0
   teamCount: 2
@@ -1692,6 +2508,12 @@ uV4t5gveu4Ru1Lrm1e1l:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/uV4t5gveu4Ru1Lrm1e1l/photo/e2gX3GLbupH3YOSmoGHl-point_of_no_return_v1.0.jpg
+      lastModifiedTS: 1683982324043
+      name: point_of_no_return_v1.0.jpg
+      ref: maps/uV4t5gveu4Ru1Lrm1e1l/photo/e2gX3GLbupH3YOSmoGHl-point_of_no_return_v1.0.jpg
+      type: image/jpeg
   playerCount: 10
   special: Asymmetrical
   springName: Point of No Return v1.0
@@ -1705,6 +2527,12 @@ uZq5zZ1FTcdZ7FS4k3lc:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
+      lastModifiedTS: 1683982324522
+      name: hotlips_remake_v3.1.jpg
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
+      type: image/jpeg
   springName: Hotlips Remake v3.1
   terrain:
     - flat
@@ -1716,6 +2544,12 @@ vFNwoJJ3cCMzSaAAQPvR:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/vFNwoJJ3cCMzSaAAQPvR/photo/M5NPuUIMLa4qZwx91vCY-starwatcher_0.9.jpg
+      lastModifiedTS: 1683982325147
+      name: starwatcher_0.9.jpg
+      ref: maps/vFNwoJJ3cCMzSaAAQPvR/photo/M5NPuUIMLa4qZwx91vCY-starwatcher_0.9.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Starwatcher 0.9
   teamCount: 2
@@ -1729,6 +2563,12 @@ vTVisQEv3JM2pa0TvUHy:
     - ffa
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/vTVisQEv3JM2pa0TvUHy/photo/L3jmPAmRhXoMk2bBzE4Y-Evad_River_Confluence_V2.jpg
+      lastModifiedTS: 1683982325840
+      name: Evad_River_Confluence_V2.jpg
+      ref: maps/vTVisQEv3JM2pa0TvUHy/photo/L3jmPAmRhXoMk2bBzE4Y-Evad_River_Confluence_V2.jpg
+      type: image/jpeg
   springName: Evad River Confluence_V2
   terrain:
     - flat
@@ -1740,6 +2580,12 @@ veW9CUoQ0oV7OofQab4y:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/veW9CUoQ0oV7OofQab4y/photo/GS3gIvbxMSN1PLLnMP4B-Cape_Violet_V1.jpg
+      lastModifiedTS: 1683982326437
+      name: Cape_Violet_V1.jpg
+      ref: maps/veW9CUoQ0oV7OofQab4y/photo/GS3gIvbxMSN1PLLnMP4B-Cape_Violet_V1.jpg
+      type: image/jpeg
   playerCount: 8
   springName: Cape_Violet_V1
   teamCount: 2
@@ -1752,6 +2598,12 @@ vryCgnmiXKEfnJuBLobP:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/vryCgnmiXKEfnJuBLobP/photo/QSkH6k0AtA19U6Odo6Aq-Greenest_Fields_1.3.jpg
+      lastModifiedTS: 1683982326958
+      name: Greenest_Fields_1.3.jpg
+      ref: maps/vryCgnmiXKEfnJuBLobP/photo/QSkH6k0AtA19U6Odo6Aq-Greenest_Fields_1.3.jpg
+      type: image/jpeg
   special: No Metal
   springName: Greenest Fields 1.3
   terrain:
@@ -1763,6 +2615,12 @@ wQa6jdSr4HBUH6p21eI8:
   gameType:
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/wQa6jdSr4HBUH6p21eI8/photo/NOENh00mFXrR6clgIy78-blackstar_v2.jpg
+      lastModifiedTS: 1683982327668
+      name: blackstar_v2.jpg
+      ref: maps/wQa6jdSr4HBUH6p21eI8/photo/NOENh00mFXrR6clgIy78-blackstar_v2.jpg
+      type: image/jpeg
   playerCount: 5
   springName: BlackStar_v2
   teamCount: 5
@@ -1776,6 +2634,12 @@ wyCcSCcx7UYOY5bT4d5P:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/wyCcSCcx7UYOY5bT4d5P/photo/msstjnxjQQk6VNjbqFqt-ReRaghnarok_1.jpg
+      lastModifiedTS: 1683982328195
+      name: ReRaghnarok_1.jpg
+      ref: maps/wyCcSCcx7UYOY5bT4d5P/photo/msstjnxjQQk6VNjbqFqt-ReRaghnarok_1.jpg
+      type: image/jpeg
   springName: ReRaghnarok 1
   terrain:
     - flat
@@ -1788,6 +2652,12 @@ x0Y6f1ou7U5tF3S9xllC:
     - 1v1
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/x0Y6f1ou7U5tF3S9xllC/photo/hXyKXfrI1KQBHZUsSruB-Riverdale_Remake_2.1.jpg
+      lastModifiedTS: 1683982328882
+      name: Riverdale_Remake_2.1.jpg
+      ref: maps/x0Y6f1ou7U5tF3S9xllC/photo/hXyKXfrI1KQBHZUsSruB-Riverdale_Remake_2.1.jpg
+      type: image/jpeg
   springName: Riverdale Remake 2.1
   terrain:
     - flat
@@ -1801,6 +2671,12 @@ x3jIjnV9aipWzVVWjZlL:
     - team
     - pve
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/x3jIjnV9aipWzVVWjZlL/photo/oUpHXmuczl0CapP8x7xg-Nine_Metal_Islands_V1.jpg
+      lastModifiedTS: 1683982329490
+      name: Nine_Metal_Islands_V1.jpg
+      ref: maps/x3jIjnV9aipWzVVWjZlL/photo/oUpHXmuczl0CapP8x7xg-Nine_Metal_Islands_V1.jpg
+      type: image/jpeg
   playerCount: 18
   special: Metal
   springName: Nine_Metal_Islands_V1
@@ -1815,6 +2691,12 @@ xbJTsdeXIKFQmuvBHW3d:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xbJTsdeXIKFQmuvBHW3d/photo/tDliYQN5TMsMVdahqcha-Timna_Island_1.0.jpg
+      lastModifiedTS: 1683982330046
+      name: Timna_Island_1.0.jpg
+      ref: maps/xbJTsdeXIKFQmuvBHW3d/photo/tDliYQN5TMsMVdahqcha-Timna_Island_1.0.jpg
+      type: image/jpeg
   playerCount: 6
   special: Asymmetrical
   springName: Timna Island 1.0
@@ -1831,6 +2713,12 @@ xn2aVcKlkpTQAakCC3Z8:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
+      lastModifiedTS: 1683982330616
+      name: copper_hill_v1.jpg
+      ref: maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Copper Hill v1
   teamCount: 2
@@ -1844,6 +2732,12 @@ yhOJI5yH4yGFmx9PMt9T:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/yhOJI5yH4yGFmx9PMt9T/photo/b5ED97PkmZEFfzpdjH0N-Lake_Carne_v2.jpg
+      lastModifiedTS: 1683982331308
+      name: Lake_Carne_v2.jpg
+      ref: maps/yhOJI5yH4yGFmx9PMt9T/photo/b5ED97PkmZEFfzpdjH0N-Lake_Carne_v2.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Lake Carne v2
   teamCount: 2
@@ -1857,6 +2751,12 @@ z7TZ4CbeIBJtjEjNAwer:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/z7TZ4CbeIBJtjEjNAwer/photo/b1yPvZjikM6OLTYsfWbs-Downs_of_Destruction_V2.jpg
+      lastModifiedTS: 1683982331821
+      name: Downs_of_Destruction_V2.jpg
+      ref: maps/z7TZ4CbeIBJtjEjNAwer/photo/b1yPvZjikM6OLTYsfWbs-Downs_of_Destruction_V2.jpg
+      type: image/jpeg
   playerCount: 10
   springName: Downs_of_Destruction_V2
   teamCount: 2
@@ -1870,6 +2770,12 @@ zfA6sKjimXZO5kz0jtz1:
     - ffa
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zfA6sKjimXZO5kz0jtz1/photo/ZupLBxGJFvaDVA879guA-Omega_Valley_V0.1.jpg
+      lastModifiedTS: 1683982332553
+      name: Omega_Valley_V0.1.jpg
+      ref: maps/zfA6sKjimXZO5kz0jtz1/photo/ZupLBxGJFvaDVA879guA-Omega_Valley_V0.1.jpg
+      type: image/jpeg
   playerCount: 4
   springName: Omega Valley V0.1
   teamCount: 2
@@ -1882,6 +2788,12 @@ zoXOP8VC1sNWpsP41IYV:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zoXOP8VC1sNWpsP41IYV/photo/sQxsoxaDb7kqDdYCwjF9-Plethora_of_Ponds_V1.jpg
+      lastModifiedTS: 1683982333021
+      name: Plethora_of_Ponds_V1.jpg
+      ref: maps/zoXOP8VC1sNWpsP41IYV/photo/sQxsoxaDb7kqDdYCwjF9-Plethora_of_Ponds_V1.jpg
+      type: image/jpeg
   springName: Plethora_of_Ponds_V1
   terrain:
     - flat
@@ -1893,6 +2805,12 @@ zvBCoDF2TaUPp7AwfCUr:
     - team
     - 1v1
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zvBCoDF2TaUPp7AwfCUr/photo/jvoKXrxDmwa0pjJg8sdu-Pinewood_Derby_V1.jpg
+      lastModifiedTS: 1683982333576
+      name: Pinewood_Derby_V1.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/jvoKXrxDmwa0pjJg8sdu-Pinewood_Derby_V1.jpg
+      type: image/jpeg
   springName: Pinewood_Derby_V1
   terrain:
     - hills
@@ -1902,6 +2820,12 @@ zvTEXnewG2G8LaMjFq4o:
   gameType:
     - team
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zvTEXnewG2G8LaMjFq4o/photo/Vz82Llxb6p3TojR31iT8-nuclear_winter_bar_1.4.jpg
+      lastModifiedTS: 1683982334121
+      name: nuclear_winter_bar_1.4.jpg
+      ref: maps/zvTEXnewG2G8LaMjFq4o/photo/Vz82Llxb6p3TojR31iT8-nuclear_winter_bar_1.4.jpg
+      type: image/jpeg
   springName: Nuclear Winter Bar 1.4
   terrain:
     - flat
@@ -1912,6 +2836,12 @@ zzzzzzzzzzzzzzzzzzzx:
     - team
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zzzzzzzzzzzzzzzzzzzx/photo/AEzy0dju5vzdMZPMnqjH-AcidicQuarry_5.16.jpg
+      lastModifiedTS: 1683982334577
+      name: AcidicQuarry_5.16.jpg
+      ref: maps/zzzzzzzzzzzzzzzzzzzx/photo/AEzy0dju5vzdMZPMnqjH-AcidicQuarry_5.16.jpg
+      type: image/jpeg
   special: Air
   springName: AcidicQuarry 5.16
   terrain:
@@ -1925,6 +2855,12 @@ zzzzzzzzzzzzzzzzzzzy:
     - team
     - ffa
   inPool: true
+  photo:
+    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zzzzzzzzzzzzzzzzzzzy/photo/P0HFTenK0PmpQ6HZlpmX-Aberdeen3v3v3.jpg
+      lastModifiedTS: 1683982335180
+      name: Aberdeen3v3v3.jpg
+      ref: maps/zzzzzzzzzzzzzzzzzzzy/photo/P0HFTenK0PmpQ6HZlpmX-Aberdeen3v3v3.jpg
+      type: image/jpeg
   playerCount: 9
   springName: Aberdeen3v3v3
   teamCount: 3
