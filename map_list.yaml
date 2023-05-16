@@ -55,15 +55,17 @@
     - flat
     - water
 1JL7kMOT8mYsx2OEQnv8:
-  author: BasiC
+  author: Nikuksis
   certified: true
+  description: Small desert map, middle hills are passable by bots, up to 8 players.
   gameType:
     - team
     - 1v1
   inPool: true
-  springName: Sertagatta_V5
+  springName: Sertagatta v6.0
   terrain:
     - flat
+    - hills
 1kGT39gW0lJEkp6VxeZU:
   author: Beherith
   certified: true
@@ -536,16 +538,6 @@ Gydc5ydDuhV4hS7cyJJm:
   teamCount: 2
   terrain:
     - hills
-HQXPXfVXBGBMRgezuakx:
-  author: BasiC
-  certified: true
-  gameType:
-    - team
-    - 1v1
-  inPool: true
-  springName: Sertaleina_V8
-  terrain:
-    - flat
 HdwZWKydw2luEc8EascR:
   author: Beherith
   certified: true
