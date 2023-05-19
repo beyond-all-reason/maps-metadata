@@ -46,7 +46,7 @@ jobs:
         with:
           name: gen-artifacts
           path: gen
-  deploy:
+  deploy-cdn:
     runs-on: ubuntu-latest
     needs: build-and-test
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
@@ -67,3 +67,59 @@ jobs:
           CLOUDFLARE_ACCESS_KEY_ID: ${{ vars.CLOUDFLARE_R2_ACCESS_KEY_ID }}
           CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
           R2_BUCKET_NAME: ${{ vars.MAPS_METADATA_BUCKET_NAME }}
+  deploy-chobby:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch') && !vars.DISABLE_BYAR_CHOBBY_PUSH
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: gen-artifacts
+          path: gen
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: actions/cache@v3
+        if: ${{ !env.ACT }}
+        with:
+          path: |
+            .pyenv
+            .scripts/js/node_modules
+          key: scripts-deps-${{ hashFiles('scripts/js/package-lock.json', 'scripts/py/requirements.txt') }}
+      - name: Install dependencies
+        run: ./scripts/install.sh
+      - name: Checkout BYAR-Chobby
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository_owner }}/BYAR-Chobby
+          path: BYAR-Chobby
+          ssh-key: ${{ secrets.SSH_DEPLOY_KEY }}
+      - name: Patch Chobby
+        run: |
+          source .envrc
+          ts-node scripts/js/src/update_byar_chobby_images.ts BYAR-Chobby
+          cp gen/mapDetails.lua BYAR-Chobby/LuaMenu/configs/gameConfig/byar/mapDetails.lua
+      - name: Commit and push
+        run: |
+          cd BYAR-Chobby
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git remote -v
+          echo "[+] Git add"
+          git add .
+          echo "[+] Git status"
+          git status
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          echo "[+] Git commit"
+          git commit -m $'Automatic update of maps from maps-metadata\n\nFrom commit ${{ github.repository }}@${{ github.sha }}'
+          echo "[+] Git push"
+          git push
