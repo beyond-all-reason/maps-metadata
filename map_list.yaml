@@ -1702,6 +1702,23 @@ bLBXDWyEuUqG825WYzHj:
   teamCount: 2
   terrain:
     - water
+bX4YxbtQ8YCc6G0yMumJ:
+  author: Nikuksis
+  certified: true
+  description: Small 1v1 high wind desert map
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
+      lastModifiedTS: 1684488827295
+      name: sertaleina_v9.0.jpg
+      ref: maps/bX4YxbtQ8YCc6G0yMumJ/photo/rkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg
+      type: image/jpeg
+  springName: Sertaleina_v9.0
+  terrain:
+    - flat
 bkIRTcsnvtmQVsm3SsNJ:
   author: Beherith
   certified: true
