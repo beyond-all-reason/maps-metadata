@@ -1,8 +1,6 @@
 Maps metadata
 =============
 
-**WORK IN PROGRESS**
-
 This repository contains metadata for maps used in Beyond All Reason game.
 
 It contains files that work as source of truth that is then used by different
@@ -18,8 +16,7 @@ Development
 -----------
 
 Mostly, you modify the source of truth files, commit via pull request and
-it gets deployed via GitHub Actions workflow. (TODO: for now only basic 
-is im building)
+it gets deployed via GitHub Actions workflow.
 
 When you are changing scripts, it's useful to be able to regenerate files
 manually and check if all is working correctly. It's possible to do it in two
