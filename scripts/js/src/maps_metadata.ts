@@ -45,13 +45,17 @@ function loadMapLocationCache(): Map<string, MapLocation> {
     const mapLocationCacheVersion = 1;
 
     process.on('beforeExit', () => {
-        writeFileSync(
-            path.join(mapsCacheDir, 'mapLocationCache.json'),
-            JSON.stringify({
-                date: new Date().getTime(),
-                version: mapLocationCacheVersion,
-                entries: [...mapLocationCache]
-            }));
+        try {
+            writeFileSync(
+                path.join(mapsCacheDir, 'mapLocationCache.json'),
+                JSON.stringify({
+                    date: new Date().getTime(),
+                    version: mapLocationCacheVersion,
+                    entries: [...mapLocationCache]
+                }));
+        } catch (e) {
+            console.warn(`Warning: ${e}`);
+        }
     });
 
     try {
@@ -62,7 +66,7 @@ function loadMapLocationCache(): Map<string, MapLocation> {
             return new Map(mlc.entries);
         }
     } catch (e) {
-        console.warn(`Failed to read mapLocationCache.json: ${e}`);
+        console.warn(`Warning: ${e}`);
     }
     return new Map();
 }
