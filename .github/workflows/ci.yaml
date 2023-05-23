@@ -38,9 +38,9 @@ jobs:
       - name: Install dependencies
         run: ./scripts/install.sh
       - name: Build
-        run: source .envrc && make
+        run: source .envrc && make -j $(nproc)
       - name: Test
-        run: source .envrc && make test
+        run: source .envrc && make -j $(nproc) test
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:

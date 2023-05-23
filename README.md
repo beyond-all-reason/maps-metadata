@@ -77,13 +77,13 @@ about `docker cp`.
 Generation of output files is done using Makefile, so run
 
 ```
-make
+make -j $(nproc)
 ```
 
 to regenerate all files in the `gen/` directory, and then
 
 ```
-make test
+make -j $(nproc) test
 ```
 
 to run additional checks on them.
