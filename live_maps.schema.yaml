@@ -1,0 +1,25 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/live_maps.schema.json
+title: LiveMapsList
+description: List of maps that need to be present on autohosts and gdrive
+type: array
+items:
+  title: LiveMapEntry
+  type: object
+  properties:
+    springName:
+      type: string
+    fileName:
+      type: string
+    downloadURL:
+      type: string
+      format: uri
+    md5:
+      type: string
+  additionalProperties: false
+  required:
+    - springName
+    - fileName
+    - downloadURL
+    - md5
+minItems: 1
