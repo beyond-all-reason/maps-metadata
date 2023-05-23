@@ -4,7 +4,9 @@ import { Storage } from '@google-cloud/storage';
 import got from 'got';
 import path from 'node:path';
 import fs from 'node:fs/promises';
+import { writeFileSync, readFileSync } from 'node:fs';
 import stream from 'node:stream/promises';
+import process from 'node:process';
 import type { MapList } from '../../../gen/types/map_list.js';
 
 
@@ -39,7 +41,33 @@ async function downloadFile(bucket: string, filePath: string, outputPath: string
     }
 }
 
-const mapLocationCache: Map<string, MapLocation> = new Map();
+function loadMapLocationCache(): Map<string, MapLocation> {
+    const mapLocationCacheVersion = 1;
+
+    process.on('beforeExit', () => {
+        writeFileSync(
+            path.join(mapsCacheDir, 'mapLocationCache.json'),
+            JSON.stringify({
+                date: new Date().getTime(),
+                version: mapLocationCacheVersion,
+                entries: [...mapLocationCache]
+            }));
+    });
+
+    try {
+        const mlc = JSON.parse(readFileSync(
+            path.join(mapsCacheDir, 'mapLocationCache.json'), { encoding: 'utf8' }));
+        if (mlc.version == mapLocationCacheVersion &&
+            new Date().getTime() - mlc.date < 1000 * 60 * 60 * 48) {
+            return new Map(mlc.entries);
+        }
+    } catch (e) {
+        console.warn(`Failed to read mapLocationCache.json: ${e}`);
+    }
+    return new Map();
+}
+
+const mapLocationCache: Map<string, MapLocation> = loadMapLocationCache();
 
 async function getMapLocation(springName: string): Promise<MapLocation> {
     if (!mapLocationCache.has(springName)) {
