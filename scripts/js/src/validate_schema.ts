@@ -2,6 +2,8 @@
 
 import AjvModule from "ajv/dist/2020.js";
 const Ajv = AjvModule.default;
+import AjcVormats from "ajv-formats";
+const addFormats = AjcVormats.default;
 import stringify from "json-stable-stringify";
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
@@ -21,6 +23,7 @@ const ajv = new Ajv({
     allErrors: true,
     useDefaults: true,
 });
+addFormats(ajv);
 const validate = ajv.compile(JSON.parse(schema));
 
 const data = JSON.parse(jsonData);

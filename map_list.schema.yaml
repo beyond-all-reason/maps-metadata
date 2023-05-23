@@ -73,6 +73,7 @@ $defs:
         $comment: Path to the file in storage bucket
       downloadURL:
         type: string
+        format: uri
         $comment: URL to download the file
       name:
         type: string
