@@ -1,0 +1,50 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/cdn_maps.schema.json
+title: CDNMaps
+description: Map download info from springfiles API.
+type: array
+items:
+  type: array
+  items:
+    title: MapCDNInfo
+    type: object
+    properties:
+      springname:
+        type: string
+      filename:
+        type: string
+        pattern: '^[^ ]+\.(sd7|sdz)$'
+      md5:
+        type: string
+        pattern: '^[0-9a-f]{32}$'
+      category:
+        const: 'map'
+      tags:
+        type: array
+        items:
+          type: string
+        uniqueItems: true
+      size:
+        type: integer
+      timestamp:
+        type: string
+        format: date-time
+      mirrors:
+        type: array
+        items:
+          type: string
+          format: uri
+        minItems: 1
+    required:
+      - springname
+      - filename
+      - md5
+      - category
+      - tags
+      - size
+      - timestamp
+      - mirrors
+    additionalProperties: true
+  minItems: 1
+  maxItems: 1
+minItems: 1
