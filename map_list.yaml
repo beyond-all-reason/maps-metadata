@@ -1323,20 +1323,21 @@ WOlmGcTZXUtV5iy57Kc9:
     - hills
     - water
 WuwJQPBtwMfJR9czmWuQ:
-  author: Beherith
+  author: Nikuksis
   certified: true
+  description: 16-way FFA map
   gameType:
     - ffa
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/WuwJQPBtwMfJR9czmWuQ/photo/plfMXkCqfuJI0gQcp6El-Krakatoa_V1.jpg
-      lastModifiedTS: 1683982288088
-      name: Krakatoa_V1.jpg
-      ref: maps/WuwJQPBtwMfJR9czmWuQ/photo/plfMXkCqfuJI0gQcp6El-Krakatoa_V1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWuwJQPBtwMfJR9czmWuQ%2Fphoto%2FkA5BgLKSES8X4ArAhxFj-krakatoa_v2.0.jpg?alt=media&token=77a1f422-67f9-4c7e-9ab8-53222763c151
+      lastModifiedTS: 1684921056892
+      name: krakatoa_v2.0.jpg
+      ref: maps/WuwJQPBtwMfJR9czmWuQ/photo/kA5BgLKSES8X4ArAhxFj-krakatoa_v2.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Krakatoa_V1
+  springName: Krakatoa_V2.0
   teamCount: 4
   terrain:
     - hills
