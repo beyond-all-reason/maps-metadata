@@ -69,18 +69,18 @@
   terrain:
     - hills
 1FfJKeljSZeWodN5FZsW:
-  author: Beherith
-  certified: false
+  author: Nikuksis
+  certified: true
   gameType:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/1FfJKeljSZeWodN5FZsW/photo/VrCiOL6zRIl89ofHJrkz-Tropical-v2.jpg
-      lastModifiedTS: 1683982248894
-      name: Tropical-v2.jpg
-      ref: maps/1FfJKeljSZeWodN5FZsW/photo/VrCiOL6zRIl89ofHJrkz-Tropical-v2.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1FfJKeljSZeWodN5FZsW%2Fphoto%2FFd2UJv7r7nm3j44ymV5B-tropical_assault_v3.0.jpg?alt=media&token=175c9e43-d4e5-4fae-826e-8342024b8a5f
+      lastModifiedTS: 1685093821603
+      name: tropical_assault_v3.0.jpg
+      ref: maps/1FfJKeljSZeWodN5FZsW/photo/Fd2UJv7r7nm3j44ymV5B-tropical_assault_v3.0.jpg
       type: image/jpeg
-  springName: Tropical-v2
+  springName: Tropical Assault v3.0
   terrain:
     - flat
     - water
