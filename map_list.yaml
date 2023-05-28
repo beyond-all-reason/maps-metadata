@@ -759,21 +759,20 @@ GuTvi5G3QCGO8KASbbs1:
 GxjYgcmTFdC3JivNsghb:
   author: Nikuksis
   certified: true
-  description: Medium sized map, optimal for 4 to 6 players. Fight for the circle
-    of islands and shallow water in the middle.
+  description: Ring of small islands with shallow middle. Up to 10 players.
   gameType:
     - ffa
     - team
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GxjYgcmTFdC3JivNsghb/photo/mKhQJ64cMKInJaAOeyxn-Ring_Atoll_Remake_V1.1.jpg
-      lastModifiedTS: 1683982269724
-      name: Ring_Atoll_Remake_V1.1.jpg
-      ref: maps/GxjYgcmTFdC3JivNsghb/photo/mKhQJ64cMKInJaAOeyxn-Ring_Atoll_Remake_V1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGxjYgcmTFdC3JivNsghb%2Fphoto%2F6WfM2kgIb7cfYP8ObUwm-ring_atoll_remake_v2.0.jpg?alt=media&token=0798d07e-9f79-4852-ac42-6a162185dfe5
+      lastModifiedTS: 1685269945748
+      name: ring_atoll_remake_v2.0.jpg
+      ref: maps/GxjYgcmTFdC3JivNsghb/photo/6WfM2kgIb7cfYP8ObUwm-ring_atoll_remake_v2.0.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Ring_Atoll_Remake_V1.1
+  springName: Ring Atoll Remake v2.0
   teamCount: 5
   terrain:
     - water
