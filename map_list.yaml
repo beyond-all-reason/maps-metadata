@@ -725,13 +725,13 @@ Gkh9KVgCUNbGTXWBjPoV:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Gkh9KVgCUNbGTXWBjPoV/photo/SACwKHuIxx8qjTElcOSU-serene_caldera_v1.1.jpg
-      lastModifiedTS: 1683982268581
-      name: serene_caldera_v1.1.jpg
-      ref: maps/Gkh9KVgCUNbGTXWBjPoV/photo/SACwKHuIxx8qjTElcOSU-serene_caldera_v1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGkh9KVgCUNbGTXWBjPoV%2Fphoto%2FGc1CatZdwYFPZXKqo9et-serene_caldera_v1.3.jpg?alt=media&token=9c961576-1a23-4752-b045-59d94682f024
+      lastModifiedTS: 1685434058583
+      name: serene_caldera_v1.3.jpg
+      ref: maps/Gkh9KVgCUNbGTXWBjPoV/photo/Gc1CatZdwYFPZXKqo9et-serene_caldera_v1.3.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Serene Caldera v1.1
+  springName: Serene Caldera v1.3
   teamCount: 2
   terrain:
     - flat
