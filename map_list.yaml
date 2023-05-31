@@ -2474,6 +2474,25 @@ snRldJIaPiKTiNiEAPEg:
   terrain:
     - flat
     - hills
+t85qIzP8X1hqJ5gWEPGM:
+  author: Phalange
+  certified: true
+  description: Up to 10 players FFA map. Good luck, Commander!
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Ft85qIzP8X1hqJ5gWEPGM%2Fphoto%2Fem9o00PK57b0DGw6ogFS-factions_minimap.jpg?alt=media&token=c51f935c-0acc-4655-a4be-c19c48a31815
+      lastModifiedTS: 1685526240371
+      name: factions_minimap.jpg
+      ref: maps/t85qIzP8X1hqJ5gWEPGM/photo/em9o00PK57b0DGw6ogFS-factions_minimap.jpg
+      type: image/jpeg
+  playerCount: 10
+  springName: Factions and Factious 0.9
+  teamCount: 2
+  terrain:
+    - flat
 te9bV2b9aiw8w9qgzTJg:
   author: Nikuksis
   certified: true
