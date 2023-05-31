@@ -2581,13 +2581,13 @@ vFNwoJJ3cCMzSaAAQPvR:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/vFNwoJJ3cCMzSaAAQPvR/photo/M5NPuUIMLa4qZwx91vCY-starwatcher_0.9.jpg
-      lastModifiedTS: 1683982325147
-      name: starwatcher_0.9.jpg
-      ref: maps/vFNwoJJ3cCMzSaAAQPvR/photo/M5NPuUIMLa4qZwx91vCY-starwatcher_0.9.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvFNwoJJ3cCMzSaAAQPvR%2Fphoto%2F5kDQevxl6WZGONr07SNH-starwatcher_v1.0.jpg?alt=media&token=d0d3c291-4bae-4d30-a2e8-7f3fd35622fa
+      lastModifiedTS: 1685526189309
+      name: starwatcher_v1.0.jpg
+      ref: maps/vFNwoJJ3cCMzSaAAQPvR/photo/5kDQevxl6WZGONr07SNH-starwatcher_v1.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Starwatcher 0.9
+  springName: Starwatcher 1.0
   teamCount: 2
   terrain:
     - flat
