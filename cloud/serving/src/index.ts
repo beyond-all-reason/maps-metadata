@@ -99,12 +99,14 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 		return new Response('No index support', { status: 404 });
 	}
 
+	const disableCache = request.headers.get('cache-control') === 'no-cache';
+
 	// Load HEAD value when fetching /HEAD or from /latest/*
 	let headCacheHit: boolean | null = null;
 	let head = '';
 	if (url.pathname === '/HEAD' || url.pathname.startsWith('/latest/')) {
 		const headReq = new Request(new URL('/HEAD', url.origin));
-		const headCache = await cache.match(headReq);
+		const headCache = disableCache ? undefined : await cache.match(headReq);
 		if (headCache) {
 			head = await headCache.text();
 			headCacheHit = true;
@@ -116,7 +118,7 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 			}
 			head = await headObj.text();
 
-			ctx.waitUntil(cache.put(headReq, new Response(head, {
+			if (!disableCache) ctx.waitUntil(cache.put(headReq, new Response(head, {
 				headers: { 'cache-control': CACHE_HEAD }
 			})));
 		}
@@ -150,7 +152,7 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 
 	// Try to get load object from cache
 	const objectReq = new Request(new URL(objectPath, url.origin), request);
-	const objectCache = await cache.match(objectReq);
+	const objectCache = disableCache ? undefined : await cache.match(objectReq);
 	if (objectCache) {
 		const response = new Response(objectCache.body, objectCache);
 		setHeaders(response.headers, true);
@@ -169,7 +171,7 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 	headers.set('etag', object.httpEtag);
 	headers.set('cache-control', CACHE_FOREVER);
 	const response = new Response(object.body, { headers });
-	ctx.waitUntil(cache.put(objectReq, response.clone()));
+	if (!disableCache) ctx.waitUntil(cache.put(objectReq, response.clone()));
 
 	setHeaders(response.headers, false);
 	return response;
