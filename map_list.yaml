@@ -534,6 +534,24 @@ An6zReiqIWD15Yx7bZ3b:
   teamCount: 2
   terrain:
     - flat
+BCDbKYnQqHT1PE5lo8Es:
+  author: Nikuksis
+  certified: false
+  description: 1v1 assymetric tournament map remake.
+  gameType:
+    - 1v1
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FBCDbKYnQqHT1PE5lo8Es%2Fphoto%2FdzDbme4bohFrudTUUi1v-geyser_plains_bar_v1.1.jpg?alt=media&token=9c42b762-2c48-48ff-b928-b2b07886a7d4
+      lastModifiedTS: 1687024285882
+      name: geyser_plains_bar_v1.1.jpg
+      ref: maps/BCDbKYnQqHT1PE5lo8Es/photo/dzDbme4bohFrudTUUi1v-geyser_plains_bar_v1.1.jpg
+      type: image/jpeg
+  playerCount: 4
+  springName: Geyser Plains BAR v1.1
+  teamCount: 2
+  terrain:
+    - flat
 BHxtx4DPxKgPkUTkRg9e:
   author: ShoX
   certified: true
