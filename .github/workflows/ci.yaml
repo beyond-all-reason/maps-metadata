@@ -20,16 +20,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
+          cache: pip
+          cache-dependency-path: scripts/py/requirements.txt
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: |
-            .pyenv
-            .scripts/js/node_modules
-          key: scripts-deps-${{ hashFiles('scripts/js/package-lock.json', 'scripts/py/requirements.txt') }}
+          cache: npm
+          cache-dependency-path: scripts/js/package-lock.json
       - uses: actions/cache@v3
         if: ${{ !env.ACT }}
         with:
@@ -82,16 +79,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
+          cache: pip
+          cache-dependency-path: scripts/py/requirements.txt
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - uses: actions/cache@v3
-        if: ${{ !env.ACT }}
-        with:
-          path: |
-            .pyenv
-            .scripts/js/node_modules
-          key: scripts-deps-${{ hashFiles('scripts/js/package-lock.json', 'scripts/py/requirements.txt') }}
+          cache: npm
+          cache-dependency-path: scripts/js/package-lock.json
       - name: Install dependencies
         run: ./scripts/install.sh
       - name: Checkout BYAR-Chobby
