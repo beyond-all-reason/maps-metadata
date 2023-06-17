@@ -2071,13 +2071,13 @@ i0Wzo68Las9sWQk8O8CT:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fi0Wzo68Las9sWQk8O8CT%2Fphoto%2Fgipl2U23T3GTvmg0nGrH-ascendancy_v1.0.jpg?alt=media&token=d31ff859-8c56-4677-8c27-e55337421a4a
-      lastModifiedTS: 1686217708832
-      name: ascendancy_v1.0.jpg
-      ref: maps/i0Wzo68Las9sWQk8O8CT/photo/gipl2U23T3GTvmg0nGrH-ascendancy_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fi0Wzo68Las9sWQk8O8CT%2Fphoto%2Fj9ohASUiYb25Pw7MeLC3-ascendancy_v2.0.jpg?alt=media&token=ebcf1578-669e-4623-8130-9d90eb83c7b2
+      lastModifiedTS: 1686992707914
+      name: ascendancy_v2.0.jpg
+      ref: maps/i0Wzo68Las9sWQk8O8CT/photo/j9ohASUiYb25Pw7MeLC3-ascendancy_v2.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Ascendancy v1.1
+  springName: Ascendancy v2.0
   teamCount: 2
   terrain:
     - hills
