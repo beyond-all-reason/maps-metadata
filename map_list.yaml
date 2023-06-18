@@ -1018,6 +1018,26 @@ PlmJPs87RuAnAlL6inG1:
   terrain:
     - flat
     - hills
+QaENCgzeDrnkRnRsgnVT:
+  author: DavetheBrave
+  certified: true
+  description: Baobab trees on grassy plateaus rise above the sands of a happy
+    isle. 1v1 or 2v2.
+  gameType:
+    - 1v1
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQaENCgzeDrnkRnRsgnVT%2Fphoto%2FUp1evxLvSvM6C40lVqTY-crubick_preview.jpg?alt=media&token=161c4fa5-717a-4860-9141-a8178d2605f8
+      lastModifiedTS: 1687092707507
+      name: crubick_preview.jpg
+      ref: maps/QaENCgzeDrnkRnRsgnVT/photo/Up1evxLvSvM6C40lVqTY-crubick_preview.jpg
+      type: image/jpeg
+  playerCount: 2
+  springName: Crubick Plains BAR v1.1
+  teamCount: 2
+  terrain:
+    - hills
+    - water
 QlanwpEXsYOy3ZYYp3iu:
   author: IceXuick
   certified: true
