@@ -383,26 +383,6 @@
   terrain:
     - flat
     - water
-6CH8jHCPxDERYtemJRtM:
-  author: Moose
-  certified: false
-  description: Optimal for 2 teams with 5 players each. Can also be played as 4
-    way Free For All. Open, low metal, map with interesting terrain that
-    provides options for both kbot, vehicles and air
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/6CH8jHCPxDERYtemJRtM/photo/zITazKAGV8tCMSqqdHeO-Calamity_1.1.jpg
-      lastModifiedTS: 1683982258615
-      name: Calamity_1.1.jpg
-      ref: maps/6CH8jHCPxDERYtemJRtM/photo/zITazKAGV8tCMSqqdHeO-Calamity_1.1.jpg
-      type: image/jpeg
-  playerCount: 10
-  springName: Calamity 1.1
-  teamCount: 4
-  terrain:
-    - flat
 7pm2zaEOk8QaxaEeOnZJ:
   author: UNKNOWN
   certified: true
@@ -604,25 +584,6 @@ Cz4OYo0Z2yht9PUP8vcN:
   teamCount: 2
   terrain:
     - flat
-DA1NmvXlhztKR1WGRc62:
-  author: Bluestone
-  certified: false
-  description: Medium sized map, up to 4 players per team. Fight in the valley in
-    the middle or try fighting an uphill battle on the side.
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/DA1NmvXlhztKR1WGRc62/photo/E02u6MYXdMbLIcajLYCU-cervino_v1.jpg
-      lastModifiedTS: 1683982264632
-      name: cervino_v1.jpg
-      ref: maps/DA1NmvXlhztKR1WGRc62/photo/E02u6MYXdMbLIcajLYCU-cervino_v1.jpg
-      type: image/jpeg
-  playerCount: 8
-  springName: Cervino v1
-  teamCount: 2
-  terrain:
-    - hills
 DyHExxTkkRB4DweNDViM:
   author: Nikuksis
   certified: true
@@ -1173,22 +1134,6 @@ SYB0blENn3hqhEyLC24B:
   terrain:
     - hills
     - water
-SulTQCK9iY0nr7H3JiKr:
-  author: Moose
-  certified: false
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/SulTQCK9iY0nr7H3JiKr/photo/rDKV0cylFcF344y9rU77-SapphireShores_V2.2.jpg
-      lastModifiedTS: 1683982283142
-      name: SapphireShores_V2.2.jpg
-      ref: maps/SulTQCK9iY0nr7H3JiKr/photo/rDKV0cylFcF344y9rU77-SapphireShores_V2.2.jpg
-      type: image/jpeg
-  springName: SapphireShores_V2.2
-  terrain:
-    - flat
-    - water
 T9CfXfwVVubXUcJbMNra:
   author: Beherith
   certified: true
@@ -1501,22 +1446,6 @@ Y5e7sl891wO5G2ttwjmr:
   terrain:
     - hills
     - water
-YNaJCperEfYJu4vFKJWT:
-  author: Beherith
-  certified: false
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/YNaJCperEfYJu4vFKJWT/photo/sn5wKkfUO0VDNIUpodzz-Tabula_Flooded_v04.jpg
-      lastModifiedTS: 1683982293194
-      name: Tabula_Flooded_v04.jpg
-      ref: maps/YNaJCperEfYJu4vFKJWT/photo/sn5wKkfUO0VDNIUpodzz-Tabula_Flooded_v04.jpg
-      type: image/jpeg
-  springName: Tabula_Flooded_v04
-  terrain:
-    - hills
-    - water
 Ydjj7Fy4NpaLHdkvhsIn:
   author: Beherith
   certified: true
@@ -1555,25 +1484,6 @@ Yhwa2neMfDTUXyAiSJXC:
   teamCount: 2
   terrain:
     - flat
-Z4WHfukbvXeat57zPFGW:
-  author: IceXuick
-  certified: true
-  description: Large map, optimal for 2 teams, up to 6 players each. Fight for the
-    strategically important center hills or push through on the sides.
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Z4WHfukbvXeat57zPFGW/photo/N7eOCeUTid3ivecCLD5A-centerrock_remake_dry_1.2.jpg
-      lastModifiedTS: 1683982294770
-      name: centerrock_remake_dry_1.2.jpg
-      ref: maps/Z4WHfukbvXeat57zPFGW/photo/N7eOCeUTid3ivecCLD5A-centerrock_remake_dry_1.2.jpg
-      type: image/jpeg
-  playerCount: 12
-  springName: Centerrock Remake Dry 1.2
-  teamCount: 2
-  terrain:
-    - hills
 Z7wmue7EsjaTNpsdBuyx:
   author: UNKNOWN
   certified: true
@@ -1769,26 +1679,6 @@ byucseTLrpgU0J70dFC0:
   springName: Ghenna Rising 4.0
   terrain:
     - flat
-    - hills
-bzjvHRwFOT6unJsQVVhc:
-  author: IceXuick
-  certified: false
-  description: Small map, optimal for 3 way Free For All. Players start on hills
-    that are traversable by kbots. Reclaim the metal rocks and fight for the
-    metal spots in the middle.
-  gameType:
-    - ffa
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/bzjvHRwFOT6unJsQVVhc/photo/GZtGbbOnwbuJGDtwIALd-DesertTriad.jpg
-      lastModifiedTS: 1683982301162
-      name: DesertTriad.jpg
-      ref: maps/bzjvHRwFOT6unJsQVVhc/photo/GZtGbbOnwbuJGDtwIALd-DesertTriad.jpg
-      type: image/jpeg
-  playerCount: 3
-  springName: DesertTriad
-  teamCount: 3
-  terrain:
     - hills
 c8VOLOtft95bMvYUg60R:
   author: Beherith
@@ -2170,26 +2060,6 @@ j3X9bepS3FrtzjLLNmmu:
   terrain:
     - hills
     - water
-kYhfUnNWQdYfYBIyRbKY:
-  author: Johannes
-  certified: true
-  description: Survival map. Perfect against Chickens or Scavengers.
-  gameType:
-    - team
-    - 1v1
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kYhfUnNWQdYfYBIyRbKY/photo/jN7OWFNtveQSpG5mpcLd-Lake_Carne_dry_v1.jpg
-      lastModifiedTS: 1683982312642
-      name: Lake_Carne_dry_v1.jpg
-      ref: maps/kYhfUnNWQdYfYBIyRbKY/photo/jN7OWFNtveQSpG5mpcLd-Lake_Carne_dry_v1.jpg
-      type: image/jpeg
-  playerCount: 4
-  springName: Lake Carne dry v1
-  teamCount: 2
-  terrain:
-    - flat
-    - hills
 kesPeWO0ScnmWF2An8qA:
   author: Nikuksis
   certified: true
@@ -2917,25 +2787,5 @@ zzzzzzzzzzzzzzzzzzzx:
       type: image/jpeg
   special: Air
   springName: AcidicQuarry 5.16
-  terrain:
-    - hills
-zzzzzzzzzzzzzzzzzzzy:
-  author: Bana
-  certified: false
-  description: Optimal for 3 teams, up to 3 players each. Cross the rivers to
-    secure the resources in the center.
-  gameType:
-    - team
-    - ffa
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zzzzzzzzzzzzzzzzzzzy/photo/P0HFTenK0PmpQ6HZlpmX-Aberdeen3v3v3.jpg
-      lastModifiedTS: 1683982335180
-      name: Aberdeen3v3v3.jpg
-      ref: maps/zzzzzzzzzzzzzzzzzzzy/photo/P0HFTenK0PmpQ6HZlpmX-Aberdeen3v3v3.jpg
-      type: image/jpeg
-  playerCount: 9
-  springName: Aberdeen3v3v3
-  teamCount: 3
   terrain:
     - hills
