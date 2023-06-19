@@ -2026,6 +2026,24 @@ iQZFWB7rheiOseoQXihq:
   springName: Great Divide V1
   terrain:
     - hills
+igcp0iDB12WAKPdtBDna:
+  author: Phalange
+  certified: true
+  description: Up to 8v8 map.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Figcp0iDB12WAKPdtBDna%2Fphoto%2FtbEkvNyPr5Ewgw0LyIaU-white_fire_minimap.jpg?alt=media&token=7933674a-065b-4aa4-8a00-c6e400058bb8
+      lastModifiedTS: 1687161987368
+      name: white_fire_minimap.jpg
+      ref: maps/igcp0iDB12WAKPdtBDna/photo/tbEkvNyPr5Ewgw0LyIaU-white_fire_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: White Fire Remake 0.9
+  teamCount: 2
+  terrain:
+    - hills
 iq0vEBrVv1ZudgcWr2ST:
   author: Nikuksis (original by qray)
   certified: true
