@@ -23,6 +23,7 @@ export interface MapDetails {
         TeamCount?: string;
         Author?: string;
         InfoText?: string;
+        LastUpdate: number;
     };
 }
 
@@ -59,6 +60,7 @@ function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDeta
             TeamCount: mapInfo.teamCount ? mapInfo.teamCount.toString() : undefined,
             Author: mapInfo.author != 'UNKNOWN' ? mapInfo.author : undefined,
             InfoText: mapInfo.description,
+            LastUpdate: Math.round(mapInfo.photo[0].lastModifiedTS / 1000),
         }
     }
     return mapDetails;
@@ -80,7 +82,8 @@ function serializeMapDetails(mapDetails: MapDetails): string {
         'PlayerCount',
         'TeamCount',
         'Author',
-        'InfoText'
+        'InfoText',
+        'LastUpdate'
     ];
 
     function escapeLuaString(str: string): string {
