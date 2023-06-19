@@ -522,13 +522,13 @@ BCDbKYnQqHT1PE5lo8Es:
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FBCDbKYnQqHT1PE5lo8Es%2Fphoto%2FdzDbme4bohFrudTUUi1v-geyser_plains_bar_v1.1.jpg?alt=media&token=9c42b762-2c48-48ff-b928-b2b07886a7d4
-      lastModifiedTS: 1687024285882
-      name: geyser_plains_bar_v1.1.jpg
-      ref: maps/BCDbKYnQqHT1PE5lo8Es/photo/dzDbme4bohFrudTUUi1v-geyser_plains_bar_v1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FBCDbKYnQqHT1PE5lo8Es%2Fphoto%2FRMU1rNTpWzFivKmsWwcc-geyser_plains_bar_v1.2.jpg?alt=media&token=9cc92e61-095d-4c5f-9187-00c97dbfec05
+      lastModifiedTS: 1687177682633
+      name: geyser_plains_bar_v1.2.jpg
+      ref: maps/BCDbKYnQqHT1PE5lo8Es/photo/RMU1rNTpWzFivKmsWwcc-geyser_plains_bar_v1.2.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Geyser Plains BAR v1.1
+  springName: Geyser Plains BAR v1.2
   teamCount: 2
   terrain:
     - flat
