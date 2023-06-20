@@ -1407,13 +1407,13 @@ XR0Czafa4dwZRh0r3fTy:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXR0Czafa4dwZRh0r3fTy%2Fphoto%2FeVcQbwXdOAeD4Nyi9f4n-greenhave_bar_v1.0.jpg?alt=media&token=00cdb3c4-7704-49df-9800-60c89bb1d6fc
-      lastModifiedTS: 1687190913168
-      name: greenhave_bar_v1.0.jpg
-      ref: maps/XR0Czafa4dwZRh0r3fTy/photo/eVcQbwXdOAeD4Nyi9f4n-greenhave_bar_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXR0Czafa4dwZRh0r3fTy%2Fphoto%2F1w1z8IAHJ9VQDXKDxOr8-greenhaven_v1.1.jpg?alt=media&token=6f8e0520-aa80-49d4-9d91-61d468557c2e
+      lastModifiedTS: 1687296910302
+      name: greenhaven_v1.1.jpg
+      ref: maps/XR0Czafa4dwZRh0r3fTy/photo/1w1z8IAHJ9VQDXKDxOr8-greenhaven_v1.1.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Greenhaven BAR v1.0
+  springName: Greenhaven BAR v1.1
   teamCount: 2
   terrain:
     - hills
