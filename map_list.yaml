@@ -2059,7 +2059,7 @@ igcp0iDB12WAKPdtBDna:
       ref: maps/igcp0iDB12WAKPdtBDna/photo/tbEkvNyPr5Ewgw0LyIaU-white_fire_minimap.jpg
       type: image/jpeg
   playerCount: 16
-  springName: White Fire Remake 0.9
+  springName: White Fire Remake 1.0
   teamCount: 2
   terrain:
     - hills
