@@ -1474,13 +1474,13 @@ Y5e7sl891wO5G2ttwjmr:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Y5e7sl891wO5G2ttwjmr/photo/Q83GPWg2dnYPDXDPfGqf-Rustcrown_Canyon_1.1.jpg
-      lastModifiedTS: 1683982292674
-      name: Rustcrown_Canyon_1.1.jpg
-      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/Q83GPWg2dnYPDXDPfGqf-Rustcrown_Canyon_1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FLnlydXB0vspDfUp4T4Kg-screen00010.jpg?alt=media&token=690e7a88-07fe-4634-917d-81e2f24b894d
+      lastModifiedTS: 1686932923423
+      name: screen00010.jpg
+      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/LnlydXB0vspDfUp4T4Kg-screen00010.jpg
       type: image/jpeg
   playerCount: 12
-  springName: Rustcrown Canyon 1.1
+  springName: Rustcrown Canyon 1.2
   teamCount: 2
   terrain:
     - hills
