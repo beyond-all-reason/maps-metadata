@@ -2053,13 +2053,14 @@ igcp0iDB12WAKPdtBDna:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Figcp0iDB12WAKPdtBDna%2Fphoto%2FtbEkvNyPr5Ewgw0LyIaU-white_fire_minimap.jpg?alt=media&token=7933674a-065b-4aa4-8a00-c6e400058bb8
-      lastModifiedTS: 1687161987368
-      name: white_fire_minimap.jpg
-      ref: maps/igcp0iDB12WAKPdtBDna/photo/tbEkvNyPr5Ewgw0LyIaU-white_fire_minimap.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Figcp0iDB12WAKPdtBDna%2Fphoto%2FVZW7Ul5Cf5kk4uuZ4TpD-White%20Fire%20Remake%201.1.jpg?alt=media&token=ae085d8e-e238-4ea1-9a3b-7067813ba5ff
+      lastModifiedTS: 1687446057415
+      name: White Fire Remake 1.1.jpg
+      ref: maps/igcp0iDB12WAKPdtBDna/photo/VZW7Ul5Cf5kk4uuZ4TpD-White Fire Remake
+        1.1.jpg
       type: image/jpeg
   playerCount: 16
-  springName: White Fire Remake 1.0
+  springName: White Fire Remake 1.1
   teamCount: 2
   terrain:
     - hills
