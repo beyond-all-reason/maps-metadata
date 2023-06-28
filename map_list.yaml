@@ -1912,6 +1912,25 @@ fvLhZp85DLroyv0Iozhe:
   teamCount: 2
   terrain:
     - hills
+fzRTg60xfSVnG44Zw42D:
+  author: Nikuksis
+  certified: true
+  description: 16-way FFA or teams map
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfzRTg60xfSVnG44Zw42D%2Fphoto%2FW4g2LLT11PPz70wVoR5R-to_kill_the_middle_v1.0.jpg?alt=media&token=d193069c-5aac-453e-83bb-31a0179d0488
+      lastModifiedTS: 1687949696526
+      name: to_kill_the_middle_v1.0.jpg
+      ref: maps/fzRTg60xfSVnG44Zw42D/photo/W4g2LLT11PPz70wVoR5R-to_kill_the_middle_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: To Kill The Middle v1.0
+  teamCount: 2
+  terrain:
+    - flat
 g7NeIaS3XxFSn2KcrCiL:
   author: Moose
   certified: true
