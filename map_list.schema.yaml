@@ -3,6 +3,7 @@ $id: https://maps-metadata.beyondallreason.dev/latest/map_list.schema.json
 title: MapList
 description: List of maps with their basic metadata
 type: object
+collection: true
 additionalProperties:
   title: MapInfo
   type: object
