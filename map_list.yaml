@@ -213,28 +213,6 @@
   terrain:
     - flat
     - hills
-3BfXteSuIxUz2NGWwZAq:
-  author: Beherith
-  certified: true
-  description: Flooded version. Optimal for 2 teams, up to 3 players each. Small
-    map that lends itself for t1 fights. Reclaim the metal rocks quickly and
-    fight over the scarce expansion options.
-  gameType:
-    - team
-    - 1v1
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3BfXteSuIxUz2NGWwZAq/photo/lIa8eD9PPDC7nJ6dESNe-Altair_Pass_V4.jpg
-      lastModifiedTS: 1683982253460
-      name: Altair_Pass_V4.jpg
-      ref: maps/3BfXteSuIxUz2NGWwZAq/photo/lIa8eD9PPDC7nJ6dESNe-Altair_Pass_V4.jpg
-      type: image/jpeg
-  playerCount: 6
-  springName: Altair_Pass_V4
-  teamCount: 2
-  terrain:
-    - flat
-    - water
 3QOjI5FJqvQEJElcRgTQ:
   author: Moose
   certified: true
@@ -510,7 +488,7 @@ An6zReiqIWD15Yx7bZ3b:
       ref: maps/An6zReiqIWD15Yx7bZ3b/photo/heuM6R3jGDJawc5i0pwn-Altair_Crossing_V4.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Altair_Crossing_V4
+  springName: Altair_Crossing_V4.1
   teamCount: 2
   terrain:
     - flat
