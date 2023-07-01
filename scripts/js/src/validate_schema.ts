@@ -24,6 +24,10 @@ const ajv = new Ajv({
     useDefaults: true,
 });
 addFormats(ajv);
+ajv.addKeyword({
+    keyword: "collection",
+    schemaType: "boolean",
+});
 const validate = ajv.compile(JSON.parse(schema));
 
 const data = JSON.parse(jsonData);

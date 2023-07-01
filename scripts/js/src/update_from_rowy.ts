@@ -4,11 +4,9 @@
 import { Firestore } from '@google-cloud/firestore';
 import mapSchema from '../../../gen/map_list.schema.json' assert { type: "json" };
 import YAML from 'yaml';
+import pLimit from 'p-limit';
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
-
-
-const mapEntryKeys = Object.keys(mapSchema.additionalProperties.properties);
 
 const prog = program
     .argument('<data-file>', 'File with data.')
@@ -16,35 +14,68 @@ const prog = program
     .parse();
 const [dataFilePath, rowId] = prog.processedArgs;
 
-const firestore = new Firestore();
-const maps = firestore.collection('maps');
-
-function filterKnownEntries(entry: any): any {
-    return Object.fromEntries(mapEntryKeys.map(key => [key, entry[key]]));
-}
-
 async function saveDataFile(data: any) {
     await fs.writeFile(dataFilePath, YAML.stringify(data, { sortMapEntries: true }));
 }
 
-if (rowId === 'all') {
-    const docRefs = await maps.listDocuments();
+interface TableSchema {
+    type: "object";
+    collection: true;
+    additionalProperties: {
+        type: "object";
+        properties: { [name: string]: object | TableSchema };
+    }
+}
+
+function isTableSchema(schema: any): schema is TableSchema {
+    return schema.type === "object" && schema.collection === true;
+}
+
+const fetchConcurrentlyLimit = pLimit(20);
+
+async function fetchDocuments(collection: FirebaseFirestore.CollectionReference<FirebaseFirestore.DocumentData>, schema: TableSchema): Promise<any> {
+    const docRefs = await collection.listDocuments();
+    if (docRefs.length === 0) {
+        return undefined;
+    }
     const docs = await firestore.getAll(...docRefs);
     const data: { [name: string]: any } = {};
+    const entryKeys = Object
+        .keys(schema.additionalProperties.properties)
+        .filter(key => !isTableSchema(schema.additionalProperties.properties[key]));
+    const subFetches = [];
     for (const doc of docs) {
         const entry = doc.data();
         if (entry) {
-            data[doc.id] = filterKnownEntries(entry);
+            data[doc.id] = Object.fromEntries(entryKeys.filter(key => key in entry).map(key => [key, entry[key]]));
+        }
+        for (const [key, prop] of Object.entries(schema.additionalProperties.properties)) {
+            if (isTableSchema(prop)) {
+                subFetches.push(fetchConcurrentlyLimit(async () => {
+                    data[doc.id][key] = await fetchDocuments(doc.ref.collection(key), prop);
+                }));
+            }
         }
     }
-    await saveDataFile(data);
+    await Promise.all(subFetches);
+    return data;
+}
+
+if (!isTableSchema(mapSchema)) {
+    console.error("Map schema is not a table schema");
+    process.exit(1);
+}
+const firestore = new Firestore();
+const maps = firestore.collection('maps');
+const rowyData = await fetchDocuments(maps, mapSchema);
+
+if (rowId === 'all') {
+    await saveDataFile(rowyData);
 } else {
     const dataFile = await fs.readFile(dataFilePath, { encoding: 'utf8' });
     const data = YAML.parse(dataFile);
-    const doc = await maps.doc(rowId).get();
-    const entry = doc.data();
-    if (entry) {
-        data[rowId] = filterKnownEntries(entry);
+    if (rowId in rowyData) {
+        data[rowId] = rowyData[rowId];
         await saveDataFile(data);
     } else {
         console.error("Not found document with requested id");
