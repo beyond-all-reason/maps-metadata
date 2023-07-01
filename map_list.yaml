@@ -601,6 +601,25 @@ E17BdeDITeBMZ8YwcBie:
   teamCount: 2
   terrain:
     - hills
+ER2B5mT2LU864k1f0UeH:
+  author: Nikuksis
+  certified: true
+  description: Small sea map for 2-4 players. Weak tidals.
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
+      lastModifiedTS: 1688199737034
+      name: coast_to_coast_bar_v1.0.jpg
+      ref: maps/ER2B5mT2LU864k1f0UeH/photo/Jny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg
+      type: image/jpeg
+  playerCount: 4
+  springName: Coast To Coast BAR v1.0
+  teamCount: 2
+  terrain:
+    - water
 EiT2c89HcHhHeuZxXako:
   author: Beherith
   certified: true
