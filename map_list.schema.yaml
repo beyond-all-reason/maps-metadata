@@ -55,6 +55,46 @@ additionalProperties:
         $ref: '#/$defs/uploadedFile'
       minItems: 1
       maxItems: 1
+    startboxesSet:
+      type: object
+      collection: true
+      additionalProperties:
+        type: object
+        title: StartboxesInfo
+        properties:
+          startboxes:
+            type: array
+            minItems: 1
+            items:
+              type: object
+              title: Startbox
+              properties:
+                poly:
+                  type: array
+                  minItems: 2
+                  maxItems: 2
+                  items:
+                    title: Point
+                    type: object
+                    properties:
+                      x:
+                        type: integer
+                        minimum: 0
+                        maximum: 200
+                      y:
+                        type: integer
+                        minimum: 0
+                        maximum: 200
+                    additionalProperties: false
+                    required:
+                      - x
+                      - y
+              additionalProperties: false
+              required:
+                - poly
+        additionalProperties: false
+        required:
+          - startboxes
   additionalProperties: false
   required:
     - springName
