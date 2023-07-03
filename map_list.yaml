@@ -985,13 +985,14 @@ PiT4WHNB94kc8vlAZtot:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/PiT4WHNB94kc8vlAZtot/photo/Chk6uSrG0Ck99458ynJS-forge_v1.4.jpg
-      lastModifiedTS: 1683982278044
-      name: forge_v1.4.jpg
-      ref: maps/PiT4WHNB94kc8vlAZtot/photo/Chk6uSrG0Ck99458ynJS-forge_v1.4.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2Fw7K6bRx1voAYfhyJm0qN-forge_v2.0.jpg?alt=media&token=3d2529ec-1add-45c8-b176-d2944936979f
+      lastModifiedTS: 1688377181999
+      name: forge_v2.0.jpg
+      ref: maps/PiT4WHNB94kc8vlAZtot/photo/w7K6bRx1voAYfhyJm0qN-forge_v2.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Forge v1.4
+  special: Lava
+  springName: Forge v2.0
   teamCount: 2
   terrain:
     - flat
