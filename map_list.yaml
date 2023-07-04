@@ -2249,6 +2249,39 @@ BHxtx4DPxKgPkUTkRg9e:
   terrain:
     - flat
     - water
+CXD1uv9uv28szDdk3dFR:
+  author: Phalange
+  certified: true
+  description: Up to 4v4 map. Lower plateaus ridges are bots passable.
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCXD1uv9uv28szDdk3dFR%2Fphoto%2FaCb9bywB8OmaCBgEn3KE-Isidis%20crack%201.0.jpg?alt=media&token=a02226e8-0ab7-491a-b622-aabd0432c3d4
+      lastModifiedTS: 1688485789048
+      name: Isidis crack 1.0.jpg
+      ref: maps/CXD1uv9uv28szDdk3dFR/photo/aCb9bywB8OmaCBgEn3KE-Isidis crack 1.0.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Isidis crack 1.0
+  startboxesSet:
+    N1X3Y7fhIjgbhmKoXC0K:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 133
+            - x: 66
+              y: 200
+        - poly:
+            - x: 133
+              y: 0
+            - x: 200
+              y: 66
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
 Cs5xNBZyuBzWCmPJKDbO:
   author: " (original by Beherith)"
   certified: false
