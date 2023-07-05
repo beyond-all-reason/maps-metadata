@@ -7537,6 +7537,40 @@ cQ5LLQmNqCPCnYFiTlcb:
   terrain:
     - flat
     - hills
+cQbwmwbhWrWyD1bhZNEn:
+  author: Ambulatory Cortex
+  certified: true
+  description: Huge island battlefield to fight on the mountains, beaches,
+    grassland, and sea.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2Ft8WeuOPFLQydpoMvd53o-JadeEmpressMini.png?alt=media&token=9491bb79-c9a6-4a7d-96ed-3cc79d336c85
+      lastModifiedTS: 1688506159593
+      name: JadeEmpressMini.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/t8WeuOPFLQydpoMvd53o-JadeEmpressMini.png
+      type: image/png
+  playerCount: 16
+  springName: Jade Empress 1.0
+  startboxesSet:
+    clJSKxOXdwbJjrMUj4Dv:
+      startboxes:
+        - poly:
+            - x: 45
+              y: 27
+            - x: 99
+              y: 62
+        - poly:
+            - x: 136
+              y: 94
+            - x: 172
+              y: 149
+  teamCount: 2
+  terrain:
+    - water
+    - hills
+    - flat
 cYgRxanQzvg7Bx9xXk1H:
   author: IceXuick
   certified: true
