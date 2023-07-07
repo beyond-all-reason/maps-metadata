@@ -4024,14 +4024,14 @@ PiT4WHNB94kc8vlAZtot:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2FiZt5cEcIGe1NEp3GphYw-forge%20v2.2.jpg?alt=media&token=ece663f4-b4b4-4cf4-a090-545153218fe0
-      lastModifiedTS: 1688635648853
-      name: forge v2.2.jpg
-      ref: maps/PiT4WHNB94kc8vlAZtot/photo/iZt5cEcIGe1NEp3GphYw-forge v2.2.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2FayplONs21TjVSac6UgZX-forge_v2.3.jpg?alt=media&token=f1e08b9d-4b81-4c62-bbcc-d909db0738ce
+      lastModifiedTS: 1688736169241
+      name: forge_v2.3.jpg
+      ref: maps/PiT4WHNB94kc8vlAZtot/photo/ayplONs21TjVSac6UgZX-forge_v2.3.jpg
       type: image/jpeg
   playerCount: 16
   special: Lava
-  springName: Forge v2.2
+  springName: Forge v2.3
   startboxesSet:
     i90uNcrwzfiaMvmFIuZg:
       startboxes:
