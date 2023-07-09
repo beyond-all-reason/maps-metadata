@@ -3,7 +3,13 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'tools/**'
+      - 'cloud/**'
   pull_request:
+    paths-ignore:
+      - 'tools/**'
+      - 'cloud/**'
   workflow_dispatch:
     inputs:
       deploy:
