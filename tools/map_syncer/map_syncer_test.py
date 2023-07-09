@@ -7,7 +7,7 @@ import secrets
 import threading
 import time
 from contextlib import nullcontext
-from typing import Dict, List, Tuple, cast
+from typing import Dict, List, Tuple, Union, cast
 from unittest.mock import ANY
 
 import pytest
@@ -189,10 +189,10 @@ def test_download_file_md5_mismatch(httpserver: HTTPServer, fs: FakeFilesystem) 
 
 
 def test_mqtt_triggers_on_message(
-    mosquitto: Tuple[str, int], capmqtt: MqttCaptureFixture
+    mosquitto: Tuple[str, Union[int, str]], capmqtt: MqttCaptureFixture
 ) -> None:
     mqtt_config = map_syncer.MQTTConfig(
-        mosquitto[0], mosquitto[1], False, "topic", None, None
+        mosquitto[0], int(mosquitto[1]), False, "topic", None, None
     )
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
     with map_syncer.mqtt_sync_trigger(mqtt_config, sync_trigger):
