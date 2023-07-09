@@ -4421,6 +4421,39 @@ RDAUlsjOhgAH2fDvAEmI:
   teamCount: 5
   terrain:
     - water
+RLZ07b2DZS9vYPn5dvFX:
+  author: Nikuksis
+  certified: true
+  description: Red planet river estuary map for 8v8 hybrid gameplay.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2FlnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg?alt=media&token=600fe095-f2c8-488d-90fe-a5e6541ac981
+      lastModifiedTS: 1688932405285
+      name: red_river_estuary_v1.0.jpg
+      ref: maps/RLZ07b2DZS9vYPn5dvFX/photo/lnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: Shallows
+  springName: Red River Estuary v1.0
+  startboxesSet:
+    Fl4d1MGhk5U8MGpkCo1p:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - water
+    - hills
 RT3Y6Qyjvt3pTGXWjWPK:
   author: IceXuick
   certified: true
