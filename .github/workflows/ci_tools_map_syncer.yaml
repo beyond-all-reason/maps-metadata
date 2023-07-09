@@ -1,0 +1,43 @@
+name: CI tools/map_syncer
+on:
+  push:
+    branches:
+      - main
+    paths:
+    - 'tools/map_syncer/**'
+    - '.github/workflows/ci_tools_map_syncer.yaml'
+  pull_request:
+    paths:
+    - 'tools/map_syncer/**'
+  workflow_dispatch:
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.11"]
+    defaults:
+      run:
+        working-directory: tools/map_syncer
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: tools/map_syncer/requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Check formatting
+        run: |
+          black --check --diff .
+          isort --check --diff .
+      - name: Check Types
+        run: mypy
+      - name: Lint
+        run: ruff . --format=github
+      - name: Test
+        run: pytest
