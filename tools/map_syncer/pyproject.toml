@@ -1,0 +1,37 @@
+[project]
+name = 'map_syncer'
+version = '0.0.1'
+requires-python = ">=3.8.0"
+
+[tool.isort]
+profile = "black"
+extend_skip = [".pyenv"]
+
+[tool.mypy]
+files = "*.py"
+pretty = true
+mypy_path = "$MYPY_CONFIG_FILE_DIR/stubs"
+show_error_context = true
+
+# Mypy rules:
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_reexport = true
+strict_equality = true
+disallow_any_expr = true
+
+[tool.ruff]
+select = [
+    "E", "F", "C90", "N", "UP", "YTT", "B", "A", "C4", "EM", "ISC",
+    "G", "RUF", "PIE", "SIM", "PTH", "PLC", "PLE", "PLW"
+]
