@@ -4429,14 +4429,14 @@ RLZ07b2DZS9vYPn5dvFX:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2FlnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg?alt=media&token=600fe095-f2c8-488d-90fe-a5e6541ac981
-      lastModifiedTS: 1688932405285
-      name: red_river_estuary_v1.0.jpg
-      ref: maps/RLZ07b2DZS9vYPn5dvFX/photo/lnHGcaTSwBB5FYSi4OXE-red_river_estuary_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2Fi1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg?alt=media&token=fcd701c2-0a3c-4530-bdd1-f237630667ef
+      lastModifiedTS: 1689098549787
+      name: red_river_estuary_v1.1.jpg
+      ref: maps/RLZ07b2DZS9vYPn5dvFX/photo/i1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Shallows
-  springName: Red River Estuary v1.0
+  springName: Red River Estuary v1.1
   startboxesSet:
     Fl4d1MGhk5U8MGpkCo1p:
       startboxes:
