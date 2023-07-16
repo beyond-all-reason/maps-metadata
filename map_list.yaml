@@ -3547,6 +3547,39 @@ MDi3gNqaTj3H1DkzpPfz:
   terrain:
     - water
     - hills
+MIHFHzbaF3j4OMqvreh9:
+  author: Nikuksis
+  certified: false
+  description: 4v4. Slug it out in the middle, but watch out for planes!
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2FFNkoEQCmecdunyBzHPbl-charlie_in_the_hills_remake_v1.0.jpg?alt=media&token=976dc434-d05e-4324-87bc-09cc437bdccc
+      lastModifiedTS: 1689498829928
+      name: charlie_in_the_hills_remake_v1.0.jpg
+      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/FNkoEQCmecdunyBzHPbl-charlie_in_the_hills_remake_v1.0.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Charlie In The Hills Remake v1.0
+  startboxesSet:
+    m4aqOUpLge2WCpHvSZqD:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 0
+              y: 150
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
 MqDO00JzJMESdzVDkkT5:
   author: Nikuksis (original by Hunterw)
   certified: false
