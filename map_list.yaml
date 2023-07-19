@@ -3407,6 +3407,38 @@ Jdb4pZyLQPb0IkSmaVrO:
   terrain:
     - flat
     - water
+LSbOSBM6bqPCs5heCJ9X:
+  author: Nikuksis
+  certified: false
+  description: Body of water separates two land masses. Great underwater starts!
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FLSbOSBM6bqPCs5heCJ9X%2Fphoto%2FS72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg?alt=media&token=bfeb1c1d-fa32-4523-97f0-a49971e2df63
+      lastModifiedTS: 1689776973424
+      name: the_barrier_reef_remake_v1.0.jpg
+      ref: maps/LSbOSBM6bqPCs5heCJ9X/photo/S72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: ""
+  springName: The BARrier Reef Remake v1.0
+  startboxesSet:
+    FwYelYHK7I8nKWIEsa1m:
+      startboxes:
+        - poly:
+            - x: 140
+              y: 80
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 120
+  teamCount: 2
+  terrain:
+    - water
 Lpy4w1DTM7BjEfERE3wK:
   author: Johannes
   certified: true
