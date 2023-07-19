@@ -3556,13 +3556,13 @@ MIHFHzbaF3j4OMqvreh9:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2FFNkoEQCmecdunyBzHPbl-charlie_in_the_hills_remake_v1.0.jpg?alt=media&token=976dc434-d05e-4324-87bc-09cc437bdccc
-      lastModifiedTS: 1689498829928
-      name: charlie_in_the_hills_remake_v1.0.jpg
-      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/FNkoEQCmecdunyBzHPbl-charlie_in_the_hills_remake_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2Fq0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg?alt=media&token=fc79635f-8571-429b-bd0a-45cd811e4d44
+      lastModifiedTS: 1689767527532
+      name: charlie_in_the_hills_remake_v1.1.jpg
+      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Charlie In The Hills Remake v1.0
+  springName: Charlie In The Hills Remake v1.1
   startboxesSet:
     m4aqOUpLge2WCpHvSZqD:
       startboxes:
