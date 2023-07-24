@@ -1743,6 +1743,60 @@
     - flat
     - hills
     - water
+7qvZYwphKlrDjOcDOVLj:
+  author: Nikuksis
+  certified: true
+  description: Large valley to swirl your way to victory.
+  gameType:
+    - team
+    - pve
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7qvZYwphKlrDjOcDOVLj%2Fphoto%2FHY9BFbyQpFQIIbGLasFU-swirly_rock_v1.0.jpg?alt=media&token=434851de-297b-4e5d-aec6-043882bb43d3
+      lastModifiedTS: 1690222093952
+      name: swirly_rock_v1.0.jpg
+      ref: maps/7qvZYwphKlrDjOcDOVLj/photo/HY9BFbyQpFQIIbGLasFU-swirly_rock_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Swirly Rock v1.0
+  startboxesSet:
+    OV5TNNO46yM5krKyxAZP:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 70
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 70
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 140
+            - x: 60
+              y: 200
+    rW9FRx7Lbx5XJRaP4WHB:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 8NJ4dy6hrSPsrezNmczE:
   author: Beherith
   certified: true
