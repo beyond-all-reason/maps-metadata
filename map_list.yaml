@@ -1752,13 +1752,13 @@
     - pve
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7qvZYwphKlrDjOcDOVLj%2Fphoto%2FHY9BFbyQpFQIIbGLasFU-swirly_rock_v1.0.jpg?alt=media&token=434851de-297b-4e5d-aec6-043882bb43d3
-      lastModifiedTS: 1690222093952
-      name: swirly_rock_v1.0.jpg
-      ref: maps/7qvZYwphKlrDjOcDOVLj/photo/HY9BFbyQpFQIIbGLasFU-swirly_rock_v1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7qvZYwphKlrDjOcDOVLj%2Fphoto%2F5yNtU5sE5A8iVbioPmRy-swirly_rock_v1.1.jpg?alt=media&token=0eb45898-bdb4-43b0-9524-8e97835b02b7
+      lastModifiedTS: 1690392566546
+      name: swirly_rock_v1.1.jpg
+      ref: maps/7qvZYwphKlrDjOcDOVLj/photo/5yNtU5sE5A8iVbioPmRy-swirly_rock_v1.1.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Swirly Rock v1.0
+  springName: Swirly Rock v1.1
   startboxesSet:
     OV5TNNO46yM5krKyxAZP:
       startboxes:
