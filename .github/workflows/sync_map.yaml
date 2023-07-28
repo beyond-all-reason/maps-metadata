@@ -44,6 +44,8 @@ jobs:
             echo "pr_title=Update map ${to_sync} from rowy" >> $GITHUB_OUTPUT
           fi
       - uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.SSH_SELF_DEPLOY_KEY }}
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
