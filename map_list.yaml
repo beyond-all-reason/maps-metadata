@@ -2160,6 +2160,38 @@
   teamCount: 2
   terrain:
     - hills
+ABBUHinh94O7299Php6p:
+  author: IceXuick, Nikuksis
+  certified: false
+  description: Delta Siege Dry Remake | BAR Certified
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FABBUHinh94O7299Php6p%2Fphoto%2FQo5EmnY812rduk9hAJ5p-DSDR5.jpg?alt=media&token=b114e351-22f9-4623-a130-f83e057e65ea
+      lastModifiedTS: 1690808719940
+      name: DSDR5.jpg
+      ref: maps/ABBUHinh94O7299Php6p/photo/Qo5EmnY812rduk9hAJ5p-DSDR5.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Delta Siege Dry v5
+  startboxesSet:
+    59rSgwuREOcIwsgMAIlG:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 56
+              y: 200
+        - poly:
+            - x: 144
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick
   certified: true
