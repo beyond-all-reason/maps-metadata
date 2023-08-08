@@ -10018,6 +10018,38 @@ ljx3Fdz1TLbewjyAIoVw:
               y: 200
   terrain:
     - flat
+mAD4ToJrMg6xGHEM18qN:
+  author: Nikuksis
+  certified: true
+  description: Low metal values, acidic lakes. Welcome to the Sector 318C.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmAD4ToJrMg6xGHEM18qN%2Fphoto%2F076mZRA86BPxru7cxMzF-sector_318C_v1.0.jpg?alt=media&token=b51529c7-a4de-4c41-8822-07bf08a7f4ef
+      lastModifiedTS: 1691503350130
+      name: sector_318C_v1.0.jpg
+      ref: maps/mAD4ToJrMg6xGHEM18qN/photo/076mZRA86BPxru7cxMzF-sector_318C_v1.0.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: Acid
+  springName: Sector 318C v1.0
+  startboxesSet:
+    ceEohe8ZrhsyVk1tZm1D:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 mzdkzzTL3zgPanW6zQx4:
   author: UNKNOWN
   certified: true
