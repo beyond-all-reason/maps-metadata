@@ -46,9 +46,10 @@ async function fetchDocuments(collection: FirebaseFirestore.CollectionReference<
     const subFetches = [];
     for (const doc of docs) {
         const entry = doc.data();
-        if (entry) {
-            data[doc.id] = Object.fromEntries(entryKeys.filter(key => key in entry).map(key => [key, entry[key]]));
+        if (!entry) {
+            continue;
         }
+        data[doc.id] = Object.fromEntries(entryKeys.filter(key => key in entry).map(key => [key, entry[key]]));
         for (const [key, prop] of Object.entries(schema.additionalProperties.properties)) {
             if (isTableSchema(prop)) {
                 subFetches.push(fetchConcurrentlyLimit(async () => {
