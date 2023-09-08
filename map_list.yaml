@@ -3685,6 +3685,7 @@ MDi3gNqaTj3H1DkzpPfz:
   description: An arena of dark crystal plateaus rise above a winding river.
   gameType:
     - 1v1
+    - pve
   inPool: true
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
