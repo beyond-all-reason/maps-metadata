@@ -1723,7 +1723,7 @@
     - flat
     - water
 7pm2zaEOk8QaxaEeOnZJ:
-  author: UNKNOWN
+  author: RebelNode
   certified: true
   description: Guide your horse through this barren landscape, but be vary of
     enemy horses pushing your way.
@@ -2206,7 +2206,7 @@ ABBUHinh94O7299Php6p:
     - hills
     - flat
 ACgCe99NC8yZFecMwRCn:
-  author: IceXuick
+  author: IceXuick, Moose
   certified: true
   gameType:
     - 1v1
@@ -5949,7 +5949,7 @@ WuwJQPBtwMfJR9czmWuQ:
     - hills
     - water
 X0N11knnIS4fWqkoFPBC:
-  author: UNKNOWN
+  author: Moose
   certified: true
   description: Large mountains and many passes.
   gameType:
@@ -6615,7 +6615,7 @@ Xut8FRCmn2h5DuUqzF26:
   terrain:
     - flat
 Y5e7sl891wO5G2ttwjmr:
-  author: PtaQ/Moose
+  author: Moose, PtaQ
   certified: true
   description: A lush river cuts through the bottom of this deep chasm. East vs West.
   gameType:
@@ -10134,7 +10134,7 @@ mAD4ToJrMg6xGHEM18qN:
   terrain:
     - hills
 mzdkzzTL3zgPanW6zQx4:
-  author: UNKNOWN
+  author: ShaunJS
   certified: true
   description: A deep space battle arena; used as a secret final testing ground
     for upcoming commanders
