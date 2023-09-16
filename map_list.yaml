@@ -7777,27 +7777,27 @@ cQbwmwbhWrWyD1bhZNEn:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FqFzOjgXmaFCfainlW8a6-unsfY9C72n9e2LLEzQ0F-Jade%20Empress_minimap%20small.png?alt=media&token=74bc39b5-e4b3-4b60-a4ad-e2dfcb96b236
-      lastModifiedTS: 1693651925176
-      name: unsfY9C72n9e2LLEzQ0F-Jade Empress_minimap small.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/qFzOjgXmaFCfainlW8a6-unsfY9C72n9e2LLEzQ0F-Jade
-        Empress_minimap small.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FuRyhwUZmiOtuYgrJmegb-Jade%20Empress%201.2%20minimap.png?alt=media&token=55f9b228-ee73-4476-b12f-9ed4cc03ef1b
+      lastModifiedTS: 1694834890542
+      name: Jade Empress 1.2 minimap.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/uRyhwUZmiOtuYgrJmegb-Jade Empress 1.2
+        minimap.png
       type: image/png
   playerCount: 16
-  springName: Jade Empress 1.11
+  springName: Jade Empress 1.2
   startboxesSet:
     clJSKxOXdwbJjrMUj4Dv:
       startboxes:
         - poly:
             - x: 37
               y: 26
-            - x: 98
-              y: 67
+            - x: 97
+              y: 68
         - poly:
             - x: 133
               y: 87
             - x: 172
-              y: 151
+              y: 157
   teamCount: 2
   terrain:
     - water
