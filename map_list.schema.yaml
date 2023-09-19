@@ -92,6 +92,8 @@ additionalProperties:
               additionalProperties: false
               required:
                 - poly
+          maxPlayersPerStartbox:
+            type: integer
         additionalProperties: false
         required:
           - startboxes
