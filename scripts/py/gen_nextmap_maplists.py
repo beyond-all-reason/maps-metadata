@@ -153,7 +153,7 @@ def get_output_string(combined_dict, certified_maps, uncertified_maps, maps_1v1)
     output_string = output_string + '\n[uncertified]\n'
     for i in uncertified_maps:
         output_string = output_string + i + '\n'
-    output_string = output_string + '\n[1v1]\n'
+    output_string = output_string + '\n[small]\n.*\n\n[medium]\n.*\n\n[large]\n.*\n\n[extraLarge]\n.*\n\n[misc]\n.*\n\n[1v1]\n'
 
     for i in maps_1v1:
         output_string = output_string + i + '\n'
