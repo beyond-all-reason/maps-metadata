@@ -127,8 +127,12 @@ def get_data(input_file):
         if is1v1:
             maps_1v1.append(mapname)
 
-
     combined_dict = {**teamsize_dict,**ffasize_dict,**teamffasize_dict}
+
+    #if combined_dict has empty lists then add ".*" (meaning all maps) to that list
+    for i in combined_dict:
+        if len(combined_dict[i]) == 0:
+            combined_dict[i].append('.*')
     
     return combined_dict, certified_maps, uncertified_maps, maps_1v1
 
