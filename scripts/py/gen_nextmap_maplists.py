@@ -3,46 +3,31 @@
 import json
 import math
 
-teamsizes = ['2v2','3v3','4v4','5v5','6v6','7v7','8v8']
-ffasizes = ['ffa3','ffa4','ffa5','ffa6','ffa7','ffa8','ffa9','ffa10','ffa11','ffa12','ffa13','ffa14','ffa15','ffa16']
-teamffasizes = ['2v2v2','2v2v2v2','2v2v2v2v2','2v2v2v2v2v2','2v2v2v2v2v2v2','2v2v2v2v2v2v2v2','3v3v3','3v3v3v3','3v3v3v3v3','4v4v4','4v4v4v4','5v5v5']
-#output_string = ''
+teamsizes = ['2v2','3v3','4v4','5v5','6v6','7v7','8v8','ffa3','ffa4','ffa5','ffa6','ffa7','ffa8','ffa9','ffa10','ffa11','ffa12','ffa13','ffa14','ffa15','ffa16','2v2v2','2v2v2v2','2v2v2v2v2','2v2v2v2v2v2','2v2v2v2v2v2v2','2v2v2v2v2v2v2v2','3v3v3','3v3v3v3','3v3v3v3v3','4v4v4','4v4v4v4','5v5v5']
 
 def get_data(input_file):
     with open(input_file) as f:
         contents = json.load(f)
     
     teamsize_dict = {}
-    ffasize_dict = {}
-    teamffasize_dict = {}
     certified_maps = []
     uncertified_maps = []
     maps_1v1 = []
 
     for i in teamsizes:
         teamsize_dict[i] = []
-    for i in ffasizes:
-        ffasize_dict[i] = []
-    for i in teamffasizes:
-        teamffasize_dict[i] = []
-    
+
     for map in contents.values():
         if not map["inPool"]:
             continue
         is_team = False
-        is_ffa = False
-        is_1v1 = False
         mapname = ''
         player_count = 0
 
 
         mapname = map["springName"]
-        if "gameType" in map and "team" in map["gameType"]:
-            is_team = True
-        if "gameType" in map and "ffa" in map["gameType"]:
-            is_ffa = True
-        if "gameType" in map and "1v1" in map["gameType"]:
-            is_1v1 = True
+        is_team = "team" in map["gameType"]
+
         if "playerCount" in map:
             player_count = map["playerCount"]
         #32 player ffa or other such sillyness not supported in !nextmap
@@ -52,66 +37,59 @@ def get_data(input_file):
             player_count = 2
 
         if "startboxesSet" in map:
-            for startboxes_info in map["startboxesSet"]:
-                if "maxPlayersPerStartbox" in map["startboxesSet"][startboxes_info]:
-                    numberOfTeams = 0
-                    for k in map["startboxesSet"][startboxes_info]["startboxes"]:
-                        numberOfTeams = numberOfTeams + 1
-                    maxPlayersPerStartbox = map["startboxesSet"][startboxes_info]["maxPlayersPerStartbox"]
+            for startboxes_info in map["startboxesSet"].values():
+                if "maxPlayersPerStartbox" in startboxes_info:
+                    team_count = len(startboxes_info["startboxes"])
+                    max_players_per_startbox = startboxes_info["maxPlayersPerStartbox"]
 
-                    # add maps to teamsize_dict
-                    if numberOfTeams == 2 and numberOfTeams*maxPlayersPerStartbox <= 16:
-                        for x in range(2,maxPlayersPerStartbox+1): 
-                            if x >= math.floor(maxPlayersPerStartbox/2):
-                                teamsize_dict['v'.join([str(x)] * numberOfTeams)].append(mapname)
-                    
-                    # add maps to teamffasize_dict:
-                    if numberOfTeams != 2 and numberOfTeams*maxPlayersPerStartbox <= 16:
-                        for x in range(2,maxPlayersPerStartbox+1):
-                            if x >= math.floor(maxPlayersPerStartbox/2):
-                                teamffasize_dict['v'.join([str(x)] * numberOfTeams)].append(mapname)
+                    # add non-ffa maps to teamsize_dict
+                    if team_count*max_players_per_startbox <= 16:
+                        for x in range(2,max_players_per_startbox+1): 
+                            if x >= math.floor(max_players_per_startbox/2):
+                                teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
 
                 # if a map didn't have "maxPlayersPerStartbox" set for its startboxes, but it's a teamgame map with startboxes for 2 teams, we'll use playerCount instead:
-                if not "maxPlayersPerStartbox" in map["startboxesSet"][startboxes_info] and player_count and is_team:
-                    numberOfTeams = 0
-                    for k in map["startboxesSet"][startboxes_info]["startboxes"]:
-                        numberOfTeams = numberOfTeams + 1
-                    if numberOfTeams == 2 and player_count >=4:
+                if not "maxPlayersPerStartbox" in startboxes_info and player_count and is_team:
+                    team_count = len(startboxes_info["startboxes"])
+                    if team_count == 2 and player_count >=4:
                         for x in range(2,math.floor(player_count/2)+1): 
                             if x >= math.floor(player_count/4):
-                                teamsize_dict['v'.join([str(x)] * numberOfTeams)].append(mapname)
+                                teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
 
-        # add maps to ffasize_dict
-        if is_ffa:
+        # add ffa maps to teamsize_dict
+        if "ffa" in map["gameType"]:
             for x in range(3,17):
                 if x <= player_count and x >= math.floor(player_count/2):
-                    ffasize_dict['ffa' + str(x)].append(mapname)
+                    teamsize_dict['ffa' + str(x)].append(mapname)
 
         # add maps to certified and uncertified lists
-        if map["certified"] == True:
+        if map["certified"]:
             certified_maps.append(mapname)
         else:
             uncertified_maps.append(mapname)
         
         # add maps to 1v1 list
-        if is_1v1:
+        if "1v1" in map["gameType"]:
             maps_1v1.append(mapname)
 
-    combined_dict = {**teamsize_dict,**ffasize_dict,**teamffasize_dict}
-
     # make the lists more human-readable
-    for maplist in combined_dict.values():
+    for maplist in teamsize_dict.values():
         maplist.sort()
+    
+    certified_maps.sort()
+    uncertified_maps.sort()
+    maps_1v1.sort()
 
     # if combined_dict has empty lists then add ".*" (meaning all maps) to that list
-    for i in combined_dict:
-        if len(combined_dict[i]) == 0:
-            combined_dict[i].append('.*')
+    for i in teamsize_dict:
+        if len(teamsize_dict[i]) == 0:
+            teamsize_dict[i].append('.*')
     
-    return combined_dict, certified_maps, uncertified_maps, maps_1v1
+    return teamsize_dict, certified_maps, uncertified_maps, maps_1v1
 
-def get_output_string(combined_dict, certified_maps, uncertified_maps, maps_1v1):
-    output_string = """# This file was automatically generated by https://github.com/beyond-all-reason/maps-metadata/tree/main/scripts/py/gen_nextmap_maplists.py using data from rowy.
+def get_output_string(teamsize_dict, certified_maps, uncertified_maps, maps_1v1):
+    nl = '\n'
+    output_string = f"""# This file was automatically generated by https://github.com/beyond-all-reason/maps-metadata/tree/main/scripts/py/gen_nextmap_maplists.py using data from rowy.
 # Next update from rowy will overwrite this file so do not manually edit this file.
 # If you want to make updates to this see https://github.com/beyond-all-reason/maps-metadata/wiki/Adding-a-created-map-to-the-game.
 # A map needs properly configured playercount, startboxes and maxPlayersPerStartbox in https://rowy.beyondallreason.dev/table/maps to appear here.
@@ -120,29 +98,41 @@ def get_output_string(combined_dict, certified_maps, uncertified_maps, maps_1v1)
 .*
 
 [certified]
+{nl.join(certified_maps)}
+
+[uncertified]
+{nl.join(uncertified_maps)}
+
+[small]
+.*
+
+[medium]
+.*
+
+[large]
+.*
+
+[extraLarge]
+.*
+
+[misc]
+.*
+
+[1v1]
+{nl.join(maps_1v1)}
+
 """
-    output_string += '\n'.join(certified_maps)
-    output_string = output_string + '\n'
-
-    output_string = output_string + '\n[uncertified]\n'
-    output_string += '\n'.join(uncertified_maps)
-    output_string = output_string + '\n'
-
-    output_string = output_string + '\n[small]\n.*\n\n[medium]\n.*\n\n[large]\n.*\n\n[extraLarge]\n.*\n\n[misc]\n.*\n\n[1v1]\n'
-
-    output_string += '\n'.join(maps_1v1)
-    output_string = output_string + '\n\n'
     
-    for i in combined_dict:
+    for i in teamsize_dict:
         output_string = output_string + '[' + i + ']\n'
-        output_string += '\n'.join(combined_dict[i])
+        output_string += '\n'.join(teamsize_dict[i])
         output_string = output_string + '\n\n'
     
     return output_string
 
 def process(input_file,output_file):
-    combined_dict, certified_maps, uncertified_maps, maps_1v1 = get_data(input_file)
-    output = get_output_string(combined_dict, certified_maps, uncertified_maps, maps_1v1)
+    teamsize_dict, certified_maps, uncertified_maps, maps_1v1 = get_data(input_file)
+    output = get_output_string(teamsize_dict, certified_maps, uncertified_maps, maps_1v1)
     with open(output_file, "w") as f:
         f.write(output)
 
