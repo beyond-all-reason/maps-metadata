@@ -152,6 +152,7 @@ jobs:
       - name: Patch SPADS Config
         run: |
           cp gen/mapBoxes.conf spads_config_bar/etc/mapBoxes.conf
+          cp gen/mapLists.conf spads_config_bar/etc/mapLists.conf
       - name: Commit and push
         run: |
           cd spads_config_bar
