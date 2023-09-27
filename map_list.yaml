@@ -2443,6 +2443,38 @@ Cz4OYo0Z2yht9PUP8vcN:
   teamCount: 2
   terrain:
     - flat
+DUxqUMUDGiYr1y5jx3sq:
+  author: Phalange
+  certified: true
+  description: Original map by AidanNaut. Ticks cannot cross water.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDUxqUMUDGiYr1y5jx3sq%2Fphoto%2FnsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg?alt=media&token=8f52e950-9fbf-4655-aff6-2aab9fa17147
+      lastModifiedTS: 1695763102517
+      name: fn_minimap.jpg
+      ref: maps/DUxqUMUDGiYr1y5jx3sq/photo/nsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Failed Negotiations 0.9
+  startboxesSet:
+    xF2vjJ2Nxnl6NC7cyiip:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 60
+        - poly:
+            - x: 0
+              y: 140
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - water
+    - hills
 DyHExxTkkRB4DweNDViM:
   author: Nikuksis
   certified: true
