@@ -18,7 +18,7 @@ def get_data(input_file):
         teamsize_dict[i] = []
 
     for map in contents.values():
-        if not map["inPool"]:
+        if not map["inPool"] or "special" in map and map["special"] in ['Metal', 'No metal']:
             continue
         is_team = False
         mapname = ''
