@@ -1108,7 +1108,7 @@
       name: Rosetta_1.4.jpg
       ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       type: image/jpeg
-  playerCount: 12
+  playerCount: 16
   springName: Rosetta 1.4
   startboxesSet:
     sTFq5XrgMhEi2dScFbqz:
@@ -1151,6 +1151,7 @@
             - x: 40
               y: 199
     yF6wJrGQwl1rzGbiGQsf:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
