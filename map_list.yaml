@@ -9243,6 +9243,19 @@ igcp0iDB12WAKPdtBDna:
       type: image/jpeg
   playerCount: 16
   springName: White Fire Remake 1.3
+  startboxesSet:
+    L0la5r0IeQWzETmxsIKK:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 53
+        - poly:
+            - x: 0
+              y: 147
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
