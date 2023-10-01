@@ -2219,6 +2219,25 @@ ABBUHinh94O7299Php6p:
   terrain:
     - hills
     - flat
+ACgCe99NC8yZFecMwRCm:
+  author: Nikuksis
+  certified: true
+  description: 24x24 BAR remake of a famous map.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSQpSGbxxp50QcMKG2TJp%2Fphoto%2Fj05eIHH5lbwbqpTp5kCb-supreme_strait_MAP.jpg?alt=media&token=e5a95f25-831f-4ef9-8cf9-1e6a9ceda480
+      lastModifiedTS: 1696105548992
+      name: supreme_strait_MAP.jpg
+      ref: maps/SQpSGbxxp50QcMKG2TJp/photo/j05eIHH5lbwbqpTp5kCb-supreme_strait_MAP.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Supreme Isthmus v1.5
+  terrain:
+    - flat
+    - hills
+    - water
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   certified: true
