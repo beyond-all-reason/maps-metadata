@@ -4891,7 +4891,7 @@ SHA84LfmzYbxT8iIyTtU:
 SQpSGbxxp50QcMKG2TJp:
   author: Nikuksis
   certified: true
-  description: 24x24 BAR remake of a famous map.
+  description: 24x24 October 2023 Tournament version.
   gameType:
     - team
   inPool: true
@@ -4902,7 +4902,7 @@ SQpSGbxxp50QcMKG2TJp:
       ref: maps/SQpSGbxxp50QcMKG2TJp/photo/j05eIHH5lbwbqpTp5kCb-supreme_strait_MAP.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Supreme Isthmus v1.5
+  springName: Supreme Strait v1.41
   startboxesSet:
     wAYCYnoh68AhZMGQcFzY:
       startboxes:
