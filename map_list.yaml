@@ -2234,6 +2234,20 @@ ACgCe99NC8yZFecMwRCm:
       type: image/jpeg
   playerCount: 16
   springName: Supreme Isthmus v1.5
+  startboxesSet:
+    DizlFBRdBVRvBiS3RKYl:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 80
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 80
   terrain:
     - flat
     - hills
