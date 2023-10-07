@@ -7765,6 +7765,37 @@ c8VOLOtft95bMvYUg60R:
   teamCount: 8
   terrain:
     - flat
+cIMaYX0u2fprp7Qk78wK:
+  author: Nikuksis
+  certified: true
+  description: Up to 8v8 map with many green hills.
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcIMaYX0u2fprp7Qk78wK%2Fphoto%2FFTf911HfF4x5GXKBYc1e-PaP.jpg?alt=media&token=3f6d5069-66c9-4b48-b3d4-da4f813c5812
+      lastModifiedTS: 1696684867216
+      name: PaP.jpg
+      ref: maps/cIMaYX0u2fprp7Qk78wK/photo/FTf911HfF4x5GXKBYc1e-PaP.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Plains and Passes v1.0
+  startboxesSet:
+    j3tkoOiTICsyJU0vIZIA:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 cQ5LLQmNqCPCnYFiTlcb:
   author: IceXuick
   certified: true
