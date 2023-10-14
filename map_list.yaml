@@ -286,7 +286,23 @@
       name: sertagatta_v6.0.jpg
       ref: maps/1JL7kMOT8mYsx2OEQnv8/photo/fhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Sertagatta v6.0
+  startboxesSet:
+    vQF8jbb54bWej3UbzkOD:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -1492,6 +1508,20 @@
       type: image/jpeg
   playerCount: 16
   springName: Hades Ponds 0.7
+  startboxesSet:
+    1JM0wTOA7VXzj3ciiFwt:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -2306,6 +2336,43 @@ An6zReiqIWD15Yx7bZ3b:
       type: image/jpeg
   playerCount: 6
   springName: Altair_Crossing_V4.1
+  startboxesSet:
+    6ZY9JsPhsRk3RKraqS6V:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 80
+              y: 0
+            - x: 120
+              y: 40
+        - poly:
+            - x: 80
+              y: 160
+            - x: 120
+              y: 200
+        - poly:
+            - x: 0
+              y: 80
+            - x: 40
+              y: 120
+        - poly:
+            - x: 160
+              y: 80
+            - x: 200
+              y: 120
+    Gt7j6dHFGUDRtugd6vaO:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -2663,6 +2730,20 @@ ER2B5mT2LU864k1f0UeH:
       type: image/jpeg
   playerCount: 4
   springName: Coast To Coast BAR v1.0
+  startboxesSet:
+    5zyYrpz8v2JPlwGmZau3:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - water
@@ -2976,6 +3057,20 @@ Gkh9KVgCUNbGTXWBjPoV:
       type: image/jpeg
   playerCount: 16
   springName: Serene Caldera v1.3
+  startboxesSet:
+    9kHAEO5FGRJU2Lozl2Be:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -3094,6 +3189,20 @@ GxjYgcmTFdC3JivNsghb:
       type: image/jpeg
   playerCount: 10
   springName: Ring Atoll Remake v2.0
+  startboxesSet:
+    LkruJGhk1UQol4ym4oEZ:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 5
   terrain:
     - water
@@ -5850,6 +5959,20 @@ WJBtRZ22UUHZi2GTQ2FQ:
   playerCount: 16
   special: PVE
   springName: Ancient Vault v1.4
+  startboxesSet:
+    FEZEdHyNIq1R4jl5B82e:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -6194,6 +6317,20 @@ XAYu2CrwVdR5GlcpOxL0:
       ref: maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
       type: image/jpeg
   springName: Supreme_Crossing 2.2
+  startboxesSet:
+    4cYtAR85ZKe6gs85kkRe:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 160
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 40
   terrain:
     - flat
     - water
@@ -6727,6 +6864,43 @@ Y5e7sl891wO5G2ttwjmr:
       type: image/jpeg
   playerCount: 12
   springName: Rustcrown Canyon 1.2
+  startboxesSet:
+    4GJhbzQTAs52oAyCUWRG:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 40
+        - poly:
+            - x: 160
+              y: 160
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 160
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 40
+    Wld9X78iaTL095TweT4A:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -7396,7 +7570,23 @@ bX4YxbtQ8YCc6G0yMumJ:
       name: sertaleina_v9.0.jpg
       ref: maps/bX4YxbtQ8YCc6G0yMumJ/photo/rkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg
       type: image/jpeg
+  playerCount: 6
   springName: Sertaleina_v9.2
+  startboxesSet:
+    eGM960aCQH3mDgjVZSmH:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
   terrain:
     - flat
 bkIRTcsnvtmQVsm3SsNJ:
@@ -9211,6 +9401,20 @@ hC5Ic7adKaK6YBA68mKY:
       type: image/jpeg
   playerCount: 6
   springName: The Halite Maze v1.4
+  startboxesSet:
+    PvHXKqTCLX1WaY1EgL7Q:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
@@ -9311,15 +9515,16 @@ igcp0iDB12WAKPdtBDna:
   springName: White Fire Remake 1.3
   startboxesSet:
     L0la5r0IeQWzETmxsIKK:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
               y: 0
             - x: 200
-              y: 53
+              y: 50
         - poly:
             - x: 0
-              y: 147
+              y: 150
             - x: 200
               y: 200
   teamCount: 2
@@ -10447,6 +10652,20 @@ oX7eHI8mlpVvJUYs4v4Y:
       type: image/jpeg
   playerCount: 16
   springName: All That Glitters v2.1
+  startboxesSet:
+    CSxs9XHI6Fe1a9N8ZIMX:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -10977,6 +11196,20 @@ te9bV2b9aiw8w9qgzTJg:
       type: image/jpeg
   playerCount: 6
   springName: The Cold Place BAR v1.1
+  startboxesSet:
+    8G0psmFAcaxwtegIR87P:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -11180,6 +11413,20 @@ vFNwoJJ3cCMzSaAAQPvR:
       type: image/jpeg
   playerCount: 16
   springName: Starwatcher 1.0
+  startboxesSet:
+    QHtPYvsorgmM4mAWPqP1:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - flat
@@ -11986,6 +12233,20 @@ xn2aVcKlkpTQAakCC3Z8:
       type: image/jpeg
   playerCount: 4
   springName: Copper Hill v1
+  startboxesSet:
+    NI1TG4i0cXC9O48zpxNK:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
