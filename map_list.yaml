@@ -10887,6 +10887,38 @@ pzZ5zAyferpDePxtC2hG:
   terrain:
     - hills
     - water
+qrpwI83FonOR43KTBxZE:
+  author: RebelNode
+  certified: true
+  description: Salmiakki is both salty and sweet. Which one will it be for you?
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqrpwI83FonOR43KTBxZE%2Fphoto%2FkiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png?alt=media&token=91ebc5b5-ab45-4674-9209-119d7648f357
+      lastModifiedTS: 1697522645986
+      name: salmiakki_topdown.png
+      ref: maps/qrpwI83FonOR43KTBxZE/photo/kiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Salmiakki 1.2
+  startboxesSet:
+    Cnq5FP96uB07wGWJ92oU:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 46
+              y: 200
+        - poly:
+            - x: 154
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
 rQ8v6BePPrXIaQaaQjam:
   author: Raghna
   certified: true
