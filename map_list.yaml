@@ -2257,13 +2257,13 @@ ACgCe99NC8yZFecMwRCm:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2F8Atrijxaw4s6oZen93QT-isthmus161.jpg?alt=media&token=04876044-b080-438b-b86a-d8b2eac312a2
-      lastModifiedTS: 1697705997762
-      name: isthmus161.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/photo/8Atrijxaw4s6oZen93QT-isthmus161.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FChhQEtWbmdgrV819PUXm-supreme162.jpg?alt=media&token=3ca970f7-aba5-4cea-ad65-956c7dea82bb
+      lastModifiedTS: 1698394269427
+      name: supreme162.jpg
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/ChhQEtWbmdgrV819PUXm-supreme162.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Supreme Isthmus v1.6.1
+  springName: Supreme Isthmus v1.6.2
   startboxesSet:
     DizlFBRdBVRvBiS3RKYl:
       maxPlayersPerStartbox: 8
