@@ -6026,6 +6026,37 @@ WOlmGcTZXUtV5iy57Kc9:
   terrain:
     - hills
     - water
+WrkVFQS8BedaqPg5SeB7:
+  author: Phalange
+  certified: false
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWrkVFQS8BedaqPg5SeB7%2Fphoto%2F8CILPY8O6FsPNxDtaS8R-Scylla_minimap.jpg?alt=media&token=c125b951-c314-4a18-91fa-a9e319fcd998
+      lastModifiedTS: 1698512103285
+      name: Scylla_minimap.jpg
+      ref: maps/WrkVFQS8BedaqPg5SeB7/photo/8CILPY8O6FsPNxDtaS8R-Scylla_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Scylla and Charybdis 0.9
+  startboxesSet:
+    kRIRB3IqW07796KrvKeU:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 0
+              y: 150
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
 WuwJQPBtwMfJR9czmWuQ:
   author: Nikuksis
   certified: true
