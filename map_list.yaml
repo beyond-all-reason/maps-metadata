@@ -6029,17 +6029,18 @@ WOlmGcTZXUtV5iy57Kc9:
 WrkVFQS8BedaqPg5SeB7:
   author: Phalange
   certified: false
+  description: 4v4-8v8 map. The large pits with 2 geothermals are unreachable by land.
   gameType:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWrkVFQS8BedaqPg5SeB7%2Fphoto%2F8CILPY8O6FsPNxDtaS8R-Scylla_minimap.jpg?alt=media&token=c125b951-c314-4a18-91fa-a9e319fcd998
-      lastModifiedTS: 1698512103285
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWrkVFQS8BedaqPg5SeB7%2Fphoto%2FnOiY1C9wRLgbTPpFBygY-Scylla_minimap.jpg?alt=media&token=e81d069b-ac08-4427-aca2-bc05e1e7e948
+      lastModifiedTS: 1698793737000
       name: Scylla_minimap.jpg
-      ref: maps/WrkVFQS8BedaqPg5SeB7/photo/8CILPY8O6FsPNxDtaS8R-Scylla_minimap.jpg
+      ref: maps/WrkVFQS8BedaqPg5SeB7/photo/nOiY1C9wRLgbTPpFBygY-Scylla_minimap.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Scylla and Charybdis 0.9
+  springName: Scylla and Charybdis 1.0
   startboxesSet:
     kRIRB3IqW07796KrvKeU:
       maxPlayersPerStartbox: 8
