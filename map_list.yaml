@@ -1375,6 +1375,27 @@
               y: 200
   terrain:
     - hills
+3vZwcbM0FH7v0TrkIoKV:
+  author: Beherith
+  certified: true
+  description: A major spawning ground for Raptors
+  gameType:
+    - team
+    - pve
+    - ffa
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3vZwcbM0FH7v0TrkIoKV%2Fphoto%2FU2g3lE3VEpV49uUkq9bd-screen00194.jpg?alt=media&token=63cabc85-3b76-45b0-833a-af75d90ea3f1
+      lastModifiedTS: 1699298793735
+      name: screen00194.jpg
+      ref: maps/3vZwcbM0FH7v0TrkIoKV/photo/U2g3lE3VEpV49uUkq9bd-screen00194.jpg
+      type: image/jpeg
+  playerCount: 16
+  special: ""
+  springName: Raptor_Crater_V2
+  teamCount: 4
+  terrain:
+    - hills
 44vuVzD9DD5wyzZz0L7i:
   author: Johannes
   certified: true
