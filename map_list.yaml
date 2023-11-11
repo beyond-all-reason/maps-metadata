@@ -2238,6 +2238,63 @@
   teamCount: 2
   terrain:
     - hills
+A9eqjOzH3trguY66HGmH:
+  author: Nikuksis
+  certified: true
+  description: Large network of stone pillars and bridges.
+  gameType:
+    - 1v1
+    - ffa
+    - team
+    - pve
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FA9eqjOzH3trguY66HGmH%2Fphoto%2FumX17QsPQQzMm8TRwT4K-network.jpg?alt=media&token=dd3d0b8b-d458-4d1d-81b6-ac707cc53c6d
+      lastModifiedTS: 1699717181311
+      name: network.jpg
+      ref: maps/A9eqjOzH3trguY66HGmH/photo/umX17QsPQQzMm8TRwT4K-network.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Sinkhole Network v1.0
+  startboxesSet:
+    RftkeN0zQJvpHQEBtWHa:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 50
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 50
+        - poly:
+            - x: 150
+              y: 150
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 150
+            - x: 50
+              y: 200
+    uDrEx7LIXotuVjamHzAj:
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
 ABBUHinh94O7299Php6p:
   author: IceXuick, Nikuksis
   certified: false
