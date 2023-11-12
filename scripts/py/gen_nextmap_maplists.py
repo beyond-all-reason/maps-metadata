@@ -40,6 +40,10 @@ def get_data(input_file):
             for startboxes_info in map["startboxesSet"].values():
                 if "maxPlayersPerStartbox" in startboxes_info:
                     team_count = len(startboxes_info["startboxes"])
+                    if team_count == 1:
+                        # Let's ignore the case when there is only 1 team. Maybe it should be
+                        # just illegal in the rowy, but for now, there are some maps like that.
+                        continue
                     max_players_per_startbox = startboxes_info["maxPlayersPerStartbox"]
 
                     # add non-ffa maps to teamsize_dict
