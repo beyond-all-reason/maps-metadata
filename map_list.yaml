@@ -11038,14 +11038,28 @@ rC0RO0MGRS9ckbGJdGG1:
     - pve
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrC0RO0MGRS9ckbGJdGG1%2Fphoto%2FaVE6ixSrFv6xck9OV1Ms-crimson_bay_mini.jpg?alt=media&token=c78ae521-0012-4c78-a86f-d58d3009cc28
-      lastModifiedTS: 1699644594241
-      name: crimson_bay_mini.jpg
-      ref: maps/rC0RO0MGRS9ckbGJdGG1/photo/aVE6ixSrFv6xck9OV1Ms-crimson_bay_mini.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrC0RO0MGRS9ckbGJdGG1%2Fphoto%2Fi2GSUAymJxZXshSntPDp-crimson1.1.jpg?alt=media&token=f03c09e5-09f6-4d1d-97a9-3d562718f7cb
+      lastModifiedTS: 1699789360525
+      name: crimson1.1.jpg
+      ref: maps/rC0RO0MGRS9ckbGJdGG1/photo/i2GSUAymJxZXshSntPDp-crimson1.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Asymmetrical
-  springName: Crimson Bay v1.0
+  springName: Crimson Bay v1.1
+  startboxesSet:
+    UWusUifYXmfxA4bJUwd0:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 64
+              y: 200
+        - poly:
+            - x: 136
+              y: 0
+            - x: 200
+              y: 200
   terrain:
     - water
     - hills
