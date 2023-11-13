@@ -3732,10 +3732,10 @@ MuFsIEswFS9FbuamCfbS:
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/MuFsIEswFS9FbuamCfbS/photo/GiVvxCDqf08BAdrIrf8u-Shore_to_Shore_V3.jpg
-      lastModifiedTS: 1683982275597
-      name: Shore_to_Shore_V3.jpg
-      ref: maps/MuFsIEswFS9FbuamCfbS/photo/GiVvxCDqf08BAdrIrf8u-Shore_to_Shore_V3.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMuFsIEswFS9FbuamCfbS%2Fphoto%2FIDnsPXeTVxsS53VCpDD2-shore-to-shore-minimap.jpg?alt=media&token=00476553-8caf-47cd-af35-e9330cb52bf6
+      lastModifiedTS: 1699918105399
+      name: shore-to-shore-minimap.jpg
+      ref: maps/MuFsIEswFS9FbuamCfbS/photo/IDnsPXeTVxsS53VCpDD2-shore-to-shore-minimap.jpg
       type: image/jpeg
   playerCount: 8
   springName: Shore_to_Shore_V3
@@ -7588,10 +7588,11 @@ cQ5LLQmNqCPCnYFiTlcb:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cQ5LLQmNqCPCnYFiTlcb/photo/YiCxALW1GA30M8aaQ6YD-koom_valley_3_3.1.jpg
-      lastModifiedTS: 1683982302213
-      name: koom_valley_3_3.1.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/YiCxALW1GA30M8aaQ6YD-koom_valley_3_3.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2Fphoto%2FWB7BxJQfCrOhyNUMKAEu-KoomValley_Bar%201.5_minimap.jpg?alt=media&token=be53122f-47a4-481b-a246-1b9eb3abe8a1
+      lastModifiedTS: 1699917291234
+      name: KoomValley_Bar 1.5_minimap.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/WB7BxJQfCrOhyNUMKAEu-KoomValley_Bar
+        1.5_minimap.jpg
       type: image/jpeg
   playerCount: 16
   springName: Koom Valley 3 3.1
@@ -7871,10 +7872,10 @@ eLHwUEMIb0S3qLy0OT6G:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/eLHwUEMIb0S3qLy0OT6G/photo/TalH8v7eyFa2l311K9qR-Titan_v3.1.jpg
-      lastModifiedTS: 1683982303802
-      name: Titan_v3.1.jpg
-      ref: maps/eLHwUEMIb0S3qLy0OT6G/photo/TalH8v7eyFa2l311K9qR-Titan_v3.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeLHwUEMIb0S3qLy0OT6G%2Fphoto%2FoPksUi3nzzROhlpBDFsN-titan-v31-minimap.jpg?alt=media&token=acef472c-32ed-4893-823e-ece6b36be508
+      lastModifiedTS: 1699917787976
+      name: titan-v31-minimap.jpg
+      ref: maps/eLHwUEMIb0S3qLy0OT6G/photo/oPksUi3nzzROhlpBDFsN-titan-v31-minimap.jpg
       type: image/jpeg
   playerCount: 16
   springName: Titan v3.1
@@ -8674,10 +8675,10 @@ ggVDNTLRh7HNk4mf9mf6:
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ggVDNTLRh7HNk4mf9mf6/photo/ijrIkllRW3hLX1VvJ8cv-Comet_Catcher_Remake_1.8.jpg
-      lastModifiedTS: 1683982309304
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2Fphoto%2F0u9WQsfVCdtocdhGZD00-Comet_Catcher_Remake_1.8.jpg?alt=media&token=27acff9c-d806-4a38-bb3d-4c4b6a5f0ea9
+      lastModifiedTS: 1699917841824
       name: Comet_Catcher_Remake_1.8.jpg
-      ref: maps/ggVDNTLRh7HNk4mf9mf6/photo/ijrIkllRW3hLX1VvJ8cv-Comet_Catcher_Remake_1.8.jpg
+      ref: maps/ggVDNTLRh7HNk4mf9mf6/photo/0u9WQsfVCdtocdhGZD00-Comet_Catcher_Remake_1.8.jpg
       type: image/jpeg
   playerCount: 8
   springName: Comet Catcher Remake 1.8
@@ -12075,10 +12076,10 @@ zvBCoDF2TaUPp7AwfCUr:
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zvBCoDF2TaUPp7AwfCUr/photo/jvoKXrxDmwa0pjJg8sdu-Pinewood_Derby_V1.jpg
-      lastModifiedTS: 1683982333576
-      name: Pinewood_Derby_V1.jpg
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/jvoKXrxDmwa0pjJg8sdu-Pinewood_Derby_V1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2Fphoto%2FPRjd7wt4mtLqRIwXcRWj-PinewoodDerby-MinimapXL.jpg?alt=media&token=7a112ba8-0817-4afb-a186-6ec44346d5c7
+      lastModifiedTS: 1699917598935
+      name: PinewoodDerby-MinimapXL.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/photo/PRjd7wt4mtLqRIwXcRWj-PinewoodDerby-MinimapXL.jpg
       type: image/jpeg
   playerCount: 4
   springName: Pinewood_Derby_V1
