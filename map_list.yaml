@@ -7698,12 +7698,12 @@ cQbwmwbhWrWyD1bhZNEn:
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FuRyhwUZmiOtuYgrJmegb-Jade%20Empress%201.2%20minimap.png?alt=media&token=55f9b228-ee73-4476-b12f-9ed4cc03ef1b
-      lastModifiedTS: 1694834890542
-      name: Jade Empress 1.2 minimap.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/uRyhwUZmiOtuYgrJmegb-Jade Empress 1.2
-        minimap.png
-      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FbrMvuSC7f6KYb3AN5fT2-Jade%20Empress12-minimap.jpg?alt=media&token=dbdebe96-6d8d-4227-bcc0-5b574105b4d4
+      lastModifiedTS: 1699911844215
+      name: Jade Empress12-minimap.jpg
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/brMvuSC7f6KYb3AN5fT2-Jade
+        Empress12-minimap.jpg
+      type: image/jpeg
   playerCount: 16
   springName: Jade Empress 1.2
   startboxesSet:
