@@ -12622,20 +12622,20 @@ z7TZ4CbeIBJtjEjNAwer:
     - hills
     - water
 zfA6sKjimXZO5kz0jtz1:
-  author: PeaceFighter
+  author: PeaceFighter, Nikuksis
   certified: true
   gameType:
     - ffa
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zfA6sKjimXZO5kz0jtz1/photo/ZupLBxGJFvaDVA879guA-Omega_Valley_V0.1.jpg
-      lastModifiedTS: 1683982332553
-      name: Omega_Valley_V0.1.jpg
-      ref: maps/zfA6sKjimXZO5kz0jtz1/photo/ZupLBxGJFvaDVA879guA-Omega_Valley_V0.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzfA6sKjimXZO5kz0jtz1%2Fphoto%2F6k0eXx0BpP5TgYIqyJPJ-Omega.jpg?alt=media&token=1bc46907-6b9d-45bc-a4c0-6dffe2cce9a5
+      lastModifiedTS: 1699887189079
+      name: Omega.jpg
+      ref: maps/zfA6sKjimXZO5kz0jtz1/photo/6k0eXx0BpP5TgYIqyJPJ-Omega.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Omega Valley V0.1
+  springName: Omega Valley V1.0
   startboxesSet:
     666Nev97fxTQ63Nnpfn1:
       startboxes:
