@@ -10,6 +10,8 @@ additionalProperties:
   properties:
     springName:
       type: string
+    displayName:
+      type: string
     author:
       type: string
     description:
@@ -55,6 +57,20 @@ additionalProperties:
         $ref: '#/$defs/uploadedFile'
       minItems: 1
       maxItems: 1
+    backgroundImage:
+      type: array
+      items:
+        $ref: '#/$defs/uploadedFile'
+      maxItems: 1
+    perspectiveShot:
+      type: array
+      items:
+        $ref: '#/$defs/uploadedFile'
+      maxItems: 1
+    inGameShots:
+      type: array
+      items:
+        $ref: '#/$defs/uploadedFile'
     startboxesSet:
       type: object
       collection: true
@@ -102,6 +118,7 @@ additionalProperties:
   additionalProperties: false
   required:
     - springName
+    - displayName
     - author
     - gameType
     - terrain
