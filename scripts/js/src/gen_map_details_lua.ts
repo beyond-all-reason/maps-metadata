@@ -89,6 +89,7 @@ function serializeMapDetails(mapDetails: MapDetails): string {
     function escapeLuaString(str: string): string {
         return str
             .replaceAll('\\', '\\\\')
+            .replaceAll('\r', '')
             .replaceAll('\n', '\\n')
             .replaceAll('\'', '\\\'');
     }
