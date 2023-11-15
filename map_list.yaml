@@ -35,6 +35,8 @@
 0jMFtrg8MuFKGgxmk6No:
   author: IceXuick
   certified: true
+  description: Special 1V1 to 3V3 map with various unique elements like ruins and
+    secluded geothermal spots.
   displayName: Seths Ravine
   gameType:
     - team
@@ -494,6 +496,27 @@
       ref: maps/20rGnfO4wwkmV5v2fXVZ/backgroundImage/fTZVksHsmZrgT6Y1HcIP-BAR_FolsomDam_BG.jpg
       type: image/jpeg
   certified: true
+  description: "Folsomdam Remake | BAR Certified\r
+
+    \r
+
+    Remake of the very popular map Folsomdam V4 Deluxe.\r
+
+    \r
+
+    Full remake with high quality textures and 1:1 diffuse/normalmap.\r
+
+    \r
+
+    Heightmap only slightly updated with improved erosion.\r
+
+    \r
+
+    Incl. detailed DNTS splatmaps and features, except stones.\r
+
+    \r
+
+    Including the original 14 start locations."
   displayName: Folsom Dam
   gameType:
     - team
@@ -873,6 +896,7 @@
 2NeyVyHXbe13LF9P85pz:
   author: Beherith
   certified: true
+  description: 6v6 map
   displayName: Archsimkats Valley
   gameType:
     - team
@@ -1166,6 +1190,7 @@
       ref: maps/3XVaIgjKnh120KPs7fv0/backgroundImage/grg9AOYXLvyuOy7F8Ks3-KOR_SF_overview.jpg
       type: image/jpeg
   certified: true
+  description: ""
   displayName: Knockout
   gameType:
     - ffa
@@ -1202,6 +1227,7 @@
   springName: KnockoutR 1.5
   startboxesSet:
     F0h38Yetg5EAbl1jHXJP:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 48
@@ -1249,65 +1275,50 @@
             - x: 133
               y: 129
     OMggAuVmzPGPhYTBCaPK:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
-            - x: 3
-              y: 43
-            - x: 47
-              y: 90
+            - x: 8
+              y: 44
+            - x: 42
+              y: 91
         - poly:
-            - x: 40
-              y: 0
+            - x: 42
+              y: 7
             - x: 94
               y: 40
         - poly:
-            - x: 104
-              y: 0
-            - x: 156
-              y: 45
-        - poly:
-            - x: 153
-              y: 43
-            - x: 197
-              y: 87
-        - poly:
-            - x: 153
-              y: 106
-            - x: 196
-              y: 152
-        - poly:
             - x: 109
-              y: 146
-            - x: 152
-              y: 195
+              y: 6
+            - x: 156
+              y: 41
+        - poly:
+            - x: 158
+              y: 43
+            - x: 196
+              y: 92
+        - poly:
+            - x: 157
+              y: 109
+            - x: 196
+              y: 157
+        - poly:
+            - x: 107
+              y: 159
+            - x: 156
+              y: 194
         - poly:
             - x: 44
-              y: 156
+              y: 157
             - x: 90
               y: 194
         - poly:
-            - x: 0
-              y: 100
+            - x: 6
+              y: 109
             - x: 41
               y: 155
-    PChd4kFBbCkpr5UAr84r:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 3
-            - x: 90
-              y: 94
-        - poly:
-            - x: 96
-              y: 0
-            - x: 195
-              y: 93
-        - poly:
-            - x: 0
-              y: 98
-            - x: 197
-              y: 195
     RQHvXjTMzEHKqgZTU4iW:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 9
@@ -1334,14 +1345,8 @@
               y: 77
             - x: 116
               y: 112
-    TeguzoJj3BfB2PwpdmHK:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 1
-            - x: 200
-              y: 200
     kCh5aVgk4q4ctVRWgQHb:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 80
@@ -1376,6 +1381,7 @@
               y: 0
             - x: 200
               y: 200
+  teamCount: 8
   terrain:
     - hills
 3vZwcbM0FH7v0TrkIoKV:
@@ -1445,6 +1451,16 @@
         BG.jpg
       type: image/jpeg
   certified: true
+  description: "Fight on small, barren and cold glacier pass.\r
+
+    \r
+
+    Bots have a slight advantage and can traverse cliffs on multiple
+    points.\r
+
+    \r
+
+    Ideal for 1v1 or 2v2 games."
   displayName: Glacier Pass
   gameType:
     - team
@@ -1805,6 +1821,7 @@
       ref: maps/8NJ4dy6hrSPsrezNmczE/backgroundImage/1DVCBlY7QrdGSwIHcDVI-Pillar-of-Doom_BG.jpg
       type: image/jpeg
   certified: true
+  description: Small FFA
   displayName: Pillar of Doom
   gameType:
     - ffa
@@ -1958,6 +1975,7 @@
 9Z3VnJ2cFcGhcaq6z1bJ:
   author: Johannes
   certified: true
+  description: 1v1-5v5 map
   displayName: Red Rock Desert
   gameType:
     - team
@@ -2325,6 +2343,7 @@ ACgCe99NC8yZFecMwRCm:
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   certified: true
+  description: The ultimate Alien 1V1 Experience!
   displayName: Zed
   gameType:
     - 1v1
@@ -3143,6 +3162,7 @@ GPSFfpSd1wtmx4CZRGA6:
       ref: maps/GPSFfpSd1wtmx4CZRGA6/backgroundImage/sS1CmAEwcUfECpFpvH2n-TFR_SF_website_header.jpg
       type: image/jpeg
   certified: true
+  description: Full remake from of this dynamic map with multiple possible strategies.
   displayName: Trefoil
   gameType:
     - ffa
@@ -3638,6 +3658,7 @@ HdwZWKydw2luEc8EascR:
       ref: maps/HdwZWKydw2luEc8EascR/backgroundImage/TlCGdDBJtKPETrt1yxra-Pentos_V1_BG.jpg
       type: image/jpeg
   certified: true
+  description: 5 way FFA
   displayName: Pentos
   gameType:
     - ffa
@@ -3951,6 +3972,10 @@ Jdb4pZyLQPb0IkSmaVrO:
       ref: maps/Jdb4pZyLQPb0IkSmaVrO/backgroundImage/Gkr1uoCCM7RnuEgbrctw-QSR_background.jpg
       type: image/jpeg
   certified: true
+  description: A remake of a great map Quicksilver. This version has slightly more
+    erosion, and vegetation has become tropical. Also the island is the same
+    size as the original, but the map is increased slightly for better area
+    around the island.
   displayName: Quicksilver
   gameType:
     - 1v1
@@ -5049,6 +5074,7 @@ QlanwpEXsYOy3ZYYp3iu:
         2-tinified.jpg
       type: image/jpeg
   certified: true
+  description: Pro Team Map
   displayName: Tabula
   gameType:
     - team
@@ -5148,6 +5174,20 @@ QsD0vDtYMgk8ATraKoNI:
       ref: maps/QsD0vDtYMgk8ATraKoNI/backgroundImage/lE7kyjD1d7CwpzZO98sr-TMA20_background.jpg
       type: image/jpeg
   certified: true
+  description: "A remake and rescale of the popular TMA map from Beherith.\r
+
+    \r
+
+    A reduction from 32x32 to 20x20 and a new look.\r
+
+    \r
+
+    This is the improved version of TMA20, and also now back in Space!\r
+
+    \r
+
+    Perfect for FFA games for 5-7 players, but you can play from 2-8
+    players."
   displayName: TMA20X
   gameType:
     - ffa
@@ -5459,6 +5499,11 @@ SHA84LfmzYbxT8iIyTtU:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: "Inspired by League of Legends.\r
+
+    \r
+
+    With unexpectedly good and diverse gameplay!"
   displayName: Rifted
   gameType:
     - team
@@ -5643,6 +5688,7 @@ SYB0blENn3hqhEyLC24B:
       ref: maps/SYB0blENn3hqhEyLC24B/backgroundImage/7zH7O8Jfbyyp38O0Bsrv-Throne_V2BG.jpg
       type: image/jpeg
   certified: true
+  description: Massive Free for All map.
   displayName: Throne
   gameType:
     - ffa
@@ -6224,6 +6270,30 @@ UeeBymo7RdXE5ty3amFw:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: "Massive Canyon for big battles.\r
+
+    \r
+
+    Beware that bots can traverse all center hills, while vehicles can only
+    move through the canyons.\r
+
+    \r
+
+    Only the shoreline cliffs are too steep for bots.\r
+
+    \r
+
+    Also the canyons have superb grip and offer a 20% speed bonus.\r
+
+    \r
+
+    The water is however treacherous with strong currents, making movement
+    their harder and 20% slower.\r
+
+    \r
+
+    Thanks to Bacon for the canyon detail textures and Beherith for the
+    original map!"
   displayName: Kolmogorov
   gameType:
     - ffa
@@ -6283,56 +6353,19 @@ UeeBymo7RdXE5ty3amFw:
   springName: Kolmogorov Remake 3.0
   startboxesSet:
     Ygu3WlAq6kP0uawS7KSh:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
-              y: 120
-            - x: 80
-              y: 200
-        - poly:
-            - x: 120
-              y: 0
-            - x: 200
-              y: 80
-    bHS6v7xn4Psf7R1ZlrK1:
-      startboxes:
-        - poly:
+              y: 105
             - x: 95
-              y: 10
-            - x: 191
-              y: 92
-        - poly:
-            - x: 83
-              y: 163
-            - x: 123
               y: 200
         - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 0
-              y: 82
-            - x: 40
-              y: 122
-    wW34zCveRZ1SNUfnwk3Y:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 120
-            - x: 80
-              y: 200
-        - poly:
-            - x: 120
+            - x: 105
               y: 0
             - x: 200
-              y: 80
-        - poly:
-            - x: 0
-              y: 0
-            - x: 16
-              y: 15
+              y: 95
+  teamCount: 2
   terrain:
     - hills
 UhGP9ish5WdFio1VfrU6:
@@ -6798,93 +6831,51 @@ WuwJQPBtwMfJR9czmWuQ:
   playerCount: 16
   springName: Krakatoa_V2.0
   startboxesSet:
-    3FWoPKQur9THfbqfYsT5:
-      startboxes:
-        - poly:
-            - x: 10
-              y: 0
-            - x: 90
-              y: 79
-        - poly:
-            - x: 120
-              y: 61
-            - x: 200
-              y: 141
-        - poly:
-            - x: 19
-              y: 120
-            - x: 98
-              y: 200
     56LVu8ZrlIsKi7W6sUuN:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 141
-              y: 55
-            - x: 182
-              y: 95
+            - x: 161
+              y: 69
+            - x: 171
+              y: 80
         - poly:
-            - x: 142
-              y: 104
-            - x: 182
-              y: 143
+            - x: 162
+              y: 123
+            - x: 172
+              y: 132
         - poly:
-            - x: 112
-              y: 141
-            - x: 149
-              y: 180
+            - x: 129
+              y: 163
+            - x: 139
+              y: 172
         - poly:
-            - x: 56
-              y: 143
-            - x: 98
-              y: 183
+            - x: 72
+              y: 164
+            - x: 80
+              y: 174
         - poly:
-            - x: 16
-              y: 104
-            - x: 56
-              y: 145
+            - x: 30
+              y: 126
+            - x: 40
+              y: 136
         - poly:
-            - x: 22
-              y: 57
+            - x: 30
+              y: 73
+            - x: 39
+              y: 82
+        - poly:
+            - x: 123
+              y: 26
+            - x: 133
+              y: 35
+        - poly:
             - x: 63
-              y: 97
-        - poly:
-            - x: 104
-              y: 16
-            - x: 142
-              y: 55
-        - poly:
-            - x: 52
-              y: 19
-            - x: 90
-              y: 57
-    O2FAYx0PjWwlcp4kzBBY:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 107
-            - x: 200
-              y: 200
-        - poly:
-            - x: 58
-              y: 17
-            - x: 140
-              y: 48
-        - poly:
-            - x: 152
-              y: 50
-            - x: 188
-              y: 79
-        - poly:
-            - x: 13
-              y: 52
-            - x: 50
-              y: 85
-        - poly:
-            - x: 88
-              y: 39
-            - x: 109
-              y: 60
+              y: 30
+            - x: 72
+              y: 38
     TVTPgQbUc7JYnhSBLqAq:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -6897,27 +6888,28 @@ WuwJQPBtwMfJR9czmWuQ:
             - x: 200
               y: 200
     WUs1IuzVW7Df4MQuTH04:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
-            - x: 5
-              y: 2
-            - x: 37
-              y: 34
+            - x: 50
+              y: 0
+            - x: 140
+              y: 50
         - poly:
-            - x: 168
-              y: 164
-            - x: 195
-              y: 191
+            - x: 50
+              y: 150
+            - x: 140
+              y: 200
         - poly:
             - x: 0
-              y: 163
-            - x: 29
-              y: 192
+              y: 60
+            - x: 50
+              y: 140
         - poly:
-            - x: 169
-              y: 0
-            - x: 196
-              y: 32
+            - x: 150
+              y: 60
+            - x: 200
+              y: 140
   teamCount: 4
   terrain:
     - hills
@@ -7063,6 +7055,7 @@ X0N11knnIS4fWqkoFPBC:
 XAYu2CrwVdR5GlcpOxL0:
   author: Beherith
   certified: true
+  description: A slightly different eroded map
   displayName: Supreme Crossing 2
   gameType:
     - team
@@ -7558,6 +7551,23 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/backgroundImage/BwWbnSUSdujQK1AQqmb1-RCR_SF_map_header.jpg
       type: image/jpeg
   certified: true
+  description: "A classic when it comes to strategy maps. A relative small map,
+    though with lots of room to maneuver and it can hold up to 10 players.\r
+
+    \r
+
+    The large craters can be accessed by bots, for staging area's, or refuge
+    when being chased by Bulldogs or a Goliath.\r
+
+    \r
+
+    True to the original, with subtle extra details in heighmap and a
+    completely revamped texture, typemap, specular, DNTS splatmap and
+    normalmap.\r
+
+    \r
+
+    Original map i used for heightmap was from NoiZe!"
   displayName: Red Comet
   gameType:
     - 1v1
@@ -7763,6 +7773,7 @@ Yhwa2neMfDTUXyAiSJXC:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: A very dynamic team map with many ways to victory!
   displayName: Incandescence
   gameType:
     - team
@@ -8039,6 +8050,7 @@ ZeOLwTAgEU10BGvcdQ45:
 ZrnTf20mPzbrMjtHa9Wg:
   author: Beherith
   certified: true
+  description: 8v8 Map
   displayName: Riverrun
   gameType:
     - ffa
@@ -8142,6 +8154,7 @@ ZxFS2VuODjyLH5V8mHfR:
       ref: maps/ZxFS2VuODjyLH5V8mHfR/backgroundImage/BfvrFdCR4WGNg8krhbqx-Mescaline_V2_BG.jpg
       type: image/jpeg
   certified: true
+  description: "Mescaline v2, for up to 8-16 players. "
   displayName: Mescaline
   gameType:
     - team
@@ -8548,6 +8561,16 @@ bkIRTcsnvtmQVsm3SsNJ:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: "The renown Fast Speed Metal map. Great for fast and intense
+    battles.\r
+
+    \r
+
+    Build your extractors, anywhere!\r
+
+    \r
+
+    Beware of the Lava."
   displayName: SpeedMetal
   gameType:
     - team
@@ -8663,6 +8686,9 @@ byucseTLrpgU0J70dFC0:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: Fight on a dangerous molten lava island, where the lava will rise
+    and drop. The lava will temporarily save you from ground assaults, but
+    beware, it will drop again.
   displayName: Ghenna Rising
   gameType:
     - ffa
@@ -8929,6 +8955,16 @@ cQ5LLQmNqCPCnYFiTlcb:
         1.5 BG.jpg
       type: image/jpeg
   certified: true
+  description: "Remake from the original from Beherith.\r
+
+    \r
+
+    Awesomely big map, with lots of room to fight. Metal in the center is
+    more rich, so expansion is key. Wind is flakey, so beware.\r
+
+    \r
+
+    Enjoy!"
   displayName: Koom Valley
   gameType:
     - team
@@ -8986,39 +9022,8 @@ cQ5LLQmNqCPCnYFiTlcb:
   playerCount: 16
   springName: Koom Valley 3 3.1
   startboxesSet:
-    5gbx2gMxKSp89kIG8qZ6:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 200
-        - poly:
-            - x: 182
-              y: 29
-            - x: 200
-              y: 48
-        - poly:
-            - x: 184
-              y: 99
-            - x: 196
-              y: 111
-        - poly:
-            - x: 185
-              y: 175
-            - x: 200
-              y: 193
-        - poly:
-            - x: 173
-              y: 86
-            - x: 183
-              y: 112
-        - poly:
-            - x: 186
-              y: 84
-            - x: 191
-              y: 97
     G9Mcs1KtaHcbgiL7UiHr:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -9030,52 +9035,7 @@ cQ5LLQmNqCPCnYFiTlcb:
               y: 0
             - x: 200
               y: 200
-    ZxqR6rt3icks95pMaRGC:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 200
-    tIFV49EK4hlskCmFtNnQ:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 200
-        - poly:
-            - x: 140
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 82
-              y: 0
-            - x: 120
-              y: 199
-    w2BUB1XvGeo76FdWOMCH:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 200
-        - poly:
-            - x: 129
-              y: 0
-            - x: 199
-              y: 60
-        - poly:
-            - x: 128
-              y: 140
-            - x: 199
-              y: 199
-        - poly:
-            - x: 142
-              y: 78
-            - x: 199
-              y: 122
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -9104,7 +9064,7 @@ cQbwmwbhWrWyD1bhZNEn:
         - poly:
             - x: 37
               y: 26
-            - x: 97
+            - x: 105
               y: 68
         - poly:
             - x: 133
@@ -9126,6 +9086,15 @@ cYgRxanQzvg7Bx9xXk1H:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: >-
+    Official remake of the Valles Marineris map from SirArrturi. Inspired by the
+    official canyon-range on Mars.
+
+
+    Bots have paths to climb all cliffs, though some are harder to traverse. So bots have many evasive possibilities compared to vehicles. Though the reasonable shallow and wide ramps will give vehicles acces to almost every location. Choose wisely!
+
+
+    Enjoy.
   displayName: Valles Marineris
   gameType:
     - team
@@ -9505,6 +9474,8 @@ etCTTwexgYVGMV63rOWy:
         1.jpg
       type: image/jpeg
   certified: true
+  description: Medium small map for 4 players. Interesting terrain and multiple
+    viable strategies are possible. Enjoy.
   displayName: Fallendell
   gameType:
     - team
@@ -9767,6 +9738,12 @@ fvLhZp85DLroyv0Iozhe:
         Horus_1.5 overview.jpg
       type: image/jpeg
   certified: true
+  description: "Fight your way around the hills with vehicles or use the many
+    routes through the mountains with bots and all-terrain units.\r
+
+    \r
+
+    Also playable with water level of 270 or higher."
   displayName: Eye Of Horus
   gameType:
     - team
@@ -10307,6 +10284,7 @@ iQZFWB7rheiOseoQXihq:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: Fight through a mountain pass.
   displayName: Great Divide
   gameType:
     - team
@@ -12166,6 +12144,8 @@ s7nrY1vJEItDuPwHAKEO:
         1.jpg
       type: image/jpeg
   certified: true
+  description: Wide Moon with many craters, which hold more dense metal spots. Use
+    the craters to your advantage. Good Luck!
   displayName: MoonQ20XR2
   gameType:
     - team
@@ -12776,6 +12756,7 @@ vFNwoJJ3cCMzSaAAQPvR:
 vTVisQEv3JM2pa0TvUHy:
   author: NOiZE
   certified: true
+  description: Intermittent winds
   displayName: Evad River Confluence
   gameType:
     - ffa
@@ -12874,6 +12855,18 @@ vryCgnmiXKEfnJuBLobP:
         2.jpg
       type: image/jpeg
   certified: true
+  description: "Fight on a calm and peaceful looking rural area, with nothing more
+    than some old dirt-roads, trees and some rocks.\r
+
+    \r
+
+    But with no metal spots.\r
+
+    So you're entire economy is based on Energy Converters.\r
+
+    \r
+
+    Good luck Commander!"
   displayName: Greenest Fields
   gameType:
     - team
@@ -12991,6 +12984,7 @@ wQa6jdSr4HBUH6p21eI8:
 wyCcSCcx7UYOY5bT4d5P:
   author: Raghna
   certified: false
+  description: 7v7 or ffa
   displayName: ReRaghnarok
   gameType:
     - ffa
@@ -13045,6 +13039,18 @@ wyCcSCcx7UYOY5bT4d5P:
 x0Y6f1ou7U5tF3S9xllC:
   author: IceXuick
   certified: true
+  description: >-
+    Remake of the rather interesting asymmetrical map River Dale V2. This time,
+    a little bit more rocky edges, but still the same special metal lay-out and
+    also asymmetrical values for North and South.
+
+
+    Good for team games 1v1 or 2v2
+
+    Enjoy the rolling hills and unique map-design.
+
+
+    Original from Secure.
   displayName: Riverdale
   gameType:
     - team
@@ -13255,6 +13261,17 @@ xbJTsdeXIKFQmuvBHW3d:
         overview.jpg
       type: image/jpeg
   certified: true
+  description: "A fresh, though unbalanced and asymmetrical island to wage war
+    on.\r
+
+    \r
+
+    West has a tad more metal, or at least easier access to it. East has a
+    better defendable position due to the high ground.\r
+
+    \r
+
+    Great for new players to start east."
   displayName: Timna Island
   gameType:
     - ffa
@@ -13444,6 +13461,7 @@ yhOJI5yH4yGFmx9PMt9T:
 z7TZ4CbeIBJtjEjNAwer:
   author: Beherith
   certified: true
+  description: 4-10 players, ships and subs can pass shallows
   displayName: Downs of Destruction
   gameType:
     - team
@@ -13563,6 +13581,7 @@ zfA6sKjimXZO5kz0jtz1:
 zoXOP8VC1sNWpsP41IYV:
   author: NOiZE
   certified: true
+  description: Many ponds make this a good map for hovercraft.
   displayName: Plethora of Ponds
   gameType:
     - team
@@ -13713,6 +13732,9 @@ zvBCoDF2TaUPp7AwfCUr:
         1.jpg
       type: image/jpeg
   certified: true
+  description: A fun and good map for new players. Though when you already know
+    how to play BAR, please revisit, there are multiple viable strategies
+    possible here.
   displayName: Pinewood Derby
   gameType:
     - team
@@ -13810,6 +13832,22 @@ zvTEXnewG2G8LaMjFq4o:
         BG.jpg
       type: image/jpeg
   certified: true
+  description: "Remake of the original Nuclear Winter V3 - though a tiny bit
+    smaller.\r
+
+    \r
+
+    Unique feature is the ice in the middle, which speeds up vehicles and
+    hovercraft, but is slipperly/slow for bots.\r
+
+    \r
+
+    The snow is pretty soft, so cratering and terrain deformation will
+    happen.\r
+
+    \r
+
+    Good luck!!"
   displayName: Nuclear Winter
   gameType:
     - team
