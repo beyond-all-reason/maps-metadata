@@ -1535,21 +1535,28 @@
     - hills
 4egdlg54rpZQh1bvbS8p:
   author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4egdlg54rpZQh1bvbS8p%2FbackgroundImage%2FUeZi266AVOIyQC5kcNHl-screen00004.png?alt=media&token=fbc350e5-b0b0-43d0-9b82-2a6f0ae14722
+      lastModifiedTS: 1700007754716
+      name: screen00004.png
+      ref: maps/4egdlg54rpZQh1bvbS8p/backgroundImage/UeZi266AVOIyQC5kcNHl-screen00004.png
+      type: image/png
   certified: true
   description: Valleys of dense forest and dry grassland.
-  displayName: Otago Redux
+  displayName: Otago
   gameType:
     - team
     - 1v1
+  inGameShots: []
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4egdlg54rpZQh1bvbS8p/photo/sVu36AtSabPruQXh4GjC-Otago_Redux_1.33.jpg
-      lastModifiedTS: 1683982256779
-      name: Otago_Redux_1.33.jpg
-      ref: maps/4egdlg54rpZQh1bvbS8p/photo/sVu36AtSabPruQXh4GjC-Otago_Redux_1.33.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4egdlg54rpZQh1bvbS8p%2Fphoto%2Fs8x0aJbzRlLlzJb2VnWj-otagoscreen1.png?alt=media&token=3a783f8b-fec2-435c-9869-fc5c8ed1be28
+      lastModifiedTS: 1700008020405
+      name: otagoscreen1.png
+      ref: maps/4egdlg54rpZQh1bvbS8p/photo/s8x0aJbzRlLlzJb2VnWj-otagoscreen1.png
+      type: image/png
   playerCount: 6
-  springName: Otago Redux 1.33
+  springName: Otago 1.4
   startboxesSet:
     38feIx1EXCUYgt4Guiiw:
       startboxes:
