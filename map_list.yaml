@@ -2359,6 +2359,41 @@ ACgCe99NC8yZFecMwRCn:
               y: 200
   terrain:
     - hills
+ASieUn5uvk5eyZz6KhUt:
+  author: Nikuksis
+  certified: true
+  description: 16 players free for all. Flagships and subs can pass shallows,
+    remake of mearth map made by [teh]Beherith, concept by JRRT
+  displayName: Odderon Strandflats
+  gameType:
+    - pve
+    - ffa
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FASieUn5uvk5eyZz6KhUt%2Fphoto%2FSea43Ou5l93pdAjcwqVD-odderon.jpg?alt=media&token=63b4c86c-3644-4132-9c6d-afed1ac13443
+      lastModifiedTS: 1700083176045
+      name: odderon.jpg
+      ref: maps/ASieUn5uvk5eyZz6KhUt/photo/Sea43Ou5l93pdAjcwqVD-odderon.jpg
+      type: image/jpeg
+  special: Asymmetrical
+  springName: Odderon Strandflats v1.0
+  startboxesSet:
+    lPpeOjyIde6u4oqjRAqw:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 130
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 70
+  terrain:
+    - hills
+    - water
 An6zReiqIWD15Yx7bZ3b:
   author: Beherith
   backgroundImage:
