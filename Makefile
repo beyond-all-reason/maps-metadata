@@ -47,4 +47,10 @@ clean:
 update_all_from_rowy: gen/map_list.schema.json
 	ts-node scripts/js/src/update_from_rowy.ts map_list.yaml all
 
-.PHONY: clean test typecheck_scripts check_startboxes types update_all_from_rowy
+sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/types/cdn_maps.d.ts
+	ts-node scripts/js/src/sync_to_webflow.ts sync
+
+refresh_webflow_types:
+	ts-node scripts/js/src/gen_webflow_types.ts scripts/js/src/webflow_types.ts
+
+.PHONY: clean test typecheck_scripts check_startboxes types update_all_from_rowy sync_to_webflow refresh_webflow_types

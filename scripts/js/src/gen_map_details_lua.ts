@@ -1,7 +1,6 @@
 // Script generating mapDetails.lua used in BYAR-Chobby repo for maps list.
 
-import { getMapFilePath, readMapList } from './maps_metadata.js';
-import pLimit from 'p-limit';
+import { fetchMapsMetadata, readMapList } from './maps_metadata.js';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapList } from '../../../gen/types/map_list.js';
@@ -25,17 +24,6 @@ export interface MapDetails {
         InfoText?: string;
         LastUpdate: number;
     };
-}
-
-async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>> {
-    const limit = pLimit(10);
-
-    const metadata = Object.entries(maps).map(([id, m]) => limit(async (): Promise<[string, any]> => {
-        const path = await getMapFilePath(m.springName, 'metadata.json');
-        const meta = JSON.parse(await fs.readFile(path, { encoding: 'utf8' }));
-        return [id, meta];
-    }));
-    return new Map(await Promise.all(metadata));
 }
 
 function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDetails {
