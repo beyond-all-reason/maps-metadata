@@ -50,67 +50,20 @@
   playerCount: 6
   springName: Seths Ravine Remake 1.3
   startboxesSet:
-    OGVUm0ux5c8IWlmo2wAK:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 60
-        - poly:
-            - x: 0
-              y: 140
-            - x: 200
-              y: 200
-        - poly:
-            - x: 29
-              y: 108
-            - x: 69
-              y: 139
-        - poly:
-            - x: 133
-              y: 59
-            - x: 174
-              y: 92
     UQxMVIaq4LqZh9zZpTxl:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
-            - x: 16
-              y: 7
-            - x: 64
-              y: 58
+            - x: 21
+              y: 10
+            - x: 52
+              y: 97
         - poly:
-            - x: 133
-              y: 144
+            - x: 147
+              y: 105
             - x: 177
               y: 187
-    cEI6PM1rat85oNG0XmM7:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 95
-            - x: 154
-              y: 197
-        - poly:
-            - x: 0
-              y: 0
-            - x: 198
-              y: 69
-        - poly:
-            - x: 157
-              y: 123
-            - x: 181
-              y: 142
-        - poly:
-            - x: 58
-              y: 173
-            - x: 81
-              y: 191
-        - poly:
-            - x: 114
-              y: 38
-            - x: 132
-              y: 57
+  teamCount: 2
   terrain:
     - flat
 0rkuPKU4nx2GuhlUC8sH:
@@ -162,10 +115,11 @@
       name: sphagnum_bog_v1.1.jpg
       ref: maps/0rkuPKU4nx2GuhlUC8sH/photo/3QFsvRpz7psmFzZsKKAP-sphagnum_bog_v1.1.jpg
       type: image/jpeg
-  playerCount: 8
+  playerCount: 6
   springName: Sphagnum Bog v1.2
   startboxesSet:
     EcjJI52KJlIdMv7iCpUH:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -637,249 +591,89 @@
   playerCount: 16
   springName: Neurope_Remake 4.2
   startboxesSet:
-    6As4UhJGjvfa0ezQsJ4t:
+    visYMWVnnWrv58fH0YUh:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 74
-              y: 15
-            - x: 114
-              y: 54
+            - x: 12
+              y: 62
+            - x: 21
+              y: 80
         - poly:
-            - x: 93
-              y: 160
-            - x: 137
-              y: 198
+            - x: 44
+              y: 6
+            - x: 52
+              y: 23
         - poly:
-            - x: 10
+            - x: 20
               y: 144
-            - x: 39
-              y: 197
+            - x: 29
+              y: 162
         - poly:
-            - x: 36
-              y: 83
-            - x: 77
-              y: 117
+            - x: 79
+              y: 32
+            - x: 86
+              y: 47
         - poly:
-            - x: 155
-              y: 86
-            - x: 198
+            - x: 182
+              y: 159
+            - x: 190
               y: 174
-    BKqOjkjXWpBkQSarn4UT:
-      startboxes:
+        - poly:
+            - x: 182
+              y: 32
+            - x: 189
+              y: 43
+        - poly:
+            - x: 141
+              y: 26
+            - x: 149
+              y: 41
+        - poly:
+            - x: 122
+              y: 64
+            - x: 130
+              y: 82
+        - poly:
+            - x: 156
+              y: 100
+            - x: 164
+              y: 118
         - poly:
             - x: 67
-              y: 12
-            - x: 153
-              y: 90
-        - poly:
-            - x: 133
-              y: 10
-            - x: 200
-              y: 126
-        - poly:
-            - x: 5
-              y: 18
-            - x: 58
-              y: 76
-        - poly:
-            - x: 135
-              y: 125
-            - x: 200
-              y: 200
-        - poly:
-            - x: 56
-              y: 159
-            - x: 127
-              y: 194
-        - poly:
-            - x: 75
-              y: 88
-            - x: 130
-              y: 152
-        - poly:
-            - x: 4
-              y: 89
-            - x: 59
-              y: 192
-    Bf4dcdspxy0tal8sO10U:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 49
-              y: 199
-        - poly:
-            - x: 159
-              y: 0
-            - x: 200
-              y: 55
-        - poly:
-            - x: 153
-              y: 152
-            - x: 199
-              y: 200
-    D3Pqgd9lNCmdxxedn1Gu:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 30
-              y: 92
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
+              y: 180
             - x: 74
-              y: 22
-            - x: 115
-              y: 59
-        - poly:
-            - x: 42
-              y: 76
-            - x: 81
-              y: 119
-        - poly:
-            - x: 80
-              y: 157
-            - x: 121
-              y: 199
-        - poly:
-            - x: 140
-              y: 84
-            - x: 181
-              y: 125
-    HZ47K36lUbt5gqYpTk67:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 195
-              y: 198
-    KiciCJCT09Q8PXVyXROG:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 139
-              y: 99
-        - poly:
-            - x: 5
-              y: 153
-            - x: 40
-              y: 197
-        - poly:
-            - x: 95
-              y: 153
-            - x: 132
-              y: 200
-        - poly:
-            - x: 165
-              y: 127
-            - x: 200
-              y: 171
-    M3AMnyFktoP3czAKDfHX:
-      startboxes:
-        - poly:
-            - x: 7
-              y: 128
-            - x: 47
-              y: 200
-        - poly:
-            - x: 160
-              y: 153
-            - x: 200
               y: 193
         - poly:
-            - x: 92
-              y: 157
+            - x: 121
+              y: 119
             - x: 129
-              y: 196
+              y: 134
         - poly:
-            - x: 163
-              y: 19
-            - x: 200
-              y: 59
-        - poly:
-            - x: 39
-              y: 78
-            - x: 78
+            - x: 86
+              y: 97
+            - x: 97
               y: 116
         - poly:
-            - x: 104
-              y: 109
-            - x: 141
-              y: 147
+            - x: 56
+              y: 91
+            - x: 65
+              y: 111
         - poly:
-            - x: 66
-              y: 19
-            - x: 118
-              y: 60
+            - x: 148
+              y: 157
+            - x: 154
+              y: 172
         - poly:
-            - x: 136
-              y: 67
-            - x: 180
-              y: 110
-        - poly:
-            - x: 5
-              y: 26
-            - x: 25
-              y: 89
-    RvfnHNsA8wRcJxYoxaIM:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 32
-              y: 102
-        - poly:
-            - x: 159
-              y: 0
-            - x: 199
-              y: 200
-        - poly:
-            - x: 53
-              y: 153
-            - x: 138
-              y: 196
-        - poly:
-            - x: 63
-              y: 7
-            - x: 153
-              y: 87
-        - poly:
-            - x: 41
-              y: 80
-            - x: 140
-              y: 148
-        - poly:
-            - x: 7
-              y: 117
-            - x: 48
-              y: 195
-    tL2o0hcaMVqbfbOiMRb6:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
+            - x: 43
+              y: 100
             - x: 49
-              y: 199
+              y: 111
         - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 200
+            - x: 99
+              y: 177
+            - x: 109
+              y: 191
   teamCount: 16
   terrain:
     - water
@@ -969,6 +763,7 @@
   springName: Red River Remake v1.2
   startboxesSet:
     Nt43ENj26T9CacqwIxYM:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -999,52 +794,11 @@
       name: Mithril_Mountain_V2.jpg
       ref: maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
       type: image/jpeg
-  playerCount: 6
+  playerCount: 2
   springName: Mithril Mountain v2
   startboxesSet:
-    5RC56x4v13f0Qrw2EQMf:
-      startboxes:
-        - poly:
-            - x: 83
-              y: 77
-            - x: 123
-              y: 117
-        - poly:
-            - x: 80
-              y: 160
-            - x: 120
-              y: 200
-        - poly:
-            - x: 0
-              y: 80
-            - x: 40
-              y: 120
-        - poly:
-            - x: 160
-              y: 80
-            - x: 200
-              y: 120
-        - poly:
-            - x: 78
-              y: 0
-            - x: 194
-              y: 40
-        - poly:
-            - x: 3
-              y: 156
-            - x: 49
-              y: 194
-        - poly:
-            - x: 151
-              y: 153
-            - x: 194
-              y: 196
-        - poly:
-            - x: 2
-              y: 0
-            - x: 45
-              y: 40
     RLf0ElZxmg1LH7seBe4R:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -1056,45 +810,6 @@
               y: 140
             - x: 200
               y: 200
-    W4xdvBBNIbgDHq8hUnoF:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    rVONfI4nLsFITvMI4UxC:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 64
-              y: 112
-        - poly:
-            - x: 110
-              y: 0
-            - x: 199
-              y: 134
-        - poly:
-            - x: 0
-              y: 131
-            - x: 200
-              y: 198
   teamCount: 2
   terrain:
     - flat
@@ -1117,45 +832,6 @@
   playerCount: 16
   springName: Rosetta 1.4
   startboxesSet:
-    sTFq5XrgMhEi2dScFbqz:
-      startboxes:
-        - poly:
-            - x: 59
-              y: 78
-            - x: 81
-              y: 134
-        - poly:
-            - x: 115
-              y: 78
-            - x: 136
-              y: 133
-        - poly:
-            - x: 58
-              y: 169
-            - x: 138
-              y: 198
-        - poly:
-            - x: 60
-              y: 0
-            - x: 132
-              y: 12
-    vHZyro6IugEzZkcGaH0C:
-      startboxes:
-        - poly:
-            - x: 57
-              y: 2
-            - x: 97
-              y: 40
-        - poly:
-            - x: 160
-              y: 109
-            - x: 200
-              y: 149
-        - poly:
-            - x: 0
-              y: 159
-            - x: 40
-              y: 199
     yF6wJrGQwl1rzGbiGQsf:
       maxPlayersPerStartbox: 8
       startboxes:
@@ -1394,6 +1070,43 @@
   playerCount: 16
   special: ""
   springName: Raptor_Crater_V2
+  startboxesSet:
+    GNyS3kpODW2vojBVDbhH:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 60
+        - poly:
+            - x: 0
+              y: 140
+            - x: 60
+              y: 200
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 60
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
+    bJuduDGA2MsQ56PhPoqO:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 4
   terrain:
     - hills
@@ -1565,46 +1278,8 @@
   playerCount: 6
   springName: Otago 1.42
   startboxesSet:
-    38feIx1EXCUYgt4Guiiw:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    UZ67T4V37FcxnlLnU9vN:
-      startboxes:
-        - poly:
-            - x: 36
-              y: 29
-            - x: 68
-              y: 164
-        - poly:
-            - x: 130
-              y: 29
-            - x: 162
-              y: 164
-        - poly:
-            - x: 36
-              y: 29
-            - x: 68
-              y: 164
     WOXNttpMmEQ9yATN24w3:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -1766,29 +1441,8 @@
   playerCount: 16
   springName: Swirly Rock v1.1
   startboxesSet:
-    OV5TNNO46yM5krKyxAZP:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 70
-        - poly:
-            - x: 140
-              y: 0
-            - x: 200
-              y: 70
-        - poly:
-            - x: 140
-              y: 140
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 140
-            - x: 60
-              y: 200
     rW9FRx7Lbx5XJRaP4WHB:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -1851,116 +1505,38 @@
   playerCount: 3
   springName: Pillar_of_Doom_V1
   startboxesSet:
-    9owKUikir31QuyFl0069:
-      startboxes:
-        - poly:
-            - x: 68
-              y: 7
-            - x: 125
-              y: 53
-        - poly:
-            - x: 138
-              y: 107
-            - x: 183
-              y: 156
-        - poly:
-            - x: 14
-              y: 113
-            - x: 64
-              y: 165
     Kq8FcDEZtOlJoV5Glh3w:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 200
+            - x: 36
+              y: 127
+            - x: 55
+              y: 149
         - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 200
-    UILAhxivKgozhRAp6ZyZ:
+            - x: 146
+              y: 120
+            - x: 164
+              y: 140
+    g3nAIiEuH1ScjFBiB7oQ:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 161
-              y: 116
-            - x: 177
-              y: 136
+            - x: 88
+              y: 32
+            - x: 115
+              y: 44
         - poly:
-            - x: 14
-              y: 129
-            - x: 29
-              y: 144
-        - poly:
-            - x: 147
-              y: 130
-            - x: 162
+            - x: 37
+              y: 127
+            - x: 55
               y: 148
         - poly:
-            - x: 30
-              y: 145
-            - x: 48
-              y: 161
-        - poly:
-            - x: 80
-              y: 16
-            - x: 96
-              y: 33
-        - poly:
-            - x: 105
-              y: 14
-            - x: 118
-              y: 30
-    WQ46uZFNh0g4b3Tn0AjG:
-      startboxes:
-        - poly:
-            - x: 7
-              y: 5
-            - x: 31
-              y: 30
-        - poly:
-            - x: 171
-              y: 169
-            - x: 191
-              y: 188
-        - poly:
-            - x: 8
-              y: 172
-            - x: 28
-              y: 192
-        - poly:
-            - x: 173
-              y: 3
-            - x: 193
-              y: 23
-    hphMk6MmHU9riRa8Erws:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 1
-              y: 200
-        - poly:
-            - x: 199
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 121
-              y: 93
-            - x: 187
-              y: 160
-        - poly:
-            - x: 11
-              y: 103
-            - x: 77
-              y: 169
-        - poly:
-            - x: 67
-              y: 5
-            - x: 134
-              y: 72
+            - x: 143
+              y: 122
+            - x: 163
+              y: 138
+  teamCount: 3
   terrain:
     - hills
 9Z3VnJ2cFcGhcaq6z1bJ:
@@ -1982,6 +1558,7 @@
   springName: Red Rock Desert v1
   startboxesSet:
     dhUyLs0xQxlTQlQUh6Au:
+      maxPlayersPerStartbox: 5
       startboxes:
         - poly:
             - x: 0
@@ -1993,60 +1570,6 @@
               y: 0
             - x: 200
               y: 200
-    gAeDKIxtsJXokxD8bVVz:
-      startboxes:
-        - poly:
-            - x: 1
-              y: 0
-            - x: 40
-              y: 39
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    nk4GrwNjAsVcwe1AF374:
-      startboxes:
-        - poly:
-            - x: 1
-              y: 115
-            - x: 41
-              y: 154
-        - poly:
-            - x: 0
-              y: 39
-            - x: 39
-              y: 79
-        - poly:
-            - x: 157
-              y: 45
-            - x: 197
-              y: 85
-        - poly:
-            - x: 154
-              y: 117
-            - x: 194
-              y: 157
-        - poly:
-            - x: 83
-              y: 161
-            - x: 121
-              y: 196
-        - poly:
-            - x: 84
-              y: 0
-            - x: 119
-              y: 36
   teamCount: 2
   terrain:
     - flat
@@ -2149,6 +1672,7 @@
               y: 0
             - x: 200
               y: 200
+  teamCount: 4
   terrain:
     - hills
     - water
@@ -2226,6 +1750,7 @@ A9eqjOzH3trguY66HGmH:
   springName: Sinkhole Network v1.0
   startboxesSet:
     RftkeN0zQJvpHQEBtWHa:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -2248,6 +1773,7 @@ A9eqjOzH3trguY66HGmH:
             - x: 50
               y: 200
     uDrEx7LIXotuVjamHzAj:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -2327,6 +1853,7 @@ ACgCe99NC8yZFecMwRCm:
               y: 0
             - x: 200
               y: 80
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -2367,6 +1894,7 @@ ACgCe99NC8yZFecMwRCn:
               y: 160
             - x: 200
               y: 200
+  teamCount: 2
   terrain:
     - hills
 ASieUn5uvk5eyZz6KhUt:
@@ -2385,9 +1913,93 @@ ASieUn5uvk5eyZz6KhUt:
       name: odderon.jpg
       ref: maps/ASieUn5uvk5eyZz6KhUt/photo/Sea43Ou5l93pdAjcwqVD-odderon.jpg
       type: image/jpeg
+  playerCount: 16
   special: Asymmetrical
   springName: Odderon Strandflats v1.0
   startboxesSet:
+    Q8Jv8t5xYvC9g3CPlZgu:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 38
+              y: 51
+            - x: 56
+              y: 61
+        - poly:
+            - x: 122
+              y: 8
+            - x: 133
+              y: 15
+        - poly:
+            - x: 176
+              y: 9
+            - x: 189
+              y: 18
+        - poly:
+            - x: 135
+              y: 33
+            - x: 151
+              y: 42
+        - poly:
+            - x: 69
+              y: 23
+            - x: 81
+              y: 29
+        - poly:
+            - x: 84
+              y: 48
+            - x: 96
+              y: 55
+        - poly:
+            - x: 154
+              y: 66
+            - x: 165
+              y: 74
+        - poly:
+            - x: 100
+              y: 117
+            - x: 112
+              y: 124
+        - poly:
+            - x: 80
+              y: 144
+            - x: 90
+              y: 151
+        - poly:
+            - x: 168
+              y: 103
+            - x: 179
+              y: 112
+        - poly:
+            - x: 181
+              y: 147
+            - x: 190
+              y: 154
+        - poly:
+            - x: 182
+              y: 189
+            - x: 192
+              y: 196
+        - poly:
+            - x: 105
+              y: 183
+            - x: 121
+              y: 190
+        - poly:
+            - x: 31
+              y: 117
+            - x: 44
+              y: 126
+        - poly:
+            - x: 52
+              y: 77
+            - x: 66
+              y: 88
+        - poly:
+            - x: 153
+              y: 85
+            - x: 168
+              y: 91
     lPpeOjyIde6u4oqjRAqw:
       maxPlayersPerStartbox: 8
       startboxes:
@@ -2401,6 +2013,7 @@ ASieUn5uvk5eyZz6KhUt:
               y: 0
             - x: 200
               y: 70
+  teamCount: 16
   terrain:
     - hills
     - water
@@ -2661,7 +2274,23 @@ Cs5xNBZyuBzWCmPJKDbO:
       name: ravaged_remake_v1.2.jpg
       ref: maps/Cs5xNBZyuBzWCmPJKDbO/photo/1rE2SG34EfyDL9wswhfm-ravaged_remake_v1.2.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Ravaged Remake v1.2
+  startboxesSet:
+    BPLJAp28smgnipAfC5SI:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 20
+              y: 150
+            - x: 45
+              y: 180
+        - poly:
+            - x: 150
+              y: 25
+            - x: 180
+              y: 50
+  teamCount: 2
   terrain:
     - hills
 Cz4OYo0Z2yht9PUP8vcN:
@@ -2716,6 +2345,7 @@ Cz4OYo0Z2yht9PUP8vcN:
   springName: Sulphur Springs v1.1
   startboxesSet:
     lAzRsHD2GUEcbqndUUFJ:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 56
@@ -2840,6 +2470,7 @@ DyHExxTkkRB4DweNDViM:
   springName: Melting Glacier v1.1
   startboxesSet:
     6UijoWv1VTnXKbXgdpRz:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -2851,35 +2482,6 @@ DyHExxTkkRB4DweNDViM:
               y: 0
             - x: 200
               y: 200
-    LWfEIEh8HvhvxTg9n54m:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 200
-    QV1QLWGd7VsDg87CINhG:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 100
-              y: 82
-        - poly:
-            - x: 121
-              y: 0
-            - x: 198
-              y: 81
-        - poly:
-            - x: 13
-              y: 130
-            - x: 80
-              y: 197
-        - poly:
-            - x: 123
-              y: 130
-            - x: 190
-              y: 197
   teamCount: 2
   terrain:
     - hills
@@ -3063,7 +2665,8 @@ F40FJFEjKm3hcVzdnIvA:
         overview.jpg
       type: image/jpeg
   certified: true
-  description: Survival map.
+  description: Survival map. Ideal for asymetrical strength team. Strong team on
+    the right (team 2)
   displayName: Requiem Outpost
   gameType:
     - team
@@ -3108,27 +2711,12 @@ F40FJFEjKm3hcVzdnIvA:
       name: Requiem_Outpost_1.0.jpg
       ref: maps/F40FJFEjKm3hcVzdnIvA/photo/wGRkjzEWDGvyY3oTJ4oI-Requiem_Outpost_1.0.jpg
       type: image/jpeg
-  playerCount: 5
+  playerCount: 6
+  special: Attacker vs Defender asymetrical
   springName: Requiem Outpost 1.0
   startboxesSet:
-    BGK19N9dqrKkUzdAeJgw:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 22
-            - x: 34
-              y: 177
-        - poly:
-            - x: 83
-              y: 0
-            - x: 200
-              y: 59
-        - poly:
-            - x: 87
-              y: 146
-            - x: 200
-              y: 200
     v7lErp2jpdyxDgFVkBAt:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -3408,7 +2996,7 @@ Gkh9KVgCUNbGTXWBjPoV:
       name: serene_caldera_v1.3.jpg
       ref: maps/Gkh9KVgCUNbGTXWBjPoV/photo/Gc1CatZdwYFPZXKqo9et-serene_caldera_v1.3.jpg
       type: image/jpeg
-  playerCount: 16
+  playerCount: 40
   springName: Serene Caldera v1.3
   startboxesSet:
     9kHAEO5FGRJU2Lozl2Be:
@@ -3424,7 +3012,210 @@ Gkh9KVgCUNbGTXWBjPoV:
               y: 160
             - x: 200
               y: 200
-  teamCount: 2
+    kUNe0l6dB1iSWBv8otER:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 31
+              y: 31
+            - x: 43
+              y: 46
+        - poly:
+            - x: 55
+              y: 14
+            - x: 66
+              y: 28
+        - poly:
+            - x: 78
+              y: 10
+            - x: 93
+              y: 20
+        - poly:
+            - x: 105
+              y: 10
+            - x: 122
+              y: 19
+        - poly:
+            - x: 135
+              y: 17
+            - x: 149
+              y: 28
+        - poly:
+            - x: 161
+              y: 30
+            - x: 174
+              y: 42
+        - poly:
+            - x: 178
+              y: 54
+            - x: 188
+              y: 70
+        - poly:
+            - x: 185
+              y: 88
+            - x: 192
+              y: 98
+        - poly:
+            - x: 173
+              y: 121
+            - x: 189
+              y: 138
+        - poly:
+            - x: 160
+              y: 154
+            - x: 170
+              y: 172
+        - poly:
+            - x: 136
+              y: 179
+            - x: 149
+              y: 190
+        - poly:
+            - x: 109
+              y: 182
+            - x: 123
+              y: 194
+        - poly:
+            - x: 78
+              y: 179
+            - x: 96
+              y: 193
+        - poly:
+            - x: 45
+              y: 174
+            - x: 57
+              y: 189
+        - poly:
+            - x: 27
+              y: 157
+            - x: 40
+              y: 170
+        - poly:
+            - x: 13
+              y: 129
+            - x: 24
+              y: 150
+        - poly:
+            - x: 6
+              y: 97
+            - x: 19
+              y: 116
+        - poly:
+            - x: 12
+              y: 59
+            - x: 26
+              y: 81
+        - poly:
+            - x: 39
+              y: 49
+            - x: 52
+              y: 62
+        - poly:
+            - x: 125
+              y: 36
+            - x: 140
+              y: 49
+        - poly:
+            - x: 154
+              y: 63
+            - x: 166
+              y: 81
+        - poly:
+            - x: 155
+              y: 102
+            - x: 165
+              y: 117
+        - poly:
+            - x: 148
+              y: 139
+            - x: 162
+              y: 150
+        - poly:
+            - x: 67
+              y: 153
+            - x: 77
+              y: 162
+        - poly:
+            - x: 40
+              y: 117
+            - x: 51
+              y: 137
+        - poly:
+            - x: 38
+              y: 83
+            - x: 47
+              y: 99
+        - poly:
+            - x: 56
+              y: 59
+            - x: 71
+              y: 75
+        - poly:
+            - x: 87
+              y: 50
+            - x: 112
+              y: 66
+        - poly:
+            - x: 127
+              y: 72
+            - x: 144
+              y: 94
+        - poly:
+            - x: 126
+              y: 122
+            - x: 143
+              y: 141
+        - poly:
+            - x: 86
+              y: 134
+            - x: 109
+              y: 148
+        - poly:
+            - x: 55
+              y: 102
+            - x: 71
+              y: 127
+        - poly:
+            - x: 88
+              y: 82
+            - x: 95
+              y: 90
+        - poly:
+            - x: 97
+              y: 83
+            - x: 105
+              y: 91
+        - poly:
+            - x: 106
+              y: 90
+            - x: 114
+              y: 99
+        - poly:
+            - x: 108
+              y: 102
+            - x: 115
+              y: 109
+        - poly:
+            - x: 101
+              y: 113
+            - x: 110
+              y: 120
+        - poly:
+            - x: 91
+              y: 109
+            - x: 99
+              y: 118
+        - poly:
+            - x: 84
+              y: 99
+            - x: 93
+              y: 109
+        - poly:
+            - x: 83
+              y: 91
+            - x: 93
+              y: 98
+  teamCount: 40
   terrain:
     - flat
     - water
@@ -3573,6 +3364,59 @@ GxjYgcmTFdC3JivNsghb:
               y: 0
             - x: 200
               y: 200
+    c0UG6hAt5GyKmoe10Han:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 43
+              y: 27
+            - x: 58
+              y: 47
+        - poly:
+            - x: 127
+              y: 159
+            - x: 152
+              y: 172
+        - poly:
+            - x: 132
+              y: 26
+            - x: 151
+              y: 47
+        - poly:
+            - x: 19
+              y: 120
+            - x: 32
+              y: 139
+        - poly:
+            - x: 162
+              y: 67
+            - x: 178
+              y: 86
+        - poly:
+            - x: 45
+              y: 154
+            - x: 62
+              y: 170
+        - poly:
+            - x: 82
+              y: 18
+            - x: 105
+              y: 28
+        - poly:
+            - x: 88
+              y: 170
+            - x: 110
+              y: 180
+        - poly:
+            - x: 20
+              y: 70
+            - x: 34
+              y: 92
+        - poly:
+            - x: 162
+              y: 114
+            - x: 176
+              y: 133
   teamCount: 5
   terrain:
     - water
@@ -3697,9 +3541,11 @@ HdwZWKydw2luEc8EascR:
       name: Pentos_V1.jpg
       ref: maps/HdwZWKydw2luEc8EascR/photo/gUxRcnq8izgR45LLNyFX-Pentos_V1.jpg
       type: image/jpeg
+  playerCount: 5
   springName: Pentos_V1
   startboxesSet:
     C7FICkeqA9rOhKvzcts6:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 12
@@ -3726,126 +3572,7 @@ HdwZWKydw2luEc8EascR:
               y: 13
             - x: 118
               y: 51
-    LZon4p8MIl8yCww4t0bn:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 64
-              y: 200
-        - poly:
-            - x: 136
-              y: 0
-            - x: 200
-              y: 200
-    MFT366YZaB1f5QmwAll6:
-      startboxes:
-        - poly:
-            - x: 79
-              y: 11
-            - x: 121
-              y: 50
-        - poly:
-            - x: 146
-              y: 57
-            - x: 184
-              y: 95
-        - poly:
-            - x: 11
-              y: 56
-            - x: 52
-              y: 100
-        - poly:
-            - x: 38
-              y: 138
-            - x: 79
-              y: 178
-        - poly:
-            - x: 121
-              y: 137
-            - x: 164
-              y: 177
-        - poly:
-            - x: 67
-              y: 62
-            - x: 133
-              y: 129
-        - poly:
-            - x: 86
-              y: 163
-            - x: 115
-              y: 195
-    W56qYJWyihm34oYF1mSp:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 103
-        - poly:
-            - x: 38
-              y: 140
-            - x: 75
-              y: 174
-        - poly:
-            - x: 124
-              y: 140
-            - x: 157
-              y: 173
-    Y04WDoK3g3HSk9MCDqiG:
-      startboxes:
-        - poly:
-            - x: 79
-              y: 77
-            - x: 119
-              y: 117
-        - poly:
-            - x: 124
-              y: 136
-            - x: 164
-              y: 176
-        - poly:
-            - x: 39
-              y: 139
-            - x: 79
-              y: 178
-        - poly:
-            - x: 148
-              y: 59
-            - x: 187
-              y: 99
-        - poly:
-            - x: 77
-              y: 13
-            - x: 118
-              y: 51
-        - poly:
-            - x: 15
-              y: 58
-            - x: 54
-              y: 95
-    q1NsLkwVMpJIz244tJZD:
-      startboxes:
-        - poly:
-            - x: 75
-              y: 0
-            - x: 125
-              y: 50
-        - poly:
-            - x: 75
-              y: 150
-            - x: 125
-              y: 200
-        - poly:
-            - x: 0
-              y: 75
-            - x: 50
-              y: 125
-        - poly:
-            - x: 150
-              y: 75
-            - x: 200
-              y: 125
+  teamCount: 5
   terrain:
     - flat
     - water
@@ -4007,51 +3734,8 @@ Jdb4pZyLQPb0IkSmaVrO:
   playerCount: 2
   springName: Quicksilver Remake 1.24
   startboxesSet:
-    IBTlKdK9Qj8JK7VOzUb0:
-      startboxes:
-        - poly:
-            - x: 69
-              y: 0
-            - x: 131
-              y: 62
-        - poly:
-            - x: 69
-              y: 138
-            - x: 131
-              y: 200
-        - poly:
-            - x: 0
-              y: 69
-            - x: 62
-              y: 131
-        - poly:
-            - x: 138
-              y: 69
-            - x: 200
-              y: 131
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
-    IEKH9gwn9GHs0YZNVdda:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 60
-        - poly:
-            - x: 0
-              y: 140
-            - x: 200
-              y: 200
-        - poly:
-            - x: 23
-              y: 167
-            - x: 24
-              y: 168
     Xp5Rvo0KTUdf2NSmD2RP:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 0
@@ -4063,35 +3747,7 @@ Jdb4pZyLQPb0IkSmaVrO:
               y: 150
             - x: 200
               y: 200
-    paeTDNnjTklB2JVi1Vah:
-      startboxes:
-        - poly:
-            - x: 56
-              y: 42
-            - x: 96
-              y: 82
-        - poly:
-            - x: 88
-              y: 129
-            - x: 127
-              y: 168
-        - poly:
-            - x: 46
-              y: 127
-            - x: 86
-              y: 167
-        - poly:
-            - x: 140
-              y: 38
-            - x: 180
-              y: 78
-    xTk6GiJVHVBpWbrJoqav:
-      startboxes:
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
+  teamCount: 2
   terrain:
     - flat
     - water
@@ -4115,6 +3771,7 @@ KAQ69kPLvMZgMuLXIoyU:
   springName: Lavender Bender v2
   startboxesSet:
     nLj5wpg0LKxYlypuACCb:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -4260,6 +3917,7 @@ MDi3gNqaTj3H1DkzpPfz:
   springName: Onyx Cauldron 2.2
   startboxesSet:
     rN1b1dKs245WjkLpjlDb:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 25
@@ -4415,49 +4073,8 @@ MuFsIEswFS9FbuamCfbS:
   playerCount: 8
   springName: Shore_to_Shore_V3
   startboxesSet:
-    7HSqBpufyCyKCsQNtvIq:
-      startboxes:
-        - poly:
-            - x: 175
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 33
-              y: 9
-            - x: 164
-              y: 193
-        - poly:
-            - x: 68
-              y: 41
-            - x: 134
-              y: 98
-        - poly:
-            - x: 121
-              y: 95
-            - x: 188
-              y: 161
-        - poly:
-            - x: 98
-              y: 68
-            - x: 164
-              y: 130
-        - poly:
-            - x: 130
-              y: 120
-            - x: 169
-              y: 186
-        - poly:
-            - x: 67
-              y: 123
-            - x: 132
-              y: 190
-        - poly:
-            - x: 90
-              y: 81
-            - x: 156
-              y: 146
     MeMtQIgMzRDVvxeMhjJv:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -4469,77 +4086,7 @@ MuFsIEswFS9FbuamCfbS:
               y: 0
             - x: 200
               y: 200
-    khP0DjGW2lBIXcrTIE56:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    wFD67R380VAjpqaTGcIr:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 50
-              y: 200
-        - poly:
-            - x: 150
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
-    zNljIQymNM9D8TfIOS4V:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 0
-              y: 82
-            - x: 46
-              y: 126
-        - poly:
-            - x: 156
-              y: 78
-            - x: 199
-              y: 121
+  teamCount: 2
   terrain:
     - water
 NULeDCjbZw5azkUT66rZ:
@@ -5221,10 +4768,12 @@ QsD0vDtYMgk8ATraKoNI:
       name: tma20x_1.8.jpg
       ref: maps/QsD0vDtYMgk8ATraKoNI/photo/JapTghABM3TOuBy0GSSP-tma20x_1.8.jpg
       type: image/jpeg
+  playerCount: 7
   special: Asteroid
   springName: TMA20X 1.8
   startboxesSet:
     E4ZYrGnuG1QJgawU67DZ:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 62
@@ -5242,67 +4791,35 @@ QsD0vDtYMgk8ATraKoNI:
             - x: 77
               y: 181
     OosUtLRyrgn54SCxu2d3:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
+            - x: 30
+              y: 25
+            - x: 62
+              y: 60
         - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 66
-              y: 66
             - x: 133
-              y: 133
-    oieYIL0vn2AThwqoeZdY:
-      startboxes:
+              y: 129
+            - x: 170
+              y: 158
         - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 70
+            - x: 29
+              y: 140
+            - x: 60
+              y: 171
         - poly:
-            - x: 0
-              y: 130
-            - x: 200
-              y: 200
-    uls5g00dVhR5q3HW6q2m:
-      startboxes:
+            - x: 142
+              y: 46
+            - x: 176
+              y: 81
         - poly:
-            - x: 75
-              y: 0
-            - x: 125
-              y: 50
-        - poly:
-            - x: 75
-              y: 150
-            - x: 125
-              y: 200
-        - poly:
-            - x: 0
-              y: 75
-            - x: 50
-              y: 125
-        - poly:
-            - x: 150
-              y: 75
-            - x: 200
-              y: 125
-    xGMrIIiQGBIWQgOFnKJQ:
+            - x: 81
+              y: 87
+            - x: 116
+              y: 114
+    oieYIL0vn2AThwqoeZdX:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 21
@@ -5334,6 +4851,81 @@ QsD0vDtYMgk8ATraKoNI:
               y: 90
             - x: 182
               y: 126
+    oieYIL0vn2AThwqoeZdY:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 70
+        - poly:
+            - x: 0
+              y: 130
+            - x: 200
+              y: 200
+    uls5g00dVhR5q3HW6q2m:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 75
+              y: 0
+            - x: 125
+              y: 50
+        - poly:
+            - x: 75
+              y: 150
+            - x: 125
+              y: 200
+        - poly:
+            - x: 0
+              y: 75
+            - x: 50
+              y: 125
+        - poly:
+            - x: 150
+              y: 75
+            - x: 200
+              y: 125
+    xGMrIIiQGBIWQgOFnKJQ:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 52
+              y: 29
+            - x: 82
+              y: 61
+        - poly:
+            - x: 139
+              y: 129
+            - x: 170
+              y: 161
+        - poly:
+            - x: 29
+              y: 134
+            - x: 65
+              y: 169
+        - poly:
+            - x: 21
+              y: 69
+            - x: 55
+              y: 104
+        - poly:
+            - x: 142
+              y: 55
+            - x: 177
+              y: 87
+        - poly:
+            - x: 80
+              y: 149
+            - x: 120
+              y: 179
+        - poly:
+            - x: 100
+              y: 27
+            - x: 133
+              y: 59
+  teamCount: 7
   terrain:
     - flat
 RDAUlsjOhgAH2fDvAEmI:
@@ -5405,6 +4997,7 @@ RLZ07b2DZS9vYPn5dvFX:
   springName: Red River Estuary v1.1
   startboxesSet:
     Fl4d1MGhk5U8MGpkCo1p:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -5541,51 +5134,8 @@ SHA84LfmzYbxT8iIyTtU:
   playerCount: 8
   springName: Rifted_V2
   startboxesSet:
-    7RFKiStWzYXY8IEJrOwF:
-      startboxes:
-        - poly:
-            - x: 149
-              y: 3
-            - x: 199
-              y: 52
-        - poly:
-            - x: 0
-              y: 147
-            - x: 50
-              y: 195
-        - poly:
-            - x: 55
-              y: 0
-            - x: 122
-              y: 66
-    SNhxbHEbJBbjUXZnaphB:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 128
-            - x: 61
-              y: 199
-        - poly:
-            - x: 17
-              y: 14
-            - x: 59
-              y: 34
-        - poly:
-            - x: 94
-              y: 78
-            - x: 120
-              y: 103
-        - poly:
-            - x: 171
-              y: 149
-            - x: 187
-              y: 180
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 32
     h7USP4SK8Z5lORG4cLw7:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -5597,6 +5147,7 @@ SHA84LfmzYbxT8iIyTtU:
               y: 0
             - x: 200
               y: 50
+  teamCount: 2
   terrain:
     - flat
 SQpSGbxxp50QcMKG2TJp:
@@ -5655,6 +5206,7 @@ SQpSGbxxp50QcMKG2TJp:
   springName: Supreme Strait v1.41
   startboxesSet:
     wAYCYnoh68AhZMGQcFzY:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -5666,6 +5218,7 @@ SQpSGbxxp50QcMKG2TJp:
               y: 0
             - x: 200
               y: 80
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -6038,6 +5591,7 @@ T9CfXfwVVubXUcJbMNra:
       name: tetrad_v2.jpg
       ref: maps/T9CfXfwVVubXUcJbMNra/photo/RTeYQoM3sqz3nZeS0J0e-tetrad_v2.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Tetrad_V2
   startboxesSet:
     7XBlo2L7Rfb2kkoYFRqV:
@@ -6150,6 +5704,7 @@ T9CfXfwVVubXUcJbMNra:
               y: 0
             - x: 200
               y: 70
+  teamCount: 4
   terrain:
     - hills
 TBlG9YF5CxIvchMI0DZX:
@@ -6205,6 +5760,7 @@ TBlG9YF5CxIvchMI0DZX:
   springName: Sky Isle v1.1
   startboxesSet:
     uE4AEgs2QTFHIbO51UGV:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -6739,6 +6295,7 @@ WOlmGcTZXUtV5iy57Kc9:
   springName: Mariposa Island v2.4
   startboxesSet:
     D9QtkwEWjNqz0yuu877u:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -6750,23 +6307,6 @@ WOlmGcTZXUtV5iy57Kc9:
               y: 124
             - x: 200
               y: 200
-    JJWo4MZiKLHVZU8XUlZt:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 92
-              y: 76
-        - poly:
-            - x: 157
-              y: 152
-            - x: 200
-              y: 196
-        - poly:
-            - x: 27
-              y: 78
-            - x: 191
-              y: 151
   teamCount: 2
   terrain:
     - hills
@@ -7057,21 +6597,23 @@ XAYu2CrwVdR5GlcpOxL0:
       name: Supreme_Crossing_2.2.jpg
       ref: maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Supreme_Crossing 2.2
   startboxesSet:
     4cYtAR85ZKe6gs85kkRe:
-      maxPlayersPerStartbox: 2
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
-              y: 160
-            - x: 40
+              y: 120
+            - x: 80
               y: 200
         - poly:
-            - x: 160
+            - x: 120
               y: 0
             - x: 200
-              y: 40
+              y: 80
+  teamCount: 2
   terrain:
     - flat
     - water
@@ -7175,10 +6717,11 @@ XMFpTWsDjFSPjJ4nOZSO:
       name: red_triangle_remake_v1.3.jpg
       ref: maps/XMFpTWsDjFSPjJ4nOZSO/photo/3iPL1Vc0wy5b0FRaUylY-red_triangle_remake_v1.3.jpg
       type: image/jpeg
-  playerCount: 9
+  playerCount: 3
   springName: Red Triangle Remake v1.3
   startboxesSet:
     7mR9tJnQSyESDQsehIKR:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 10
@@ -7191,22 +6734,23 @@ XMFpTWsDjFSPjJ4nOZSO:
             - x: 188
               y: 82
     xBuN7uzM1akkXKkdVTni:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 9
               y: 18
-            - x: 69
-              y: 77
+            - x: 57
+              y: 67
         - poly:
-            - x: 121
-              y: 33
-            - x: 177
-              y: 88
+            - x: 144
+              y: 42
+            - x: 189
+              y: 90
         - poly:
-            - x: 61
-              y: 120
+            - x: 62
+              y: 154
             - x: 117
-              y: 175
+              y: 186
   teamCount: 3
   terrain:
     - water
@@ -7609,24 +7153,8 @@ Xut8FRCmn2h5DuUqzF26:
   playerCount: 2
   springName: Red Comet Remake 1.8
   startboxesSet:
-    l4SC94yGXg45xTJLOkNE:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 46
-              y: 200
-        - poly:
-            - x: 154
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 65
-              y: 65
-            - x: 132
-              y: 132
     mWzDrbicjF6ck8AIIt04:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -7638,28 +7166,7 @@ Xut8FRCmn2h5DuUqzF26:
               y: 0
             - x: 200
               y: 200
-    rsGfDleUflWuh36s0xeR:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 6
-              y: 6
-        - poly:
-            - x: 194
-              y: 194
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 194
-            - x: 6
-              y: 200
-        - poly:
-            - x: 194
-              y: 0
-            - x: 200
-              y: 6
+  teamCount: 2
   terrain:
     - flat
 Y5e7sl891wO5G2ttwjmr:
@@ -7679,31 +7186,8 @@ Y5e7sl891wO5G2ttwjmr:
   playerCount: 12
   springName: Rustcrown Canyon 1.2
   startboxesSet:
-    4GJhbzQTAs52oAyCUWRG:
-      maxPlayersPerStartbox: 3
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
     Wld9X78iaTL095TweT4A:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 6
       startboxes:
         - poly:
             - x: 0
@@ -7892,6 +7376,170 @@ ZJNeHQG2ls2h2Xq1hHUy:
       type: image/jpeg
   playerCount: 32
   springName: Mediterraneum_V1
+  startboxesSet:
+    KJ4wW7qtpJpvXqgCIwZW:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 9
+              y: 11
+            - x: 23
+              y: 24
+        - poly:
+            - x: 32
+              y: 29
+            - x: 45
+              y: 41
+        - poly:
+            - x: 9
+              y: 83
+            - x: 22
+              y: 96
+        - poly:
+            - x: 33
+              y: 82
+            - x: 44
+              y: 95
+        - poly:
+            - x: 17
+              y: 157
+            - x: 29
+              y: 168
+        - poly:
+            - x: 46
+              y: 127
+            - x: 57
+              y: 140
+        - poly:
+            - x: 60
+              y: 105
+            - x: 70
+              y: 116
+        - poly:
+            - x: 83
+              y: 93
+            - x: 94
+              y: 106
+        - poly:
+            - x: 92
+              y: 58
+            - x: 103
+              y: 70
+        - poly:
+            - x: 92
+              y: 26
+            - x: 103
+              y: 36
+        - poly:
+            - x: 127
+              y: 38
+            - x: 138
+              y: 49
+        - poly:
+            - x: 76
+              y: 130
+            - x: 88
+              y: 142
+        - poly:
+            - x: 50
+              y: 186
+            - x: 61
+              y: 196
+        - poly:
+            - x: 116
+              y: 116
+            - x: 126
+              y: 126
+        - poly:
+            - x: 111
+              y: 81
+            - x: 122
+              y: 95
+        - poly:
+            - x: 125
+              y: 137
+            - x: 137
+              y: 148
+        - poly:
+            - x: 114
+              y: 188
+            - x: 125
+              y: 199
+        - poly:
+            - x: 137
+              y: 74
+            - x: 149
+              y: 88
+        - poly:
+            - x: 174
+              y: 45
+            - x: 185
+              y: 57
+        - poly:
+            - x: 186
+              y: 79
+            - x: 198
+              y: 90
+        - poly:
+            - x: 163
+              y: 107
+            - x: 174
+              y: 119
+        - poly:
+            - x: 155
+              y: 154
+            - x: 167
+              y: 166
+        - poly:
+            - x: 181
+              y: 185
+            - x: 191
+              y: 196
+        - poly:
+            - x: 65
+              y: 151
+            - x: 76
+              y: 162
+        - poly:
+            - x: 163
+              y: 15
+            - x: 178
+              y: 29
+        - poly:
+            - x: 61
+              y: 40
+            - x: 74
+              y: 55
+        - poly:
+            - x: 117
+              y: 156
+            - x: 130
+              y: 171
+        - poly:
+            - x: 189
+              y: 114
+            - x: 200
+              y: 140
+        - poly:
+            - x: 17
+              y: 187
+            - x: 30
+              y: 199
+        - poly:
+            - x: 118
+              y: 10
+            - x: 136
+              y: 20
+        - poly:
+            - x: 24
+              y: 54
+            - x: 38
+              y: 65
+        - poly:
+            - x: 138
+              y: 99
+            - x: 150
+              y: 111
   teamCount: 32
   terrain:
     - flat
@@ -8044,8 +7692,8 @@ ZrnTf20mPzbrMjtHa9Wg:
   description: 8v8 Map
   displayName: Riverrun
   gameType:
-    - ffa
     - team
+    - ffa
   inPool: true
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
@@ -8057,6 +7705,7 @@ ZrnTf20mPzbrMjtHa9Wg:
   springName: Riverrun_V1
   startboxesSet:
     4QDYnTGkngUE3fklTJex:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -8068,72 +7717,50 @@ ZrnTf20mPzbrMjtHa9Wg:
               y: 0
             - x: 200
               y: 200
-    7E3VwHmpcbDzkRECvE1e:
+    NjoklrEuM7k1E9fuf9XR:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 2
-              y: 8
-            - x: 42
-              y: 44
+            - x: 4
+              y: 67
+            - x: 20
+              y: 79
         - poly:
-            - x: 131
-              y: 11
-            - x: 172
-              y: 48
-        - poly:
-            - x: 11
-              y: 161
-            - x: 51
-              y: 196
-        - poly:
-            - x: 148
-              y: 156
-            - x: 189
-              y: 194
-        - poly:
-            - x: 69
-              y: 75
-            - x: 109
-              y: 118
-    bxjYK1KqfUOlnQe0YWe3:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 88
-              y: 49
-        - poly:
-            - x: 116
-              y: 149
-            - x: 200
-              y: 196
-        - poly:
-            - x: 0
-              y: 121
-            - x: 40
-              y: 161
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
+            - x: 59
               y: 86
-    l9stBwBSfGRRcLJGogme:
-      startboxes:
+            - x: 72
+              y: 97
         - poly:
-            - x: 1
-              y: 35
-            - x: 61
+            - x: 130
+              y: 103
+            - x: 141
+              y: 116
+        - poly:
+            - x: 183
+              y: 5
+            - x: 196
+              y: 21
+        - poly:
+            - x: 176
               y: 98
+            - x: 192
+              y: 112
         - poly:
-            - x: 67
-              y: 127
-            - x: 133
-              y: 191
+            - x: 10
+              y: 136
+            - x: 25
+              y: 150
         - poly:
-            - x: 133
-              y: 33
-            - x: 198
-              y: 99
+            - x: 36
+              y: 8
+            - x: 48
+              y: 24
+        - poly:
+            - x: 153
+              y: 178
+            - x: 164
+              y: 194
+  teamCount: 8
   terrain:
     - flat
 ZxFS2VuODjyLH5V8mHfR:
@@ -8186,73 +7813,8 @@ ZxFS2VuODjyLH5V8mHfR:
   playerCount: 16
   springName: Mescaline_V2
   startboxesSet:
-    37kge8RgZ62Yn0ektOGi:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 58
-              y: 200
-        - poly:
-            - x: 137
-              y: 1
-            - x: 200
-              y: 200
-        - poly:
-            - x: 62
-              y: 0
-            - x: 131
-              y: 200
-    VnoaGL0QklC3VyS9ckN3:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    fKQYCCU7DVvqW9SoYn4A:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 56
-              y: 198
-        - poly:
-            - x: 140
-              y: 0
-            - x: 196
-              y: 194
-        - poly:
-            - x: 57
-              y: 0
-            - x: 134
-              y: 47
-        - poly:
-            - x: 61
-              y: 136
-            - x: 135
-              y: 194
-        - poly:
-            - x: 59
-              y: 54
-            - x: 133
-              y: 131
     wjaGmK17zcRGp95DnDtD:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -8264,6 +7826,7 @@ ZxFS2VuODjyLH5V8mHfR:
               y: 0
             - x: 200
               y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -8325,6 +7888,7 @@ Zy8Ha3O3lHl7mUMvM8Gs:
   springName: LV412 1.3
   startboxesSet:
     MhPucItd6Zu7PR3HTWO7:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -8336,62 +7900,6 @@ Zy8Ha3O3lHl7mUMvM8Gs:
               y: 157
             - x: 200
               y: 197
-    N2Ei78sbRe1aRzrmnJjT:
-      startboxes:
-        - poly:
-            - x: 64
-              y: 19
-            - x: 82
-              y: 38
-        - poly:
-            - x: 105
-              y: 177
-            - x: 132
-              y: 200
-        - poly:
-            - x: 13
-              y: 131
-            - x: 37
-              y: 148
-        - poly:
-            - x: 166
-              y: 76
-            - x: 188
-              y: 96
-        - poly:
-            - x: 91
-              y: 87
-            - x: 118
-              y: 114
-    a8CZaugwerDf7aVNKMfI:
-      startboxes:
-        - poly:
-            - x: 99
-              y: 99
-            - x: 199
-              y: 199
-        - poly:
-            - x: 0
-              y: 0
-            - x: 100
-              y: 98
-        - poly:
-            - x: 0
-              y: 100
-            - x: 100
-              y: 200
-        - poly:
-            - x: 100
-              y: 0
-            - x: 200
-              y: 100
-    dPz9xpYc1fDW7JygCE3s:
-      startboxes:
-        - poly:
-            - x: 41
-              y: 56
-            - x: 152
-              y: 152
   teamCount: 2
   terrain:
     - hills
@@ -8604,35 +8112,12 @@ bkIRTcsnvtmQVsm3SsNJ:
       name: Speed_Metal.jpg
       ref: maps/bkIRTcsnvtmQVsm3SsNJ/photo/gTFLxjfzUKKj30Ismw33-Speed_Metal.jpg
       type: image/jpeg
-  playerCount: 16
+  playerCount: 4
   special: Metal
   springName: SpeedMetal BAR V2
   startboxesSet:
-    Ap6f7HrNQLJc29pjHnsE:
-      startboxes:
-        - poly:
-            - x: 66
-              y: 46
-            - x: 131
-              y: 146
-    XpZXdqZWn1jFbO9dlxRl:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 30
-              y: 200
-        - poly:
-            - x: 170
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
     kX5SmqVk9oWWDbSQ2gfj:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -8644,28 +8129,7 @@ bkIRTcsnvtmQVsm3SsNJ:
               y: 0
             - x: 200
               y: 200
-    owTrdsLdyl0Z8hMebjwL:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 30
-              y: 200
-        - poly:
-            - x: 169
-              y: 0
-            - x: 200
-              y: 32
-        - poly:
-            - x: 83
-              y: 19
-            - x: 120
-              y: 173
-        - poly:
-            - x: 156
-              y: 136
-            - x: 200
-              y: 200
+  teamCount: 2
   terrain: []
 byucseTLrpgU0J70dFC0:
   author: IceXuick
@@ -8922,6 +8386,7 @@ cIMaYX0u2fprp7Qk78wK:
   springName: Plains and Passes v1.0
   startboxesSet:
     j3tkoOiTICsyJU0vIZIA:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -9220,29 +8685,31 @@ cvpud6KzRzucgumjiBgk:
   playerCount: 16
   springName: Silveridge v1
   startboxesSet:
-    ridQrsvBIgmfj5POUUix:
+    CBlzXq6FBfhXpxaxmX1C:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
               y: 0
-            - x: 50
-              y: 50
-        - poly:
-            - x: 150
-              y: 150
-            - x: 200
-              y: 200
+            - x: 60
+              y: 60
         - poly:
             - x: 0
-              y: 150
-            - x: 50
+              y: 140
+            - x: 60
               y: 200
         - poly:
-            - x: 150
+            - x: 140
               y: 0
             - x: 200
-              y: 50
+              y: 60
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
     zUQ37pY2oYYVbz24aVDB:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -9254,7 +8721,7 @@ cvpud6KzRzucgumjiBgk:
               y: 150
             - x: 200
               y: 200
-  teamCount: 2
+  teamCount: 4
   terrain:
     - hills
 eLHwUEMIb0S3qLy0OT6G:
@@ -9372,76 +8839,77 @@ eR6j6L2F2OSP7QeCfW8O:
       ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/0T5Xhn7aNDFnRBE1jI43-ParadiseLost
         minimap.jpg
       type: image/jpeg
-  playerCount: 4
+  playerCount: 6
   springName: Paradise_Lost_V4
   startboxesSet:
-    Ial7dLhnugqoZVYhfLTe:
+    UKNXNTwM6XSj1jx0RsRQ:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 0
               y: 0
-            - x: 40
-              y: 200
+            - x: 30
+              y: 93
         - poly:
-            - x: 160
+            - x: 170
               y: 0
             - x: 200
+              y: 100
+        - poly:
+            - x: 0
+              y: 110
+            - x: 32
               y: 200
+        - poly:
+            - x: 170
+              y: 111
+            - x: 200
+              y: 200
+        - poly:
+            - x: 60
+              y: 0
+            - x: 129
+              y: 30
+        - poly:
+            - x: 100
+              y: 69
+            - x: 129
+              y: 111
         - poly:
             - x: 74
-              y: 123
-            - x: 105
-              y: 155
-    Si4BjUK1cdsckKuvmPSM:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 34
-              y: 90
-        - poly:
-            - x: 158
               y: 103
-            - x: 200
+            - x: 94
+              y: 147
+        - poly:
+            - x: 62
+              y: 172
+            - x: 129
               y: 200
-        - poly:
-            - x: 0
-              y: 108
-            - x: 39
-              y: 148
-        - poly:
-            - x: 159
-              y: 0
-            - x: 199
-              y: 87
-        - poly:
-            - x: 58
-              y: 41
-            - x: 138
-              y: 160
-    dQxng3XLf6GBaqiNgcl1:
+    veaOtYKMN58QFYp3ir7F:
+      maxPlayersPerStartbox: 1
       startboxes:
         - poly:
             - x: 0
-              y: 8
-            - x: 39
-              y: 48
+              y: 0
+            - x: 30
+              y: 93
         - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
+            - x: 170
               y: 0
             - x: 200
-              y: 40
+              y: 100
+        - poly:
+            - x: 0
+              y: 110
+            - x: 32
+              y: 200
+        - poly:
+            - x: 170
+              y: 111
+            - x: 200
+              y: 200
     wATO4s0SkSlEFY1iP7pm:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -9453,6 +8921,7 @@ eR6j6L2F2OSP7QeCfW8O:
               y: 0
             - x: 200
               y: 200
+  teamCount: 2
   terrain:
     - water
 etCTTwexgYVGMV63rOWy:
@@ -9565,88 +9034,8 @@ fkhBIvsAdLiL9CvVlp2l:
   playerCount: 6
   springName: Silent Sea v1
   startboxesSet:
-    BI0KWq3hH1yvuiHRSW17:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 50
-        - poly:
-            - x: 0
-              y: 150
-            - x: 200
-              y: 200
-        - poly:
-            - x: 90
-              y: 97
-            - x: 112
-              y: 108
-    ngodDtTErvvvWDDobBLD:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 25
-              y: 138
-            - x: 65
-              y: 178
-        - poly:
-            - x: 142
-              y: 22
-            - x: 182
-              y: 61
-    om2FCdMq5fqtoXcIetOs:
-      startboxes:
-        - poly:
-            - x: 28
-              y: 134
-            - x: 68
-              y: 174
-        - poly:
-            - x: 28
-              y: 35
-            - x: 68
-              y: 75
-        - poly:
-            - x: 140
-              y: 118
-            - x: 180
-              y: 157
-        - poly:
-            - x: 140
-              y: 25
-            - x: 180
-              y: 63
-        - poly:
-            - x: 84
-              y: 26
-            - x: 125
-              y: 70
-        - poly:
-            - x: 84
-              y: 129
-            - x: 124
-              y: 169
-        - poly:
-            - x: 0
-              y: 0
-            - x: 36
-              y: 33
-        - poly:
-            - x: 158
-              y: 163
-            - x: 199
-              y: 200
     yYzriEwodmhOZNBQ3Lv8:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -9967,6 +9356,7 @@ gf2s52iInoEKNyK1vA19:
   springName: Sunderance V1.3
   startboxesSet:
     4Z4rUlQfxrb5fbQd6eTz:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -9988,66 +9378,8 @@ gf2s52iInoEKNyK1vA19:
               y: 0
             - x: 200
               y: 40
-    jieciC1x1UGOptp18czo:
-      startboxes:
-        - poly:
-            - x: 117
-              y: 0
-            - x: 185
-              y: 30
-        - poly:
-            - x: 27
-              y: 0
-            - x: 59
-              y: 26
-        - poly:
-            - x: 177
-              y: 64
-            - x: 200
-              y: 90
-        - poly:
-            - x: 28
-              y: 142
-            - x: 78
-              y: 197
-        - poly:
-            - x: 0
-              y: 103
-            - x: 25
-              y: 129
-        - poly:
-            - x: 112
-              y: 174
-            - x: 162
-              y: 195
-        - poly:
-            - x: 40
-              y: 42
-            - x: 66
-              y: 73
-        - poly:
-            - x: 138
-              y: 132
-            - x: 157
-              y: 155
-    mbb68OwJVPrzD0OajCKm:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 0
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 65
-              y: 65
-            - x: 156
-              y: 116
     zbbyhOwX4OSm4mowRV2w:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -10450,26 +9782,11 @@ j29MVJU3ctlnvyEQ6HNb:
       name: Small_Supreme_Battlefield_V3.jpg
       ref: maps/j29MVJU3ctlnvyEQ6HNb/photo/UtaFrIo8gcGulk5zfvhI-Small_Supreme_Battlefield_V3.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Small_Supreme_Battlefield_V3
   startboxesSet:
-    5ruHMYjKDnuwGzx9BYfj:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 126
-            - x: 74
-              y: 200
-        - poly:
-            - x: 139
-              y: 1
-            - x: 200
-              y: 58
-        - poly:
-            - x: 113
-              y: 37
-            - x: 158
-              y: 75
     6FxmTVT6Rr0crBYWCdBl:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -10481,28 +9798,7 @@ j29MVJU3ctlnvyEQ6HNb:
               y: 0
             - x: 200
               y: 74
-    AFzwUdG59gGoJB73UbSo:
-      startboxes:
-        - poly:
-            - x: 80
-              y: 0
-            - x: 120
-              y: 40
-        - poly:
-            - x: 80
-              y: 160
-            - x: 120
-              y: 200
-        - poly:
-            - x: 0
-              y: 80
-            - x: 40
-              y: 120
-        - poly:
-            - x: 160
-              y: 80
-            - x: 200
-              y: 120
+  teamCount: 2
   terrain:
     - flat
     - water
@@ -10834,14 +10130,8 @@ lJQnSRqDN7rNPS5pe80C:
   special: Metal
   springName: Oort_Cloud_V2
   startboxesSet:
-    CXGDkKX18gr8BvIIWRei:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 98
-              y: 200
     DrvhKsy1CZVAbL1MrPa1:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -10853,259 +10143,23 @@ lJQnSRqDN7rNPS5pe80C:
               y: 0
             - x: 200
               y: 200
-    GtrKmgpWs8rmOBAEYhJB:
+    sOCl89S1u1YvqHed8ntQ:
+      maxPlayersPerStartbox: 1
       startboxes:
-        - poly:
-            - x: 4
-              y: 5
-            - x: 44
-              y: 45
-        - poly:
-            - x: 155
-              y: 150
-            - x: 194
-              y: 190
-        - poly:
-            - x: 3
-              y: 148
-            - x: 42
-              y: 187
-        - poly:
-            - x: 154
-              y: 3
-            - x: 194
-              y: 43
-        - poly:
-            - x: 10
-              y: 56
-            - x: 48
-              y: 94
-        - poly:
-            - x: 59
-              y: 150
-            - x: 92
-              y: 183
-        - poly:
-            - x: 154
-              y: 101
-            - x: 189
-              y: 137
-        - poly:
-            - x: 106
-              y: 6
-            - x: 137
-              y: 41
-    Oq5Zh8zg1NEhUGepVvop:
-      startboxes:
-        - poly:
-            - x: 58
-              y: 48
-            - x: 188
-              y: 178
-        - poly:
-            - x: 150
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 95
-              y: 0
-            - x: 148
-              y: 11
-        - poly:
-            - x: 4
-              y: 14
-            - x: 59
-              y: 183
-    VkYlmpbKPmC7KzP7j7A6:
-      startboxes:
-        - poly:
-            - x: 15
-              y: 15
-            - x: 35
-              y: 35
-        - poly:
-            - x: 58
-              y: 48
-            - x: 142
-              y: 137
-        - poly:
-            - x: 20
-              y: 159
-            - x: 40
-              y: 179
-        - poly:
-            - x: 161
-              y: 156
-            - x: 179
-              y: 175
-        - poly:
-            - x: 158
-              y: 17
-            - x: 182
-              y: 38
-    ajIojWMPlWiY7ThyU6LY:
-      startboxes:
-        - poly:
-            - x: 17
-              y: 17
-            - x: 46
-              y: 44
-        - poly:
-            - x: 152
-              y: 105
-            - x: 182
-              y: 134
-        - poly:
-            - x: 107
-              y: 150
-            - x: 138
-              y: 176
-        - poly:
-            - x: 152
-              y: 16
-            - x: 176
-              y: 35
         - poly:
             - x: 18
-              y: 150
-            - x: 45
-              y: 176
-        - poly:
-            - x: 111
-              y: 15
-            - x: 135
-              y: 41
-        - poly:
-            - x: 18
-              y: 59
-            - x: 47
-              y: 86
-        - poly:
-            - x: 149
-              y: 59
-            - x: 180
-              y: 85
-        - poly:
-            - x: 18
-              y: 104
-            - x: 49
-              y: 132
-        - poly:
-            - x: 110
-              y: 58
-            - x: 139
-              y: 87
-        - poly:
-            - x: 155
-              y: 154
-            - x: 182
-              y: 173
-        - poly:
-            - x: 109
-              y: 104
-            - x: 136
-              y: 131
-    pW2hw6EKLOSAYUgDa92i:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 50
-              y: 200
-        - poly:
-            - x: 150
-              y: 0
-            - x: 200
-              y: 200
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
-    pbkNo8s0wwNFiBWIHr3c:
-      startboxes:
-        - poly:
-            - x: 55
-              y: 44
-            - x: 149
-              y: 145
-        - poly:
-            - x: 160
-              y: 20
-            - x: 177
-              y: 36
-        - poly:
-            - x: 161
-              y: 157
-            - x: 175
-              y: 175
-        - poly:
-            - x: 113
-              y: 18
-            - x: 132
-              y: 37
-        - poly:
-            - x: 158
               y: 64
-            - x: 177
+            - x: 34
               y: 81
         - poly:
-            - x: 20
-              y: 22
-            - x: 36
-              y: 36
-        - poly:
-            - x: 113
-              y: 153
-            - x: 131
-              y: 170
-        - poly:
-            - x: 21
-              y: 158
-            - x: 38
-              y: 176
-        - poly:
-            - x: 64
-              y: 156
+            - x: 67
+              y: 21
             - x: 84
-              y: 173
+              y: 35
         - poly:
-            - x: 19
-              y: 63
-            - x: 37
-              y: 80
-        - poly:
-            - x: 22
-              y: 109
-            - x: 38
-              y: 127
-        - poly:
-            - x: 160
-              y: 109
-            - x: 179
-              y: 126
-        - poly:
-            - x: 66
-              y: 18
-            - x: 85
-              y: 36
-    sOCl89S1u1YvqHed8ntQ:
-      startboxes:
-        - poly:
-            - x: 1
-              y: 51
-            - x: 47
-              y: 145
-        - poly:
-            - x: 64
-              y: 18
-            - x: 85
-              y: 38
-        - poly:
-            - x: 117
-              y: 67
-            - x: 130
+            - x: 114
+              y: 64
+            - x: 132
               y: 81
         - poly:
             - x: 117
@@ -11118,24 +10172,24 @@ lJQnSRqDN7rNPS5pe80C:
             - x: 131
               y: 169
         - poly:
-            - x: 69
-              y: 112
-            - x: 82
-              y: 128
-        - poly:
             - x: 67
+              y: 112
+            - x: 84
+              y: 129
+        - poly:
+            - x: 66
               y: 64
-            - x: 81
-              y: 80
+            - x: 84
+              y: 81
         - poly:
             - x: 115
               y: 20
-            - x: 134
-              y: 39
+            - x: 131
+              y: 38
         - poly:
-            - x: 160
-              y: 20
-            - x: 177
+            - x: 163
+              y: 19
+            - x: 179
               y: 36
         - poly:
             - x: 160
@@ -11143,9 +10197,9 @@ lJQnSRqDN7rNPS5pe80C:
             - x: 177
               y: 80
         - poly:
-            - x: 160
+            - x: 162
               y: 158
-            - x: 177
+            - x: 179
               y: 175
         - poly:
             - x: 158
@@ -11163,79 +10217,15 @@ lJQnSRqDN7rNPS5pe80C:
             - x: 36
               y: 36
         - poly:
-            - x: 23
-              y: 157
+            - x: 21
+              y: 158
             - x: 37
               y: 172
-    ua2mW0H0PIUkdSIL96Gm:
-      startboxes:
-        - poly:
-            - x: 65
-              y: 61
-            - x: 134
-              y: 84
-        - poly:
-            - x: 161
-              y: 158
-            - x: 180
-              y: 176
-        - poly:
-            - x: 16
-              y: 156
-            - x: 35
-              y: 175
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 112
-              y: 109
-            - x: 132
-              y: 129
         - poly:
             - x: 19
-              y: 19
-            - x: 35
-              y: 37
-        - poly:
-            - x: 159
-              y: 64
-            - x: 178
-              y: 82
-    z0BJApPFfYKUYljYRQdp:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 19
-              y: 64
-            - x: 84
-              y: 131
-        - poly:
-            - x: 112
-              y: 64
-            - x: 178
-              y: 131
+              y: 111
+            - x: 36
+              y: 128
   teamCount: 16
   terrain:
     - flat
@@ -11334,6 +10324,7 @@ mAD4ToJrMg6xGHEM18qN:
   springName: Sector 318C v1.0
   startboxesSet:
     ceEohe8ZrhsyVk1tZm1D:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -11579,66 +10570,23 @@ pZko6a1Lqs5ZYeVO0BqS:
       name: Supreme_Crossing_V1.jpg
       ref: maps/pZko6a1Lqs5ZYeVO0BqS/photo/vuzJhK6oTcjcDXqvuY4Y-Supreme_Crossing_V1.jpg
       type: image/jpeg
+  playerCount: 8
   springName: Supreme_Crossing_V1
   startboxesSet:
-    3JwWQM5IwaQ6BPkoVlal:
-      startboxes:
-        - poly:
-            - x: 126
-              y: 0
-            - x: 200
-              y: 74
-    G2oRkZ4rOC8fFGIEOO3U:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 125
-            - x: 200
-              y: 200
-        - poly:
-            - x: 165
-              y: 27
-            - x: 176
-              y: 42
-        - poly:
-            - x: 72
-              y: 0
-            - x: 138
-              y: 66
-        - poly:
-            - x: 0
-              y: 28
-            - x: 14
-              y: 45
     m0sfphpL0bZnik0Xewjr:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
-              y: 160
-            - x: 40
+              y: 120
+            - x: 80
               y: 200
         - poly:
-            - x: 160
+            - x: 120
               y: 0
             - x: 200
-              y: 40
-    vd0CKhQfWxygksKteWcI:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 126
-            - x: 74
-              y: 200
-        - poly:
-            - x: 127
-              y: 0
-            - x: 200
-              y: 73
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
+              y: 80
+  teamCount: 2
   terrain:
     - flat
     - water
@@ -12090,6 +11038,7 @@ rC0RO0MGRS9ckbGJdGG1:
               y: 153
             - x: 176
               y: 174
+  teamCount: 16
   terrain:
     - water
     - hills
@@ -12172,49 +11121,12 @@ s7nrY1vJEItDuPwHAKEO:
       name: MoonQ20 3.jpg
       ref: maps/s7nrY1vJEItDuPwHAKEO/photo/bcCNl8hxKsvgCnhkDOmC-MoonQ20 3.jpg
       type: image/jpeg
+  playerCount: 8
   special: Craters
   springName: MoonQ20XR2 2.5
   startboxesSet:
-    BscAiirbPsejh2gf228I:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-    OX3t7AgH6yiw7ZyOUqKB:
-      startboxes:
-        - poly:
-            - x: 8
-              y: 5
-            - x: 55
-              y: 47
-        - poly:
-            - x: 154
-              y: 18
-            - x: 198
-              y: 61
-        - poly:
-            - x: 16
-              y: 150
-            - x: 62
-              y: 194
     SWmumMDPBrSoaxbgYggD:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -12226,13 +11138,7 @@ s7nrY1vJEItDuPwHAKEO:
               y: 0
             - x: 200
               y: 200
-    xOax2N6GcaO5EJ2fSvZb:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -12254,6 +11160,7 @@ sKu3wAd6qfR5jG8fC6KU:
   springName: Shallow Straits v1
   startboxesSet:
     VP8ItYzduv9iJ3r7PvZh:
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -12286,6 +11193,7 @@ snRldJIaPiKTiNiEAPEg:
   springName: Stronghold V4
   startboxesSet:
     Ab3VYqLTOaxCrnWOLtSw:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -12297,51 +11205,8 @@ snRldJIaPiKTiNiEAPEg:
               y: 150
             - x: 200
               y: 200
-    EUVLL08P4i8K9wL5ID1r:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 45
-              y: 51
-        - poly:
-            - x: 0
-              y: 149
-            - x: 50
-              y: 198
-        - poly:
-            - x: 90
-              y: 0
-            - x: 120
-              y: 39
-        - poly:
-            - x: 164
-              y: 163
-            - x: 200
-              y: 198
-        - poly:
-            - x: 171
-              y: 4
-            - x: 195
-              y: 41
-        - poly:
-            - x: 94
-              y: 154
-            - x: 121
-              y: 198
-        - poly:
-            - x: 66
-              y: 66
-            - x: 133
-              y: 133
-    WxUM0urrzq6LfsnigHxS:
-      startboxes:
-        - poly:
-            - x: 54
-              y: 58
-            - x: 140
-              y: 141
     Yn4PNIin1GFRK8dkbUbc:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -12363,23 +11228,7 @@ snRldJIaPiKTiNiEAPEg:
               y: 0
             - x: 200
               y: 70
-    iORoYyapRkHQyzSdh0aW:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 162
-              y: 162
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -12620,7 +11469,6 @@ uV4t5gveu4Ru1Lrm1e1l:
   displayName: Point of No Return
   gameType:
     - ffa
-    - team
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuV4t5gveu4Ru1Lrm1e1l%2FinGameShots%2F6DjZWQZmATAj0EXPP5A0-point_of_no_return_SS2.jpg?alt=media&token=fda13387-3fb2-4b1c-b6d0-9ba5710ed7ca
       lastModifiedTS: 1683621682198
@@ -12673,7 +11521,61 @@ uV4t5gveu4Ru1Lrm1e1l:
   playerCount: 10
   special: Asymmetrical
   springName: Point of No Return v1.0
-  teamCount: 2
+  startboxesSet:
+    ohJvLaSNFtx1dNoNqUgE:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 176
+              y: 2
+            - x: 193
+              y: 12
+        - poly:
+            - x: 3
+              y: 6
+            - x: 27
+              y: 33
+        - poly:
+            - x: 14
+              y: 82
+            - x: 44
+              y: 115
+        - poly:
+            - x: 40
+              y: 136
+            - x: 64
+              y: 155
+        - poly:
+            - x: 145
+              y: 155
+            - x: 165
+              y: 168
+        - poly:
+            - x: 61
+              y: 39
+            - x: 84
+              y: 58
+        - poly:
+            - x: 134
+              y: 54
+            - x: 156
+              y: 72
+        - poly:
+            - x: 115
+              y: 98
+            - x: 136
+              y: 111
+        - poly:
+            - x: 172
+              y: 94
+            - x: 192
+              y: 109
+        - poly:
+            - x: 100
+              y: 12
+            - x: 124
+              y: 31
+  teamCount: 1
   terrain:
     - hills
     - water
@@ -12793,6 +11695,7 @@ vTVisQEv3JM2pa0TvUHy:
               y: 0
             - x: 200
               y: 99
+  teamCount: 3
   terrain:
     - flat
     - water
@@ -12975,10 +11878,9 @@ wQa6jdSr4HBUH6p21eI8:
 wyCcSCcx7UYOY5bT4d5P:
   author: Raghna
   certified: false
-  description: 7v7 or ffa
+  description: 7v7
   displayName: ReRaghnarok
   gameType:
-    - ffa
     - team
     - 1v1
   inPool: true
@@ -12988,31 +11890,11 @@ wyCcSCcx7UYOY5bT4d5P:
       name: ReRaghnarok_1.jpg
       ref: maps/wyCcSCcx7UYOY5bT4d5P/photo/msstjnxjQQk6VNjbqFqt-ReRaghnarok_1.jpg
       type: image/jpeg
+  playerCount: 14
   springName: ReRaghnarok 1
   startboxesSet:
-    3Cpwmc8m0nA5EfKAPTXN:
-      startboxes:
-        - poly:
-            - x: 58
-              y: 62
-            - x: 139
-              y: 86
-        - poly:
-            - x: 54
-              y: 105
-            - x: 142
-              y: 132
-        - poly:
-            - x: 49
-              y: 0
-            - x: 150
-              y: 32
-        - poly:
-            - x: 60
-              y: 138
-            - x: 139
-              y: 188
     f8IE3TCecZ5tSRigkXBA:
+      maxPlayersPerStartbox: 7
       startboxes:
         - poly:
             - x: 0
@@ -13024,6 +11906,7 @@ wyCcSCcx7UYOY5bT4d5P:
               y: 0
             - x: 200
               y: 200
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -13054,9 +11937,11 @@ x0Y6f1ou7U5tF3S9xllC:
       name: Riverdale_Remake_2.1.jpg
       ref: maps/x0Y6f1ou7U5tF3S9xllC/photo/hXyKXfrI1KQBHZUsSruB-Riverdale_Remake_2.1.jpg
       type: image/jpeg
+  playerCount: 2
   springName: Riverdale Remake 2.1
   startboxesSet:
     01Wu7X26WdTQIYUBsIrf:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -13068,28 +11953,7 @@ x0Y6f1ou7U5tF3S9xllC:
               y: 160
             - x: 200
               y: 200
-    sJHWMfMcSCpsZTwX6tIS:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 200
-              y: 55
-        - poly:
-            - x: 48
-              y: 118
-            - x: 200
-              y: 199
-        - poly:
-            - x: 0
-              y: 66
-            - x: 198
-              y: 100
-        - poly:
-            - x: 0
-              y: 98
-            - x: 32
-              y: 129
+  teamCount: 2
   terrain:
     - flat
     - hills
@@ -13113,106 +11977,29 @@ x3jIjnV9aipWzVVWjZlL:
   special: Metal
   springName: Nine_Metal_Islands_V1
   startboxesSet:
-    8EkgbzSo10xnMWP5ll1U:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 92
-              y: 155
-        - poly:
-            - x: 105
-              y: 0
-            - x: 172
-              y: 64
-        - poly:
-            - x: 107
-              y: 114
-            - x: 174
-              y: 181
-    BcwibzbdGWjk6ZqylMM8:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 198
-              y: 81
-        - poly:
-            - x: 0
-              y: 82
-            - x: 198
-              y: 117
-        - poly:
-            - x: 0
-              y: 160
-            - x: 199
-              y: 199
-        - poly:
-            - x: 0
-              y: 119
-            - x: 199
-              y: 158
-    MvKzdAuP0XEIL7LpuzJr:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 70
-              y: 200
-        - poly:
-            - x: 130
-              y: 0
-            - x: 200
-              y: 200
-    MzlY0IFNFLFWlseHbAWC:
-      startboxes:
-        - poly:
-            - x: 75
-              y: 82
-            - x: 129
-              y: 112
-        - poly:
-            - x: 163
-              y: 46
-            - x: 174
-              y: 80
-        - poly:
-            - x: 0
-              y: 113
-            - x: 53
-              y: 143
-        - poly:
-            - x: 98
-              y: 7
-            - x: 149
-              y: 39
-        - poly:
-            - x: 0
-              y: 39
-            - x: 65
-              y: 104
-    OsFHcJ7hWTlR2fdNcwhm:
+    FzhqFUuoC5pOA3dnXhzi:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
               y: 115
-            - x: 150
-              y: 200
+            - x: 45
+              y: 139
         - poly:
-            - x: 0
-              y: 45
-            - x: 52
-              y: 92
+            - x: 11
+              y: 57
+            - x: 42
+              y: 84
         - poly:
-            - x: 54
-              y: 6
+            - x: 61
+              y: 10
             - x: 93
               y: 40
         - poly:
-            - x: 100
-              y: 3
-            - x: 143
-              y: 41
+            - x: 106
+              y: 7
+            - x: 141
+              y: 38
         - poly:
             - x: 156
               y: 53
@@ -13224,20 +12011,76 @@ x3jIjnV9aipWzVVWjZlL:
             - x: 195
               y: 136
         - poly:
-            - x: 62
-              y: 52
-            - x: 145
-              y: 105
+            - x: 107
+              y: 158
+            - x: 142
+              y: 195
         - poly:
-            - x: 154
+            - x: 59
+              y: 160
+            - x: 96
+              y: 188
+    MvKzdAuP0XEIL7LpuzJr:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 70
+              y: 200
+        - poly:
+            - x: 130
               y: 0
             - x: 200
-              y: 44
+              y: 200
+    OsFHcJ7hWTlR2fdNcwhm:
+      maxPlayersPerStartbox: 2
+      startboxes:
         - poly:
-            - x: 157
-              y: 142
-            - x: 200
-              y: 198
+            - x: 0
+              y: 115
+            - x: 45
+              y: 139
+        - poly:
+            - x: 11
+              y: 57
+            - x: 42
+              y: 84
+        - poly:
+            - x: 61
+              y: 10
+            - x: 93
+              y: 40
+        - poly:
+            - x: 106
+              y: 7
+            - x: 141
+              y: 38
+        - poly:
+            - x: 156
+              y: 53
+            - x: 191
+              y: 84
+        - poly:
+            - x: 161
+              y: 99
+            - x: 195
+              y: 136
+        - poly:
+            - x: 107
+              y: 158
+            - x: 142
+              y: 195
+        - poly:
+            - x: 59
+              y: 160
+            - x: 96
+              y: 188
+        - poly:
+            - x: 76
+              y: 86
+            - x: 123
+              y: 112
   teamCount: 8
   terrain:
     - flat
@@ -13400,39 +12243,8 @@ yhOJI5yH4yGFmx9PMt9T:
   playerCount: 4
   springName: Lake Carne v2
   startboxesSet:
-    HC1guTQk5UDxdpdU50Fx:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 81
-              y: 1
-            - x: 118
-              y: 33
-        - poly:
-            - x: 81
-              y: 158
-            - x: 122
-              y: 199
     Zqz7AVU7dN9prABOZo1k:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -13500,39 +12312,8 @@ zfA6sKjimXZO5kz0jtz1:
   playerCount: 4
   springName: Omega Valley V1.0
   startboxesSet:
-    666Nev97fxTQ63Nnpfn1:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
-        - poly:
-            - x: 81
-              y: 137
-            - x: 121
-              y: 169
-        - poly:
-            - x: 80
-              y: 27
-            - x: 117
-              y: 59
     KPbwp2fWiQNV9hdFc0NJ:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -13544,28 +12325,6 @@ zfA6sKjimXZO5kz0jtz1:
               y: 160
             - x: 200
               y: 200
-    r21thznJG6KhdlbvhzB3:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
   teamCount: 2
   terrain:
     - hills
@@ -13587,118 +12346,8 @@ zoXOP8VC1sNWpsP41IYV:
   playerCount: 8
   springName: Plethora_of_Ponds_V1
   startboxesSet:
-    0MopKCrY6xKJPUJDFR6C:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 47
-              y: 46
-        - poly:
-            - x: 150
-              y: 0
-            - x: 200
-              y: 45
-        - poly:
-            - x: 152
-              y: 150
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 144
-            - x: 51
-              y: 200
-        - poly:
-            - x: 71
-              y: 0
-            - x: 117
-              y: 44
-        - poly:
-            - x: 149
-              y: 74
-            - x: 200
-              y: 127
-        - poly:
-            - x: 72
-              y: 147
-            - x: 124
-              y: 200
-        - poly:
-            - x: 73
-              y: 70
-            - x: 120
-              y: 125
-        - poly:
-            - x: 0
-              y: 72
-            - x: 53
-              y: 126
-    F7p7Px6YeQxKg8Rzf10C:
-      startboxes:
-        - poly:
-            - x: 65
-              y: 132
-            - x: 198
-              y: 198
-        - poly:
-            - x: 0
-              y: 0
-            - x: 129
-              y: 64
-        - poly:
-            - x: 0
-              y: 66
-            - x: 64
-              y: 197
-        - poly:
-            - x: 131
-              y: 0
-            - x: 200
-              y: 133
-    dBx5NYZ4SpnT5XZYgJPl:
-      startboxes:
-        - poly:
-            - x: 3
-              y: 139
-            - x: 66
-              y: 194
-        - poly:
-            - x: 0
-              y: 0
-            - x: 62
-              y: 61
-        - poly:
-            - x: 0
-              y: 64
-            - x: 62
-              y: 131
-        - poly:
-            - x: 128
-              y: 63
-            - x: 195
-              y: 126
-        - poly:
-            - x: 62
-              y: 0
-            - x: 129
-              y: 67
-        - poly:
-            - x: 129
-              y: 0
-            - x: 196
-              y: 66
-        - poly:
-            - x: 67
-              y: 128
-            - x: 134
-              y: 195
-        - poly:
-            - x: 131
-              y: 123
-            - x: 198
-              y: 190
     xUna5IBAdRsq0jEIShXO:
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
@@ -13710,6 +12359,7 @@ zoXOP8VC1sNWpsP41IYV:
               y: 154
             - x: 200
               y: 200
+  teamCount: 2
   terrain:
     - flat
     - water
@@ -13760,29 +12410,8 @@ zvBCoDF2TaUPp7AwfCUr:
   playerCount: 4
   springName: Pinewood_Derby_V1
   startboxesSet:
-    BElJnDG0vf54mZBpkXlz:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 40
-              y: 40
-        - poly:
-            - x: 160
-              y: 160
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 160
-            - x: 40
-              y: 200
-        - poly:
-            - x: 160
-              y: 0
-            - x: 200
-              y: 40
     Ksr44Ba6PMUfFtgVW8cZ:
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -13794,23 +12423,7 @@ zvBCoDF2TaUPp7AwfCUr:
               y: 0
             - x: 200
               y: 200
-    j2WHvkDhKFE2wAoEJCRk:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 116
-              y: 200
-        - poly:
-            - x: 172
-              y: 134
-            - x: 197
-              y: 194
-        - poly:
-            - x: 180
-              y: 2
-            - x: 197
-              y: 29
+  teamCount: 2
   terrain:
     - hills
 zvTEXnewG2G8LaMjFq4o:
@@ -13883,29 +12496,8 @@ zvTEXnewG2G8LaMjFq4o:
   playerCount: 16
   springName: Nuclear Winter Bar 1.4
   startboxesSet:
-    3qNRi3CrWeUOeaKoz7Lz:
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 60
-              y: 60
-        - poly:
-            - x: 140
-              y: 140
-            - x: 200
-              y: 200
-        - poly:
-            - x: 0
-              y: 140
-            - x: 60
-              y: 200
-        - poly:
-            - x: 140
-              y: 0
-            - x: 200
-              y: 60
     eZzR5USURUBzWdPBD5LJ:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -13917,23 +12509,7 @@ zvTEXnewG2G8LaMjFq4o:
               y: 0
             - x: 200
               y: 200
-    xSFySxBmuHugD9e9Ql3B:
-      startboxes:
-        - poly:
-            - x: 48
-              y: 133
-            - x: 146
-              y: 200
-        - poly:
-            - x: 144
-              y: 0
-            - x: 199
-              y: 132
-        - poly:
-            - x: 0
-              y: 0
-            - x: 53
-              y: 134
+  teamCount: 2
   terrain:
     - flat
 zzzzzzzzzzzzzzzzzzzx:
@@ -14030,5 +12606,6 @@ zzzzzzzzzzzzzzzzzzzx:
               y: 140
             - x: 185
               y: 185
+  teamCount: 4
   terrain:
     - hills
