@@ -120,6 +120,7 @@ additionalProperties:
         additionalProperties: false
         required:
           - startboxes
+          - maxPlayersPerStartbox
   additionalProperties: false
   required:
     - springName
@@ -128,6 +129,7 @@ additionalProperties:
     - gameType
     - terrain
     - playerCount
+    - teamCount
     - certified
     - inPool
     - photo
