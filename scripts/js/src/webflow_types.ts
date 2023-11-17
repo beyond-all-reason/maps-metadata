@@ -70,8 +70,9 @@ export interface WebflowMapFieldsRead {
    * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
    */
   "game-tags-ref-2"?: string[];
-  "height-map"?: WebflowImageRef;
+  "mini-map"?: WebflowImageRef;
   "metal-map"?: WebflowImageRef;
+  "height-map"?: WebflowImageRef;
   /**
    * Surface of the map (W * H)
    */
@@ -171,14 +172,15 @@ export interface WebflowMapFieldsWrite {
    * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
    */
   "game-tags-ref-2"?: string[];
-  /**
-   * PNG heightmap - probably needs converting to regular 8-bit PNG
-   */
-  "height-map"?: string;
+  "mini-map"?: string;
   /**
    * Metal spots layout for map - ideally in transparant PNG - though black background - white metal is also fine.
    */
   "metal-map"?: string;
+  /**
+   * PNG heightmap - probably needs converting to regular 8-bit PNG
+   */
+  "height-map"?: string;
   /**
    * Surface of the map (W * H)
    */

@@ -90,13 +90,13 @@ async function sameImage(url1?: string, url2?: string): Promise<boolean> {
 }
 
 async function sameImages(urls1: string[], urls2: string[]): Promise<boolean> {
+    const [h1, h2] = await Promise.all([
+        Promise.all(urls1.map(getImageHash)),
+        Promise.all(urls2.map(getImageHash))
+    ]);
     if (urls1.length !== urls2.length) {
         return false;
     }
-    const [h1, h2] = await Promise.all([
-        Promise.all(urls1.map(getImageHash)),
-        Promise.all(urls1.map(getImageHash))
-    ]);
     h1.sort();
     h2.sort();
     return h1.every((v, i) => v === h2[i]);
@@ -162,7 +162,9 @@ interface WebsiteMapInfo {
     windMin?: number;
     windMax?: number;
     tidalStrength?: number;
-    maxPlayers?: number;
+    teamCount: number;
+    maxPlayers: number;
+    textureMapUrl: string;
     heightMapUrl: string;
     metalMapUrl: string;
 }
@@ -173,6 +175,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         sameImage(a.bgImageUrl, b.bgImageUrl),
         sameImage(a.perspectiveShotUrl, b.perspectiveShotUrl),
         sameImages(a.moreImagesUrl, b.moreImagesUrl),
+        sameImage(a.textureMapUrl, b.textureMapUrl),
         sameImage(a.heightMapUrl, b.heightMapUrl),
         sameImage(a.metalMapUrl, b.metalMapUrl)
     ])).every(x => x);
@@ -189,6 +192,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.windMin === b.windMin &&
         a.windMax === b.windMax &&
         a.tidalStrength === b.tidalStrength &&
+        a.teamCount === b.teamCount &&
         a.maxPlayers === b.maxPlayers;
 }
 
@@ -218,7 +222,9 @@ class WebflowMapInfo {
         this.windMin = o['wind-min'];
         this.windMax = o['wind-max'];
         this.tidalStrength = o['tidal-strength'];
-        this.maxPlayers = o['max-players'];
+        this.teamCount = o['team-count'] || 0;
+        this.maxPlayers = o['max-players'] || 0;
+        this.textureMapUrl = o['mini-map']?.url || '';
         this.heightMapUrl = o['height-map']?.url || '';
         this.metalMapUrl = o['metal-map']?.url || '';
     }
@@ -243,7 +249,9 @@ class WebflowMapInfo {
             'wind-min': info.windMin,
             'wind-max': info.windMax,
             'tidal-strength': info.tidalStrength,
+            'team-count': info.teamCount,
             'max-players': info.maxPlayers,
+            'mini-map': await pickImage(info.textureMapUrl, base?.item['mini-map']),
             'height-map': await pickImage(info.heightMapUrl, base?.item['height-map']),
             'metal-map': await pickImage(info.metalMapUrl, base?.item['metal-map']),
         };
@@ -284,13 +292,15 @@ async function buildWebflowInfo(
             mapSize: meta.smf.mapWidth * meta.smf.mapHeight / (64 * 64),
             description: map.description || undefined,
             author: map.author,
-            bgImageUrl: (map.backgroundImage ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.backgroundImage![0]!.ref)}` : undefined),
-            perspectiveShotUrl: (map.perspectiveShot ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.perspectiveShot![0]!.ref)}` : undefined),
-            moreImagesUrl: (map.inGameShots || []).map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(i.ref)}`),
+            bgImageUrl: (map.backgroundImage.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.backgroundImage[0]!.ref)}` : undefined),
+            perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : undefined),
+            moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(i.ref)}`),
             windMin: 'smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind,
             windMax: 'smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind,
             tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength,
+            teamCount: map.teamCount,
             maxPlayers: map.playerCount,
+            textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(90)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/texture.jpg')}`,
             heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(90)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
         });
@@ -323,6 +333,7 @@ async function syncToWebflow(
     mapsCollection: WebflowCollection,
     dryRun: boolean
 ) {
+    const updatesP: Promise<[boolean, WebsiteMapInfo, WebflowMapInfo]>[] = [];
     for (const [rowyId, map] of src) {
         const webflowMap = dest.get(rowyId);
         if (!webflowMap) {
@@ -334,15 +345,8 @@ async function syncToWebflow(
             } else {
                 console.log(fields);
             }
-        } else if (!await isWebflowMapInfoEqual(map, webflowMap)) {
-            console.log(`Updating ${map.name}`);
-            const fields = await WebflowMapInfo.generateFields(map, webflowMap);
-            if (!dryRun) {
-                const item = await limiter.schedule(() => webflowMap.item.update(fields));
-                dest.set(rowyId, new WebflowMapInfo(item));
-            } else {
-                console.log(fields);
-            }
+        } else {
+            updatesP.push((async () => [await isWebflowMapInfoEqual(map, webflowMap), map, webflowMap])())
         }
     }
     for (const [rowyId, map] of dest) {
@@ -352,6 +356,18 @@ async function syncToWebflow(
                 await limiter.schedule(() => map.item.remove());
                 dest.delete(rowyId);
             }
+        }
+    }
+    const updates = await Promise.all(updatesP);
+    for (const [_, map, webflowMap] of updates.filter(([same]) => !same)) {
+        console.log(`Updating ${map.name}`);
+        const fields = await WebflowMapInfo.generateFields(map, webflowMap);
+        if (!dryRun) {
+            const item = await limiter.schedule(() => webflowMap.item.update(fields));
+            dest.set(map.rowyId, new WebflowMapInfo(item));
+        } else {
+            console.log(webflowMap.item);
+            console.log(fields);
         }
     }
 }
