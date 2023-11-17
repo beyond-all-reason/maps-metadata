@@ -1908,14 +1908,14 @@ ASieUn5uvk5eyZz6KhUt:
     - ffa
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FASieUn5uvk5eyZz6KhUt%2Fphoto%2FSea43Ou5l93pdAjcwqVD-odderon.jpg?alt=media&token=63b4c86c-3644-4132-9c6d-afed1ac13443
-      lastModifiedTS: 1700083176045
-      name: odderon.jpg
-      ref: maps/ASieUn5uvk5eyZz6KhUt/photo/Sea43Ou5l93pdAjcwqVD-odderon.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FASieUn5uvk5eyZz6KhUt%2Fphoto%2F66TD2osrC3HOFF27xtbQ-odderon1.1.jpg?alt=media&token=66607756-bcc4-4315-9d2a-3cca0c1d0faf
+      lastModifiedTS: 1700240785297
+      name: odderon1.1.jpg
+      ref: maps/ASieUn5uvk5eyZz6KhUt/photo/66TD2osrC3HOFF27xtbQ-odderon1.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Asymmetrical
-  springName: Odderon Strandflats v1.0
+  springName: Odderon Strandflats v1.1
   startboxesSet:
     Q8Jv8t5xYvC9g3CPlZgu:
       maxPlayersPerStartbox: 1
