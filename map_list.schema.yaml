@@ -14,6 +14,8 @@ additionalProperties:
       type: string
     author:
       type: string
+    title:
+      type: string
     description:
       type: string
     gameType:
@@ -54,23 +56,26 @@ additionalProperties:
     photo:
       type: array
       items:
-        $ref: '#/$defs/uploadedFile'
+        $ref: "#/$defs/uploadedFile"
       minItems: 1
       maxItems: 1
     backgroundImage:
       type: array
       items:
-        $ref: '#/$defs/uploadedFile'
+        $ref: "#/$defs/uploadedFile"
       maxItems: 1
+      default: []
     perspectiveShot:
       type: array
       items:
-        $ref: '#/$defs/uploadedFile'
+        $ref: "#/$defs/uploadedFile"
       maxItems: 1
+      default: []
     inGameShots:
       type: array
       items:
-        $ref: '#/$defs/uploadedFile'
+        $ref: "#/$defs/uploadedFile"
+      default: []
     startboxesSet:
       type: object
       collection: true
@@ -111,7 +116,7 @@ additionalProperties:
           maxPlayersPerStartbox:
             type: integer
             minimum: 1
-            maximum: 8
+            maximum: 16
         additionalProperties: false
         required:
           - startboxes
@@ -122,9 +127,13 @@ additionalProperties:
     - author
     - gameType
     - terrain
+    - playerCount
     - certified
     - inPool
     - photo
+    - backgroundImage
+    - perspectiveShot
+    - inGameShots
 $defs:
   uploadedFile:
     title: UploadedFile
