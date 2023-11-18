@@ -28,7 +28,7 @@ class ImageHashesCache {
     private readonly imageHashesCache: Map<string, string>;
 
     constructor(cachePath: string) {
-        this.limit = pLimit(10);
+        this.limit = pLimit(20);
         this.cachePath = cachePath;
         this.imageHashesCache = new Map();
 
@@ -58,8 +58,8 @@ class ImageHashesCache {
     }
 
     // getImageHash returns the hash of the image at the given url.
-    async getImageHash(url: string | undefined): Promise<string> {
-        if (!url) {
+    async getImageHash(url: string | null): Promise<string> {
+        if (!url) {  // Handles both null and '';
             return '';
         }
         if (this.imageHashesCache.has(url)) {
@@ -82,9 +82,9 @@ class ImageHashesCache {
 // Cache of url to image hash so we don't have to download the image to get the hash.
 const imageHashesCache = new ImageHashesCache(path.join(mapsCacheDir, 'imageHashesCache.json'));
 
-const getImageHash = (url: string | undefined) => imageHashesCache.getImageHash(url);
+const getImageHash = (url: string | null) => imageHashesCache.getImageHash(url);
 
-async function sameImage(url1?: string, url2?: string): Promise<boolean> {
+async function sameImage(url1: string | null, url2: string | null): Promise<boolean> {
     const [h1, h2] = await Promise.all([getImageHash(url1), getImageHash(url2)]);
     return h1 === h2;
 }
@@ -139,7 +139,8 @@ async function pickImages(urls: string[], base?: WebflowImageRef[]): Promise<str
  * We use the internal representation because both the source and the
  * Webflow API have different ways of representing the same data with
  * webflow e.g. requiring a two fiels for a photo: one for actual image
- * and second for a url to the image.
+ * and second for a url to the image. It also gives us a more strongly
+ * typed interface to work with for comparison.
  */
 
 
@@ -154,14 +155,14 @@ interface WebsiteMapInfo {
     width: number;
     height: number;
     mapSize: number;
-    description?: string;
+    description: string | null;
     author: string;
-    bgImageUrl?: string;
-    perspectiveShotUrl?: string;
+    bgImageUrl: string | null;
+    perspectiveShotUrl: string | null;
     moreImagesUrl: string[];
-    windMin?: number;
-    windMax?: number;
-    tidalStrength?: number;
+    windMin: number | null;
+    windMax: number | null;
+    tidalStrength: number | null;
     teamCount: number;
     maxPlayers: number;
     textureMapUrl: string;
@@ -211,19 +212,19 @@ class WebflowMapInfo {
         this.rowyId = o.rowyid || '';
         this.minimapUrl = o.minimap?.url || '';
         this.downloadUrl = o.downloadurl || '';
-        this.width = o.width || 0;
-        this.height = o.height || 0;
-        this.mapSize = o.mapsize || 0;
-        this.description = o.description;
+        this.width = o.width || -1;
+        this.height = o.height || -1;
+        this.mapSize = o.mapsize || -1;
+        this.description = o.description || null;
         this.author = o.author || '';
-        this.bgImageUrl = o['bg-image']?.url;
-        this.perspectiveShotUrl = o['perspective-shot']?.url;
+        this.bgImageUrl = o['bg-image']?.url || null;
+        this.perspectiveShotUrl = o['perspective-shot']?.url || null;
         this.moreImagesUrl = o['more-images']?.map(i => i.url) || [];
-        this.windMin = o['wind-min'];
-        this.windMax = o['wind-max'];
-        this.tidalStrength = o['tidal-strength'];
-        this.teamCount = o['team-count'] || 0;
-        this.maxPlayers = o['max-players'] || 0;
+        this.windMin = o['wind-min'] || null;
+        this.windMax = o['wind-max'] || null;
+        this.tidalStrength = o['tidal-strength'] || null
+        this.teamCount = o['team-count'] || -1;
+        this.maxPlayers = o['max-players'] || -1;
         this.textureMapUrl = o['mini-map']?.url || '';
         this.heightMapUrl = o['height-map']?.url || '';
         this.metalMapUrl = o['metal-map']?.url || '';
@@ -243,8 +244,8 @@ class WebflowMapInfo {
             mapsize: info.mapSize,
             description: info.description,
             author: info.author,
-            'bg-image': info.bgImageUrl ? await pickImage(info.bgImageUrl, base?.item['bg-image']) : undefined,
-            'perspective-shot': info.perspectiveShotUrl ? await pickImage(info.perspectiveShotUrl, base?.item['perspective-shot']) : undefined,
+            'bg-image': info.bgImageUrl ? await pickImage(info.bgImageUrl, base?.item['bg-image']) : null,
+            'perspective-shot': info.perspectiveShotUrl ? await pickImage(info.perspectiveShotUrl, base?.item['perspective-shot']) : null,
             'more-images': await pickImages(info.moreImagesUrl, base?.item['more-images']),
             'wind-min': info.windMin,
             'wind-max': info.windMax,
@@ -278,32 +279,40 @@ async function buildWebflowInfo(
 
         // Just in case cache version changed or something.
         const metaLoc = await getParsedMapLocation(map.springName);
-        for (const img of ['height.png', 'metal.png']) {
+        for (const img of ['height.png', 'metal.png', 'texture.jpg']) {
             assert(meta.extractedFiles.includes(img));
         }
 
-        webflowInfo.set(rowyId, {
+        const info: WebsiteMapInfo = {
             name: map.displayName,
             rowyId,
-            minimapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(jpeg):quality(90)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
+            minimapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
             downloadUrl: mi.mirrors[0],
             width: meta.smf.mapWidth / 64,
             height: meta.smf.mapHeight / 64,
             mapSize: meta.smf.mapWidth * meta.smf.mapHeight / (64 * 64),
-            description: map.description || undefined,
+            description: map.description || null,
             author: map.author,
-            bgImageUrl: (map.backgroundImage.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.backgroundImage[0]!.ref)}` : undefined),
-            perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : undefined),
-            moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(90)/${rowyBucket}/${encodeURI(i.ref)}`),
-            windMin: 'smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind,
-            windMax: 'smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind,
-            tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength,
+            bgImageUrl: (map.backgroundImage.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.backgroundImage[0]!.ref)}` : null),
+            perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
+            moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
+            windMin: ('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind) || null,
+            windMax: ('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind) || null,
+            tidalStrength: ('smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength) || null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,
-            textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(90)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/texture.jpg')}`,
-            heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(90)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
+            textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/texture.jpg')}`,
+            heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
-        });
+        };
+
+        for (const [k, v] of Object.entries(info)) {
+            if (v === undefined || v === '') {
+                throw new Error(`Missing value for map ${map.springName} key ${k}`);
+            }
+        }
+
+        webflowInfo.set(rowyId, info);
     }
     return webflowInfo;
 }
@@ -366,7 +375,7 @@ async function syncToWebflow(
             const item = await limiter.schedule(() => webflowMap.item.update(fields));
             dest.set(map.rowyId, new WebflowMapInfo(item));
         } else {
-            console.log(webflowMap.item);
+            console.log(webflowMap);
             console.log(fields);
         }
     }

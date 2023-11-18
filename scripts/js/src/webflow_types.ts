@@ -46,6 +46,9 @@ export interface WebflowMapFieldsRead {
   sketchfabcode?: string;
   "bg-image"?: WebflowImageRef;
   "perspective-shot"?: WebflowImageRef;
+  /**
+   * Additional images to be shown with more details / eye-candy
+   */
   "more-images"?: WebflowImageRef[];
   "wind-min"?: number;
   "wind-max"?: number;
@@ -102,89 +105,92 @@ export interface WebflowImageRef {
  * via the `definition` "mapFieldsWrite".
  */
 export interface WebflowMapFieldsWrite {
-  rowyid?: string;
+  rowyid?: string | null;
   /**
    * Top-down minimap - longest side should be at least 1024px
    */
-  minimap?: string;
-  minimapurl?: string;
+  minimap?: string | null;
+  minimapurl?: string | null;
   /**
    * Map width in elmos
    */
-  width?: number;
+  width?: number | null;
   /**
    * Map height in elmos
    */
-  height?: number;
+  height?: number | null;
   /**
    * Downlink to BAR CDN
    */
-  downloadurl?: string;
+  downloadurl?: string | null;
   /**
    * Main Title / Slogan / Tagline - not the name of the map.
    */
-  title?: string;
+  title?: string | null;
   /**
    * Extra optional subtitle to support the main Title.
    */
-  subtitle?: string;
+  subtitle?: string | null;
   /**
    * Long-text for describing the map, gameplay, and unique features
    */
-  description?: string;
+  description?: string | null;
   /**
    * The mapper that made this map
    */
-  author?: string;
+  author?: string | null;
   /**
    * Unique Sketchfab Identifier that will be used if there is a 3D sketchfab version available.
    */
-  sketchfabcode?: string;
+  sketchfabcode?: string | null;
   /**
    * Main Background image with overview of the map in-game - Usually low perspective
    */
-  "bg-image"?: string;
+  "bg-image"?: string | null;
   /**
    * Transparant image that fully shows the entire map in-game - borders/map extensions should be off, and/or be removed with an image-editor or background remover.
    */
-  "perspective-shot"?: string;
-  "more-images"?: string[];
-  "wind-min"?: number;
-  "wind-max"?: number;
-  "tidal-strength"?: number;
+  "perspective-shot"?: string | null;
+  /**
+   * Additional images to be shown with more details / eye-candy
+   */
+  "more-images"?: string[] | null;
+  "wind-min"?: number | null;
+  "wind-max"?: number | null;
+  "tidal-strength"?: number | null;
   /**
    * Maximum players or startpositions for this map
    */
-  "max-players"?: number;
+  "max-players"?: number | null;
   /**
    * Total amount of teams that can spawn / amount of (max.) preset startboxes or amount of AllyTeams.
    */
-  "team-count"?: number;
+  "team-count"?: number | null;
   /**
    * store json with all sync related state serialized
    */
-  syncstate?: string;
+  syncstate?: string | null;
   /**
    * Simple textfield which should hold "gametype1, gametype2" - the simple solution for GameTypes
    */
-  "game-types"?: string;
+  "game-types"?: string | null;
   /**
    * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
    */
-  "game-tags-ref-2"?: string[];
-  "mini-map"?: string;
+  "game-tags-ref-2"?: string[] | null;
+  "mini-map"?: string | null;
   /**
    * Metal spots layout for map - ideally in transparant PNG - though black background - white metal is also fine.
    */
-  "metal-map"?: string;
+  "metal-map"?: string | null;
   /**
    * PNG heightmap - probably needs converting to regular 8-bit PNG
    */
-  "height-map"?: string;
+  "height-map"?: string | null;
   /**
    * Surface of the map (W * H)
    */
-  mapsize?: number;
+  mapsize?: number | null;
   name: string;
   slug: string;
   _archived: boolean;

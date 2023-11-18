@@ -69,25 +69,37 @@ for (const field of mapsCollection.fields) {
         case 'Date':
         case 'Link':
         case 'User':
-            propsRead = propsWrite = { type: 'string', ...desc };
+            propsRead = { type: 'string', ...desc };
+            propsWrite = { type: field.required ? 'string' : ['string', 'null'], ...desc };
             break;
         case 'Bool':
-            propsRead = propsWrite = { type: 'boolean', ...desc };
+            propsRead = { type: 'boolean', ...desc };
+            propsWrite = { type: field.required ? 'boolean' : ['boolean', 'null'], ...desc };
             break;
         case 'ImageRef':
             propsRead = { '$ref': '#/$defs/imageRef' };
-            propsWrite = { type: 'string', ...desc };
+            propsWrite = { type: field.required ? 'string' : ['string', 'null'], ...desc };
             break;
         case 'Number':
-            propsRead = propsWrite = { type: 'number', ...desc };
+            propsRead = { type: 'number', ...desc }
+            propsWrite = { type: field.required ? 'number' : ['number', 'null'], ...desc };
             break;
         case 'Set':
             assert((field as any).innerType === 'ImageRef');
-            propsRead = { type: 'array', items: { '$ref': '#/$defs/imageRef' } };
-            propsWrite = { type: 'array', items: { type: 'string' } };
+            propsRead = { type: 'array', items: { '$ref': '#/$defs/imageRef' }, ...desc };
+            propsWrite = {
+                type: field.required ? 'array' : ['array', 'null'],
+                items: { type: 'string', minItems: field.required ? 1 : 0 },
+                ...desc
+            };
             break;
         case 'ItemRefSet':
-            propsRead = propsWrite = { type: 'array', items: { type: 'string' }, ...desc };
+            propsRead = { type: 'array', items: { type: 'string' }, ...desc };
+            propsWrite = {
+                type: field.required ? 'array' : ['array', 'null'],
+                items: { type: 'string', minItems: field.required ? 1 : 0 },
+                ...desc
+            };
             break;
         default:
             throw new Error(`Unknown field type: ${field.type}`);
