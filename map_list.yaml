@@ -7425,15 +7425,20 @@ cQbwmwbhWrWyD1bhZNEn:
   gameType:
     - team
   inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FperspectiveShot%2FDsMnZfokbSmS01uMdjcX-screen00086.png?alt=media&token=41eb8a7d-2605-4575-8e00-0f0b6d813ac4
+      lastModifiedTS: 1700317447274
+      name: screen00086.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/perspectiveShot/DsMnZfokbSmS01uMdjcX-screen00086.png
+      type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2FbrMvuSC7f6KYb3AN5fT2-Jade%20Empress12-minimap.jpg?alt=media&token=dbdebe96-6d8d-4227-bcc0-5b574105b4d4
-      lastModifiedTS: 1699911844215
-      name: Jade Empress12-minimap.jpg
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/brMvuSC7f6KYb3AN5fT2-Jade
-        Empress12-minimap.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2Fsler70gCqLrJGq9HnVxp-minmap.png?alt=media&token=85725389-7696-476c-892e-4696c5025271
+      lastModifiedTS: 1700316813785
+      name: minmap.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/sler70gCqLrJGq9HnVxp-minmap.png
+      type: image/png
   playerCount: 16
-  springName: Jade Empress 1.2
+  springName: Jade Empress 1.3
   startboxesSet:
     clJSKxOXdwbJjrMUj4Dv:
       maxPlayersPerStartbox: 8
@@ -7442,9 +7447,9 @@ cQbwmwbhWrWyD1bhZNEn:
             - x: 37
               y: 26
             - x: 105
-              y: 68
+              y: 73
         - poly:
-            - x: 133
+            - x: 129
               y: 87
             - x: 172
               y: 157
