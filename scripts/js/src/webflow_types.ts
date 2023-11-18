@@ -6,7 +6,16 @@
 
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
- * via the `definition` "mapFieldsRead".
+ * via the `definition` "imageRef".
+ */
+export interface WebflowImageRef {
+  fileId: string;
+  url: string;
+  alt?: string;
+}
+/**
+ * This interface was referenced by `undefined`'s JSON-Schema
+ * via the `definition` "WebflowMapFieldsRead".
  */
 export interface WebflowMapFieldsRead {
   rowyid?: string;
@@ -93,16 +102,7 @@ export interface WebflowMapFieldsRead {
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
- * via the `definition` "imageRef".
- */
-export interface WebflowImageRef {
-  fileId: string;
-  url: string;
-  alt?: string;
-}
-/**
- * This interface was referenced by `undefined`'s JSON-Schema
- * via the `definition` "mapFieldsWrite".
+ * via the `definition` "WebflowMapFieldsWrite".
  */
 export interface WebflowMapFieldsWrite {
   rowyid?: string | null;
@@ -191,6 +191,36 @@ export interface WebflowMapFieldsWrite {
    * Surface of the map (W * H)
    */
   mapsize?: number | null;
+  name: string;
+  slug: string;
+  _archived: boolean;
+  _draft: boolean;
+}
+/**
+ * This interface was referenced by `undefined`'s JSON-Schema
+ * via the `definition` "WebflowMapTagFieldsRead".
+ */
+export interface WebflowMapTagFieldsRead {
+  description?: string;
+  color?: string;
+  name: string;
+  slug: string;
+  _archived: boolean;
+  _draft: boolean;
+  "created-on"?: string;
+  "updated-on"?: string;
+  "published-on"?: string;
+  "created-by"?: string;
+  "updated-by"?: string;
+  "published-by"?: string;
+}
+/**
+ * This interface was referenced by `undefined`'s JSON-Schema
+ * via the `definition` "WebflowMapTagFieldsWrite".
+ */
+export interface WebflowMapTagFieldsWrite {
+  description?: string | null;
+  color?: string | null;
   name: string;
   slug: string;
   _archived: boolean;
