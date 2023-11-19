@@ -10,7 +10,8 @@ for (const map of Object.values(maps)) {
         continue;
     }
     const players = new Set<number>();
-    for (const startboxes of Object.values(map.startboxesSet).map(s => s.startboxes)) {
+    for (const startboxesInfo of Object.values(map.startboxesSet)) {
+        const startboxes = startboxesInfo.startboxes;
         if (players.has(startboxes.length)) {
             console.error(`Map ${map.springName} has multiple startboxes with for the same number (${startboxes.length}) of players.`);
             error = true;
@@ -23,6 +24,11 @@ for (const map of Object.values(maps)) {
                 console.error(`Map ${map.springName} has a startbox for players ${startboxes.length} with invalid coordinates: ${JSON.stringify(startbox)}`);
                 error = true;
             }
+        }
+
+        if (startboxes.length * startboxesInfo.maxPlayersPerStartbox > map.playerCount) {
+            console.error(`Map ${map.springName} has startboxes for ${startboxes.length} players with ${startboxesInfo.maxPlayersPerStartbox} player count, but maxPlayers for map is ${map.playerCount}.`);
+            error = true;
         }
     }
 }
