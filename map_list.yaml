@@ -1659,6 +1659,7 @@
   teamCount: 2
   terrain:
     - hills
+  title: A Classic
 A9eqjOzH3trguY66HGmH:
   author: Nikuksis
   certified: true
@@ -2021,6 +2022,7 @@ An6zReiqIWD15Yx7bZ3b:
   teamCount: 2
   terrain:
     - flat
+  title: Start Small
 BCDbKYnQqHT1PE5lo8Es:
   author: Nikuksis
   certified: false
@@ -2453,6 +2455,7 @@ E17BdeDITeBMZ8YwcBie:
   teamCount: 2
   terrain:
     - hills
+  title: Fortify & Fight
 ER2B5mT2LU864k1f0UeH:
   author: Nikuksis
   certified: true
@@ -3982,6 +3985,7 @@ NULeDCjbZw5azkUT66rZ:
   teamCount: 4
   terrain:
     - flat
+  title: Tight FFA
 NhuWJFWJBBS46Z1qsmBJ:
   author: Nikuksis
   backgroundImage:
@@ -5212,6 +5216,7 @@ UhGP9ish5WdFio1VfrU6:
   terrain:
     - hills
     - water
+  title: Combine and Conquer
 UywijIj1uPuFeoV231kL:
   author: IceXuick
   backgroundImage:
@@ -6009,6 +6014,7 @@ XnCjzq4LvLB6mik5aib1:
   teamCount: 2
   terrain:
     - flat
+  title: Tiny Cold Place
 Xut8FRCmn2h5DuUqzF26:
   author: IceXuick
   backgroundImage:
@@ -8674,6 +8680,7 @@ j3X9bepS3FrtzjLLNmmu:
   terrain:
     - hills
     - water
+  title: Start Small
 kesPeWO0ScnmWF2An8qA:
   author: Nikuksis
   backgroundImage:
@@ -9330,6 +9337,7 @@ oX7eHI8mlpVvJUYs4v4Y:
   teamCount: 2
   terrain:
     - flat
+  title: Keep digging!
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
   certified: true
@@ -11285,3 +11293,4 @@ zzzzzzzzzzzzzzzzzzzx:
   teamCount: 4
   terrain:
     - hills
+  title: No regular water
