@@ -8,6 +8,7 @@ import { writeFileSync, readFileSync } from 'node:fs';
 import stream from 'node:stream/promises';
 import process from 'node:process';
 import type { MapList } from '../../../gen/types/map_list.js';
+import pLimit from 'p-limit';
 
 
 const storage = new Storage();
@@ -73,7 +74,7 @@ function loadMapLocationCache(): Map<string, MapLocation> {
 
 const mapLocationCache: Map<string, MapLocation> = loadMapLocationCache();
 
-async function getMapLocation(springName: string): Promise<MapLocation> {
+export async function getParsedMapLocation(springName: string): Promise<MapLocation> {
     if (!mapLocationCache.has(springName)) {
         const mapMeta = await got(`${mapsParserURL}/parse-map/${encodeURIComponent(springName)}`).json<ParseMapResponse>();
         mapLocationCache.set(springName, {
@@ -85,13 +86,24 @@ async function getMapLocation(springName: string): Promise<MapLocation> {
 }
 
 export async function getMapFilePath(springName: string, fileName: string): Promise<string> {
-    const location = await getMapLocation(springName);
+    const location = await getParsedMapLocation(springName);
     const cachePath = path.join(mapsCacheDir, location.path, fileName);
     const fileExists = !!await fs.stat(cachePath).catch(e => null);
     if (!fileExists) {
         await downloadFile(location.bucket, path.join(location.path, fileName), cachePath);
     }
     return cachePath;
+}
+
+export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>> {
+    const limit = pLimit(10);
+
+    const metadata = Object.entries(maps).map(([id, m]) => limit(async (): Promise<[string, any]> => {
+        const path = await getMapFilePath(m.springName, 'metadata.json');
+        const meta = JSON.parse(await fs.readFile(path, { encoding: 'utf8' }));
+        return [id, meta];
+    }));
+    return new Map(await Promise.all(metadata));
 }
 
 export async function readMapList(): Promise<MapList> {

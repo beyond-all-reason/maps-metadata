@@ -82,7 +82,7 @@ for (const map of Object.values(maps)) {
     ] as Array<[ImagePathMapper, string]>) {
         requests.push(limit(() => {
             return pipeline(
-                got.stream(`${urlBase}/${rowyBucket}/${map.photo[0].ref}`),
+                got.stream(`${urlBase}/${rowyBucket}/${encodeURI(map.photo[0].ref)}`),
                 createWriteStream(mapper.getMapImagePath(map.springName))
             )
         }
