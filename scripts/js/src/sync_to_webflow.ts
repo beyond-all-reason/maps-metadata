@@ -11,7 +11,7 @@ import { Item as WebflowItem, Collection as WebflowCollection } from 'webflow-ap
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
 import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_metadata.js';
-import { GameType, MapList } from '../../../gen/types/map_list.js';
+import { MapList } from '../../../gen/types/map_list.js';
 import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
 import {
@@ -26,6 +26,8 @@ import pLimit, { LimitFunction } from 'p-limit';
 
 const mapsCacheDir = process.env.MAPS_CACHE_DIR || '.maps-cache'
 
+// ImageHashesCache is a cache from url to image hash so we don't
+// to download the image to get the hash.
 class ImageHashesCache {
     private readonly limit: LimitFunction;
     private newHashes: number = 0;
@@ -85,10 +87,30 @@ class ImageHashesCache {
     }
 }
 
-// Cache of url to image hash so we don't have to download the image to get the hash.
 const imageHashesCache = new ImageHashesCache(path.join(mapsCacheDir, 'imageHashesCache.json'));
 
 const getImageHash = (url: string | null) => imageHashesCache.getImageHash(url);
+
+// Helpers to not make mistakes when converting from webflow Read types to internal type.
+function reqR<T>(n: T | undefined, def: T): T {
+    return n === undefined ? def : n;
+}
+
+function optR<T>(n: T | undefined): T | null {
+    return n === undefined ? null : n;
+}
+
+function reqRNum(n: number | undefined): number {
+    return reqR(n, -1);
+}
+
+function reqRStr(n: string | undefined): string {
+    return reqR(n, '');
+}
+
+function reqRArr<T>(n: T[] | undefined): T[] {
+    return reqR(n, []);
+}
 
 async function sameImage(url1: string | null, url2: string | null): Promise<boolean> {
     const [h1, h2] = await Promise.all([getImageHash(url1), getImageHash(url2)]);
@@ -135,10 +157,7 @@ async function pickImages(urls: string[], base?: WebflowImageRef[]): Promise<str
 }
 
 function isSameMapTagRefs(a: string[], b: string[]): boolean {
-    if (a.length !== b.length) {
-        return false;
-    }
-    return a.every((v, i) => v === b[i]);
+    return a.length === b.length && a.every((v, i) => v === b[i]);
 }
 
 function slugFromName(name: string): string {
@@ -160,7 +179,7 @@ function slugFromName(name: string): string {
  * typed interface to work with for comparison.
  */
 
-// WebsiteMapTag is the internal representation of a tag used in this script.
+// WebsiteMapTag is the internal representation of a map tag used in this script.
 interface WebsiteMapTag {
     name: string;
     slug: string;
@@ -199,10 +218,7 @@ async function getMapTagCollection(mapCollection: WebflowCollection, webflow: We
     if (fields.length !== 1) {
         throw new Error(`Expected one field with slug 'game-tags-ref-2' in ${mapCollection.slug}, got ${fields.length}`);
     }
-    const field = fields[0];
-    const collectionId = field.validations!.collectionId;
-    const collection = await webflow.collection({ collectionId });
-    return collection;
+    return await webflow.collection({ collectionId: fields[0].validations!.collectionId });
 }
 
 // WebsiteMapInfo is the internal representation of data used in this script.
@@ -222,8 +238,8 @@ interface WebsiteMapInfo {
     bgImageUrl: string | null;
     perspectiveShotUrl: string | null;
     moreImagesUrl: string[];
-    windMin: number | null;
-    windMax: number | null;
+    windMin: number;
+    windMax: number;
     tidalStrength: number | null;
     teamCount: number;
     maxPlayers: number;
@@ -273,27 +289,27 @@ class WebflowMapInfo {
         const o = this.item = item as WebflowItem & WebflowMapFieldsRead;
 
         this.name = o.name;
-        this.rowyId = o.rowyid || '';
-        this.minimapUrl = o.minimap?.url || '';
-        this.downloadUrl = o.downloadurl || '';
-        this.width = o.width || -1;
-        this.height = o.height || -1;
-        this.mapSize = o.mapsize || -1;
-        this.title = o.title || null;
-        this.description = o.description || null;
-        this.author = o.author || '';
-        this.bgImageUrl = o['bg-image']?.url || null;
-        this.perspectiveShotUrl = o['perspective-shot']?.url || null;
-        this.moreImagesUrl = o['more-images']?.map(i => i.url) || [];
-        this.windMin = o['wind-min'] || null;
-        this.windMax = o['wind-max'] || null;
-        this.tidalStrength = o['tidal-strength'] || null
-        this.teamCount = o['team-count'] || -1;
-        this.maxPlayers = o['max-players'] || -1;
-        this.textureMapUrl = o['mini-map']?.url || '';
-        this.heightMapUrl = o['height-map']?.url || '';
-        this.metalMapUrl = o['metal-map']?.url || '';
-        this.mapTags = o['game-tags-ref-2'] || [];
+        this.rowyId = reqRStr(o.rowyid);
+        this.minimapUrl = reqRStr(o.minimap?.url);
+        this.downloadUrl = reqRStr(o.downloadurl);
+        this.width = reqRNum(o.width);
+        this.height = reqRNum(o.height);
+        this.mapSize = reqRNum(o.mapsize);
+        this.title = optR(o.title);
+        this.description = optR(o.description);
+        this.author = reqRStr(o.author);
+        this.bgImageUrl = optR(o['bg-image']?.url);
+        this.perspectiveShotUrl = optR(o['perspective-shot']?.url);
+        this.moreImagesUrl = reqRArr(o['more-images']?.map(i => i.url));
+        this.windMin = reqRNum(o['wind-min']);
+        this.windMax = reqRNum(o['wind-max']);
+        this.tidalStrength = optR(o['tidal-strength']);
+        this.teamCount = reqRNum(o['team-count']);
+        this.maxPlayers = reqRNum(o['max-players']);
+        this.textureMapUrl = reqRStr(o['mini-map']?.url);
+        this.heightMapUrl = reqRStr(o['height-map']?.url);
+        this.metalMapUrl = reqRStr(o['metal-map']?.url);
+        this.mapTags = reqRArr(o['game-tags-ref-2']);
     }
 
     static async generateFields(info: WebsiteMapInfo, base?: WebflowMapInfo): Promise<WebflowMapFieldsWrite> {
@@ -400,8 +416,9 @@ async function buildWebflowInfo(
             bgImageUrl: (map.backgroundImage.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.backgroundImage[0]!.ref)}` : null),
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
-            windMin: ('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind) || null,
-            windMax: ('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind) || null,
+            // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
+            windMin: ('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind) || 5,
+            windMax: ('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind) || 25,
             tidalStrength: ('smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength) || null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,
@@ -411,6 +428,7 @@ async function buildWebflowInfo(
             mapTags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
         };
 
+        // Sanity check because the metadata stuff is using `any` type.
         for (const [k, v] of Object.entries(info)) {
             if (v === undefined || v === '') {
                 throw new Error(`Missing value for map ${map.springName} key ${k}`);
