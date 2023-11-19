@@ -728,7 +728,7 @@
       name: Mithril_Mountain_V2.jpg
       ref: maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
       type: image/jpeg
-  playerCount: 2
+  playerCount: 4
   springName: Mithril Mountain v2
   startboxesSet:
     RLf0ElZxmg1LH7seBe4R:
@@ -4406,7 +4406,7 @@ QsD0vDtYMgk8ATraKoNI:
   springName: TMA20X 1.8
   startboxesSet:
     oieYIL0vn2AThwqoeZdY:
-      maxPlayersPerStartbox: 4
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 0
@@ -6118,7 +6118,7 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/photo/XKJOASLUXgY6k9muVOGp-Red Comet Remaker 1.8
         Minimap.jpg
       type: image/jpeg
-  playerCount: 2
+  playerCount: 4
   springName: Red Comet Remake 1.8
   startboxesSet:
     mWzDrbicjF6ck8AIIt04:
@@ -7223,7 +7223,7 @@ c8VOLOtft95bMvYUg60R:
       name: Cloud9_V2.jpg
       ref: maps/c8VOLOtft95bMvYUg60R/photo/5oYKAyg7B30SfNbSo61I-Cloud9_V2.jpg
       type: image/jpeg
-  playerCount: 8
+  playerCount: 9
   special: Metal
   springName: Cloud9_V2
   startboxesSet:
@@ -7329,7 +7329,7 @@ c8VOLOtft95bMvYUg60R:
               y: 0
             - x: 200
               y: 200
-  teamCount: 8
+  teamCount: 9
   terrain:
     - flat
 cIMaYX0u2fprp7Qk78wK:
@@ -7683,6 +7683,7 @@ eR6j6L2F2OSP7QeCfW8O:
   displayName: Paradise Lost
   gameType:
     - team
+    - ffa
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FinGameShots%2FkEdYre8gkHchDvjERIWr-ParadiseLost_SS%200.jpg?alt=media&token=bfa0e9ce-cfc2-49b9-9b5a-bcf2df86557c
       lastModifiedTS: 1699877877916
@@ -7716,7 +7717,7 @@ eR6j6L2F2OSP7QeCfW8O:
       ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/0T5Xhn7aNDFnRBE1jI43-ParadiseLost
         minimap.jpg
       type: image/jpeg
-  playerCount: 6
+  playerCount: 8
   springName: Paradise_Lost_V4
   startboxesSet:
     UKNXNTwM6XSj1jx0RsRQ:
@@ -8097,6 +8098,8 @@ g7NeIaS3XxFSn2KcrCiL:
   displayName: Crystallized Plains
   gameType:
     - 1v1
+    - ffa
+    - team
   inPool: true
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
@@ -8104,7 +8107,7 @@ g7NeIaS3XxFSn2KcrCiL:
       name: Crystallized_Plains_1.01.jpg
       ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
       type: image/jpeg
-  playerCount: 2
+  playerCount: 4
   springName: Crystallized Plains 1.01
   startboxesSet:
     2MhyD5TFVBuEWuGAHvJv:
@@ -10632,7 +10635,7 @@ wQa6jdSr4HBUH6p21eI8:
   springName: BlackStar_v2
   startboxesSet:
     T4IDOaBrURag2EfxfdFX:
-      maxPlayersPerStartbox: 3
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
@@ -10737,7 +10740,7 @@ x0Y6f1ou7U5tF3S9xllC:
       name: Riverdale_Remake_2.1.jpg
       ref: maps/x0Y6f1ou7U5tF3S9xllC/photo/hXyKXfrI1KQBHZUsSruB-Riverdale_Remake_2.1.jpg
       type: image/jpeg
-  playerCount: 2
+  playerCount: 4
   springName: Riverdale Remake 2.1
   startboxesSet:
     01Wu7X26WdTQIYUBsIrf:
@@ -10969,7 +10972,7 @@ xn2aVcKlkpTQAakCC3Z8:
   springName: Copper Hill v1
   startboxesSet:
     NI1TG4i0cXC9O48zpxNK:
-      maxPlayersPerStartbox: 3
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 0
