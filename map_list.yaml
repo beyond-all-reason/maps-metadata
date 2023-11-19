@@ -5947,17 +5947,60 @@ XR0Czafa4dwZRh0r3fTy:
     - hills
 XipxkGywEz3REbHKrvP6:
   author: Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FbackgroundImage%2FerW0thTLQ6d1acy3ACnM-Taldarim_OverviewBG.jpg?alt=media&token=5f969a62-573b-41ca-b190-ac2a1717ffdd
+      lastModifiedTS: 1700435490418
+      name: Taldarim_OverviewBG.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/backgroundImage/erW0thTLQ6d1acy3ACnM-Taldarim_OverviewBG.jpg
+      type: image/jpeg
   certified: true
   displayName: Taldarim
   gameType:
     - team
-  inPool: true
-  photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XipxkGywEz3REbHKrvP6/photo/PxTkWSgFuECDpTd7fxAi-Taldarim_V3.jpg
-      lastModifiedTS: 1683982290999
-      name: Taldarim_V3.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/photo/PxTkWSgFuECDpTd7fxAi-Taldarim_V3.jpg
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FxOwmAfQqWM0ce1DC8Q9a-Taldarim_SS%202.jpg?alt=media&token=88f6f1d6-fe06-4fd8-a310-393da9f128ec
+      lastModifiedTS: 1700435384726
+      name: Taldarim_SS 2.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/xOwmAfQqWM0ce1DC8Q9a-Taldarim_SS
+        2.jpg
       type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FGkQooX30bCSXWrygVbXA-Taldarim_SS%204.jpg?alt=media&token=818c4877-3d30-4bc3-acf3-ec0ac3b9ea3a
+      lastModifiedTS: 1700435401734
+      name: Taldarim_SS 4.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/GkQooX30bCSXWrygVbXA-Taldarim_SS
+        4.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2Fqq3xikE9qymGtaOKbZnt-Taldarim_SS%205.jpg?alt=media&token=cde6d689-9381-47d3-93a9-b2e1c5ee1d89
+      lastModifiedTS: 1700435410945
+      name: Taldarim_SS 5.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/qq3xikE9qymGtaOKbZnt-Taldarim_SS
+        5.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FNy1xKLTDFWZaw4JmuOXB-Taldarim_SS%203.jpg?alt=media&token=81912ae7-7f4b-4fce-b017-95455a5cd8f9
+      lastModifiedTS: 1700435392351
+      name: Taldarim_SS 3.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/Ny1xKLTDFWZaw4JmuOXB-Taldarim_SS
+        3.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FszOdqgl2KZOyxbh4xyWj-Taldarim_SS%201.jpg?alt=media&token=9ad12e28-a766-40d6-9252-d25a8a3573ee
+      lastModifiedTS: 1700435423547
+      name: Taldarim_SS 1.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/szOdqgl2KZOyxbh4xyWj-Taldarim_SS
+        1.jpg
+      type: image/jpeg
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FperspectiveShot%2FrWMo5zVWXmWWtz2OtTxH-Taldarim_perspective.png?alt=media&token=9220d544-d819-4c88-b09a-2088724d4ae0
+      lastModifiedTS: 1700435416487
+      name: Taldarim_perspective.png
+      ref: maps/XipxkGywEz3REbHKrvP6/perspectiveShot/rWMo5zVWXmWWtz2OtTxH-Taldarim_perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2Fphoto%2FdnuDiBcbzquAG5o4Bx4d-taldarim_photo_shot.png?alt=media&token=33ff5787-8c5b-4093-affc-2b0eb865278f
+      lastModifiedTS: 1700434855327
+      name: taldarim_photo_shot.png
+      ref: maps/XipxkGywEz3REbHKrvP6/photo/dnuDiBcbzquAG5o4Bx4d-taldarim_photo_shot.png
+      type: image/png
   playerCount: 8
   springName: Taldarim_V3
   startboxesSet:
