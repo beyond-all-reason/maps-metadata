@@ -216,6 +216,7 @@ interface WebsiteMapInfo {
     width: number;
     height: number;
     mapSize: number;
+    title: string | null;
     description: string | null;
     author: string;
     bgImageUrl: string | null;
@@ -250,6 +251,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.width === b.width &&
         a.height === b.height &&
         a.mapSize === b.mapSize &&
+        a.title === b.title &&
         a.description === b.description &&
         a.author === b.author &&
         a.windMin === b.windMin &&
@@ -277,6 +279,7 @@ class WebflowMapInfo {
         this.width = o.width || -1;
         this.height = o.height || -1;
         this.mapSize = o.mapsize || -1;
+        this.title = o.title || null;
         this.description = o.description || null;
         this.author = o.author || '';
         this.bgImageUrl = o['bg-image']?.url || null;
@@ -305,6 +308,7 @@ class WebflowMapInfo {
             width: info.width,
             height: info.height,
             mapsize: info.mapSize,
+            title: info.title,
             description: info.description,
             author: info.author,
             'bg-image': info.bgImageUrl ? await pickImage(info.bgImageUrl, base?.item['bg-image']) : null,
@@ -390,6 +394,7 @@ async function buildWebflowInfo(
             width: meta.smf.mapWidth / 64,
             height: meta.smf.mapHeight / 64,
             mapSize: meta.smf.mapWidth * meta.smf.mapHeight / (64 * 64),
+            title: map.title || null,
             description: map.description || null,
             author: map.author,
             bgImageUrl: (map.backgroundImage.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.backgroundImage[0]!.ref)}` : null),
