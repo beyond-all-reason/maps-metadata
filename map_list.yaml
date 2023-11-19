@@ -8373,7 +8373,7 @@ gtJqom9yIXycF3BEGgL0:
   author: Phalange
   certified: false
   description: When the rich go to war, it is the poor who die.
-  displayName: The Ditch Remake
+  displayName: The Ditch
   gameType:
     - team
   inPool: true
@@ -8387,7 +8387,7 @@ gtJqom9yIXycF3BEGgL0:
   springName: The Ditch Remake 0.5
   startboxesSet:
     mP7YCeqzZYcGBx1D1O2G:
-      maxPlayersPerStartbox: 16
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
