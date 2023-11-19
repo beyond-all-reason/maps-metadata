@@ -11,7 +11,7 @@ import { Item as WebflowItem, Collection as WebflowCollection } from 'webflow-ap
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
 import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_metadata.js';
-import { MapList } from '../../../gen/types/map_list.js';
+import { GameType, MapList } from '../../../gen/types/map_list.js';
 import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
 import {
@@ -138,8 +138,6 @@ function isSameMapTagRefs(a: string[], b: string[]): boolean {
     if (a.length !== b.length) {
         return false;
     }
-    a = [...a].sort();
-    b = [...b].sort();
     return a.every((v, i) => v === b[i]);
 }
 
@@ -336,6 +334,7 @@ async function buildWebflowInfo(
 
     const mapInfo: Map<string, WebsiteMapInfo> = new Map();
     const allMapTags: Map<string, WebsiteMapTag> = new Map();
+    const tagsOrder: Map<string, number> = new Map();
 
     for (const [rowyId, map] of Object.entries(maps)) {
         const mi = cdnInfo.get(map.springName);
@@ -356,6 +355,12 @@ async function buildWebflowInfo(
             const name = gameType.toUpperCase();
             const slug = slugFromName(gameType);
             allMapTags.set(slug, { name, slug });
+            tagsOrder.set(slug, {
+                'team': 1,
+                'ffa': 2,
+                'pve': 3,
+                '1v1': 1001,
+            }[gameType]);
             mapTags.add(slug);
         }
 
@@ -372,6 +377,7 @@ async function buildWebflowInfo(
                 const name = `${numPlayers}V`.repeat(numTeams - 1) + `${numPlayers}`;
                 const slug = slugFromName(name);
                 allMapTags.set(slug, { name, slug });
+                tagsOrder.set(slug, 1000 * numTeams + numPlayers);
                 mapTags.add(slug);
             }
         }
@@ -397,7 +403,7 @@ async function buildWebflowInfo(
             textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/texture.jpg')}`,
             heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
-            mapTags: Array.from(mapTags),
+            mapTags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
         };
 
         for (const [k, v] of Object.entries(info)) {
@@ -422,7 +428,7 @@ function resolveMapTagsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, allMapT
                 throw new Error(`Missing tag ${tag}`);
             }
             return t.item._id;
-        }).sort();
+        });
     }
 }
 
