@@ -18,8 +18,13 @@ export interface WebflowImageRef {
  * via the `definition` "WebflowMapFieldsRead".
  */
 export interface WebflowMapFieldsRead {
+  /**
+   * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
+   */
+  "game-tags-ref-2"?: string[];
   rowyid?: string;
   minimap?: WebflowImageRef;
+  "minimap-photo-thumb"?: WebflowImageRef;
   minimapurl?: string;
   /**
    * Map width in elmos
@@ -78,10 +83,6 @@ export interface WebflowMapFieldsRead {
    * Simple textfield which should hold "gametype1, gametype2" - the simple solution for GameTypes
    */
   "game-types"?: string;
-  /**
-   * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
-   */
-  "game-tags-ref-2"?: string[];
   "mini-map"?: WebflowImageRef;
   "metal-map"?: WebflowImageRef;
   "height-map"?: WebflowImageRef;
@@ -105,11 +106,19 @@ export interface WebflowMapFieldsRead {
  * via the `definition` "WebflowMapFieldsWrite".
  */
 export interface WebflowMapFieldsWrite {
+  /**
+   * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
+   */
+  "game-tags-ref-2"?: string[] | null;
   rowyid?: string | null;
   /**
    * Top-down minimap - longest side should be at least 1024px
    */
   minimap?: string | null;
+  /**
+   * Max width or height of 640px
+   */
+  "minimap-photo-thumb"?: string | null;
   minimapurl?: string | null;
   /**
    * Map width in elmos
@@ -174,10 +183,6 @@ export interface WebflowMapFieldsWrite {
    * Simple textfield which should hold "gametype1, gametype2" - the simple solution for GameTypes
    */
   "game-types"?: string | null;
-  /**
-   * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
-   */
-  "game-tags-ref-2"?: string[] | null;
   "mini-map"?: string | null;
   /**
    * Metal spots layout for map - ideally in transparant PNG - though black background - white metal is also fine.

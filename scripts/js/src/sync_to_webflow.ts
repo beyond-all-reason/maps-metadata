@@ -228,6 +228,7 @@ interface WebsiteMapInfo {
     name: string;
     rowyId: string;
     minimapUrl: string;
+    minimapThumbUrl: string;
     downloadUrl: string;
     width: number;
     height: number;
@@ -252,6 +253,7 @@ interface WebsiteMapInfo {
 async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Promise<boolean> {
     const allImagesSame = (await Promise.all([
         sameImage(a.minimapUrl, b.minimapUrl),
+        sameImage(a.minimapThumbUrl, b.minimapThumbUrl),
         sameImage(a.bgImageUrl, b.bgImageUrl),
         sameImage(a.perspectiveShotUrl, b.perspectiveShotUrl),
         sameImages(a.moreImagesUrl, b.moreImagesUrl),
@@ -291,6 +293,7 @@ class WebflowMapInfo {
         this.name = o.name;
         this.rowyId = reqRStr(o.rowyid);
         this.minimapUrl = reqRStr(o.minimap?.url);
+        this.minimapThumbUrl = reqRStr(o['minimap-photo-thumb']?.url);
         this.downloadUrl = reqRStr(o.downloadurl);
         this.width = reqRNum(o.width);
         this.height = reqRNum(o.height);
@@ -320,6 +323,7 @@ class WebflowMapInfo {
             _draft: false,
             rowyid: info.rowyId,
             minimap: await pickImage(info.minimapUrl, base?.item.minimap),
+            'minimap-photo-thumb': await pickImage(info.minimapThumbUrl, base?.item['minimap-photo-thumb']),
             downloadurl: info.downloadUrl,
             width: info.width,
             height: info.height,
@@ -406,6 +410,7 @@ async function buildWebflowInfo(
             name: map.displayName,
             rowyId,
             minimapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
+            minimapThumbUrl: `${imagorUrlBase}fit-in/640x640/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
             downloadUrl: mi.mirrors[0],
             width: meta.smf.mapWidth / 64,
             height: meta.smf.mapHeight / 64,
