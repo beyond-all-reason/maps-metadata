@@ -376,6 +376,10 @@ async function buildWebflowInfo(
         const mapTags = new Set<string>();
 
         for (const gameType of map.gameType) {
+            // Skip team because almost all maps have it so it doesn't add much value.
+            if (gameType === 'team') {
+                continue;
+            }
             const name = gameType.toUpperCase();
             const slug = slugFromName(gameType);
             allMapTags.set(slug, { name, slug });
