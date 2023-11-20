@@ -22,6 +22,10 @@ export interface WebflowMapFieldsRead {
    * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
    */
   "game-tags-ref-2"?: string[];
+  /**
+   * which terrain applies / matches this map the most
+   */
+  "terrain-types"?: string[];
   rowyid?: string;
   minimap?: WebflowImageRef;
   "minimap-photo-thumb"?: WebflowImageRef;
@@ -75,17 +79,10 @@ export interface WebflowMapFieldsRead {
    * Total amount of teams that can spawn / amount of (max.) preset startboxes or amount of AllyTeams.
    */
   "team-count"?: number;
-  /**
-   * store json with all sync related state serialized
-   */
-  syncstate?: string;
-  /**
-   * Simple textfield which should hold "gametype1, gametype2" - the simple solution for GameTypes
-   */
-  "game-types"?: string;
   "mini-map"?: WebflowImageRef;
   "metal-map"?: WebflowImageRef;
   "height-map"?: WebflowImageRef;
+  "normal-map"?: WebflowImageRef;
   /**
    * Surface of the map (W * H)
    */
@@ -110,6 +107,10 @@ export interface WebflowMapFieldsWrite {
    * Reference Field for "Map Tags" which should hold the "itemID", "itemID" when linking multiple tags to this map
    */
   "game-tags-ref-2"?: string[] | null;
+  /**
+   * which terrain applies / matches this map the most
+   */
+  "terrain-types"?: string[] | null;
   rowyid?: string | null;
   /**
    * Top-down minimap - longest side should be at least 1024px
@@ -175,14 +176,6 @@ export interface WebflowMapFieldsWrite {
    * Total amount of teams that can spawn / amount of (max.) preset startboxes or amount of AllyTeams.
    */
   "team-count"?: number | null;
-  /**
-   * store json with all sync related state serialized
-   */
-  syncstate?: string | null;
-  /**
-   * Simple textfield which should hold "gametype1, gametype2" - the simple solution for GameTypes
-   */
-  "game-types"?: string | null;
   "mini-map"?: string | null;
   /**
    * Metal spots layout for map - ideally in transparant PNG - though black background - white metal is also fine.
@@ -192,6 +185,7 @@ export interface WebflowMapFieldsWrite {
    * PNG heightmap - probably needs converting to regular 8-bit PNG
    */
   "height-map"?: string | null;
+  "normal-map"?: string | null;
   /**
    * Surface of the map (W * H)
    */
@@ -208,6 +202,7 @@ export interface WebflowMapFieldsWrite {
 export interface WebflowMapTagFieldsRead {
   description?: string;
   color?: string;
+  icon?: WebflowImageRef;
   name: string;
   slug: string;
   _archived: boolean;
@@ -226,6 +221,33 @@ export interface WebflowMapTagFieldsRead {
 export interface WebflowMapTagFieldsWrite {
   description?: string | null;
   color?: string | null;
+  icon?: string | null;
+  name: string;
+  slug: string;
+  _archived: boolean;
+  _draft: boolean;
+}
+/**
+ * This interface was referenced by `undefined`'s JSON-Schema
+ * via the `definition` "WebflowMapTerrainFieldsRead".
+ */
+export interface WebflowMapTerrainFieldsRead {
+  name: string;
+  slug: string;
+  _archived: boolean;
+  _draft: boolean;
+  "created-on"?: string;
+  "updated-on"?: string;
+  "published-on"?: string;
+  "created-by"?: string;
+  "updated-by"?: string;
+  "published-by"?: string;
+}
+/**
+ * This interface was referenced by `undefined`'s JSON-Schema
+ * via the `definition` "WebflowMapTerrainFieldsWrite".
+ */
+export interface WebflowMapTerrainFieldsWrite {
   name: string;
   slug: string;
   _archived: boolean;

@@ -127,7 +127,8 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
 
 const types = await generateTypes(rootCollectionId, {
     'maps-v2': 'Map',
-    'map-tags-v2': 'MapTag'
+    'map-tags-v2': 'MapTag',
+    'map-terrain-types': 'MapTerrain',
 });
 
 const schema: any = {

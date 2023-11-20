@@ -47,7 +47,7 @@ clean:
 update_all_from_rowy: gen/map_list.schema.json
 	ts-node scripts/js/src/update_from_rowy.ts map_list.yaml all
 
-sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/types/cdn_maps.d.ts
+sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/map_list.schema.json gen/types/cdn_maps.d.ts
 	ts-node scripts/js/src/sync_to_webflow.ts sync
 
 refresh_webflow_types:
