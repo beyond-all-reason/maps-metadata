@@ -14,12 +14,15 @@ import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_met
 import { MapList } from '../../../gen/types/map_list.js';
 import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
+import mapSchema from '../../../gen/map_list.schema.json' assert { type: "json" };
 import {
     WebflowImageRef,
     WebflowMapFieldsRead,
     WebflowMapFieldsWrite,
     WebflowMapTagFieldsRead,
     WebflowMapTagFieldsWrite,
+    WebflowMapTerrainFieldsRead,
+    WebflowMapTerrainFieldsWrite,
 } from './webflow_types.js';
 import assert from 'node:assert';
 import pLimit, { LimitFunction } from 'p-limit';
@@ -156,7 +159,7 @@ async function pickImages(urls: string[], base?: WebflowImageRef[]): Promise<str
     });
 }
 
-function isSameMapTagRefs(a: string[], b: string[]): boolean {
+function isSameRefs(a: string[], b: string[]): boolean {
     return a.length === b.length && a.every((v, i) => v === b[i]);
 }
 
@@ -179,11 +182,23 @@ function slugFromName(name: string): string {
  * typed interface to work with for comparison.
  */
 
-// WebsiteMapTag is the internal representation of a map tag used in this script.
-interface WebsiteMapTag {
+
+interface IWebsiteItem {
     name: string;
     slug: string;
 }
+
+interface IWebflowItemType {
+    new(i: WebflowItem): IWebflowItem
+    generateFields(i: IWebsiteItem): { [x: string]: any };
+}
+
+interface IWebflowItem extends IWebsiteItem {
+    item: WebflowItem;
+}
+
+// WebsiteMapTag is the internal representation of a map tag used in this script.
+interface WebsiteMapTag extends IWebsiteItem { }
 
 function isWebsiteMapTagEqual(a: WebsiteMapTag, b: WebsiteMapTag): boolean {
     return a.name === b.name && a.slug === b.slug;
@@ -193,7 +208,7 @@ interface WebflowMapTag extends WebsiteMapTag { }
 
 // WebflowMapTag is the native Webflow representation of a tag as used by the
 // Webflow API.
-class WebflowMapTag {
+class WebflowMapTag implements IWebflowItem {
     item: WebflowItem & WebflowMapTagFieldsRead;
 
     constructor(item: WebflowItem) {
@@ -213,12 +228,35 @@ class WebflowMapTag {
     }
 }
 
-async function getMapTagCollection(mapCollection: WebflowCollection, webflow: Webflow): Promise<WebflowCollection> {
-    const fields = mapCollection.fields.filter(f => f.slug === 'game-tags-ref-2');
-    if (fields.length !== 1) {
-        throw new Error(`Expected one field with slug 'game-tags-ref-2' in ${mapCollection.slug}, got ${fields.length}`);
+// WebsiteMapTerrain is the internal representation of a map Terrain used in this script.
+interface WebsiteMapTerrain extends IWebsiteItem { }
+
+function isWebsiteMapTerrainEqual(a: WebsiteMapTerrain, b: WebsiteMapTerrain): boolean {
+    return a.name === b.name && a.slug === b.slug;
+}
+
+interface WebflowMapTerrain extends WebsiteMapTerrain { }
+
+// WebflowMapTerrain is the native Webflow representation of a Terrain as used by the
+// Webflow API.
+class WebflowMapTerrain implements IWebflowItem {
+    item: WebflowItem & WebflowMapTerrainFieldsRead;
+
+    constructor(item: WebflowItem) {
+        const o = this.item = item as WebflowItem & WebflowMapTerrainFieldsRead;
+
+        this.name = o.name;
+        this.slug = o.slug;
     }
-    return await webflow.collection({ collectionId: fields[0].validations!.collectionId });
+
+    static generateFields(terrain: WebsiteMapTerrain): WebflowMapTerrainFieldsWrite {
+        return {
+            name: terrain.name,
+            slug: terrain.slug,
+            _archived: false,
+            _draft: false,
+        };
+    }
 }
 
 // WebsiteMapInfo is the internal representation of data used in this script.
@@ -248,6 +286,7 @@ interface WebsiteMapInfo {
     heightMapUrl: string;
     metalMapUrl: string;
     mapTags: string[];
+    mapTerrains: string[];
 }
 
 async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Promise<boolean> {
@@ -277,7 +316,8 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.tidalStrength === b.tidalStrength &&
         a.teamCount === b.teamCount &&
         a.maxPlayers === b.maxPlayers &&
-        isSameMapTagRefs(a.mapTags, b.mapTags);
+        isSameRefs(a.mapTags, b.mapTags) &&
+        isSameRefs(a.mapTerrains, b.mapTerrains);
 }
 
 interface WebflowMapInfo extends WebsiteMapInfo { }
@@ -313,6 +353,7 @@ class WebflowMapInfo {
         this.heightMapUrl = reqRStr(o['height-map']?.url);
         this.metalMapUrl = reqRStr(o['metal-map']?.url);
         this.mapTags = reqRArr(o['game-tags-ref-2']);
+        this.mapTerrains = reqRArr(o['terrain-types']);
     }
 
     static async generateFields(info: WebsiteMapInfo, base?: WebflowMapInfo): Promise<WebflowMapFieldsWrite> {
@@ -343,6 +384,7 @@ class WebflowMapInfo {
             'height-map': await pickImage(info.heightMapUrl, base?.item['height-map']),
             'metal-map': await pickImage(info.metalMapUrl, base?.item['metal-map']),
             'game-tags-ref-2': info.mapTags,
+            'terrain-types': info.mapTerrains,
         };
     }
 }
@@ -435,6 +477,7 @@ async function buildWebflowInfo(
             heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
             mapTags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
+            mapTerrains: Array.from(map.terrain).sort(),
         };
 
         // Sanity check because the metadata stuff is using `any` type.
@@ -449,15 +492,24 @@ async function buildWebflowInfo(
     return [mapInfo, allMapTags];
 }
 
-function resolveMapTagsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, allMapTags: Map<string, WebflowMapTag>, dryRun: boolean) {
+async function getFieldCollection(field: keyof WebflowMapFieldsRead, mapCollection: WebflowCollection, webflow: Webflow): Promise<WebflowCollection> {
+    const fields = mapCollection.fields.filter(f => f.slug === field);
+    if (fields.length !== 1) {
+        throw new Error(`Expected one field with slug '${field}' in ${mapCollection.slug}, got ${fields.length}`);
+    }
+    return await webflow.collection({ collectionId: fields[0].validations!.collectionId });
+}
+
+
+function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field: 'mapTags' | 'mapTerrains', refs: Map<string, IWebflowItem>, dryRun: boolean) {
     for (const mapInfo of mapInfos.values()) {
-        mapInfo.mapTags = mapInfo.mapTags.map(tag => {
-            const t = allMapTags.get(tag);
+        mapInfo[field] = mapInfo[field].map(ref => {
+            const t = refs.get(ref);
             if (!t) {
                 if (dryRun) {
-                    return tag;
+                    return ref;
                 }
-                throw new Error(`Missing tag ${tag}`);
+                throw new Error(`Missing ${field} ${ref}`);
             }
             return t.item._id;
         });
@@ -484,36 +536,46 @@ async function getAllWebflowMaps(mapsCollection: WebflowCollection): Promise<Map
     return new Map(maps.map(map => [map.rowyId, map]));
 }
 
-// getAllWebflowMaps returns all map tags from the Webflow collection mapped by map tag slug.
+// getAllWebflowMapTags returns all map tags from the Webflow collection mapped by map tag slug.
 async function getAllWebflowMapTags(mapTagsCollection: WebflowCollection): Promise<Map<string, WebflowMapTag>> {
     const items = await getAllWebflowItems(mapTagsCollection);
     const tags = items.map(item => new WebflowMapTag(item));
     return new Map(tags.map(tag => [tag.slug, tag]));
 }
 
-async function syncMapTagsToWebflowAdditions(
-    src: Map<string, WebsiteMapTag>,
-    dest: Map<string, WebflowMapTag>,
-    mapTagsCollection: WebflowCollection,
-    dryRun: boolean
+// getAllWebflowMapTerrains returns all map tags from the Webflow collection mapped by map tag slug.
+async function getAllWebflowMapTerrains(mapTagsCollection: WebflowCollection): Promise<Map<string, WebflowMapTerrain>> {
+    const items = await getAllWebflowItems(mapTagsCollection);
+    const terrains = items.map(item => new WebflowMapTerrain(item));
+    return new Map(terrains.map(t => [t.slug, t]));
+}
+
+async function syncCollectionToWebflowAdditions(
+    webflowItemType: IWebflowItemType,
+    equals: (a: IWebsiteItem, b: IWebflowItem) => boolean,
+    typeName: string,
+    src: Map<string, IWebsiteItem>,
+    dest: Map<string, IWebflowItem>,
+    collection: WebflowCollection,
+    dryRun: boolean,
 ) {
-    for (const tag of src.values()) {
-        const webflowTag = dest.get(tag.slug);
+    for (const item of src.values()) {
+        const webflowTag = dest.get(item.slug);
         if (!webflowTag) {
-            const fields = WebflowMapTag.generateFields(tag);
-            console.log(`Adding tag ${tag.name}`);
+            const fields = webflowItemType.generateFields(item);
+            console.log(`Adding ${typeName} ${item.name}`);
             if (!dryRun) {
-                const item = await limiter.schedule(() => mapTagsCollection.createItem(fields));
-                dest.set(tag.slug, new WebflowMapTag(item));
+                const item = await limiter.schedule(() => collection.createItem(fields));
+                dest.set(item.slug, new webflowItemType(item));
             } else {
                 console.log(fields);
             }
-        } else if (!isWebsiteMapTagEqual(tag, webflowTag)) {
-            console.log(`Updating tag ${tag.name}`);
-            const fields = WebflowMapTag.generateFields(tag);
+        } else if (!equals(item, webflowTag)) {
+            console.log(`Updating ${typeName} ${item.name}`);
+            const fields = webflowItemType.generateFields(item);
             if (!dryRun) {
                 const item = await limiter.schedule(() => webflowTag.item.update(fields));
-                dest.set(tag.slug, new WebflowMapTag(item));
+                dest.set(item.slug, new webflowItemType(item));
             } else {
                 console.log(webflowTag);
                 console.log(fields);
@@ -522,20 +584,60 @@ async function syncMapTagsToWebflowAdditions(
     }
 }
 
+async function syncCollectionToWebflowRemovals(
+    typeName: string,
+    src: Map<string, IWebsiteItem>,
+    dest: Map<string, IWebflowItem>,
+    dryRun: boolean,
+) {
+    for (const item of dest.values()) {
+        if (!src.has(item.slug)) {
+            console.log(`Removing ${typeName} ${item.name}`);
+            if (!dryRun) {
+                await limiter.schedule(() => item.item.remove());
+                dest.delete(item.slug);
+            }
+        }
+    }
+}
+
+async function syncMapTagsToWebflowAdditions(
+    src: Map<string, WebsiteMapTag>,
+    dest: Map<string, WebflowMapTag>,
+    mapTagsCollection: WebflowCollection,
+    dryRun: boolean
+) {
+    return syncCollectionToWebflowAdditions(WebflowMapTag, isWebsiteMapTagEqual, 'tag', src, dest, mapTagsCollection, dryRun);
+}
+
 async function syncMapTagsToWebflowRemovals(
     src: Map<string, WebsiteMapTag>,
     dest: Map<string, WebflowMapTag>,
     dryRun: boolean
 ) {
-    for (const tag of dest.values()) {
-        if (!src.has(tag.slug)) {
-            console.log(`Removing tag ${tag.name}`);
-            if (!dryRun) {
-                await limiter.schedule(() => tag.item.remove());
-                dest.delete(tag.slug);
-            }
-        }
-    }
+    return syncCollectionToWebflowRemovals('tag', src, dest, dryRun);
+}
+
+async function syncMapTerrainsToWebflowAdditions(
+    src: Map<string, WebsiteMapTerrain>,
+    dest: Map<string, WebflowMapTerrain>,
+    mapTerrainsCollection: WebflowCollection,
+    dryRun: boolean
+) {
+    return syncCollectionToWebflowAdditions(WebflowMapTag, isWebsiteMapTerrainEqual, 'terrain', src, dest, mapTerrainsCollection, dryRun);
+}
+
+async function syncMapTerrainsToWebflowRemovals(
+    src: Map<string, WebsiteMapTerrain>,
+    dest: Map<string, WebflowMapTerrain>,
+    dryRun: boolean
+) {
+    return syncCollectionToWebflowRemovals('terrain', src, dest, dryRun);
+}
+
+function getRowyMapTerrains(): Map<string, WebsiteMapTerrain> {
+    const terrains = mapSchema.additionalProperties.properties.terrain.items.enum;
+    return new Map(terrains.map(t => [t, { name: t, slug: t }]));
 }
 
 async function syncMapsToWebflow(
@@ -611,20 +713,27 @@ const mapsCollectionId = process.env.WEBFLOW_COLLECTION_ID;
 async function syncCommand(dryRun: boolean) {
     const mapsCollection = await limiter.schedule(() => webflow.collection({ collectionId: mapsCollectionId }));
     const webflowMaps = await getAllWebflowMaps(mapsCollection);
-    const mapTagsCollection = await getMapTagCollection(mapsCollection, webflow);
+    const mapTagsCollection = await getFieldCollection('game-tags-ref-2', mapsCollection, webflow);
     const webflowMapTags = await getAllWebflowMapTags(mapTagsCollection);
+    const mapTerrainsCollection = await getFieldCollection('terrain-types', mapsCollection, webflow);
+    const webflowMapTerrains = await getAllWebflowMapTerrains(mapTerrainsCollection);
     const maps = await readMapList();
     const cdnInfo = await readMapCDNInfos();
     const mapsMetadata = await fetchMapsMetadata(maps);
     const [rowyMapsInfo, rowyMapTagsInfo] = await buildWebflowInfo(maps, cdnInfo, mapsMetadata);
+    const rowyMapTerrainsInfo = getRowyMapTerrains();
 
     try {
         await syncMapTagsToWebflowAdditions(rowyMapTagsInfo, webflowMapTags, mapTagsCollection, dryRun);
-        resolveMapTagsInMapInfos(rowyMapsInfo, webflowMapTags, dryRun);
+        resolveItemRefsInMapInfos(rowyMapsInfo, 'mapTags', webflowMapTags, dryRun);
+        await syncMapTerrainsToWebflowAdditions(rowyMapTerrainsInfo, webflowMapTerrains, mapTerrainsCollection, dryRun);
+        resolveItemRefsInMapInfos(rowyMapsInfo, 'mapTerrains', webflowMapTerrains, dryRun);
         await syncMapsToWebflow(rowyMapsInfo, webflowMaps, mapsCollection, dryRun);
+        await publishUpdatedWebflowItems(mapTerrainsCollection, webflowMapTerrains, dryRun);
         await publishUpdatedWebflowItems(mapTagsCollection, webflowMapTags, dryRun);
         await publishUpdatedWebflowItems(mapsCollection, webflowMaps, dryRun);
         await syncMapTagsToWebflowRemovals(rowyMapTagsInfo, webflowMapTags, dryRun);
+        await syncMapTerrainsToWebflowRemovals(rowyMapTerrainsInfo, webflowMapTerrains, dryRun);
     } catch (e: any) {
         // To make sure we will get full info from inside of the response.
         if ('message' in e) {
@@ -651,9 +760,13 @@ program.command('dump-data')
         const webflowMaps = await getAllWebflowMaps(mapsCollection);
         console.log(util.inspect(webflowMaps, { showHidden: false, depth: null, colors: true }));
 
-        const webflowMapTags = await getMapTagCollection(mapsCollection, webflow);
-        const webflowTags = await getAllWebflowMapTags(webflowMapTags);
-        console.log(util.inspect(webflowTags, { showHidden: false, depth: null, colors: true }));
+        const mapTagsCollection = await getFieldCollection('game-tags-ref-2', mapsCollection, webflow);
+        const mapTags = await getAllWebflowMapTags(mapTagsCollection);
+        console.log(util.inspect(mapTags, { showHidden: false, depth: null, colors: true }));
+
+        const mapTerrainsCollection = await getFieldCollection('terrain-types', mapsCollection, webflow);
+        const webflowTerrains = await getAllWebflowMapTerrains(mapTerrainsCollection);
+        console.log(util.inspect(webflowTerrains, { showHidden: false, depth: null, colors: true }));
     });
 
 program.parse();
