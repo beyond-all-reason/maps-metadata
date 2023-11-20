@@ -36,9 +36,28 @@ additionalProperties:
         type: string
         title: TerrainType
         enum:
-          - water
-          - hills
+          - acidic
+          - alien
+          - asteroid
+          - asymmetrical
+          - desert
           - flat
+          - forests
+          - grassy
+          - hills
+          - ice
+          - industrial
+          - island
+          - jungle
+          - lava
+          - metal
+          - ruins
+          - sea
+          - space
+          - swamp
+          - tropical
+          - wasteland
+          - water
       uniqueItems: true
       default: []
     playerCount:
