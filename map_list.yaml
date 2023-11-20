@@ -33,6 +33,8 @@
   terrain:
     - flat
     - hills
+    - lava
+    - wasteland
 0jMFtrg8MuFKGgxmk6No:
   author: IceXuick
   certified: true
@@ -67,6 +69,9 @@
   teamCount: 2
   terrain:
     - flat
+    - ruins
+    - desert
+    - wasteland
 0rkuPKU4nx2GuhlUC8sH:
   author: Nikuksis
   backgroundImage:
@@ -135,6 +140,7 @@
   teamCount: 2
   terrain:
     - flat
+    - swamp
 1D03UHTgJ5axEHRPrjzh:
   author: Beherith
   backgroundImage:
@@ -193,6 +199,8 @@
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - desert
 1FfJKeljSZeWodN5FZsW:
   author: Nikuksis
   certified: true
@@ -226,6 +234,8 @@
   terrain:
     - flat
     - water
+    - tropical
+    - island
 1JL7kMOT8mYsx2OEQnv8:
   author: Nikuksis
   certified: true
@@ -261,6 +271,7 @@
   terrain:
     - flat
     - hills
+    - desert
 1kGT39gW0lJEkp6VxeZU:
   author: Beherith
   backgroundImage:
@@ -375,6 +386,9 @@
   terrain:
     - hills
     - water
+    - tropical
+    - island
+  title: Subtropical Paradise or Warzone
 20rGnfO4wwkmV5v2fXVZ:
   author: IceXuick
   backgroundImage:
@@ -444,10 +458,11 @@
       ref: maps/20rGnfO4wwkmV5v2fXVZ/perspectiveShot/3HNo2HvIMDsVKRb6BMj0-BAR_FolsomDam_Perspective.jpg.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/20rGnfO4wwkmV5v2fXVZ/photo/4O4NoLJsYr1lDxac7ReW-FolsomdamR_1.16.jpg
-      lastModifiedTS: 1683982250686
-      name: FolsomdamR_1.16.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/4O4NoLJsYr1lDxac7ReW-FolsomdamR_1.16.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2Fphoto%2Fn0Ihytq7bbOKgczeaL66-folsom-minimap-photo%20(1).jpg?alt=media&token=c4e024c9-5ed3-4f41-bda7-b1cdd5f37fbd
+      lastModifiedTS: 1600515249124
+      name: folsom-minimap-photo (1).jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/n0Ihytq7bbOKgczeaL66-folsom-minimap-photo
+        (1).jpg
       type: image/jpeg
   playerCount: 16
   special: Dam
@@ -470,6 +485,9 @@
   terrain:
     - hills
     - water
+    - ruins
+    - grassy
+  title: Perfect for Teamplay
 2Jm1E7F819zbEWOr2Bwc:
   author: IceXuick
   backgroundImage:
@@ -612,6 +630,9 @@
   terrain:
     - water
     - flat
+    - grassy
+    - forests
+    - asymmetrical
 2NeyVyHXbe13LF9P85pz:
   author: Beherith
   certified: true
@@ -645,6 +666,7 @@
   teamCount: 2
   terrain:
     - hills
+    - wasteland
 2foOuFOeWdmm1DkMqfJv:
   author: Nikuksis
   backgroundImage:
@@ -713,6 +735,9 @@
   terrain:
     - flat
     - water
+    - desert
+    - alien
+    - asymmetrical
 2sZ9PltxKHn43NG3OA2y:
   author: Johannes
   certified: true
@@ -748,6 +773,7 @@
   terrain:
     - flat
     - hills
+    - desert
 3QOjI5FJqvQEJElcRgTQ:
   author: Moose
   certified: true
@@ -782,6 +808,8 @@
   teamCount: 4
   terrain:
     - flat
+    - desert
+    - hills
 3XVaIgjKnh120KPs7fv0:
   author: IceXuick
   backgroundImage:
@@ -985,6 +1013,8 @@
   teamCount: 8
   terrain:
     - hills
+    - ruins
+    - grassy
 3vZwcbM0FH7v0TrkIoKV:
   author: Beherith
   certified: true
@@ -1044,6 +1074,7 @@
   teamCount: 4
   terrain:
     - hills
+    - wasteland
 44vuVzD9DD5wyzZz0L7i:
   author: Johannes
   certified: true
@@ -1079,6 +1110,7 @@
   teamCount: 2
   terrain:
     - hills
+    - grassy
 4FOX0gezL8gapbMPNmKH:
   author: IceXuick
   backgroundImage:
@@ -1150,6 +1182,8 @@
   teamCount: 2
   terrain:
     - hills
+    - ice
+  title: Cold & Tight
 4WiZnMfXPyjUARuQumRM:
   author: Phalange
   certified: true
@@ -1183,6 +1217,8 @@
   terrain:
     - flat
     - hills
+    - alien
+    - water
 4egdlg54rpZQh1bvbS8p:
   author: Moose
   backgroundImage:
@@ -1225,6 +1261,8 @@
   terrain:
     - flat
     - hills
+    - forests
+    - grassy
 4onApLu0oFbtFuY9up67:
   author: Johannes
   certified: true
@@ -1259,6 +1297,7 @@
   terrain:
     - flat
     - hills
+    - desert
 5MwuaG7iaqfPXeKCKhUD:
   author: Beherith
   certified: true
@@ -1294,6 +1333,7 @@
   terrain:
     - flat
     - water
+    - metal
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   certified: true
@@ -1388,6 +1428,7 @@
     - flat
     - hills
     - water
+    - desert
 7qvZYwphKlrDjOcDOVLj:
   author: Nikuksis
   certified: true
@@ -1422,6 +1463,8 @@
   teamCount: 2
   terrain:
     - hills
+    - alien
+    - wasteland
 8NJ4dy6hrSPsrezNmczE:
   author: Beherith
   backgroundImage:
@@ -1504,6 +1547,8 @@
   teamCount: 3
   terrain:
     - hills
+    - grassy
+    - island
 9Z3VnJ2cFcGhcaq6z1bJ:
   author: Johannes
   certified: true
@@ -1640,6 +1685,9 @@
   teamCount: 4
   terrain:
     - hills
+    - grassy
+    - forests
+    - asymmetrical
     - water
 9pCv5iZ1gaLWioi1A8KJ:
   author: IceXuick
@@ -1694,6 +1742,8 @@
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - flat
   title: A Classic
 A9eqjOzH3trguY66HGmH:
   author: Nikuksis
@@ -1755,6 +1805,7 @@ A9eqjOzH3trguY66HGmH:
   terrain:
     - flat
     - hills
+    - desert
 ABBUHinh94O7299Php6p:
   author: IceXuick, Nikuksis
   certified: false
@@ -1789,6 +1840,7 @@ ABBUHinh94O7299Php6p:
   terrain:
     - hills
     - flat
+    - desert
 ACgCe99NC8yZFecMwRCm:
   author: Nikuksis
   certified: true
@@ -1824,6 +1876,8 @@ ACgCe99NC8yZFecMwRCm:
     - flat
     - hills
     - water
+    - grassy
+    - forests
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   certified: true
@@ -1857,6 +1911,8 @@ ACgCe99NC8yZFecMwRCn:
   teamCount: 2
   terrain:
     - hills
+    - alien
+    - lava
 ASieUn5uvk5eyZz6KhUt:
   author: Nikuksis
   certified: true
@@ -1977,6 +2033,8 @@ ASieUn5uvk5eyZz6KhUt:
   terrain:
     - hills
     - water
+    - alien
+    - asymmetrical
 An6zReiqIWD15Yx7bZ3b:
   author: Beherith
   backgroundImage:
@@ -2057,6 +2115,7 @@ An6zReiqIWD15Yx7bZ3b:
   teamCount: 2
   terrain:
     - flat
+    - grassy
   title: Start Small
 BCDbKYnQqHT1PE5lo8Es:
   author: Nikuksis
@@ -2091,6 +2150,7 @@ BCDbKYnQqHT1PE5lo8Es:
   teamCount: 2
   terrain:
     - flat
+    - alien
 BHxtx4DPxKgPkUTkRg9e:
   author: ShoX
   certified: true
@@ -2125,6 +2185,8 @@ BHxtx4DPxKgPkUTkRg9e:
   terrain:
     - flat
     - water
+    - grassy
+    - tropical
 CXD1uv9uv28szDdk3dFR:
   author: Phalange
   certified: true
@@ -2160,6 +2222,7 @@ CXD1uv9uv28szDdk3dFR:
   terrain:
     - hills
     - flat
+    - desert
 Cs5xNBZyuBzWCmPJKDbO:
   author: " (original by Beherith)"
   backgroundImage:
@@ -2231,6 +2294,7 @@ Cs5xNBZyuBzWCmPJKDbO:
   teamCount: 2
   terrain:
     - hills
+    - wasteland
 Cz4OYo0Z2yht9PUP8vcN:
   author: Nikuksis
   backgroundImage:
@@ -2298,6 +2362,9 @@ Cz4OYo0Z2yht9PUP8vcN:
   teamCount: 2
   terrain:
     - flat
+    - alien
+    - desert
+    - water
 DUxqUMUDGiYr1y5jx3sq:
   author: Phalange
   certified: true
@@ -2330,8 +2397,9 @@ DUxqUMUDGiYr1y5jx3sq:
               y: 200
   teamCount: 2
   terrain:
-    - water
     - hills
+    - island
+    - sea
 DyHExxTkkRB4DweNDViM:
   author: Nikuksis
   backgroundImage:
@@ -2424,6 +2492,9 @@ DyHExxTkkRB4DweNDViM:
   terrain:
     - hills
     - water
+    - island
+    - asymmetrical
+    - ice
 E17BdeDITeBMZ8YwcBie:
   author: IceXuick
   backgroundImage:
@@ -2490,6 +2561,8 @@ E17BdeDITeBMZ8YwcBie:
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - desert
   title: Fortify & Fight
 ER2B5mT2LU864k1f0UeH:
   author: Nikuksis
@@ -2524,7 +2597,8 @@ ER2B5mT2LU864k1f0UeH:
               y: 200
   teamCount: 2
   terrain:
-    - water
+    - sea
+    - tropical
 EiT2c89HcHhHeuZxXako:
   author: Beherith
   certified: true
@@ -2533,10 +2607,10 @@ EiT2c89HcHhHeuZxXako:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/EiT2c89HcHhHeuZxXako/photo/GjhiWTzQMSzcLO3Zpiva-TheRock_V3.jpg
-      lastModifiedTS: 1683982266423
-      name: TheRock_V3.jpg
-      ref: maps/EiT2c89HcHhHeuZxXako/photo/GjhiWTzQMSzcLO3Zpiva-TheRock_V3.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEiT2c89HcHhHeuZxXako%2Fphoto%2FMVUXHKeoWSURhqcdKsY9-The-Rock-minimap.jpg?alt=media&token=7eb5b6c2-9f5b-4e0a-80d0-987673b31f83
+      lastModifiedTS: 1600519040301
+      name: The-Rock-minimap.jpg
+      ref: maps/EiT2c89HcHhHeuZxXako/photo/MVUXHKeoWSURhqcdKsY9-The-Rock-minimap.jpg
       type: image/jpeg
   playerCount: 16
   springName: TheRock_V3
@@ -2557,6 +2631,7 @@ EiT2c89HcHhHeuZxXako:
   teamCount: 2
   terrain:
     - hills
+    - wasteland
 F40FJFEjKm3hcVzdnIvA:
   author: IceXuick
   backgroundImage:
@@ -2634,6 +2709,9 @@ F40FJFEjKm3hcVzdnIvA:
   terrain:
     - flat
     - hills
+    - ruins
+    - desert
+    - asymmetrical
 GPSFfpSd1wtmx4CZRGA6:
   author: IceXuick
   backgroundImage:
@@ -2702,11 +2780,11 @@ GPSFfpSd1wtmx4CZRGA6:
       name: Trefoil_Remake_2.20.jpg
       ref: maps/GPSFfpSd1wtmx4CZRGA6/photo/MdA8kk63cbQbnOQJWaj7-Trefoil_Remake_2.20.jpg
       type: image/jpeg
-  playerCount: 9
+  playerCount: 6
   springName: Trefoil Remake 2.20
   startboxesSet:
     NuOGdbXGbALyajMdTpTK:
-      maxPlayersPerStartbox: 3
+      maxPlayersPerStartbox: 2
       startboxes:
         - poly:
             - x: 19
@@ -2727,6 +2805,9 @@ GPSFfpSd1wtmx4CZRGA6:
   terrain:
     - flat
     - water
+    - tropical
+    - island
+  title: Land, Sea and Air
 GT4UKIBCLBwdONdOMChl:
   author: Moose
   certified: true
@@ -2785,6 +2866,8 @@ GT4UKIBCLBwdONdOMChl:
   terrain:
     - flat
     - water
+    - hills
+    - grassy
 Gkh9KVgCUNbGTXWBjPoV:
   author: Nikuksis
   backgroundImage:
@@ -3055,7 +3138,9 @@ Gkh9KVgCUNbGTXWBjPoV:
   teamCount: 40
   terrain:
     - flat
-    - water
+    - sea
+    - island
+    - tropical
 GuTvi5G3QCGO8KASbbs1:
   author: Nikuksis
   backgroundImage:
@@ -3169,6 +3254,8 @@ GuTvi5G3QCGO8KASbbs1:
   terrain:
     - flat
     - hills
+    - asteroid
+    - wasteland
 GxjYgcmTFdC3JivNsghb:
   author: Nikuksis
   certified: true
@@ -3256,7 +3343,8 @@ GxjYgcmTFdC3JivNsghb:
               y: 133
   teamCount: 5
   terrain:
-    - water
+    - sea
+    - island
 Gydc5ydDuhV4hS7cyJJm:
   author: Johannes
   backgroundImage:
@@ -3321,6 +3409,9 @@ Gydc5ydDuhV4hS7cyJJm:
   teamCount: 2
   terrain:
     - hills
+    - flat
+    - water
+    - desert
 HdwZWKydw2luEc8EascR:
   author: Beherith
   backgroundImage:
@@ -3412,7 +3503,9 @@ HdwZWKydw2luEc8EascR:
   teamCount: 5
   terrain:
     - flat
-    - water
+    - sea
+    - island
+    - tropical
 I7GpETWic750BOdwvkdh:
   author: Beherith
   certified: true
@@ -3448,6 +3541,7 @@ I7GpETWic750BOdwvkdh:
   teamCount: 2
   terrain:
     - flat
+    - ice
 JWJVrROvEUieLeIfuS9a:
   author: IceXuick
   backgroundImage:
@@ -3518,6 +3612,8 @@ JWJVrROvEUieLeIfuS9a:
   teamCount: 2
   terrain:
     - hills
+    - wasteland
+    - flat
 Jdb4pZyLQPb0IkSmaVrO:
   author: IceXuick
   backgroundImage:
@@ -3588,6 +3684,8 @@ Jdb4pZyLQPb0IkSmaVrO:
   terrain:
     - flat
     - water
+    - grassy
+    - island
 KAQ69kPLvMZgMuLXIoyU:
   author: Johannes
   certified: true
@@ -3623,6 +3721,8 @@ KAQ69kPLvMZgMuLXIoyU:
   teamCount: 2
   terrain:
     - flat
+    - alien
+    - desert
 LSbOSBM6bqPCs5heCJ9X:
   author: Nikuksis
   certified: false
@@ -3656,7 +3756,8 @@ LSbOSBM6bqPCs5heCJ9X:
               y: 120
   teamCount: 2
   terrain:
-    - water
+    - sea
+    - flat
 Lpy4w1DTM7BjEfERE3wK:
   author: Johannes
   certified: true
@@ -3699,6 +3800,8 @@ Lpy4w1DTM7BjEfERE3wK:
   teamCount: 2
   terrain:
     - flat
+    - desert
+    - water
 LutAHarULFOEKKA21AvQ:
   author: Johannes
   certified: true
@@ -3736,6 +3839,7 @@ LutAHarULFOEKKA21AvQ:
   terrain:
     - flat
     - hills
+    - desert
 MDi3gNqaTj3H1DkzpPfz:
   author: Moose, Beherith
   certified: true
@@ -3771,6 +3875,8 @@ MDi3gNqaTj3H1DkzpPfz:
   terrain:
     - water
     - hills
+    - grassy
+    - wasteland
 MIHFHzbaF3j4OMqvreh9:
   author: Nikuksis
   certified: false
@@ -3806,6 +3912,7 @@ MIHFHzbaF3j4OMqvreh9:
   terrain:
     - hills
     - flat
+    - grassy
 MqDO00JzJMESdzVDkkT5:
   author: Nikuksis (original by Hunterw)
   backgroundImage:
@@ -3874,6 +3981,7 @@ MqDO00JzJMESdzVDkkT5:
   terrain:
     - flat
     - hills
+    - desert
 MuFsIEswFS9FbuamCfbS:
   author: Beherith
   certified: true
@@ -3906,7 +4014,9 @@ MuFsIEswFS9FbuamCfbS:
               y: 200
   teamCount: 2
   terrain:
-    - water
+    - sea
+    - flat
+    - asymmetrical
 NULeDCjbZw5azkUT66rZ:
   author: Beherith
   backgroundImage:
@@ -4020,6 +4130,7 @@ NULeDCjbZw5azkUT66rZ:
   teamCount: 4
   terrain:
     - flat
+    - metal
   title: Tight FFA
 NhuWJFWJBBS46Z1qsmBJ:
   author: Nikuksis
@@ -4082,6 +4193,8 @@ NhuWJFWJBBS46Z1qsmBJ:
   teamCount: 2
   terrain:
     - hills
+    - forests
+    - grassy
 OgYCeZrIVMN1b9sUbweo:
   author: Beherith
   certified: true
@@ -4115,6 +4228,8 @@ OgYCeZrIVMN1b9sUbweo:
   terrain:
     - hills
     - water
+    - grassy
+    - flat
 PiT4WHNB94kc8vlAZtot:
   author: Nikuksis
   backgroundImage:
@@ -4171,6 +4286,9 @@ PiT4WHNB94kc8vlAZtot:
   terrain:
     - flat
     - hills
+    - lava
+    - alien
+  title: Hot and Steamy
 PlmJPs87RuAnAlL6inG1:
   author: Nikuksis
   backgroundImage:
@@ -4243,6 +4361,7 @@ PlmJPs87RuAnAlL6inG1:
   terrain:
     - flat
     - hills
+    - ice
 QaENCgzeDrnkRnRsgnVT:
   author: DavetheBrave
   certified: true
@@ -4278,6 +4397,7 @@ QaENCgzeDrnkRnRsgnVT:
   terrain:
     - hills
     - water
+    - island
 QlanwpEXsYOy3ZYYp3iu:
   author: IceXuick
   backgroundImage:
@@ -4288,7 +4408,7 @@ QlanwpEXsYOy3ZYYp3iu:
         2-tinified.jpg
       type: image/jpeg
   certified: true
-  description: Pro Team Map
+  description: A classic famous map with many possible strategies.
   displayName: Tabula
   gameType:
     - team
@@ -4342,6 +4462,10 @@ QlanwpEXsYOy3ZYYp3iu:
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - flat
+    - water
+  title: Pro Team Map
 QsD0vDtYMgk8ATraKoNI:
   author: IceXuick
   backgroundImage:
@@ -4459,6 +4583,10 @@ QsD0vDtYMgk8ATraKoNI:
   teamCount: 7
   terrain:
     - flat
+    - asteroid
+    - asymmetrical
+    - wasteland
+  title: FFA or Team fights on this bizarre planetoid
 RDAUlsjOhgAH2fDvAEmI:
   author: Nikuksis
   certified: true
@@ -4508,7 +4636,9 @@ RDAUlsjOhgAH2fDvAEmI:
               y: 37
   teamCount: 5
   terrain:
-    - water
+    - asymmetrical
+    - sea
+    - island
 RLZ07b2DZS9vYPn5dvFX:
   author: Nikuksis
   certified: true
@@ -4544,6 +4674,8 @@ RLZ07b2DZS9vYPn5dvFX:
   terrain:
     - water
     - hills
+    - alien
+    - desert
 RT3Y6Qyjvt3pTGXWjWPK:
   author: IceXuick
   certified: true
@@ -4603,7 +4735,10 @@ RT3Y6Qyjvt3pTGXWjWPK:
             - x: 107
               y: 27
   teamCount: 5
-  terrain: []
+  terrain:
+    - lava
+    - hills
+    - flat
 SHA84LfmzYbxT8iIyTtU:
   author: Beherith
   backgroundImage:
@@ -4680,6 +4815,9 @@ SHA84LfmzYbxT8iIyTtU:
   teamCount: 2
   terrain:
     - flat
+    - water
+    - grassy
+    - forests
 SQpSGbxxp50QcMKG2TJp:
   author: Nikuksis
   backgroundImage:
@@ -4753,6 +4891,8 @@ SQpSGbxxp50QcMKG2TJp:
     - flat
     - hills
     - water
+    - grassy
+    - forests
 SYB0blENn3hqhEyLC24B:
   author: Beherith
   backgroundImage:
@@ -4919,6 +5059,9 @@ SYB0blENn3hqhEyLC24B:
   terrain:
     - hills
     - water
+    - island
+    - grassy
+    - forests
 T9CfXfwVVubXUcJbMNra:
   author: Beherith
   certified: true
@@ -4975,6 +5118,8 @@ T9CfXfwVVubXUcJbMNra:
   teamCount: 4
   terrain:
     - hills
+    - grassy
+    - forests
 TBlG9YF5CxIvchMI0DZX:
   author: Nikuksis
   backgroundImage:
@@ -5043,6 +5188,7 @@ TBlG9YF5CxIvchMI0DZX:
   teamCount: 2
   terrain:
     - hills
+    - alien
 U8PJYIPdYQoMXGJND2Kg:
   author: IceXuick
   certified: true
@@ -5075,6 +5221,8 @@ U8PJYIPdYQoMXGJND2Kg:
   teamCount: 2
   terrain:
     - hills
+    - water
+    - grassy
 UeeBymo7RdXE5ty3amFw:
   author: IceXuick
   backgroundImage:
@@ -5176,6 +5324,9 @@ UeeBymo7RdXE5ty3amFw:
   teamCount: 2
   terrain:
     - hills
+    - desert
+    - water
+  title: Bot Haven
 UhGP9ish5WdFio1VfrU6:
   author: Beherith
   backgroundImage:
@@ -5249,8 +5400,10 @@ UhGP9ish5WdFio1VfrU6:
               y: 200
   teamCount: 2
   terrain:
-    - hills
     - water
+    - sea
+    - flat
+    - tropical
   title: Combine and Conquer
 UywijIj1uPuFeoV231kL:
   author: IceXuick
@@ -5411,6 +5564,10 @@ UywijIj1uPuFeoV231kL:
   terrain:
     - hills
     - water
+    - island
+    - grassy
+    - desert
+  title: Massive FFA
 WJBtRZ22UUHZi2GTQ2FQ:
   author: Nikuksis
   backgroundImage:
@@ -5505,6 +5662,8 @@ WJBtRZ22UUHZi2GTQ2FQ:
   teamCount: 2
   terrain:
     - hills
+    - ruins
+    - wasteland
 WOlmGcTZXUtV5iy57Kc9:
   author: Nikuksis
   backgroundImage:
@@ -5573,6 +5732,9 @@ WOlmGcTZXUtV5iy57Kc9:
   terrain:
     - hills
     - water
+    - island
+    - grassy
+    - forests
 WrkVFQS8BedaqPg5SeB7:
   author: Phalange
   certified: false
@@ -5606,6 +5768,8 @@ WrkVFQS8BedaqPg5SeB7:
   teamCount: 2
   terrain:
     - flat
+    - desert
+    - wasteland
 WuwJQPBtwMfJR9czmWuQ:
   author: Nikuksis
   certified: true
@@ -5707,6 +5871,9 @@ WuwJQPBtwMfJR9czmWuQ:
   terrain:
     - hills
     - water
+    - grassy
+    - island
+    - forests
 X0N11knnIS4fWqkoFPBC:
   author: Moose
   certified: true
@@ -5740,8 +5907,10 @@ X0N11knnIS4fWqkoFPBC:
   teamCount: 2
   terrain:
     - hills
+    - alien
+    - desert
 XAYu2CrwVdR5GlcpOxL0:
-  author: Beherith
+  author: IceXuick
   certified: true
   description: A slightly different eroded map
   displayName: Supreme Crossing 2
@@ -5773,7 +5942,8 @@ XAYu2CrwVdR5GlcpOxL0:
   teamCount: 2
   terrain:
     - flat
-    - water
+    - desert
+    - sea
 XLh1oCb0Qdog1h40avFL:
   author: IceXuick
   backgroundImage:
@@ -5836,6 +6006,10 @@ XLh1oCb0Qdog1h40avFL:
   teamCount: 2
   terrain:
     - hills
+    - desert
+    - water
+    - flat
+  title: Extremely fun
 XMFpTWsDjFSPjJ4nOZSO:
   author: Nikuksis
   backgroundImage:
@@ -5910,7 +6084,10 @@ XMFpTWsDjFSPjJ4nOZSO:
               y: 186
   teamCount: 3
   terrain:
-    - water
+    - sea
+    - desert
+    - island
+    - alien
 XR0Czafa4dwZRh0r3fTy:
   author: Nikuksis
   certified: true
@@ -5945,6 +6122,9 @@ XR0Czafa4dwZRh0r3fTy:
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - forests
+    - flat
 XipxkGywEz3REbHKrvP6:
   author: Beherith
   backgroundImage:
@@ -6020,6 +6200,9 @@ XipxkGywEz3REbHKrvP6:
   teamCount: 2
   terrain:
     - hills
+    - island
+    - grassy
+    - forests
 XnCjzq4LvLB6mik5aib1:
   author: IceXuick
   backgroundImage:
@@ -6092,6 +6275,7 @@ XnCjzq4LvLB6mik5aib1:
   teamCount: 2
   terrain:
     - flat
+    - ice
   title: Tiny Cold Place
 Xut8FRCmn2h5DuUqzF26:
   author: IceXuick
@@ -6180,6 +6364,8 @@ Xut8FRCmn2h5DuUqzF26:
   teamCount: 2
   terrain:
     - flat
+    - asteroid
+    - desert
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
   certified: true
@@ -6214,6 +6400,7 @@ Y5e7sl891wO5G2ttwjmr:
   terrain:
     - hills
     - water
+    - forests
 Ydjj7Fy4NpaLHdkvhsIn:
   author: Beherith
   certified: true
@@ -6230,11 +6417,11 @@ Ydjj7Fy4NpaLHdkvhsIn:
       name: Ditched_V1.jpg
       ref: maps/Ydjj7Fy4NpaLHdkvhsIn/photo/c8wxgQ68uTk9aFTMR4gh-Ditched_V1.jpg
       type: image/jpeg
-  playerCount: 20
+  playerCount: 16
   springName: Ditched_V1
   startboxesSet:
     Tjt4gQCMkSehww2BqtMh:
-      maxPlayersPerStartbox: 10
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 0
@@ -6249,6 +6436,7 @@ Ydjj7Fy4NpaLHdkvhsIn:
   teamCount: 2
   terrain:
     - flat
+    - hills
 Yhwa2neMfDTUXyAiSJXC:
   author: IceXuick
   backgroundImage:
@@ -6309,6 +6497,8 @@ Yhwa2neMfDTUXyAiSJXC:
   teamCount: 2
   terrain:
     - flat
+    - lava
+    - hills
 Z7wmue7EsjaTNpsdBuyx:
   author: RebelNode
   backgroundImage:
@@ -6370,6 +6560,9 @@ Z7wmue7EsjaTNpsdBuyx:
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - forests
+    - desert
 ZJNeHQG2ls2h2Xq1hHUy:
   author: Beherith
   certified: true
@@ -6555,6 +6748,12 @@ ZJNeHQG2ls2h2Xq1hHUy:
   terrain:
     - flat
     - water
+    - hills
+    - grassy
+    - desert
+    - ice
+    - forests
+    - asymmetrical
 ZeOLwTAgEU10BGvcdQ45:
   author: Beherith
   certified: true
@@ -6697,6 +6896,9 @@ ZeOLwTAgEU10BGvcdQ45:
   terrain:
     - flat
     - water
+    - asymmetrical
+    - island
+    - hills
 ZrnTf20mPzbrMjtHa9Wg:
   author: Beherith
   certified: true
@@ -6774,6 +6976,8 @@ ZrnTf20mPzbrMjtHa9Wg:
   teamCount: 8
   terrain:
     - flat
+    - grassy
+    - forests
 ZxFS2VuODjyLH5V8mHfR:
   author: Beherith
   backgroundImage:
@@ -6841,6 +7045,8 @@ ZxFS2VuODjyLH5V8mHfR:
   terrain:
     - flat
     - hills
+    - desert
+    - wasteland
 Zy8Ha3O3lHl7mUMvM8Gs:
   author: IceXuick
   backgroundImage:
@@ -6914,6 +7120,9 @@ Zy8Ha3O3lHl7mUMvM8Gs:
   teamCount: 2
   terrain:
     - hills
+    - alien
+    - wasteland
+    - asymmetrical
 aUhyiiVDKaRECJfqPBAo:
   author: BasiC
   certified: true
@@ -6946,7 +7155,8 @@ aUhyiiVDKaRECJfqPBAo:
   teamCount: 2
   terrain:
     - hills
-    - water
+    - sea
+    - grassy
 bLBXDWyEuUqG825WYzHj:
   author: Nikuksis
   backgroundImage:
@@ -7026,7 +7236,7 @@ bLBXDWyEuUqG825WYzHj:
               y: 200
   teamCount: 2
   terrain:
-    - water
+    - sea
 bX4YxbtQ8YCc6G0yMumJ:
   author: Nikuksis
   certified: true
@@ -7061,6 +7271,7 @@ bX4YxbtQ8YCc6G0yMumJ:
   teamCount: 2
   terrain:
     - flat
+    - desert
 bkIRTcsnvtmQVsm3SsNJ:
   author: Beherith
   backgroundImage:
@@ -7114,11 +7325,11 @@ bkIRTcsnvtmQVsm3SsNJ:
         perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2Fphoto%2FgTFLxjfzUKKj30Ismw33-Speed_Metal.jpg?alt=media&token=a6365f24-10e1-4941-9997-c3cf28ef5139
-      lastModifiedTS: 1680269852768
-      name: Speed_Metal.jpg
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/photo/gTFLxjfzUKKj30Ismw33-Speed_Metal.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2Fphoto%2FCJB9syGlsB5i4hSLM2aR-speedmetal-minimap.png?alt=media&token=fc651f10-6916-4bf5-80a2-9d66449fe5d7
+      lastModifiedTS: 1600517556707
+      name: speedmetal-minimap.png
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/photo/CJB9syGlsB5i4hSLM2aR-speedmetal-minimap.png
+      type: image/png
   playerCount: 4
   special: Metal
   springName: SpeedMetal BAR V2
@@ -7137,7 +7348,10 @@ bkIRTcsnvtmQVsm3SsNJ:
             - x: 200
               y: 200
   teamCount: 2
-  terrain: []
+  terrain:
+    - metal
+    - space
+    - alien
 byucseTLrpgU0J70dFC0:
   author: IceXuick
   backgroundImage:
@@ -7246,8 +7460,8 @@ byucseTLrpgU0J70dFC0:
               y: 69
   teamCount: 4
   terrain:
-    - flat
     - hills
+    - lava
 c8VOLOtft95bMvYUg60R:
   author: Beherith
   certified: true
@@ -7375,6 +7589,8 @@ c8VOLOtft95bMvYUg60R:
   teamCount: 9
   terrain:
     - flat
+    - metal
+  title: Number 9
 cIMaYX0u2fprp7Qk78wK:
   author: Nikuksis
   certified: true
@@ -7408,6 +7624,9 @@ cIMaYX0u2fprp7Qk78wK:
   teamCount: 2
   terrain:
     - hills
+    - flat
+    - forests
+    - grassy
 cQ5LLQmNqCPCnYFiTlcb:
   author: IceXuick
   backgroundImage:
@@ -7500,6 +7719,8 @@ cQ5LLQmNqCPCnYFiTlcb:
   terrain:
     - flat
     - hills
+    - grassy
+    - desert
 cQbwmwbhWrWyD1bhZNEn:
   author: Ambulatory Cortex
   certified: true
@@ -7539,9 +7760,11 @@ cQbwmwbhWrWyD1bhZNEn:
               y: 157
   teamCount: 2
   terrain:
-    - water
     - hills
     - flat
+    - sea
+    - island
+    - forests
 cYgRxanQzvg7Bx9xXk1H:
   author: IceXuick
   backgroundImage:
@@ -7623,6 +7846,7 @@ cYgRxanQzvg7Bx9xXk1H:
   terrain:
     - flat
     - hills
+    - desert
 cvpud6KzRzucgumjiBgk:
   author: Johannes
   certified: true
@@ -7681,6 +7905,7 @@ cvpud6KzRzucgumjiBgk:
   teamCount: 4
   terrain:
     - hills
+    - grassy
 eLHwUEMIb0S3qLy0OT6G:
   author: SirArtturi
   certified: false
@@ -7713,6 +7938,7 @@ eLHwUEMIb0S3qLy0OT6G:
   teamCount: 2
   terrain:
     - hills
+    - desert
 eR6j6L2F2OSP7QeCfW8O:
   author: Beherith
   backgroundImage:
@@ -7844,7 +8070,9 @@ eR6j6L2F2OSP7QeCfW8O:
               y: 200
   teamCount: 2
   terrain:
-    - water
+    - island
+    - tropical
+    - sea
 etCTTwexgYVGMV63rOWy:
   author: Beherith
   backgroundImage:
@@ -7905,6 +8133,7 @@ etCTTwexgYVGMV63rOWy:
   teamCount: 2
   terrain:
     - hills
+    - wasteland
 fivY9RQRkefErWygMT09:
   author: Beherith
   certified: true
@@ -7938,6 +8167,8 @@ fivY9RQRkefErWygMT09:
   terrain:
     - flat
     - water
+    - industrial
+    - hills
 fkhBIvsAdLiL9CvVlp2l:
   author: Johannes
   certified: true
@@ -7971,7 +8202,9 @@ fkhBIvsAdLiL9CvVlp2l:
   teamCount: 2
   terrain:
     - hills
-    - water
+    - island
+    - desert
+    - sea
 frJOFVdgDIROpNVzgDed:
   author: Beherith
   backgroundImage:
@@ -8010,11 +8243,11 @@ frJOFVdgDIROpNVzgDed:
       name: Entrenched_Plains_V2.jpg
       ref: maps/frJOFVdgDIROpNVzgDed/photo/BOIqRlkT58MQkJp0km86-Entrenched_Plains_V2.jpg
       type: image/jpeg
-  playerCount: 16
+  playerCount: 20
   springName: Entrenched_Plains_V2
   startboxesSet:
     Q8LzCwSefDZU6BIyICA7:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 10
       startboxes:
         - poly:
             - x: 0
@@ -8029,6 +8262,7 @@ frJOFVdgDIROpNVzgDed:
   teamCount: 2
   terrain:
     - flat
+    - grassy
 fvLhZp85DLroyv0Iozhe:
   author: IceXuick
   backgroundImage:
@@ -8100,6 +8334,8 @@ fvLhZp85DLroyv0Iozhe:
   teamCount: 2
   terrain:
     - hills
+    - flat
+    - desert
 fzRTg60xfSVnG44Zw42D:
   author: Nikuksis
   certified: true
@@ -8134,6 +8370,8 @@ fzRTg60xfSVnG44Zw42D:
   teamCount: 2
   terrain:
     - flat
+    - lava
+    - wasteland
 g7NeIaS3XxFSn2KcrCiL:
   author: Moose
   certified: true
@@ -8192,7 +8430,8 @@ g7NeIaS3XxFSn2KcrCiL:
   teamCount: 2
   terrain:
     - flat
-    - hills
+    - alien
+    - wasteland
 gEgiWXCvonENJseDsfjj:
   author: Nikuksis
   backgroundImage:
@@ -8261,6 +8500,7 @@ gEgiWXCvonENJseDsfjj:
   terrain:
     - flat
     - hills
+    - alien
 gf2s52iInoEKNyK1vA19:
   author: Moose
   certified: true
@@ -8318,6 +8558,9 @@ gf2s52iInoEKNyK1vA19:
   teamCount: 4
   terrain:
     - flat
+    - hills
+    - forests
+    - grassy
 ggVDNTLRh7HNk4mf9mf6:
   author: IceXuick
   backgroundImage:
@@ -8415,6 +8658,8 @@ ggVDNTLRh7HNk4mf9mf6:
   teamCount: 2
   terrain:
     - flat
+    - asteroid
+  title: Fight on a comet
 gtJqom9yIXycF3BEGgL0:
   author: Phalange
   certified: false
@@ -8450,6 +8695,7 @@ gtJqom9yIXycF3BEGgL0:
     - flat
     - water
     - hills
+    - desert
 hC5Ic7adKaK6YBA68mKY:
   author: Nikuksis
   backgroundImage:
@@ -8522,6 +8768,8 @@ hC5Ic7adKaK6YBA68mKY:
   teamCount: 2
   terrain:
     - hills
+    - alien
+    - wasteland
 i0Wzo68Las9sWQk8O8CT:
   author: Nikuksis
   certified: true
@@ -8556,6 +8804,8 @@ i0Wzo68Las9sWQk8O8CT:
   terrain:
     - hills
     - flat
+    - ice
+    - water
 iQZFWB7rheiOseoQXihq:
   author: NOiZE
   backgroundImage:
@@ -8620,7 +8870,10 @@ iQZFWB7rheiOseoQXihq:
               y: 200
   teamCount: 2
   terrain:
-    - hills
+    - asymmetrical
+    - grassy
+    - flat
+  title: Familiar grounds
 igcp0iDB12WAKPdtBDna:
   author: Phalange
   certified: true
@@ -8655,6 +8908,7 @@ igcp0iDB12WAKPdtBDna:
   teamCount: 2
   terrain:
     - hills
+    - ice
 iq0vEBrVv1ZudgcWr2ST:
   author: Nikuksis (original by qray)
   backgroundImage:
@@ -8760,7 +9014,9 @@ j29MVJU3ctlnvyEQ6HNb:
   teamCount: 2
   terrain:
     - flat
-    - water
+    - sea
+    - grassy
+    - forests
 j3X9bepS3FrtzjLLNmmu:
   author: Angelwing
   certified: true
@@ -8796,6 +9052,8 @@ j3X9bepS3FrtzjLLNmmu:
   terrain:
     - hills
     - water
+    - forests
+    - grassy
   title: Start Small
 kesPeWO0ScnmWF2An8qA:
   author: Nikuksis
@@ -8914,6 +9172,9 @@ kesPeWO0ScnmWF2An8qA:
   teamCount: 10
   terrain:
     - flat
+    - forests
+    - grassy
+  title: Based on the original
 kgpwvzDGdXoVcD6whG3C:
   author: Beherith
   backgroundImage:
@@ -8975,6 +9236,7 @@ kgpwvzDGdXoVcD6whG3C:
   terrain:
     - flat
     - water
+    - desert
 kovRjd67kdlVUNN4szAP:
   author: Phalange
   certified: false
@@ -9007,7 +9269,9 @@ kovRjd67kdlVUNN4szAP:
   teamCount: 2
   terrain:
     - hills
-    - water
+    - desert
+    - sea
+    - flat
 lJQnSRqDN7rNPS5pe80C:
   author: Beherith
   backgroundImage:
@@ -9168,6 +9432,7 @@ lJQnSRqDN7rNPS5pe80C:
   teamCount: 16
   terrain:
     - flat
+    - metal
 ljx3Fdz1TLbewjyAIoVw:
   author: Beherith
   certified: true
@@ -9207,6 +9472,7 @@ ljx3Fdz1TLbewjyAIoVw:
   teamCount: 2
   terrain:
     - flat
+    - wasteland
 mAD4ToJrMg6xGHEM18qN:
   author: Nikuksis
   certified: true
@@ -9241,6 +9507,8 @@ mAD4ToJrMg6xGHEM18qN:
   teamCount: 2
   terrain:
     - hills
+    - acidic
+    - desert
 mzdkzzTL3zgPanW6zQx4:
   author: ShaunJS
   certified: true
@@ -9276,8 +9544,16 @@ mzdkzzTL3zgPanW6zQx4:
   teamCount: 2
   terrain:
     - hills
+    - space
+    - flat
 oBOBWCmenCo2tbkwYNJt:
   author: Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FbackgroundImage%2FT2zwYoZKpQzUwpqxeuqL-Coastlines_OverviewBG.jpg?alt=media&token=4036cdf2-c062-432f-ab7a-3926675923d0
+      lastModifiedTS: 1700518324992
+      name: Coastlines_OverviewBG.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/backgroundImage/T2zwYoZKpQzUwpqxeuqL-Coastlines_OverviewBG.jpg
+      type: image/jpeg
   certified: true
   description: Large map with start positions supporting up to 9 players per team.
     Variations of more and less open terrain with small hills. Securing hills
@@ -9287,12 +9563,43 @@ oBOBWCmenCo2tbkwYNJt:
   gameType:
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2F0a5zHD2HJbpAWlsO8Xms-Coastlines_SS%204.jpg?alt=media&token=4dbe9404-4964-48f6-8c18-7d489abea0fd
+      lastModifiedTS: 1700518145090
+      name: Coastlines_SS 4.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/0a5zHD2HJbpAWlsO8Xms-Coastlines_SS
+        4.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2FYlhheXNELgkMEGyWfXHY-Coastlines_SS%203.jpg?alt=media&token=006a699c-8920-485a-b7e4-8762cb24f079
+      lastModifiedTS: 1700518140145
+      name: Coastlines_SS 3.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/YlhheXNELgkMEGyWfXHY-Coastlines_SS
+        3.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2FB75LO5BgSjJIggctfMIV-Coastlines_SS%201.jpg?alt=media&token=969acb9b-e5f1-4606-9b6d-160e621afce9
+      lastModifiedTS: 1700518152331
+      name: Coastlines_SS 1.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/B75LO5BgSjJIggctfMIV-Coastlines_SS
+        1.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2F9jIt8ZEs9QiSVIcnyVvo-Coastlines_SS%202.jpg?alt=media&token=2c9f5e06-74f5-4229-8df8-09f986483eb9
+      lastModifiedTS: 1700518132505
+      name: Coastlines_SS 2.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/9jIt8ZEs9QiSVIcnyVvo-Coastlines_SS
+        2.jpg
+      type: image/jpeg
   inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FperspectiveShot%2FDVgSS0YafPTN9rkLgIkM-Coastlines_Perspective.png?alt=media&token=a7273673-c053-44d8-bba2-8e497768de1e
+      lastModifiedTS: 1700518323662
+      name: Coastlines_Perspective.png
+      ref: maps/oBOBWCmenCo2tbkwYNJt/perspectiveShot/DVgSS0YafPTN9rkLgIkM-Coastlines_Perspective.png
+      type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/oBOBWCmenCo2tbkwYNJt/photo/BAfhTexWVMIGJuD4G5xP-Coastlines_Dry_V2.2.jpg
-      lastModifiedTS: 1683982316556
-      name: Coastlines_Dry_V2.2.jpg
-      ref: maps/oBOBWCmenCo2tbkwYNJt/photo/BAfhTexWVMIGJuD4G5xP-Coastlines_Dry_V2.2.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2Fphoto%2FjPxWxCx0pdby27KfJ2X8-Coastlines_minimap.jpg?alt=media&token=449d81d7-3943-45be-b80d-5714d6c23661
+      lastModifiedTS: 1600517931181
+      name: Coastlines_minimap.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/photo/jPxWxCx0pdby27KfJ2X8-Coastlines_minimap.jpg
       type: image/jpeg
   playerCount: 18
   springName: Coastlines_Dry_V2.2
@@ -9313,6 +9620,8 @@ oBOBWCmenCo2tbkwYNJt:
   teamCount: 2
   terrain:
     - flat
+    - grassy
+    - hills
 oHTuEk42qfvZt8tddOnA:
   author: Nikuksis
   backgroundImage:
@@ -9393,6 +9702,7 @@ oHTuEk42qfvZt8tddOnA:
   teamCount: 2
   terrain:
     - hills
+    - desert
 oX7eHI8mlpVvJUYs4v4Y:
   author: Nikuksis
   backgroundImage:
@@ -9453,6 +9763,7 @@ oX7eHI8mlpVvJUYs4v4Y:
   teamCount: 2
   terrain:
     - flat
+    - desert
   title: Keep digging!
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
@@ -9492,7 +9803,9 @@ pZko6a1Lqs5ZYeVO0BqS:
   teamCount: 2
   terrain:
     - flat
-    - water
+    - sea
+    - grassy
+    - forests
 pqGeTK0PB1xPJ6A1u6CO:
   author: SirArtturi
   certified: true
@@ -9526,6 +9839,7 @@ pqGeTK0PB1xPJ6A1u6CO:
   teamCount: 2
   terrain:
     - flat
+    - desert
 pzZ5zAyferpDePxtC2hG:
   author: Nikuksis
   backgroundImage:
@@ -9590,7 +9904,8 @@ pzZ5zAyferpDePxtC2hG:
   teamCount: 2
   terrain:
     - hills
-    - water
+    - sea
+    - wasteland
 qrpwI83FonOR43KTBxZE:
   author: RebelNode
   certified: true
@@ -9624,6 +9939,9 @@ qrpwI83FonOR43KTBxZE:
   teamCount: 2
   terrain:
     - hills
+    - grassy
+    - forests
+    - flat
 rC0RO0MGRS9ckbGJdGG1:
   author: Nikuksis
   certified: true
@@ -9870,6 +10188,9 @@ rC0RO0MGRS9ckbGJdGG1:
   terrain:
     - water
     - hills
+    - asymmetrical
+    - grassy
+    - ruins
 rQ8v6BePPrXIaQaaQjam:
   author: Raghna
   certified: true
@@ -9902,6 +10223,7 @@ rQ8v6BePPrXIaQaaQjam:
   teamCount: 2
   terrain:
     - flat
+    - desert
 s7nrY1vJEItDuPwHAKEO:
   author: IceXuick
   backgroundImage:
@@ -9970,6 +10292,8 @@ s7nrY1vJEItDuPwHAKEO:
   terrain:
     - flat
     - hills
+    - asteroid
+    - asymmetrical
 sKu3wAd6qfR5jG8fC6KU:
   author: Johannes
   certified: true
@@ -10003,6 +10327,7 @@ sKu3wAd6qfR5jG8fC6KU:
   teamCount: 2
   terrain:
     - water
+    - grassy
 snRldJIaPiKTiNiEAPEg:
   author: Beherith
   certified: true
@@ -10060,6 +10385,7 @@ snRldJIaPiKTiNiEAPEg:
   terrain:
     - flat
     - hills
+    - wasteland
 t85qIzP8X1hqJ5gWEPGM:
   author: Phalange
   certified: true
@@ -10147,6 +10473,8 @@ t85qIzP8X1hqJ5gWEPGM:
   teamCount: 2
   terrain:
     - flat
+    - alien
+    - asymmetrical
 te9bV2b9aiw8w9qgzTJg:
   author: Nikuksis
   backgroundImage:
@@ -10240,6 +10568,7 @@ te9bV2b9aiw8w9qgzTJg:
     - flat
     - hills
     - water
+    - ice
 u17mWZp6jqx5b5s0Or5z:
   author: Phalange
   backgroundImage:
@@ -10303,6 +10632,8 @@ u17mWZp6jqx5b5s0Or5z:
     - flat
     - hills
     - water
+    - alien
+    - desert
 uV4t5gveu4Ru1Lrm1e1l:
   author: Nikuksis
   backgroundImage:
@@ -10426,6 +10757,8 @@ uV4t5gveu4Ru1Lrm1e1l:
   terrain:
     - hills
     - water
+    - asymmetrical
+    - alien
 uZq5zZ1FTcdZ7FS4k3lc:
   author: Nikuksis (original by BA_Baracus)
   certified: false
@@ -10459,6 +10792,7 @@ uZq5zZ1FTcdZ7FS4k3lc:
   terrain:
     - flat
     - hills
+    - desert
 vFNwoJJ3cCMzSaAAQPvR:
   author: Phalange
   certified: true
@@ -10493,6 +10827,7 @@ vFNwoJJ3cCMzSaAAQPvR:
   terrain:
     - flat
     - hills
+    - desert
 vTVisQEv3JM2pa0TvUHy:
   author: NOiZE
   certified: true
@@ -10586,6 +10921,7 @@ veW9CUoQ0oV7OofQab4y:
   terrain:
     - flat
     - water
+    - alien
 vryCgnmiXKEfnJuBLobP:
   author: IceXuick
   backgroundImage:
@@ -10660,6 +10996,8 @@ vryCgnmiXKEfnJuBLobP:
   teamCount: 2
   terrain:
     - flat
+    - grassy
+    - forests
 wQa6jdSr4HBUH6p21eI8:
   author: Beherith
   certified: true
@@ -10721,6 +11059,8 @@ wQa6jdSr4HBUH6p21eI8:
   teamCount: 5
   terrain:
     - hills
+    - grassy
+    - water
 wyCcSCcx7UYOY5bT4d5P:
   author: Raghna
   certified: false
@@ -10756,6 +11096,7 @@ wyCcSCcx7UYOY5bT4d5P:
   terrain:
     - flat
     - hills
+    - alien
 x0Y6f1ou7U5tF3S9xllC:
   author: IceXuick
   certified: true
@@ -10803,6 +11144,10 @@ x0Y6f1ou7U5tF3S9xllC:
   terrain:
     - flat
     - hills
+    - forests
+    - grassy
+    - asymmetrical
+  title: Fully asymmetrical
 x3jIjnV9aipWzVVWjZlL:
   author: Beherith
   certified: true
@@ -10930,7 +11275,9 @@ x3jIjnV9aipWzVVWjZlL:
   teamCount: 8
   terrain:
     - flat
-    - water
+    - metal
+    - island
+    - sea
 xbJTsdeXIKFQmuvBHW3d:
   author: IceXuick
   backgroundImage:
@@ -10995,6 +11342,9 @@ xbJTsdeXIKFQmuvBHW3d:
   terrain:
     - hills
     - water
+    - asymmetrical
+    - desert
+    - island
 xn2aVcKlkpTQAakCC3Z8:
   author: Johannes
   certified: true
@@ -11066,6 +11416,7 @@ yhOJI5yH4yGFmx9PMt9T:
     - flat
     - hills
     - water
+    - desert
 z7TZ4CbeIBJtjEjNAwer:
   author: Beherith
   certified: true
@@ -11099,7 +11450,8 @@ z7TZ4CbeIBJtjEjNAwer:
   teamCount: 2
   terrain:
     - hills
-    - water
+    - sea
+    - grassy
 zfA6sKjimXZO5kz0jtz1:
   author: PeaceFighter, Nikuksis
   certified: true
@@ -11133,6 +11485,7 @@ zfA6sKjimXZO5kz0jtz1:
   teamCount: 2
   terrain:
     - hills
+    - grassy
 zoXOP8VC1sNWpsP41IYV:
   author: NOiZE
   certified: true
@@ -11168,6 +11521,8 @@ zoXOP8VC1sNWpsP41IYV:
   terrain:
     - flat
     - water
+    - grassy
+    - swamp
 zvBCoDF2TaUPp7AwfCUr:
   author: Beherith
   backgroundImage:
@@ -11231,6 +11586,10 @@ zvBCoDF2TaUPp7AwfCUr:
   teamCount: 2
   terrain:
     - hills
+    - water
+    - grassy
+    - forests
+  title: Peaceful... or not...
 zvTEXnewG2G8LaMjFq4o:
   author: IceXuick
   backgroundImage:
@@ -11312,6 +11671,8 @@ zvTEXnewG2G8LaMjFq4o:
   teamCount: 2
   terrain:
     - flat
+    - ice
+    - hills
 zzzzzzzzzzzzzzzzzzzx:
   author: BasiC
   backgroundImage:
@@ -11408,5 +11769,7 @@ zzzzzzzzzzzzzzzzzzzx:
               y: 185
   teamCount: 4
   terrain:
+    - acidic
     - hills
+    - island
   title: No regular water
