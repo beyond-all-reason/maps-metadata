@@ -434,7 +434,8 @@ async function buildWebflowInfo(
             mapTags.add(slug);
         }
 
-        for (const startbox of Object.values(map.startboxesSet || {})) {
+        const startboxes = Array.from(Object.values(map.startboxesSet || {}));
+        for (const startbox of startboxes) {
             const numTeams = startbox.startboxes.length;
             if (numTeams < 2 || numTeams > 4) {
                 continue;
@@ -450,6 +451,17 @@ async function buildWebflowInfo(
                 tagsOrder.set(slug, 1000 * numTeams + numPlayers);
                 mapTags.add(slug);
             }
+        }
+
+        // Special logic for the 1v1v1 tag.
+        if ((map.gameType.includes('ffa') && [3, 4, 6].includes(map.playerCount))
+            || startboxes.some(s => s.startboxes.length === 3 && s.maxPlayersPerStartbox <= 2)
+        ) {
+            const name = '1V1V1';
+            const slug = slugFromName(name);
+            allMapTags.set(slug, { name, slug });
+            tagsOrder.set(slug, 3001);
+            mapTags.add(slug);
         }
 
         const info: WebsiteMapInfo = {
