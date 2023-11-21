@@ -1343,14 +1343,14 @@
     - team
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7lBJDhvj1t0JYUNiCZED%2Fphoto%2FnjXVGYGvy0YicfFReRWx-baryon.jpg?alt=media&token=82f87962-1f75-476e-a3b5-37b1ce8ec273
-      lastModifiedTS: 1700403093336
-      name: baryon.jpg
-      ref: maps/7lBJDhvj1t0JYUNiCZED/photo/njXVGYGvy0YicfFReRWx-baryon.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7lBJDhvj1t0JYUNiCZED%2Fphoto%2FbJsDBYbvyKWMuYfGPGZ7-baryon11.jpg?alt=media&token=858c97fc-3abe-47b6-a1fc-fcf06bf91e6d
+      lastModifiedTS: 1700561650374
+      name: baryon11.jpg
+      ref: maps/7lBJDhvj1t0JYUNiCZED/photo/bJsDBYbvyKWMuYfGPGZ7-baryon11.jpg
       type: image/jpeg
   playerCount: 16
   special: Tar
-  springName: Baryon Tar Lake v1.0
+  springName: Baryon Tar Lake v1.1
   startboxesSet:
     S6HzVYk6IfKrkj4KEvKb:
       maxPlayersPerStartbox: 8
