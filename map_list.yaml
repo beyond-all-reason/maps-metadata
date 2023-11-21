@@ -8374,6 +8374,12 @@ fzRTg60xfSVnG44Zw42D:
     - wasteland
 g7NeIaS3XxFSn2KcrCiL:
   author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FbackgroundImage%2FR2IrPrP31tV8HT2wuFSk-screen00012.png?alt=media&token=d0efe917-e512-421f-a88b-c4b661c1b1b1
+      lastModifiedTS: 1700524310933
+      name: screen00012.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/backgroundImage/R2IrPrP31tV8HT2wuFSk-screen00012.png
+      type: image/png
   certified: true
   description: Flat 1vs1 map with many small pillars.
   displayName: Crystallized Plains
@@ -8389,7 +8395,7 @@ g7NeIaS3XxFSn2KcrCiL:
       ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Crystallized Plains 1.01
+  springName: Crystallized Plains 1.02
   startboxesSet:
     2MhyD5TFVBuEWuGAHvJv:
       maxPlayersPerStartbox: 1
