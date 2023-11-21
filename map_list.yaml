@@ -776,6 +776,12 @@
     - desert
 3QOjI5FJqvQEJElcRgTQ:
   author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FbackgroundImage%2FgfgOwuhi25gOegFPyCSi-screen00013.png?alt=media&token=6340cb5b-d047-4ca2-87ab-e2ab1d9f7a68
+      lastModifiedTS: 1700525462156
+      name: screen00013.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/backgroundImage/gfgOwuhi25gOegFPyCSi-screen00013.png
+      type: image/png
   certified: true
   description: This desolate asteroid is fought over only for the rich metal deposits.
   displayName: Rosetta
@@ -790,7 +796,7 @@
       ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Rosetta 1.4
+  springName: Rosetta 1.42
   startboxesSet:
     yF6wJrGQwl1rzGbiGQsf:
       maxPlayersPerStartbox: 8
@@ -808,8 +814,8 @@
   teamCount: 4
   terrain:
     - flat
-    - desert
     - hills
+    - desert
 3XVaIgjKnh120KPs7fv0:
   author: IceXuick
   backgroundImage:
