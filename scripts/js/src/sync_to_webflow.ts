@@ -454,7 +454,7 @@ async function buildWebflowInfo(
         }
 
         // Special logic for the 1v1v1 tag.
-        if ((map.gameType.includes('ffa') && [3, 4, 6].includes(map.playerCount))
+        if ((map.gameType.includes('ffa') && [3, 6].includes(map.playerCount))
             || startboxes.some(s => s.startboxes.length === 3 && s.maxPlayersPerStartbox <= 2)
         ) {
             const name = '1V1V1';
