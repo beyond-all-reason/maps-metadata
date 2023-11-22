@@ -469,7 +469,7 @@
   springName: FolsomDamR 1.16
   startboxesSet:
     7sHSzT3WEkIZZ0Uw2sfL:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 6
       startboxes:
         - poly:
             - x: 0
@@ -2816,6 +2816,12 @@ GPSFfpSd1wtmx4CZRGA6:
   title: Land, Sea and Air
 GT4UKIBCLBwdONdOMChl:
   author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGT4UKIBCLBwdONdOMChl%2FbackgroundImage%2F8Fj0ShHjNtXsmsFe30oY-screen00016.png?alt=media&token=9ed6a138-3e09-4f27-8bc8-4162e61fe0e8
+      lastModifiedTS: 1700586238708
+      name: screen00016.png
+      ref: maps/GT4UKIBCLBwdONdOMChl/backgroundImage/8Fj0ShHjNtXsmsFe30oY-screen00016.png
+      type: image/png
   certified: true
   description: A subtropical island suitable for 4-way FFA.
   displayName: Cirolata
@@ -3848,6 +3854,12 @@ LutAHarULFOEKKA21AvQ:
     - desert
 MDi3gNqaTj3H1DkzpPfz:
   author: Moose, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2FYALmtzgROKICUwYRQBTl-screen00024.png?alt=media&token=068a344e-edea-405b-9bed-5406428fda56
+      lastModifiedTS: 1700605256151
+      name: screen00024.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/backgroundImage/YALmtzgROKICUwYRQBTl-screen00024.png
+      type: image/png
   certified: true
   description: An arena of dark crystal plateaus rise above a winding river.
   displayName: Onyx Cauldron
@@ -5971,6 +5983,7 @@ XLh1oCb0Qdog1h40avFL:
   displayName: Centerrock
   gameType:
     - team
+    - pve
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXLh1oCb0Qdog1h40avFL%2FinGameShots%2FUifeVmAsOLBQPQ65Aj9J-CRR_SF_.jpg?alt=media&token=c56d0322-c354-4e10-9f6f-b8d7ccea37ea
       lastModifiedTS: 1589801667000
@@ -5999,11 +6012,11 @@ XLh1oCb0Qdog1h40avFL:
       name: centerrock_remake_1.2.jpg
       ref: maps/XLh1oCb0Qdog1h40avFL/photo/RcEJbg53gqrr55G9ccp6-centerrock_remake_1.2.jpg
       type: image/jpeg
-  playerCount: 12
+  playerCount: 10
   springName: Centerrock Remake 1.2
   startboxesSet:
     1JPhL6EiV9MyQRAuHC5R:
-      maxPlayersPerStartbox: 4
+      maxPlayersPerStartbox: 5
       startboxes:
         - poly:
             - x: 0
@@ -6380,6 +6393,12 @@ Xut8FRCmn2h5DuUqzF26:
     - desert
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FbackgroundImage%2F2uIy4BvdD6SUTcASGOCW-screen00028.png?alt=media&token=d3774190-9bcd-48b9-915c-c15c0eb9fe37
+      lastModifiedTS: 1700605640807
+      name: screen00028.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/backgroundImage/2uIy4BvdD6SUTcASGOCW-screen00028.png
+      type: image/png
   certified: true
   description: A lush river cuts through the bottom of this deep chasm. East vs West.
   displayName: Rustcrown Canyon
@@ -6868,19 +6887,6 @@ ZeOLwTAgEU10BGvcdQ45:
               y: 63
             - x: 152
               y: 72
-    hZTPGHbN0XIyXfLiy0lI:
-      maxPlayersPerStartbox: 1
-      startboxes:
-        - poly:
-            - x: 40
-              y: 82
-            - x: 52
-              y: 93
-        - poly:
-            - x: 152
-              y: 109
-            - x: 164
-              y: 120
     hbSkEIx17ngCKO9UshO3:
       maxPlayersPerStartbox: 1
       startboxes:
@@ -7003,6 +7009,7 @@ ZxFS2VuODjyLH5V8mHfR:
   displayName: Mescaline
   gameType:
     - team
+    - ffa
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZxFS2VuODjyLH5V8mHfR%2FinGameShots%2Fz4xmQA67wuiXb2Vbzuvy-Mescaline_V2_SEO-OG.jpg?alt=media&token=6623a54d-c233-4f63-9d96-961c2beed2bf
       lastModifiedTS: 1607074658000
@@ -7838,11 +7845,11 @@ cYgRxanQzvg7Bx9xXk1H:
       name: valles_marineris_2.6.jpg
       ref: maps/cYgRxanQzvg7Bx9xXk1H/photo/PLGdCe5NFsZgi30hWW2u-valles_marineris_2.6.jpg
       type: image/jpeg
-  playerCount: 8
+  playerCount: 10
   springName: Valles Marineris 2.6
   startboxesSet:
     64fPYn4XinaB9tcOrR11:
-      maxPlayersPerStartbox: 4
+      maxPlayersPerStartbox: 5
       startboxes:
         - poly:
             - x: 0
@@ -8521,6 +8528,12 @@ gEgiWXCvonENJseDsfjj:
     - alien
 gf2s52iInoEKNyK1vA19:
   author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fgf2s52iInoEKNyK1vA19%2FbackgroundImage%2FeHmWgptxpooKuvu57e9m-screen00018.png?alt=media&token=6c661bfe-f30a-48fb-9bbe-075c9a4e238b
+      lastModifiedTS: 1700586443793
+      name: screen00018.png
+      ref: maps/gf2s52iInoEKNyK1vA19/backgroundImage/eHmWgptxpooKuvu57e9m-screen00018.png
+      type: image/png
   certified: true
   description: Rugged mountains and grassy plains.
   displayName: Sunderance
@@ -10964,6 +10977,7 @@ vryCgnmiXKEfnJuBLobP:
   displayName: Greenest Fields
   gameType:
     - team
+    - ffa
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvryCgnmiXKEfnJuBLobP%2FinGameShots%2FuzBWzjpUt9Cv3utRL2F5-Greenest_Fields_1.0_SEO.jpg?alt=media&token=f3e0b17c-bf7d-4bed-93b0-ffe634caf3b1
       lastModifiedTS: 1647517260409
@@ -11318,6 +11332,7 @@ xbJTsdeXIKFQmuvBHW3d:
   gameType:
     - ffa
     - team
+    - pve
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxbJTsdeXIKFQmuvBHW3d%2FinGameShots%2FM22YhTeOtieRfRYYGqiY-Timna_Island_1.0%20SEO.jpg?alt=media&token=f419973e-6dde-47ac-ac7b-93c7e68b5768
       lastModifiedTS: 1644103135685
@@ -11339,12 +11354,12 @@ xbJTsdeXIKFQmuvBHW3d:
       name: Timna_Island_1.0.jpg
       ref: maps/xbJTsdeXIKFQmuvBHW3d/photo/tDliYQN5TMsMVdahqcha-Timna_Island_1.0.jpg
       type: image/jpeg
-  playerCount: 6
+  playerCount: 8
   special: Asymmetrical
   springName: Timna Island 1.0
   startboxesSet:
     W5bEz07izmUbtxgLpyAd:
-      maxPlayersPerStartbox: 3
+      maxPlayersPerStartbox: 4
       startboxes:
         - poly:
             - x: 0
