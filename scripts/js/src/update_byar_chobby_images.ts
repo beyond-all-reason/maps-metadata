@@ -9,6 +9,7 @@ import path from 'node:path';
 import { readMapList } from './maps_metadata.js';
 import pLimit from 'p-limit';
 import got from 'got';
+import { createHash } from 'node:crypto';
 
 const prog = program
     .argument('<byar-chobby-repo>', 'Path to BYAR-Chobby repo.')
@@ -56,6 +57,9 @@ class ImagePathMapper {
     }
 }
 
+const photoCacheDir = path.join(process.env.MAPS_CACHE_DIR || '.maps-cache', 'photo-cache');
+await fs.mkdir(photoCacheDir, { recursive: true });
+
 const imagorUrlBase = 'https://maps-metadata.beyondallreason.dev/i/';
 
 // WARNING: If you change any of those two parameters, it will regenerate all images so also change
@@ -75,18 +79,39 @@ const requests: Promise<any>[] = [];
 // Limit to 15 concurrent requests.
 const limit = pLimit(15);
 
+const imageCacheHits = new Set<string>();
+
 for (const map of Object.values(maps)) {
     for (const [mapper, urlBase] of [
         [overridesMapper, minimapOverrideUrlBase],
         [thumbnailsMapper, minimapThumbnailUrlBase],
     ] as Array<[ImagePathMapper, string]>) {
-        requests.push(limit(() => {
-            return pipeline(
-                got.stream(`${urlBase}/${rowyBucket}/${encodeURI(map.photo[0].ref)}`),
-                createWriteStream(mapper.getMapImagePath(map.springName))
-            )
+        requests.push(limit(async () => {
+            const url = `${urlBase}/${rowyBucket}/${encodeURI(map.photo[0].ref)}`;
+            const hash = createHash('sha256').update(url).digest('hex');
+
+            const imgPath = path.join(photoCacheDir, `chobby-${hash}`);
+            const fileExists = !!await fs.stat(imgPath).catch(e => null);
+            if (!fileExists) {
+                await pipeline(
+                    got.stream(url),
+                    createWriteStream(imgPath)
+                );
+            }
+            imageCacheHits.add(imgPath);
+            await fs.copyFile(imgPath, mapper.getMapImagePath(map.springName));
         }
         ));
     }
 }
 await Promise.all(requests);
+
+// Cleanup unused images.
+for (const image of await fs.readdir(photoCacheDir)) {
+    if (!image.startsWith('chobby-')) {
+        continue;
+    }
+    if (!imageCacheHits.has(path.join(photoCacheDir, image))) {
+        await fs.unlink(path.join(photoCacheDir, image));
+    }
+}

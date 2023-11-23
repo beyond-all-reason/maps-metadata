@@ -103,6 +103,13 @@ jobs:
           node-version: 18
           cache: npm
           cache-dependency-path: scripts/js/package-lock.json
+      - uses: actions/cache@v3
+        if: ${{ !env.ACT }}
+        with:
+          path: .maps-cache
+          key: maps-cache-cache-v2-chobby-${{ github.sha }}
+          restore-keys: |
+            maps-cache-cache-v2-chobby-
       - name: Install dependencies
         run: ./scripts/install.sh
       - name: Checkout BYAR-Chobby
