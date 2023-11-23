@@ -40,6 +40,7 @@ additionalProperties:
           - alien
           - asteroid
           - asymmetrical
+          - chokepoints
           - desert
           - flat
           - forests
@@ -53,6 +54,7 @@ additionalProperties:
           - metal
           - ruins
           - sea
+          - shallows
           - space
           - swamp
           - tropical
