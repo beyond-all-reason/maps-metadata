@@ -50,7 +50,6 @@ function loadMapLocationCache(): Map<string, MapLocation> {
             writeFileSync(
                 path.join(mapsCacheDir, 'mapLocationCache.json'),
                 JSON.stringify({
-                    date: new Date().getTime(),
                     version: mapLocationCacheVersion,
                     entries: [...mapLocationCache]
                 }));
@@ -62,8 +61,7 @@ function loadMapLocationCache(): Map<string, MapLocation> {
     try {
         const mlc = JSON.parse(readFileSync(
             path.join(mapsCacheDir, 'mapLocationCache.json'), { encoding: 'utf8' }));
-        if (mlc.version == mapLocationCacheVersion &&
-            new Date().getTime() - mlc.date < 1000 * 60 * 60 * 48) {
+        if (mlc.version == mapLocationCacheVersion) {
             return new Map(mlc.entries);
         }
     } catch (e) {

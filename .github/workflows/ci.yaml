@@ -38,7 +38,7 @@ jobs:
         if: ${{ !env.ACT }}
         with:
           path: .maps-cache
-          key: maps-cache-cache-v2-build-{{ github.sha }}
+          key: maps-cache-cache-v2-build-${{ github.sha }}
           restore-keys: |
             maps-cache-cache-v2-build-
       - name: Install dependencies
@@ -103,6 +103,13 @@ jobs:
           node-version: 18
           cache: npm
           cache-dependency-path: scripts/js/package-lock.json
+      - uses: actions/cache@v3
+        if: ${{ !env.ACT }}
+        with:
+          path: .maps-cache
+          key: maps-cache-cache-v2-chobby-${{ github.sha }}
+          restore-keys: |
+            maps-cache-cache-v2-chobby-
       - name: Install dependencies
         run: ./scripts/install.sh
       - name: Checkout BYAR-Chobby
@@ -199,7 +206,7 @@ jobs:
         if: ${{ !env.ACT }}
         with:
           path: .maps-cache
-          key: maps-cache-cache-v2-website-{{ github.sha }}
+          key: maps-cache-cache-v2-website-${{ github.sha }}
           restore-keys: |
             maps-cache-cache-v2-website-
       - name: Install dependencies
