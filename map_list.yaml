@@ -739,9 +739,8 @@
   terrain:
     - flat
     - water
-    - desert
-    - alien
     - asymmetrical
+    - wasteland
 2sZ9PltxKHn43NG3OA2y:
   author: Johannes
   certified: true
@@ -1344,8 +1343,9 @@
   teamCount: 2
   terrain:
     - flat
-    - water
     - metal
+    - island
+    - chokepoints
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   certified: true
@@ -2378,7 +2378,6 @@ Cz4OYo0Z2yht9PUP8vcN:
   terrain:
     - flat
     - alien
-    - desert
     - water
     - shallows
 DUxqUMUDGiYr1y5jx3sq:
@@ -3278,7 +3277,6 @@ GuTvi5G3QCGO8KASbbs1:
     - flat
     - hills
     - asteroid
-    - wasteland
 GxjYgcmTFdC3JivNsghb:
   author: Nikuksis
   certified: true
@@ -4157,6 +4155,8 @@ NULeDCjbZw5azkUT66rZ:
   terrain:
     - flat
     - metal
+    - chokepoints
+    - space
   title: Tight FFA
 NhuWJFWJBBS46Z1qsmBJ:
   author: Nikuksis
@@ -4315,7 +4315,6 @@ PiT4WHNB94kc8vlAZtot:
     - flat
     - hills
     - lava
-    - alien
   title: Hot and Steamy
 PlmJPs87RuAnAlL6inG1:
   author: Nikuksis
@@ -4614,6 +4613,7 @@ QsD0vDtYMgk8ATraKoNI:
     - asteroid
     - asymmetrical
     - wasteland
+    - space
   title: FFA or Team fights on this bizarre planetoid
 RDAUlsjOhgAH2fDvAEmI:
   author: Nikuksis
@@ -4701,8 +4701,7 @@ RLZ07b2DZS9vYPn5dvFX:
   terrain:
     - water
     - hills
-    - alien
-    - desert
+    - wasteland
 RT3Y6Qyjvt3pTGXWjWPK:
   author: IceXuick
   certified: true
@@ -6118,7 +6117,7 @@ XMFpTWsDjFSPjJ4nOZSO:
   terrain:
     - desert
     - island
-    - alien
+    - wasteland
 XR0Czafa4dwZRh0r3fTy:
   author: Nikuksis
   certified: true
@@ -7378,8 +7377,8 @@ bkIRTcsnvtmQVsm3SsNJ:
   teamCount: 2
   terrain:
     - metal
-    - space
     - alien
+    - chokepoints
 byucseTLrpgU0J70dFC0:
   author: IceXuick
   backgroundImage:
@@ -7618,6 +7617,8 @@ c8VOLOtft95bMvYUg60R:
   terrain:
     - flat
     - metal
+    - chokepoints
+    - space
   title: Number 9
 cIMaYX0u2fprp7Qk78wK:
   author: Nikuksis
@@ -8161,8 +8162,8 @@ etCTTwexgYVGMV63rOWy:
   teamCount: 2
   terrain:
     - hills
-    - wasteland
     - shallows
+    - swamp
 fivY9RQRkefErWygMT09:
   author: Beherith
   certified: true
@@ -9478,6 +9479,7 @@ lJQnSRqDN7rNPS5pe80C:
     - flat
     - metal
     - chokepoints
+    - space
 ljx3Fdz1TLbewjyAIoVw:
   author: Beherith
   certified: true
