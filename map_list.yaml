@@ -72,6 +72,7 @@
     - ruins
     - desert
     - wasteland
+    - chokepoints
 0rkuPKU4nx2GuhlUC8sH:
   author: Nikuksis
   backgroundImage:
@@ -201,6 +202,7 @@
     - hills
     - grassy
     - desert
+    - shallows
 1FfJKeljSZeWodN5FZsW:
   author: Nikuksis
   certified: true
@@ -233,9 +235,9 @@
   teamCount: 2
   terrain:
     - flat
-    - water
     - tropical
     - island
+    - shallows
 1JL7kMOT8mYsx2OEQnv8:
   author: Nikuksis
   certified: true
@@ -487,6 +489,8 @@
     - water
     - ruins
     - grassy
+    - chokepoints
+    - shallows
   title: Perfect for Teamplay
 2Jm1E7F819zbEWOr2Bwc:
   author: IceXuick
@@ -1189,6 +1193,8 @@
   terrain:
     - hills
     - ice
+    - chokepoints
+    - asymmetrical
   title: Cold & Tight
 4WiZnMfXPyjUARuQumRM:
   author: Phalange
@@ -1750,6 +1756,7 @@
     - hills
     - grassy
     - flat
+    - chokepoints
   title: A Classic
 A9eqjOzH3trguY66HGmH:
   author: Nikuksis
@@ -1847,6 +1854,7 @@ ABBUHinh94O7299Php6p:
     - hills
     - flat
     - desert
+    - chokepoints
 ACgCe99NC8yZFecMwRCm:
   author: Nikuksis
   certified: true
@@ -2122,6 +2130,7 @@ An6zReiqIWD15Yx7bZ3b:
   terrain:
     - flat
     - grassy
+    - chokepoints
   title: Start Small
 BCDbKYnQqHT1PE5lo8Es:
   author: Nikuksis
@@ -2371,6 +2380,7 @@ Cz4OYo0Z2yht9PUP8vcN:
     - alien
     - desert
     - water
+    - shallows
 DUxqUMUDGiYr1y5jx3sq:
   author: Phalange
   certified: true
@@ -2405,7 +2415,6 @@ DUxqUMUDGiYr1y5jx3sq:
   terrain:
     - hills
     - island
-    - sea
 DyHExxTkkRB4DweNDViM:
   author: Nikuksis
   backgroundImage:
@@ -2497,7 +2506,6 @@ DyHExxTkkRB4DweNDViM:
   teamCount: 2
   terrain:
     - hills
-    - water
     - island
     - asymmetrical
     - ice
@@ -2569,6 +2577,8 @@ E17BdeDITeBMZ8YwcBie:
     - hills
     - grassy
     - desert
+    - shallows
+    - chokepoints
   title: Fortify & Fight
 ER2B5mT2LU864k1f0UeH:
   author: Nikuksis
@@ -2638,6 +2648,7 @@ EiT2c89HcHhHeuZxXako:
   terrain:
     - hills
     - wasteland
+    - shallows
 F40FJFEjKm3hcVzdnIvA:
   author: IceXuick
   backgroundImage:
@@ -2714,10 +2725,10 @@ F40FJFEjKm3hcVzdnIvA:
   teamCount: 2
   terrain:
     - flat
-    - hills
     - ruins
     - desert
     - asymmetrical
+    - chokepoints
 GPSFfpSd1wtmx4CZRGA6:
   author: IceXuick
   backgroundImage:
@@ -2810,9 +2821,10 @@ GPSFfpSd1wtmx4CZRGA6:
   teamCount: 3
   terrain:
     - flat
-    - water
     - tropical
     - island
+    - shallows
+    - chokepoints
   title: Land, Sea and Air
 GT4UKIBCLBwdONdOMChl:
   author: Moose
@@ -2877,9 +2889,9 @@ GT4UKIBCLBwdONdOMChl:
   teamCount: 4
   terrain:
     - flat
-    - water
     - hills
     - grassy
+    - island
 Gkh9KVgCUNbGTXWBjPoV:
   author: Nikuksis
   backgroundImage:
@@ -3150,7 +3162,6 @@ Gkh9KVgCUNbGTXWBjPoV:
   teamCount: 40
   terrain:
     - flat
-    - sea
     - island
     - tropical
 GuTvi5G3QCGO8KASbbs1:
@@ -3355,7 +3366,6 @@ GxjYgcmTFdC3JivNsghb:
               y: 133
   teamCount: 5
   terrain:
-    - sea
     - island
 Gydc5ydDuhV4hS7cyJJm:
   author: Johannes
@@ -3515,7 +3525,6 @@ HdwZWKydw2luEc8EascR:
   teamCount: 5
   terrain:
     - flat
-    - sea
     - island
     - tropical
 I7GpETWic750BOdwvkdh:
@@ -3695,7 +3704,6 @@ Jdb4pZyLQPb0IkSmaVrO:
   teamCount: 2
   terrain:
     - flat
-    - water
     - grassy
     - island
 KAQ69kPLvMZgMuLXIoyU:
@@ -3891,10 +3899,10 @@ MDi3gNqaTj3H1DkzpPfz:
               y: 175
   teamCount: 2
   terrain:
-    - water
     - hills
     - grassy
     - wasteland
+    - shallows
 MIHFHzbaF3j4OMqvreh9:
   author: Nikuksis
   certified: false
@@ -4213,6 +4221,7 @@ NhuWJFWJBBS46Z1qsmBJ:
     - hills
     - forests
     - grassy
+    - chokepoints
 OgYCeZrIVMN1b9sUbweo:
   author: Beherith
   certified: true
@@ -4248,6 +4257,7 @@ OgYCeZrIVMN1b9sUbweo:
     - water
     - grassy
     - flat
+    - shallows
 PiT4WHNB94kc8vlAZtot:
   author: Nikuksis
   backgroundImage:
@@ -4414,7 +4424,6 @@ QaENCgzeDrnkRnRsgnVT:
   teamCount: 2
   terrain:
     - hills
-    - water
     - island
 QlanwpEXsYOy3ZYYp3iu:
   author: IceXuick
@@ -4483,6 +4492,7 @@ QlanwpEXsYOy3ZYYp3iu:
     - grassy
     - flat
     - water
+    - shallows
   title: Pro Team Map
 QsD0vDtYMgk8ATraKoNI:
   author: IceXuick
@@ -4656,7 +4666,6 @@ RDAUlsjOhgAH2fDvAEmI:
   terrain:
     - asymmetrical
     - sea
-    - island
 RLZ07b2DZS9vYPn5dvFX:
   author: Nikuksis
   certified: true
@@ -5076,7 +5085,6 @@ SYB0blENn3hqhEyLC24B:
   teamCount: 16
   terrain:
     - hills
-    - water
     - island
     - grassy
     - forests
@@ -5239,8 +5247,8 @@ U8PJYIPdYQoMXGJND2Kg:
   teamCount: 2
   terrain:
     - hills
-    - water
     - grassy
+    - shallows
 UeeBymo7RdXE5ty3amFw:
   author: IceXuick
   backgroundImage:
@@ -5418,10 +5426,10 @@ UhGP9ish5WdFio1VfrU6:
               y: 200
   teamCount: 2
   terrain:
-    - water
     - sea
     - flat
     - tropical
+    - shallows
   title: Combine and Conquer
 UywijIj1uPuFeoV231kL:
   author: IceXuick
@@ -5581,7 +5589,6 @@ UywijIj1uPuFeoV231kL:
   teamCount: 8
   terrain:
     - hills
-    - water
     - island
     - grassy
     - desert
@@ -5749,10 +5756,10 @@ WOlmGcTZXUtV5iy57Kc9:
   teamCount: 2
   terrain:
     - hills
-    - water
     - island
     - grassy
     - forests
+    - shallows
 WrkVFQS8BedaqPg5SeB7:
   author: Phalange
   certified: false
@@ -5888,7 +5895,6 @@ WuwJQPBtwMfJR9czmWuQ:
   teamCount: 4
   terrain:
     - hills
-    - water
     - grassy
     - island
     - forests
@@ -5968,6 +5974,7 @@ XAYu2CrwVdR5GlcpOxL0:
     - flat
     - desert
     - sea
+    - shallows
 XLh1oCb0Qdog1h40avFL:
   author: IceXuick
   backgroundImage:
@@ -6033,7 +6040,7 @@ XLh1oCb0Qdog1h40avFL:
     - hills
     - desert
     - water
-    - flat
+    - chokepoints
   title: Extremely fun
 XMFpTWsDjFSPjJ4nOZSO:
   author: Nikuksis
@@ -6109,7 +6116,6 @@ XMFpTWsDjFSPjJ4nOZSO:
               y: 186
   teamCount: 3
   terrain:
-    - sea
     - desert
     - island
     - alien
@@ -6228,6 +6234,7 @@ XipxkGywEz3REbHKrvP6:
     - island
     - grassy
     - forests
+    - chokepoints
 XnCjzq4LvLB6mik5aib1:
   author: IceXuick
   backgroundImage:
@@ -6432,6 +6439,7 @@ Y5e7sl891wO5G2ttwjmr:
     - hills
     - water
     - forests
+    - shallows
 Ydjj7Fy4NpaLHdkvhsIn:
   author: Beherith
   certified: true
@@ -6913,7 +6921,6 @@ ZeOLwTAgEU10BGvcdQ45:
   teamCount: 16
   terrain:
     - flat
-    - water
     - asymmetrical
     - island
     - hills
@@ -6996,6 +7003,7 @@ ZrnTf20mPzbrMjtHa9Wg:
     - flat
     - grassy
     - forests
+    - shallows
 ZxFS2VuODjyLH5V8mHfR:
   author: Beherith
   backgroundImage:
@@ -7142,6 +7150,7 @@ Zy8Ha3O3lHl7mUMvM8Gs:
     - alien
     - wasteland
     - asymmetrical
+    - chokepoints
 aUhyiiVDKaRECJfqPBAo:
   author: BasiC
   certified: true
@@ -7781,9 +7790,9 @@ cQbwmwbhWrWyD1bhZNEn:
   terrain:
     - hills
     - flat
-    - sea
     - island
     - forests
+    - shallows
 cYgRxanQzvg7Bx9xXk1H:
   author: IceXuick
   backgroundImage:
@@ -8089,9 +8098,9 @@ eR6j6L2F2OSP7QeCfW8O:
               y: 200
   teamCount: 2
   terrain:
-    - island
     - tropical
     - sea
+    - hills
 etCTTwexgYVGMV63rOWy:
   author: Beherith
   backgroundImage:
@@ -8153,6 +8162,7 @@ etCTTwexgYVGMV63rOWy:
   terrain:
     - hills
     - wasteland
+    - shallows
 fivY9RQRkefErWygMT09:
   author: Beherith
   certified: true
@@ -8223,7 +8233,6 @@ fkhBIvsAdLiL9CvVlp2l:
     - hills
     - island
     - desert
-    - sea
 frJOFVdgDIROpNVzgDed:
   author: Beherith
   backgroundImage:
@@ -8904,6 +8913,7 @@ iQZFWB7rheiOseoQXihq:
     - asymmetrical
     - grassy
     - flat
+    - chokepoints
   title: Familiar grounds
 igcp0iDB12WAKPdtBDna:
   author: Phalange
@@ -9085,6 +9095,7 @@ j3X9bepS3FrtzjLLNmmu:
     - water
     - forests
     - grassy
+    - shallows
   title: Start Small
 kesPeWO0ScnmWF2An8qA:
   author: Nikuksis
@@ -9268,6 +9279,7 @@ kgpwvzDGdXoVcD6whG3C:
     - flat
     - water
     - desert
+    - shallows
 kovRjd67kdlVUNN4szAP:
   author: Phalange
   certified: false
@@ -9303,6 +9315,7 @@ kovRjd67kdlVUNN4szAP:
     - desert
     - sea
     - flat
+    - shallows
 lJQnSRqDN7rNPS5pe80C:
   author: Beherith
   backgroundImage:
@@ -9464,6 +9477,7 @@ lJQnSRqDN7rNPS5pe80C:
   terrain:
     - flat
     - metal
+    - chokepoints
 ljx3Fdz1TLbewjyAIoVw:
   author: Beherith
   certified: true
@@ -9504,6 +9518,7 @@ ljx3Fdz1TLbewjyAIoVw:
   terrain:
     - flat
     - wasteland
+    - shallows
 mAD4ToJrMg6xGHEM18qN:
   author: Nikuksis
   certified: true
@@ -9574,9 +9589,9 @@ mzdkzzTL3zgPanW6zQx4:
               y: 189
   teamCount: 2
   terrain:
-    - hills
     - space
     - flat
+    - chokepoints
 oBOBWCmenCo2tbkwYNJt:
   author: Beherith
   backgroundImage:
@@ -9837,6 +9852,7 @@ pZko6a1Lqs5ZYeVO0BqS:
     - sea
     - grassy
     - forests
+    - shallows
 pqGeTK0PB1xPJ6A1u6CO:
   author: SirArtturi
   certified: true
@@ -9973,6 +9989,7 @@ qrpwI83FonOR43KTBxZE:
     - grassy
     - forests
     - flat
+    - shallows
 rC0RO0MGRS9ckbGJdGG1:
   author: Nikuksis
   certified: true
@@ -10321,7 +10338,6 @@ s7nrY1vJEItDuPwHAKEO:
               y: 200
   teamCount: 2
   terrain:
-    - flat
     - hills
     - asteroid
     - asymmetrical
@@ -10953,6 +10969,7 @@ veW9CUoQ0oV7OofQab4y:
     - flat
     - water
     - alien
+    - shallows
 vryCgnmiXKEfnJuBLobP:
   author: IceXuick
   backgroundImage:
@@ -11309,7 +11326,6 @@ x3jIjnV9aipWzVVWjZlL:
     - flat
     - metal
     - island
-    - sea
 xbJTsdeXIKFQmuvBHW3d:
   author: IceXuick
   backgroundImage:
@@ -11374,7 +11390,6 @@ xbJTsdeXIKFQmuvBHW3d:
   teamCount: 2
   terrain:
     - hills
-    - water
     - asymmetrical
     - desert
     - island
@@ -11485,6 +11500,7 @@ z7TZ4CbeIBJtjEjNAwer:
     - hills
     - sea
     - grassy
+    - shallows
 zfA6sKjimXZO5kz0jtz1:
   author: PeaceFighter, Nikuksis
   certified: true
@@ -11622,6 +11638,7 @@ zvBCoDF2TaUPp7AwfCUr:
     - water
     - grassy
     - forests
+    - chokepoints
   title: Peaceful... or not...
 zvTEXnewG2G8LaMjFq4o:
   author: IceXuick
@@ -11804,5 +11821,4 @@ zzzzzzzzzzzzzzzzzzzx:
   terrain:
     - acidic
     - hills
-    - island
   title: No regular water
