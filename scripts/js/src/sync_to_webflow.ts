@@ -402,6 +402,8 @@ async function buildWebflowInfo(
     const allMapTags: Map<string, WebsiteMapTag> = new Map();
     const tagsOrder: Map<string, number> = new Map();
 
+    const terrainsOrder = getRowyMapTerrainsOrder();
+
     for (const [rowyId, map] of Object.entries(maps)) {
         const mi = cdnInfo.get(map.springName);
         if (!mi) {
@@ -489,7 +491,7 @@ async function buildWebflowInfo(
             heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
             mapTags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
-            mapTerrains: Array.from(map.terrain).sort(),
+            mapTerrains: Array.from(map.terrain).sort((a, b) => terrainsOrder.get(a)! - terrainsOrder.get(b)!),
         };
 
         // Sanity check because the metadata stuff is using `any` type.
@@ -650,6 +652,11 @@ async function syncMapTerrainsToWebflowRemovals(
 function getRowyMapTerrains(): Map<string, WebsiteMapTerrain> {
     const terrains = mapSchema.additionalProperties.properties.terrain.items.enum;
     return new Map(terrains.map(t => [t, { name: t, slug: t }]));
+}
+
+function getRowyMapTerrainsOrder(): Map<string, number> {
+    const terrains = mapSchema.additionalProperties.properties.terrain.items.enum;
+    return new Map(terrains.map((t, i) => [t, i]));
 }
 
 async function syncMapsToWebflow(

@@ -36,30 +36,31 @@ additionalProperties:
         type: string
         title: TerrainType
         enum:
+          # Sorting order here defined sorting order for the terrain tags on the website
+          - lava
+          - ice
           - acidic
           - alien
           - asteroid
-          - asymmetrical
-          - chokepoints
+          - space
           - desert
-          - flat
           - forests
           - grassy
-          - hills
-          - ice
-          - industrial
-          - island
+          - tropical
+          - swamp
           - jungle
-          - lava
+          - wasteland
           - metal
+          - industrial
           - ruins
           - sea
-          - shallows
-          - space
-          - swamp
-          - tropical
-          - wasteland
           - water
+          - island
+          - shallows
+          - chokepoints
+          - asymmetrical
+          - flat
+          - hills
       uniqueItems: true
       default: []
     playerCount:
