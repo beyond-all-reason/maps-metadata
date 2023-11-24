@@ -29,7 +29,7 @@ gen/mapLists.conf: gen/map_list.validated.json
 	python scripts/py/gen_nextmap_maplists.py
 
 # Tests on data
-test: typecheck_scripts check_startboxes check_photo_aspect_ratio
+test: typecheck_scripts check_startboxes check_photo_aspect_ratio check_archive_not_solid
 	echo ok
 
 typecheck_scripts: gen/types/map_list.d.ts gen/types/live_maps.d.ts gen/types/cdn_maps.d.ts
@@ -40,6 +40,9 @@ check_startboxes: gen/types/map_list.d.ts gen/map_list.validated.json
 
 check_photo_aspect_ratio: gen/types/map_list.d.ts gen/map_list.validated.json
 	ts-node scripts/js/src/check_photo_aspect_ratio.ts
+
+check_archive_not_solid: gen/types/map_list.d.ts gen/map_list.validated.json
+	ts-node scripts/js/src/check_archive_not_solid.ts
 
 # Auxiliary build targets
 types: gen/types/map_list.d.ts gen/map_list.schema.json
