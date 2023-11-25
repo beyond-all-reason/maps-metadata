@@ -3615,6 +3615,80 @@ I7GpETWic750BOdwvkdh:
   terrain:
     - flat
     - ice
+J8V3PInQjJJ2KERt9A1F:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FbackgroundImage%2FTIYf6XvD0N9kbKrgeCBj-image3.png?alt=media&token=93c6e79e-0b43-416f-beea-d55cd0ab428c
+      lastModifiedTS: 1700915234828
+      name: image3.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/backgroundImage/TIYf6XvD0N9kbKrgeCBj-image3.png
+      type: image/png
+  certified: true
+  description: Large desert hills are separated by wide river.
+  displayName: Seven Rivers
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FinGameShots%2FFzcRrX560n1oLkfZsZmL-image.png?alt=media&token=7772b124-4b73-436a-a751-b0b401ecff86
+      lastModifiedTS: 1700915212320
+      name: image.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/inGameShots/FzcRrX560n1oLkfZsZmL-image.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FinGameShots%2FaVMIr8Kh5iabxhXpuJDX-image3.png?alt=media&token=cf9aa4a6-e2cd-49f6-a545-b90f4690c722
+      lastModifiedTS: 1700915234828
+      name: image3.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/inGameShots/aVMIr8Kh5iabxhXpuJDX-image3.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FinGameShots%2FNIvI3PYkfiHUykpbgkt5-image2.png?alt=media&token=0bff597e-0803-41b8-8c0f-dd8b3141cda7
+      lastModifiedTS: 1700915226952
+      name: image2.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/inGameShots/NIvI3PYkfiHUykpbgkt5-image2.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FinGameShots%2FP44i7AC3djLjDrFGwJmC-image.png?alt=media&token=b0e1d7ab-f3b7-4604-8340-6133be7bac28
+      lastModifiedTS: 1700915212320
+      name: image.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/inGameShots/P44i7AC3djLjDrFGwJmC-image.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FinGameShots%2FqWGRc1RoQIrbb13YKNhu-image5.png?alt=media&token=5c048ff1-becb-4030-bbc4-23145495f423
+      lastModifiedTS: 1700915252503
+      name: image5.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/inGameShots/qWGRc1RoQIrbb13YKNhu-image5.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FperspectiveShot%2FSp8F6Hsb5LUrDrhO2kyO-persec.png?alt=media&token=c93c3acc-81cc-4438-9eb6-8f89f87dc574
+      lastModifiedTS: 1700915455105
+      name: persec.png
+      ref: maps/J8V3PInQjJJ2KERt9A1F/perspectiveShot/Sp8F6Hsb5LUrDrhO2kyO-persec.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2Fphoto%2Fm1dSOREyl3cswUBPlaUt-seven_rivers.jpg?alt=media&token=cbf9e883-c241-4153-b2ae-0e120489c512
+      lastModifiedTS: 1700915145625
+      name: seven_rivers.jpg
+      ref: maps/J8V3PInQjJJ2KERt9A1F/photo/m1dSOREyl3cswUBPlaUt-seven_rivers.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Seven Rivers v1.1
+  startboxesSet:
+    vR67G88GvxgrPzVL0OIl:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - desert
+    - hills
+    - shallows
+  title: Welcome to the Seven Rivers valley!
 JWJVrROvEUieLeIfuS9a:
   author: IceXuick
   backgroundImage:
