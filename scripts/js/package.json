@@ -17,6 +17,7 @@
     "ajv-formats": "^2.1.1",
     "bottleneck": "^2.19.5",
     "commander": "~10.0.0",
+    "googleapis": "^128.0.0",
     "got": "^12.6.0",
     "image-size": "^1.0.2",
     "json-schema-to-typescript": "^13.0.1",
