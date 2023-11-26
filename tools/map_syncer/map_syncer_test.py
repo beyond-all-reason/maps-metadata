@@ -226,7 +226,7 @@ def test_poller_starts_sync_correctly(mocker: MockerFixture) -> None:
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
     t = threading.Thread(
         target=lambda: map_syncer.polling_sync(
-            pathlib.Path(""), "", 0, sync_trigger, "http://x.com/health"
+            pathlib.Path(), "", 0, sync_trigger, "http://x.com/health"
         )
     )
     t.start()
@@ -245,7 +245,7 @@ def test_poller_catches_exceptions(mocker: MockerFixture) -> None:
     sync_files.side_effect = RuntimeError("test")
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
     t = threading.Thread(
-        target=lambda: map_syncer.polling_sync(pathlib.Path(""), "", 0, sync_trigger)
+        target=lambda: map_syncer.polling_sync(pathlib.Path(), "", 0, sync_trigger)
     )
     t.start()
     sync_trigger.put((map_syncer.SyncOp.SYNC, "A"))
@@ -260,7 +260,7 @@ def test_poller_ignores_duplicate_requests(mocker: MockerFixture) -> None:
     sync_files = mocker.patch("map_syncer.sync_files")
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
     t = threading.Thread(
-        target=lambda: map_syncer.polling_sync(pathlib.Path(""), "", 0, sync_trigger)
+        target=lambda: map_syncer.polling_sync(pathlib.Path(), "", 0, sync_trigger)
     )
     t.start()
     for _ in range(10):
@@ -322,7 +322,8 @@ def test_sync_files_deletes_only_old(live_maps_url: str, fs: FakeFilesystem) -> 
     assert fs.exists(d / "map_old_1.sd7")
     assert not fs.exists(d / "map_old_2.sd7")
     assert cast(
-        Dict[str, int], json.loads(fs.get_object(d / "tombstones.json").contents)
+        Dict[str, int],
+        json.loads(fs.get_object(d / "tombstones.json").contents or "{}"),
     ) == {
         "map_old_1.sd7": initial_tombstones["map_old_1.sd7"],
     }

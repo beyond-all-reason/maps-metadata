@@ -182,7 +182,7 @@ class SyncOp(Enum):
     STOP = 2
 
 
-if TYPE_CHECKING:  # noqa: SIM108
+if TYPE_CHECKING:
     SyncQueue = queue.Queue[Tuple[SyncOp, str]]
 else:
     SyncQueue = queue.Queue
