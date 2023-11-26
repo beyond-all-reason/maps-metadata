@@ -17,6 +17,7 @@ import os
 import queue
 import shutil
 import signal
+import socket
 import sys
 import threading
 import time
@@ -47,6 +48,10 @@ DEFAULT_LIVE_MAPS_URL = (
 DEFAULT_MQTT_TOPIC = "dev.beyondallreason.maps-metadata/live_maps/updated:v1"
 DEFAULT_DELETE_AFTER = 4 * 60 * 60  # 4 hours
 DEFAULT_POLL_INTERVAL = 10 * 60  # 10 minutes
+
+# In some rare instances, sockets can get stuck. Let's make sure that
+# we timeout them after some time for all socket oprations.
+socket.setdefaulttimeout(60)
 
 
 @dataclass
