@@ -7547,13 +7547,13 @@ aDu1H6XNI6Jh5OZUcagp:
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FaDu1H6XNI6Jh5OZUcagp%2Fphoto%2F6RPGjRhqsdSFu6KlkyeA-glacial_gap.jpg?alt=media&token=55f9f88f-6fcd-4244-9612-7aad919ce86f
-      lastModifiedTS: 1701273771187
-      name: glacial_gap.jpg
-      ref: maps/aDu1H6XNI6Jh5OZUcagp/photo/6RPGjRhqsdSFu6KlkyeA-glacial_gap.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FaDu1H6XNI6Jh5OZUcagp%2Fphoto%2FMw2Vb5zj8lXIz3XQO9Ri-glacial_gap11.jpg?alt=media&token=b28f349f-9fc9-40a9-b11e-2092e6ea2aa4
+      lastModifiedTS: 1701287225923
+      name: glacial_gap11.jpg
+      ref: maps/aDu1H6XNI6Jh5OZUcagp/photo/Mw2Vb5zj8lXIz3XQO9Ri-glacial_gap11.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Glacial Gap v1.01
+  springName: Glacial Gap v1.1
   startboxesSet:
     joeXOKGFmKquZCSrC8eP:
       maxPlayersPerStartbox: 8
