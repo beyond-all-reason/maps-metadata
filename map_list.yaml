@@ -9009,13 +9009,13 @@ gEgiWXCvonENJseDsfjj:
       ref: maps/gEgiWXCvonENJseDsfjj/perspectiveShot/VF5fYcUtk5KOFKjrJtH3-bismuth3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2Fphoto%2Fe3wHv4RXBelLQJXSbKej-bismuth.jpg?alt=media&token=624086da-6767-4145-9e4a-593dcf738011
-      lastModifiedTS: 1701517839566
-      name: bismuth.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/photo/e3wHv4RXBelLQJXSbKej-bismuth.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2Fphoto%2FawVXkq2D1F5gfQmI1Lgn-bismuth231.jpg?alt=media&token=0a0cc90c-78f8-4efb-a02d-5e2cbe54651f
+      lastModifiedTS: 1701523887163
+      name: bismuth231.jpg
+      ref: maps/gEgiWXCvonENJseDsfjj/photo/awVXkq2D1F5gfQmI1Lgn-bismuth231.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Bismuth Valley v2.3
+  springName: Bismuth Valley v2.3.1
   startboxesSet:
     C3fyMtWQN4KLZZbILWDJ:
       maxPlayersPerStartbox: 8
