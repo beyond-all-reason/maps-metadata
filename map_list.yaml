@@ -8955,53 +8955,67 @@ g7NeIaS3XxFSn2KcrCiL:
 gEgiWXCvonENJseDsfjj:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FbackgroundImage%2F46m7MHl4xHNQSZDhBAeW-bismuth_valley_overview.jpg?alt=media&token=106f931f-c146-4326-9488-f69b44fe1f41
-      lastModifiedTS: 1683617743780
-      name: bismuth_valley_overview.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/backgroundImage/46m7MHl4xHNQSZDhBAeW-bismuth_valley_overview.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FbackgroundImage%2FexXuWz7ZTJHpS4uok5qE-screen_2023-12-02_11-54-15-792.png?alt=media&token=3aa10d67-0b32-4322-9bf2-4ef1ef3934ed
+      lastModifiedTS: 1701518056603
+      name: screen_2023-12-02_11-54-15-792.png
+      ref: maps/gEgiWXCvonENJseDsfjj/backgroundImage/exXuWz7ZTJHpS4uok5qE-screen_2023-12-02_11-54-15-792.png
+      type: image/png
   certified: true
-  description: Slight speed buff on the rocky terrain. Side hills are bots-only
-    passable. Single mexes are richer.
+  description: Side hills are bots-only passable. Single mexes are richer.
   displayName: Bismuth Valley
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FaOmAXIKJg1CtPmb8sqoL-bismuth_valley_SS4.jpg?alt=media&token=4d0ea797-690e-497e-8bcf-038fbdfa3804
-      lastModifiedTS: 1683617754425
-      name: bismuth_valley_SS4.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/aOmAXIKJg1CtPmb8sqoL-bismuth_valley_SS4.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FPtMb1PntbfDXJm93Rpqm-bismuth_valley_SS3.jpg?alt=media&token=979dfe4f-12e4-4026-b0c2-8e292a1b7efc
-      lastModifiedTS: 1683617751633
-      name: bismuth_valley_SS3.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/PtMb1PntbfDXJm93Rpqm-bismuth_valley_SS3.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2Fnhvh6MxJsmXYMGDlU3mh-bismuth_valley_SS2.jpg?alt=media&token=64a79949-04a6-4189-bcf1-357bc723acb3
-      lastModifiedTS: 1683617749000
-      name: bismuth_valley_SS2.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/nhvh6MxJsmXYMGDlU3mh-bismuth_valley_SS2.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2F8etvCj0RJshqJKD4iRm4-bismuth_valley_SS1.jpg?alt=media&token=9d3b2647-39fe-45f8-a5df-6fec1f27a025
-      lastModifiedTS: 1683617746395
-      name: bismuth_valley_SS1.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/8etvCj0RJshqJKD4iRm4-bismuth_valley_SS1.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FpHWeQwFC9LG3vdEw3LoN-screen_2023-12-02_11-54-46-402.png?alt=media&token=38ad8bad-bb61-4742-9f92-b3ddaea81da7
+      lastModifiedTS: 1701518087367
+      name: screen_2023-12-02_11-54-46-402.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/pHWeQwFC9LG3vdEw3LoN-screen_2023-12-02_11-54-46-402.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2F5QF7Yw2AiXizsxv8nmVO-screen_2023-12-02_11-55-25-251.png?alt=media&token=72eddf01-1e1f-4db5-9661-472346eead8d
+      lastModifiedTS: 1701518126203
+      name: screen_2023-12-02_11-55-25-251.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/5QF7Yw2AiXizsxv8nmVO-screen_2023-12-02_11-55-25-251.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FX9wmXPKW4Z5aTTeWJsGV-screen_2023-12-02_11-55-02-031.png?alt=media&token=07cd9a89-99a7-46ff-b02c-bc1b4b7efdfe
+      lastModifiedTS: 1701518102941
+      name: screen_2023-12-02_11-55-02-031.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/X9wmXPKW4Z5aTTeWJsGV-screen_2023-12-02_11-55-02-031.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FMQzCc3nme0AkS1MvVu65-screen_2023-12-02_11-53-41-294.png?alt=media&token=1661088e-e132-4c09-9cb1-cac2cf936468
+      lastModifiedTS: 1701518022104
+      name: screen_2023-12-02_11-53-41-294.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/MQzCc3nme0AkS1MvVu65-screen_2023-12-02_11-53-41-294.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FSJ3TUq488uBsjWMmEwhv-screen_2023-12-02_11-56-55-163.png?alt=media&token=b64bd098-3be6-47cc-b362-b8b1d661d0cc
+      lastModifiedTS: 1701518215972
+      name: screen_2023-12-02_11-56-55-163.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/SJ3TUq488uBsjWMmEwhv-screen_2023-12-02_11-56-55-163.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2FikzTGmPMSkhSkEalGvTy-screen_2023-12-02_11-54-37-927.png?alt=media&token=95fb4a63-be15-4aa2-9dda-7b69b2a13d80
+      lastModifiedTS: 1701518078711
+      name: screen_2023-12-02_11-54-37-927.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/ikzTGmPMSkhSkEalGvTy-screen_2023-12-02_11-54-37-927.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FinGameShots%2Fh8YTthx3AldrpitxzBQU-screen_2023-12-02_11-56-11-009.png?alt=media&token=8bf8b07a-a33a-428c-9f55-bf28deff913a
+      lastModifiedTS: 1701518171904
+      name: screen_2023-12-02_11-56-11-009.png
+      ref: maps/gEgiWXCvonENJseDsfjj/inGameShots/h8YTthx3AldrpitxzBQU-screen_2023-12-02_11-56-11-009.png
+      type: image/png
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FlZs16faKUUm1ClJIec12-bismuth_valley_3d.png?alt=media&token=18ee13e6-5bcb-4c9f-9690-eb5b57448a9b
-      lastModifiedTS: 1683617757702
-      name: bismuth_valley_3d.png
-      ref: maps/gEgiWXCvonENJseDsfjj/perspectiveShot/lZs16faKUUm1ClJIec12-bismuth_valley_3d.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FVF5fYcUtk5KOFKjrJtH3-bismuth3d.png?alt=media&token=99f0a9ee-2ace-4034-a491-2d33f4de89c0
+      lastModifiedTS: 1701518353752
+      name: bismuth3d.png
+      ref: maps/gEgiWXCvonENJseDsfjj/perspectiveShot/VF5fYcUtk5KOFKjrJtH3-bismuth3d.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/gEgiWXCvonENJseDsfjj/photo/wyPXxJEn9pyzUMyrqjVN-Bismuth_Valley_v2.2.jpg
-      lastModifiedTS: 1683982308312
-      name: Bismuth_Valley_v2.2.jpg
-      ref: maps/gEgiWXCvonENJseDsfjj/photo/wyPXxJEn9pyzUMyrqjVN-Bismuth_Valley_v2.2.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2Fphoto%2Fe3wHv4RXBelLQJXSbKej-bismuth.jpg?alt=media&token=624086da-6767-4145-9e4a-593dcf738011
+      lastModifiedTS: 1701517839566
+      name: bismuth.jpg
+      ref: maps/gEgiWXCvonENJseDsfjj/photo/e3wHv4RXBelLQJXSbKej-bismuth.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Bismuth Valley v2.2
+  springName: Bismuth Valley v2.3
   startboxesSet:
     C3fyMtWQN4KLZZbILWDJ:
       maxPlayersPerStartbox: 8
