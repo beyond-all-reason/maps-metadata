@@ -482,8 +482,8 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
-            windMin: ('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind) || 5,
-            windMax: ('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind) || 25,
+            windMin: reqR('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind, 5),
+            windMax: reqR('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
             tidalStrength: ('smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength) || null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,
