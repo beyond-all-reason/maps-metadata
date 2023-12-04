@@ -701,6 +701,43 @@
   terrain:
     - hills
     - wasteland
+2NlrSE2CMUyFpxlComtj:
+  author: Phalange
+  certified: false
+  description: "Tips for water level settings : -20 for no shallow waters, -200
+    for no water, +30 max for navy only."
+  displayName: Erebos Lakes
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2NlrSE2CMUyFpxlComtj%2Fphoto%2F8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg?alt=media&token=a25c6d09-e5b1-4104-a79d-b4193003acd7
+      lastModifiedTS: 1701733286989
+      name: Erebos_minimap.jpg
+      ref: maps/2NlrSE2CMUyFpxlComtj/photo/8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Erebos Lakes v1.0
+  startboxesSet:
+    VNzNNXVRToo4X3Xuu7oR:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 90
+            - x: 48
+              y: 200
+        - poly:
+            - x: 152
+              y: 1
+            - x: 200
+              y: 110
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - sea
+    - shallows
 2foOuFOeWdmm1DkMqfJv:
   author: Nikuksis
   backgroundImage:
