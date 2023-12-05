@@ -63,7 +63,7 @@
       ref: maps/0jMFtrg8MuFKGgxmk6No/photo/yWvndwIRIkO3jUwo8NUs-Seths_Ravine_Remake_1.3.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Seths Ravine Remake 1.3
+  springName: Seths Ravine Remake 1.3.1
   startboxesSet:
     UQxMVIaq4LqZh9zZpTxl:
       maxPlayersPerStartbox: 3
@@ -278,7 +278,7 @@
       ref: maps/1JL7kMOT8mYsx2OEQnv8/photo/fhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Sertagatta v6.0
+  springName: Sertagatta v6.0.1
   startboxesSet:
     vQF8jbb54bWej3UbzkOD:
       maxPlayersPerStartbox: 4
@@ -569,7 +569,7 @@
       ref: maps/2Jm1E7F819zbEWOr2Bwc/photo/Q0c0xJDxHPO8jm1t9Yrj-Neurope_Remake_4.2.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Neurope_Remake 4.2
+  springName: Neurope_Remake 4.2.1
   startboxesSet:
     visYMWVnnWrv58fH0YUh:
       maxPlayersPerStartbox: 1
@@ -830,7 +830,7 @@
       ref: maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Mithril Mountain v2
+  springName: Mithril Mountain v2.0.1
   startboxesSet:
     RLf0ElZxmg1LH7seBe4R:
       maxPlayersPerStartbox: 2
@@ -1180,13 +1180,13 @@
     - 1v1
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/44vuVzD9DD5wyzZz0L7i/photo/53EKcKJnTd4XqpI6xHLX-heartbreak_hill_v4.jpg
-      lastModifiedTS: 1683982255048
-      name: heartbreak_hill_v4.jpg
-      ref: maps/44vuVzD9DD5wyzZz0L7i/photo/53EKcKJnTd4XqpI6xHLX-heartbreak_hill_v4.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
+      lastModifiedTS: 1601816349855
+      name: Heartbreak Hill.jpg
+      ref: maps/44vuVzD9DD5wyzZz0L7i/photo/aM9vt5DiowJMZqxOJJBf-Heartbreak Hill.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Heartbreak Hill v4
+  springName: Heartbreak Hill v4.0.1
   startboxesSet:
     XamZEWs6c4Awwua8ZszP:
       maxPlayersPerStartbox: 3
@@ -1386,7 +1386,7 @@
       ref: maps/4onApLu0oFbtFuY9up67/photo/Y4VoGlxQhGKtczeLAVHQ-Into_Battle_Redux_v3.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Into Battle Redux v3
+  springName: Into Battle Redux v3.0.1
   startboxesSet:
     ii1bilCcAfDj0yoVlhT2:
       maxPlayersPerStartbox: 2
@@ -1698,7 +1698,7 @@
       ref: maps/9Z3VnJ2cFcGhcaq6z1bJ/photo/hjVTf6pDN4hTwy1jQ6RR-Red_Rock_Desert_v1.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Red Rock Desert v1
+  springName: Red Rock Desert v1.0.1
   startboxesSet:
     dhUyLs0xQxlTQlQUh6Au:
       maxPlayersPerStartbox: 5
@@ -1777,7 +1777,7 @@
       ref: maps/9enrMlkiT7SwhG3D35LB/photo/UudMg7yKSUnpboIl3sFI-Crater_Islands_Remake_v1.0.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Crater Islands Remake v1.0
+  springName: Crater Islands Remake v1.0.1
   startboxesSet:
     88175RkplfHBnxDH21RN:
       maxPlayersPerStartbox: 1
@@ -1857,7 +1857,7 @@
       ref: maps/9pCv5iZ1gaLWioi1A8KJ/photo/e6KcfYWnj72WunjwrEkD-altored_divide_bar_remake_1.6.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Altored Divide Bar Remake 1.6
+  springName: Altored Divide Bar Remake 1.6.1
   startboxesSet:
     4PWp6BvDUoturlJDUXfu:
       maxPlayersPerStartbox: 5
@@ -2298,7 +2298,7 @@ BCDbKYnQqHT1PE5lo8Es:
       ref: maps/BCDbKYnQqHT1PE5lo8Es/photo/RMU1rNTpWzFivKmsWwcc-geyser_plains_bar_v1.2.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Geyser Plains BAR v1.2
+  springName: Geyser Plains BAR v1.2.1
   startboxesSet:
     2BKq2SdJnOLNo8qpQ7So:
       maxPlayersPerStartbox: 2
@@ -2656,7 +2656,7 @@ DyHExxTkkRB4DweNDViM:
       ref: maps/DyHExxTkkRB4DweNDViM/photo/wBvtLEP7XXJpM37Dui5L-melting_glacier_v1.1.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Melting Glacier v1.1
+  springName: Melting Glacier v1.1.1
   startboxesSet:
     6UijoWv1VTnXKbXgdpRz:
       maxPlayersPerStartbox: 8
@@ -2887,7 +2887,7 @@ F40FJFEjKm3hcVzdnIvA:
       type: image/jpeg
   playerCount: 6
   special: Attacker vs Defender asymetrical
-  springName: Requiem Outpost 1.0
+  springName: Requiem Outpost 1.0.1
   startboxesSet:
     v7lErp2jpdyxDgFVkBAt:
       maxPlayersPerStartbox: 3
@@ -3592,13 +3592,13 @@ Gydc5ydDuhV4hS7cyJJm:
       ref: maps/Gydc5ydDuhV4hS7cyJJm/perspectiveShot/YS3aqvSgtZmNsGPieUAB-Death-Valley_3D.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Gydc5ydDuhV4hS7cyJJm/photo/7EsUN26wgQdrEBvmJNFV-Death_valley_v1.jpg
-      lastModifiedTS: 1683982270349
-      name: Death_valley_v1.jpg
-      ref: maps/Gydc5ydDuhV4hS7cyJJm/photo/7EsUN26wgQdrEBvmJNFV-Death_valley_v1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGydc5ydDuhV4hS7cyJJm%2Fphoto%2FMF0nEzcLsXEEZ9QpIrA9-death%20valley.jpg?alt=media&token=60059444-c5c1-4e8d-9294-ed238a22fee1
+      lastModifiedTS: 1601816591264
+      name: death valley.jpg
+      ref: maps/Gydc5ydDuhV4hS7cyJJm/photo/MF0nEzcLsXEEZ9QpIrA9-death valley.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Death Valley v1
+  springName: Death Valley v1.0.1
   startboxesSet:
     Hy6UUNSasAeeR45qbKLb:
       maxPlayersPerStartbox: 3
@@ -4085,7 +4085,7 @@ Lpy4w1DTM7BjEfERE3wK:
       ref: maps/Lpy4w1DTM7BjEfERE3wK/photo/KmG6Ksdr3HtuCZbX4Kda-Callisto_v3.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Callisto v3
+  springName: Callisto v3.1
   startboxesSet:
     6ksDvcjtmBe28BzM3Nix:
       maxPlayersPerStartbox: 2
@@ -4129,7 +4129,7 @@ LutAHarULFOEKKA21AvQ:
       ref: maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Desolation v1
+  springName: Desolation v1.0.1
   startboxesSet:
     VLNbrnQz2l2pIOnF8tFt:
       maxPlayersPerStartbox: 3
@@ -4171,7 +4171,7 @@ MDi3gNqaTj3H1DkzpPfz:
       ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/ocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg
       type: image/jpeg
   playerCount: 2
-  springName: Onyx Cauldron 2.2
+  springName: Onyx Cauldron 2.2.1
   startboxesSet:
     rN1b1dKs245WjkLpjlDb:
       maxPlayersPerStartbox: 1
@@ -4679,7 +4679,7 @@ PlmJPs87RuAnAlL6inG1:
       ref: maps/PlmJPs87RuAnAlL6inG1/photo/cl6aOGXREvjdJnoV4ojI-ice_scream_v2.5.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Ice Scream v2.5
+  springName: Ice Scream v2.5.1
   startboxesSet:
     ZMdO1P5cCn7gYb8c7OeP:
       maxPlayersPerStartbox: 8
@@ -5051,7 +5051,7 @@ RT3Y6Qyjvt3pTGXWjWPK:
       type: image/jpeg
   playerCount: 5
   special: Lava
-  springName: Hotstepper 5 1.2
+  springName: Hotstepper 5 1.2.1
   startboxesSet:
     7fgxa8NF1UtwSj5ihskP:
       maxPlayersPerStartbox: 2
@@ -5499,7 +5499,7 @@ U8PJYIPdYQoMXGJND2Kg:
       ref: maps/U8PJYIPdYQoMXGJND2Kg/photo/D9wTn9oFZOXb8Xz4fqea-EmainMacha_Remake_2.1.jpg
       type: image/jpeg
   playerCount: 10
-  springName: EmainMacha Remake 2.1
+  springName: EmainMacha Remake 2.1.1
   startboxesSet:
     xV9xuLNwVg02yVl60XIq:
       maxPlayersPerStartbox: 5
@@ -5602,7 +5602,7 @@ UeeBymo7RdXE5ty3amFw:
       ref: maps/UeeBymo7RdXE5ty3amFw/photo/3hqflPxPOFrZSv9HzdBd-Kolmogorov_Remake_3.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Kolmogorov Remake 3.0
+  springName: Kolmogorov Remake 3.0.1
   startboxesSet:
     Ygu3WlAq6kP0uawS7KSh:
       maxPlayersPerStartbox: 8
@@ -6008,7 +6008,7 @@ WOlmGcTZXUtV5iy57Kc9:
       ref: maps/WOlmGcTZXUtV5iy57Kc9/photo/cgP4uDSbKeEYFBt0TD06-Mariposa_Island_v2.4.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Mariposa Island v2.4
+  springName: Mariposa Island v2.4.1
   startboxesSet:
     D9QtkwEWjNqz0yuu877u:
       maxPlayersPerStartbox: 8
@@ -6812,7 +6812,7 @@ Yhwa2neMfDTUXyAiSJXC:
       ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Incandescence Remake 3.3
+  springName: Incandescence Remake 3.3.1
   startboxesSet:
     Kf0DEEe450YknULqebMI:
       maxPlayersPerStartbox: 5
@@ -7615,7 +7615,7 @@ bLBXDWyEuUqG825WYzHj:
       ref: maps/bLBXDWyEuUqG825WYzHj/photo/bOuoBPW05Ya1jm2cTrnJ-deeploria_fields_v1.5.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Deeploria Fields v1.5
+  springName: Deeploria Fields v1.5.1
   startboxesSet:
     Hv0WVvVGRS6EOuvgqojK:
       maxPlayersPerStartbox: 3
@@ -7827,7 +7827,7 @@ byucseTLrpgU0J70dFC0:
       ref: maps/byucseTLrpgU0J70dFC0/photo/FnQtxUYk7b2dU4VNw087-ghenna_rising_4.0.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Ghenna Rising 4.0
+  springName: Ghenna Rising 4.0.1
   startboxesSet:
     674t6nm6I0JXYdJW8ymv:
       maxPlayersPerStartbox: 4
@@ -8567,10 +8567,10 @@ etCTTwexgYVGMV63rOWy:
       ref: maps/etCTTwexgYVGMV63rOWy/perspectiveShot/9v2Py4pqvTK9aBvYePIe-FallenDell_Perspective.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/etCTTwexgYVGMV63rOWy/photo/PxfK0OVAJ6nbA4e1RRPL-Fallendell_V4.jpg
-      lastModifiedTS: 1683982304828
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FetCTTwexgYVGMV63rOWy%2Fphoto%2FImLSdU3DQgDs5RFubq77-Fallendell_V4.jpg?alt=media&token=ddf8fd31-d995-4e94-b076-e3e3d6694fad
+      lastModifiedTS: 1601816692102
       name: Fallendell_V4.jpg
-      ref: maps/etCTTwexgYVGMV63rOWy/photo/PxfK0OVAJ6nbA4e1RRPL-Fallendell_V4.jpg
+      ref: maps/etCTTwexgYVGMV63rOWy/photo/ImLSdU3DQgDs5RFubq77-Fallendell_V4.jpg
       type: image/jpeg
   playerCount: 4
   springName: Fallendell_V4
@@ -8655,7 +8655,7 @@ fkhBIvsAdLiL9CvVlp2l:
       ref: maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Silent Sea v1
+  springName: Silent Sea v1.0.1
   startboxesSet:
     yYzriEwodmhOZNBQ3Lv8:
       maxPlayersPerStartbox: 3
@@ -8786,7 +8786,7 @@ fvLhZp85DLroyv0Iozhe:
       ref: maps/fvLhZp85DLroyv0Iozhe/photo/xadVx3D5ZkhwgzghtQEw-Eye_Of_Horus_1.7.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Eye Of Horus 1.7
+  springName: Eye Of Horus 1.7.1
   startboxesSet:
     P1fFDQMRV3ZXXt9UKWFA:
       maxPlayersPerStartbox: 3
@@ -9473,7 +9473,7 @@ iq0vEBrVv1ZudgcWr2ST:
       ref: maps/iq0vEBrVv1ZudgcWr2ST/photo/KFioSWYgeuSQCiF8k7N6-Gecko_Isle_Remake_v1.2.jpg
       type: image/jpeg
   playerCount: 12
-  springName: Gecko Isle Remake v1.2
+  springName: Gecko Isle Remake v1.2.1
   startboxesSet:
     EbaXUKzcxQOov9bifE1K:
       maxPlayersPerStartbox: 6
@@ -9549,7 +9549,7 @@ j3X9bepS3FrtzjLLNmmu:
       ref: maps/j3X9bepS3FrtzjLLNmmu/photo/iwyoPZitwfUUPhihaUsH-Angel_Crossing_1.5.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Angel Crossing 1.5
+  springName: Angel Crossing 1.5.1
   startboxesSet:
     fYAl6nPprYL3MD7Iekcd:
       maxPlayersPerStartbox: 5
@@ -9648,7 +9648,7 @@ kesPeWO0ScnmWF2An8qA:
       ref: maps/kesPeWO0ScnmWF2An8qA/photo/gMLbch0XYbcC3ytggvgD-Flats_and_Forests_v2.1.jpg
       type: image/jpeg
   playerCount: 20
-  springName: Flats and Forests v2.1
+  springName: Flats and Forests v2.1.1
   startboxesSet:
     mK78WXZr0Yp1rkYnhevu:
       maxPlayersPerStartbox: 3
@@ -10148,7 +10148,7 @@ oBOBWCmenCo2tbkwYNJt:
       ref: maps/oBOBWCmenCo2tbkwYNJt/photo/jPxWxCx0pdby27KfJ2X8-Coastlines_minimap.jpg
       type: image/jpeg
   playerCount: 18
-  springName: Coastlines_Dry_V2.2
+  springName: Coastlines_Dry_V2.2.1
   startboxesSet:
     JG4THcphfh2kmPxJly6S:
       maxPlayersPerStartbox: 8
@@ -10778,7 +10778,7 @@ rQ8v6BePPrXIaQaaQjam:
       ref: maps/rQ8v6BePPrXIaQaaQjam/photo/MmfXe44hf11iDl8b7R9k-Hooked_1.1.jpg
       type: image/jpeg
   playerCount: 2
-  springName: Hooked 1.1
+  springName: Hooked 1.1.1
   startboxesSet:
     Y0g6wMx4ASYXTC2dXb1b:
       maxPlayersPerStartbox: 1
@@ -10887,7 +10887,7 @@ sKu3wAd6qfR5jG8fC6KU:
       ref: maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Shallow Straits v1
+  springName: Shallow Straits v1.0.1
   startboxesSet:
     VP8ItYzduv9iJ3r7PvZh:
       maxPlayersPerStartbox: 3
@@ -11288,7 +11288,7 @@ uV4t5gveu4Ru1Lrm1e1l:
       type: image/jpeg
   playerCount: 10
   special: Asymmetrical
-  springName: Point of No Return v1.0
+  springName: Point of No Return v1.0.1
   startboxesSet:
     ohJvLaSNFtx1dNoNqUgE:
       maxPlayersPerStartbox: 1
@@ -11369,7 +11369,7 @@ uZq5zZ1FTcdZ7FS4k3lc:
       ref: maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Hotlips Remake v3.1
+  springName: Hotlips Remake v3.1.1
   startboxesSet:
     4ySlw4GDPCsxaBZDcOHA:
       maxPlayersPerStartbox: 8
@@ -11594,7 +11594,7 @@ vryCgnmiXKEfnJuBLobP:
       type: image/jpeg
   playerCount: 16
   special: No Metal
-  springName: Greenest Fields 1.3
+  springName: Greenest Fields 1.3.1
   startboxesSet:
     G8S1u8c71tYo4KAqyZlw:
       maxPlayersPerStartbox: 8
@@ -11705,7 +11705,7 @@ wyCcSCcx7UYOY5bT4d5P:
       ref: maps/wyCcSCcx7UYOY5bT4d5P/photo/msstjnxjQQk6VNjbqFqt-ReRaghnarok_1.jpg
       type: image/jpeg
   playerCount: 14
-  springName: ReRaghnarok 1
+  springName: ReRaghnarok 1.0.1
   startboxesSet:
     f8IE3TCecZ5tSRigkXBA:
       maxPlayersPerStartbox: 7
@@ -12007,7 +12007,7 @@ xn2aVcKlkpTQAakCC3Z8:
       ref: maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Copper Hill v1
+  springName: Copper Hill v1.0.1
   startboxesSet:
     NI1TG4i0cXC9O48zpxNK:
       maxPlayersPerStartbox: 2
@@ -12047,7 +12047,7 @@ yhOJI5yH4yGFmx9PMt9T:
       ref: maps/yhOJI5yH4yGFmx9PMt9T/photo/b5ED97PkmZEFfzpdjH0N-Lake_Carne_v2.jpg
       type: image/jpeg
   playerCount: 4
-  springName: Lake Carne v2
+  springName: Lake Carne v2.0.1
   startboxesSet:
     Zqz7AVU7dN9prABOZo1k:
       maxPlayersPerStartbox: 2
