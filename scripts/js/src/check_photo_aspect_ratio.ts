@@ -46,11 +46,7 @@ await Promise.all(requests);
 let allOk = true;
 
 
-const whitelist = new Set([
-    'Heartbreak Hill v4',
-    'Death Valley v1',
-    'Fallendell_V4',
-]);
+const whitelist: Set<string> = new Set([]);
 
 for (const [rowyId, map] of Object.entries(maps)) {
     const imgSizes = imageSize(path.join(photoCacheDir, photoUrlHash.get(rowyId) + '.webp'));
