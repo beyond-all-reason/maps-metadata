@@ -46,8 +46,8 @@ def get_data(input_file):
                         continue
                     max_players_per_startbox = startboxes_info["maxPlayersPerStartbox"]
 
-                    # add non-ffa maps to teamsize_dict
-                    if team_count*max_players_per_startbox <= 16:
+                    # add teamgame maps to teamsize_dict
+                    if team_count*max_players_per_startbox <= 16 and is_team:
                         for x in range(2,max_players_per_startbox+1): 
                             if x >= math.floor(max_players_per_startbox/2):
                                 teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
