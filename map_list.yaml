@@ -135,7 +135,7 @@
       ref: maps/0rkuPKU4nx2GuhlUC8sH/photo/3QFsvRpz7psmFzZsKKAP-sphagnum_bog_v1.1.jpg
       type: image/jpeg
   playerCount: 6
-  springName: Sphagnum Bog v1.2
+  springName: Sphagnum Bog v1.2.1
   startboxesSet:
     EcjJI52KJlIdMv7iCpUH:
       maxPlayersPerStartbox: 3
@@ -2046,7 +2046,7 @@ ACgCe99NC8yZFecMwRCn:
       ref: maps/ACgCe99NC8yZFecMwRCn/photo/28JjEDk0ysfb5y4Eou36-Zed_Remake_3.3.jpg
       type: image/jpeg
   playerCount: 2
-  springName: Zed Remake 3.3
+  springName: Zed Remake 3.3.1
   startboxesSet:
     yQJ85djQqfseDs2LFjMt:
       maxPlayersPerStartbox: 1
@@ -4283,7 +4283,7 @@ MqDO00JzJMESdzVDkkT5:
       ref: maps/MqDO00JzJMESdzVDkkT5/photo/ppl1uBCIqn6z3ievxZBe-tumult_remake_v1.0.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Tumult Remake v1.0
+  springName: Tumult Remake v1.0.1
   startboxesSet:
     yIt6jN2k92sM1dB87bfm:
       maxPlayersPerStartbox: 4
@@ -5460,7 +5460,7 @@ TBlG9YF5CxIvchMI0DZX:
       type: image/jpeg
   playerCount: 6
   special: Air
-  springName: Sky Isle v1.1
+  springName: Sky Isle v1.1.1
   startboxesSet:
     uE4AEgs2QTFHIbO51UGV:
       maxPlayersPerStartbox: 3
@@ -8272,7 +8272,7 @@ cYgRxanQzvg7Bx9xXk1H:
       ref: maps/cYgRxanQzvg7Bx9xXk1H/photo/PLGdCe5NFsZgi30hWW2u-valles_marineris_2.6.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Valles Marineris 2.6
+  springName: Valles Marineris 2.6.1
   startboxesSet:
     64fPYn4XinaB9tcOrR11:
       maxPlayersPerStartbox: 5
@@ -8316,7 +8316,7 @@ cvpud6KzRzucgumjiBgk:
       ref: maps/cvpud6KzRzucgumjiBgk/photo/sfvXuiMEVeTMtyODXqSD-Silveridge_v1.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Silveridge v1
+  springName: Silveridge v1.0.1
   startboxesSet:
     CBlzXq6FBfhXpxaxmX1C:
       maxPlayersPerStartbox: 3
@@ -10440,7 +10440,7 @@ pzZ5zAyferpDePxtC2hG:
       ref: maps/pzZ5zAyferpDePxtC2hG/photo/0CAb9kEtVoZ8KyiL4ahV-Tundra_Continents_v2.3.jpg
       type: image/jpeg
   playerCount: 20
-  springName: Tundra Continents v2.3
+  springName: Tundra Continents v2.3.1
   startboxesSet:
     dcbjEzqkBb43Ut7NeYff:
       maxPlayersPerStartbox: 10
@@ -11963,7 +11963,7 @@ xbJTsdeXIKFQmuvBHW3d:
       type: image/jpeg
   playerCount: 8
   special: Asymmetrical
-  springName: Timna Island 1.0
+  springName: Timna Island 1.0.1
   startboxesSet:
     W5bEz07izmUbtxgLpyAd:
       maxPlayersPerStartbox: 4
