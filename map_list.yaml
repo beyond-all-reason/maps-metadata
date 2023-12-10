@@ -2957,14 +2957,14 @@ FEkKsVrHELjFh7HQstFq:
       ref: maps/FEkKsVrHELjFh7HQstFq/perspectiveShot/Cm6ndFbmqi0ScjNPhQCw-kassa3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2Fphoto%2FUfPyygHgLsGSd9tZ2znJ-kingassault.jpg?alt=media&token=8041785f-374a-4073-af1e-82baf914ed99
-      lastModifiedTS: 1702053234318
-      name: kingassault.jpg
-      ref: maps/FEkKsVrHELjFh7HQstFq/photo/UfPyygHgLsGSd9tZ2znJ-kingassault.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2Fphoto%2F2oTnPLRTiGJnUWcYO8ez-kingassault1.1.jpg?alt=media&token=ce05581f-192d-4734-98e4-e043998e2438
+      lastModifiedTS: 1702204736054
+      name: kingassault1.1.jpg
+      ref: maps/FEkKsVrHELjFh7HQstFq/photo/2oTnPLRTiGJnUWcYO8ez-kingassault1.1.jpg
       type: image/jpeg
   playerCount: 16
   special: Lava
-  springName: Kings Assault v1.0
+  springName: Kings Assault v1.2
   teamCount: 2
   terrain:
     - lava
