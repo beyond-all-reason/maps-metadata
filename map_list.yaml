@@ -9214,48 +9214,6 @@ ggVDNTLRh7HNk4mf9mf6:
     - flat
     - asteroid
   title: Fight on a comet
-gtJqom9yIXycF3BEGgL0:
-  author: Phalange
-  backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgtJqom9yIXycF3BEGgL0%2FbackgroundImage%2FK8hqsnUnDJe13GhiQAjK-screen_2023-11-26_01-55-36-789.png?alt=media&token=954d8e50-52e6-44bd-a1fd-20d78fbbc095
-      lastModifiedTS: 1700963737393
-      name: screen_2023-11-26_01-55-36-789.png
-      ref: maps/gtJqom9yIXycF3BEGgL0/backgroundImage/K8hqsnUnDJe13GhiQAjK-screen_2023-11-26_01-55-36-789.png
-      type: image/png
-  certified: false
-  description: When the rich go to war, it is the poor who die.
-  displayName: The Ditch
-  gameType:
-    - team
-  inPool: true
-  photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgtJqom9yIXycF3BEGgL0%2Fphoto%2FsW6kL4VZgzTkKNcQKn14-The_Ditch_minimap.jpg?alt=media&token=6887e164-c09f-44f0-809e-03325360928f
-      lastModifiedTS: 1700407550644
-      name: The_Ditch_minimap.jpg
-      ref: maps/gtJqom9yIXycF3BEGgL0/photo/sW6kL4VZgzTkKNcQKn14-The_Ditch_minimap.jpg
-      type: image/jpeg
-  playerCount: 16
-  springName: The Ditch Remake 0.5
-  startboxesSet:
-    mP7YCeqzZYcGBx1D1O2G:
-      maxPlayersPerStartbox: 8
-      startboxes:
-        - poly:
-            - x: 0
-              y: 90
-            - x: 45
-              y: 200
-        - poly:
-            - x: 155
-              y: 0
-            - x: 200
-              y: 110
-  teamCount: 2
-  terrain:
-    - flat
-    - water
-    - hills
-    - desert
 hC5Ic7adKaK6YBA68mKY:
   author: Nikuksis
   backgroundImage:
