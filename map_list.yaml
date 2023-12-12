@@ -8420,6 +8420,37 @@ cvpud6KzRzucgumjiBgk:
   terrain:
     - hills
     - grassy
+ddpsrgkYM0ujNqHiQKKm:
+  author: Moose, 123v
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FddpsrgkYM0ujNqHiQKKm%2FbackgroundImage%2F2AlI8vd8CQorrVJZXkMj-screen_2023-12-12_01-37-52-304.png?alt=media&token=601087a0-910e-4156-8df2-54367598492d
+      lastModifiedTS: 1702345072806
+      name: screen_2023-12-12_01-37-52-304.png
+      ref: maps/ddpsrgkYM0ujNqHiQKKm/backgroundImage/2AlI8vd8CQorrVJZXkMj-screen_2023-12-12_01-37-52-304.png
+      type: image/png
+  certified: true
+  description: Four islands across a blue bay divide sandy beaches and brilliant
+    crystal plateaus.
+  displayName: Azurite Shores
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FddpsrgkYM0ujNqHiQKKm%2Fphoto%2FaPyfxrngmM8q3rncSrFD-screen_2023-12-12_02-38-23-242SAPP.png?alt=media&token=1d35f23c-e5d5-4b86-b6ed-bc08ad9379f8
+      lastModifiedTS: 1702354123069
+      name: screen_2023-12-12_02-38-23-242SAPP.png
+      ref: maps/ddpsrgkYM0ujNqHiQKKm/photo/aPyfxrngmM8q3rncSrFD-screen_2023-12-12_02-38-23-242SAPP.png
+      type: image/png
+  playerCount: 16
+  springName: Azurite Shores 1.01
+  startboxesSet:
+    r9d96DXWa2fLdkL7vSQT:
+      maxPlayersPerStartbox: 8
+  teamCount: 2
+  terrain:
+    - water
+    - hills
+  title: The Blue Beach!
 eLHwUEMIb0S3qLy0OT6G:
   author: SirArtturi
   backgroundImage:
