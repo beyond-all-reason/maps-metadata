@@ -2951,20 +2951,20 @@ FEkKsVrHELjFh7HQstFq:
       type: image/png
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2FperspectiveShot%2FCm6ndFbmqi0ScjNPhQCw-kassa3D.png?alt=media&token=c3b86046-3f8f-4f11-a43c-bdf0963fb52f
-      lastModifiedTS: 1702053377738
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2FperspectiveShot%2FL5sBhNNiPTjddgSCv3OZ-kassa3D.png?alt=media&token=437ea3ae-5506-486e-9102-d6c801b276a7
+      lastModifiedTS: 1702847337941
       name: kassa3D.png
-      ref: maps/FEkKsVrHELjFh7HQstFq/perspectiveShot/Cm6ndFbmqi0ScjNPhQCw-kassa3D.png
+      ref: maps/FEkKsVrHELjFh7HQstFq/perspectiveShot/L5sBhNNiPTjddgSCv3OZ-kassa3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2Fphoto%2F2oTnPLRTiGJnUWcYO8ez-kingassault1.1.jpg?alt=media&token=ce05581f-192d-4734-98e4-e043998e2438
-      lastModifiedTS: 1702204736054
-      name: kingassault1.1.jpg
-      ref: maps/FEkKsVrHELjFh7HQstFq/photo/2oTnPLRTiGJnUWcYO8ez-kingassault1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2Fphoto%2Fc6e9hqx63zcmheJqUgxj-kingassault1.3.jpg?alt=media&token=ebdea6f8-b6b9-4cb6-9c20-6a9dae475e94
+      lastModifiedTS: 1702847481099
+      name: kingassault1.3.jpg
+      ref: maps/FEkKsVrHELjFh7HQstFq/photo/c6e9hqx63zcmheJqUgxj-kingassault1.3.jpg
       type: image/jpeg
   playerCount: 16
   special: Lava
-  springName: Kings Assault v1.2
+  springName: Kings Assault v1.3
   teamCount: 2
   terrain:
     - lava
