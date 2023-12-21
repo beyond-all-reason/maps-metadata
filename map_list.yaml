@@ -7759,6 +7759,72 @@ bX4YxbtQ8YCc6G0yMumJ:
   terrain:
     - flat
     - desert
+bjT21UjhlZ3s2nrZ850V:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2FbackgroundImage%2FyoRNEDBkNmaqgGDjsjiP-back.png?alt=media&token=f1b64559-8e5f-47df-b378-373404edc527
+      lastModifiedTS: 1703138908107
+      name: back.png
+      ref: maps/bjT21UjhlZ3s2nrZ850V/backgroundImage/yoRNEDBkNmaqgGDjsjiP-back.png
+      type: image/png
+  certified: true
+  description: A simple full metal plate. Relive your childhood battles on this
+    TA-inspired map.
+  displayName: Full Metal Plate
+  gameType:
+    - pve
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2F7Ndg7PuqRmjK5VnUJe4E-photo.png?alt=media&token=b6a21286-7639-4ba5-ae37-f88912fea8d7
+      lastModifiedTS: 1703138862188
+      name: photo.png
+      ref: maps/bjT21UjhlZ3s2nrZ850V/photo/7Ndg7PuqRmjK5VnUJe4E-photo.png
+      type: image/png
+  playerCount: 16
+  special: Metal
+  springName: Full Metal Plate 1.3
+  startboxesSet:
+    aD4vGDHyakLc2j4X8ZlT:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+    zKYERyB96O7Uj168v8TI:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 70
+              y: 70
+        - poly:
+            - x: 130
+              y: 130
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 130
+            - x: 70
+              y: 200
+        - poly:
+            - x: 130
+              y: 0
+            - x: 200
+              y: 70
+  teamCount: 2
+  terrain:
+    - metal
+    - flat
 bkIRTcsnvtmQVsm3SsNJ:
   author: Beherith
   backgroundImage:
