@@ -26,11 +26,24 @@ export interface MapDetails {
     };
 }
 
+function intersection<T>(a: Iterable<T>, b: Iterable<T>): T[] {
+    const setB = b instanceof Set ? b as Set<T> : new Set(b);
+    const intersection = [];
+    for (const elem of a) {
+        if (setB.has(elem)) {
+            intersection.push(elem);
+        }
+    }
+    return intersection;
+}
+
 function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDetails {
     const mapDetails: MapDetails = {};
     for (const id of Object.keys(maps)) {
         const mapInfo = maps[id];
         const meta = mapsMetadata.get(id);
+
+        const isWater = intersection(mapInfo.terrain, ['sea', 'water']).length > 0;
 
         mapDetails[mapInfo.springName] = {
             Width: meta.smf.mapWidth / 64,
@@ -42,7 +55,7 @@ function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDeta
             Special: mapInfo.special,
             Flat: mapInfo.terrain.includes('flat') ? 1 : undefined,
             Hills: mapInfo.terrain.includes('hills') ? 1 : undefined,
-            Water: mapInfo.terrain.includes('water') ? 1 : undefined,
+            Water: isWater ? 1 : undefined,
             IsInPool: mapInfo.inPool ? 1 : undefined,
             PlayerCount: mapInfo.playerCount ? mapInfo.playerCount.toString() : undefined,
             TeamCount: mapInfo.teamCount ? mapInfo.teamCount.toString() : undefined,
