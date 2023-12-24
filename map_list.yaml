@@ -378,7 +378,7 @@
             - x: 194
               y: 185
     PGU8yNNRYGm2xgTOFagV:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 6
       startboxes:
         - poly:
             - x: 0
@@ -1109,7 +1109,6 @@
   description: A major spawning ground for Raptors
   displayName: Raptor Crater
   gameType:
-    - team
     - pve
     - ffa
   inPool: true
@@ -1891,9 +1890,7 @@ A9eqjOzH3trguY66HGmH:
   description: Large network of stone pillars and bridges.
   displayName: Sinkhole Network
   gameType:
-    - 1v1
     - ffa
-    - team
     - pve
   inPool: true
   photo:
@@ -1929,7 +1926,7 @@ A9eqjOzH3trguY66HGmH:
             - x: 50
               y: 200
     uDrEx7LIXotuVjamHzAj:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 7
       startboxes:
         - poly:
             - x: 0
@@ -4607,11 +4604,11 @@ OgYCeZrIVMN1b9sUbweo:
       name: Tau12.jpg
       ref: maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
       type: image/jpeg
-  playerCount: 16
+  playerCount: 12
   springName: Tau12
   startboxesSet:
     osdmXYw6ztnW24IUyLgN:
-      maxPlayersPerStartbox: 8
+      maxPlayersPerStartbox: 6
       startboxes:
         - poly:
             - x: 0
@@ -5938,7 +5935,6 @@ WJBtRZ22UUHZi2GTQ2FQ:
   displayName: Ancient Vault
   gameType:
     - ffa
-    - team
     - pve
   inGameShots:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWJBtRZ22UUHZi2GTQ2FQ%2FinGameShots%2FyQHLULx5Zc9wx8RrBthu-ancient_vault_SS3.jpg?alt=media&token=84eb3c4d-fe3b-419c-80a9-c96e1b1f8071
@@ -8989,7 +8985,6 @@ fzRTg60xfSVnG44Zw42D:
   displayName: To Kill The Middle
   gameType:
     - ffa
-    - team
   inPool: true
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfzRTg60xfSVnG44Zw42D%2Fphoto%2FW4g2LLT11PPz70wVoR5R-to_kill_the_middle_v1.0.jpg?alt=media&token=d193069c-5aac-453e-83bb-31a0179d0488
