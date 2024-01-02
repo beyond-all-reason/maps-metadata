@@ -9487,11 +9487,11 @@ iQZFWB7rheiOseoQXihq:
       ref: maps/iQZFWB7rheiOseoQXihq/perspectiveShot/pv5xjFRTmwOzN77jah1z-Great_Divide_BAR.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/iQZFWB7rheiOseoQXihq/photo/JcFcpkK9Zh08Bp9C0sAI-Great_Divide_V1.jpg
-      lastModifiedTS: 1683982310459
-      name: Great_Divide_V1.jpg
-      ref: maps/iQZFWB7rheiOseoQXihq/photo/JcFcpkK9Zh08Bp9C0sAI-Great_Divide_V1.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2Fphoto%2F7ykBk15Flx1FXaV0djj3-great-divide-minimap.png?alt=media&token=40155354-5d46-4cc5-8fa1-a8313d5ab32c
+      lastModifiedTS: 1604194304055
+      name: great-divide-minimap.png
+      ref: maps/iQZFWB7rheiOseoQXihq/photo/7ykBk15Flx1FXaV0djj3-great-divide-minimap.png
+      type: image/png
   playerCount: 4
   springName: Great Divide V1
   startboxesSet:
