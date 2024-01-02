@@ -2962,6 +2962,20 @@ FEkKsVrHELjFh7HQstFq:
   playerCount: 16
   special: Lava
   springName: Kings Assault v1.3
+  startboxesSet:
+    7plcpyvzE3A6JEtmKWuM:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 42
+              y: 200
+        - poly:
+            - x: 158
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - lava
