@@ -6758,6 +6758,79 @@ Xut8FRCmn2h5DuUqzF26:
     - flat
     - asteroid
     - desert
+XyspXgig1fp54pmAcYIo:
+  author: Moose
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2FbackgroundImage%2Fz34J3a0jLubDLCUQWqBV-screen_2024-01-10_23-38-44-112.png?alt=media&token=4f1589d6-ae4f-4c06-bcee-e242f18cfcac
+      lastModifiedTS: 1704929924633
+      name: screen_2024-01-10_23-38-44-112.png
+      ref: maps/XyspXgig1fp54pmAcYIo/backgroundImage/z34J3a0jLubDLCUQWqBV-screen_2024-01-10_23-38-44-112.png
+      type: image/png
+  certified: true
+  description: Lava surrounds an island bearing a massive fossil that divides 5 ways.
+  displayName: Hyperion Shale
+  gameType:
+    - ffa
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2Fphoto%2FCv4mXTcrgacjR88fWOGH-hypermini.png?alt=media&token=e8f613ef-972a-481b-85f9-5d76a2ccfb39
+      lastModifiedTS: 1704930920569
+      name: hypermini.png
+      ref: maps/XyspXgig1fp54pmAcYIo/photo/Cv4mXTcrgacjR88fWOGH-hypermini.png
+      type: image/png
+  playerCount: 12
+  special: Lava
+  springName: Hyperion Shale 1.0
+  startboxesSet:
+    G9q1PwJLnsfXsMbCfy2e:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 68
+              y: 145
+            - x: 94
+              y: 167
+        - poly:
+            - x: 68
+              y: 34
+            - x: 94
+              y: 55
+        - poly:
+            - x: 137
+              y: 123
+            - x: 159
+              y: 148
+        - poly:
+            - x: 137
+              y: 52
+            - x: 159
+              y: 77
+        - poly:
+            - x: 31
+              y: 88
+            - x: 51
+              y: 112
+    JpU5m6J80wOVMmo53lvb:
+      maxPlayersPerStartbox: 6
+      startboxes:
+        - poly:
+            - x: 70
+              y: 126
+            - x: 159
+              y: 166
+        - poly:
+            - x: 70
+              y: 34
+            - x: 159
+              y: 74
+  teamCount: 5
+  terrain:
+    - lava
+    - alien
+    - chokepoints
+    - flat
+  title: Colossal Fossil!
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
   backgroundImage:
@@ -6884,6 +6957,7 @@ Yhwa2neMfDTUXyAiSJXC:
       ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
       type: image/jpeg
   playerCount: 10
+  special: Lava
   springName: Incandescence Remake 3.3.1
   startboxesSet:
     Kf0DEEe450YknULqebMI:
