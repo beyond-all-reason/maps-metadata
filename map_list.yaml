@@ -8846,6 +8846,46 @@ etCTTwexgYVGMV63rOWy:
     - hills
     - shallows
     - swamp
+ffcRgoowl7oVucXlFmWS:
+  author: Ambulatory Cortex
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FffcRgoowl7oVucXlFmWS%2FbackgroundImage%2Fe8BEoTFIS2JnDWODNaXu-screen_2024-01-13_15-15-39-078.png?alt=media&token=65c19bce-1063-486a-8f84-2536dfc92529
+      lastModifiedTS: 1705158939729
+      name: screen_2024-01-13_15-15-39-078.png
+      ref: maps/ffcRgoowl7oVucXlFmWS/backgroundImage/e8BEoTFIS2JnDWODNaXu-screen_2024-01-13_15-15-39-078.png
+      type: image/png
+  certified: true
+  description: Brawl in a volcanic caldera
+  displayName: Pit of Azar
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FffcRgoowl7oVucXlFmWS%2Fphoto%2FzE4nRNIYVlX1LtiP3sCJ-Pit%20of%20Azar%20mini.png?alt=media&token=f60e742c-d058-455b-9afe-e071e93e303b
+      lastModifiedTS: 1705164953033
+      name: Pit of Azar mini.png
+      ref: maps/ffcRgoowl7oVucXlFmWS/photo/zE4nRNIYVlX1LtiP3sCJ-Pit of Azar mini.png
+      type: image/png
+  playerCount: 16
+  springName: Pit of Azar 1.0
+  startboxesSet:
+    hvpmzLN2LzPIQYmIgqEt:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 39
+              y: 58
+            - x: 58
+              y: 107
+        - poly:
+            - x: 142
+              y: 92
+            - x: 160
+              y: 142
+  teamCount: 2
+  terrain:
+    - lava
+    - chokepoints
 fivY9RQRkefErWygMT09:
   author: Beherith
   backgroundImage:
