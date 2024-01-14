@@ -1839,6 +1839,20 @@
       type: image/jpeg
   playerCount: 8
   springName: Canis River v1.0
+  startboxesSet:
+    zbyES4JZd2FCS1vCVByX:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 140
+            - x: 115
+              y: 200
+        - poly:
+            - x: 85
+              y: 0
+            - x: 200
+              y: 60
   teamCount: 2
   terrain:
     - flat
