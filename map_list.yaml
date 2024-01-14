@@ -8883,7 +8883,7 @@ ffcRgoowl7oVucXlFmWS:
   displayName: Pit of Azar
   gameType:
     - team
-  inPool: true
+  inPool: false
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FffcRgoowl7oVucXlFmWS%2Fphoto%2FzE4nRNIYVlX1LtiP3sCJ-Pit%20of%20Azar%20mini.png?alt=media&token=f60e742c-d058-455b-9afe-e071e93e303b
       lastModifiedTS: 1705164953033
