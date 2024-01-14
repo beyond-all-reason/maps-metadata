@@ -1821,6 +1821,30 @@
     - forests
     - asymmetrical
     - water
+9jHSyg8smAwuk6d3HZgm:
+  author: Phalange
+  certified: false
+  description: Plateaus ridges are bots passable. Two shallow water crossings in
+    the map corners unless +15m water level.
+  displayName: Canis River
+  gameType:
+    - team
+    - 1v1
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2Fphoto%2FMPxHGaBdwzr5Fs3up8eX-Canis_River_minimap.jpg?alt=media&token=05809ec5-521c-4f44-95fd-e5dfa8a4cefe
+      lastModifiedTS: 1705243729580
+      name: Canis_River_minimap.jpg
+      ref: maps/9jHSyg8smAwuk6d3HZgm/photo/MPxHGaBdwzr5Fs3up8eX-Canis_River_minimap.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Canis River v1.0
+  teamCount: 2
+  terrain:
+    - flat
+    - desert
+    - hills
+    - chokepoints
 9pCv5iZ1gaLWioi1A8KJ:
   author: IceXuick
   backgroundImage:
