@@ -4261,7 +4261,7 @@ LutAHarULFOEKKA21AvQ:
     - hills
     - desert
 MDi3gNqaTj3H1DkzpPfz:
-  author: Moose, Beherith
+  author: Moose, Beherith, Johannes
   backgroundImage:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2Fq9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png?alt=media&token=ac986dcb-24de-4992-87cb-a330a8a353cb
       lastModifiedTS: 1700881784662
@@ -6799,10 +6799,10 @@ Xut8FRCmn2h5DuUqzF26:
 XyspXgig1fp54pmAcYIo:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2FbackgroundImage%2Fz34J3a0jLubDLCUQWqBV-screen_2024-01-10_23-38-44-112.png?alt=media&token=4f1589d6-ae4f-4c06-bcee-e242f18cfcac
-      lastModifiedTS: 1704929924633
-      name: screen_2024-01-10_23-38-44-112.png
-      ref: maps/XyspXgig1fp54pmAcYIo/backgroundImage/z34J3a0jLubDLCUQWqBV-screen_2024-01-10_23-38-44-112.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2FbackgroundImage%2Fj5al5m4S3HrMMrSL6RLw-screen_2024-01-14_18-54-58-268.png?alt=media&token=400571ef-77e3-4f6a-817b-4b8e5704c27b
+      lastModifiedTS: 1705258498887
+      name: screen_2024-01-14_18-54-58-268.png
+      ref: maps/XyspXgig1fp54pmAcYIo/backgroundImage/j5al5m4S3HrMMrSL6RLw-screen_2024-01-14_18-54-58-268.png
       type: image/png
   certified: true
   description: Lava surrounds an island bearing a massive fossil that divides 5 ways.
@@ -6817,7 +6817,7 @@ XyspXgig1fp54pmAcYIo:
       name: hypermini.png
       ref: maps/XyspXgig1fp54pmAcYIo/photo/Cv4mXTcrgacjR88fWOGH-hypermini.png
       type: image/png
-  playerCount: 12
+  playerCount: 24
   special: Lava
   springName: Hyperion Shale 1.0
   startboxesSet:
@@ -6850,18 +6850,18 @@ XyspXgig1fp54pmAcYIo:
             - x: 51
               y: 112
     JpU5m6J80wOVMmo53lvb:
-      maxPlayersPerStartbox: 6
+      maxPlayersPerStartbox: 12
       startboxes:
         - poly:
-            - x: 70
-              y: 126
-            - x: 159
-              y: 166
+            - x: 33
+              y: 128
+            - x: 167
+              y: 180
         - poly:
-            - x: 70
-              y: 34
-            - x: 159
-              y: 74
+            - x: 33
+              y: 20
+            - x: 167
+              y: 72
   teamCount: 5
   terrain:
     - lava
@@ -6995,6 +6995,7 @@ Yhwa2neMfDTUXyAiSJXC:
       ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
       type: image/jpeg
   playerCount: 10
+  special: Lava
   springName: Incandescence Remake 3.3.1
   startboxesSet:
     Kf0DEEe450YknULqebMI:
