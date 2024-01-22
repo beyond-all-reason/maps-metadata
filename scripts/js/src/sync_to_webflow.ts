@@ -547,7 +547,16 @@ async function getAllWebflowItems(collection: WebflowCollection): Promise<Webflo
 async function getAllWebflowMaps(mapsCollection: WebflowCollection): Promise<Map<string, WebflowMapInfo>> {
     const items = await getAllWebflowItems(mapsCollection);
     const maps = items.map(item => new WebflowMapInfo(item));
-    return new Map(maps.map(map => [map.rowyId, map]));
+    const res = new Map();
+    let dupId = 0;
+    for (const map of maps) {
+        if (res.has(map.rowyId)) {
+            console.warn(`Warning: Duplicate rowyId ${map.rowyId}, duplicating with fake.`);
+            map.rowyId = `${map.rowyId}-bad${dupId++}`;
+        }
+        res.set(map.rowyId, map);
+    }
+    return res;
 }
 
 // getAllWebflowMapTags returns all map tags from the Webflow collection mapped by map tag slug.
