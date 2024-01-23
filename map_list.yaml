@@ -4261,7 +4261,7 @@ LutAHarULFOEKKA21AvQ:
     - hills
     - desert
 MDi3gNqaTj3H1DkzpPfz:
-  author: Moose, Beherith
+  author: Moose, Beherith, Johannes
   backgroundImage:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2Fq9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png?alt=media&token=ac986dcb-24de-4992-87cb-a330a8a353cb
       lastModifiedTS: 1700881784662
@@ -6995,6 +6995,7 @@ Yhwa2neMfDTUXyAiSJXC:
       ref: maps/Yhwa2neMfDTUXyAiSJXC/photo/cVt2sPXh7Yl4SgLhpn1C-incandescence_remake_3.3.jpg
       type: image/jpeg
   playerCount: 10
+  special: Lava
   springName: Incandescence Remake 3.3.1
   startboxesSet:
     Kf0DEEe450YknULqebMI:
