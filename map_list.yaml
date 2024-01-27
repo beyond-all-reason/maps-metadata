@@ -1288,18 +1288,19 @@
       ref: maps/4WiZnMfXPyjUARuQumRM/backgroundImage/ePBuvg6jCtbnVlAppdfv-screen_2023-11-24_23-46-09-486.png
       type: image/png
   certified: true
+  description: 4v4 to 8v8 map.
   displayName: Hades Ponds
   gameType:
     - team
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
-      lastModifiedTS: 1683982256150
-      name: Hades_Ponds_0.7.jpg
-      ref: maps/4WiZnMfXPyjUARuQumRM/photo/LR7OxeaX03rY7TsdugRH-Hades_Ponds_0.7.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4WiZnMfXPyjUARuQumRM%2Fphoto%2FBpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg?alt=media&token=77c5f3bf-e6dd-4e4a-9c3d-3d2b1de45a23
+      lastModifiedTS: 1706397514970
+      name: hades_ponds_v1_minimap.jpg
+      ref: maps/4WiZnMfXPyjUARuQumRM/photo/BpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Hades Ponds 0.7
+  springName: Hades Ponds 1.0
   startboxesSet:
     1JM0wTOA7VXzj3ciiFwt:
       maxPlayersPerStartbox: 8
