@@ -7900,14 +7900,14 @@ bjT21UjhlZ3s2nrZ850V:
     - ffa
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2FgZtkUoJQSvaM97EHL3Jh-fullmetalscreenshot.png?alt=media&token=8544d68c-d81e-4126-94f9-9511e14d6569
-      lastModifiedTS: 1706717330497
-      name: fullmetalscreenshot.png
-      ref: maps/bjT21UjhlZ3s2nrZ850V/photo/gZtkUoJQSvaM97EHL3Jh-fullmetalscreenshot.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2FZEHKvCAEy9CupGfm91Qc-fullmetalscreen.png?alt=media&token=1afa1e68-a82b-4270-967c-090072da0c90
+      lastModifiedTS: 1707116700809
+      name: fullmetalscreen.png
+      ref: maps/bjT21UjhlZ3s2nrZ850V/photo/ZEHKvCAEy9CupGfm91Qc-fullmetalscreen.png
       type: image/png
   playerCount: 16
   special: Metal
-  springName: Full Metal Plate 1.6
+  springName: Full Metal Plate 1.7
   startboxesSet:
     aD4vGDHyakLc2j4X8ZlT:
       maxPlayersPerStartbox: 8
