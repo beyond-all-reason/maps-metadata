@@ -5248,6 +5248,68 @@ RT3Y6Qyjvt3pTGXWjWPK:
     - lava
     - hills
     - flat
+RTxWSdffMT8Mb8ixqKdL:
+  author: Moose, FlorisXIV
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FbackgroundImage%2FbidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png?alt=media&token=fdfcfe9c-dbcb-47da-b306-cd96079ed1b4
+      lastModifiedTS: 1707179864152
+      name: screen_2024-02-06_00-37-43-712.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/backgroundImage/bidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png
+      type: image/png
+  certified: true
+  description: Map for 1v1 - 3v3. Start locations are relatively close for a 14x14
+    map. Watch your back, start points are surrounded by hills.
+  displayName: Hide and Seek
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FDxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png?alt=media&token=cf9072e6-bb40-475b-b8cd-17961a1e61fc
+      lastModifiedTS: 1707179801310
+      name: screen_2024-02-06_00-36-40-906.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/DxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2F1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png?alt=media&token=da4b7ea6-784e-48d8-88d2-ae4b5c4c722c
+      lastModifiedTS: 1707179774505
+      name: screen_2024-02-06_00-36-14-109.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FXKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png?alt=media&token=07b85c9d-60ae-470a-a8be-2b1a83bd4667
+      lastModifiedTS: 1707179957571
+      name: screen_2024-02-06_00-39-17-106.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/XKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FgALVwd21idmN4FkkohC5-hideseekmini.png?alt=media&token=33605158-9655-4d2a-9d85-9d4059a2497d
+      lastModifiedTS: 1707240352772
+      name: hideseekmini.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/gALVwd21idmN4FkkohC5-hideseekmini.png
+      type: image/png
+  playerCount: 2
+  springName: Hide and Seek 2.0
+  startboxesSet:
+    KUM2lvbDmB3aBmgGxomo:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 52
+              y: 116
+            - x: 68
+              y: 156
+        - poly:
+            - x: 134
+              y: 44
+            - x: 150
+              y: 84
+  teamCount: 2
+  terrain:
+    - chokepoints
+    - grassy
+    - hills
+    - forests
+    - jungle
+  title: Watch your back!
 SHA84LfmzYbxT8iIyTtU:
   author: Beherith
   backgroundImage:
