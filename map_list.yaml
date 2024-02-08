@@ -5281,16 +5281,16 @@ RTxWSdffMT8Mb8ixqKdL:
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FgALVwd21idmN4FkkohC5-hideseekmini.png?alt=media&token=33605158-9655-4d2a-9d85-9d4059a2497d
-      lastModifiedTS: 1707240352772
-      name: hideseekmini.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/gALVwd21idmN4FkkohC5-hideseekmini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FEpz7fXFr2ypYIVnEQ2jd-hideseekmini2.png?alt=media&token=12128807-4331-4699-95f2-f0817a754466
+      lastModifiedTS: 1707350815467
+      name: hideseekmini2.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/Epz7fXFr2ypYIVnEQ2jd-hideseekmini2.png
       type: image/png
-  playerCount: 2
-  springName: Hide and Seek 2.0
+  playerCount: 6
+  springName: Hide and Seek 2.2
   startboxesSet:
     KUM2lvbDmB3aBmgGxomo:
-      maxPlayersPerStartbox: 1
+      maxPlayersPerStartbox: 3
       startboxes:
         - poly:
             - x: 52
