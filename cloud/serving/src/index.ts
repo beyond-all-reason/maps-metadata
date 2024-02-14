@@ -148,13 +148,23 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 		return new Response(head, { headers });
 	}
 
+	const shouldRedirect = path[path.length - 1].startsWith('redir.');
+
 	const objectPath = `${commit}/${path.slice(1).join('/')}`;
 
 	// Try to get load object from cache
 	const objectReq = new Request(new URL(objectPath, url.origin), request);
 	const objectCache = disableCache ? undefined : await cache.match(objectReq);
 	if (objectCache) {
-		const response = new Response(objectCache.body, objectCache);
+		let response;
+		if (shouldRedirect) {
+			response = new Response(null, {
+				status: 301,
+				headers: { 'Location': await objectCache.text() }
+			});
+		} else {
+			response = new Response(objectCache.body, objectCache);
+		}
 		setHeaders(response.headers, true);
 		return response;
 	}
@@ -170,9 +180,24 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 	object.writeHttpMetadata(headers);
 	headers.set('etag', object.httpEtag);
 	headers.set('cache-control', CACHE_FOREVER);
-	const response = new Response(object.body, { headers });
-	if (!disableCache) ctx.waitUntil(cache.put(objectReq, response.clone()));
-
+	let response;
+	if (shouldRedirect) {
+		if (object.size > 2000) {
+			throw new Error('The redirect url is too long');
+		}
+		const redir = await object.text();
+		if (!disableCache) {
+			const cacheResp = new Response(redir, { headers });
+			ctx.waitUntil(cache.put(objectReq, cacheResp));
+		}
+		response = new Response(null, {
+			status: 301,
+			headers: { 'Location': redir }
+		});
+	} else {
+		response = new Response(object.body, { headers });
+		if (!disableCache) ctx.waitUntil(cache.put(objectReq, response.clone()));
+	}
 	setHeaders(response.headers, false);
 	return response;
 }
