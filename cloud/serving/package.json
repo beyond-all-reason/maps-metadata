@@ -6,8 +6,8 @@
   "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230404.0",
-    "typescript": "^5.0.4",
-    "wrangler": "^2.16.0"
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.28.2"
   }
 }
