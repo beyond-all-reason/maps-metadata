@@ -40,7 +40,8 @@ EOF
 
 trap "rm -f $TMP_FILE" EXIT
 
-rclone --config $TMP_FILE copy gen "r2:$R2_BUCKET_NAME/$COMMIT"
+rclone --config $TMP_FILE copy --exclude "redir.*" gen "r2:$R2_BUCKET_NAME/$COMMIT"
+rclone --config $TMP_FILE copy --include "redir.*" --header-upload "Content-Type: text/plain" gen "r2:$R2_BUCKET_NAME/$COMMIT"
 
 if [ "$SET_LATEST" = "true" ]; then
     printf "$COMMIT" | rclone --config $TMP_FILE --header-upload "Content-Type: text/plain" rcat "r2:$R2_BUCKET_NAME/HEAD"
