@@ -7180,6 +7180,46 @@ Z7wmue7EsjaTNpsdBuyx:
     - grassy
     - forests
     - desert
+Z8YOFQmH2Aic7MsPihzr:
+  author: Pinchy
+  certified: true
+  description: An island pair set in a tropical biome featuring a large central
+    crossing and supporting islands to create tactical opportunities for all
+    unit types.
+  displayName: Pinch Point
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2Fphoto%2FWFTekDQFU1Bhbas1izIk-pinch_point.png?alt=media&token=1ad9c7c4-787c-4936-ae93-774efcf6d458
+      lastModifiedTS: 1708182197254
+      name: pinch_point.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/photo/WFTekDQFU1Bhbas1izIk-pinch_point.png
+      type: image/png
+  playerCount: 16
+  springName: Pinch Point 1.01
+  startboxesSet:
+    1LFGneSokrjxE8sTzln3:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 75
+              y: 200
+        - poly:
+            - x: 125
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - sea
+    - tropical
+    - water
+    - shallows
+    - island
+    - hills
 ZJNeHQG2ls2h2Xq1hHUy:
   author: Beherith
   backgroundImage:
