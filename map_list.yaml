@@ -4383,6 +4383,80 @@ MIHFHzbaF3j4OMqvreh9:
     - hills
     - flat
     - grassy
+MRCGsZ8eB04FPYmwheUi:
+  author: Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMRCGsZ8eB04FPYmwheUi%2FbackgroundImage%2F2kjN8LoKqTtEDsABOLVy-screen_2024-02-23_12-43-45-089.png?alt=media&token=733195c9-6cc8-4a2c-b7dd-e88bb2a4afb9
+      lastModifiedTS: 1708692225624
+      name: screen_2024-02-23_12-43-45-089.png
+      ref: maps/MRCGsZ8eB04FPYmwheUi/backgroundImage/2kjN8LoKqTtEDsABOLVy-screen_2024-02-23_12-43-45-089.png
+      type: image/png
+  certified: true
+  description: 64 manufacturing stations strewn on a factory floor. Resources are
+    higher in the center stations.
+  displayName: Adamantium Factory
+  gameType:
+    - team
+    - ffa
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMRCGsZ8eB04FPYmwheUi%2FinGameShots%2FGifHIdDeKuoKOjOIvcm7-screen_2024-02-23_13-00-10-545.png?alt=media&token=4bea30fd-d6f1-43ac-a20e-a951030c15bf
+      lastModifiedTS: 1708693211146
+      name: screen_2024-02-23_13-00-10-545.png
+      ref: maps/MRCGsZ8eB04FPYmwheUi/inGameShots/GifHIdDeKuoKOjOIvcm7-screen_2024-02-23_13-00-10-545.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMRCGsZ8eB04FPYmwheUi%2Fphoto%2FfMkJVniJHPR3oOzcqb63-Adamantium_Factory_V1.jpg?alt=media&token=a1215dff-070a-462d-bef1-1d9c11e8c1d1
+      lastModifiedTS: 1708685710721
+      name: Adamantium_Factory_V1.jpg
+      ref: maps/MRCGsZ8eB04FPYmwheUi/photo/fMkJVniJHPR3oOzcqb63-Adamantium_Factory_V1.jpg
+      type: image/jpeg
+  playerCount: 64
+  special: Metal
+  springName: Adamantium_Factory_V1
+  startboxesSet:
+    OBnbo3w3ePDUZuKbaPyj:
+      maxPlayersPerStartbox: 9
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 77
+              y: 74
+        - poly:
+            - x: 125
+              y: 126
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 127
+            - x: 75
+              y: 199
+        - poly:
+            - x: 127
+              y: 1
+            - x: 200
+              y: 77
+    bFFyruEJnNuyclU8VpUl:
+      maxPlayersPerStartbox: 16
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 52
+              y: 200
+        - poly:
+            - x: 148
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 16
+  terrain:
+    - metal
+    - flat
+  title: Expansive decrepit factory floor
 MqDO00JzJMESdzVDkkT5:
   author: Nikuksis (original by Hunterw)
   backgroundImage:
