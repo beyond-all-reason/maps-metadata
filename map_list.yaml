@@ -12421,6 +12421,67 @@ x3jIjnV9aipWzVVWjZlL:
     - flat
     - metal
     - island
+xMrZBOap76goS3ri3pBk:
+  author: Russ838, Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2FbackgroundImage%2FTtldYz3sfOqZ65DM7HU4-bastion%201.PNG?alt=media&token=eca54db1-8047-4d12-83a6-2eae2f4548af
+      lastModifiedTS: 1708900769500
+      name: bastion 1.PNG
+      ref: maps/xMrZBOap76goS3ri3pBk/backgroundImage/TtldYz3sfOqZ65DM7HU4-bastion
+        1.PNG
+      type: image/png
+  certified: true
+  description: An Ancient fortress, built to withstand an enemy long forgotten.
+  displayName: Ancient Bastion
+  gameType:
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2FinGameShots%2FnW7W56YvtSHJYs4izzpy-bastion%202.PNG?alt=media&token=5def1023-cb56-49ea-b918-bac8dccfb260
+      lastModifiedTS: 1708900856486
+      name: bastion 2.PNG
+      ref: maps/xMrZBOap76goS3ri3pBk/inGameShots/nW7W56YvtSHJYs4izzpy-bastion 2.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2FinGameShots%2FNjV4f07wnRDTS4p9EjZL-bastion%202.PNG?alt=media&token=73eccf92-b3d9-4b5d-9f2a-26f9ea66da85
+      lastModifiedTS: 1708900856486
+      name: bastion 2.PNG
+      ref: maps/xMrZBOap76goS3ri3pBk/inGameShots/NjV4f07wnRDTS4p9EjZL-bastion 2.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2FinGameShots%2FytPHvn4BZGwx8fgZBod5-bastion%203.PNG?alt=media&token=3997715d-0964-48d6-8a73-04ec7fb82d24
+      lastModifiedTS: 1708900886698
+      name: bastion 3.PNG
+      ref: maps/xMrZBOap76goS3ri3pBk/inGameShots/ytPHvn4BZGwx8fgZBod5-bastion 3.PNG
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2Fphoto%2FPq2iz4IMLgtSRisXUgju-bastion.jpg?alt=media&token=0ec181c8-f927-4fd5-81b5-578ed35762bb
+      lastModifiedTS: 1708900096007
+      name: bastion.jpg
+      ref: maps/xMrZBOap76goS3ri3pBk/photo/Pq2iz4IMLgtSRisXUgju-bastion.jpg
+      type: image/jpeg
+  playerCount: 12
+  springName: Ancient Bastion Remake 0.5
+  startboxesSet:
+    IpAxq7cw907NVfIY2fym:
+      maxPlayersPerStartbox: 6
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 200
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - asymmetrical
+    - flat
+    - forests
+    - grassy
+    - hills
+    - industrial
 xbJTsdeXIKFQmuvBHW3d:
   author: IceXuick
   backgroundImage:
