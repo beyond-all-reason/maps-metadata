@@ -8628,10 +8628,10 @@ cQ5LLQmNqCPCnYFiTlcb:
 cQbwmwbhWrWyD1bhZNEn:
   author: Ambulatory Cortex
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FbackgroundImage%2FXa4JlSkdvEaKvOw9IELc-screen_2023-11-24_22-54-30-478.png?alt=media&token=275eb83e-7950-4e69-aecc-a4c2faf86ab3
-      lastModifiedTS: 1700866470985
-      name: screen_2023-11-24_22-54-30-478.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/backgroundImage/Xa4JlSkdvEaKvOw9IELc-screen_2023-11-24_22-54-30-478.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FbackgroundImage%2Fm7Y5DAeZn0ewcJ8XAM10-screen_2024-03-01_02-39-34-123.png?alt=media&token=82a9fd06-f095-467c-903c-ed6e46c8f573
+      lastModifiedTS: 1709260774885
+      name: screen_2024-03-01_02-39-34-123.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/backgroundImage/m7Y5DAeZn0ewcJ8XAM10-screen_2024-03-01_02-39-34-123.png
       type: image/png
   certified: true
   description: Huge island battlefield to fight on the mountains, beaches,
@@ -8641,19 +8641,19 @@ cQbwmwbhWrWyD1bhZNEn:
     - team
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FperspectiveShot%2FDsMnZfokbSmS01uMdjcX-screen00086.png?alt=media&token=41eb8a7d-2605-4575-8e00-0f0b6d813ac4
-      lastModifiedTS: 1700317447274
-      name: screen00086.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/perspectiveShot/DsMnZfokbSmS01uMdjcX-screen00086.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FperspectiveShot%2FfBtUOYbIQ1mhC1evR9Xo-screen_2024-03-01_02-40-05-298.png?alt=media&token=bb17406b-a1af-477d-b13c-d60a89f8caa8
+      lastModifiedTS: 1709260806158
+      name: screen_2024-03-01_02-40-05-298.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/perspectiveShot/fBtUOYbIQ1mhC1evR9Xo-screen_2024-03-01_02-40-05-298.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2Fsler70gCqLrJGq9HnVxp-minmap.png?alt=media&token=85725389-7696-476c-892e-4696c5025271
-      lastModifiedTS: 1700316813785
-      name: minmap.png
-      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/sler70gCqLrJGq9HnVxp-minmap.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2Fphoto%2F2g349coyx3qFS06eDGEf-Jade%20Empress%201.41.png?alt=media&token=a0a8b811-cd2d-44e9-84af-caa44938b2d1
+      lastModifiedTS: 1709261519460
+      name: Jade Empress 1.41.png
+      ref: maps/cQbwmwbhWrWyD1bhZNEn/photo/2g349coyx3qFS06eDGEf-Jade Empress 1.41.png
       type: image/png
   playerCount: 16
-  springName: Jade Empress 1.3
+  springName: Jade Empress 1.41
   startboxesSet:
     clJSKxOXdwbJjrMUj4Dv:
       maxPlayersPerStartbox: 8
@@ -8671,7 +8671,6 @@ cQbwmwbhWrWyD1bhZNEn:
   teamCount: 2
   terrain:
     - hills
-    - flat
     - island
     - forests
     - shallows
