@@ -4791,6 +4791,72 @@ OgYCeZrIVMN1b9sUbweo:
     - grassy
     - flat
     - shallows
+PekWgagUAJmWoOua3BKS:
+  author: Moose, SirArtturi
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FbackgroundImage%2FOYsUOAFnWpsgqro3atJF-screen_2024-03-01_19-38-49-715.png?alt=media&token=f39af804-6ded-4bf7-a0bb-105eed95b5dc
+      lastModifiedTS: 1709321930347
+      name: screen_2024-03-01_19-38-49-715.png
+      ref: maps/PekWgagUAJmWoOua3BKS/backgroundImage/OYsUOAFnWpsgqro3atJF-screen_2024-03-01_19-38-49-715.png
+      type: image/png
+  certified: true
+  description: A lush jungle with a large river contains dense vegetation and many
+    shallows. East vs West.
+  displayName: The Rock Jungle
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FxHzh2MX1BWEs1nwqQo97-screen_2024-03-01_19-37-37-198.png?alt=media&token=ab147fa1-0cd8-4825-8c21-88eb2e488f49
+      lastModifiedTS: 1709321857646
+      name: screen_2024-03-01_19-37-37-198.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/xHzh2MX1BWEs1nwqQo97-screen_2024-03-01_19-37-37-198.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2F8ZBJejd23nwvJvxgHW9F-screen_2024-03-01_19-36-02-739.png?alt=media&token=26bf5bfa-f2f7-4bd9-ae22-ed06a361dbc6
+      lastModifiedTS: 1709321763160
+      name: screen_2024-03-01_19-36-02-739.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/8ZBJejd23nwvJvxgHW9F-screen_2024-03-01_19-36-02-739.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FwSDLtaPaTkpBlBcifHIY-screen_2024-03-01_19-35-18-477.png?alt=media&token=3d6b969f-f470-44d0-be94-00e25259a2c4
+      lastModifiedTS: 1709321719033
+      name: screen_2024-03-01_19-35-18-477.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/wSDLtaPaTkpBlBcifHIY-screen_2024-03-01_19-35-18-477.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2FinGameShots%2FqrjvmA0eWI0vA6rgDBwp-screen_2024-03-01_19-37-12-880.png?alt=media&token=d2f1c541-f3cf-482c-89ea-131c70e1e40e
+      lastModifiedTS: 1709321833273
+      name: screen_2024-03-01_19-37-12-880.png
+      ref: maps/PekWgagUAJmWoOua3BKS/inGameShots/qrjvmA0eWI0vA6rgDBwp-screen_2024-03-01_19-37-12-880.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2Fphoto%2FcNtIAjFlj1JUM9l6RSuq-rockjunglemini.png?alt=media&token=5ca6b160-e9a3-4a07-9973-4dcb3764bb96
+      lastModifiedTS: 1709345228540
+      name: rockjunglemini.png
+      ref: maps/PekWgagUAJmWoOua3BKS/photo/cNtIAjFlj1JUM9l6RSuq-rockjunglemini.png
+      type: image/png
+  playerCount: 16
+  springName: The Rock Jungle 2.0
+  startboxesSet:
+    hH36OTRHDx2Dg2JCtqYs:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - jungle
+    - chokepoints
+    - shallows
+    - swamp
+    - grassy
+    - hills
 PiT4WHNB94kc8vlAZtot:
   author: Nikuksis
   backgroundImage:
