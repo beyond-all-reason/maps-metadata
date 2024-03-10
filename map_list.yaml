@@ -5391,10 +5391,10 @@ RT3Y6Qyjvt3pTGXWjWPK:
 RTxWSdffMT8Mb8ixqKdL:
   author: Moose, FlorisXIV
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FbackgroundImage%2FbidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png?alt=media&token=fdfcfe9c-dbcb-47da-b306-cd96079ed1b4
-      lastModifiedTS: 1707179864152
-      name: screen_2024-02-06_00-37-43-712.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/backgroundImage/bidtzJ8zg5I7mkFxNZjh-screen_2024-02-06_00-37-43-712.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FbackgroundImage%2Fcs3RbQVE0LPEhMQchl6w-screen_2024-03-10_18-00-15-507.png?alt=media&token=8815f7c4-7cc4-4454-94b5-e2b4b2946ca4
+      lastModifiedTS: 1710093615949
+      name: screen_2024-03-10_18-00-15-507.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/backgroundImage/cs3RbQVE0LPEhMQchl6w-screen_2024-03-10_18-00-15-507.png
       type: image/png
   certified: true
   description: Map for 1v1 - 3v3. Start locations are relatively close for a 14x14
@@ -5404,38 +5404,33 @@ RTxWSdffMT8Mb8ixqKdL:
     - 1v1
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FDxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png?alt=media&token=cf9072e6-bb40-475b-b8cd-17961a1e61fc
-      lastModifiedTS: 1707179801310
-      name: screen_2024-02-06_00-36-40-906.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/DxJAycYiZ9WqXhP8AHu5-screen_2024-02-06_00-36-40-906.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FjgopiIcMLG659IyKd34i-screen_2024-03-10_17-59-28-516.png?alt=media&token=bd413d31-314f-4382-933f-3e2e45d3af06
+      lastModifiedTS: 1710093568941
+      name: screen_2024-03-10_17-59-28-516.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/jgopiIcMLG659IyKd34i-screen_2024-03-10_17-59-28-516.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2F1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png?alt=media&token=da4b7ea6-784e-48d8-88d2-ae4b5c4c722c
-      lastModifiedTS: 1707179774505
-      name: screen_2024-02-06_00-36-14-109.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/1E2noFjUsOEMfIzVCrSk-screen_2024-02-06_00-36-14-109.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2FXKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png?alt=media&token=07b85c9d-60ae-470a-a8be-2b1a83bd4667
-      lastModifiedTS: 1707179957571
-      name: screen_2024-02-06_00-39-17-106.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/XKzAuwODV16yfoOQ7p29-screen_2024-02-06_00-39-17-106.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2FinGameShots%2Fat6yZOsw77yhnCywE7J8-screen_2024-03-10_17-59-43-184.png?alt=media&token=e656fbe2-4c43-4eea-afd9-148f5c5b8b7b
+      lastModifiedTS: 1710093583583
+      name: screen_2024-03-10_17-59-43-184.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/at6yZOsw77yhnCywE7J8-screen_2024-03-10_17-59-43-184.png
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FEpz7fXFr2ypYIVnEQ2jd-hideseekmini2.png?alt=media&token=12128807-4331-4699-95f2-f0817a754466
-      lastModifiedTS: 1707350815467
-      name: hideseekmini2.png
-      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/Epz7fXFr2ypYIVnEQ2jd-hideseekmini2.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FQaFzrHYPu8z00as8TseH-hideseekmini3.png?alt=media&token=6491d705-cb56-4f77-b2d5-569cefc2c190
+      lastModifiedTS: 1710096706706
+      name: hideseekmini3.png
+      ref: maps/RTxWSdffMT8Mb8ixqKdL/photo/QaFzrHYPu8z00as8TseH-hideseekmini3.png
       type: image/png
   playerCount: 6
-  springName: Hide and Seek 2.2
+  springName: Hide and Seek 2.21
   startboxesSet:
     KUM2lvbDmB3aBmgGxomo:
       maxPlayersPerStartbox: 3
       startboxes:
         - poly:
-            - x: 52
+            - x: 50
               y: 116
-            - x: 68
+            - x: 66
               y: 156
         - poly:
             - x: 134
