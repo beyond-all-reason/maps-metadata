@@ -3058,6 +3058,66 @@ FEkKsVrHELjFh7HQstFq:
     - hills
     - wasteland
     - alien
+FmRZtQ8Wvce6HgKj1uyZ:
+  author: Moose, FlorisXIV
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FbackgroundImage%2F0K4uDYB4NQOlOyybyHXh-screen_2024-03-13_04-11-35-976.png?alt=media&token=7af886f2-bd1b-4d9c-a18c-eb38aa576879
+      lastModifiedTS: 1710303096447
+      name: screen_2024-03-13_04-11-35-976.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/backgroundImage/0K4uDYB4NQOlOyybyHXh-screen_2024-03-13_04-11-35-976.png
+      type: image/png
+  certified: true
+  description: Grassy lowlands on the sides and dry upper plateaus in the center.
+    1v1 to 3v3.
+  displayName: Wanderlust
+  gameType:
+    - team
+    - 1v1
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FlkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png?alt=media&token=54bf60d8-3515-4314-978d-a44a22ea84c8
+      lastModifiedTS: 1710303147100
+      name: screen_2024-03-13_04-12-26-677.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/lkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FHtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png?alt=media&token=ccc305f0-8177-4f3d-9145-66db0976a924
+      lastModifiedTS: 1710303129748
+      name: screen_2024-03-13_04-12-09-342.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/HtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FsjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png?alt=media&token=e576b2a7-820c-41d3-8b30-19b2a10c4398
+      lastModifiedTS: 1710303085974
+      name: screen_2024-03-13_04-11-25-575.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/sjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FOhCCVZ7kuM9ICiGPyqBn-wandermini2.png?alt=media&token=ff6a90e7-2852-43bd-a07c-05ffdb33ba99
+      lastModifiedTS: 1710304856620
+      name: wandermini2.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/photo/OhCCVZ7kuM9ICiGPyqBn-wandermini2.png
+      type: image/png
+  playerCount: 6
+  springName: Wanderlust 2.0
+  startboxesSet:
+    cZjhFKlcaodsYUnFJdnB:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 30
+              y: 200
+        - poly:
+            - x: 170
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - grassy
+    - chokepoints
+    - desert
 GPSFfpSd1wtmx4CZRGA6:
   author: IceXuick
   backgroundImage:
