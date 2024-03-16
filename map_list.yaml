@@ -1990,7 +1990,7 @@ ABBUHinh94O7299Php6p:
       name: screen_2023-11-24_02-10-47-650.png
       ref: maps/ABBUHinh94O7299Php6p/backgroundImage/fHnGoXKzmMOTStnwr2rK-screen_2023-11-24_02-10-47-650.png
       type: image/png
-  certified: false
+  certified: true
   description: Delta Siege Dry Remake | BAR Certified
   displayName: Delta Siege Dry
   gameType:
@@ -2003,7 +2003,7 @@ ABBUHinh94O7299Php6p:
       ref: maps/ABBUHinh94O7299Php6p/photo/g3E7FssKIHMZ8jRxVOtT-DSDR57.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Delta Siege Dry v5.7
+  springName: Delta Siege Dry v5.7.1
   startboxesSet:
     59rSgwuREOcIwsgMAIlG:
       maxPlayersPerStartbox: 8
