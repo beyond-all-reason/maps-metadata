@@ -2024,6 +2024,43 @@ ABBUHinh94O7299Php6p:
     - flat
     - desert
     - chokepoints
+ACgCe99NC8yZFecMwRCm:
+  author: Nikuksis
+  certified: true
+  description: 24x24 BAR remake of a famous map.
+  displayName: Supreme Isthmus
+  gameType:
+    - team
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FChhQEtWbmdgrV819PUXm-supreme162.jpg?alt=media&token=3ca970f7-aba5-4cea-ad65-956c7dea82bb
+      lastModifiedTS: 1698394269427
+      name: supreme162.jpg
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/ChhQEtWbmdgrV819PUXm-supreme162.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Supreme Isthmus v1.6.4
+  startboxesSet:
+    DizlFBRdBVRvBiS3RKYl:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 80
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 80
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - water
+    - grassy
+    - forests
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   backgroundImage:
@@ -10836,6 +10873,69 @@ oHTuEk42qfvZt8tddOnA:
   terrain:
     - hills
     - desert
+oX7eHI8mlpVvJUYs4v4Y:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FbackgroundImage%2FldKsBNTJxbzzcrkwA5Cc-All_that-Glitters%20overview.jpg?alt=media&token=3abb7cf6-41d6-41ae-83a2-61a11ddf3791
+      lastModifiedTS: 1680254595156
+      name: All_that-Glitters overview.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/backgroundImage/ldKsBNTJxbzzcrkwA5Cc-All_that-Glitters
+        overview.jpg
+      type: image/jpeg
+  certified: true
+  description: Mesa with both flat and canyon areas
+  displayName: All That Glitters
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2FjFY1zoXCj35llnkte9cB-All_that-Glitters_SS%201.jpg?alt=media&token=fc8cee34-4c9a-4207-83b2-f9153167d307
+      lastModifiedTS: 1680254581640
+      name: All_that-Glitters_SS 1.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/jFY1zoXCj35llnkte9cB-All_that-Glitters_SS
+        1.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FinGameShots%2F9WPH4bfG3g6h2aN3uoec-All_that-Glitters_SS%202.jpg?alt=media&token=1b52d07e-9c1d-4a17-9ba8-8af26feb54a3
+      lastModifiedTS: 1680254585407
+      name: All_that-Glitters_SS 2.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/9WPH4bfG3g6h2aN3uoec-All_that-Glitters_SS
+        2.jpg
+      type: image/jpeg
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FwVqMHCRItv4aoTUrXUS7-All_that-Glitters_0.8%20perspect.png?alt=media&token=5e22794e-17ee-4ac0-bf0f-09612bf0ac43
+      lastModifiedTS: 1680254589476
+      name: All_that-Glitters_0.8 perspect.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/wVqMHCRItv4aoTUrXUS7-All_that-Glitters_0.8
+        perspect.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2F9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg?alt=media&token=96768372-bde0-460f-bbeb-d77e8539e492
+      lastModifiedTS: 1684275889294
+      name: all_that_glitters_v2.1.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/9bupA6vF1azqdEGoBqw7-all_that_glitters_v2.1.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: All That Glitters v2.1
+  startboxesSet:
+    CSxs9XHI6Fe1a9N8ZIMX:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - desert
+    - chokepoints
+  title: Keep digging!
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
   certified: true
