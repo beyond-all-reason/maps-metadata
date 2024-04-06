@@ -4851,6 +4851,107 @@ OgYCeZrIVMN1b9sUbweo:
     - grassy
     - flat
     - shallows
+PU301WL4OzdofkHuT9N9:
+  author: Soaptastesok
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPU301WL4OzdofkHuT9N9%2FbackgroundImage%2FVTv1sx6dkltve16kQ1Vv-background.png?alt=media&token=74709be1-454f-4abf-b35d-0dbc420d3dce
+      lastModifiedTS: 1712368430496
+      name: background.png
+      ref: maps/PU301WL4OzdofkHuT9N9/backgroundImage/VTv1sx6dkltve16kQ1Vv-background.png
+      type: image/png
+  certified: true
+  description: Geographical map of Earth
+  displayName: World In Flames
+  gameType:
+    - pve
+    - ffa
+  inGameShots: []
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPU301WL4OzdofkHuT9N9%2FperspectiveShot%2FRIhxcUn1pnD2DQVkFKco-perspective.png?alt=media&token=70804f2a-ed78-4055-b1dd-19d746173b7a
+      lastModifiedTS: 1712368687230
+      name: perspective.png
+      ref: maps/PU301WL4OzdofkHuT9N9/perspectiveShot/RIhxcUn1pnD2DQVkFKco-perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPU301WL4OzdofkHuT9N9%2Fphoto%2F7jgDMFcKpvzT0Dk2VCFe-topdown.png?alt=media&token=c8d42aad-1d48-4e4b-b1ca-3c670e419b1f
+      lastModifiedTS: 1712368213729
+      name: topdown.png
+      ref: maps/PU301WL4OzdofkHuT9N9/photo/7jgDMFcKpvzT0Dk2VCFe-topdown.png
+      type: image/png
+  playerCount: 12
+  springName: World In Flames v1.5
+  startboxesSet:
+    eI4pqKWVVSJU9H5DFyNn:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 33
+              y: 40
+            - x: 63
+              y: 70
+        - poly:
+            - x: 140
+              y: 15
+            - x: 170
+              y: 45
+        - poly:
+            - x: 160
+              y: 111
+            - x: 190
+              y: 141
+        - poly:
+            - x: 100
+              y: 75
+            - x: 130
+              y: 105
+        - poly:
+            - x: 53
+              y: 100
+            - x: 83
+              y: 130
+        - poly:
+            - x: 65
+              y: 0
+            - x: 95
+              y: 30
+        - poly:
+            - x: 98
+              y: 27
+            - x: 128
+              y: 57
+        - poly:
+            - x: 130
+              y: 60
+            - x: 160
+              y: 90
+        - poly:
+            - x: 23
+              y: 95
+            - x: 53
+              y: 125
+        - poly:
+            - x: 130
+              y: 110
+            - x: 160
+              y: 140
+        - poly:
+            - x: 63
+              y: 58
+            - x: 93
+              y: 88
+        - poly:
+            - x: 81
+              y: 109
+            - x: 106
+              y: 149
+  teamCount: 12
+  terrain:
+    - asymmetrical
+    - flat
+    - sea
+    - water
+  title: WIF
 PekWgagUAJmWoOua3BKS:
   author: Moose, SirArtturi
   backgroundImage:
