@@ -4887,12 +4887,12 @@ PU301WL4OzdofkHuT9N9:
       maxPlayersPerStartbox: 8
       startboxes:
         - poly:
-            - x: 25
+            - x: 0
               y: 0
-            - x: 85
+            - x: 80
               y: 200
         - poly:
-            - x: 140
+            - x: 120
               y: 0
             - x: 200
               y: 200
