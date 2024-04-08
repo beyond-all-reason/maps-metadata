@@ -4865,6 +4865,7 @@ PU301WL4OzdofkHuT9N9:
   gameType:
     - pve
     - ffa
+    - team
   inGameShots: []
   inPool: true
   perspectiveShot:
@@ -4879,73 +4880,23 @@ PU301WL4OzdofkHuT9N9:
       name: topdown.png
       ref: maps/PU301WL4OzdofkHuT9N9/photo/7jgDMFcKpvzT0Dk2VCFe-topdown.png
       type: image/png
-  playerCount: 12
-  springName: World In Flames v1.5
+  playerCount: 16
+  springName: World In Flames v1.6
   startboxesSet:
-    eI4pqKWVVSJU9H5DFyNn:
-      maxPlayersPerStartbox: 1
+    iECUbEaVuSQRBAWwvDBB:
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
-            - x: 33
-              y: 40
-            - x: 63
-              y: 70
+            - x: 25
+              y: 0
+            - x: 85
+              y: 200
         - poly:
             - x: 140
-              y: 15
-            - x: 170
-              y: 45
-        - poly:
-            - x: 160
-              y: 111
-            - x: 190
-              y: 141
-        - poly:
-            - x: 100
-              y: 75
-            - x: 130
-              y: 105
-        - poly:
-            - x: 53
-              y: 100
-            - x: 83
-              y: 130
-        - poly:
-            - x: 65
               y: 0
-            - x: 95
-              y: 30
-        - poly:
-            - x: 98
-              y: 27
-            - x: 128
-              y: 57
-        - poly:
-            - x: 130
-              y: 60
-            - x: 160
-              y: 90
-        - poly:
-            - x: 23
-              y: 95
-            - x: 53
-              y: 125
-        - poly:
-            - x: 130
-              y: 110
-            - x: 160
-              y: 140
-        - poly:
-            - x: 63
-              y: 58
-            - x: 93
-              y: 88
-        - poly:
-            - x: 81
-              y: 109
-            - x: 106
-              y: 149
-  teamCount: 12
+            - x: 200
+              y: 200
+  teamCount: 2
   terrain:
     - asymmetrical
     - flat
