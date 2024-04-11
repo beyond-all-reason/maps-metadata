@@ -1321,6 +1321,60 @@
     - hills
     - alien
     - water
+4ZiqS12XN6tHsfNDwQ2F:
+  author: Soaptastesok
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4ZiqS12XN6tHsfNDwQ2F%2FbackgroundImage%2FWaorJX0TGYF2FHQSGD32-perspective.png?alt=media&token=cf9d4712-1dd8-4852-aa16-9d61b974b526
+      lastModifiedTS: 1712799345475
+      name: perspective.png
+      ref: maps/4ZiqS12XN6tHsfNDwQ2F/backgroundImage/WaorJX0TGYF2FHQSGD32-perspective.png
+      type: image/png
+  certified: true
+  description: Based on the popular WW2 operational theatre of Wake Island in the
+    Pacific Ocean
+  displayName: Wake Island
+  gameType:
+    - team
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4ZiqS12XN6tHsfNDwQ2F%2FperspectiveShot%2FvVQchnsQHTPm18Bb6TLT-background.png?alt=media&token=e0ff7790-ee86-4a69-9ab8-500809f433cf
+      lastModifiedTS: 1712799440549
+      name: background.png
+      ref: maps/4ZiqS12XN6tHsfNDwQ2F/perspectiveShot/vVQchnsQHTPm18Bb6TLT-background.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4ZiqS12XN6tHsfNDwQ2F%2Fphoto%2FeVdyD3HCn1L0ybMHHVhQ-topdown.png?alt=media&token=a3da9510-ee44-4b25-b3b4-df7cf95986b1
+      lastModifiedTS: 1712799080605
+      name: topdown.png
+      ref: maps/4ZiqS12XN6tHsfNDwQ2F/photo/eVdyD3HCn1L0ybMHHVhQ-topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Wake Island v1.0
+  startboxesSet:
+    6a3dy9GRPcBt3kBys5Oc:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 90
+        - poly:
+            - x: 0
+              y: 110
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - asymmetrical
+    - chokepoints
+    - flat
+    - grassy
+    - island
+    - sea
+    - tropical
+    - water
+  title: WI
 4egdlg54rpZQh1bvbS8p:
   author: Moose
   backgroundImage:
@@ -2315,7 +2369,7 @@ An6zReiqIWD15Yx7bZ3b:
   title: Start Small
 B8dWp2FEAk7BY2XCOAYt:
   author: Phalange
-  certified: false
+  certified: true
   description: 4v4-8v8 map
   displayName: Salt Reef
   gameType:
