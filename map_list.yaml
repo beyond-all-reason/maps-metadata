@@ -2315,7 +2315,7 @@ An6zReiqIWD15Yx7bZ3b:
   title: Start Small
 B8dWp2FEAk7BY2XCOAYt:
   author: Phalange
-  certified: false
+  certified: true
   description: 4v4-8v8 map
   displayName: Salt Reef
   gameType:
@@ -2329,7 +2329,7 @@ B8dWp2FEAk7BY2XCOAYt:
       type: image/jpeg
   playerCount: 16
   special: ""
-  springName: Salt Reef 1.0
+  springName: Salt Reef 1.1
   startboxesSet:
     A6XEUGsxCKGTarHR8KRo:
       maxPlayersPerStartbox: 8
