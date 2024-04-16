@@ -8426,6 +8426,59 @@ bkIRTcsnvtmQVsm3SsNJ:
     - metal
     - alien
     - chokepoints
+bunTXErE1ZLWV9t8jFHw:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2FbackgroundImage%2FkfsdnwzRkkrugrbcRHSd-background.png?alt=media&token=e0444acd-f010-4759-a87b-54e486908459
+      lastModifiedTS: 1713264084947
+      name: background.png
+      ref: maps/bunTXErE1ZLWV9t8jFHw/backgroundImage/kfsdnwzRkkrugrbcRHSd-background.png
+      type: image/png
+  certified: true
+  description: 8v8 lane map.
+  displayName: Esker Creek
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2FinGameShots%2FDlir5MNyTPLWU5ZfRkfS-ingame.png?alt=media&token=8de81b6e-e56c-44d6-b0f0-73e6e963eb45
+      lastModifiedTS: 1713264117915
+      name: ingame.png
+      ref: maps/bunTXErE1ZLWV9t8jFHw/inGameShots/Dlir5MNyTPLWU5ZfRkfS-ingame.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2FperspectiveShot%2FQTfFf9Fvn5xoDuO65JSg-perspective.png?alt=media&token=4f3f1075-33cd-44d7-bcbd-faebd0ce4fe9
+      lastModifiedTS: 1713264325269
+      name: perspective.png
+      ref: maps/bunTXErE1ZLWV9t8jFHw/perspectiveShot/QTfFf9Fvn5xoDuO65JSg-perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2Fphoto%2FKJ84XQbADQfdVSuwpeNq-minimap.png?alt=media&token=fedb6c42-d089-43e3-9762-4709fff07541
+      lastModifiedTS: 1713264050717
+      name: minimap.png
+      ref: maps/bunTXErE1ZLWV9t8jFHw/photo/KJ84XQbADQfdVSuwpeNq-minimap.png
+      type: image/png
+  playerCount: 16
+  springName: Esker Creek 1.3
+  startboxesSet:
+    UjR1QRpxyv6YF6T0eeeV:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - grassy
+    - hills
+    - forests
 byucseTLrpgU0J70dFC0:
   author: IceXuick
   backgroundImage:
