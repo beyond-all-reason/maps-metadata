@@ -1449,6 +1449,77 @@
     - metal
     - island
     - chokepoints
+5qY4GxEPrIG1wfxBkbQ0:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FbackgroundImage%2F6n4zUitM0E4igsaLYCsa-screen_2024-04-21_17-58-59-356.png?alt=media&token=695a4666-b31d-46d8-bf02-635957e8336b
+      lastModifiedTS: 1713722340167
+      name: screen_2024-04-21_17-58-59-356.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/backgroundImage/6n4zUitM0E4igsaLYCsa-screen_2024-04-21_17-58-59-356.png
+      type: image/png
+  certified: true
+  description: Two seas, one bridge. Prove your skills and win on this red planet
+    battlefield.
+  displayName: Hellas Basin
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FinGameShots%2FI8TTN0KZbym7wAwRM8ml-screen_2024-04-21_18-00-46-621.png?alt=media&token=fac3a7d8-1bed-4eb6-a424-b4f2203c9bc4
+      lastModifiedTS: 1713722447724
+      name: screen_2024-04-21_18-00-46-621.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/I8TTN0KZbym7wAwRM8ml-screen_2024-04-21_18-00-46-621.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FinGameShots%2Fsiqzhpv8egtS5TdpWG21-screen_2024-04-21_18-00-25-200.png?alt=media&token=6865bda7-4bdc-472c-9448-f5c948aae4a2
+      lastModifiedTS: 1713722426344
+      name: screen_2024-04-21_18-00-25-200.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/siqzhpv8egtS5TdpWG21-screen_2024-04-21_18-00-25-200.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FinGameShots%2Fuuwrl6x2hzDVFlxYMFbn-screen_2024-04-21_18-00-06-535.png?alt=media&token=90a7ee04-2223-4022-a19f-fa1879a0471e
+      lastModifiedTS: 1713722407380
+      name: screen_2024-04-21_18-00-06-535.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/uuwrl6x2hzDVFlxYMFbn-screen_2024-04-21_18-00-06-535.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FinGameShots%2FbGB3LokpJItBK0OKm3FE-screen_2024-04-21_18-00-16-123.png?alt=media&token=dd7f13b3-bf97-4a4b-a727-acdf60d2ed4d
+      lastModifiedTS: 1713722416774
+      name: screen_2024-04-21_18-00-16-123.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/bGB3LokpJItBK0OKm3FE-screen_2024-04-21_18-00-16-123.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FzbU35jVDGDD27oK21sMj-HB%203D.png?alt=media&token=9026eb18-2f2c-4c56-a955-0c47dca441c4
+      lastModifiedTS: 1713722613276
+      name: HB 3D.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/zbU35jVDGDD27oK21sMj-HB 3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FOlyadOAVKcOPfCWFiyH3-HB%20mini.png?alt=media&token=db0cc9ff-f0b4-4080-a8e6-4471904fa6b6
+      lastModifiedTS: 1713722654582
+      name: HB mini.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/OlyadOAVKcOPfCWFiyH3-HB mini.png
+      type: image/png
+  playerCount: 16
+  springName: Hellas Basin v1.0
+  startboxesSet:
+    qxnzzifwTy5FTgDHvQpl:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 80
+              y: 80
+        - poly:
+            - x: 120
+              y: 120
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - hills
+    - sea
+    - chokepoints
+    - island
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   backgroundImage:
