@@ -1492,13 +1492,13 @@
       ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/zbU35jVDGDD27oK21sMj-HB 3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FOlyadOAVKcOPfCWFiyH3-HB%20mini.png?alt=media&token=db0cc9ff-f0b4-4080-a8e6-4471904fa6b6
-      lastModifiedTS: 1713722654582
-      name: HB mini.png
-      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/OlyadOAVKcOPfCWFiyH3-HB mini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FU9C8wMiygNM30stDQzVR-HEllas%20mini%201.1.png?alt=media&token=123184ed-e40a-4376-8bd9-eeaa34710fb1
+      lastModifiedTS: 1713892863564
+      name: HEllas mini 1.1.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/U9C8wMiygNM30stDQzVR-HEllas mini 1.1.png
       type: image/png
   playerCount: 16
-  springName: Hellas Basin v1.0
+  springName: Hellas Basin v1.1
   startboxesSet:
     qxnzzifwTy5FTgDHvQpl:
       maxPlayersPerStartbox: 8
