@@ -2174,13 +2174,13 @@ ACgCe99NC8yZFecMwRCm:
       ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/EyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FChhQEtWbmdgrV819PUXm-supreme162.jpg?alt=media&token=3ca970f7-aba5-4cea-ad65-956c7dea82bb
-      lastModifiedTS: 1698394269427
-      name: supreme162.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/photo/ChhQEtWbmdgrV819PUXm-supreme162.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FFjEZmQqoW6mG5y8h4Ssp-supreme%201.7.png?alt=media&token=8b0a90ce-e5ef-45a7-bee6-900f11cabbe7
+      lastModifiedTS: 1714162537922
+      name: supreme 1.7.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/FjEZmQqoW6mG5y8h4Ssp-supreme 1.7.png
+      type: image/png
   playerCount: 16
-  springName: Supreme Isthmus v1.6.5
+  springName: Supreme Isthmus v1.7
   startboxesSet:
     DizlFBRdBVRvBiS3RKYl:
       maxPlayersPerStartbox: 8
