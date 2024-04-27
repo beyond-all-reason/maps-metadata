@@ -12484,12 +12484,24 @@ vryCgnmiXKEfnJuBLobP:
     - forests
 wADO80q9xacu6SAV1cZU:
   author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2FbackgroundImage%2FJfOHUJtzmaL0WEbEPXDj-Feast_of_Hades_bg.jpg?alt=media&token=4a22b719-2d94-4d5a-b2d6-365b9df772e5
+      lastModifiedTS: 1714080510948
+      name: Feast_of_Hades_bg.jpg
+      ref: maps/wADO80q9xacu6SAV1cZU/backgroundImage/JfOHUJtzmaL0WEbEPXDj-Feast_of_Hades_bg.jpg
+      type: image/jpeg
   certified: false
   description: 3v3-6v6 map, up to 8v8 with left vs right starting boxes.
   displayName: Feast of Hades
   gameType:
     - team
   inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2FperspectiveShot%2FqBhDfCx4fXFH1JbCv0uX-Feast_of_Hades_perspective.png?alt=media&token=fbf1340b-50d7-4af1-b95b-4dd75de32351
+      lastModifiedTS: 1714082315922
+      name: Feast_of_Hades_perspective.png
+      ref: maps/wADO80q9xacu6SAV1cZU/perspectiveShot/qBhDfCx4fXFH1JbCv0uX-Feast_of_Hades_perspective.png
+      type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2Fphoto%2FPyrV7ld5ctHxrv6lfcGi-Feast_of_Hades_minimap.jpg?alt=media&token=03625d65-70da-4a3c-a1e5-4ef2c1e44706
       lastModifiedTS: 1714081145384
@@ -12497,7 +12509,7 @@ wADO80q9xacu6SAV1cZU:
       ref: maps/wADO80q9xacu6SAV1cZU/photo/PyrV7ld5ctHxrv6lfcGi-Feast_of_Hades_minimap.jpg
       type: image/jpeg
   playerCount: 12
-  springName: Feast of Hades 0.9
+  springName: Feast of Hades 1.0
   startboxesSet:
     oTdwVT7PBioHGvCRlr1F:
       maxPlayersPerStartbox: 6
