@@ -10441,6 +10441,54 @@ j3X9bepS3FrtzjLLNmmu:
     - grassy
     - shallows
   title: Start Small
+jyQlMYahZbQYgC1ZGRmd:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2FbackgroundImage%2Fg2cEGvC0f3eLjAJtsWbB-hera_planum_background.jpg?alt=media&token=6784b090-8b72-40d2-9c82-9d3e77bdadb7
+      lastModifiedTS: 1714720117308
+      name: hera_planum_background.jpg
+      ref: maps/jyQlMYahZbQYgC1ZGRmd/backgroundImage/g2cEGvC0f3eLjAJtsWbB-hera_planum_background.jpg
+      type: image/jpeg
+  certified: false
+  description: Ancient eroded craters leave narrow paths on a vast plateau. Some
+    geothermal activity remains in this barren environment.
+  displayName: Hera Planum
+  gameType:
+    - team
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2FperspectiveShot%2FU8C7JwyGHGXmVlokfaWT-hera_planum_perspective.png?alt=media&token=2e0868d1-4a8a-42d0-a5b4-4adb4c02b348
+      lastModifiedTS: 1714720041279
+      name: hera_planum_perspective.png
+      ref: maps/jyQlMYahZbQYgC1ZGRmd/perspectiveShot/U8C7JwyGHGXmVlokfaWT-hera_planum_perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2Fphoto%2F5De9mTpeujnIUWX4v7uY-hera_planum_minimap.jpg?alt=media&token=03dbfcf0-3944-49dd-96f3-b401e309ba62
+      lastModifiedTS: 1714719799995
+      name: hera_planum_minimap.jpg
+      ref: maps/jyQlMYahZbQYgC1ZGRmd/photo/5De9mTpeujnIUWX4v7uY-hera_planum_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Hera Planum 0.9
+  startboxesSet:
+    tSAGMmSfj6YkInTxffy6:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 45
+              y: 200
+        - poly:
+            - x: 155
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - desert
 kesPeWO0ScnmWF2An8qA:
   author: Nikuksis
   backgroundImage:
