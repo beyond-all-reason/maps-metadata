@@ -10463,13 +10463,13 @@ jyQlMYahZbQYgC1ZGRmd:
       ref: maps/jyQlMYahZbQYgC1ZGRmd/perspectiveShot/U8C7JwyGHGXmVlokfaWT-hera_planum_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2Fphoto%2F5De9mTpeujnIUWX4v7uY-hera_planum_minimap.jpg?alt=media&token=03dbfcf0-3944-49dd-96f3-b401e309ba62
-      lastModifiedTS: 1714719799995
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2Fphoto%2F6epaxLgiqHrPgEcRGD8g-hera_planum_minimap.jpg?alt=media&token=833f5adf-e275-4de4-9bd3-e9865de4bf27
+      lastModifiedTS: 1714821828168
       name: hera_planum_minimap.jpg
-      ref: maps/jyQlMYahZbQYgC1ZGRmd/photo/5De9mTpeujnIUWX4v7uY-hera_planum_minimap.jpg
+      ref: maps/jyQlMYahZbQYgC1ZGRmd/photo/6epaxLgiqHrPgEcRGD8g-hera_planum_minimap.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Hera Planum 0.9
+  springName: Hera Planum 0.91
   startboxesSet:
     tSAGMmSfj6YkInTxffy6:
       maxPlayersPerStartbox: 8
