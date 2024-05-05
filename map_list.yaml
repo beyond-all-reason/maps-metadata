@@ -1486,19 +1486,19 @@
       type: image/png
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FzbU35jVDGDD27oK21sMj-HB%203D.png?alt=media&token=9026eb18-2f2c-4c56-a955-0c47dca441c4
-      lastModifiedTS: 1713722613276
-      name: HB 3D.png
-      ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/zbU35jVDGDD27oK21sMj-HB 3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FLCzPEPUn9vJVpayJuGaM-hellas1.43d.png?alt=media&token=7e75812f-cb6d-4c20-bd5a-9c9928a3201e
+      lastModifiedTS: 1714938436169
+      name: hellas1.43d.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/perspectiveShot/LCzPEPUn9vJVpayJuGaM-hellas1.43d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FIEu3JlxJbA6LI8Ms1e9L-hellas1.3.png?alt=media&token=e2745ad8-35cf-48b7-8522-3b9a39616651
-      lastModifiedTS: 1714843490949
-      name: hellas1.3.png
-      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/IEu3JlxJbA6LI8Ms1e9L-hellas1.3.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2Fphoto%2FDQe09QWG9gAULuT6Kjwh-hellas1.4.png?alt=media&token=815fe34a-4f15-4166-a689-6bc753d33861
+      lastModifiedTS: 1714938328838
+      name: hellas1.4.png
+      ref: maps/5qY4GxEPrIG1wfxBkbQ0/photo/DQe09QWG9gAULuT6Kjwh-hellas1.4.png
       type: image/png
   playerCount: 16
-  springName: Hellas Basin v1.3
+  springName: Hellas Basin v1.4
   startboxesSet:
     qxnzzifwTy5FTgDHvQpl:
       maxPlayersPerStartbox: 8
