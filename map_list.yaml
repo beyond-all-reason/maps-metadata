@@ -12078,11 +12078,10 @@ te9bV2b9aiw8w9qgzTJg:
 u17mWZp6jqx5b5s0Or5z:
   author: Phalange
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FTDH5QWrftNXHKvOfiBEk-theta_crystals_0.8%20overview.jpg?alt=media&token=c8416789-9a28-4112-a497-99006999424d
-      lastModifiedTS: 1680250489689
-      name: theta_crystals_0.8 overview.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/TDH5QWrftNXHKvOfiBEk-theta_crystals_0.8
-        overview.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FHAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg?alt=media&token=be653eab-fd60-4fc1-abf5-6b23ee3c93f6
+      lastModifiedTS: 1714919415868
+      name: theta_crystals_bg.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/HAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg
       type: image/jpeg
   certified: false
   description: Team map. Color palette based on Crystallized Plains by Moose.
@@ -12105,20 +12104,19 @@ u17mWZp6jqx5b5s0Or5z:
       type: image/jpeg
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FLPvbZfyzLvcDOMXD5tT2-theta_crystals_0.8%20perspect.png?alt=media&token=072c6b8a-c977-4c78-9e14-066bd2c16e1f
-      lastModifiedTS: 1680250507394
-      name: theta_crystals_0.8 perspect.png
-      ref: maps/u17mWZp6jqx5b5s0Or5z/perspectiveShot/LPvbZfyzLvcDOMXD5tT2-theta_crystals_0.8
-        perspect.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
+      lastModifiedTS: 1714920006833
+      name: theta_crystals_perspective.png
+      ref: maps/u17mWZp6jqx5b5s0Or5z/perspectiveShot/sdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/u17mWZp6jqx5b5s0Or5z/photo/NiUxJcSpj8NU9YDK3cZD-theta_crystals_1.0.jpg
-      lastModifiedTS: 1683982323358
-      name: theta_crystals_1.0.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/NiUxJcSpj8NU9YDK3cZD-theta_crystals_1.0.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2Fphoto%2F0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg?alt=media&token=8a98bb86-701e-45f6-82bc-59ce48a0c42a
+      lastModifiedTS: 1714919313881
+      name: theta_crystals_minimap.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Theta Crystals 1.0
+  springName: Theta Crystals 1.2
   startboxesSet:
     TCF49ZiiKLtHcKt1YnJe:
       maxPlayersPerStartbox: 4
