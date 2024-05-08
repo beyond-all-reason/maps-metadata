@@ -12078,13 +12078,14 @@ te9bV2b9aiw8w9qgzTJg:
 u17mWZp6jqx5b5s0Or5z:
   author: Phalange
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FHAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg?alt=media&token=be653eab-fd60-4fc1-abf5-6b23ee3c93f6
-      lastModifiedTS: 1714919415868
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FbackgroundImage%2FYyJFZuKwsL6NfzjqDQNj-theta_crystals_bg.jpg?alt=media&token=d0827c7e-029f-44dc-a266-be4ca81d1ffc
+      lastModifiedTS: 1715179862454
       name: theta_crystals_bg.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/HAPZZZ9AdEwQHqcM6jHM-theta_crystals_bg.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/YyJFZuKwsL6NfzjqDQNj-theta_crystals_bg.jpg
       type: image/jpeg
   certified: false
-  description: Team map. Color palette based on Crystallized Plains by Moose.
+  description: Team map. 3 metal spots only reachable by air. Color palette based
+    on Crystallized Plains by Moose.
   displayName: Theta Crystals
   gameType:
     - team
@@ -12110,13 +12111,13 @@ u17mWZp6jqx5b5s0Or5z:
       ref: maps/u17mWZp6jqx5b5s0Or5z/perspectiveShot/sdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2Fphoto%2F0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg?alt=media&token=8a98bb86-701e-45f6-82bc-59ce48a0c42a
-      lastModifiedTS: 1714919313881
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2Fphoto%2FBihearCCwPoZuUBIePkp-theta_crystals_minimap.jpg?alt=media&token=e4fd9a5b-32da-41ed-a410-701802ec72e5
+      lastModifiedTS: 1715179804224
       name: theta_crystals_minimap.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/0WQDIWnzY3xh3pwhnd94-theta_crystals_minimap.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/photo/BihearCCwPoZuUBIePkp-theta_crystals_minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Theta Crystals 1.2
+  springName: Theta Crystals 1.3
   startboxesSet:
     TCF49ZiiKLtHcKt1YnJe:
       maxPlayersPerStartbox: 4
