@@ -11988,6 +11988,74 @@ t85qIzP8X1hqJ5gWEPGM:
     - flat
     - alien
     - asymmetrical
+taMTVVZKAKbYywe7tyRb:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FbackgroundImage%2FVqiiuRfngBPV0eUIMMY0-screen_2024-05-17_19-41-54-445.png?alt=media&token=f39fddc3-d4cf-416f-8067-f7d77e3bb404
+      lastModifiedTS: 1715974915088
+      name: screen_2024-05-17_19-41-54-445.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/backgroundImage/VqiiuRfngBPV0eUIMMY0-screen_2024-05-17_19-41-54-445.png
+      type: image/png
+  certified: true
+  description: Friday afternoon tar.
+  displayName: The Tartar Steppe
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FUFUu97LBKCHFnIOQ1cij-screen_2024-05-17_19-41-58-748.png?alt=media&token=8976849f-eb7f-49ce-9de4-c2ab9e592246
+      lastModifiedTS: 1715974919501
+      name: screen_2024-05-17_19-41-58-748.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/UFUu97LBKCHFnIOQ1cij-screen_2024-05-17_19-41-58-748.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2F9MNXOaNon6OrIpZGAZnG-screen_2024-05-17_19-42-04-187.png?alt=media&token=7236575c-bf1e-4bfb-95fa-2f95b2029fb5
+      lastModifiedTS: 1715974924879
+      name: screen_2024-05-17_19-42-04-187.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/9MNXOaNon6OrIpZGAZnG-screen_2024-05-17_19-42-04-187.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FhmTuiWZ2dfFN3e5HWsrB-screen_2024-05-17_19-41-54-445.png?alt=media&token=34cc5c69-8beb-4d3b-a40a-d1675c5ef7ed
+      lastModifiedTS: 1715974915088
+      name: screen_2024-05-17_19-41-54-445.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/hmTuiWZ2dfFN3e5HWsrB-screen_2024-05-17_19-41-54-445.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FinGameShots%2FlrFtnJtado8YwgXPOxyn-screen_2024-05-17_19-41-44-549.png?alt=media&token=04d6b1c7-5a92-4bcf-9999-32ec7c13f81b
+      lastModifiedTS: 1715974905225
+      name: screen_2024-05-17_19-41-44-549.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/inGameShots/lrFtnJtado8YwgXPOxyn-screen_2024-05-17_19-41-44-549.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
+      lastModifiedTS: 1715976377879
+      name: tartar 3d.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/perspectiveShot/5QTQknQYcRdoymt8d42T-tartar
+        3d.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2Fphoto%2FpAROxktDcmLodCRbV4qY-tartar_mini.png?alt=media&token=0cf83aee-97dd-4e43-98f4-9a5b65375cb7
+      lastModifiedTS: 1715976317794
+      name: tartar_mini.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/photo/pAROxktDcmLodCRbV4qY-tartar_mini.png
+      type: image/png
+  playerCount: 16
+  springName: The Tartar Steppe v1.0
+  startboxesSet:
+    tzBDplnMfTRPH0H4BYcH:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - swamp
 te9bV2b9aiw8w9qgzTJg:
   author: Nikuksis
   backgroundImage:
