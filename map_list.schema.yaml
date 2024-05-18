@@ -98,6 +98,11 @@ additionalProperties:
       items:
         $ref: "#/$defs/uploadedFile"
       default: []
+    mapLists:
+      type: array
+      items:
+        type: string
+      default: []
     startboxesSet:
       type: object
       collection: true

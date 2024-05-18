@@ -11201,6 +11201,8 @@ oX7eHI8mlpVvJUYs4v4Y:
       ref: maps/oX7eHI8mlpVvJUYs4v4Y/inGameShots/aLNdHRuL6YFR7ltNePPr-screen_2024-05-14_10-59-11-872.png
       type: image/png
   inPool: true
+  mapLists:
+    - season1
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FsCkj0ik3ZN1GJ4MfaGV5-ATG%202.2%203d.png?alt=media&token=fe70f966-fab7-4b48-ab0e-8e407295bc59
       lastModifiedTS: 1715684917291
