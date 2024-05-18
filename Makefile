@@ -1,5 +1,5 @@
 # Default target ran by make
-all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/discordPresenceThumb
+all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb
 
 # Rules for doing generic data files conversion, e.g yaml to json
 gen/%.json: %.yaml
@@ -25,7 +25,7 @@ gen/live_maps.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_
 gen/mapBoxes.conf: gen/map_list.validated.json gen/types/map_list.d.ts
 	ts-node scripts/js/src/gen_map_boxes_conf.ts $@
 
-gen/mapLists.conf: gen/map_list.validated.json
+gen/mapLists.conf gen/custom_map_lists.json: gen/map_list.validated.json
 	python scripts/py/gen_nextmap_maplists.py
 
 gen/discordPresenceThumb: gen/map_list.validated.json gen/types/map_list.d.ts
