@@ -1909,6 +1909,8 @@
     - team
     - 1v1
   inPool: true
+  mapLists:
+    - testList
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
       lastModifiedTS: 1713117787673
@@ -2396,6 +2398,8 @@ An6zReiqIWD15Yx7bZ3b:
         SEO 5.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - testList
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FAn6zReiqIWD15Yx7bZ3b%2FperspectiveShot%2FXsxHmrqoY3QvAEF9E9Aa-AltairCrossing%202.png?alt=media&token=6d3a4704-d370-41e6-b8fe-3c69ef738a82
       lastModifiedTS: 1617889884000
@@ -2977,6 +2981,8 @@ ER2B5mT2LU864k1f0UeH:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - testList
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
       lastModifiedTS: 1688199737034
@@ -11202,7 +11208,7 @@ oX7eHI8mlpVvJUYs4v4Y:
       type: image/png
   inPool: true
   mapLists:
-    - season1
+    - testList
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FsCkj0ik3ZN1GJ4MfaGV5-ATG%202.2%203d.png?alt=media&token=fe70f966-fab7-4b48-ab0e-8e407295bc59
       lastModifiedTS: 1715684917291
