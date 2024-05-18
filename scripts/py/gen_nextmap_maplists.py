@@ -145,13 +145,16 @@ def get_output_string(teamsize_dict, certified_maps, uncertified_maps, maps_1v1,
 
     return output_string
 
-def process(input_file,output_file):
+def process(input_file,mapLists_conf,custom_map_lists_json):
     teamsize_dict, certified_maps, uncertified_maps, maps_1v1, map_lists = get_data(input_file)
     output = get_output_string(teamsize_dict, certified_maps, uncertified_maps, maps_1v1, map_lists)
-    with open(output_file, "w") as f:
+    with open(mapLists_conf, "w") as f:
         f.write(output)
+    with open(custom_map_lists_json, "w") as f:
+        f.write(json.dumps(sorted(map_lists.keys()), indent=4))
 
 if __name__ == '__main__':
     input_file = './gen/map_list.validated.json'
-    output_file = './gen/mapLists.conf'
-    process(input_file, output_file)
+    mapLists_conf = './gen/mapLists.conf'
+    custom_map_lists_json = './gen/custom_map_lists.json'
+    process(input_file, mapLists_conf, custom_map_lists_json)
