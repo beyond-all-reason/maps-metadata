@@ -147,6 +147,7 @@ jobs:
     needs: build-and-test
     if: vars.ENABLE_SPADS_CONFIG_PUSH && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     steps:
+      - uses: actions/checkout@v4
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
@@ -162,6 +163,7 @@ jobs:
         run: |
           cp gen/mapBoxes.conf spads_config_bar/etc/mapBoxes.conf
           cp gen/mapLists.conf spads_config_bar/etc/mapLists.conf
+          python3 scripts/py/update_spads_conf.py spads_config_bar/etc/spads_cluster.conf
       - name: Commit and push
         run: |
           cd spads_config_bar
