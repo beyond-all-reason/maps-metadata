@@ -4421,8 +4421,8 @@ Lpy4w1DTM7BjEfERE3wK:
       type: image/png
   certified: true
   description: Small map, optimal for 1v1 or 2v2. The hills on the sides and the
-    passable lake in middle present opportunities to kbots while the flat
-    terrain gives way to vehicles.
+    passable lake in middle present opportunities to bots while the flat terrain
+    gives way to vehicles.
   displayName: Callisto
   gameType:
     - team
