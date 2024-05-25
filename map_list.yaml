@@ -4421,8 +4421,8 @@ Lpy4w1DTM7BjEfERE3wK:
       type: image/png
   certified: true
   description: Small map, optimal for 1v1 or 2v2. The hills on the sides and the
-    passable lake in middle present opportunities to kbots while the flat
-    terrain gives way to vehicles.
+    passable lake in middle present opportunities to bots while the flat terrain
+    gives way to vehicles.
   displayName: Callisto
   gameType:
     - team
@@ -10069,6 +10069,52 @@ ggVDNTLRh7HNk4mf9mf6:
     - flat
     - asteroid
   title: Fight on a comet
+gmNkwg4QQInmBTBcBvWq:
+  author: Johannes
+  certified: true
+  description: Fight over the golden coast on land and water. Best suited for 1v1, 2v2.
+  displayName: Aurelia
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgmNkwg4QQInmBTBcBvWq%2FperspectiveShot%2F8vfOKfFN0sha9tNNvCEU-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=993bb4cc-5cc4-4032-9e61-2c8c0550679b
+      lastModifiedTS: 1716583567589
+      name: Screenshot at 2024-05-24 23-46-07.png
+      ref: maps/gmNkwg4QQInmBTBcBvWq/perspectiveShot/8vfOKfFN0sha9tNNvCEU-Screenshot
+        at 2024-05-24 23-46-07.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgmNkwg4QQInmBTBcBvWq%2Fphoto%2FEumMYsdOg6hUfHfjfV47-Screenshot%20at%202024-05-23%2002-32-30.png?alt=media&token=1e0e6a15-7e99-47cd-9a35-c3af824f3e87
+      lastModifiedTS: 1716420751121
+      name: Screenshot at 2024-05-23 02-32-30.png
+      ref: maps/gmNkwg4QQInmBTBcBvWq/photo/EumMYsdOg6hUfHfjfV47-Screenshot at
+        2024-05-23 02-32-30.png
+      type: image/png
+  playerCount: 4
+  springName: Aurelia v3
+  startboxesSet:
+    FoOQqmRhgdecPoSo3FuR:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 154
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 46
+  teamCount: 2
+  terrain:
+    - hills
+    - flat
+    - alien
+    - water
+    - chokepoints
 hC5Ic7adKaK6YBA68mKY:
   author: Nikuksis
   backgroundImage:
