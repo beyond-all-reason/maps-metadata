@@ -3,6 +3,8 @@
 import json
 import math
 from collections import defaultdict
+import re
+from datetime import datetime
 
 teamsizes = ['2v2','3v3','4v4','5v5','6v6','7v7','8v8','ffa3','ffa4','ffa5','ffa6','ffa7','ffa8','ffa9','ffa10','ffa11','ffa12','ffa13','ffa14','ffa15','ffa16','2v2v2','2v2v2v2','2v2v2v2v2','2v2v2v2v2v2','2v2v2v2v2v2v2','2v2v2v2v2v2v2v2','3v3v3','3v3v3v3','3v3v3v3v3','4v4v4','4v4v4v4','5v5v5']
 
@@ -21,6 +23,12 @@ def get_data(input_file):
 
     for map in contents.values():
         for l in map["mapLists"]:
+            # For maplists beginning with Year-Month, e.g. 2024-05, only include it if it's the current month and strip the month from maplistname. This allows monthly maplists to be prepared ahead of time for the coming months.
+            if re.match("^[0-9][0-9][0-9][0-9]-[0-9][0-9]" ,l):
+                if l[:7] == datetime.today().strftime('%Y-%m'):
+                    l = l[8:]
+                else:
+                    continue
             map_lists[l].add(map["springName"])
 
         if not map["inPool"] or "special" in map and map["special"] in ['Metal', 'No metal']:
