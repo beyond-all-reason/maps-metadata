@@ -8033,6 +8033,57 @@ ZrnTf20mPzbrMjtHa9Wg:
     - grassy
     - forests
     - shallows
+ZvEmwr9QVP760qJOdBxh:
+  author: Johannes
+  certified: true
+  description: Fight over the golden coast on land and water. Best suited for 1v1, 2v2.
+  displayName: Aurelia
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FinGameShots%2F8uxHF9ZkKKhxpVpBTXGZ-Screenshot%20at%202024-03-20%2007-20-13.png?alt=media&token=04da38e5-12ef-4f4f-8213-188f3ba84c57
+      lastModifiedTS: 1710912013762
+      name: Screenshot at 2024-03-20 07-20-13.png
+      ref: maps/ZvEmwr9QVP760qJOdBxh/inGameShots/8uxHF9ZkKKhxpVpBTXGZ-Screenshot at
+        2024-03-20 07-20-13.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F3NYGrc1hoOR84ko0oGAi-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=7551b325-200c-4286-9343-71a6ccb297d6
+      lastModifiedTS: 1717065099488
+      name: Screenshot at 2024-05-24 23-46-07.png
+      ref: maps/ZvEmwr9QVP760qJOdBxh/perspectiveShot/3NYGrc1hoOR84ko0oGAi-Screenshot
+        at 2024-05-24 23-46-07.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2Fphoto%2FmOZSBIGa1CShzYATOSXD-Screenshot%20at%202024-05-23%2002-32-30.png?alt=media&token=4273b037-fb9e-46a1-bdd1-5647cf80ad66
+      lastModifiedTS: 1716420751121
+      name: Screenshot at 2024-05-23 02-32-30.png
+      ref: maps/ZvEmwr9QVP760qJOdBxh/photo/mOZSBIGa1CShzYATOSXD-Screenshot at
+        2024-05-23 02-32-30.png
+      type: image/png
+  playerCount: 4
+  springName: Aurelia v4
+  startboxesSet:
+    To8o9AXTzbcEN0U9d9qX:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 52
+        - poly:
+            - x: 0
+              y: 148
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - water
+    - hills
+    - flat
 ZxFS2VuODjyLH5V8mHfR:
   author: Beherith
   backgroundImage:
