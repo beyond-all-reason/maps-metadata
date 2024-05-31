@@ -8116,19 +8116,13 @@ ZvEmwr9QVP760qJOdBxh:
   gameType:
     - 1v1
     - team
-  inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FinGameShots%2F8uxHF9ZkKKhxpVpBTXGZ-Screenshot%20at%202024-03-20%2007-20-13.png?alt=media&token=04da38e5-12ef-4f4f-8213-188f3ba84c57
-      lastModifiedTS: 1710912013762
-      name: Screenshot at 2024-03-20 07-20-13.png
-      ref: maps/ZvEmwr9QVP760qJOdBxh/inGameShots/8uxHF9ZkKKhxpVpBTXGZ-Screenshot at
-        2024-03-20 07-20-13.png
-      type: image/png
+  inGameShots: []
   inPool: true
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F3NYGrc1hoOR84ko0oGAi-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=7551b325-200c-4286-9343-71a6ccb297d6
-      lastModifiedTS: 1717065099488
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F6dQtEsFIh91KTN7hjDyB-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=399720a3-4cff-4606-9ca6-5daa4b486ad7
+      lastModifiedTS: 1717097785107
       name: Screenshot at 2024-05-24 23-46-07.png
-      ref: maps/ZvEmwr9QVP760qJOdBxh/perspectiveShot/3NYGrc1hoOR84ko0oGAi-Screenshot
+      ref: maps/ZvEmwr9QVP760qJOdBxh/perspectiveShot/6dQtEsFIh91KTN7hjDyB-Screenshot
         at 2024-05-24 23-46-07.png
       type: image/png
   photo:
