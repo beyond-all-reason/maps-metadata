@@ -11138,6 +11138,77 @@ mAD4ToJrMg6xGHEM18qN:
     - hills
     - acidic
     - desert
+mkBFR3xXMP9u8dhD8kFW:
+  author: Nikuksis, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FbackgroundImage%2FYlxKlaRutpaJY8a0CmS7-screen_2024-05-31_13-48-51-925.png?alt=media&token=d1036a9f-38c2-4e0c-b98c-96d8ec7b6ef0
+      lastModifiedTS: 1717163332849
+      name: screen_2024-05-31_13-48-51-925.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/backgroundImage/YlxKlaRutpaJY8a0CmS7-screen_2024-05-31_13-48-51-925.png
+      type: image/png
+  certified: false
+  description: FFA map up to 16 players.
+  displayName: Blindside
+  gameType:
+    - ffa
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FinGameShots%2F4YLfXt3u0HCfGEXmsklZ-screen_2024-05-31_13-48-24-935.png?alt=media&token=6de37635-87df-4cda-bc78-d1b635c19c21
+      lastModifiedTS: 1717163306247
+      name: screen_2024-05-31_13-48-24-935.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/inGameShots/4YLfXt3u0HCfGEXmsklZ-screen_2024-05-31_13-48-24-935.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FinGameShots%2FkLUVL8F35RY8jU8T94e7-screen_2024-05-31_13-48-32-657.png?alt=media&token=3c027121-9b1e-46cf-84fb-3bd85d8370c9
+      lastModifiedTS: 1717163313928
+      name: screen_2024-05-31_13-48-32-657.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/inGameShots/kLUVL8F35RY8jU8T94e7-screen_2024-05-31_13-48-32-657.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FinGameShots%2FWhjtaAM3Sc8RAPVOKTKi-screen_2024-05-31_13-49-03-703.png?alt=media&token=616b6beb-c685-4afa-87db-d94e61c9a716
+      lastModifiedTS: 1717163345117
+      name: screen_2024-05-31_13-49-03-703.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/inGameShots/WhjtaAM3Sc8RAPVOKTKi-screen_2024-05-31_13-49-03-703.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FinGameShots%2FAYqKMCNYCxM8Xy8lD2FD-screen_2024-05-31_13-48-39-281.png?alt=media&token=f6ecfdd2-a3b8-45e9-962d-7daea78e0a38
+      lastModifiedTS: 1717163320774
+      name: screen_2024-05-31_13-48-39-281.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/inGameShots/AYqKMCNYCxM8Xy8lD2FD-screen_2024-05-31_13-48-39-281.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FperspectiveShot%2FK2ZpWABgpl0OT602tigJ-BSR_3D.png?alt=media&token=187c5e3f-4819-44d2-95d1-7c2c9ea577c9
+      lastModifiedTS: 1717163539142
+      name: BSR_3D.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/perspectiveShot/K2ZpWABgpl0OT602tigJ-BSR_3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2Fphoto%2FEjHALmqpRaTvQ3zsNhI7-BSR_MINI.png?alt=media&token=f2feccc7-a751-43a5-8687-721442e7e2f9
+      lastModifiedTS: 1717163470130
+      name: BSR_MINI.png
+      ref: maps/mkBFR3xXMP9u8dhD8kFW/photo/EjHALmqpRaTvQ3zsNhI7-BSR_MINI.png
+      type: image/png
+  playerCount: 16
+  springName: Blindside Remake v1.0
+  startboxesSet:
+    0HEJIg86Ed1L635PjmzH:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 75
+              y: 200
+        - poly:
+            - x: 125
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 16
+  terrain:
+    - hills
+    - ice
+    - chokepoints
+    - asymmetrical
+    - island
 mzdkzzTL3zgPanW6zQx4:
   author: ShaunJS
   backgroundImage:
