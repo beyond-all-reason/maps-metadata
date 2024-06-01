@@ -11361,19 +11361,19 @@ oHTuEk42qfvZt8tddOnA:
     - land16p
     - popular16p
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoHTuEk42qfvZt8tddOnA%2FperspectiveShot%2FzJEIdg5ktkqaBVIy3FFG-carrot_mountains_3D.png?alt=media&token=94e6fe82-192b-47a6-aecc-092a685d0335
-      lastModifiedTS: 1683621153890
-      name: carrot_mountains_3D.png
-      ref: maps/oHTuEk42qfvZt8tddOnA/perspectiveShot/zJEIdg5ktkqaBVIy3FFG-carrot_mountains_3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoHTuEk42qfvZt8tddOnA%2FperspectiveShot%2F52rUAtq7qWJt4VU43S6U-CARROT3D.png?alt=media&token=7de6d2b9-9eb4-406d-a7e1-812e7d5b834d
+      lastModifiedTS: 1717264470932
+      name: CARROT3D.png
+      ref: maps/oHTuEk42qfvZt8tddOnA/perspectiveShot/52rUAtq7qWJt4VU43S6U-CARROT3D.png
       type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/oHTuEk42qfvZt8tddOnA/photo/xxCqpA2KDZAslz2VdBKp-carrot_mountains_v1.0.jpg
-      lastModifiedTS: 1683982317074
-      name: carrot_mountains_v1.0.jpg
-      ref: maps/oHTuEk42qfvZt8tddOnA/photo/xxCqpA2KDZAslz2VdBKp-carrot_mountains_v1.0.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoHTuEk42qfvZt8tddOnA%2Fphoto%2Fzxj6bcGHfHCRNbkEH6D5-CARROT2.png?alt=media&token=28d10937-4d70-4f76-8077-5b0162554436
+      lastModifiedTS: 1717264434706
+      name: CARROT2.png
+      ref: maps/oHTuEk42qfvZt8tddOnA/photo/zxj6bcGHfHCRNbkEH6D5-CARROT2.png
+      type: image/png
   playerCount: 16
-  springName: Carrot Mountains v1.0
+  springName: Carrot Mountains v2.0
   startboxesSet:
     EDCbUVIW3Q1hALbC5qpv:
       maxPlayersPerStartbox: 3
