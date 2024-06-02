@@ -12288,13 +12288,13 @@ taMTVVZKAKbYywe7tyRb:
         3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2Fphoto%2FpAROxktDcmLodCRbV4qY-tartar_mini.png?alt=media&token=0cf83aee-97dd-4e43-98f4-9a5b65375cb7
-      lastModifiedTS: 1715976317794
-      name: tartar_mini.png
-      ref: maps/taMTVVZKAKbYywe7tyRb/photo/pAROxktDcmLodCRbV4qY-tartar_mini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2Fphoto%2FckRvAIMg4yqNaT3CDPSp-TARTAR1.1.png?alt=media&token=3a73a557-ef8c-4975-9e20-d07d658d945f
+      lastModifiedTS: 1717353638656
+      name: TARTAR1.1.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/photo/ckRvAIMg4yqNaT3CDPSp-TARTAR1.1.png
       type: image/png
   playerCount: 16
-  springName: The Tartar Steppe v1.0
+  springName: The Tartar Steppe v1.1
   startboxesSet:
     tzBDplnMfTRPH0H4BYcH:
       maxPlayersPerStartbox: 8
