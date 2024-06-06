@@ -11487,6 +11487,69 @@ oX7eHI8mlpVvJUYs4v4Y:
     - desert
     - chokepoints
   title: Keep digging!
+pFTrUA4OGRNoSNpSAzx2:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FbackgroundImage%2FyyFYIiAhRt5cw55mN89c-screen_2024-06-06_11-05-59-695.png?alt=media&token=09b4d711-4aa6-48e9-ba6b-819f1484afd8
+      lastModifiedTS: 1717671960855
+      name: screen_2024-06-06_11-05-59-695.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/backgroundImage/yyFYIiAhRt5cw55mN89c-screen_2024-06-06_11-05-59-695.png
+      type: image/png
+  certified: true
+  description: Shine boldly so that all might find you when the night falls.
+  displayName: Moonshine Run
+  gameType:
+    - team
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FinGameShots%2FVh3mRnruAht7Txn9zlD0-screen_2024-06-06_11-06-22-131.png?alt=media&token=6fd4ebe8-47c5-40c4-98fb-d7bd066f4f96
+      lastModifiedTS: 1717671983061
+      name: screen_2024-06-06_11-06-22-131.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/inGameShots/Vh3mRnruAht7Txn9zlD0-screen_2024-06-06_11-06-22-131.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FinGameShots%2FalLKC7Jxbe0cSubTiqLU-screen_2024-06-06_11-06-34-458.png?alt=media&token=1afa7758-11a8-4ad9-a6f1-22ff2606b6e1
+      lastModifiedTS: 1717671995686
+      name: screen_2024-06-06_11-06-34-458.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/inGameShots/alLKC7Jxbe0cSubTiqLU-screen_2024-06-06_11-06-34-458.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FinGameShots%2F1ETX31I0h6nydcx0iN0g-screen_2024-06-06_11-06-43-850.png?alt=media&token=14985dfa-c29d-4ba9-a44f-db7eb26e76ae
+      lastModifiedTS: 1717672005261
+      name: screen_2024-06-06_11-06-43-850.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/inGameShots/1ETX31I0h6nydcx0iN0g-screen_2024-06-06_11-06-43-850.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FperspectiveShot%2FjWsv1NbZP3VxK7SQqD1F-moonshine3D.png?alt=media&token=d814116e-55ed-40cb-82be-730d0ab51ef9
+      lastModifiedTS: 1717672941758
+      name: moonshine3D.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/perspectiveShot/jWsv1NbZP3VxK7SQqD1F-moonshine3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2Fphoto%2FjV7dQjXRcHxrkHsnvn7b-moonshine1.0.png?alt=media&token=31b338fd-e424-4cc1-9fb7-46be2d999aa8
+      lastModifiedTS: 1717672816499
+      name: moonshine1.0.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/photo/jV7dQjXRcHxrkHsnvn7b-moonshine1.0.png
+      type: image/png
+  playerCount: 16
+  springName: Moonshine Run v1.0
+  startboxesSet:
+    VmOHp52zUfny6T0uypce:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - asteroid
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
   certified: true
