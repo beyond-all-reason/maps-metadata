@@ -11517,20 +11517,23 @@ pFTrUA4OGRNoSNpSAzx2:
       ref: maps/pFTrUA4OGRNoSNpSAzx2/inGameShots/1ETX31I0h6nydcx0iN0g-screen_2024-06-06_11-06-43-850.png
       type: image/png
   inPool: true
+  mapLists:
+    - popular16p
+    - land16p
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FperspectiveShot%2FjWsv1NbZP3VxK7SQqD1F-moonshine3D.png?alt=media&token=d814116e-55ed-40cb-82be-730d0ab51ef9
-      lastModifiedTS: 1717672941758
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FperspectiveShot%2Fz96Nww6hJirZKcTReXJ9-moonshine3D.png?alt=media&token=c9b3aa1b-548f-4468-bbad-5e2c06cc030b
+      lastModifiedTS: 1717796251600
       name: moonshine3D.png
-      ref: maps/pFTrUA4OGRNoSNpSAzx2/perspectiveShot/jWsv1NbZP3VxK7SQqD1F-moonshine3D.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/perspectiveShot/z96Nww6hJirZKcTReXJ9-moonshine3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2Fphoto%2FjV7dQjXRcHxrkHsnvn7b-moonshine1.0.png?alt=media&token=31b338fd-e424-4cc1-9fb7-46be2d999aa8
-      lastModifiedTS: 1717672816499
-      name: moonshine1.0.png
-      ref: maps/pFTrUA4OGRNoSNpSAzx2/photo/jV7dQjXRcHxrkHsnvn7b-moonshine1.0.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2Fphoto%2FyFfV69YNNrapTLICCRDR-moonshine1.0.1.png?alt=media&token=920f6e4f-7b9c-4978-a40c-18d8a3ede5bc
+      lastModifiedTS: 1717796189335
+      name: moonshine1.0.1.png
+      ref: maps/pFTrUA4OGRNoSNpSAzx2/photo/yFfV69YNNrapTLICCRDR-moonshine1.0.1.png
       type: image/png
   playerCount: 16
-  springName: Moonshine Run v1.0
+  springName: Moonshine Run v1.0.1
   startboxesSet:
     VmOHp52zUfny6T0uypce:
       maxPlayersPerStartbox: 8
