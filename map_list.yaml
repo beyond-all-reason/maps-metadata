@@ -9277,8 +9277,7 @@ cvpud6KzRzucgumjiBgk:
     - ffa
     - team
   inPool: true
-  mapLists:
-    - popular16p
+  mapLists: []
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cvpud6KzRzucgumjiBgk/photo/sfvXuiMEVeTMtyODXqSD-Silveridge_v1.jpg
       lastModifiedTS: 1683982303294
