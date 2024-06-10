@@ -12149,27 +12149,56 @@ sKu3wAd6qfR5jG8fC6KU:
     - water
     - grassy
 snRldJIaPiKTiNiEAPEg:
-  author: Beherith
+  author: Nikuksis, Beherith
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FbackgroundImage%2F4NIJBv0vlLeWJEyfQYE2-screen_2023-11-25_21-22-28-085.png?alt=media&token=f92058a7-c51b-401b-b3d3-8422048c5bda
-      lastModifiedTS: 1700947348526
-      name: screen_2023-11-25_21-22-28-085.png
-      ref: maps/snRldJIaPiKTiNiEAPEg/backgroundImage/4NIJBv0vlLeWJEyfQYE2-screen_2023-11-25_21-22-28-085.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FbackgroundImage%2FbgRhhk94kDTrqru6wtTX-screen_2024-06-10_10-12-03-398.png?alt=media&token=f836ad29-2c6c-4208-80b0-b372b5623677
+      lastModifiedTS: 1718014324697
+      name: screen_2024-06-10_10-12-03-398.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/backgroundImage/bgRhhk94kDTrqru6wtTX-screen_2024-06-10_10-12-03-398.png
       type: image/png
   certified: true
   displayName: Stronghold
   gameType:
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FinGameShots%2FwPq7Nbd2YDkmUmL9BdYP-screen_2024-06-10_10-12-41-766.png?alt=media&token=394a1a13-87d3-4ca6-8ea8-4fc298002328
+      lastModifiedTS: 1718014363078
+      name: screen_2024-06-10_10-12-41-766.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/inGameShots/wPq7Nbd2YDkmUmL9BdYP-screen_2024-06-10_10-12-41-766.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FinGameShots%2FBvBHmldOrYaoPo5bVwzA-screen_2024-06-10_10-12-16-043.png?alt=media&token=5db0b4f2-46e1-4e93-8eb7-c4302c8d04f0
+      lastModifiedTS: 1718014337363
+      name: screen_2024-06-10_10-12-16-043.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/inGameShots/BvBHmldOrYaoPo5bVwzA-screen_2024-06-10_10-12-16-043.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FinGameShots%2FPqR4yyma0uLPWiusSMcM-screen_2024-06-10_10-13-01-466.png?alt=media&token=020753b9-0843-4ffd-802d-23ee16472835
+      lastModifiedTS: 1718014382718
+      name: screen_2024-06-10_10-13-01-466.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/inGameShots/PqR4yyma0uLPWiusSMcM-screen_2024-06-10_10-13-01-466.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FinGameShots%2F78AWvsEIBkUjCnmeBcSf-screen_2024-06-10_10-12-28-954.png?alt=media&token=d6057a6d-ce30-4ee4-af63-9e22b97dc6e1
+      lastModifiedTS: 1718014350282
+      name: screen_2024-06-10_10-12-28-954.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/inGameShots/78AWvsEIBkUjCnmeBcSf-screen_2024-06-10_10-12-28-954.png
+      type: image/png
   inPool: true
+  mapLists:
+    - land16p
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FperspectiveShot%2FI4npitI5jIYRQWLqFpoi-stronghold53D.png?alt=media&token=a64c564a-fa14-41fd-8127-3e71120c90c1
+      lastModifiedTS: 1718014589940
+      name: stronghold53D.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/perspectiveShot/I4npitI5jIYRQWLqFpoi-stronghold53D.png
+      type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/snRldJIaPiKTiNiEAPEg/photo/ImrpiWt31vesbpJULyML-Stronghold_V4.jpg
-      lastModifiedTS: 1683982322183
-      name: Stronghold_V4.jpg
-      ref: maps/snRldJIaPiKTiNiEAPEg/photo/ImrpiWt31vesbpJULyML-Stronghold_V4.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2Fphoto%2Fz3vsITECzMJXa2dyYueh-atronghold5.png?alt=media&token=570e75f4-2c05-4a9f-ac17-171176f735ed
+      lastModifiedTS: 1718014500767
+      name: atronghold5.png
+      ref: maps/snRldJIaPiKTiNiEAPEg/photo/z3vsITECzMJXa2dyYueh-atronghold5.png
+      type: image/png
   playerCount: 16
-  springName: Stronghold V4
+  springName: Stronghold v5.0.1
   startboxesSet:
     Ab3VYqLTOaxCrnWOLtSw:
       maxPlayersPerStartbox: 8
