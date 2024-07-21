@@ -1941,13 +1941,13 @@
       ref: maps/9jHSyg8smAwuk6d3HZgm/perspectiveShot/jLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2Fphoto%2FeV7wZ3UYCBEldP95CFXZ-canis_river_minimap.jpg?alt=media&token=97f2c02b-c52c-40ad-9e30-f30a856ff3db
-      lastModifiedTS: 1713114605061
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2Fphoto%2FD6aSxk25DPbFmhPo9uiD-canis_river_minimap.jpg?alt=media&token=9b050117-ad9b-416c-87f8-badcc5fc1acf
+      lastModifiedTS: 1721590806085
       name: canis_river_minimap.jpg
-      ref: maps/9jHSyg8smAwuk6d3HZgm/photo/eV7wZ3UYCBEldP95CFXZ-canis_river_minimap.jpg
+      ref: maps/9jHSyg8smAwuk6d3HZgm/photo/D6aSxk25DPbFmhPo9uiD-canis_river_minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Canis River v1.3
+  springName: Canis River v1.4
   startboxesSet:
     zbyES4JZd2FCS1vCVByX:
       maxPlayersPerStartbox: 4
