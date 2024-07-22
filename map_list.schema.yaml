@@ -148,6 +148,11 @@ additionalProperties:
         required:
           - startboxes
           - maxPlayersPerStartbox
+    startPos:
+      $ref: "#/$defs/startPos"
+    startPosActive:
+      type: boolean
+      default: false
   additionalProperties: false
   required:
     - springName
@@ -191,3 +196,68 @@ $defs:
       - type
       - lastModifiedTS
     additionalProperties: false
+  startPos:
+    title: StartPosConf
+    type: object
+    properties:
+      positions:
+        patternProperties:
+          "^[a-zA-Z0-9 _.-]+$":
+            type: object
+            properties:
+              x:
+                type: integer
+                minimum: 0
+              y:
+                type: integer
+                minimum: 0
+            required:
+              - x
+              - y
+            additionalProperties: false
+        additionalProperties: false
+      team:
+        type: array
+        items:
+          type: object
+          title: StartPosConfTeam
+          properties:
+            playersPerTeam:
+              type: integer
+              minimum: 1
+            teamCount:
+              type: integer
+              minimum: 1
+            sides:
+              type: array
+              items:
+                type: object
+                title: StartPosConfSide
+                properties:
+                  starts:
+                    type: array
+                    items:
+                      type: object
+                      title: StartPosConfStart
+                      properties:
+                        spawnPoint:
+                          type: string
+                          description: References the key in positions
+                        baseCenter:
+                          type: string
+                          description: References the key in positions
+                        role:
+                          type: string
+                      additionalProperties: false
+                      required:
+                        - spawnPoint
+                required:
+                  - starts
+                additionalProperties: false
+          required:
+            - playersPerTeam
+            - teamCount
+            - sides
+          additionalProperties: false
+    required:
+      - positions

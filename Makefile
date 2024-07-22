@@ -32,7 +32,7 @@ gen/discordPresenceThumb: gen/map_list.validated.json gen/types/map_list.d.ts
 	ts-node scripts/js/src/gen_discord_presence_thumbs.ts $@
 
 # Tests on data
-test: typecheck_scripts check_startboxes check_photo_aspect_ratio check_archive_not_solid
+test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid
 	echo ok
 
 typecheck_scripts: gen/types/map_list.d.ts gen/types/live_maps.d.ts gen/types/cdn_maps.d.ts
@@ -40,6 +40,9 @@ typecheck_scripts: gen/types/map_list.d.ts gen/types/live_maps.d.ts gen/types/cd
 
 check_startboxes: gen/types/map_list.d.ts gen/map_list.validated.json
 	ts-node scripts/js/src/check_startboxes.ts
+
+check_startpos: gen/types/map_list.d.ts gen/map_list.validated.json
+	ts-node scripts/js/src/check_startpos.ts
 
 check_photo_aspect_ratio: gen/types/map_list.d.ts gen/map_list.validated.json
 	ts-node scripts/js/src/check_photo_aspect_ratio.ts
