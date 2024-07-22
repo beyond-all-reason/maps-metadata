@@ -11426,6 +11426,95 @@ oX7eHI8mlpVvJUYs4v4Y:
       type: image/png
   playerCount: 16
   springName: All That Glitters v2.2
+  startPos:
+    positions:
+      A:
+        x: 668
+        y: 755
+      B:
+        x: 1157
+        y: 1982
+      C:
+        x: 2826
+        y: 763
+      D:
+        x: 3058
+        y: 1984
+      E:
+        x: 4204
+        y: 607
+      F:
+        x: 4260
+        y: 2000
+      G:
+        x: 5764
+        y: 595
+      H:
+        x: 5480
+        y: 2014
+      I:
+        x: 409
+        y: 9635
+      J:
+        x: 679
+        y: 8195
+      K:
+        x: 1943
+        y: 9622
+      L:
+        x: 1845
+        y: 8255
+      M:
+        x: 3196
+        y: 8249
+      N:
+        x: 3464
+        y: 9700
+      O:
+        x: 5479
+        y: 9475
+      P:
+        x: 5172
+        y: 8264
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: A
+              - role: front
+                spawnPoint: B
+              - role: air
+                spawnPoint: C
+              - role: front
+                spawnPoint: D
+              - role: tech
+                spawnPoint: E
+              - role: front
+                spawnPoint: F
+              - role: front
+                spawnPoint: G
+              - role: front
+                spawnPoint: H
+          - starts:
+              - role: front
+                spawnPoint: I
+              - role: front
+                spawnPoint: J
+              - role: tech
+                spawnPoint: K
+              - role: front
+                spawnPoint: L
+              - role: front
+                spawnPoint: M
+              - role: air
+                spawnPoint: N
+              - role: front
+                spawnPoint: O
+              - role: front
+                spawnPoint: P
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     CSxs9XHI6Fe1a9N8ZIMX:
       maxPlayersPerStartbox: 8
