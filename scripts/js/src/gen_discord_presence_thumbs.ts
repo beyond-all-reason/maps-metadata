@@ -25,7 +25,7 @@ const imageParams = `fit-in/1024x1024/filters:format(jpeg):quality(90)`;
 
 const maps = await readMapList();
 
-await fs.rm(outputPath, { force: true });
+await fs.rm(outputPath, { force: true, recursive: true });
 await fs.mkdir(outputPath, {recursive: true});
 
 for (const map of Object.values(maps)) {
