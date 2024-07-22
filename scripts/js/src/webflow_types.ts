@@ -87,16 +87,9 @@ export interface WebflowMapFieldsRead {
    * Surface of the map (W * H)
    */
   mapsize?: number;
+  "startpos-code"?: string;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
-  "created-on"?: string;
-  "updated-on"?: string;
-  "published-on"?: string;
-  "created-by"?: string;
-  "updated-by"?: string;
-  "published-by"?: string;
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
@@ -190,10 +183,9 @@ export interface WebflowMapFieldsWrite {
    * Surface of the map (W * H)
    */
   mapsize?: number | null;
+  "startpos-code"?: string | null;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
@@ -205,14 +197,6 @@ export interface WebflowMapTagFieldsRead {
   icon?: WebflowImageRef;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
-  "created-on"?: string;
-  "updated-on"?: string;
-  "published-on"?: string;
-  "created-by"?: string;
-  "updated-by"?: string;
-  "published-by"?: string;
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
@@ -224,32 +208,36 @@ export interface WebflowMapTagFieldsWrite {
   icon?: string | null;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
  * via the `definition` "WebflowMapTerrainFieldsRead".
  */
 export interface WebflowMapTerrainFieldsRead {
+  icon?: WebflowImageRef;
+  description?: string;
+  glow?: string;
+  /**
+   * Glow with set color
+   */
+  "show-glow"?: boolean;
+  category?: string;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
-  "created-on"?: string;
-  "updated-on"?: string;
-  "published-on"?: string;
-  "created-by"?: string;
-  "updated-by"?: string;
-  "published-by"?: string;
 }
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
  * via the `definition` "WebflowMapTerrainFieldsWrite".
  */
 export interface WebflowMapTerrainFieldsWrite {
+  icon?: string | null;
+  description?: string | null;
+  glow?: string | null;
+  /**
+   * Glow with set color
+   */
+  "show-glow"?: boolean | null;
+  category?: ("Global Biome" | "Specific Feature" | "Water" | "Layout") | null;
   name: string;
   slug: string;
-  _archived: boolean;
-  _draft: boolean;
 }

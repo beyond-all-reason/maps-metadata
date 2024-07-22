@@ -4,7 +4,7 @@ import { Storage } from '@google-cloud/storage';
 import got from 'got';
 import path from 'node:path';
 import fs from 'node:fs/promises';
-import { writeFileSync, readFileSync, renameSync } from 'node:fs';
+import { writeFileSync, readFileSync, renameSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import stream from 'node:stream/promises';
 import process from 'node:process';
@@ -48,6 +48,7 @@ async function downloadFile(bucket: string, filePath: string, outputPath: string
 
 function loadMapLocationCache(): Map<string, MapLocation> {
     const mapLocationCacheVersion = 1;
+    mkdirSync(mapsCacheDir, { recursive: true });
     const locationCachePath = path.join(mapsCacheDir, 'mapLocationCache.json');
 
     process.on('beforeExit', () => {
@@ -105,7 +106,6 @@ export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>
     const limit = pLimit(10);
     // Don't fetch maps metadata from multiple processes in parallel, which happens
     // when make is called in parallel.
-    await fs.mkdir(mapsCacheDir, { recursive: true });
     const releaseLock = await lock(mapsCacheDir, {
         lockfilePath: 'mapsMetadata.lock',
         retries: {
