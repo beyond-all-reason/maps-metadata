@@ -10350,6 +10350,95 @@ gEgiWXCvonENJseDsfjj:
       type: image/jpeg
   playerCount: 16
   springName: Bismuth Valley v2.4.1
+  startPos:
+    positions:
+      P1:
+        x: 2226
+        y: 276
+      P10:
+        x: 10465
+        y: 1572
+      P11:
+        x: 9946
+        y: 2823
+      P12:
+        x: 10588
+        y: 3928
+      P13:
+        x: 10174
+        y: 4876
+      P14:
+        x: 10496
+        y: 5834
+      P15:
+        x: 9904
+        y: 6719
+      P16:
+        x: 10162
+        y: 7867
+      P2:
+        x: 1603
+        y: 1562
+      P3:
+        x: 2367
+        y: 2852
+      P4:
+        x: 1576
+        y: 3978
+      P5:
+        x: 2147
+        y: 4736
+      P6:
+        x: 1814
+        y: 5865
+      P7:
+        x: 2410
+        y: 6918
+      P8:
+        x: 2095
+        y: 7881
+      P9:
+        x: 10042
+        y: 352
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front/air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front/air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     C3fyMtWQN4KLZZbILWDJ:
       maxPlayersPerStartbox: 8
