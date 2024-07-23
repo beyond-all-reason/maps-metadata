@@ -11428,91 +11428,91 @@ oX7eHI8mlpVvJUYs4v4Y:
   springName: All That Glitters v2.2
   startPos:
     positions:
-      A:
+      P1:
         x: 668
         y: 755
-      B:
-        x: 1157
-        y: 1982
-      C:
-        x: 2826
-        y: 763
-      D:
-        x: 3058
-        y: 1984
-      E:
-        x: 4204
-        y: 607
-      F:
-        x: 4260
-        y: 2000
-      G:
-        x: 5764
-        y: 595
-      H:
-        x: 5480
-        y: 2014
-      I:
-        x: 409
-        y: 9635
-      J:
+      P10:
         x: 679
         y: 8195
-      K:
+      P11:
         x: 1943
         y: 9622
-      L:
+      P12:
         x: 1845
         y: 8255
-      M:
-        x: 3196
-        y: 8249
-      N:
+      P13:
         x: 3464
         y: 9700
-      O:
+      P14:
+        x: 3196
+        y: 8249
+      P15:
         x: 5479
         y: 9475
-      P:
+      P16:
         x: 5172
         y: 8264
+      P2:
+        x: 1157
+        y: 1982
+      P3:
+        x: 2826
+        y: 763
+      P4:
+        x: 3058
+        y: 1984
+      P5:
+        x: 4204
+        y: 607
+      P6:
+        x: 4260
+        y: 2000
+      P7:
+        x: 5764
+        y: 595
+      P8:
+        x: 5480
+        y: 2014
+      P9:
+        x: 409
+        y: 9635
     team:
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: front
-                spawnPoint: A
-              - role: front
-                spawnPoint: B
+              - role: front/tech
+                spawnPoint: P1
               - role: air
-                spawnPoint: C
-              - role: front
-                spawnPoint: D
+                spawnPoint: P2
               - role: tech
-                spawnPoint: E
+                spawnPoint: P3
+              - role: front/tech
+                spawnPoint: P4
               - role: front
-                spawnPoint: F
+                spawnPoint: P5
               - role: front
-                spawnPoint: G
+                spawnPoint: P6
               - role: front
-                spawnPoint: H
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
           - starts:
-              - role: front
-                spawnPoint: I
-              - role: front
-                spawnPoint: J
-              - role: tech
-                spawnPoint: K
-              - role: front
-                spawnPoint: L
-              - role: front
-                spawnPoint: M
+              - role: front/tech
+                spawnPoint: P9
               - role: air
-                spawnPoint: N
+                spawnPoint: P10
+              - role: tech
+                spawnPoint: P11
+              - role: front/tech
+                spawnPoint: P12
               - role: front
-                spawnPoint: O
+                spawnPoint: P13
               - role: front
-                spawnPoint: P
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
         teamCount: 2
   startPosActive: true
   startboxesSet:
