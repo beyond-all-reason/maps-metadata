@@ -3840,6 +3840,95 @@ GuTvi5G3QCGO8KASbbs1:
       type: image/jpeg
   playerCount: 16
   springName: Darkside v3.0
+  startPos:
+    positions:
+      P1:
+        x: 1657
+        y: 649
+      P10:
+        x: 10357
+        y: 9304
+      P11:
+        x: 11097
+        y: 8405
+      P12:
+        x: 10753
+        y: 6800
+      P13:
+        x: 9978
+        y: 4969
+      P14:
+        x: 11329
+        y: 3971
+      P15:
+        x: 10682
+        y: 2126
+      P16:
+        x: 9901
+        y: 587
+      P2:
+        x: 533
+        y: 1971
+      P3:
+        x: 1859
+        y: 3329
+      P4:
+        x: 2106
+        y: 5360
+      P5:
+        x: 996
+        y: 7644
+      P6:
+        x: 2061
+        y: 9169
+      P7:
+        x: 685
+        y: 10477
+      P8:
+        x: 1877
+        y: 11888
+      P9:
+        x: 11203
+        y: 11001
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     LIai91NBn2ByQ2fZ6OEh:
       maxPlayersPerStartbox: 8
