@@ -31,6 +31,9 @@ gen/mapLists.conf gen/custom_map_lists.json: gen/map_list.validated.json
 gen/discordPresenceThumb: gen/map_list.validated.json gen/types/map_list.d.ts
 	ts-node scripts/js/src/gen_discord_presence_thumbs.ts $@
 
+gen/map_modoptions.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/types/map_modoptions.d.ts
+	ts-node scripts/js/src/gen_map_modoptions.ts $@
+
 # Tests on data
 test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid
 	echo ok

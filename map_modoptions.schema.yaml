@@ -1,0 +1,21 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/map_modoptions.schema.json
+description: Modoptions to set per map in lobby/server
+type: array
+items:
+  title: MapModoptions
+  type: object
+  properties:
+    springName:
+      type: string
+    modoptions:
+      type: object
+      patternProperties:
+        '^mapmetadata_[a-z0-9_]+$':
+          type: string
+          $comment: The pattern is really to be on the safe side, it can be less restrictive likely
+          pattern: '^[a-zA-Z0-9_.-]+$'
+  required:
+   - springName
+   - modoptions
+  additionalProperties: false
