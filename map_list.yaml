@@ -11333,6 +11333,95 @@ oHTuEk42qfvZt8tddOnA:
       type: image/png
   playerCount: 16
   springName: Carrot Mountains v2.0
+  startPos:
+    positions:
+      P1:
+        x: 2564
+        y: 1232
+      P10:
+        x: 11054
+        y: 1372
+      P11:
+        x: 11184
+        y: 3449
+      P12:
+        x: 11966
+        y: 5509
+      P13:
+        x: 10796
+        y: 7286
+      P14:
+        x: 11935
+        y: 9262
+      P15:
+        x: 11991
+        y: 11816
+      P16:
+        x: 10100
+        y: 11716
+      P2:
+        x: 923
+        y: 1514
+      P3:
+        x: 1342
+        y: 3704
+      P4:
+        x: 229
+        y: 6356
+      P5:
+        x: 2405
+        y: 7281
+      P6:
+        x: 1104
+        y: 8863
+      P7:
+        x: 443
+        y: 10725
+      P8:
+        x: 2206
+        y: 11967
+      P9:
+        x: 9657
+        y: 270
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front/tech
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front/tech
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     EDCbUVIW3Q1hALbC5qpv:
       maxPlayersPerStartbox: 3
