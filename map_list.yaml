@@ -2207,6 +2207,95 @@ ABBUHinh94O7299Php6p:
       type: image/jpeg
   playerCount: 16
   springName: Delta Siege Dry v5.7.1
+  startPos:
+    positions:
+      P1:
+        x: 2457
+        y: 414
+      P10:
+        x: 9623
+        y: 917
+      P11:
+        x: 7765
+        y: 2323
+      P12:
+        x: 9402
+        y: 2470
+      P13:
+        x: 7282
+        y: 3343
+      P14:
+        x: 9856
+        y: 3718
+      P15:
+        x: 9902
+        y: 5645
+      P16:
+        x: 7773
+        y: 5691
+      P2:
+        x: 821
+        y: 1014
+      P3:
+        x: 2545
+        y: 2379
+      P4:
+        x: 703
+        y: 2489
+      P5:
+        x: 2894
+        y: 3505
+      P6:
+        x: 467
+        y: 4130
+      P7:
+        x: 419
+        y: 5803
+      P8:
+        x: 2540
+        y: 5666
+      P9:
+        x: 7968
+        y: 438
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: air
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: tech
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: air
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: tech
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     59rSgwuREOcIwsgMAIlG:
       maxPlayersPerStartbox: 8
