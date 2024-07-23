@@ -11271,6 +11271,95 @@ oBOBWCmenCo2tbkwYNJt:
       type: image/jpeg
   playerCount: 18
   springName: Coastlines_Dry_V2.2.1
+  startPos:
+    positions:
+      P1:
+        x: 1909
+        y: 557
+      P10:
+        x: 8097
+        y: 1579
+      P11:
+        x: 8289
+        y: 3106
+      P12:
+        x: 9106
+        y: 2986
+      P13:
+        x: 8774
+        y: 4507
+      P14:
+        x: 9428
+        y: 4256
+      P15:
+        x: 9384
+        y: 5618
+      P16:
+        x: 9560
+        y: 6952
+      P2:
+        x: 2026
+        y: 1886
+      P3:
+        x: 1561
+        y: 3316
+      P4:
+        x: 845
+        y: 3320
+      P5:
+        x: 1680
+        y: 4357
+      P6:
+        x: 936
+        y: 4416
+      P7:
+        x: 1173
+        y: 5540
+      P8:
+        x: 868
+        y: 6970
+      P9:
+        x: 8104
+        y: 427
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front/tech
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front/air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front/tech
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front/air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     JG4THcphfh2kmPxJly6S:
       maxPlayersPerStartbox: 8
