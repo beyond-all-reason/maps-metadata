@@ -1559,6 +1559,95 @@
   playerCount: 16
   special: Tar
   springName: Baryon Tar Lake v1.1
+  startPos:
+    positions:
+      P1:
+        x: 2004
+        y: 565
+      P10:
+        x: 8241
+        y: 1548
+      P11:
+        x: 9650
+        y: 1725
+      P12:
+        x: 8218
+        y: 2725
+      P13:
+        x: 8211
+        y: 3619
+      P14:
+        x: 8224
+        y: 4546
+      P15:
+        x: 10046
+        y: 4818
+      P16:
+        x: 8242
+        y: 5749
+      P2:
+        x: 2010
+        y: 1554
+      P3:
+        x: 579
+        y: 1732
+      P4:
+        x: 2033
+        y: 2734
+      P5:
+        x: 2038
+        y: 3628
+      P6:
+        x: 2038
+        y: 4539
+      P7:
+        x: 212
+        y: 4995
+      P8:
+        x: 2032
+        y: 5745
+      P9:
+        x: 8241
+        y: 565
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: tech
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: tech
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     S6HzVYk6IfKrkj4KEvKb:
       maxPlayersPerStartbox: 8
