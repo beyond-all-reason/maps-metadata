@@ -3274,6 +3274,95 @@ DUxqUMUDGiYr1y5jx3sq:
       type: image/jpeg
   playerCount: 16
   springName: Failed Negotiations 1.0
+  startPos:
+    positions:
+      P1:
+        x: 761
+        y: 11039
+      P10:
+        x: 9815
+        y: 3676
+      P11:
+        x: 8206
+        y: 3718
+      P12:
+        x: 8455
+        y: 2232
+      P13:
+        x: 7040
+        y: 2057
+      P14:
+        x: 5236
+        y: 2320
+      P15:
+        x: 4387
+        y: 3228
+      P16:
+        x: 3277
+        y: 1749
+      P2:
+        x: 2467
+        y: 8622
+      P3:
+        x: 3830
+        y: 10036
+      P4:
+        x: 4051
+        y: 8581
+      P5:
+        x: 5231
+        y: 10216
+      P6:
+        x: 7053
+        y: 9956
+      P7:
+        x: 7875
+        y: 9045
+      P8:
+        x: 9018
+        y: 10528
+      P9:
+        x: 11493
+        y: 1201
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: sea
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: sea
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     xF2vjJ2Nxnl6NC7cyiip:
       maxPlayersPerStartbox: 8
