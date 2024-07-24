@@ -15451,6 +15451,95 @@ zvTEXnewG2G8LaMjFq4o:
       type: image/jpeg
   playerCount: 16
   springName: Nuclear Winter Bar 1.4
+  startPos:
+    positions:
+      P1:
+        x: 2046
+        y: 295
+      P10:
+        x: 9622
+        y: 564
+      P11:
+        x: 9861
+        y: 2256
+      P12:
+        x: 7804
+        y: 2292
+      P13:
+        x: 7789
+        y: 3391
+      P14:
+        x: 9919
+        y: 3586
+      P15:
+        x: 7991
+        y: 4255
+      P16:
+        x: 9795
+        y: 4795
+      P2:
+        x: 382
+        y: 553
+      P3:
+        x: 438
+        y: 2376
+      P4:
+        x: 2569
+        y: 2327
+      P5:
+        x: 2570
+        y: 3199
+      P6:
+        x: 339
+        y: 3609
+      P7:
+        x: 2163
+        y: 4169
+      P8:
+        x: 452
+        y: 4786
+      P9:
+        x: 8153
+        y: 279
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     eZzR5USURUBzWdPBD5LJ:
       maxPlayersPerStartbox: 8
