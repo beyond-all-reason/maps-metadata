@@ -11501,6 +11501,95 @@ kesPeWO0ScnmWF2An8qA:
       type: image/jpeg
   playerCount: 20
   springName: Flats and Forests v2.2
+  startPos:
+    positions:
+      P1:
+        x: 631
+        y: 364
+      P10:
+        x: 10175
+        y: 10706
+      P11:
+        x: 11570
+        y: 8810
+      P12:
+        x: 10147
+        y: 7687
+      P13:
+        x: 10114
+        y: 4459
+      P14:
+        x: 11562
+        y: 3471
+      P15:
+        x: 10191
+        y: 1565
+      P16:
+        x: 11627
+        y: 681
+      P2:
+        x: 2052
+        y: 1495
+      P3:
+        x: 677
+        y: 3458
+      P4:
+        x: 2080
+        y: 4490
+      P5:
+        x: 2057
+        y: 7456
+      P6:
+        x: 696
+        y: 8851
+      P7:
+        x: 2058
+        y: 10751
+      P8:
+        x: 668
+        y: 11601
+      P9:
+        x: 11630
+        y: 11899
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     mK78WXZr0Yp1rkYnhevu:
       maxPlayersPerStartbox: 3
