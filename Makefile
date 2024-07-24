@@ -1,5 +1,5 @@
 # Default target ran by make
-all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb
+all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb gen/mapPresets.conf gen/mapBattlePresets.conf
 
 # Rules for doing generic data files conversion, e.g yaml to json
 gen/%.json: %.yaml
@@ -25,7 +25,7 @@ gen/live_maps.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_
 gen/mapBoxes.conf: gen/map_list.validated.json gen/types/map_list.d.ts
 	ts-node scripts/js/src/gen_map_boxes_conf.ts $@
 
-gen/mapLists.conf gen/custom_map_lists.json: gen/map_list.validated.json
+gen/mapLists.conf gen/custom_map_lists.json &: gen/map_list.validated.json
 	python scripts/py/gen_nextmap_maplists.py
 
 gen/discordPresenceThumb: gen/map_list.validated.json gen/types/map_list.d.ts
@@ -33,6 +33,9 @@ gen/discordPresenceThumb: gen/map_list.validated.json gen/types/map_list.d.ts
 
 gen/map_modoptions.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/types/map_modoptions.d.ts
 	ts-node scripts/js/src/gen_map_modoptions.ts $@
+
+gen/mapPresets.conf gen/mapBattlePresets.conf &: gen/map_modoptions.validated.json gen/types/map_modoptions.d.ts
+	ts-node scripts/js/src/gen_spads_map_presets.ts gen/mapPresets.conf gen/mapBattlePresets.conf
 
 # Tests on data
 test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid
