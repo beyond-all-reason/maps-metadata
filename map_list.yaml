@@ -1033,7 +1033,7 @@
           - starts:
               - role: front
                 spawnPoint: P1
-              - role: tech/front
+              - role: front/tech
                 spawnPoint: P2
               - role: front
                 spawnPoint: P3
@@ -1044,14 +1044,14 @@
                 spawnPoint: P5
               - role: front
                 spawnPoint: P6
-              - role: tech/front
+              - role: front/tech
                 spawnPoint: P7
               - role: front
                 spawnPoint: P8
           - starts:
               - role: front
                 spawnPoint: P9
-              - role: tech/front
+              - role: front/tech
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
@@ -1062,7 +1062,7 @@
                 spawnPoint: P13
               - role: front
                 spawnPoint: P14
-              - role: tech/front
+              - role: front/tech
                 spawnPoint: P15
               - role: front
                 spawnPoint: P16
@@ -11130,7 +11130,7 @@ gEgiWXCvonENJseDsfjj:
                 spawnPoint: P2
               - role: front
                 spawnPoint: P3
-              - role: front/air
+              - role: air/front
                 spawnPoint: P4
               - role: front
                 spawnPoint: P5
@@ -11147,7 +11147,7 @@ gEgiWXCvonENJseDsfjj:
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - role: front/air
+              - role: air/front
                 spawnPoint: P12
               - role: front
                 spawnPoint: P13
@@ -12686,7 +12686,7 @@ oBOBWCmenCo2tbkwYNJt:
                 spawnPoint: P4
               - role: front
                 spawnPoint: P5
-              - role: front/air
+              - role: air/front
                 spawnPoint: P6
               - role: front
                 spawnPoint: P7
@@ -12703,7 +12703,7 @@ oBOBWCmenCo2tbkwYNJt:
                 spawnPoint: P12
               - role: front
                 spawnPoint: P13
-              - role: front/air
+              - role: air/front
                 spawnPoint: P14
               - role: front
                 spawnPoint: P15
