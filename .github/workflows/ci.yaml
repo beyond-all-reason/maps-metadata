@@ -163,6 +163,8 @@ jobs:
         run: |
           cp gen/mapBoxes.conf spads_config_bar/etc/mapBoxes.conf
           cp gen/mapLists.conf spads_config_bar/etc/mapLists.conf
+          cp gen/mapPresets.conf spads_config_bar/etc/mapPresets.conf
+          cp gen/mapBattlePresets.conf spads_config_bar/etc/mapBattlePresets.conf
           python3 scripts/py/update_spads_conf.py spads_config_bar/etc/spads_cluster.conf
       - name: Commit and push
         run: |
