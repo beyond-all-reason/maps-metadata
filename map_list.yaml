@@ -1055,7 +1055,7 @@
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - baseCenter: P17
+              - baseCenter: P18
                 role: front
                 spawnPoint: P12
               - role: air
