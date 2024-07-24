@@ -723,6 +723,95 @@
       type: image/jpeg
   playerCount: 16
   springName: Erebos Lakes v1.0
+  startPos:
+    positions:
+      P1:
+        x: 692
+        y: 4818
+      P10:
+        x: 8535
+        y: 4953
+      P11:
+        x: 9505
+        y: 4230
+      P12:
+        x: 8128
+        y: 3879
+      P13:
+        x: 9505
+        y: 2700
+      P14:
+        x: 8045
+        y: 2566
+      P15:
+        x: 9337
+        y: 1232
+      P16:
+        x: 8073
+        y: 754
+      P2:
+        x: 1690
+        y: 5298
+      P3:
+        x: 720
+        y: 6004
+      P4:
+        x: 2076
+        y: 6352
+      P5:
+        x: 738
+        y: 7558
+      P6:
+        x: 2217
+        y: 7699
+      P7:
+        x: 889
+        y: 8970
+      P8:
+        x: 2142
+        y: 9469
+      P9:
+        x: 9554
+        y: 5402
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front/tech
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front/tech
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     VNzNNXVRToo4X3Xuu7oR:
       maxPlayersPerStartbox: 8
