@@ -10193,6 +10193,111 @@ cQ5LLQmNqCPCnYFiTlcb:
       type: image/jpeg
   playerCount: 16
   springName: Koom Valley 3 3.1
+  startPos:
+    positions:
+      P1:
+        x: 3261
+        y: 619
+      P10:
+        x: 9172
+        y: 5896
+      P11:
+        x: 11966
+        y: 5549
+      P12:
+        x: 8949
+        y: 4383
+      P13:
+        x: 8945
+        y: 3797
+      P14:
+        x: 11988
+        y: 2624
+      P15:
+        x: 9286
+        y: 2307
+      P16:
+        x: 9009
+        y: 620
+      P17:
+        x: 4352
+        y: 3734
+      P18:
+        x: 4355
+        y: 4485
+      P19:
+        x: 7957
+        y: 4549
+      P2:
+        x: 3093
+        y: 2265
+      P20:
+        x: 8003
+        y: 3795
+      P3:
+        x: 363
+        y: 2753
+      P4:
+        x: 3392
+        y: 3799
+      P5:
+        x: 3392
+        y: 4422
+      P6:
+        x: 348
+        y: 5475
+      P7:
+        x: 3096
+        y: 5918
+      P8:
+        x: 3361
+        y: 7445
+      P9:
+        x: 9025
+        y: 7599
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - baseCenter: P17
+                role: front
+                spawnPoint: P4
+              - baseCenter: P18
+                role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - baseCenter: P19
+                role: front
+                spawnPoint: P12
+              - baseCenter: P20
+                role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     G9Mcs1KtaHcbgiL7UiHr:
       maxPlayersPerStartbox: 8
