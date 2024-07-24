@@ -1500,6 +1500,95 @@
       type: image/jpeg
   playerCount: 16
   springName: Hades Ponds 1.1
+  startPos:
+    positions:
+      P1:
+        x: 560
+        y: 685
+      P10:
+        x: 6906
+        y: 6836
+      P11:
+        x: 6856
+        y: 5764
+      P12:
+        x: 7212
+        y: 4828
+      P13:
+        x: 7728
+        y: 3775
+      P14:
+        x: 7025
+        y: 2652
+      P15:
+        x: 6522
+        y: 1692
+      P16:
+        x: 7190
+        y: 1195
+      P2:
+        x: 1299
+        y: 1339
+      P3:
+        x: 1349
+        y: 2397
+      P4:
+        x: 964
+        y: 3363
+      P5:
+        x: 475
+        y: 4429
+      P6:
+        x: 1164
+        y: 5560
+      P7:
+        x: 1654
+        y: 6503
+      P8:
+        x: 1006
+        y: 6992
+      P9:
+        x: 7654
+        y: 7522
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air/front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air/front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     1JM0wTOA7VXzj3ciiFwt:
       maxPlayersPerStartbox: 8
