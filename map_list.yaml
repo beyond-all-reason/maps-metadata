@@ -14195,6 +14195,95 @@ uZq5zZ1FTcdZ7FS4k3lc:
       type: image/jpeg
   playerCount: 16
   springName: Hotlips Remake v3.1.1
+  startPos:
+    positions:
+      P1:
+        x: 1926
+        y: 616
+      P10:
+        x: 10797
+        y: 7360
+      P11:
+        x: 9166
+        y: 7372
+      P12:
+        x: 9869
+        y: 5788
+      P13:
+        x: 11096
+        y: 4598
+      P14:
+        x: 9870
+        y: 3449
+      P15:
+        x: 10797
+        y: 1985
+      P16:
+        x: 9625
+        y: 485
+      P2:
+        x: 471
+        y: 1850
+      P3:
+        x: 2115
+        y: 1850
+      P4:
+        x: 1382
+        y: 3450
+      P5:
+        x: 202
+        y: 4609
+      P6:
+        x: 1403
+        y: 5757
+      P7:
+        x: 493
+        y: 7222
+      P8:
+        x: 1662
+        y: 8710
+      P9:
+        x: 9363
+        y: 8615
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     4ySlw4GDPCsxaBZDcOHA:
       maxPlayersPerStartbox: 8
