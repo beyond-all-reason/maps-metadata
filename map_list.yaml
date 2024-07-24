@@ -2576,6 +2576,95 @@ ACgCe99NC8yZFecMwRCm:
       type: image/png
   playerCount: 16
   springName: Supreme Isthmus v1.8
+  startPos:
+    positions:
+      P1:
+        x: 711
+        y: 7218
+      P10:
+        x: 11456
+        y: 1901
+      P11:
+        x: 10129
+        y: 541
+      P12:
+        x: 9764
+        y: 4339
+      P13:
+        x: 7729
+        y: 4835
+      P14:
+        x: 7292
+        y: 3727
+      P15:
+        x: 7484
+        y: 2462
+      P16:
+        x: 7492
+        y: 1220
+      P2:
+        x: 837
+        y: 10407
+      P3:
+        x: 2155
+        y: 11747
+      P4:
+        x: 2513
+        y: 7983
+      P5:
+        x: 4595
+        y: 7440
+      P6:
+        x: 4997
+        y: 8570
+      P7:
+        x: 4806
+        y: 9802
+      P8:
+        x: 4814
+        y: 11077
+      P9:
+        x: 11579
+        y: 5063
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: sea
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front/tech
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: sea
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front/tech
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     DizlFBRdBVRvBiS3RKYl:
       maxPlayersPerStartbox: 8
