@@ -11579,6 +11579,95 @@ jyQlMYahZbQYgC1ZGRmd:
       type: image/jpeg
   playerCount: 16
   springName: Hera Planum 0.91
+  startPos:
+    positions:
+      P1:
+        x: 882
+        y: 909
+      P10:
+        x: 8329
+        y: 6320
+      P11:
+        x: 9583
+        y: 5716
+      P12:
+        x: 8539
+        y: 4860
+      P13:
+        x: 9560
+        y: 3597
+      P14:
+        x: 8340
+        y: 2475
+      P15:
+        x: 9525
+        y: 1810
+      P16:
+        x: 8387
+        y: 852
+      P2:
+        x: 1904
+        y: 1860
+      P3:
+        x: 634
+        y: 2498
+      P4:
+        x: 1698
+        y: 3330
+      P5:
+        x: 660
+        y: 4580
+      P6:
+        x: 1877
+        y: 5716
+      P7:
+        x: 707
+        y: 6394
+      P8:
+        x: 1850
+        y: 7331
+      P9:
+        x: 9340
+        y: 7270
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air/front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front/tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air/front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     tSAGMmSfj6YkInTxffy6:
       maxPlayersPerStartbox: 8
