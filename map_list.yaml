@@ -9172,6 +9172,95 @@ bunTXErE1ZLWV9t8jFHw:
       type: image/png
   playerCount: 16
   springName: Esker Creek 1.3
+  startPos:
+    positions:
+      P1:
+        x: 2289
+        y: 273
+      P10:
+        x: 10107
+        y: 6399
+      P11:
+        x: 10281
+        y: 5307
+      P12:
+        x: 9803
+        y: 4779
+      P13:
+        x: 10436
+        y: 3887
+      P14:
+        x: 10542
+        y: 2220
+      P15:
+        x: 9890
+        y: 1186
+      P16:
+        x: 10104
+        y: 211
+      P2:
+        x: 2148
+        y: 1775
+      P3:
+        x: 1953
+        y: 2845
+      P4:
+        x: 2435
+        y: 3391
+      P5:
+        x: 1825
+        y: 4319
+      P6:
+        x: 1688
+        y: 5944
+      P7:
+        x: 2358
+        y: 7047
+      P8:
+        x: 2114
+        y: 8004
+      P9:
+        x: 9971
+        y: 7925
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     UjR1QRpxyv6YF6T0eeeV:
       maxPlayersPerStartbox: 8
