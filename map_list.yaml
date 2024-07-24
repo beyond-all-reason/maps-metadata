@@ -5838,6 +5838,95 @@ PiT4WHNB94kc8vlAZtot:
   playerCount: 16
   special: Lava
   springName: Forge v2.3
+  startPos:
+    positions:
+      P1:
+        x: 2137
+        y: 1545
+      P10:
+        x: 6929
+        y: 6517
+      P11:
+        x: 8887
+        y: 6005
+      P12:
+        x: 7205
+        y: 5179
+      P13:
+        x: 7190
+        y: 4100
+      P14:
+        x: 8795
+        y: 3495
+      P15:
+        x: 6890
+        y: 2669
+      P16:
+        x: 7074
+        y: 1552
+      P2:
+        x: 2347
+        y: 2722
+      P3:
+        x: 451
+        y: 3453
+      P4:
+        x: 2018
+        y: 4108
+      P5:
+        x: 1997
+        y: 5212
+      P6:
+        x: 317
+        y: 6091
+      P7:
+        x: 2368
+        y: 6535
+      P8:
+        x: 2111
+        y: 7630
+      P9:
+        x: 7095
+        y: 7604
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     n8Ba0xnozCIMVtWx0mPT:
       maxPlayersPerStartbox: 8
