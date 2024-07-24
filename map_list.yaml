@@ -3947,6 +3947,103 @@ FEkKsVrHELjFh7HQstFq:
   playerCount: 16
   special: Lava
   springName: Kings Assault v1.3
+  startPos:
+    positions:
+      P1:
+        x: 718
+        y: 529
+      P10:
+        x: 8074
+        y: 1107
+      P11:
+        x: 8131
+        y: 2555
+      P12:
+        x: 9507
+        y: 2806
+      P13:
+        x: 8196
+        y: 4072
+      P14:
+        x: 9671
+        y: 5062
+      P15:
+        x: 8878
+        y: 6747
+      P16:
+        x: 8662
+        y: 7575
+      P17:
+        x: 3135
+        y: 4092
+      P18:
+        x: 7113
+        y: 4095
+      P2:
+        x: 2143
+        y: 1148
+      P3:
+        x: 2118
+        y: 2561
+      P4:
+        x: 729
+        y: 2819
+      P5:
+        x: 2045
+        y: 4083
+      P6:
+        x: 557
+        y: 5052
+      P7:
+        x: 1392
+        y: 6723
+      P8:
+        x: 1592
+        y: 7585
+      P9:
+        x: 9570
+        y: 758
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - baseCenter: P17
+                role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: air
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - baseCenter: P18
+                role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     7plcpyvzE3A6JEtmKWuM:
       maxPlayersPerStartbox: 8
