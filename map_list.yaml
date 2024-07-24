@@ -13112,6 +13112,95 @@ pFTrUA4OGRNoSNpSAzx2:
       type: image/png
   playerCount: 16
   springName: Moonshine Run v1.0.1
+  startPos:
+    positions:
+      P1:
+        x: 1662
+        y: 855
+      P10:
+        x: 9825
+        y: 6373
+      P11:
+        x: 9817
+        y: 5514
+      P12:
+        x: 11165
+        y: 4591
+      P13:
+        x: 9820
+        y: 3852
+      P14:
+        x: 9964
+        y: 2982
+      P15:
+        x: 9867
+        y: 1984
+      P16:
+        x: 9926
+        y: 876
+      P2:
+        x: 2459
+        y: 1818
+      P3:
+        x: 2489
+        y: 2670
+      P4:
+        x: 1109
+        y: 3590
+      P5:
+        x: 2498
+        y: 4329
+      P6:
+        x: 2323
+        y: 5200
+      P7:
+        x: 2419
+        y: 6285
+      P8:
+        x: 2391
+        y: 7308
+      P9:
+        x: 10604
+        y: 7300
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     VmOHp52zUfny6T0uypce:
       maxPlayersPerStartbox: 8
