@@ -1807,6 +1807,95 @@
       type: image/jpeg
   playerCount: 16
   springName: Eight Horses 1.2
+  startPos:
+    positions:
+      P1:
+        x: 795
+        y: 211
+      P10:
+        x: 11598
+        y: 2013
+      P11:
+        x: 11883
+        y: 3555
+      P12:
+        x: 11934
+        y: 5164
+      P13:
+        x: 11619
+        y: 6116
+      P14:
+        x: 11380
+        y: 7138
+      P15:
+        x: 11541
+        y: 8370
+      P16:
+        x: 11289
+        y: 9831
+      P2:
+        x: 683
+        y: 2016
+      P3:
+        x: 320
+        y: 3580
+      P4:
+        x: 331
+        y: 5162
+      P5:
+        x: 671
+        y: 6122
+      P6:
+        x: 905
+        y: 7170
+      P7:
+        x: 718
+        y: 8383
+      P8:
+        x: 970
+        y: 9829
+      P9:
+        x: 11492
+        y: 226
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air/front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: sea
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: air/front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: sea
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     cFgowF86D0lPhU0PSoQE:
       maxPlayersPerStartbox: 8
