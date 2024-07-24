@@ -248,6 +248,17 @@ $defs:
                           description: References the key in positions
                         role:
                           type: string
+                          enum:
+                            - air
+                            - air/front
+                            - air/sea
+                            - air/tech
+                            - front
+                            - front/sea
+                            - front/tech
+                            - sea
+                            - sea/tech
+                            - tech
                       additionalProperties: false
                       required:
                         - spawnPoint
