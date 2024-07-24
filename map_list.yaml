@@ -8620,6 +8620,95 @@ Z7wmue7EsjaTNpsdBuyx:
       type: image/jpeg
   playerCount: 16
   springName: Pawn Retreat 1.2
+  startPos:
+    positions:
+      P1:
+        x: 467
+        y: 3013
+      P10:
+        x: 8289
+        y: 9336
+      P11:
+        x: 7128
+        y: 8200
+      P12:
+        x: 5092
+        y: 9261
+      P13:
+        x: 3153
+        y: 9959
+      P14:
+        x: 2636
+        y: 7624
+      P15:
+        x: 854
+        y: 9249
+      P16:
+        x: 476
+        y: 7187
+      P2:
+        x: 1973
+        y: 996
+      P3:
+        x: 3116
+        y: 2094
+      P4:
+        x: 5156
+        y: 1043
+      P5:
+        x: 7082
+        y: 344
+      P6:
+        x: 7636
+        y: 2654
+      P7:
+        x: 9383
+        y: 1017
+      P8:
+        x: 9792
+        y: 3036
+      P9:
+        x: 9828
+        y: 7288
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     9SQorBYBRNV7YaZP6qtW:
       maxPlayersPerStartbox: 8
