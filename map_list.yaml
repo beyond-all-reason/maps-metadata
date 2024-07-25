@@ -24,6 +24,95 @@
   playerCount: 16
   special: Lava
   springName: Thermal Shock v1.1
+  startPos:
+    positions:
+      P1:
+        x: 1302
+        y: 494
+      P10:
+        x: 9228
+        y: 7153
+      P11:
+        x: 7276
+        y: 8924
+      P12:
+        x: 7994
+        y: 7199
+      P13:
+        x: 6339
+        y: 7214
+      P14:
+        x: 5681
+        y: 8899
+      P15:
+        x: 4579
+        y: 7574
+      P16:
+        x: 4083
+        y: 9336
+      P2:
+        x: 3140
+        y: 1036
+      P3:
+        x: 1659
+        y: 2249
+      P4:
+        x: 3158
+        y: 2189
+      P5:
+        x: 2882
+        y: 3846
+      P6:
+        x: 979
+        y: 4062
+      P7:
+        x: 2447
+        y: 5574
+      P8:
+        x: 919
+        y: 6166
+      P9:
+        x: 9751
+        y: 8985
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: air
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     ndZ8MtPCWigfgd6iZRY2:
       maxPlayersPerStartbox: 8
