@@ -3497,6 +3497,95 @@ Cz4OYo0Z2yht9PUP8vcN:
   playerCount: 16
   special: West vs South
   springName: Sulphur Springs v1.1
+  startPos:
+    positions:
+      P1:
+        x: 423
+        y: 9093
+      P10:
+        x: 4566
+        y: 10551
+      P11:
+        x: 5593
+        y: 11813
+      P12:
+        x: 6925
+        y: 10046
+      P13:
+        x: 8161
+        y: 11769
+      P14:
+        x: 9258
+        y: 10516
+      P15:
+        x: 10999
+        y: 11795
+      P16:
+        x: 11945
+        y: 11342
+      P2:
+        x: 1753
+        y: 7768
+      P3:
+        x: 813
+        y: 6729
+      P4:
+        x: 2086
+        y: 5487
+      P5:
+        x: 498
+        y: 4157
+      P6:
+        x: 1912
+        y: 3169
+      P7:
+        x: 443
+        y: 1254
+      P8:
+        x: 1071
+        y: 408
+      P9:
+        x: 3290
+        y: 11838
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front/tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: air
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: air
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     lAzRsHD2GUEcbqndUUFJ:
       maxPlayersPerStartbox: 8
