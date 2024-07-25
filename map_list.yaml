@@ -11843,6 +11843,111 @@ gf2s52iInoEKNyK1vA19:
       type: image/jpeg
   playerCount: 16
   springName: Sunderance V1.3
+  startPos:
+    positions:
+      P1:
+        x: 253
+        y: 6871
+      P10:
+        x: 6701
+        y: 774
+      P11:
+        x: 5691
+        y: 396
+      P12:
+        x: 5427
+        y: 1538
+      P13:
+        x: 3015
+        y: 528
+      P14:
+        x: 1800
+        y: 669
+      P15:
+        x: 2073
+        y: 1591
+      P16:
+        x: 452
+        y: 1554
+      P17:
+        x: 2792
+        y: 6136
+      P18:
+        x: 6095
+        y: 5894
+      P19:
+        x: 5409
+        y: 2086
+      P2:
+        x: 1478
+        y: 7431
+      P20:
+        x: 2090
+        y: 2304
+      P3:
+        x: 2492
+        y: 7793
+      P4:
+        x: 2733
+        y: 6616
+      P5:
+        x: 5191
+        y: 7679
+      P6:
+        x: 6401
+        y: 7500
+      P7:
+        x: 6167
+        y: 6557
+      P8:
+        x: 7732
+        y: 6640
+      P9:
+        x: 7911
+        y: 1329
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - baseCenter: P17
+                role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - baseCenter: P18
+                role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - baseCenter: P19
+                role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - baseCenter: P20
+                role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     4Z4rUlQfxrb5fbQd6eTz:
       maxPlayersPerStartbox: 4
