@@ -2120,6 +2120,95 @@
       type: image/jpeg
   playerCount: 16
   springName: Swirly Rock v1.1
+  startPos:
+    positions:
+      P1:
+        x: 3026
+        y: 470
+      P10:
+        x: 11615
+        y: 1534
+      P11:
+        x: 9212
+        y: 3278
+      P12:
+        x: 9216
+        y: 4382
+      P13:
+        x: 11870
+        y: 4800
+      P14:
+        x: 9215
+        y: 4937
+      P15:
+        x: 9413
+        y: 6136
+      P16:
+        x: 10110
+        y: 7744
+      P2:
+        x: 729
+        y: 1655
+      P3:
+        x: 3186
+        y: 3386
+      P4:
+        x: 3066
+        y: 4365
+      P5:
+        x: 403
+        y: 4606
+      P6:
+        x: 3058
+        y: 4933
+      P7:
+        x: 2863
+        y: 6123
+      P8:
+        x: 2226
+        y: 7657
+      P9:
+        x: 9269
+        y: 463
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     rW9FRx7Lbx5XJRaP4WHB:
       maxPlayersPerStartbox: 8
