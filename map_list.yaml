@@ -15067,6 +15067,95 @@ taMTVVZKAKbYywe7tyRb:
       type: image/png
   playerCount: 16
   springName: The Tartar Steppe v1.1
+  startPos:
+    positions:
+      P1:
+        x: 2151
+        y: 1051
+      P10:
+        x: 10105
+        y: 9486
+      P11:
+        x: 9949
+        y: 8150
+      P12:
+        x: 9889
+        y: 6680
+      P13:
+        x: 9854
+        y: 5597
+      P14:
+        x: 9979
+        y: 4173
+      P15:
+        x: 10101
+        y: 2790
+      P16:
+        x: 10151
+        y: 1118
+      P2:
+        x: 2200
+        y: 2770
+      P3:
+        x: 2314
+        y: 4142
+      P4:
+        x: 2421
+        y: 5615
+      P5:
+        x: 2427
+        y: 6654
+      P6:
+        x: 2333
+        y: 8233
+      P7:
+        x: 2182
+        y: 9511
+      P8:
+        x: 2150
+        y: 11223
+      P9:
+        x: 10136
+        y: 11255
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     tzBDplnMfTRPH0H4BYcH:
       maxPlayersPerStartbox: 8
