@@ -10184,6 +10184,95 @@ cIMaYX0u2fprp7Qk78wK:
       type: image/jpeg
   playerCount: 16
   springName: Plains and Passes v1.0
+  startPos:
+    positions:
+      P1:
+        x: 587
+        y: 802
+      P10:
+        x: 8228
+        y: 7440
+      P11:
+        x: 9820
+        y: 6384
+      P12:
+        x: 8554
+        y: 5941
+      P13:
+        x: 8564
+        y: 4459
+      P14:
+        x: 9853
+        y: 3868
+      P15:
+        x: 8264
+        y: 3015
+      P16:
+        x: 9552
+        y: 719
+      P2:
+        x: 2036
+        y: 2795
+      P3:
+        x: 395
+        y: 3851
+      P4:
+        x: 1697
+        y: 4335
+      P5:
+        x: 1696
+        y: 5787
+      P6:
+        x: 422
+        y: 6429
+      P7:
+        x: 1980
+        y: 7246
+      P8:
+        x: 683
+        y: 9562
+      P9:
+        x: 9705
+        y: 9498
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     j3tkoOiTICsyJU0vIZIA:
       maxPlayersPerStartbox: 8
