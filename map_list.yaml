@@ -1055,7 +1055,7 @@
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - baseCenter: P17
+              - baseCenter: P18
                 role: front
                 spawnPoint: P12
               - role: air
@@ -8620,6 +8620,95 @@ Z7wmue7EsjaTNpsdBuyx:
       type: image/jpeg
   playerCount: 16
   springName: Pawn Retreat 1.2
+  startPos:
+    positions:
+      P1:
+        x: 467
+        y: 3013
+      P10:
+        x: 8289
+        y: 9336
+      P11:
+        x: 7128
+        y: 8200
+      P12:
+        x: 5092
+        y: 9261
+      P13:
+        x: 3153
+        y: 9959
+      P14:
+        x: 2636
+        y: 7624
+      P15:
+        x: 854
+        y: 9249
+      P16:
+        x: 476
+        y: 7187
+      P2:
+        x: 1973
+        y: 996
+      P3:
+        x: 3116
+        y: 2094
+      P4:
+        x: 5156
+        y: 1043
+      P5:
+        x: 7082
+        y: 344
+      P6:
+        x: 7636
+        y: 2654
+      P7:
+        x: 9383
+        y: 1017
+      P8:
+        x: 9792
+        y: 3036
+      P9:
+        x: 9828
+        y: 7288
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     9SQorBYBRNV7YaZP6qtW:
       maxPlayersPerStartbox: 8
@@ -10193,6 +10282,111 @@ cQ5LLQmNqCPCnYFiTlcb:
       type: image/jpeg
   playerCount: 16
   springName: Koom Valley 3 3.1
+  startPos:
+    positions:
+      P1:
+        x: 3261
+        y: 619
+      P10:
+        x: 9172
+        y: 5896
+      P11:
+        x: 11966
+        y: 5549
+      P12:
+        x: 8949
+        y: 4383
+      P13:
+        x: 8945
+        y: 3797
+      P14:
+        x: 11988
+        y: 2624
+      P15:
+        x: 9286
+        y: 2307
+      P16:
+        x: 9009
+        y: 620
+      P17:
+        x: 4352
+        y: 3734
+      P18:
+        x: 4355
+        y: 4485
+      P19:
+        x: 7957
+        y: 4549
+      P2:
+        x: 3093
+        y: 2265
+      P20:
+        x: 8003
+        y: 3795
+      P3:
+        x: 363
+        y: 2753
+      P4:
+        x: 3392
+        y: 3799
+      P5:
+        x: 3392
+        y: 4422
+      P6:
+        x: 348
+        y: 5475
+      P7:
+        x: 3096
+        y: 5918
+      P8:
+        x: 3361
+        y: 7445
+      P9:
+        x: 9025
+        y: 7599
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - baseCenter: P17
+                role: front
+                spawnPoint: P4
+              - baseCenter: P18
+                role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - baseCenter: P19
+                role: front
+                spawnPoint: P12
+              - baseCenter: P20
+                role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     G9Mcs1KtaHcbgiL7UiHr:
       maxPlayersPerStartbox: 8
@@ -13112,6 +13306,95 @@ pFTrUA4OGRNoSNpSAzx2:
       type: image/png
   playerCount: 16
   springName: Moonshine Run v1.0.1
+  startPos:
+    positions:
+      P1:
+        x: 1662
+        y: 855
+      P10:
+        x: 9825
+        y: 6373
+      P11:
+        x: 9817
+        y: 5514
+      P12:
+        x: 11165
+        y: 4591
+      P13:
+        x: 9820
+        y: 3852
+      P14:
+        x: 9964
+        y: 2982
+      P15:
+        x: 9867
+        y: 1984
+      P16:
+        x: 9926
+        y: 876
+      P2:
+        x: 2459
+        y: 1818
+      P3:
+        x: 2489
+        y: 2670
+      P4:
+        x: 1109
+        y: 3590
+      P5:
+        x: 2498
+        y: 4329
+      P6:
+        x: 2323
+        y: 5200
+      P7:
+        x: 2419
+        y: 6285
+      P8:
+        x: 2391
+        y: 7308
+      P9:
+        x: 10604
+        y: 7300
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     VmOHp52zUfny6T0uypce:
       maxPlayersPerStartbox: 8
@@ -15451,6 +15734,95 @@ zvTEXnewG2G8LaMjFq4o:
       type: image/jpeg
   playerCount: 16
   springName: Nuclear Winter Bar 1.4
+  startPos:
+    positions:
+      P1:
+        x: 2046
+        y: 295
+      P10:
+        x: 9622
+        y: 564
+      P11:
+        x: 9861
+        y: 2256
+      P12:
+        x: 7804
+        y: 2292
+      P13:
+        x: 7789
+        y: 3391
+      P14:
+        x: 9919
+        y: 3586
+      P15:
+        x: 7991
+        y: 4255
+      P16:
+        x: 9795
+        y: 4795
+      P2:
+        x: 382
+        y: 553
+      P3:
+        x: 438
+        y: 2376
+      P4:
+        x: 2569
+        y: 2327
+      P5:
+        x: 2570
+        y: 3199
+      P6:
+        x: 339
+        y: 3609
+      P7:
+        x: 2163
+        y: 4169
+      P8:
+        x: 452
+        y: 4786
+      P9:
+        x: 8153
+        y: 279
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     eZzR5USURUBzWdPBD5LJ:
       maxPlayersPerStartbox: 8
