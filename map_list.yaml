@@ -15243,6 +15243,95 @@ vFNwoJJ3cCMzSaAAQPvR:
       type: image/jpeg
   playerCount: 16
   springName: Starwatcher 1.0
+  startPos:
+    positions:
+      P1:
+        x: 2552
+        y: 597
+      P10:
+        x: 11712
+        y: 7089
+      P11:
+        x: 11453
+        y: 5487
+      P12:
+        x: 10066
+        y: 4704
+      P13:
+        x: 11669
+        y: 3403
+      P14:
+        x: 10181
+        y: 3173
+      P15:
+        x: 11173
+        y: 2139
+      P16:
+        x: 10181
+        y: 1478
+      P2:
+        x: 578
+        y: 1101
+      P3:
+        x: 811
+        y: 2694
+      P4:
+        x: 2187
+        y: 3454
+      P5:
+        x: 605
+        y: 4759
+      P6:
+        x: 2106
+        y: 4982
+      P7:
+        x: 1133
+        y: 6040
+      P8:
+        x: 2081
+        y: 6686
+      P9:
+        x: 9733
+        y: 7582
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front/tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front/tech
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     QHtPYvsorgmM4mAWPqP1:
       maxPlayersPerStartbox: 8
