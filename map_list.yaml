@@ -7801,6 +7801,95 @@ WrkVFQS8BedaqPg5SeB7:
       type: image/jpeg
   playerCount: 16
   springName: Scylla and Charybdis 1.1
+  startPos:
+    positions:
+      P1:
+        x: 1535
+        y: 9097
+      P10:
+        x: 6239
+        y: 2343
+      P11:
+        x: 5096
+        y: 1032
+      P12:
+        x: 4649
+        y: 2261
+      P13:
+        x: 3045
+        y: 1006
+      P14:
+        x: 2589
+        y: 2251
+      P15:
+        x: 1280
+        y: 1150
+      P16:
+        x: 1261
+        y: 2277
+      P2:
+        x: 1965
+        y: 7891
+      P3:
+        x: 3130
+        y: 9178
+      P4:
+        x: 3579
+        y: 7966
+      P5:
+        x: 5132
+        y: 9235
+      P6:
+        x: 5606
+        y: 8010
+      P7:
+        x: 6952
+        y: 9098
+      P8:
+        x: 6951
+        y: 7960
+      P9:
+        x: 6675
+        y: 1135
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     kRIRB3IqW07796KrvKeU:
       maxPlayersPerStartbox: 8
