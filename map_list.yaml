@@ -12979,6 +12979,95 @@ mAD4ToJrMg6xGHEM18qN:
   playerCount: 16
   special: Acid
   springName: Sector 318C v1.0
+  startPos:
+    positions:
+      P1:
+        x: 467
+        y: 467
+      P10:
+        x: 8825
+        y: 6100
+      P11:
+        x: 8499
+        y: 4642
+      P12:
+        x: 9736
+        y: 3424
+      P13:
+        x: 8049
+        y: 3405
+      P14:
+        x: 8010
+        y: 1659
+      P15:
+        x: 9717
+        y: 978
+      P16:
+        x: 8404
+        y: 509
+      P2:
+        x: 1426
+        y: 2107
+      P3:
+        x: 1762
+        y: 3543
+      P4:
+        x: 489
+        y: 4809
+      P5:
+        x: 2263
+        y: 4918
+      P6:
+        x: 2237
+        y: 6502
+      P7:
+        x: 548
+        y: 6864
+      P8:
+        x: 1631
+        y: 7869
+      P9:
+        x: 9873
+        y: 7786
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front/tech
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front/tech
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     ceEohe8ZrhsyVk1tZm1D:
       maxPlayersPerStartbox: 8
