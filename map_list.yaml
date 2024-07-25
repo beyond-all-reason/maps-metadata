@@ -8310,6 +8310,103 @@ X0N11knnIS4fWqkoFPBC:
       type: image/jpeg
   playerCount: 16
   springName: Twin Lakes Park Redux 1.21
+  startPos:
+    positions:
+      P1:
+        x: 2054
+        y: 393
+      P10:
+        x: 10313
+        y: 8702
+      P11:
+        x: 9777
+        y: 6856
+      P12:
+        x: 11900
+        y: 5844
+      P13:
+        x: 10563
+        y: 5113
+      P14:
+        x: 10908
+        y: 3656
+      P15:
+        x: 11267
+        y: 2053
+      P16:
+        x: 9921
+        y: 809
+      P17:
+        x: 3851
+        y: 3349
+      P18:
+        x: 8497
+        y: 6866
+      P2:
+        x: 2004
+        y: 1551
+      P3:
+        x: 2503
+        y: 3380
+      P4:
+        x: 429
+        y: 4393
+      P5:
+        x: 1740
+        y: 5131
+      P6:
+        x: 1379
+        y: 6570
+      P7:
+        x: 1009
+        y: 8149
+      P8:
+        x: 2354
+        y: 9420
+      P9:
+        x: 10250
+        y: 9836
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - baseCenter: P17
+                role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - baseCenter: P18
+                role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     RPV8P6MoA9CjwLJBT9bP:
       maxPlayersPerStartbox: 8
