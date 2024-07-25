@@ -9129,6 +9129,95 @@ ZrnTf20mPzbrMjtHa9Wg:
       type: image/jpeg
   playerCount: 16
   springName: Riverrun_V1
+  startPos:
+    positions:
+      P1:
+        x: 2498
+        y: 990
+      P10:
+        x: 11710
+        y: 10065
+      P11:
+        x: 11504
+        y: 7800
+      P12:
+        x: 9123
+        y: 7384
+      P13:
+        x: 11429
+        y: 6159
+      P14:
+        x: 11203
+        y: 3491
+      P15:
+        x: 9074
+        y: 3664
+      P16:
+        x: 11673
+        y: 670
+      P2:
+        x: 571
+        y: 2236
+      P3:
+        x: 744
+        y: 4553
+      P4:
+        x: 3158
+        y: 4911
+      P5:
+        x: 711
+        y: 6229
+      P6:
+        x: 1141
+        y: 8698
+      P7:
+        x: 3222
+        y: 8641
+      P8:
+        x: 626
+        y: 11642
+      P9:
+        x: 9780
+        y: 11344
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     4QDYnTGkngUE3fklTJex:
       maxPlayersPerStartbox: 8
