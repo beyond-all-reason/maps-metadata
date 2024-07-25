@@ -13674,6 +13674,95 @@ qrpwI83FonOR43KTBxZE:
       type: image/png
   playerCount: 16
   springName: Salmiakki 1.2
+  startPos:
+    positions:
+      P1:
+        x: 843
+        y: 226
+      P10:
+        x: 8912
+        y: 5873
+      P11:
+        x: 8573
+        y: 5037
+      P12:
+        x: 7907
+        y: 4201
+      P13:
+        x: 9651
+        y: 2913
+      P14:
+        x: 8382
+        y: 2889
+      P15:
+        x: 9077
+        y: 1649
+      P16:
+        x: 7989
+        y: 762
+      P2:
+        x: 1241
+        y: 2300
+      P3:
+        x: 1596
+        y: 3146
+      P4:
+        x: 2223
+        y: 3999
+      P5:
+        x: 488
+        y: 5227
+      P6:
+        x: 1745
+        y: 5268
+      P7:
+        x: 1061
+        y: 6546
+      P8:
+        x: 2153
+        y: 7457
+      P9:
+        x: 9319
+        y: 7986
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Cnq5FP96uB07wGWJ92oU:
       maxPlayersPerStartbox: 8
