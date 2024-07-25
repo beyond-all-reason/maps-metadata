@@ -3139,6 +3139,95 @@ B8dWp2FEAk7BY2XCOAYt:
   playerCount: 16
   special: ""
   springName: Salt Reef 1.1
+  startPos:
+    positions:
+      P1:
+        x: 702
+        y: 553
+      P10:
+        x: 8797
+        y: 6344
+      P11:
+        x: 9696
+        y: 5363
+      P12:
+        x: 8423
+        y: 5159
+      P13:
+        x: 9404
+        y: 3743
+      P14:
+        x: 9043
+        y: 2593
+      P15:
+        x: 9697
+        y: 1523
+      P16:
+        x: 8437
+        y: 951
+      P2:
+        x: 1441
+        y: 1850
+      P3:
+        x: 539
+        y: 2807
+      P4:
+        x: 1859
+        y: 3006
+      P5:
+        x: 826
+        y: 4456
+      P6:
+        x: 1216
+        y: 5611
+      P7:
+        x: 552
+        y: 6684
+      P8:
+        x: 1804
+        y: 7259
+      P9:
+        x: 9558
+        y: 7664
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air/front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front/tech
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: air/front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     A6XEUGsxCKGTarHR8KRo:
       maxPlayersPerStartbox: 8
