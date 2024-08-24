@@ -9273,6 +9273,12 @@ Z7wmue7EsjaTNpsdBuyx:
     - desert
 Z8YOFQmH2Aic7MsPihzr:
   author: Pinchy
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FbackgroundImage%2FyicZ6V7luYkm7T2VGvpC-pinch_point_1.03_background.png?alt=media&token=4a3191f7-98d9-4a73-bc5c-9a6eb455bf77
+      lastModifiedTS: 1724523146468
+      name: pinch_point_1.03_background.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/backgroundImage/yicZ6V7luYkm7T2VGvpC-pinch_point_1.03_background.png
+      type: image/png
   certified: true
   description: An island pair set in a tropical biome featuring a large central
     crossing and supporting islands to create tactical opportunities for all
@@ -9280,15 +9286,33 @@ Z8YOFQmH2Aic7MsPihzr:
   displayName: Pinch Point
   gameType:
     - team
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FinGameShots%2FSEBPNQb9mSUtKj5AiwZw-pinch_point_1.03_in_game_shot_1.png?alt=media&token=f621f9d1-d7e4-4bd0-8627-9b353b5c7618
+      lastModifiedTS: 1724523148755
+      name: pinch_point_1.03_in_game_shot_1.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/SEBPNQb9mSUtKj5AiwZw-pinch_point_1.03_in_game_shot_1.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FinGameShots%2FT20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png?alt=media&token=cf7479c2-66dd-4ce0-a94a-057d62e110a5
+      lastModifiedTS: 1724523150427
+      name: pinch_point_1.03_in_game_shot_2.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/T20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png
+      type: image/png
   inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FperspectiveShot%2FHz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png?alt=media&token=d1419d56-7de6-4eb7-b2ad-4dcdcddbe823
+      lastModifiedTS: 1724523147127
+      name: pinch_point_1.03_perspective.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/perspectiveShot/Hz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png
+      type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2Fphoto%2FWFTekDQFU1Bhbas1izIk-pinch_point.png?alt=media&token=1ad9c7c4-787c-4936-ae93-774efcf6d458
-      lastModifiedTS: 1708182197254
-      name: pinch_point.png
-      ref: maps/Z8YOFQmH2Aic7MsPihzr/photo/WFTekDQFU1Bhbas1izIk-pinch_point.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2Fphoto%2FPalVnR8tM3kfyYznMmzV-pinch_point_1.03_screenshot.png?alt=media&token=5e554890-1546-4940-abe8-a8758f5e12af
+      lastModifiedTS: 1724522505960
+      name: pinch_point_1.03_screenshot.png
+      ref: maps/Z8YOFQmH2Aic7MsPihzr/photo/PalVnR8tM3kfyYznMmzV-pinch_point_1.03_screenshot.png
       type: image/png
   playerCount: 16
-  springName: Pinch Point 1.01
+  springName: Pinch Point 1.03
   startboxesSet:
     1LFGneSokrjxE8sTzln3:
       maxPlayersPerStartbox: 8
