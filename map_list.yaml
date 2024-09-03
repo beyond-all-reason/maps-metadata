@@ -4436,30 +4436,25 @@ FmRZtQ8Wvce6HgKj1uyZ:
     - team
     - 1v1
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FlkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png?alt=media&token=54bf60d8-3515-4314-978d-a44a22ea84c8
-      lastModifiedTS: 1710303147100
-      name: screen_2024-03-13_04-12-26-677.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/lkWdBoMEo0wfEQBdmHHu-screen_2024-03-13_04-12-26-677.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2Faq2xl8gxRAdDFQnqU2i0-screen_2024-09-03_20-43-52-684.png?alt=media&token=a0ad06ae-eeea-48b2-a07a-662f78e2d08a
+      lastModifiedTS: 1725396233328
+      name: screen_2024-09-03_20-43-52-684.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/aq2xl8gxRAdDFQnqU2i0-screen_2024-09-03_20-43-52-684.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FHtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png?alt=media&token=ccc305f0-8177-4f3d-9145-66db0976a924
-      lastModifiedTS: 1710303129748
-      name: screen_2024-03-13_04-12-09-342.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/HtYEIgBckDP61CHn47dF-screen_2024-03-13_04-12-09-342.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FsjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png?alt=media&token=e576b2a7-820c-41d3-8b30-19b2a10c4398
-      lastModifiedTS: 1710303085974
-      name: screen_2024-03-13_04-11-25-575.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/sjGLx4nVx0JSJI8YdbxC-screen_2024-03-13_04-11-25-575.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2FinGameShots%2FwqXa323SFoqqjaGNLJdj-screen_2024-09-03_20-44-33-934.png?alt=media&token=9a002704-8429-40ec-869f-f2ac9e92c777
+      lastModifiedTS: 1725396274349
+      name: screen_2024-09-03_20-44-33-934.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/wqXa323SFoqqjaGNLJdj-screen_2024-09-03_20-44-33-934.png
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FOhCCVZ7kuM9ICiGPyqBn-wandermini2.png?alt=media&token=ff6a90e7-2852-43bd-a07c-05ffdb33ba99
-      lastModifiedTS: 1710304856620
-      name: wandermini2.png
-      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/photo/OhCCVZ7kuM9ICiGPyqBn-wandermini2.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FTNbhW1s0Q2x3H2GDhQ6b-wandermini3.png?alt=media&token=f4eacd2e-412d-4df1-b342-1f372533085f
+      lastModifiedTS: 1725383350163
+      name: wandermini3.png
+      ref: maps/FmRZtQ8Wvce6HgKj1uyZ/photo/TNbhW1s0Q2x3H2GDhQ6b-wandermini3.png
       type: image/png
   playerCount: 6
-  springName: Wanderlust 2.0
+  springName: Wanderlust 2.1
   startboxesSet:
     cZjhFKlcaodsYUnFJdnB:
       maxPlayersPerStartbox: 3
