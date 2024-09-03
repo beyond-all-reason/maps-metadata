@@ -8969,27 +8969,44 @@ XyspXgig1fp54pmAcYIo:
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FbackgroundImage%2F2uIy4BvdD6SUTcASGOCW-screen00028.png?alt=media&token=d3774190-9bcd-48b9-915c-c15c0eb9fe37
-      lastModifiedTS: 1700605640807
-      name: screen00028.png
-      ref: maps/Y5e7sl891wO5G2ttwjmr/backgroundImage/2uIy4BvdD6SUTcASGOCW-screen00028.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FbackgroundImage%2FLDextTR1ANYYqlaUSkJD-screen_2024-09-03_20-52-34-233.png?alt=media&token=a4cc7098-c98f-4a53-b2a4-e1390d2164e7
+      lastModifiedTS: 1725396754654
+      name: screen_2024-09-03_20-52-34-233.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/backgroundImage/LDextTR1ANYYqlaUSkJD-screen_2024-09-03_20-52-34-233.png
       type: image/png
   certified: true
   description: A lush river cuts through the bottom of this deep chasm. East vs West.
   displayName: Rustcrown Canyon
   gameType:
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2FPgI85UhGHCG1UCV2zpz7-screen_2024-09-03_20-53-13-465.png?alt=media&token=cc8ff1cf-508c-4cbe-aad4-a4c32d4ac54b
+      lastModifiedTS: 1725396793906
+      name: screen_2024-09-03_20-53-13-465.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/PgI85UhGHCG1UCV2zpz7-screen_2024-09-03_20-53-13-465.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2F1nE9HlEIIxJPIXxXvNvE-screen_2024-09-03_20-53-24-363.png?alt=media&token=42262e05-908d-48d8-93bb-5cc0a547f3c1
+      lastModifiedTS: 1725396804824
+      name: screen_2024-09-03_20-53-24-363.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/1nE9HlEIIxJPIXxXvNvE-screen_2024-09-03_20-53-24-363.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2FinGameShots%2FkHuCxIQJ8FSxsjw35uS4-screen_2024-09-03_20-53-03-130.png?alt=media&token=6f6f0c17-c0b4-4666-8c52-d74f3a57bad4
+      lastModifiedTS: 1725396783526
+      name: screen_2024-09-03_20-53-03-130.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/kHuCxIQJ8FSxsjw35uS4-screen_2024-09-03_20-53-03-130.png
+      type: image/png
   inPool: true
   mapLists:
     - popular16p
+  perspectiveShot: []
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FLnlydXB0vspDfUp4T4Kg-screen00010.jpg?alt=media&token=690e7a88-07fe-4634-917d-81e2f24b894d
-      lastModifiedTS: 1686932923423
-      name: screen00010.jpg
-      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/LnlydXB0vspDfUp4T4Kg-screen00010.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FFQWRrFiv5hLEuXdayRnD-rustcrownmini.png?alt=media&token=a1d201de-0066-42e0-b5ef-5c10e924465c
+      lastModifiedTS: 1725383485302
+      name: rustcrownmini.png
+      ref: maps/Y5e7sl891wO5G2ttwjmr/photo/FQWRrFiv5hLEuXdayRnD-rustcrownmini.png
+      type: image/png
   playerCount: 12
-  springName: Rustcrown Canyon 1.2
+  springName: Rustcrown Canyon 1.3
   startboxesSet:
     Wld9X78iaTL095TweT4A:
       maxPlayersPerStartbox: 6
