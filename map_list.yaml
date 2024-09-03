@@ -11894,10 +11894,10 @@ fzRTg60xfSVnG44Zw42D:
 g7NeIaS3XxFSn2KcrCiL:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FbackgroundImage%2FR2IrPrP31tV8HT2wuFSk-screen00012.png?alt=media&token=d0efe917-e512-421f-a88b-c4b661c1b1b1
-      lastModifiedTS: 1700524310933
-      name: screen00012.png
-      ref: maps/g7NeIaS3XxFSn2KcrCiL/backgroundImage/R2IrPrP31tV8HT2wuFSk-screen00012.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FbackgroundImage%2FyVkgWRh8b9rNVPd1yv6t-screen_2024-09-03_20-57-16-935.png?alt=media&token=1ca1583b-f762-48d0-98df-44ba864d8179
+      lastModifiedTS: 1725397037461
+      name: screen_2024-09-03_20-57-16-935.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/backgroundImage/yVkgWRh8b9rNVPd1yv6t-screen_2024-09-03_20-57-16-935.png
       type: image/png
   certified: true
   description: Flat 1vs1 map with many small pillars.
@@ -11906,15 +11906,31 @@ g7NeIaS3XxFSn2KcrCiL:
     - 1v1
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FF5AngQ4EQ1glmpMAIuvk-screen_2024-09-03_20-57-36-885.png?alt=media&token=6b105974-053f-4784-9d9c-10b503a48339
+      lastModifiedTS: 1725397057384
+      name: screen_2024-09-03_20-57-36-885.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/F5AngQ4EQ1glmpMAIuvk-screen_2024-09-03_20-57-36-885.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FGcbsC6NMRHxsiVVEpFoz-screen_2024-09-03_20-58-53-253.png?alt=media&token=00befed3-2597-4e7b-909a-bbb80bd4a775
+      lastModifiedTS: 1725397133830
+      name: screen_2024-09-03_20-58-53-253.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/GcbsC6NMRHxsiVVEpFoz-screen_2024-09-03_20-58-53-253.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2FinGameShots%2FR3fwUlIbceVdw23SpLdA-screen_2024-09-03_20-58-28-302.png?alt=media&token=f41bff32-4ed7-45e1-8f2b-b3cb0043d812
+      lastModifiedTS: 1725397108814
+      name: screen_2024-09-03_20-58-28-302.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/R3fwUlIbceVdw23SpLdA-screen_2024-09-03_20-58-28-302.png
+      type: image/png
   inPool: true
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
-      lastModifiedTS: 1683982307731
-      name: Crystallized_Plains_1.01.jpg
-      ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/9LaTeR8ptFc3ivjBHo1g-Crystallized_Plains_1.01.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
+      lastModifiedTS: 1725383324106
+      name: crystalmini.png
+      ref: maps/g7NeIaS3XxFSn2KcrCiL/photo/n2pJT5svY3Z0PnYbv6Cg-crystalmini.png
+      type: image/png
   playerCount: 4
-  springName: Crystallized Plains 1.02
+  springName: Crystallized Plains 1.1
   startboxesSet:
     2MhyD5TFVBuEWuGAHvJv:
       maxPlayersPerStartbox: 1
