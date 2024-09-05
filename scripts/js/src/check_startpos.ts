@@ -7,6 +7,10 @@ let error = false;
 const maps = await readMapList();
 for (const map of Object.values(maps)) {
     if (!map.startPos) {
+        if (map.startPosActive) {
+            console.error(`startPosActive is set to true, but startPos not set`);
+            error = true;
+        }
         continue;
     }
     const confs: Map<number, Set<number>> = new Map();
