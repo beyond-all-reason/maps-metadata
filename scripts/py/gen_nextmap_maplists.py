@@ -22,6 +22,8 @@ def get_data(input_file):
     for map in contents.values():
         for l in map["mapLists"]:
             map_lists[l].add(map["springName"])
+        if map["startPosActive"]:
+            map_lists["withstartpos"].add(map["springName"])
 
         if not map["inPool"] or "special" in map and map["special"] in ['Metal', 'No metal']:
             continue
