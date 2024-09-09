@@ -516,18 +516,23 @@
       ref: maps/20rGnfO4wwkmV5v2fXVZ/backgroundImage/fTZVksHsmZrgT6Y1HcIP-BAR_FolsomDam_BG.jpg
       type: image/jpeg
   certified: true
-  description: |-
+  description: >-
     Folsomdam Remake | BAR Certified
+
 
     Remake of the very popular map Folsomdam V4 Deluxe.
 
+
     Full remake with high quality textures and 1:1 diffuse/normalmap.
+
 
     Heightmap only slightly updated with improved erosion.
 
+
     Incl. detailed DNTS splatmaps and features, except stones.
 
-    Including the original 14 start locations.
+
+    Including the original 14 start locations. V1.17 fixed trees/geos not loading.
   displayName: Folsom Dam
   gameType:
     - team
@@ -584,7 +589,7 @@
       type: image/jpeg
   playerCount: 16
   special: Dam
-  springName: FolsomDamR 1.16
+  springName: FolsomDamR 1.17
   startboxesSet:
     7sHSzT3WEkIZZ0Uw2sfL:
       maxPlayersPerStartbox: 6
