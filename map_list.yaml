@@ -2133,7 +2133,7 @@
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: air/front
+              - role: front
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
@@ -2150,7 +2150,7 @@
               - role: front
                 spawnPoint: P8
           - starts:
-              - role: air/front
+              - role: front
                 spawnPoint: P9
               - role: front
                 spawnPoint: P10
