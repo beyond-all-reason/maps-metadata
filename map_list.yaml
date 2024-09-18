@@ -3867,13 +3867,13 @@ DUxqUMUDGiYr1y5jx3sq:
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: sea
+              - role: air
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
-              - role: front
+              - role: sea
                 spawnPoint: P3
-              - role: air
+              - role: front
                 spawnPoint: P4
               - role: tech
                 spawnPoint: P5
@@ -3884,13 +3884,13 @@ DUxqUMUDGiYr1y5jx3sq:
               - role: sea
                 spawnPoint: P8
           - starts:
-              - role: sea
+              - role: air
                 spawnPoint: P9
               - role: front
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - role: air
+              - role: sea
                 spawnPoint: P12
               - role: tech
                 spawnPoint: P13
