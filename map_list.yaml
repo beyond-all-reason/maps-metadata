@@ -1057,6 +1057,7 @@
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       lastModifiedTS: 1683982253960
@@ -2746,6 +2747,7 @@ ABBUHinh94O7299Php6p:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FABBUHinh94O7299Php6p%2Fphoto%2Fg3E7FssKIHMZ8jRxVOtT-DSDR57.jpg?alt=media&token=bcb5d08d-a1e7-4fc9-b1e1-0aaecb2a7ba3
       lastModifiedTS: 1692816177939
@@ -3113,6 +3115,7 @@ ASieUn5uvk5eyZz6KhUt:
   playerCount: 16
   special: Asymmetrical
   springName: Odderon Strandflats v1.1
+  startPosActive: false
   startboxesSet:
     Q8Jv8t5xYvC9g3CPlZgu:
       maxPlayersPerStartbox: 1
@@ -7688,6 +7691,7 @@ UhGP9ish5WdFio1VfrU6:
       type: image/jpeg
   playerCount: 10
   springName: Boulder_Beach_V1
+  startPosActive: false
   startboxesSet:
     eLXRSu3pdyiHTaeaLHXi:
       maxPlayersPerStartbox: 5
@@ -12022,6 +12026,7 @@ gEgiWXCvonENJseDsfjj:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FQE63Qa9Hu5LC5KPCEXPc-bismuth3d.png?alt=media&token=a3d5ee77-65f2-4e68-b48e-31f7c7a19d50
       lastModifiedTS: 1701602945306
@@ -13100,6 +13105,7 @@ kesPeWO0ScnmWF2An8qA:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkesPeWO0ScnmWF2An8qA%2FperspectiveShot%2Fc59TV3OUb3z3GJ0gL68s-flats_and_forests_3D.png?alt=media&token=68bab0b5-2cee-4636-b2a6-e89c9e80be2d
       lastModifiedTS: 1699878971840
@@ -15379,6 +15385,7 @@ taMTVVZKAKbYywe7tyRb:
     - land16p
     - strict
     - popular16p
+    - rotatoApprentice
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
       lastModifiedTS: 1715976377879
