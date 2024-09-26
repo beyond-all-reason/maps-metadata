@@ -153,6 +153,8 @@ additionalProperties:
     startPosActive:
       type: boolean
       default: false
+    minPlayerCount:
+      type: integer
   additionalProperties: false
   required:
     - springName
