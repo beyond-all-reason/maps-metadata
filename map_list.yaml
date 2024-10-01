@@ -2605,6 +2605,56 @@
     - desert
     - hills
     - chokepoints
+9laQQGzxGwnsLE3CgFQ5:
+  author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FKD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png?alt=media&token=ee023d2d-086a-4abd-a3dc-e38370d6c5aa
+      lastModifiedTS: 1727736273275
+      name: screen_2024-09-30_22-44-32-511.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/KD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png
+      type: image/png
+  certified: true
+  description: A macro style map. 1v1 recommended. 2v2s to 5v5s are playable.
+  displayName: Eclipsed
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FdZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png?alt=media&token=4dfb8af3-6706-465c-8cfe-9013244a2c6a
+      lastModifiedTS: 1727736350609
+      name: screen_2024-09-30_22-45-49-944.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/dZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png
+      type: image/png
+  inPool: true
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2F8jePgVeWiaS2XeZgdAQs-eclipsed_minimap_v2.png?alt=media&token=cdb7846a-0b2f-4c28-9977-773109cee07c
+      lastModifiedTS: 1727506520887
+      name: eclipsed_minimap_v2.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/8jePgVeWiaS2XeZgdAQs-eclipsed_minimap_v2.png
+      type: image/png
+  playerCount: 10
+  springName: Eclipsed 0.8.1
+  startboxesSet:
+    bTWaYSKhVS7DxBGNtwBd:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 58
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 58
+  teamCount: 2
+  terrain:
+    - alien
+    - hills
+    - grassy
+    - desert
+  title: Large Macro Bases
 9pCv5iZ1gaLWioi1A8KJ:
   author: IceXuick
   backgroundImage:
