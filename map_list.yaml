@@ -2627,10 +2627,10 @@
       type: image/png
   inPool: true
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2F8jePgVeWiaS2XeZgdAQs-eclipsed_minimap_v2.png?alt=media&token=cdb7846a-0b2f-4c28-9977-773109cee07c
-      lastModifiedTS: 1727506520887
-      name: eclipsed_minimap_v2.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/8jePgVeWiaS2XeZgdAQs-eclipsed_minimap_v2.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2FbX8701QR60LPIw1dcjQy-Topdown.png?alt=media&token=eac9dd3f-3b38-43db-b801-e04343b57ccb
+      lastModifiedTS: 1727888375929
+      name: Topdown.png
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/bX8701QR60LPIw1dcjQy-Topdown.png
       type: image/png
   playerCount: 10
   springName: Eclipsed 0.8.1
