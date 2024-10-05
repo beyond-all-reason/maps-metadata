@@ -25,7 +25,7 @@ def get_data(input_file):
         if map["startPosActive"]:
             map_lists["withstartpos"].add(map["springName"])
 
-        if not map["inPool"] or "special" in map and map["special"] in ['Metal', 'No metal']:
+        if not map["inPool"] or "special" in map and map["special"] in ['Metal', 'No Metal']:
             continue
         is_team = False
         mapname = ''
@@ -42,6 +42,8 @@ def get_data(input_file):
             player_count = 16
         if player_count < 2:
             player_count = 2
+        if "minPlayerCount" in map:
+            min_player_count = map["minPlayerCount"]
 
         if "startboxesSet" in map:
             for startboxes_info in map["startboxesSet"].values():
@@ -56,7 +58,10 @@ def get_data(input_file):
                     # add teamgame maps to teamsize_dict
                     if team_count*max_players_per_startbox <= 16 and is_team:
                         for x in range(2,max_players_per_startbox+1): 
-                            if x >= math.floor(max_players_per_startbox/2):
+                            if "minPlayerCount" in map and team_count:
+                                if x >= min_player_count/team_count:
+                                    teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
+                            elif x >= math.ceil(max_players_per_startbox*0.6):
                                 teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
 
                 # if a map didn't have "maxPlayersPerStartbox" set for its startboxes, but it's a teamgame map with startboxes for 2 teams, we'll use playerCount instead:
@@ -64,13 +69,19 @@ def get_data(input_file):
                     team_count = len(startboxes_info["startboxes"])
                     if team_count == 2 and player_count >=4:
                         for x in range(2,math.floor(player_count/2)+1): 
-                            if x >= math.floor(player_count/4):
+                            if "minPlayerCount" in map:
+                                if x >= min_player_count:
+                                    teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
+                            elif x >= math.ceil(player_count/4):
                                 teamsize_dict['v'.join([str(x)] * team_count)].append(mapname)
 
         # add ffa maps to teamsize_dict
         if "ffa" in map["gameType"]:
             for x in range(3,17):
-                if x <= player_count and x >= math.floor(player_count/2):
+                if "minPlayerCount" in map:
+                    if x <= player_count and x >= min_player_count:
+                        teamsize_dict['ffa' + str(x)].append(mapname)
+                elif x <= player_count and x >= math.floor(player_count/2):
                     teamsize_dict['ffa' + str(x)].append(mapname)
 
         # add maps to certified and uncertified lists
