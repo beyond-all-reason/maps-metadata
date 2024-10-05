@@ -15,6 +15,7 @@
   mapLists:
     - popular16p
     - land16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nn%2Fphoto%2FRxP6l8iDzf64UjquGzLd-thermal_shock_v1.1.jpg?alt=media&token=bfb2d5f0-d810-4aae-8521-df13846f5297
       lastModifiedTS: 1682776299679
@@ -148,6 +149,7 @@
   gameType:
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/0jMFtrg8MuFKGgxmk6No/photo/yWvndwIRIkO3jUwo8NUs-Seths_Ravine_Remake_1.3.jpg
       lastModifiedTS: 1683982247725
@@ -214,6 +216,7 @@
       ref: maps/0rkuPKU4nx2GuhlUC8sH/inGameShots/BlXuBjd48EZhfph9NEjB-sphagnum_bog_SS4.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0rkuPKU4nx2GuhlUC8sH%2FperspectiveShot%2F499i7KCiHtHc8Bv15hj1-sphagnum_bog_3D.png?alt=media&token=e02a42c3-8a93-46e9-81cd-5168560e90aa
       lastModifiedTS: 1699879771401
@@ -272,6 +275,7 @@
       ref: maps/1D03UHTgJ5axEHRPrjzh/inGameShots/HatMUnccy07CvXCbQoYi-TalusV2_perspective.png
       type: image/png
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1D03UHTgJ5axEHRPrjzh%2FperspectiveShot%2FyZ8ffR4isgdq4EvNxqcN-Talus%20V2%202.png?alt=media&token=4e1a8215-5f5a-44c3-b4d7-68ffe5f50930
       lastModifiedTS: 1617894111000
@@ -320,6 +324,7 @@
   gameType:
     - team
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1FfJKeljSZeWodN5FZsW%2Fphoto%2FFd2UJv7r7nm3j44ymV5B-tropical_assault_v3.0.jpg?alt=media&token=175c9e43-d4e5-4fae-826e-8342024b8a5f
       lastModifiedTS: 1685093821603
@@ -363,6 +368,7 @@
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1JL7kMOT8mYsx2OEQnv8%2Fphoto%2FfhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg?alt=media&token=55e38608-c45d-4e71-a548-316a3df81941
       lastModifiedTS: 1684276108988
@@ -431,6 +437,7 @@
         5.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FperspectiveShot%2FT1y487BE02Khpas9qZLL-CrescentBay_V2_3D.png?alt=media&token=4dccd780-2fb5-4d21-b05a-a4b28415ea24
       lastModifiedTS: 1639088896065
@@ -574,6 +581,7 @@
         2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FperspectiveShot%2F3HNo2HvIMDsVKRb6BMj0-BAR_FolsomDam_Perspective.jpg.png?alt=media&token=0a929b9b-1281-4a92-a4ae-76649edc48c6
       lastModifiedTS: 1605136327000
@@ -652,6 +660,7 @@
         screenshot 2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FperspectiveShot%2Feh3skvPcgO9iM1tvEE61-Neurope_Remake_4.1%20perspect.png?alt=media&token=069c5367-754d-410e-b5bd-4788694c2135
       lastModifiedTS: 1699876682098
@@ -772,6 +781,7 @@
   gameType:
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
       lastModifiedTS: 1683982251805
@@ -809,6 +819,7 @@
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2NlrSE2CMUyFpxlComtj%2Fphoto%2F8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg?alt=media&token=a25c6d09-e5b1-4104-a79d-b4193003acd7
       lastModifiedTS: 1701733286989
@@ -962,6 +973,7 @@
       ref: maps/2foOuFOeWdmm1DkMqfJv/inGameShots/aGtUn9OZc8kywSayGuhg-red_river_SS3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2foOuFOeWdmm1DkMqfJv%2FperspectiveShot%2FPYgMOsdCaubkb2m2Zswo-red_river_3D.png?alt=media&token=33c43317-fa05-41eb-9cac-9e5c6fbb2db3
       lastModifiedTS: 1683621956423
@@ -1011,6 +1023,7 @@
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
       lastModifiedTS: 1683982252921
@@ -1058,6 +1071,7 @@
     - strict
     - popular16p
     - rotatoApprentice
+  minPlayerCount: 10
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
       lastModifiedTS: 1683982253960
@@ -1218,6 +1232,7 @@
       ref: maps/3XVaIgjKnh120KPs7fv0/inGameShots/ugYfTH4WlGHxAj1hzPX4-KOR_SF_extra.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3XVaIgjKnh120KPs7fv0/photo/O4fORVz0DqzhSga3OH1p-KnockoutR_1.5.jpg
       lastModifiedTS: 1683982254462
@@ -1402,6 +1417,7 @@
     - pve
     - ffa
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3vZwcbM0FH7v0TrkIoKV%2Fphoto%2FU2g3lE3VEpV49uUkq9bd-screen00194.jpg?alt=media&token=63cabc85-3b76-45b0-833a-af75d90ea3f1
       lastModifiedTS: 1699298793735
@@ -1468,6 +1484,7 @@
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
       lastModifiedTS: 1601816349855
@@ -1533,6 +1550,7 @@
       ref: maps/4FOX0gezL8gapbMPNmKH/inGameShots/9h0Spcl0DkAMyjJ4hIbF-glacier_pass_1.2_SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FperspectiveShot%2F7sXBmmzCf5bHEPXji4RY-glacier_pass_1.2%20Perspective.png?alt=media&token=1eef2d5b-c27b-4142-8d90-187962f87589
       lastModifiedTS: 1610200029000
@@ -1587,6 +1605,7 @@
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4WiZnMfXPyjUARuQumRM%2Fphoto%2FBpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg?alt=media&token=77c5f3bf-e6dd-4e4a-9c3d-3d2b1de45a23
       lastModifiedTS: 1706397514970
@@ -1720,6 +1739,7 @@
     - 1v1
   inGameShots: []
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4egdlg54rpZQh1bvbS8p%2Fphoto%2Fs8x0aJbzRlLlzJb2VnWj-otagoscreen1.png?alt=media&token=3a783f8b-fec2-435c-9869-fc5c8ed1be28
       lastModifiedTS: 1700008020405
@@ -1762,6 +1782,7 @@
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4onApLu0oFbtFuY9up67/photo/Y4VoGlxQhGKtczeLAVHQ-Into_Battle_Redux_v3.jpg
       lastModifiedTS: 1683982257342
@@ -1868,6 +1889,7 @@
       ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/bGB3LokpJItBK0OKm3FE-screen_2024-04-21_18-00-16-123.png
       type: image/png
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FLCzPEPUn9vJVpayJuGaM-hellas1.43d.png?alt=media&token=7e75812f-cb6d-4c20-bd5a-9c9928a3201e
       lastModifiedTS: 1714938436169
@@ -1920,6 +1942,7 @@
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7lBJDhvj1t0JYUNiCZED%2Fphoto%2FbJsDBYbvyKWMuYfGPGZ7-baryon11.jpg?alt=media&token=858c97fc-3abe-47b6-a1fc-fcf06bf91e6d
       lastModifiedTS: 1700561650374
@@ -2066,6 +2089,7 @@
     - strict
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7pm2zaEOk8QaxaEeOnZJ%2FperspectiveShot%2F6XSFYzuoSgchVBjAq6Cp-29Yy53CFDlfRmh72g3EHdFWC_o65LTiKP5-gE4cHji0.png?alt=media&token=f92331b9-8eaf-478f-9916-adafe12b2813
       lastModifiedTS: 1699883574994
@@ -2207,6 +2231,7 @@
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7qvZYwphKlrDjOcDOVLj%2Fphoto%2F5yNtU5sE5A8iVbioPmRy-swirly_rock_v1.1.jpg?alt=media&token=0eb45898-bdb4-43b0-9524-8e97835b02b7
       lastModifiedTS: 1690392566546
@@ -2356,6 +2381,7 @@
         3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F8NJ4dy6hrSPsrezNmczE%2FperspectiveShot%2FNd52TYsAqRdwa3tKjGBF-Pillar-of-Doom_3D.png?alt=media&token=da623566-2d20-4daf-bd43-5fc9bbc09a56
       lastModifiedTS: 1639092226439
@@ -2422,6 +2448,7 @@
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 6
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/9Z3VnJ2cFcGhcaq6z1bJ/photo/hjVTf6pDN4hTwy1jQ6RR-Red_Rock_Desert_v1.jpg
       lastModifiedTS: 1683982260219
@@ -2495,6 +2522,7 @@
       ref: maps/9enrMlkiT7SwhG3D35LB/inGameShots/QwKE0YBt5Eqeb6dDMrqK-crater_islands_remake_SS3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9enrMlkiT7SwhG3D35LB%2FperspectiveShot%2F6HaE3Z2sdB6MFGzka1h5-crater_islands_remake_3D.png?alt=media&token=e07ddf16-bae5-4806-b5c2-789c5c12db10
       lastModifiedTS: 1699878796413
@@ -2571,6 +2599,7 @@
   inPool: true
   mapLists:
     - testList
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
       lastModifiedTS: 1713117787673
@@ -2626,6 +2655,7 @@
       ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/dZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png
       type: image/png
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2FbX8701QR60LPIw1dcjQy-Topdown.png?alt=media&token=eac9dd3f-3b38-43db-b801-e04343b57ccb
       lastModifiedTS: 1727888375929
@@ -2683,6 +2713,7 @@
       ref: maps/9pCv5iZ1gaLWioi1A8KJ/inGameShots/TeaqnX0hS7nD8mUUGvSb-ADBR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/9pCv5iZ1gaLWioi1A8KJ/photo/e6KcfYWnj72WunjwrEkD-altored_divide_bar_remake_1.6.jpg
       lastModifiedTS: 1683982261304
@@ -2729,6 +2760,7 @@ A9eqjOzH3trguY66HGmH:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 16
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FA9eqjOzH3trguY66HGmH%2Fphoto%2FumX17QsPQQzMm8TRwT4K-network.jpg?alt=media&token=dd3d0b8b-d458-4d1d-81b6-ac707cc53c6d
       lastModifiedTS: 1699717181311
@@ -2798,6 +2830,7 @@ ABBUHinh94O7299Php6p:
     - strict
     - popular16p
     - rotatoApprentice
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FABBUHinh94O7299Php6p%2Fphoto%2Fg3E7FssKIHMZ8jRxVOtT-DSDR57.jpg?alt=media&token=bcb5d08d-a1e7-4fc9-b1e1-0aaecb2a7ba3
       lastModifiedTS: 1692816177939
@@ -2975,6 +3008,7 @@ ACgCe99NC8yZFecMwRCm:
       ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/EJUGAKqeqBRkW6yrj9eO-supreme_strait_SS4.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FEyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png?alt=media&token=5c5e0e30-0076-4875-8ac6-ce9aaaba6bc0
       lastModifiedTS: 1681499904035
@@ -3113,6 +3147,7 @@ ACgCe99NC8yZFecMwRCn:
   gameType:
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ACgCe99NC8yZFecMwRCn/photo/28JjEDk0ysfb5y4Eou36-Zed_Remake_3.3.jpg
       lastModifiedTS: 1683982261820
@@ -3156,6 +3191,7 @@ ASieUn5uvk5eyZz6KhUt:
     - pve
     - ffa
   inPool: true
+  minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FASieUn5uvk5eyZz6KhUt%2Fphoto%2F66TD2osrC3HOFF27xtbQ-odderon1.1.jpg?alt=media&token=66607756-bcc4-4315-9d2a-3cca0c1d0faf
       lastModifiedTS: 1700240785297
@@ -3296,6 +3332,7 @@ An6zReiqIWD15Yx7bZ3b:
   inPool: true
   mapLists:
     - testList
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FAn6zReiqIWD15Yx7bZ3b%2FperspectiveShot%2FXsxHmrqoY3QvAEF9E9Aa-AltairCrossing%202.png?alt=media&token=6d3a4704-d370-41e6-b8fe-3c69ef738a82
       lastModifiedTS: 1617889884000
@@ -3366,6 +3403,7 @@ B8dWp2FEAk7BY2XCOAYt:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FB8dWp2FEAk7BY2XCOAYt%2Fphoto%2Fq02azkJPPP9j56lw5VcM-salt_reef_minimap.jpg?alt=media&token=b4635078-edb7-4d76-82dd-f5468e5f0b7a
       lastModifiedTS: 1707173084836
@@ -3498,6 +3536,7 @@ BCDbKYnQqHT1PE5lo8Es:
   gameType:
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FBCDbKYnQqHT1PE5lo8Es%2Fphoto%2FRMU1rNTpWzFivKmsWwcc-geyser_plains_bar_v1.2.jpg?alt=media&token=9cc92e61-095d-4c5f-9187-00c97dbfec05
       lastModifiedTS: 1687177682633
@@ -3538,6 +3577,7 @@ BHxtx4DPxKgPkUTkRg9e:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 6
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/BHxtx4DPxKgPkUTkRg9e/photo/3qlS02qEv0213d0Kvcwr-Tangerine_Remake_1.0.jpg
       lastModifiedTS: 1683982263012
@@ -3581,6 +3621,7 @@ CXD1uv9uv28szDdk3dFR:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCXD1uv9uv28szDdk3dFR%2Fphoto%2FaCb9bywB8OmaCBgEn3KE-Isidis%20crack%201.0.jpg?alt=media&token=a02226e8-0ab7-491a-b622-aabd0432c3d4
       lastModifiedTS: 1688485789048
@@ -3648,6 +3689,7 @@ Cs5xNBZyuBzWCmPJKDbO:
       ref: maps/Cs5xNBZyuBzWCmPJKDbO/inGameShots/K5wUmkAFuspfyluUWn1J-ravaged_SS3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCs5xNBZyuBzWCmPJKDbO%2FperspectiveShot%2F4Nul3f4SG2ocyDCMy3m7-ravaged_3D.png?alt=media&token=77ec628f-c0a0-468c-951e-f362dfba8316
       lastModifiedTS: 1683621836759
@@ -3718,6 +3760,7 @@ Cz4OYo0Z2yht9PUP8vcN:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCz4OYo0Z2yht9PUP8vcN%2FperspectiveShot%2FaNXWxPONiX6l2fbBjif1-sulphur_springs_3D.png?alt=media&token=be90ab91-6ac2-4888-9f66-24be4d3159c2
       lastModifiedTS: 1699879850434
@@ -3858,6 +3901,7 @@ DUxqUMUDGiYr1y5jx3sq:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDUxqUMUDGiYr1y5jx3sq%2Fphoto%2FnsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg?alt=media&token=8f52e950-9fbf-4655-aff6-2aab9fa17147
       lastModifiedTS: 1695763102517
@@ -4033,6 +4077,7 @@ DyHExxTkkRB4DweNDViM:
       ref: maps/DyHExxTkkRB4DweNDViM/inGameShots/xXzmbaYEI5OTFechTkJi-melting_glacier_SS3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDyHExxTkkRB4DweNDViM%2FperspectiveShot%2F3DxKYzLB9GdSIJAWxy2v-melting_glacier_3D.png?alt=media&token=c95b8351-d6e2-4639-a94c-4c54fa5341f3
       lastModifiedTS: 1683620453929
@@ -4101,6 +4146,7 @@ E17BdeDITeBMZ8YwcBie:
         3-tinified.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FE17BdeDITeBMZ8YwcBie%2FperspectiveShot%2FK0pG984y7x5AOgi8sZrZ-Colorado_3D-tinified%20(Large).png?alt=media&token=7b60875c-456c-44fd-b90a-bc99b255a227
       lastModifiedTS: 1639055878886
@@ -4155,6 +4201,7 @@ ER2B5mT2LU864k1f0UeH:
   inPool: true
   mapLists:
     - testList
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
       lastModifiedTS: 1688199737034
@@ -4194,6 +4241,7 @@ EiT2c89HcHhHeuZxXako:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEiT2c89HcHhHeuZxXako%2Fphoto%2FMVUXHKeoWSURhqcdKsY9-The-Rock-minimap.jpg?alt=media&token=7eb5b6c2-9f5b-4e0a-80d0-987673b31f83
       lastModifiedTS: 1600519040301
@@ -4264,6 +4312,7 @@ F40FJFEjKm3hcVzdnIvA:
         screenshot 2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FperspectiveShot%2FJr7g855BAGkmlXrUY5kz-Requiem_Outpost_1.0%20perspect.png?alt=media&token=0c64b4f8-a30a-4b58-898a-cb987cfa3be0
       lastModifiedTS: 1647377338875
@@ -4346,6 +4395,7 @@ FEkKsVrHELjFh7HQstFq:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2FperspectiveShot%2FL5sBhNNiPTjddgSCv3OZ-kassa3D.png?alt=media&token=437ea3ae-5506-486e-9102-d6c801b276a7
       lastModifiedTS: 1702847337941
@@ -4505,6 +4555,7 @@ FmRZtQ8Wvce6HgKj1uyZ:
       ref: maps/FmRZtQ8Wvce6HgKj1uyZ/inGameShots/wqXa323SFoqqjaGNLJdj-screen_2024-09-03_20-44-33-934.png
       type: image/png
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFmRZtQ8Wvce6HgKj1uyZ%2Fphoto%2FTNbhW1s0Q2x3H2GDhQ6b-wandermini3.png?alt=media&token=f4eacd2e-412d-4df1-b342-1f372533085f
       lastModifiedTS: 1725383350163
@@ -4589,6 +4640,7 @@ GPSFfpSd1wtmx4CZRGA6:
       ref: maps/GPSFfpSd1wtmx4CZRGA6/inGameShots/FrB2nwLPw1AjjhUxtSQ8-TFR_SF_side.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGPSFfpSd1wtmx4CZRGA6%2FperspectiveShot%2Fo0ZGkCcUf8eDTZzlIyPl-Trefoil-Perspective.png?alt=media&token=a0e1d784-df7a-4c58-9221-9fea13128395
       lastModifiedTS: 1699888703163
@@ -4645,6 +4697,7 @@ GT4UKIBCLBwdONdOMChl:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GT4UKIBCLBwdONdOMChl/photo/MQqPwx31SAoWlD7w63dq-Cirolata_1.02.jpg
       lastModifiedTS: 1683982268136
@@ -4732,6 +4785,7 @@ Gkh9KVgCUNbGTXWBjPoV:
       ref: maps/Gkh9KVgCUNbGTXWBjPoV/inGameShots/51c8ShqS3epnIzjM5wTI-serene_caldera_SS7.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGkh9KVgCUNbGTXWBjPoV%2FperspectiveShot%2F45cKgw6vg6r72opX9GvW-serene_caldera_3D.png?alt=media&token=734c7263-e34c-4b52-8a2f-a49e781083e9
       lastModifiedTS: 1683622160407
@@ -5052,6 +5106,7 @@ GuTvi5G3QCGO8KASbbs1:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGuTvi5G3QCGO8KASbbs1%2FperspectiveShot%2F072jblIAwwQJeCh0bimn-darkside_3d.png?alt=media&token=5dd8bd16-0669-41df-8613-616b916a072d
       lastModifiedTS: 1683620249754
@@ -5190,6 +5245,7 @@ GxjYgcmTFdC3JivNsghb:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 6
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGxjYgcmTFdC3JivNsghb%2Fphoto%2F6WfM2kgIb7cfYP8ObUwm-ring_atoll_remake_v2.0.jpg?alt=media&token=0798d07e-9f79-4852-ac42-6a162185dfe5
       lastModifiedTS: 1685269945748
@@ -5301,6 +5357,7 @@ Gydc5ydDuhV4hS7cyJJm:
         2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGydc5ydDuhV4hS7cyJJm%2FperspectiveShot%2FYS3aqvSgtZmNsGPieUAB-Death-Valley_3D.png?alt=media&token=d4e79e23-9130-40e3-8e71-0ca026a5615f
       lastModifiedTS: 1639169997031
@@ -5380,6 +5437,7 @@ HdwZWKydw2luEc8EascR:
       ref: maps/HdwZWKydw2luEc8EascR/inGameShots/1C1bV1IjcYH9pvoTrTey-Pentos_V1_SS1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FHdwZWKydw2luEc8EascR%2FperspectiveShot%2FIX1ZN06h8iCXuYK1MkDP-Pentos_V1_Perspective.png?alt=media&token=2166e993-8c90-4b01-b0ed-87729b1f6fc6
       lastModifiedTS: 1607076481000
@@ -5444,6 +5502,7 @@ I7GpETWic750BOdwvkdh:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/I7GpETWic750BOdwvkdh/photo/I8Ql4gunXlKI8HklE8yP-Frozen_Ford_V2.jpg
       lastModifiedTS: 1683982271886
@@ -5513,6 +5572,7 @@ J8V3PInQjJJ2KERt9A1F:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FperspectiveShot%2FSp8F6Hsb5LUrDrhO2kyO-persec.png?alt=media&token=c93c3acc-81cc-4438-9eb6-8f89f87dc574
       lastModifiedTS: 1700915455105
@@ -5586,6 +5646,7 @@ JWJVrROvEUieLeIfuS9a:
       ref: maps/JWJVrROvEUieLeIfuS9a/inGameShots/iZkT0h6NJB1FouuLzWS6-BarR_1.1_SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJWJVrROvEUieLeIfuS9a%2FperspectiveShot%2FNqUpAKQRLPSG9IN6gief-BarR_1.1_Perspective.png?alt=media&token=a0dc04b4-a3e7-4847-9a33-0595198c1e64
       lastModifiedTS: 1609289605000
@@ -5657,6 +5718,7 @@ Jdb4pZyLQPb0IkSmaVrO:
       ref: maps/Jdb4pZyLQPb0IkSmaVrO/inGameShots/aTgFW72ih2lr7Jbjt167-QSR_SF_hilly.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJdb4pZyLQPb0IkSmaVrO%2FperspectiveShot%2FZHY31PjeUoGtMrpEPn51-QSR_Map_perspective.png?alt=media&token=64985372-cdd3-4458-828d-b5272ba524f7
       lastModifiedTS: 1593158969000
@@ -5705,6 +5767,7 @@ KAQ69kPLvMZgMuLXIoyU:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKAQ69kPLvMZgMuLXIoyU%2Fphoto%2FwhPysupyZ1FViJL3yHRr-Screenshot%20at%202023-08-13%2023-03-50.png?alt=media&token=e56f6213-e6c8-4fc7-af5f-647c1006e54e
       lastModifiedTS: 1691957030673
@@ -5747,6 +5810,7 @@ LSbOSBM6bqPCs5heCJ9X:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FLSbOSBM6bqPCs5heCJ9X%2Fphoto%2FS72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg?alt=media&token=bfeb1c1d-fa32-4523-97f0-a49971e2df63
       lastModifiedTS: 1689776973424
@@ -5791,6 +5855,7 @@ Lpy4w1DTM7BjEfERE3wK:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FLpy4w1DTM7BjEfERE3wK%2FperspectiveShot%2F8ILUbOFQTEgv1ryRkzol-Callisto_Perspective_BAR.png?alt=media&token=32b674fb-f72a-426f-861d-7c40b88bd36f
       lastModifiedTS: 1628191719233
@@ -5841,6 +5906,7 @@ LutAHarULFOEKKA21AvQ:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
       lastModifiedTS: 1683982274266
@@ -5883,6 +5949,7 @@ MDi3gNqaTj3H1DkzpPfz:
     - 1v1
     - pve
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
       lastModifiedTS: 1688418781719
@@ -5926,6 +5993,7 @@ MIHFHzbaF3j4OMqvreh9:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2Fq0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg?alt=media&token=fc79635f-8571-429b-bd0a-45cd811e4d44
       lastModifiedTS: 1689767527532
@@ -5976,6 +6044,7 @@ MRCGsZ8eB04FPYmwheUi:
       ref: maps/MRCGsZ8eB04FPYmwheUi/inGameShots/GifHIdDeKuoKOjOIvcm7-screen_2024-02-23_13-00-10-545.png
       type: image/png
   inPool: true
+  minPlayerCount: 16
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMRCGsZ8eB04FPYmwheUi%2Fphoto%2FfMkJVniJHPR3oOzcqb63-Adamantium_Factory_V1.jpg?alt=media&token=a1215dff-070a-462d-bef1-1d9c11e8c1d1
       lastModifiedTS: 1708685710721
@@ -6063,6 +6132,7 @@ MqDO00JzJMESdzVDkkT5:
       ref: maps/MqDO00JzJMESdzVDkkT5/inGameShots/QWwYJ5mkmm9rI6eK3ku3-tumult_remake_SS4.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMqDO00JzJMESdzVDkkT5%2FperspectiveShot%2FVyYidp1h8MxhKSdJfFF3-tumult_remake_3D.png?alt=media&token=9bd171bc-0c82-4857-a33c-d8d1982c6f2b
       lastModifiedTS: 1699882537032
@@ -6110,6 +6180,7 @@ MuFsIEswFS9FbuamCfbS:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMuFsIEswFS9FbuamCfbS%2Fphoto%2FIDnsPXeTVxsS53VCpDD2-shore-to-shore-minimap.jpg?alt=media&token=00476553-8caf-47cd-af35-e9330cb52bf6
       lastModifiedTS: 1699918105399
@@ -6176,6 +6247,7 @@ NULeDCjbZw5azkUT66rZ:
       ref: maps/NULeDCjbZw5azkUT66rZ/inGameShots/wfFXdbW1YrwtBg4XKIKI-Asteroid_Mines_V2_SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FNULeDCjbZw5azkUT66rZ%2FperspectiveShot%2FS8IpvlUURgo4KZlFjdJu-Asteroid_Mines_V2_3D%20(1).png?alt=media&token=d0d11fdd-797b-4225-aec8-f5ef3fc74680
       lastModifiedTS: 1641468492296
@@ -6290,6 +6362,7 @@ NhuWJFWJBBS46Z1qsmBJ:
       ref: maps/NhuWJFWJBBS46Z1qsmBJ/inGameShots/PjbwQdRDFtKX4AU67LLC-center_command_bar_SS5.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/NhuWJFWJBBS46Z1qsmBJ/photo/omFiv9dfTwZGVgQbjTII-center_command_bar_v1.0.jpg
       lastModifiedTS: 1683982277003
@@ -6332,6 +6405,7 @@ OgYCeZrIVMN1b9sUbweo:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 8
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
       lastModifiedTS: 1683982277515
@@ -6377,6 +6451,7 @@ PU301WL4OzdofkHuT9N9:
     - ffa
   inGameShots: []
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPU301WL4OzdofkHuT9N9%2FperspectiveShot%2FRIhxcUn1pnD2DQVkFKco-perspective.png?alt=media&token=70804f2a-ed78-4055-b1dd-19d746173b7a
       lastModifiedTS: 1712368687230
@@ -6445,6 +6520,7 @@ PekWgagUAJmWoOua3BKS:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPekWgagUAJmWoOua3BKS%2Fphoto%2F6PYgbtniAi8Q2MapnxG6-rockjunglemini2.png?alt=media&token=511e705c-2b28-4fa2-8c37-ec7a4cd9642c
       lastModifiedTS: 1725383601749
@@ -6501,6 +6577,7 @@ PiT4WHNB94kc8vlAZtot:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2FperspectiveShot%2F2VtpYr6MLXUWNI6XPzC5-Forge2.3%20perspect.png?alt=media&token=3d44e71c-9ae6-444b-9e36-356c40975789
       lastModifiedTS: 1699874902073
@@ -6668,6 +6745,7 @@ PlmJPs87RuAnAlL6inG1:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPlmJPs87RuAnAlL6inG1%2FperspectiveShot%2Fj23mspXaVkj8Ku6UkxUw-ice_scream_3D.png?alt=media&token=3af254e0-c4dc-4e60-b7bc-acd9d26597f2
       lastModifiedTS: 1683621543859
@@ -6716,6 +6794,7 @@ QaENCgzeDrnkRnRsgnVT:
   gameType:
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQaENCgzeDrnkRnRsgnVT%2Fphoto%2FUp1evxLvSvM6C40lVqTY-crubick_preview.jpg?alt=media&token=161c4fa5-717a-4860-9141-a8178d2605f8
       lastModifiedTS: 1687092707507
@@ -6774,6 +6853,7 @@ QlanwpEXsYOy3ZYYp3iu:
         2-tinified.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FperspectiveShot%2F1HJobkop94AnnS8eWOak-Tabula_Remake_3D-tinified%20(Large).png?alt=media&token=09971179-543e-4b96-9feb-2f88ecc80fa2
       lastModifiedTS: 1639055876556
@@ -6858,6 +6938,7 @@ QsD0vDtYMgk8ATraKoNI:
       ref: maps/QsD0vDtYMgk8ATraKoNI/inGameShots/9FsWrJLSDbeCpFWxwsvY-TMA20X_SF_Space_detail.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQsD0vDtYMgk8ATraKoNI%2FperspectiveShot%2FbMRTxZjzISYg9cRA959m-TMA20_perspective.jpg.png?alt=media&token=8094558b-3150-4ed8-ae6d-daa1c5aa9da7
       lastModifiedTS: 1593160372000
@@ -6948,6 +7029,7 @@ RDAUlsjOhgAH2fDvAEmI:
     - 1v1
     - ffa
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/RDAUlsjOhgAH2fDvAEmI/photo/GoMUsvsau8A4aHWF4s97-gods_of_war_remake_v1.3.jpg
       lastModifiedTS: 1683982280245
@@ -7004,6 +7086,7 @@ RLZ07b2DZS9vYPn5dvFX:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2Fi1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg?alt=media&token=fcd701c2-0a3c-4530-bdd1-f237630667ef
       lastModifiedTS: 1689098549787
@@ -7045,6 +7128,7 @@ RT3Y6Qyjvt3pTGXWjWPK:
   gameType:
     - ffa
   inPool: true
+  minPlayerCount: 5
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/RT3Y6Qyjvt3pTGXWjWPK/photo/84dvIGI3vOp6IcaK8XIO-hotstepper_5_1.2.jpg
       lastModifiedTS: 1683982280753
@@ -7128,6 +7212,7 @@ RTxWSdffMT8Mb8ixqKdL:
       ref: maps/RTxWSdffMT8Mb8ixqKdL/inGameShots/at6yZOsw77yhnCywE7J8-screen_2024-03-10_17-59-43-184.png
       type: image/png
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRTxWSdffMT8Mb8ixqKdL%2Fphoto%2FQaFzrHYPu8z00as8TseH-hideseekmini3.png?alt=media&token=6491d705-cb56-4f77-b2d5-569cefc2c190
       lastModifiedTS: 1710096706706
@@ -7203,6 +7288,7 @@ SHA84LfmzYbxT8iIyTtU:
         (1).jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FperspectiveShot%2F1LqBHhthRDK77wK5HFzE-Rifted-For-BAR-Map-Perspective.png?alt=media&token=5b4e30fa-4ae9-46f7-94be-66513c3fab7d
       lastModifiedTS: 1699882996119
@@ -7263,6 +7349,7 @@ SYB0blENn3hqhEyLC24B:
       ref: maps/SYB0blENn3hqhEyLC24B/inGameShots/n8qo3lbv3sOUGgiqSByD-Throne_V2_SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSYB0blENn3hqhEyLC24B%2FperspectiveShot%2FYlQ0dCR5IYKe4bomgA2H-Throne_V2_3D.png?alt=media&token=b0f43550-88e4-4aea-be08-e54229227d05
       lastModifiedTS: 1639056915935
@@ -7419,6 +7506,7 @@ T9CfXfwVVubXUcJbMNra:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/T9CfXfwVVubXUcJbMNra/photo/RTeYQoM3sqz3nZeS0J0e-tetrad_v2.jpg
       lastModifiedTS: 1683982283652
@@ -7505,6 +7593,7 @@ TBlG9YF5CxIvchMI0DZX:
       ref: maps/TBlG9YF5CxIvchMI0DZX/inGameShots/PtfcvgRYrh8fgGgyhwMZ-sky_isle_SS7.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTBlG9YF5CxIvchMI0DZX%2FperspectiveShot%2FkK4nvnDeH6GsVEZftDUK-sky_isle_3D.png?alt=media&token=5c6d7726-e625-460b-bc94-7bf278f0c1c3
       lastModifiedTS: 1699879708349
@@ -7553,6 +7642,7 @@ U8PJYIPdYQoMXGJND2Kg:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 10
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/U8PJYIPdYQoMXGJND2Kg/photo/D9wTn9oFZOXb8Xz4fqea-EmainMacha_Remake_2.1.jpg
       lastModifiedTS: 1683982284741
@@ -7649,6 +7739,7 @@ UeeBymo7RdXE5ty3amFw:
         screenshot 10.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FperspectiveShot%2FAd6RYh427NhhdbyHEZgB-Kolmogorov_Remake_3.0%20perspect.png?alt=media&token=46bbbd91-7e91-4e02-899d-946cc43a1816
       lastModifiedTS: 1644016077854
@@ -7727,6 +7818,7 @@ UhGP9ish5WdFio1VfrU6:
       ref: maps/UhGP9ish5WdFio1VfrU6/inGameShots/2n1UGcJzmlUYe0hiiA3t-BoulderBeachR_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUhGP9ish5WdFio1VfrU6%2FperspectiveShot%2FrwBRZGe3lkxWzvTga8uO-BoulderBeach_Pers.png?alt=media&token=308f6844-d332-4986-8e98-e266357dadad
       lastModifiedTS: 1699874047227
@@ -7824,6 +7916,7 @@ UywijIj1uPuFeoV231kL:
       ref: maps/UywijIj1uPuFeoV231kL/inGameShots/SrhoNNjcxs4nAviZwTxM-DSD8W_SEO 10.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUywijIj1uPuFeoV231kL%2FperspectiveShot%2F8uwukd6tdc0u913yW74d-DSD8W_3D.png?alt=media&token=436932c8-a2ce-471b-8225-ffb3a7d59b65
       lastModifiedTS: 1639185153071
@@ -7986,6 +8079,7 @@ WJBtRZ22UUHZi2GTQ2FQ:
       ref: maps/WJBtRZ22UUHZi2GTQ2FQ/inGameShots/8gsmvNeme5NH4bM3sXQ8-ancient_vault_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWJBtRZ22UUHZi2GTQ2FQ%2FperspectiveShot%2Fc0GKXdqMI2WYoiWUVErc-ancient_vault_3D.png?alt=media&token=929574f8-06f1-4f01-80b2-5a081b6d0fb9
       lastModifiedTS: 1683617373698
@@ -8056,6 +8150,7 @@ WOlmGcTZXUtV5iy57Kc9:
       ref: maps/WOlmGcTZXUtV5iy57Kc9/inGameShots/ZSxTlxoQhXLdn50lz7QU-mariposa_island_SS7.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWOlmGcTZXUtV5iy57Kc9%2FperspectiveShot%2FEQvepYRx6Q8XXAMiR9U8-mariposa_island_3D.png?alt=media&token=982297ce-b485-416e-8aa7-40c7a241dc21
       lastModifiedTS: 1699879227782
@@ -8109,6 +8204,7 @@ WrkVFQS8BedaqPg5SeB7:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWrkVFQS8BedaqPg5SeB7%2Fphoto%2FelWZ1O5N6WfTelQYf4ek-scylla_minimap.jpg?alt=media&token=dbabbd15-8851-421f-9865-72d1753273cc
       lastModifiedTS: 1702146097367
@@ -8240,6 +8336,7 @@ WuwJQPBtwMfJR9czmWuQ:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWuwJQPBtwMfJR9czmWuQ%2Fphoto%2FkA5BgLKSES8X4ArAhxFj-krakatoa_v2.0.jpg?alt=media&token=77a1f422-67f9-4c7e-9ab8-53222763c151
       lastModifiedTS: 1684921056892
@@ -8351,6 +8448,7 @@ X0N11knnIS4fWqkoFPBC:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
       lastModifiedTS: 1683982288630
@@ -8483,6 +8581,7 @@ XAYu2CrwVdR5GlcpOxL0:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
       lastModifiedTS: 1683982289182
@@ -8549,6 +8648,7 @@ XLh1oCb0Qdog1h40avFL:
       ref: maps/XLh1oCb0Qdog1h40avFL/inGameShots/HJRWcErP5md1QpUhP1ae-centerrock-otherside-high.png
       type: image/png
   inPool: true
+  minPlayerCount: 6
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XLh1oCb0Qdog1h40avFL/photo/RcEJbg53gqrr55G9ccp6-centerrock_remake_1.2.jpg
       lastModifiedTS: 1683982289787
@@ -8604,6 +8704,7 @@ XMFpTWsDjFSPjJ4nOZSO:
       ref: maps/XMFpTWsDjFSPjJ4nOZSO/inGameShots/yHakERIaPhC9UFkdQMRZ-red_triangle_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXMFpTWsDjFSPjJ4nOZSO%2FperspectiveShot%2F82fV6rBAE4HLSCtudamn-red_triangle_3D.png?alt=media&token=57204bfe-1582-42b7-b51e-56120f2f8fda
       lastModifiedTS: 1683622051196
@@ -8670,6 +8771,7 @@ XR0Czafa4dwZRh0r3fTy:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXR0Czafa4dwZRh0r3fTy%2Fphoto%2F1w1z8IAHJ9VQDXKDxOr8-greenhaven_v1.1.jpg?alt=media&token=6f8e0520-aa80-49d4-9d91-61d468557c2e
       lastModifiedTS: 1687296910302
@@ -8744,6 +8846,7 @@ XipxkGywEz3REbHKrvP6:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FperspectiveShot%2FrWMo5zVWXmWWtz2OtTxH-Taldarim_perspective.png?alt=media&token=9220d544-d819-4c88-b09a-2088724d4ae0
       lastModifiedTS: 1700435416487
@@ -8819,6 +8922,7 @@ XnCjzq4LvLB6mik5aib1:
         1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
       lastModifiedTS: 1680293561650
@@ -8914,6 +9018,7 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/inGameShots/SLb2F3Nn9hs4fZXIhwYX-RCR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
       lastModifiedTS: 1699872172465
@@ -8957,6 +9062,7 @@ XyspXgig1fp54pmAcYIo:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2Fphoto%2FCv4mXTcrgacjR88fWOGH-hypermini.png?alt=media&token=e8f613ef-972a-481b-85f9-5d76a2ccfb39
       lastModifiedTS: 1704930920569
@@ -9047,6 +9153,7 @@ Y5e7sl891wO5G2ttwjmr:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 8
   perspectiveShot: []
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FY5e7sl891wO5G2ttwjmr%2Fphoto%2FFQWRrFiv5hLEuXdayRnD-rustcrownmini.png?alt=media&token=a1d201de-0066-42e0-b5ef-5c10e924465c
@@ -9092,6 +9199,7 @@ Ydjj7Fy4NpaLHdkvhsIn:
     - team
     - pve
   inPool: true
+  minPlayerCount: 8
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/Ydjj7Fy4NpaLHdkvhsIn/photo/c8wxgQ68uTk9aFTMR4gh-Ditched_V1.jpg
       lastModifiedTS: 1683982293744
@@ -9147,6 +9255,7 @@ Yhwa2neMfDTUXyAiSJXC:
         SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYhwa2neMfDTUXyAiSJXC%2FperspectiveShot%2FZ7SWY56UhS3XT97DzCW5-Incandenscence_Perspective.png?alt=media&token=bf03f8dc-c6f5-44d7-9385-0f4ecc959a48
       lastModifiedTS: 1647377359312
@@ -9214,6 +9323,7 @@ Z7wmue7EsjaTNpsdBuyx:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ7wmue7EsjaTNpsdBuyx%2FperspectiveShot%2FUgiEJuLAG9KguEXOH5Ib-Z-qh7-M5ZX8PCS78aHu6MU-lHwgDDVr2hU40OqvpKR0.png?alt=media&token=f1a0aed9-ad77-42f1-9832-5d125b2a27f3
       lastModifiedTS: 1699883210483
@@ -9365,6 +9475,7 @@ Z8YOFQmH2Aic7MsPihzr:
       ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/T20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png
       type: image/png
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FperspectiveShot%2FHz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png?alt=media&token=d1419d56-7de6-4eb7-b2ad-4dcdcddbe823
       lastModifiedTS: 1724523147127
@@ -9416,6 +9527,7 @@ ZJNeHQG2ls2h2Xq1hHUy:
   gameType:
     - ffa
   inPool: true
+  minPlayerCount: 10
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZJNeHQG2ls2h2Xq1hHUy/photo/4ApsuHeiEa4NO9691x0v-Mediterraneum_V1.jpg
       lastModifiedTS: 1683982295995
@@ -9614,6 +9726,7 @@ ZeOLwTAgEU10BGvcdQ45:
   gameType:
     - ffa
   inPool: true
+  minPlayerCount: 10
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZeOLwTAgEU10BGvcdQ45/photo/ca69Hzqvj103N6u4IjHV-dworld_v4.jpg
       lastModifiedTS: 1683982296516
@@ -9753,6 +9866,7 @@ ZrnTf20mPzbrMjtHa9Wg:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
       lastModifiedTS: 1683982297054
@@ -9923,6 +10037,7 @@ ZvEmwr9QVP760qJOdBxh:
     - team
   inGameShots: []
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F6dQtEsFIh91KTN7hjDyB-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=399720a3-4cff-4606-9ca6-5daa4b486ad7
       lastModifiedTS: 1717097785107
@@ -9994,6 +10109,7 @@ ZxFS2VuODjyLH5V8mHfR:
       ref: maps/ZxFS2VuODjyLH5V8mHfR/inGameShots/Kk26KXegyNA8WgjMPzLw-Mescaline_V2_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZxFS2VuODjyLH5V8mHfR%2FperspectiveShot%2FgnZry8rtdQd2pwVfRoKI-Mescaline_V2_Perspective.png?alt=media&token=82572abf-8eb8-4b14-81d0-e50bbccc4b88
       lastModifiedTS: 1607074650000
@@ -10069,6 +10185,7 @@ Zy8Ha3O3lHl7mUMvM8Gs:
       ref: maps/Zy8Ha3O3lHl7mUMvM8Gs/inGameShots/qvhklNoyW0dUYrdvP9JN-LV412_SEO 12.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZy8Ha3O3lHl7mUMvM8Gs%2FperspectiveShot%2FH9S2ms7gR8sbuhEgJJOz-LV412_3D11.png?alt=media&token=089dda02-67aa-44b0-b7c3-20aef8b637d4
       lastModifiedTS: 1640214195901
@@ -10150,6 +10267,7 @@ aDu1H6XNI6Jh5OZUcagp:
       ref: maps/aDu1H6XNI6Jh5OZUcagp/inGameShots/07BozdzXrnGy7iT3bDPi-screen_2023-11-29_16-00-12-431.png
       type: image/png
   inPool: true
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FaDu1H6XNI6Jh5OZUcagp%2Fphoto%2FMw2Vb5zj8lXIz3XQO9Ri-glacial_gap11.jpg?alt=media&token=b28f349f-9fc9-40a9-b11e-2092e6ea2aa4
       lastModifiedTS: 1701287225923
@@ -10191,6 +10309,7 @@ aUhyiiVDKaRECJfqPBAo:
   gameType:
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/aUhyiiVDKaRECJfqPBAo/photo/gBaBpjiZOrEdPRlChXDL-Flooded_Valley_V5.jpg
       lastModifiedTS: 1683982298997
@@ -10244,6 +10363,7 @@ bLBXDWyEuUqG825WYzHj:
       ref: maps/bLBXDWyEuUqG825WYzHj/inGameShots/dZFAJ8S9mIv20snoo8St-deeploria_fields_SS1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbLBXDWyEuUqG825WYzHj%2FperspectiveShot%2FUyAID7IvF7g8FyRxatHL-deeploria_fields_3D.png?alt=media&token=8c9fe9d7-789a-40bb-8779-ef14a7b04322
       lastModifiedTS: 1699878862352
@@ -10313,6 +10433,7 @@ bX4YxbtQ8YCc6G0yMumJ:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
       lastModifiedTS: 1684488827295
@@ -10356,6 +10477,7 @@ bjT21UjhlZ3s2nrZ850V:
     - team
     - ffa
   inPool: true
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbjT21UjhlZ3s2nrZ850V%2Fphoto%2FZEHKvCAEy9CupGfm91Qc-fullmetalscreen.png?alt=media&token=1afa1e68-a82b-4270-967c-090072da0c90
       lastModifiedTS: 1707116700809
@@ -10451,6 +10573,7 @@ bkIRTcsnvtmQVsm3SsNJ:
         1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FperspectiveShot%2F5nu9kPtHQjqNiKweWPIj-Speed_Metal%20perspective.png?alt=media&token=6f770e98-f6b3-45f5-8fb6-fd7728ec43ed
       lastModifiedTS: 1680269884688
@@ -10510,6 +10633,7 @@ bunTXErE1ZLWV9t8jFHw:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2FperspectiveShot%2FQTfFf9Fvn5xoDuO65JSg-perspective.png?alt=media&token=4f3f1075-33cd-44d7-bcbd-faebd0ce4fe9
       lastModifiedTS: 1713264325269
@@ -10669,6 +10793,7 @@ byucseTLrpgU0J70dFC0:
         SEO-2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbyucseTLrpgU0J70dFC0%2FperspectiveShot%2FYdFH6l76poP0JDaol1yh-GhennaRising_Perspective.png?alt=media&token=cceb9336-5b40-41e8-ab3d-b6d481926529
       lastModifiedTS: 1647377361643
@@ -10760,6 +10885,7 @@ c8VOLOtft95bMvYUg60R:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/c8VOLOtft95bMvYUg60R/photo/5oYKAyg7B30SfNbSo61I-Cloud9_V2.jpg
       lastModifiedTS: 1683982301680
@@ -10897,6 +11023,7 @@ cIMaYX0u2fprp7Qk78wK:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcIMaYX0u2fprp7Qk78wK%2Fphoto%2FFTf911HfF4x5GXKBYc1e-PaP.jpg?alt=media&token=3f6d5069-66c9-4b48-b3d4-da4f813c5812
       lastModifiedTS: 1696684867216
@@ -11077,6 +11204,7 @@ cQ5LLQmNqCPCnYFiTlcb:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FperspectiveShot%2FGJcdIM0yusWSs8nwo0dF-KVB_map_pers_trans_web.png?alt=media&token=a9ab4327-fb12-4de2-994a-f07eceab493b
       lastModifiedTS: 1612220957000
@@ -11232,6 +11360,7 @@ cQbwmwbhWrWyD1bhZNEn:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 16
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FperspectiveShot%2FfBtUOYbIQ1mhC1evR9Xo-screen_2024-03-01_02-40-05-298.png?alt=media&token=bb17406b-a1af-477d-b13c-d60a89f8caa8
       lastModifiedTS: 1709260806158
@@ -11314,6 +11443,7 @@ cYgRxanQzvg7Bx9xXk1H:
         screenshot 4.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FperspectiveShot%2FZk7gXXd8gsl9wd6vKhf3-valles_marineris_2.5%20perspect.png?alt=media&token=90207ece-fa80-4f43-9630-f80b7b27b3af
       lastModifiedTS: 1643828939471
@@ -11366,6 +11496,7 @@ cvpud6KzRzucgumjiBgk:
     - team
   inPool: true
   mapLists: []
+  minPlayerCount: 12
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cvpud6KzRzucgumjiBgk/photo/sfvXuiMEVeTMtyODXqSD-Silveridge_v1.jpg
       lastModifiedTS: 1683982303294
@@ -11430,6 +11561,7 @@ ddpsrgkYM0ujNqHiQKKm:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FddpsrgkYM0ujNqHiQKKm%2Fphoto%2FaPyfxrngmM8q3rncSrFD-screen_2023-12-12_02-38-23-242SAPP.png?alt=media&token=1d35f23c-e5d5-4b86-b6ed-bc08ad9379f8
       lastModifiedTS: 1702354123069
@@ -11470,6 +11602,7 @@ eLHwUEMIb0S3qLy0OT6G:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeLHwUEMIb0S3qLy0OT6G%2Fphoto%2FoPksUi3nzzROhlpBDFsN-titan-v31-minimap.jpg?alt=media&token=acef472c-32ed-4893-823e-ece6b36be508
       lastModifiedTS: 1699917787976
@@ -11530,6 +11663,7 @@ eR6j6L2F2OSP7QeCfW8O:
         1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FperspectiveShot%2FrtaUpiq805KZION8vexS-Paradise_Lost_BAR.png?alt=media&token=a8994931-fa7d-4662-b087-2bcdc3cf7029
       lastModifiedTS: 1628192880047
@@ -11659,6 +11793,7 @@ etCTTwexgYVGMV63rOWy:
         4.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FetCTTwexgYVGMV63rOWy%2FperspectiveShot%2F9v2Py4pqvTK9aBvYePIe-FallenDell_Perspective.png?alt=media&token=6ee6260b-1a89-4072-ac86-5dd16f460aae
       lastModifiedTS: 1628203228698
@@ -11705,6 +11840,7 @@ fivY9RQRkefErWygMT09:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 8
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fivY9RQRkefErWygMT09/photo/f703Hp4ng5o7sfd6hRId-Industrial_Revolution_V2.jpg
       lastModifiedTS: 1683982305459
@@ -11747,6 +11883,7 @@ fkhBIvsAdLiL9CvVlp2l:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
       lastModifiedTS: 1683982306044
@@ -11802,6 +11939,7 @@ frJOFVdgDIROpNVzgDed:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfrJOFVdgDIROpNVzgDed%2FperspectiveShot%2FvLGtvhzYZaeln0UdBK0x-Entrenched_3D.png?alt=media&token=e3d48214-c5e4-4f0d-a48e-952016567838
       lastModifiedTS: 1639090103580
@@ -11873,6 +12011,7 @@ fvLhZp85DLroyv0Iozhe:
         screenshot 2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FperspectiveShot%2FWewRZIXQQItNWHuR0u5V-Eye%20Of%20Horus_1.5%20perspect.png?alt=media&token=1b7ca2a7-912d-4e8b-a811-ec58c5df783e
       lastModifiedTS: 1643309941483
@@ -11923,6 +12062,7 @@ fzRTg60xfSVnG44Zw42D:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfzRTg60xfSVnG44Zw42D%2Fphoto%2FW4g2LLT11PPz70wVoR5R-to_kill_the_middle_v1.0.jpg?alt=media&token=d193069c-5aac-453e-83bb-31a0179d0488
       lastModifiedTS: 1687949696526
@@ -11982,6 +12122,7 @@ g7NeIaS3XxFSn2KcrCiL:
       ref: maps/g7NeIaS3XxFSn2KcrCiL/inGameShots/R3fwUlIbceVdw23SpLdA-screen_2024-09-03_20-58-28-302.png
       type: image/png
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
       lastModifiedTS: 1725383324106
@@ -12077,6 +12218,7 @@ gEgiWXCvonENJseDsfjj:
     - strict
     - popular16p
     - rotatoApprentice
+  minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FQE63Qa9Hu5LC5KPCEXPc-bismuth3d.png?alt=media&token=a3d5ee77-65f2-4e68-b48e-31f7c7a19d50
       lastModifiedTS: 1701602945306
@@ -12217,6 +12359,7 @@ gf2s52iInoEKNyK1vA19:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 10
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/gf2s52iInoEKNyK1vA19/photo/Bb2OJnltHK40gH8KMvdM-Sunderance_V1.3.jpg
       lastModifiedTS: 1683982308791
@@ -12416,6 +12559,7 @@ ggVDNTLRh7HNk4mf9mf6:
       ref: maps/ggVDNTLRh7HNk4mf9mf6/inGameShots/YfyXZKYtJ0u7Y4v35nf1-CCRXR_SF_map.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2FperspectiveShot%2FZRaKL3vIJyL2qHMv5gwr-CometCatcherRemakeBAR.png?alt=media&token=2e0bb670-9749-4614-846a-0be3b0709d94
       lastModifiedTS: 1699817543401
@@ -12513,6 +12657,7 @@ hC5Ic7adKaK6YBA68mKY:
       ref: maps/hC5Ic7adKaK6YBA68mKY/inGameShots/WgWwOqnG8gyPPf1CrcCl-the_halite_maze_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FhC5Ic7adKaK6YBA68mKY%2FperspectiveShot%2FVwDmUo2UpPQxpWRhYn0A-the_halite_maze_3D.png?alt=media&token=4b8ef3b1-8c55-42d8-914c-830fdcd5fccb
       lastModifiedTS: 1699882510776
@@ -12564,6 +12709,7 @@ i0Wzo68Las9sWQk8O8CT:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fi0Wzo68Las9sWQk8O8CT%2Fphoto%2FrBSxTq4mU6MIboIdoP95-ascendancy_v2.2.jpg?alt=media&token=7ae33629-6ce3-4002-aca8-83cca9c46148
       lastModifiedTS: 1690221954963
@@ -12625,6 +12771,7 @@ iQZFWB7rheiOseoQXihq:
       ref: maps/iQZFWB7rheiOseoQXihq/inGameShots/Lz9lzoZMkHQ6YpirP0dA-Great-Divide_SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2FperspectiveShot%2Fpv5xjFRTmwOzN77jah1z-Great_Divide_BAR.png?alt=media&token=610466b9-206e-4d93-aa8f-de28fdea490c
       lastModifiedTS: 1628193789797
@@ -12678,6 +12825,7 @@ igcp0iDB12WAKPdtBDna:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 6
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Figcp0iDB12WAKPdtBDna%2Fphoto%2FVZW7Ul5Cf5kk4uuZ4TpD-White%20Fire%20Remake%201.1.jpg?alt=media&token=ae085d8e-e238-4ea1-9a3b-7067813ba5ff
       lastModifiedTS: 1687446057415
@@ -12835,6 +12983,7 @@ iq0vEBrVv1ZudgcWr2ST:
       ref: maps/iq0vEBrVv1ZudgcWr2ST/inGameShots/QLSG0XUL24mfEcBKyHTm-gecko_island_remake_SS3.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fiq0vEBrVv1ZudgcWr2ST%2FperspectiveShot%2FsGsTMAk2JulMPB8IDBfc-gecko_island_remake_3D.png?alt=media&token=b6077eb1-b5e4-4af6-a3d0-b2d332b3135a
       lastModifiedTS: 1683619953728
@@ -12874,6 +13023,7 @@ j29MVJU3ctlnvyEQ6HNb:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/j29MVJU3ctlnvyEQ6HNb/photo/UtaFrIo8gcGulk5zfvhI-Small_Supreme_Battlefield_V3.jpg
       lastModifiedTS: 1683982311610
@@ -12917,6 +13067,7 @@ j3X9bepS3FrtzjLLNmmu:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/j3X9bepS3FrtzjLLNmmu/photo/iwyoPZitwfUUPhihaUsH-Angel_Crossing_1.5.jpg
       lastModifiedTS: 1683982312132
@@ -12966,6 +13117,7 @@ jyQlMYahZbQYgC1ZGRmd:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2FperspectiveShot%2FU8C7JwyGHGXmVlokfaWT-hera_planum_perspective.png?alt=media&token=2e0868d1-4a8a-42d0-a5b4-4adb4c02b348
       lastModifiedTS: 1714720041279
@@ -13156,6 +13308,7 @@ kesPeWO0ScnmWF2An8qA:
     - strict
     - popular16p
     - rotatoApprentice
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkesPeWO0ScnmWF2An8qA%2FperspectiveShot%2Fc59TV3OUb3z3GJ0gL68s-flats_and_forests_3D.png?alt=media&token=68bab0b5-2cee-4636-b2a6-e89c9e80be2d
       lastModifiedTS: 1699878971840
@@ -13333,6 +13486,7 @@ kgpwvzDGdXoVcD6whG3C:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkgpwvzDGdXoVcD6whG3C%2FperspectiveShot%2F5RH6xP6l3KaGdvjk7Pp6-Tempest_3D.png?alt=media&token=a2113e3d-1d89-4398-89c0-6ad66980f6ab
       lastModifiedTS: 1639171377143
@@ -13380,6 +13534,7 @@ kovRjd67kdlVUNN4szAP:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/kovRjd67kdlVUNN4szAP/photo/zT5llnnzUXnQjoTjoPEk-High_Noon_Remake_1.0.jpg
       lastModifiedTS: 1683982314396
@@ -13454,6 +13609,7 @@ lJQnSRqDN7rNPS5pe80C:
       ref: maps/lJQnSRqDN7rNPS5pe80C/inGameShots/eoa2Kvcg6qoypCGE4TFl-Oort_Cloud_MAP_Tra.png
       type: image/png
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FlJQnSRqDN7rNPS5pe80C%2FperspectiveShot%2FGYivQS4uP3PVyKxEuAJp-Oort_Cloud_3D_Perspective.png?alt=media&token=f2cfa7c5-9bf4-4edb-b24f-cdf4f24890ab
       lastModifiedTS: 1641469621239
@@ -13586,6 +13742,7 @@ ljx3Fdz1TLbewjyAIoVw:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fljx3Fdz1TLbewjyAIoVw%2FperspectiveShot%2FZnPfWYUIOLjlaVx0W2fI-Tundra_V2_BAR.png?alt=media&token=847ad640-d536-4bc3-8f4b-fe5faac6dd3c
       lastModifiedTS: 1628711338207
@@ -13636,6 +13793,7 @@ mAD4ToJrMg6xGHEM18qN:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmAD4ToJrMg6xGHEM18qN%2Fphoto%2F076mZRA86BPxru7cxMzF-sector_318C_v1.0.jpg?alt=media&token=b51529c7-a4de-4c41-8822-07bf08a7f4ef
       lastModifiedTS: 1691503350130
@@ -13789,6 +13947,7 @@ mkBFR3xXMP9u8dhD8kFW:
       ref: maps/mkBFR3xXMP9u8dhD8kFW/inGameShots/AYqKMCNYCxM8Xy8lD2FD-screen_2024-05-31_13-48-39-281.png
       type: image/png
   inPool: true
+  minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmkBFR3xXMP9u8dhD8kFW%2FperspectiveShot%2FK2ZpWABgpl0OT602tigJ-BSR_3D.png?alt=media&token=187c5e3f-4819-44d2-95d1-7c2c9ea577c9
       lastModifiedTS: 1717163539142
@@ -13840,6 +13999,7 @@ mzdkzzTL3zgPanW6zQx4:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/mzdkzzTL3zgPanW6zQx4/photo/ipAhkXQGdeX0kYWcEHoj-faster_than_light_1.1.jpg
       lastModifiedTS: 1683982316121
@@ -13913,6 +14073,7 @@ oBOBWCmenCo2tbkwYNJt:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FperspectiveShot%2FDVgSS0YafPTN9rkLgIkM-Coastlines_Perspective.png?alt=media&token=a7273673-c053-44d8-bba2-8e497768de1e
       lastModifiedTS: 1700518323662
@@ -14064,6 +14225,7 @@ oHTuEk42qfvZt8tddOnA:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoHTuEk42qfvZt8tddOnA%2FperspectiveShot%2F52rUAtq7qWJt4VU43S6U-CARROT3D.png?alt=media&token=7de6d2b9-9eb4-406d-a7e1-812e7d5b834d
       lastModifiedTS: 1717264470932
@@ -14245,6 +14407,7 @@ oX7eHI8mlpVvJUYs4v4Y:
   inPool: true
   mapLists:
     - testList
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FsCkj0ik3ZN1GJ4MfaGV5-ATG%202.2%203d.png?alt=media&token=fe70f966-fab7-4b48-ab0e-8e407295bc59
       lastModifiedTS: 1715684917291
@@ -14403,6 +14566,7 @@ pFTrUA4OGRNoSNpSAzx2:
   mapLists:
     - popular16p
     - land16p
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FperspectiveShot%2Fz96Nww6hJirZKcTReXJ9-moonshine3D.png?alt=media&token=c9b3aa1b-548f-4468-bbad-5e2c06cc030b
       lastModifiedTS: 1717796251600
@@ -14531,6 +14695,7 @@ pZko6a1Lqs5ZYeVO0BqS:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpZko6a1Lqs5ZYeVO0BqS%2FperspectiveShot%2FRth7jCypWi1d91GnFTfL-SupremeCrossing_BAR.png?alt=media&token=d1e43893-f469-44bd-a270-5e36e1580048
       lastModifiedTS: 1628195115240
@@ -14580,6 +14745,7 @@ pqGeTK0PB1xPJ6A1u6CO:
     - 1v1
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
       lastModifiedTS: 1683982319245
@@ -14639,6 +14805,7 @@ pzZ5zAyferpDePxtC2hG:
       ref: maps/pzZ5zAyferpDePxtC2hG/inGameShots/O5rsl3CHrVW52W7lhNxh-tundra_continents_SS2.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpzZ5zAyferpDePxtC2hG%2FperspectiveShot%2FpGnYMSNUY1xwIvt66jlm-tundra_continents_3D.png?alt=media&token=adc2f39f-4b51-450d-b468-aea14b0f0a21
       lastModifiedTS: 1699882579190
@@ -14688,6 +14855,7 @@ qrpwI83FonOR43KTBxZE:
   inPool: true
   mapLists:
     - popular16p
+  minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqrpwI83FonOR43KTBxZE%2Fphoto%2FkiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png?alt=media&token=91ebc5b5-ab45-4674-9209-119d7648f357
       lastModifiedTS: 1697522645986
@@ -15074,6 +15242,7 @@ rQ8v6BePPrXIaQaaQjam:
   gameType:
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/rQ8v6BePPrXIaQaaQjam/photo/MmfXe44hf11iDl8b7R9k-Hooked_1.1.jpg
       lastModifiedTS: 1683982320420
@@ -15135,6 +15304,7 @@ s7nrY1vJEItDuPwHAKEO:
         5.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fs7nrY1vJEItDuPwHAKEO%2FperspectiveShot%2FJYykGgz5Dnj6NawI8bmg-MoonQ20.png?alt=media&token=cce0f8dc-585b-4ce3-baf1-5c9c9f16ac51
       lastModifiedTS: 1617891856000
@@ -15183,6 +15353,7 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
       lastModifiedTS: 1683982321469
@@ -15246,6 +15417,7 @@ snRldJIaPiKTiNiEAPEg:
   inPool: true
   mapLists:
     - land16p
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsnRldJIaPiKTiNiEAPEg%2FperspectiveShot%2FI4npitI5jIYRQWLqFpoi-stronghold53D.png?alt=media&token=a64c564a-fa14-41fd-8127-3e71120c90c1
       lastModifiedTS: 1718014589940
@@ -15316,6 +15488,7 @@ t85qIzP8X1hqJ5gWEPGM:
   gameType:
     - ffa
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Ft85qIzP8X1hqJ5gWEPGM%2Fphoto%2Fem9o00PK57b0DGw6ogFS-factions_minimap.jpg?alt=media&token=c51f935c-0acc-4655-a4be-c19c48a31815
       lastModifiedTS: 1685526240371
@@ -15436,6 +15609,7 @@ taMTVVZKAKbYywe7tyRb:
     - strict
     - popular16p
     - rotatoApprentice
+  minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
       lastModifiedTS: 1715976377879
@@ -15600,6 +15774,7 @@ te9bV2b9aiw8w9qgzTJg:
       ref: maps/te9bV2b9aiw8w9qgzTJg/inGameShots/0v9Juzc9FVoI8y5x9cl5-the_cold_place_bar_SS1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
       lastModifiedTS: 1699880583060
@@ -15681,6 +15856,7 @@ u17mWZp6jqx5b5s0Or5z:
         SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
       lastModifiedTS: 1714920006833
@@ -15766,6 +15942,7 @@ uV4t5gveu4Ru1Lrm1e1l:
       ref: maps/uV4t5gveu4Ru1Lrm1e1l/inGameShots/8NbkSpNevwyp2RPL76Ci-point_of_no_return_SS6.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 5
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuV4t5gveu4Ru1Lrm1e1l%2FperspectiveShot%2FYClPAuaODqk2qfNa3EGi-point_of_no_return_3D.png?alt=media&token=9e451539-ffa2-4c83-9348-f0f93720ee0d
       lastModifiedTS: 1683621663578
@@ -15857,6 +16034,7 @@ uZq5zZ1FTcdZ7FS4k3lc:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 12
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
       lastModifiedTS: 1683982324522
@@ -15991,6 +16169,7 @@ vFNwoJJ3cCMzSaAAQPvR:
     - land16p
     - strict
     - popular16p
+  minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvFNwoJJ3cCMzSaAAQPvR%2Fphoto%2F5kDQevxl6WZGONr07SNH-starwatcher_v1.0.jpg?alt=media&token=d0d3c291-4bae-4d30-a2e8-7f3fd35622fa
       lastModifiedTS: 1685526189309
@@ -16180,6 +16359,7 @@ veW9CUoQ0oV7OofQab4y:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FveW9CUoQ0oV7OofQab4y%2FperspectiveShot%2F11jwbc7Mw240oxZpGdFj-Cape_Voilet.png?alt=media&token=91872028-5907-4337-ae82-c30575aae62f
       lastModifiedTS: 1628193548668
@@ -16257,6 +16437,7 @@ vryCgnmiXKEfnJuBLobP:
       ref: maps/vryCgnmiXKEfnJuBLobP/inGameShots/ndy6FZFKSH42eB2fo5bY-Greenest_Fields_1.0_BG.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvryCgnmiXKEfnJuBLobP%2FperspectiveShot%2FLVvVYLS1VN2A2HiSBHVp-Greenest_Fields_1.0_3D.png?alt=media&token=bcf37bd1-5774-4d94-a54f-bc822a1802d5
       lastModifiedTS: 1647517266646
@@ -16305,6 +16486,7 @@ wADO80q9xacu6SAV1cZU:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2FperspectiveShot%2FqBhDfCx4fXFH1JbCv0uX-Feast_of_Hades_perspective.png?alt=media&token=fbf1340b-50d7-4af1-b95b-4dd75de32351
       lastModifiedTS: 1714082315922
@@ -16422,6 +16604,7 @@ wyCcSCcx7UYOY5bT4d5P:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 14
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/wyCcSCcx7UYOY5bT4d5P/photo/msstjnxjQQk6VNjbqFqt-ReRaghnarok_1.jpg
       lastModifiedTS: 1683982328195
@@ -16476,6 +16659,7 @@ x0Y6f1ou7U5tF3S9xllC:
     - 1v1
     - pve
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/x0Y6f1ou7U5tF3S9xllC/photo/hXyKXfrI1KQBHZUsSruB-Riverdale_Remake_2.1.jpg
       lastModifiedTS: 1683982328882
@@ -16522,6 +16706,7 @@ x3jIjnV9aipWzVVWjZlL:
     - team
     - pve
   inPool: true
+  minPlayerCount: 9
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/x3jIjnV9aipWzVVWjZlL/photo/oUpHXmuczl0CapP8x7xg-Nine_Metal_Islands_V1.jpg
       lastModifiedTS: 1683982329490
@@ -16733,6 +16918,7 @@ xbJTsdeXIKFQmuvBHW3d:
         SEO.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxbJTsdeXIKFQmuvBHW3d%2FperspectiveShot%2FdrxJqGEQNrGfVzPNjUoX-Timna_Island_1.0%20perspect.png?alt=media&token=5afc89e4-fd6e-4840-b27d-c3337c6756ce
       lastModifiedTS: 1644103140240
@@ -16785,6 +16971,7 @@ xn2aVcKlkpTQAakCC3Z8:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
       lastModifiedTS: 1683982330616
@@ -16825,6 +17012,7 @@ yhOJI5yH4yGFmx9PMt9T:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/yhOJI5yH4yGFmx9PMt9T/photo/b5ED97PkmZEFfzpdjH0N-Lake_Carne_v2.jpg
       lastModifiedTS: 1683982331308
@@ -16867,6 +17055,7 @@ z7TZ4CbeIBJtjEjNAwer:
   gameType:
     - team
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/z7TZ4CbeIBJtjEjNAwer/photo/b1yPvZjikM6OLTYsfWbs-Downs_of_Destruction_V2.jpg
       lastModifiedTS: 1683982331821
@@ -16909,6 +17098,7 @@ zfA6sKjimXZO5kz0jtz1:
     - ffa
     - team
   inPool: true
+  minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzfA6sKjimXZO5kz0jtz1%2Fphoto%2F6k0eXx0BpP5TgYIqyJPJ-Omega.jpg?alt=media&token=1bc46907-6b9d-45bc-a4c0-6dffe2cce9a5
       lastModifiedTS: 1699887189079
@@ -16950,6 +17140,7 @@ zoXOP8VC1sNWpsP41IYV:
     - team
     - 1v1
   inPool: true
+  minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zoXOP8VC1sNWpsP41IYV/photo/sQxsoxaDb7kqDdYCwjF9-Plethora_of_Ponds_V1.jpg
       lastModifiedTS: 1683982333021
@@ -17009,6 +17200,7 @@ zvBCoDF2TaUPp7AwfCUr:
         SEO 5.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2FperspectiveShot%2FeQluounjIRuyxPPoSHfb-PinewoodDerby%202.png?alt=media&token=168506f0-f4fb-4ab4-9ec4-4c10978761b2
       lastModifiedTS: 1699820869425
@@ -17098,6 +17290,7 @@ zvTEXnewG2G8LaMjFq4o:
   mapLists:
     - land16p
     - popular16p
+  minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FperspectiveShot%2FjSfK1mkRnRmahHTiChyQ-nuclear_winter_bar_1.1%20Perspective2.png?alt=media&token=2573581b-e917-43cf-84e3-17089a45bfd6
       lastModifiedTS: 1699821481530
@@ -17245,6 +17438,7 @@ zzzzzzzzzzzzzzzzzzzx:
         1.jpg
       type: image/jpeg
   inPool: true
+  minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fzzzzzzzzzzzzzzzzzzzx%2FperspectiveShot%2FdNeNnbzCbJBxm3T4NdYA-AcidicQuarry_SS%202.png?alt=media&token=c4ee638b-19f7-4281-ab42-90780c174b74
       lastModifiedTS: 1617888724000
