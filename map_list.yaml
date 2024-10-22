@@ -7855,6 +7855,77 @@ UhGP9ish5WdFio1VfrU6:
     - tropical
     - shallows
   title: Combine and Conquer
+UpcuKVvMurtZNynDnqiW:
+  author: Moose, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FbackgroundImage%2FmvWWWj0gFmyYdSVkCknf-screen_2024-10-22_02-03-40-823.png?alt=media&token=ee9e5e21-9d7b-46f8-a1c7-cc18567e2e97
+      lastModifiedTS: 1729562621363
+      name: screen_2024-10-22_02-03-40-823.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/backgroundImage/mvWWWj0gFmyYdSVkCknf-screen_2024-10-22_02-03-40-823.png
+      type: image/png
+  certified: true
+  description: A volcanic island of black sand and sparse vegetation. 5-10-15 player FFA.
+  displayName: Claymore
+  gameType:
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FinGameShots%2FLC4DC1ddg0A7LT1nrYSS-screen_2024-10-22_02-03-22-973.png?alt=media&token=73261846-bf58-4a2e-b028-92e1aa6148a3
+      lastModifiedTS: 1729562603412
+      name: screen_2024-10-22_02-03-22-973.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/inGameShots/LC4DC1ddg0A7LT1nrYSS-screen_2024-10-22_02-03-22-973.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2FinGameShots%2FTlldwBQtXTrhOcFu2dI4-screen_2024-10-22_02-04-32-507.png?alt=media&token=892299cd-2420-4577-a138-dd4d28b1bc89
+      lastModifiedTS: 1729562673002
+      name: screen_2024-10-22_02-04-32-507.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/inGameShots/TlldwBQtXTrhOcFu2dI4-screen_2024-10-22_02-04-32-507.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 5
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUpcuKVvMurtZNynDnqiW%2Fphoto%2FyHbfUhbzVcGkl0eH5fSv-claymoremini.png?alt=media&token=afaa20ff-52f2-4a29-bb2b-220c63ff3ade
+      lastModifiedTS: 1729566879398
+      name: claymoremini.png
+      ref: maps/UpcuKVvMurtZNynDnqiW/photo/yHbfUhbzVcGkl0eH5fSv-claymoremini.png
+      type: image/png
+  playerCount: 15
+  special: Lava
+  springName: Claymore 3
+  startboxesSet:
+    NV6sFceVjeNYwIEa6qFF:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 15
+              y: 30
+            - x: 70
+              y: 85
+        - poly:
+            - x: 110
+              y: 135
+            - x: 165
+              y: 190
+        - poly:
+            - x: 91
+              y: 13
+            - x: 146
+              y: 68
+        - poly:
+            - x: 20
+              y: 125
+            - x: 75
+              y: 180
+        - poly:
+            - x: 140
+              y: 70
+            - x: 195
+              y: 125
+  teamCount: 5
+  terrain:
+    - lava
+    - island
+    - hills
+    - grassy
+  title: Front Towards Enemy!
 UywijIj1uPuFeoV231kL:
   author: IceXuick
   backgroundImage:
