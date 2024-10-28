@@ -9062,14 +9062,14 @@ XyspXgig1fp54pmAcYIo:
     - ffa
     - team
   inPool: true
-  minPlayerCount: 12
+  minPlayerCount: 5
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXyspXgig1fp54pmAcYIo%2Fphoto%2FCv4mXTcrgacjR88fWOGH-hypermini.png?alt=media&token=e8f613ef-972a-481b-85f9-5d76a2ccfb39
       lastModifiedTS: 1704930920569
       name: hypermini.png
       ref: maps/XyspXgig1fp54pmAcYIo/photo/Cv4mXTcrgacjR88fWOGH-hypermini.png
       type: image/png
-  playerCount: 24
+  playerCount: 16
   special: Lava
   springName: Hyperion Shale 1.0
   startboxesSet:
@@ -9102,7 +9102,7 @@ XyspXgig1fp54pmAcYIo:
             - x: 51
               y: 112
     JpU5m6J80wOVMmo53lvb:
-      maxPlayersPerStartbox: 12
+      maxPlayersPerStartbox: 8
       startboxes:
         - poly:
             - x: 33
