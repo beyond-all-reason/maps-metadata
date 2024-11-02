@@ -38,7 +38,7 @@ gen/mapPresets.conf gen/mapBattlePresets.conf &: gen/map_modoptions.validated.js
 	ts-node scripts/js/src/gen_spads_map_presets.ts gen/mapPresets.conf gen/mapBattlePresets.conf
 
 # Tests on data
-test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid
+test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid check_uses_mapinfo_lua
 	echo ok
 
 typecheck_scripts: gen/types/map_list.d.ts gen/types/live_maps.d.ts gen/types/cdn_maps.d.ts
@@ -55,6 +55,9 @@ check_photo_aspect_ratio: gen/types/map_list.d.ts gen/map_list.validated.json
 
 check_archive_not_solid: gen/types/map_list.d.ts gen/map_list.validated.json
 	ts-node scripts/js/src/check_archive_not_solid.ts
+
+check_uses_mapinfo_lua: gen/types/map_list.d.ts gen/map_list.validated.json
+	ts-node scripts/js/src/check_uses_mapinfo_lua.ts
 
 # Auxiliary build targets
 types: gen/types/map_list.d.ts gen/map_list.schema.json
