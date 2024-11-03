@@ -69,7 +69,7 @@ jobs:
         run: |
             source .envrc
             make types
-            ts-node scripts/js/src/update_from_rowy.ts map_list.yaml ${{ steps.set_properties.outputs.map_to_sync }}
+            tsx scripts/js/src/update_from_rowy.ts map_list.yaml ${{ steps.set_properties.outputs.map_to_sync }}
       - name: Commit and create or update PR
         uses: peter-evans/create-pull-request@v6
         with:

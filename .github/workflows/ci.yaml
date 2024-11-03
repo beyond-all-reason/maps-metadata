@@ -121,7 +121,7 @@ jobs:
       - name: Patch Chobby
         run: |
           source .envrc
-          ts-node scripts/js/src/update_byar_chobby_images.ts BYAR-Chobby
+          tsx scripts/js/src/update_byar_chobby_images.ts BYAR-Chobby
           cp gen/mapDetails.lua BYAR-Chobby/LuaMenu/configs/gameConfig/byar/mapDetails.lua
           cp gen/mapBoxes.conf BYAR-Chobby/LuaMenu/configs/gameConfig/byar/savedBoxes.dat
       - name: Commit and push
@@ -223,7 +223,7 @@ jobs:
           retry_wait_seconds: 10
           command: |
             source .envrc
-            ts-node scripts/js/src/sync_to_webflow.ts sync
+            tsx scripts/js/src/sync_to_webflow.ts sync
         env:
           WEBFLOW_API_TOKEN: ${{ secrets.WEBFLOW_API_TOKEN }}
           WEBFLOW_COLLECTION_ID: ${{ vars.WEBFLOW_COLLECTION_ID }}
@@ -263,4 +263,4 @@ jobs:
       - name: Push to GDrive
         run: |
           source .envrc
-          ts-node scripts/js/src/sync_to_gdrive.ts sync
+          tsx scripts/js/src/sync_to_gdrive.ts sync
