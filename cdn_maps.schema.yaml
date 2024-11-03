@@ -28,7 +28,7 @@ items:
         type: integer
       timestamp:
         type: string
-        format: date-time
+        format: iso-date-time
       mirrors:
         type: array
         items:

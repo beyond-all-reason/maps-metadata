@@ -1,4 +1,4 @@
-FROM docker.io/library/node:18-bullseye
+FROM docker.io/library/node:22.11-bookworm
 
 RUN apt-get update \
  && apt-get upgrade -y \

@@ -143,8 +143,7 @@
       ref: maps/0jMFtrg8MuFKGgxmk6No/backgroundImage/2BoI1CYg2TUqVz40Mqxu-screen_2023-11-25_07-52-25-699.png
       type: image/png
   certified: true
-  description: Special 1V1 to 3V3 map with various unique elements like ruins and
-    secluded geothermal spots.
+  description: Special 1V1 to 3V3 map with various unique elements like ruins and secluded geothermal spots.
   displayName: Seths Ravine
   gameType:
     - team
@@ -255,8 +254,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1D03UHTgJ5axEHRPrjzh%2FbackgroundImage%2FnoJAkMzSxN84CaHFMNPY-Talus%20V2%201.jpg?alt=media&token=43ab43eb-2736-4c71-97ba-2b3a0bb4966b
       lastModifiedTS: 1617894103000
       name: Talus V2 1.jpg
-      ref: maps/1D03UHTgJ5axEHRPrjzh/backgroundImage/noJAkMzSxN84CaHFMNPY-Talus V2
-        1.jpg
+      ref: maps/1D03UHTgJ5axEHRPrjzh/backgroundImage/noJAkMzSxN84CaHFMNPY-Talus V2 1.jpg
       type: image/jpeg
   certified: true
   displayName: Talus
@@ -266,8 +264,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1D03UHTgJ5axEHRPrjzh%2FinGameShots%2F6HpCGk3GRQKo5PcoUitk-Talus%20V2%20SEO%206.jpg?alt=media&token=5648534b-0d16-4893-98b7-e41eb967f7bc
       lastModifiedTS: 1617894109000
       name: Talus V2 SEO 6.jpg
-      ref: maps/1D03UHTgJ5axEHRPrjzh/inGameShots/6HpCGk3GRQKo5PcoUitk-Talus V2 SEO
-        6.jpg
+      ref: maps/1D03UHTgJ5axEHRPrjzh/inGameShots/6HpCGk3GRQKo5PcoUitk-Talus V2 SEO 6.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1D03UHTgJ5axEHRPrjzh%2FinGameShots%2FHatMUnccy07CvXCbQoYi-TalusV2_perspective.png?alt=media&token=ae33f3a3-450b-4141-8194-f6653f2afd8a
       lastModifiedTS: 1617893933000
@@ -280,8 +277,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1D03UHTgJ5axEHRPrjzh%2FperspectiveShot%2FyZ8ffR4isgdq4EvNxqcN-Talus%20V2%202.png?alt=media&token=4e1a8215-5f5a-44c3-b4d7-68ffe5f50930
       lastModifiedTS: 1617894111000
       name: Talus V2 2.png
-      ref: maps/1D03UHTgJ5axEHRPrjzh/perspectiveShot/yZ8ffR4isgdq4EvNxqcN-Talus V2
-        2.png
+      ref: maps/1D03UHTgJ5axEHRPrjzh/perspectiveShot/yZ8ffR4isgdq4EvNxqcN-Talus V2 2.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/1D03UHTgJ5axEHRPrjzh/photo/wHTfmpydRIXwwEinapAa-Talus_V2.jpg
@@ -402,12 +398,11 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FbackgroundImage%2Fm9Efkn3vPcaDnuLXUeuD-CrescentBay_V2_SEO%204.jpg?alt=media&token=3903389f-61f6-418c-bca4-c597191f92ac
       lastModifiedTS: 1639088872403
       name: CrescentBay_V2_SEO 4.jpg
-      ref: maps/1kGT39gW0lJEkp6VxeZU/backgroundImage/m9Efkn3vPcaDnuLXUeuD-CrescentBay_V2_SEO
-        4.jpg
+      ref: maps/1kGT39gW0lJEkp6VxeZU/backgroundImage/m9Efkn3vPcaDnuLXUeuD-CrescentBay_V2_SEO 4.jpg
       type: image/jpeg
   certified: true
-  description: Large map optimal for 4 way Team Free For All but just as suitable
-    for large FFAs or teamgames with 16 players (or more).
+  description: Large map optimal for 4 way Team Free For All but just as suitable for large FFAs or teamgames with 16
+    players (or more).
   displayName: Crescent Bay
   gameType:
     - ffa
@@ -416,8 +411,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FinGameShots%2FVcEKmAvWDGdtJDoccvCH-CrescentBay_V2_SEO%202.jpg?alt=media&token=c69d1f21-c064-4d38-99c5-5c877d019a5e
       lastModifiedTS: 1639088860035
       name: CrescentBay_V2_SEO 2.jpg
-      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/VcEKmAvWDGdtJDoccvCH-CrescentBay_V2_SEO
-        2.jpg
+      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/VcEKmAvWDGdtJDoccvCH-CrescentBay_V2_SEO 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FinGameShots%2FkEfkFf0VbzH1koVYLn48-CrescentBay_V2_SEO.jpg?alt=media&token=d825ca34-ddf0-41ed-ae0b-2c0b8b7aa122
       lastModifiedTS: 1639088885071
@@ -427,14 +421,12 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FinGameShots%2FrNJjF30csEUjwfUxYQHu-CrescentBay_V2_SEO%203.jpg?alt=media&token=b011c287-2ebb-463f-b941-34995145739c
       lastModifiedTS: 1639088865083
       name: CrescentBay_V2_SEO 3.jpg
-      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/rNJjF30csEUjwfUxYQHu-CrescentBay_V2_SEO
-        3.jpg
+      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/rNJjF30csEUjwfUxYQHu-CrescentBay_V2_SEO 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FinGameShots%2FTX2wDGxjlIXI344WSjFV-CrescentBay_V2_SEO%205.jpg?alt=media&token=3cc4ef77-0867-4f77-b7e7-37d4bc42c425
       lastModifiedTS: 1639088879244
       name: CrescentBay_V2_SEO 5.jpg
-      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/TX2wDGxjlIXI344WSjFV-CrescentBay_V2_SEO
-        5.jpg
+      ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/TX2wDGxjlIXI344WSjFV-CrescentBay_V2_SEO 5.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 12
@@ -523,21 +515,16 @@
       ref: maps/20rGnfO4wwkmV5v2fXVZ/backgroundImage/fTZVksHsmZrgT6Y1HcIP-BAR_FolsomDam_BG.jpg
       type: image/jpeg
   certified: true
-  description: >-
+  description: |-
     Folsomdam Remake | BAR Certified
-
 
     Remake of the very popular map Folsomdam V4 Deluxe.
 
-
     Full remake with high quality textures and 1:1 diffuse/normalmap.
-
 
     Heightmap only slightly updated with improved erosion.
 
-
     Incl. detailed DNTS splatmaps and features, except stones.
-
 
     Including the original 14 start locations. V1.17 fixed trees/geos not loading.
   displayName: Folsom Dam
@@ -547,38 +534,32 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FsKz616T7jkv9a6Vbn1cl-BAR_FolsomDam_Image%205.jpg?alt=media&token=d5336016-7328-4962-8ca8-61f1eb05fd71
       lastModifiedTS: 1605135844000
       name: BAR_FolsomDam_Image 5.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/sKz616T7jkv9a6Vbn1cl-BAR_FolsomDam_Image
-        5.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/sKz616T7jkv9a6Vbn1cl-BAR_FolsomDam_Image 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FmyNhnarynF6gcIPZ4hRf-BAR_FolsomDam_Image%204.jpg?alt=media&token=7759e438-f7e0-44bf-8841-2510c03054aa
       lastModifiedTS: 1605135841000
       name: BAR_FolsomDam_Image 4.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/myNhnarynF6gcIPZ4hRf-BAR_FolsomDam_Image
-        4.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/myNhnarynF6gcIPZ4hRf-BAR_FolsomDam_Image 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FhqRSU6DHfWatxGNBDmMJ-BAR_FolsomDam_Image%201.jpg?alt=media&token=225142e0-57cb-42a3-b358-29bc43bc2c4b
       lastModifiedTS: 1605135848000
       name: BAR_FolsomDam_Image 1.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/hqRSU6DHfWatxGNBDmMJ-BAR_FolsomDam_Image
-        1.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/hqRSU6DHfWatxGNBDmMJ-BAR_FolsomDam_Image 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FR4WqswdM2xP8suO7y7TV-BAR_FolsomDam_Image%203.jpg?alt=media&token=a4efcf86-e759-4551-854f-c63952fd8576
       lastModifiedTS: 1605135839000
       name: BAR_FolsomDam_Image 3.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/R4WqswdM2xP8suO7y7TV-BAR_FolsomDam_Image
-        3.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/R4WqswdM2xP8suO7y7TV-BAR_FolsomDam_Image 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FLlHnJHWFY1n0866GlSgn-BAR_FolsomDam_Image%206.jpg?alt=media&token=9756f7f9-8ff9-423e-9134-87c62cfde7cb
       lastModifiedTS: 1605135846000
       name: BAR_FolsomDam_Image 6.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/LlHnJHWFY1n0866GlSgn-BAR_FolsomDam_Image
-        6.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/LlHnJHWFY1n0866GlSgn-BAR_FolsomDam_Image 6.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2FinGameShots%2FKM8qnmUH0rPm9ZSNqMhK-BAR_FolsomDam_Image%202.jpg?alt=media&token=e593d6b3-4685-4bdc-a217-7ef42019a39e
       lastModifiedTS: 1605135851000
       name: BAR_FolsomDam_Image 2.jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/KM8qnmUH0rPm9ZSNqMhK-BAR_FolsomDam_Image
-        2.jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/inGameShots/KM8qnmUH0rPm9ZSNqMhK-BAR_FolsomDam_Image 2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -592,8 +573,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F20rGnfO4wwkmV5v2fXVZ%2Fphoto%2Fn0Ihytq7bbOKgczeaL66-folsom-minimap-photo%20(1).jpg?alt=media&token=c4e024c9-5ed3-4f41-bda7-b1cdd5f37fbd
       lastModifiedTS: 1600515249124
       name: folsom-minimap-photo (1).jpg
-      ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/n0Ihytq7bbOKgczeaL66-folsom-minimap-photo
-        (1).jpg
+      ref: maps/20rGnfO4wwkmV5v2fXVZ/photo/n0Ihytq7bbOKgczeaL66-folsom-minimap-photo (1).jpg
       type: image/jpeg
   playerCount: 16
   special: Dam
@@ -627,8 +607,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FbackgroundImage%2FPDnhHaGsWZOHhzz5qcUb-Neurope_Remake_4.1%20BG.jpg?alt=media&token=8df46154-25ff-4dc6-9182-6cc9264291a1
       lastModifiedTS: 1699876708630
       name: Neurope_Remake_4.1 BG.jpg
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/backgroundImage/PDnhHaGsWZOHhzz5qcUb-Neurope_Remake_4.1
-        BG.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/backgroundImage/PDnhHaGsWZOHhzz5qcUb-Neurope_Remake_4.1 BG.jpg
       type: image/jpeg
   certified: true
   displayName: Neurope
@@ -638,26 +617,22 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FinGameShots%2F3VLy3CDpte2hQ15tHvVa-Neurope_Remake_4.1%20screenshot%201.jpg?alt=media&token=1d0a58c3-693c-4344-9447-22edeb94c0e8
       lastModifiedTS: 1699876686242
       name: Neurope_Remake_4.1 screenshot 1.jpg
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/3VLy3CDpte2hQ15tHvVa-Neurope_Remake_4.1
-        screenshot 1.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/3VLy3CDpte2hQ15tHvVa-Neurope_Remake_4.1 screenshot 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FinGameShots%2F9Fqt3tn2ztZ71qS52Z1o-Neurope_Remake_4.1%20screenshot%204.jpg?alt=media&token=43259d9a-4a8f-412e-9b36-0b4db9b05120
       lastModifiedTS: 1699876702201
       name: Neurope_Remake_4.1 screenshot 4.jpg
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/9Fqt3tn2ztZ71qS52Z1o-Neurope_Remake_4.1
-        screenshot 4.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/9Fqt3tn2ztZ71qS52Z1o-Neurope_Remake_4.1 screenshot 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FinGameShots%2F0o6wKC6yxCNMEwbpCMBD-Neurope_Remake_4.1%20screenshot%203.jpg?alt=media&token=42456087-95f8-4564-907c-80dcfeeb52e7
       lastModifiedTS: 1699876696208
       name: Neurope_Remake_4.1 screenshot 3.jpg
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/0o6wKC6yxCNMEwbpCMBD-Neurope_Remake_4.1
-        screenshot 3.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/0o6wKC6yxCNMEwbpCMBD-Neurope_Remake_4.1 screenshot 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FinGameShots%2F57xhfCKDLcnUa1Rds99Z-Neurope_Remake_4.1%20screenshot%202.jpg?alt=media&token=51d4c72e-c24b-4c15-b3da-5e3947fa5bc7
       lastModifiedTS: 1699876692630
       name: Neurope_Remake_4.1 screenshot 2.jpg
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/57xhfCKDLcnUa1Rds99Z-Neurope_Remake_4.1
-        screenshot 2.jpg
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/inGameShots/57xhfCKDLcnUa1Rds99Z-Neurope_Remake_4.1 screenshot 2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 10
@@ -665,8 +640,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2Jm1E7F819zbEWOr2Bwc%2FperspectiveShot%2Feh3skvPcgO9iM1tvEE61-Neurope_Remake_4.1%20perspect.png?alt=media&token=069c5367-754d-410e-b5bd-4788694c2135
       lastModifiedTS: 1699876682098
       name: Neurope_Remake_4.1 perspect.png
-      ref: maps/2Jm1E7F819zbEWOr2Bwc/perspectiveShot/eh3skvPcgO9iM1tvEE61-Neurope_Remake_4.1
-        perspect.png
+      ref: maps/2Jm1E7F819zbEWOr2Bwc/perspectiveShot/eh3skvPcgO9iM1tvEE61-Neurope_Remake_4.1 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2Jm1E7F819zbEWOr2Bwc/photo/Q0c0xJDxHPO8jm1t9Yrj-Neurope_Remake_4.2.jpg
@@ -811,8 +785,7 @@
 2NlrSE2CMUyFpxlComtj:
   author: Phalange
   certified: false
-  description: "Tips for water level settings : -20 for no shallow waters, -200
-    for no water, +30 max for navy only."
+  description: "Tips for water level settings : -20 for no shallow waters, -200 for no water, +30 max for navy only."
   displayName: Erebos Lakes
   gameType:
     - team
@@ -1477,8 +1450,8 @@
       ref: maps/44vuVzD9DD5wyzZz0L7i/backgroundImage/ZN40ag1ixsky6yHXw24f-screen_2023-11-24_21-21-11-508.png
       type: image/png
   certified: true
-  description: Fight over the numerous ridges leading to the central hill. A good
-    fit for 1v1-3v3 games, inspired by the Starcraft map Heartbreak Ridge.
+  description: Fight over the numerous ridges leading to the central hill. A good fit for 1v1-3v3 games, inspired by the
+    Starcraft map Heartbreak Ridge.
   displayName: Heartbreak Hill
   gameType:
     - team
@@ -1517,8 +1490,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FbackgroundImage%2FjyS2Ojk8a1ZdnTyQ4fdo-glacier_pass_1.2%20BG.jpg?alt=media&token=70aebafb-7f65-4e23-ae25-741a847eb7de
       lastModifiedTS: 1610200027000
       name: glacier_pass_1.2 BG.jpg
-      ref: maps/4FOX0gezL8gapbMPNmKH/backgroundImage/jyS2Ojk8a1ZdnTyQ4fdo-glacier_pass_1.2
-        BG.jpg
+      ref: maps/4FOX0gezL8gapbMPNmKH/backgroundImage/jyS2Ojk8a1ZdnTyQ4fdo-glacier_pass_1.2 BG.jpg
       type: image/jpeg
   certified: true
   description: |-
@@ -1535,14 +1507,12 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FinGameShots%2Fz3rSYiOrODBj50qdX4lR-glacier_pass_1.2_SEO%203.jpg?alt=media&token=e1f522bf-1ab1-4336-b1da-15938897855a
       lastModifiedTS: 1610200039000
       name: glacier_pass_1.2_SEO 3.jpg
-      ref: maps/4FOX0gezL8gapbMPNmKH/inGameShots/z3rSYiOrODBj50qdX4lR-glacier_pass_1.2_SEO
-        3.jpg
+      ref: maps/4FOX0gezL8gapbMPNmKH/inGameShots/z3rSYiOrODBj50qdX4lR-glacier_pass_1.2_SEO 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FinGameShots%2FVDaVRKx6xRdioV1ngdyV-glacier_pass_1.2_SEO%202.jpg?alt=media&token=6b19367b-22fa-4540-b409-7b842fa1ab63
       lastModifiedTS: 1610200036000
       name: glacier_pass_1.2_SEO 2.jpg
-      ref: maps/4FOX0gezL8gapbMPNmKH/inGameShots/VDaVRKx6xRdioV1ngdyV-glacier_pass_1.2_SEO
-        2.jpg
+      ref: maps/4FOX0gezL8gapbMPNmKH/inGameShots/VDaVRKx6xRdioV1ngdyV-glacier_pass_1.2_SEO 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FinGameShots%2F9h0Spcl0DkAMyjJ4hIbF-glacier_pass_1.2_SEO.jpg?alt=media&token=15f34ceb-f4d8-4fb6-878e-1ab52c4bc749
       lastModifiedTS: 1610200023000
@@ -1555,8 +1525,7 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4FOX0gezL8gapbMPNmKH%2FperspectiveShot%2F7sXBmmzCf5bHEPXji4RY-glacier_pass_1.2%20Perspective.png?alt=media&token=1eef2d5b-c27b-4142-8d90-187962f87589
       lastModifiedTS: 1610200029000
       name: glacier_pass_1.2 Perspective.png
-      ref: maps/4FOX0gezL8gapbMPNmKH/perspectiveShot/7sXBmmzCf5bHEPXji4RY-glacier_pass_1.2
-        Perspective.png
+      ref: maps/4FOX0gezL8gapbMPNmKH/perspectiveShot/7sXBmmzCf5bHEPXji4RY-glacier_pass_1.2 Perspective.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/4FOX0gezL8gapbMPNmKH/photo/iXB6JADCVzq9rwVDmGAM-glacier_pass_1.2.jpg
@@ -1862,8 +1831,7 @@
       ref: maps/5qY4GxEPrIG1wfxBkbQ0/backgroundImage/6n4zUitM0E4igsaLYCsa-screen_2024-04-21_17-58-59-356.png
       type: image/png
   certified: true
-  description: Two seas, one bridge. Prove your skills and win on this red planet
-    battlefield.
+  description: Two seas, one bridge. Prove your skills and win on this red planet battlefield.
   displayName: Hellas Basin
   gameType:
     - team
@@ -2068,8 +2036,7 @@
       ref: maps/7pm2zaEOk8QaxaEeOnZJ/backgroundImage/hIDmKgjGctxMy6Q4efB9-_Wl8tUYJWns7-MZ2gCa5p2nA62z7bd75LxTDgSQYvEg.png
       type: image/png
   certified: true
-  description: Guide your horse through this barren landscape, but be vary of
-    enemy horses pushing your way.
+  description: Guide your horse through this barren landscape, but be vary of enemy horses pushing your way.
   displayName: Eight Horses
   gameType:
     - team
@@ -2371,14 +2338,12 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F8NJ4dy6hrSPsrezNmczE%2FinGameShots%2F5pDo4NjK7O0NF4KRiyg3-Pillar-of-Doom_SEO%204.jpg?alt=media&token=db5e77c8-1095-4077-a2e9-87ab85046c48
       lastModifiedTS: 1639092234239
       name: Pillar-of-Doom_SEO 4.jpg
-      ref: maps/8NJ4dy6hrSPsrezNmczE/inGameShots/5pDo4NjK7O0NF4KRiyg3-Pillar-of-Doom_SEO
-        4.jpg
+      ref: maps/8NJ4dy6hrSPsrezNmczE/inGameShots/5pDo4NjK7O0NF4KRiyg3-Pillar-of-Doom_SEO 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F8NJ4dy6hrSPsrezNmczE%2FinGameShots%2FYbBTOhfgZAGlOe9l63c4-Pillar-of-Doom_SEO%203.jpg?alt=media&token=4242a3c4-2af9-4143-9df6-975127874f64
       lastModifiedTS: 1639092240983
       name: Pillar-of-Doom_SEO 3.jpg
-      ref: maps/8NJ4dy6hrSPsrezNmczE/inGameShots/YbBTOhfgZAGlOe9l63c4-Pillar-of-Doom_SEO
-        3.jpg
+      ref: maps/8NJ4dy6hrSPsrezNmczE/inGameShots/YbBTOhfgZAGlOe9l63c4-Pillar-of-Doom_SEO 3.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -2590,8 +2555,7 @@
       ref: maps/9jHSyg8smAwuk6d3HZgm/backgroundImage/k233xuFr2yAGHYpzXfJl-canis_river_background.jpg
       type: image/jpeg
   certified: false
-  description: Plateaus ridges are bots passable. Two shallow water crossings in
-    the map corners unless +15m water level.
+  description: Plateaus ridges are bots passable. Two shallow water crossings in the map corners unless +15m water level.
   displayName: Canis River
   gameType:
     - team
@@ -2691,13 +2655,11 @@
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9pCv5iZ1gaLWioi1A8KJ%2FbackgroundImage%2FNOGtur9Rk1B59HDyzKWW-screen03013%20(Large).jpg?alt=media&token=b56e7e3a-dd74-43bc-9dd4-797559028f20
       lastModifiedTS: 1592043443000
       name: screen03013 (Large).jpg
-      ref: maps/9pCv5iZ1gaLWioi1A8KJ/backgroundImage/NOGtur9Rk1B59HDyzKWW-screen03013
-        (Large).jpg
+      ref: maps/9pCv5iZ1gaLWioi1A8KJ/backgroundImage/NOGtur9Rk1B59HDyzKWW-screen03013 (Large).jpg
       type: image/jpeg
   certified: true
-  description: Large map that is optimal for 2 teams, up to 5 players each. Fight
-    over and reclaim the metal rocks in center quickly. Build your base in
-    relative safety behind high hills and secure the metal spots in the middle.
+  description: Large map that is optimal for 2 teams, up to 5 players each. Fight over and reclaim the metal rocks in
+    center quickly. Build your base in relative safety behind high hills and secure the metal spots in the middle.
   displayName: Altored Divide
   gameType:
     - team
@@ -3184,8 +3146,8 @@ ASieUn5uvk5eyZz6KhUt:
       ref: maps/ASieUn5uvk5eyZz6KhUt/backgroundImage/4edRwTEnxfUNAGyjtsf0-screen_2023-11-25_02-53-55-167.png
       type: image/png
   certified: true
-  description: 16 players free for all. Flagships and subs can pass shallows,
-    remake of mearth map made by [teh]Beherith, concept by JRRT
+  description: 16 players free for all. Flagships and subs can pass shallows, remake of mearth map made by [teh]Beherith,
+    concept by JRRT
   displayName: Odderon Strandflats
   gameType:
     - pve
@@ -3311,13 +3273,11 @@ An6zReiqIWD15Yx7bZ3b:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FAn6zReiqIWD15Yx7bZ3b%2FbackgroundImage%2FMZDTbdkXq913kqaUekGK-AltairCrossing%201.jpg?alt=media&token=fa7b61b8-16ea-46d6-98d9-d847f7deba80
       lastModifiedTS: 1617889890000
       name: AltairCrossing 1.jpg
-      ref: maps/An6zReiqIWD15Yx7bZ3b/backgroundImage/MZDTbdkXq913kqaUekGK-AltairCrossing
-        1.jpg
+      ref: maps/An6zReiqIWD15Yx7bZ3b/backgroundImage/MZDTbdkXq913kqaUekGK-AltairCrossing 1.jpg
       type: image/jpeg
   certified: true
-  description: Optimal for 2 teams, up to 3 players each. Small map that lends
-    itself for t1 fights. Reclaim the metal rocks quickly and fight over the
-    scarce expansion options.
+  description: Optimal for 2 teams, up to 3 players each. Small map that lends itself for t1 fights. Reclaim the metal
+    rocks quickly and fight over the scarce expansion options.
   displayName: Altair Crossing
   gameType:
     - team
@@ -3326,8 +3286,7 @@ An6zReiqIWD15Yx7bZ3b:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FAn6zReiqIWD15Yx7bZ3b%2FinGameShots%2F3anofQRvzHwJrhYDCmp4-AltairCrossing%20SEO%205.jpg?alt=media&token=5a069237-a150-410e-879b-8bcc2e6dcb93
       lastModifiedTS: 1617889882000
       name: AltairCrossing SEO 5.jpg
-      ref: maps/An6zReiqIWD15Yx7bZ3b/inGameShots/3anofQRvzHwJrhYDCmp4-AltairCrossing
-        SEO 5.jpg
+      ref: maps/An6zReiqIWD15Yx7bZ3b/inGameShots/3anofQRvzHwJrhYDCmp4-AltairCrossing SEO 5.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -3337,8 +3296,7 @@ An6zReiqIWD15Yx7bZ3b:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FAn6zReiqIWD15Yx7bZ3b%2FperspectiveShot%2FXsxHmrqoY3QvAEF9E9Aa-AltairCrossing%202.png?alt=media&token=6d3a4704-d370-41e6-b8fe-3c69ef738a82
       lastModifiedTS: 1617889884000
       name: AltairCrossing 2.png
-      ref: maps/An6zReiqIWD15Yx7bZ3b/perspectiveShot/XsxHmrqoY3QvAEF9E9Aa-AltairCrossing
-        2.png
+      ref: maps/An6zReiqIWD15Yx7bZ3b/perspectiveShot/XsxHmrqoY3QvAEF9E9Aa-AltairCrossing 2.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/An6zReiqIWD15Yx7bZ3b/photo/heuM6R3jGDJawc5i0pwn-Altair_Crossing_V4.jpg
@@ -4121,9 +4079,8 @@ E17BdeDITeBMZ8YwcBie:
       ref: maps/E17BdeDITeBMZ8YwcBie/backgroundImage/3lfychTI0treYjMikuic-Colorado_V2BG-tinified.jpg
       type: image/jpeg
   certified: true
-  description: Optimal for large teamgames with up to 7 players per team. High
-    hills and deep canyons provide several strategic points to capture. Be sure
-    to reclaim the many metal rocks early on.
+  description: Optimal for large teamgames with up to 7 players per team. High hills and deep canyons provide several
+    strategic points to capture. Be sure to reclaim the many metal rocks early on.
   displayName: Colorado
   gameType:
     - team
@@ -4136,14 +4093,12 @@ E17BdeDITeBMZ8YwcBie:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FE17BdeDITeBMZ8YwcBie%2FinGameShots%2FelQ4cyL2m60mFOjacdao-Colorado_SEO%202-tinified.jpg?alt=media&token=3f3f6d1f-a40f-43dc-9097-6e01193d3707
       lastModifiedTS: 1639055435071
       name: Colorado_SEO 2-tinified.jpg
-      ref: maps/E17BdeDITeBMZ8YwcBie/inGameShots/elQ4cyL2m60mFOjacdao-Colorado_SEO
-        2-tinified.jpg
+      ref: maps/E17BdeDITeBMZ8YwcBie/inGameShots/elQ4cyL2m60mFOjacdao-Colorado_SEO 2-tinified.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FE17BdeDITeBMZ8YwcBie%2FinGameShots%2FlJd4gU6Y9kOPiudQshMJ-Colorado_SEO%203-tinified.jpg?alt=media&token=b4c16759-ffe5-4ed9-8612-d99063fc7bdc
       lastModifiedTS: 1639055440997
       name: Colorado_SEO 3-tinified.jpg
-      ref: maps/E17BdeDITeBMZ8YwcBie/inGameShots/lJd4gU6Y9kOPiudQshMJ-Colorado_SEO
-        3-tinified.jpg
+      ref: maps/E17BdeDITeBMZ8YwcBie/inGameShots/lJd4gU6Y9kOPiudQshMJ-Colorado_SEO 3-tinified.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -4151,8 +4106,7 @@ E17BdeDITeBMZ8YwcBie:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FE17BdeDITeBMZ8YwcBie%2FperspectiveShot%2FK0pG984y7x5AOgi8sZrZ-Colorado_3D-tinified%20(Large).png?alt=media&token=7b60875c-456c-44fd-b90a-bc99b255a227
       lastModifiedTS: 1639055878886
       name: Colorado_3D-tinified (Large).png
-      ref: maps/E17BdeDITeBMZ8YwcBie/perspectiveShot/K0pG984y7x5AOgi8sZrZ-Colorado_3D-tinified
-        (Large).png
+      ref: maps/E17BdeDITeBMZ8YwcBie/perspectiveShot/K0pG984y7x5AOgi8sZrZ-Colorado_3D-tinified (Large).png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/E17BdeDITeBMZ8YwcBie/photo/UoIK0rrY5wc4E1q1OKQp-Colorado_V2_1.1.jpg
@@ -4275,12 +4229,10 @@ F40FJFEjKm3hcVzdnIvA:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FbackgroundImage%2FPBaHUhF8eyseJ2GM1vdM-Requiem_Outpost_1.0%20overview.jpg?alt=media&token=dc6dd09d-9768-4f4f-837a-f39c829ad1af
       lastModifiedTS: 1647377356513
       name: Requiem_Outpost_1.0 overview.jpg
-      ref: maps/F40FJFEjKm3hcVzdnIvA/backgroundImage/PBaHUhF8eyseJ2GM1vdM-Requiem_Outpost_1.0
-        overview.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/backgroundImage/PBaHUhF8eyseJ2GM1vdM-Requiem_Outpost_1.0 overview.jpg
       type: image/jpeg
   certified: true
-  description: Survival map. Ideal for asymmetrical strength team. Strong team on
-    the right (team 2)
+  description: Survival map. Ideal for asymmetrical strength team. Strong team on the right (team 2)
   displayName: Requiem Outpost
   gameType:
     - team
@@ -4290,26 +4242,22 @@ F40FJFEjKm3hcVzdnIvA:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FinGameShots%2FeJq5mmuvLKvNqolPh0vO-Requiem_Outpost_1.0%20screenshot%201.jpg?alt=media&token=e037bc2b-d387-421a-9746-db2ad58ca81e
       lastModifiedTS: 1647377310975
       name: Requiem_Outpost_1.0 screenshot 1.jpg
-      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/eJq5mmuvLKvNqolPh0vO-Requiem_Outpost_1.0
-        screenshot 1.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/eJq5mmuvLKvNqolPh0vO-Requiem_Outpost_1.0 screenshot 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FinGameShots%2F37VrtV2PKjLZQE6YEW72-Requiem_Outpost_1.0%20SEO.jpg?alt=media&token=09d12a62-1a98-4fb5-9cc5-c1eb905c0974
       lastModifiedTS: 1647377328876
       name: Requiem_Outpost_1.0 SEO.jpg
-      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/37VrtV2PKjLZQE6YEW72-Requiem_Outpost_1.0
-        SEO.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/37VrtV2PKjLZQE6YEW72-Requiem_Outpost_1.0 SEO.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FinGameShots%2FVIm68Y2dy68hiEXJyAwx-Requiem_Outpost_1.0%20screenshot%203.jpg?alt=media&token=8b35b258-08dc-4e44-8bf7-6c65d8849c59
       lastModifiedTS: 1647377323510
       name: Requiem_Outpost_1.0 screenshot 3.jpg
-      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/VIm68Y2dy68hiEXJyAwx-Requiem_Outpost_1.0
-        screenshot 3.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/VIm68Y2dy68hiEXJyAwx-Requiem_Outpost_1.0 screenshot 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FinGameShots%2Fjn16ZMvf1RjZypqQlQmn-Requiem_Outpost_1.0%20screenshot%202.jpg?alt=media&token=74cc2d74-7145-46a8-933c-b445517744c9
       lastModifiedTS: 1647377315802
       name: Requiem_Outpost_1.0 screenshot 2.jpg
-      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/jn16ZMvf1RjZypqQlQmn-Requiem_Outpost_1.0
-        screenshot 2.jpg
+      ref: maps/F40FJFEjKm3hcVzdnIvA/inGameShots/jn16ZMvf1RjZypqQlQmn-Requiem_Outpost_1.0 screenshot 2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -4317,8 +4265,7 @@ F40FJFEjKm3hcVzdnIvA:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FF40FJFEjKm3hcVzdnIvA%2FperspectiveShot%2FJr7g855BAGkmlXrUY5kz-Requiem_Outpost_1.0%20perspect.png?alt=media&token=0c64b4f8-a30a-4b58-898a-cb987cfa3be0
       lastModifiedTS: 1647377338875
       name: Requiem_Outpost_1.0 perspect.png
-      ref: maps/F40FJFEjKm3hcVzdnIvA/perspectiveShot/Jr7g855BAGkmlXrUY5kz-Requiem_Outpost_1.0
-        perspect.png
+      ref: maps/F40FJFEjKm3hcVzdnIvA/perspectiveShot/Jr7g855BAGkmlXrUY5kz-Requiem_Outpost_1.0 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/F40FJFEjKm3hcVzdnIvA/photo/wGRkjzEWDGvyY3oTJ4oI-Requiem_Outpost_1.0.jpg
@@ -4359,8 +4306,7 @@ FEkKsVrHELjFh7HQstFq:
       ref: maps/FEkKsVrHELjFh7HQstFq/backgroundImage/bqt9FJDT07FaLvD1jia4-screen_2023-12-08_16-31-12-623.png
       type: image/png
   certified: true
-  description: Let experience dictate power, the king and his most loyal will
-    shoulder your burdens.
+  description: Let experience dictate power, the king and his most loyal will shoulder your burdens.
   displayName: Kings Assault
   gameType:
     - team
@@ -4537,8 +4483,7 @@ FmRZtQ8Wvce6HgKj1uyZ:
       ref: maps/FmRZtQ8Wvce6HgKj1uyZ/backgroundImage/0K4uDYB4NQOlOyybyHXh-screen_2024-03-13_04-11-35-976.png
       type: image/png
   certified: true
-  description: Grassy lowlands on the sides and dry upper plateaus in the center.
-    1v1 to 3v3.
+  description: Grassy lowlands on the sides and dry upper plateaus in the center. 1v1 to 3v3.
   displayName: Wanderlust
   gameType:
     - team
@@ -5342,8 +5287,7 @@ Gydc5ydDuhV4hS7cyJJm:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGydc5ydDuhV4hS7cyJJm%2FinGameShots%2FJhmNhnUHphYgY6pDi9NU-Death-Valley_SEO%205.jpg?alt=media&token=2d479bd9-d722-43db-839b-8e4620db0844
       lastModifiedTS: 1639170000479
       name: Death-Valley_SEO 5.jpg
-      ref: maps/Gydc5ydDuhV4hS7cyJJm/inGameShots/JhmNhnUHphYgY6pDi9NU-Death-Valley_SEO
-        5.jpg
+      ref: maps/Gydc5ydDuhV4hS7cyJJm/inGameShots/JhmNhnUHphYgY6pDi9NU-Death-Valley_SEO 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGydc5ydDuhV4hS7cyJJm%2FinGameShots%2FTN6HIWQwPwRtUAMpbmF9-Death-Valley_SEO.jpg?alt=media&token=5b46d907-829a-44d0-9eac-b93b0774bb44
       lastModifiedTS: 1639169977699
@@ -5353,8 +5297,7 @@ Gydc5ydDuhV4hS7cyJJm:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGydc5ydDuhV4hS7cyJJm%2FinGameShots%2F4EmKJFTFB3QxUhxIWM2V-Death-Valley_SEO%202.jpg?alt=media&token=3bf07e4a-ff9e-4f5b-ab1d-22ecc552e3a4
       lastModifiedTS: 1639169973247
       name: Death-Valley_SEO 2.jpg
-      ref: maps/Gydc5ydDuhV4hS7cyJJm/inGameShots/4EmKJFTFB3QxUhxIWM2V-Death-Valley_SEO
-        2.jpg
+      ref: maps/Gydc5ydDuhV4hS7cyJJm/inGameShots/4EmKJFTFB3QxUhxIWM2V-Death-Valley_SEO 2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -5495,8 +5438,8 @@ I7GpETWic750BOdwvkdh:
       ref: maps/I7GpETWic750BOdwvkdh/backgroundImage/yIJTwiYL6uRE8vgNoFCN-screen_2023-11-24_20-49-29-465.png
       type: image/png
   certified: true
-  description: "Narrow, metal-rich crevasse between two large ice flues. Easily
-    defendable starting positions, and center ford is vulnerable to artillery. "
+  description: "Narrow, metal-rich crevasse between two large ice flues. Easily defendable starting positions, and center
+    ford is vulnerable to artillery. "
   displayName: Frozen Ford
   gameType:
     - team
@@ -5616,8 +5559,8 @@ JWJVrROvEUieLeIfuS9a:
       ref: maps/JWJVrROvEUieLeIfuS9a/backgroundImage/BxtRuOKJoaGABEAcqQJ3-BarR_1.1_BG.jpg
       type: image/jpeg
   certified: true
-  description: Small map, optimal for 1v1 or 2v2. The low resources
-    and  interesting mountains and passes reward the more nimble Bots.
+  description: Small map, optimal for 1v1 or 2v2. The low resources and  interesting mountains and passes reward the more
+    nimble Bots.
   displayName: BarR
   gameType:
     - team
@@ -5631,14 +5574,12 @@ JWJVrROvEUieLeIfuS9a:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJWJVrROvEUieLeIfuS9a%2FinGameShots%2ForeHpItQr90liG6YvAHa-BarR_1.1_SEO%20(1).jpg?alt=media&token=1f08391c-bb4f-485a-9a2b-d246cb2e3c4a
       lastModifiedTS: 1609290661000
       name: BarR_1.1_SEO (1).jpg
-      ref: maps/JWJVrROvEUieLeIfuS9a/inGameShots/oreHpItQr90liG6YvAHa-BarR_1.1_SEO
-        (1).jpg
+      ref: maps/JWJVrROvEUieLeIfuS9a/inGameShots/oreHpItQr90liG6YvAHa-BarR_1.1_SEO (1).jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJWJVrROvEUieLeIfuS9a%2FinGameShots%2FmgzIehYyBBR2rLnN1Cr2-BarR_1.1_SEO%20(2).jpg?alt=media&token=29af5c5d-db2c-4ad6-be36-dcec9601eb7b
       lastModifiedTS: 1609290738000
       name: BarR_1.1_SEO (2).jpg
-      ref: maps/JWJVrROvEUieLeIfuS9a/inGameShots/mgzIehYyBBR2rLnN1Cr2-BarR_1.1_SEO
-        (2).jpg
+      ref: maps/JWJVrROvEUieLeIfuS9a/inGameShots/mgzIehYyBBR2rLnN1Cr2-BarR_1.1_SEO (2).jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJWJVrROvEUieLeIfuS9a%2FinGameShots%2FiZkT0h6NJB1FouuLzWS6-BarR_1.1_SEO.jpg?alt=media&token=89b45f17-70a0-4c0a-88b9-c08b9aa65c48
       lastModifiedTS: 1609289442000
@@ -5689,10 +5630,9 @@ Jdb4pZyLQPb0IkSmaVrO:
       ref: maps/Jdb4pZyLQPb0IkSmaVrO/backgroundImage/Gkr1uoCCM7RnuEgbrctw-QSR_background.jpg
       type: image/jpeg
   certified: true
-  description: A remake of a great map Quicksilver. This version has slightly more
-    erosion, and vegetation has become tropical. Also the island is the same
-    size as the original, but the map is increased slightly for better area
-    around the island.
+  description: A remake of a great map Quicksilver. This version has slightly more erosion, and vegetation has become
+    tropical. Also the island is the same size as the original, but the map is increased slightly for better area around
+    the island.
   displayName: Quicksilver
   gameType:
     - 1v1
@@ -5772,8 +5712,7 @@ KAQ69kPLvMZgMuLXIoyU:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKAQ69kPLvMZgMuLXIoyU%2Fphoto%2FwhPysupyZ1FViJL3yHRr-Screenshot%20at%202023-08-13%2023-03-50.png?alt=media&token=e56f6213-e6c8-4fc7-af5f-647c1006e54e
       lastModifiedTS: 1691957030673
       name: Screenshot at 2023-08-13 23-03-50.png
-      ref: maps/KAQ69kPLvMZgMuLXIoyU/photo/whPysupyZ1FViJL3yHRr-Screenshot at
-        2023-08-13 23-03-50.png
+      ref: maps/KAQ69kPLvMZgMuLXIoyU/photo/whPysupyZ1FViJL3yHRr-Screenshot at 2023-08-13 23-03-50.png
       type: image/png
   playerCount: 8
   springName: Lavender Bender v2
@@ -5847,9 +5786,8 @@ Lpy4w1DTM7BjEfERE3wK:
       ref: maps/Lpy4w1DTM7BjEfERE3wK/backgroundImage/dmz9sS5JquNd7MuC1AV1-screen_2023-11-25_17-45-53-982.png
       type: image/png
   certified: true
-  description: Small map, optimal for 1v1 or 2v2. The hills on the sides and the
-    passable lake in middle present opportunities to bots while the flat terrain
-    gives way to vehicles.
+  description: Small map, optimal for 1v1 or 2v2. The hills on the sides and the passable lake in middle present
+    opportunities to bots while the flat terrain gives way to vehicles.
   displayName: Callisto
   gameType:
     - team
@@ -5898,9 +5836,8 @@ LutAHarULFOEKKA21AvQ:
       ref: maps/LutAHarULFOEKKA21AvQ/backgroundImage/uHBb2yOaWjPC89Sd0lai-screen_2023-11-24_02-14-48-062.png
       type: image/png
   certified: true
-  description: Small map, optimal for 3 way Free For All. Players start on hills
-    that are traversable by kbots. Reclaim the metal rocks and fight for the
-    metal spots in the middle.
+  description: Small map, optimal for 3 way Free For All. Players start on hills that are traversable by kbots. Reclaim
+    the metal rocks and fight for the metal spots in the middle.
   displayName: Desolation
   gameType:
     - team
@@ -6030,8 +5967,7 @@ MRCGsZ8eB04FPYmwheUi:
       ref: maps/MRCGsZ8eB04FPYmwheUi/backgroundImage/2kjN8LoKqTtEDsABOLVy-screen_2024-02-23_12-43-45-089.png
       type: image/png
   certified: true
-  description: 64 manufacturing stations strewn on a factory floor. Resources are
-    higher in the center stations.
+  description: 64 manufacturing stations strewn on a factory floor. Resources are higher in the center stations.
   displayName: Adamantium Factory
   gameType:
     - team
@@ -6238,8 +6174,7 @@ NULeDCjbZw5azkUT66rZ:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FNULeDCjbZw5azkUT66rZ%2FinGameShots%2FWBBpQJ3FoNoiNxxhJ8B9-Asteroid_Mines_V2_overview%202.jpg?alt=media&token=fe38e3c8-1f56-4bef-bec3-63ece2773417
       lastModifiedTS: 1641468128555
       name: Asteroid_Mines_V2_overview 2.jpg
-      ref: maps/NULeDCjbZw5azkUT66rZ/inGameShots/WBBpQJ3FoNoiNxxhJ8B9-Asteroid_Mines_V2_overview
-        2.jpg
+      ref: maps/NULeDCjbZw5azkUT66rZ/inGameShots/WBBpQJ3FoNoiNxxhJ8B9-Asteroid_Mines_V2_overview 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FNULeDCjbZw5azkUT66rZ%2FinGameShots%2FwfFXdbW1YrwtBg4XKIKI-Asteroid_Mines_V2_SEO.jpg?alt=media&token=e111327e-f09d-4852-b775-3239b95d4158
       lastModifiedTS: 1641468121494
@@ -6252,8 +6187,7 @@ NULeDCjbZw5azkUT66rZ:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FNULeDCjbZw5azkUT66rZ%2FperspectiveShot%2FS8IpvlUURgo4KZlFjdJu-Asteroid_Mines_V2_3D%20(1).png?alt=media&token=d0d11fdd-797b-4225-aec8-f5ef3fc74680
       lastModifiedTS: 1641468492296
       name: Asteroid_Mines_V2_3D (1).png
-      ref: maps/NULeDCjbZw5azkUT66rZ/perspectiveShot/S8IpvlUURgo4KZlFjdJu-Asteroid_Mines_V2_3D
-        (1).png
+      ref: maps/NULeDCjbZw5azkUT66rZ/perspectiveShot/S8IpvlUURgo4KZlFjdJu-Asteroid_Mines_V2_3D (1).png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/NULeDCjbZw5azkUT66rZ/photo/MaIjEsuchC9mvMLlMQSa-Asteroid_Mines_V2.1.jpg
@@ -6496,8 +6430,7 @@ PekWgagUAJmWoOua3BKS:
       ref: maps/PekWgagUAJmWoOua3BKS/backgroundImage/I54hBdSQQhVlGbjRth7s-screen_2024-09-03_20-47-47-933.png
       type: image/png
   certified: true
-  description: A lush jungle with a large river contains dense vegetation and many
-    shallows. East vs West.
+  description: A lush jungle with a large river contains dense vegetation and many shallows. East vs West.
   displayName: The Rock Jungle
   gameType:
     - team
@@ -6557,8 +6490,7 @@ PiT4WHNB94kc8vlAZtot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2FbackgroundImage%2FMiC9imlmyIHxIEA6jLgH-Forge2.3%20overview.jpg?alt=media&token=7dcd6f2b-f7da-4a01-ada9-021c650bea18
       lastModifiedTS: 1699875148869
       name: Forge2.3 overview.jpg
-      ref: maps/PiT4WHNB94kc8vlAZtot/backgroundImage/MiC9imlmyIHxIEA6jLgH-Forge2.3
-        overview.jpg
+      ref: maps/PiT4WHNB94kc8vlAZtot/backgroundImage/MiC9imlmyIHxIEA6jLgH-Forge2.3 overview.jpg
       type: image/jpeg
   certified: true
   description: This is a crucible to forge your victory.
@@ -6582,8 +6514,7 @@ PiT4WHNB94kc8vlAZtot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2FperspectiveShot%2F2VtpYr6MLXUWNI6XPzC5-Forge2.3%20perspect.png?alt=media&token=3d44e71c-9ae6-444b-9e36-356c40975789
       lastModifiedTS: 1699874902073
       name: Forge2.3 perspect.png
-      ref: maps/PiT4WHNB94kc8vlAZtot/perspectiveShot/2VtpYr6MLXUWNI6XPzC5-Forge2.3
-        perspect.png
+      ref: maps/PiT4WHNB94kc8vlAZtot/perspectiveShot/2VtpYr6MLXUWNI6XPzC5-Forge2.3 perspect.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPiT4WHNB94kc8vlAZtot%2Fphoto%2FayplONs21TjVSac6UgZX-forge_v2.3.jpg?alt=media&token=f1e08b9d-4b81-4c62-bbcc-d909db0738ce
@@ -6788,8 +6719,7 @@ QaENCgzeDrnkRnRsgnVT:
       ref: maps/QaENCgzeDrnkRnRsgnVT/backgroundImage/K1heWWVmHxcURoMwbdDL-screen_2023-11-24_00-47-48-262.png
       type: image/png
   certified: true
-  description: Baobab trees on grassy plateaus rise above the sands of a happy
-    isle. 1v1 or 2v2.
+  description: Baobab trees on grassy plateaus rise above the sands of a happy isle. 1v1 or 2v2.
   displayName: Crubick Plains
   gameType:
     - 1v1
@@ -6827,8 +6757,7 @@ QlanwpEXsYOy3ZYYp3iu:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FbackgroundImage%2FJ7ILQcYfUOYsowZzpZBl-Tabula_Remake_SEO%202-tinified.jpg?alt=media&token=0ecbb770-7d89-4949-9f02-81c5ff61f3b5
       lastModifiedTS: 1639055468523
       name: Tabula_Remake_SEO 2-tinified.jpg
-      ref: maps/QlanwpEXsYOy3ZYYp3iu/backgroundImage/J7ILQcYfUOYsowZzpZBl-Tabula_Remake_SEO
-        2-tinified.jpg
+      ref: maps/QlanwpEXsYOy3ZYYp3iu/backgroundImage/J7ILQcYfUOYsowZzpZBl-Tabula_Remake_SEO 2-tinified.jpg
       type: image/jpeg
   certified: true
   description: A classic famous map with many possible strategies.
@@ -6849,8 +6778,7 @@ QlanwpEXsYOy3ZYYp3iu:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FinGameShots%2FbEPhnOCYdCRmh1x1byDa-Tabula_Remake_SEO%202-tinified.jpg?alt=media&token=71d8a65f-ef55-4cd8-8359-6f403fd67a51
       lastModifiedTS: 1639055468523
       name: Tabula_Remake_SEO 2-tinified.jpg
-      ref: maps/QlanwpEXsYOy3ZYYp3iu/inGameShots/bEPhnOCYdCRmh1x1byDa-Tabula_Remake_SEO
-        2-tinified.jpg
+      ref: maps/QlanwpEXsYOy3ZYYp3iu/inGameShots/bEPhnOCYdCRmh1x1byDa-Tabula_Remake_SEO 2-tinified.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -6858,8 +6786,7 @@ QlanwpEXsYOy3ZYYp3iu:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FperspectiveShot%2F1HJobkop94AnnS8eWOak-Tabula_Remake_3D-tinified%20(Large).png?alt=media&token=09971179-543e-4b96-9feb-2f88ecc80fa2
       lastModifiedTS: 1639055876556
       name: Tabula_Remake_3D-tinified (Large).png
-      ref: maps/QlanwpEXsYOy3ZYYp3iu/perspectiveShot/1HJobkop94AnnS8eWOak-Tabula_Remake_3D-tinified
-        (Large).png
+      ref: maps/QlanwpEXsYOy3ZYYp3iu/perspectiveShot/1HJobkop94AnnS8eWOak-Tabula_Remake_3D-tinified (Large).png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/QlanwpEXsYOy3ZYYp3iu/photo/EG9ZHJ3p3xQjqvMGX98W-Tabula_Remake_1.5.jpg
@@ -7194,8 +7121,8 @@ RTxWSdffMT8Mb8ixqKdL:
       ref: maps/RTxWSdffMT8Mb8ixqKdL/backgroundImage/cs3RbQVE0LPEhMQchl6w-screen_2024-03-10_18-00-15-507.png
       type: image/png
   certified: true
-  description: Map for 1v1 - 3v3. Start locations are relatively close for a 14x14
-    map. Watch your back, start points are surrounded by hills.
+  description: Map for 1v1 - 3v3. Start locations are relatively close for a 14x14 map. Watch your back, start points are
+    surrounded by hills.
   displayName: Hide and Seek
   gameType:
     - 1v1
@@ -7249,8 +7176,7 @@ SHA84LfmzYbxT8iIyTtU:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FbackgroundImage%2FvqeiNhorFyl02pBn34UI-Rifted_V2%20overview.jpg?alt=media&token=e6d6d22d-344c-4391-9390-e621a672b391
       lastModifiedTS: 1631777940726
       name: Rifted_V2 overview.jpg
-      ref: maps/SHA84LfmzYbxT8iIyTtU/backgroundImage/vqeiNhorFyl02pBn34UI-Rifted_V2
-        overview.jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/backgroundImage/vqeiNhorFyl02pBn34UI-Rifted_V2 overview.jpg
       type: image/jpeg
   certified: true
   description: |-
@@ -7266,26 +7192,22 @@ SHA84LfmzYbxT8iIyTtU:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FinGameShots%2FUYq6pfMQRAcPzJH8qm0I-Rifted_V2%20overview%204.jpg?alt=media&token=43b3835a-6544-4314-b41d-4a00a56c32d6
       lastModifiedTS: 1631777973806
       name: Rifted_V2 overview 4.jpg
-      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/UYq6pfMQRAcPzJH8qm0I-Rifted_V2
-        overview 4.jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/UYq6pfMQRAcPzJH8qm0I-Rifted_V2 overview 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FinGameShots%2FYi9WwGQ6tM5GAVJpB3hE-Rifted_V2%20overview%205.jpg?alt=media&token=4ceaaa07-2029-4abe-9606-55042b387df9
       lastModifiedTS: 1631777940756
       name: Rifted_V2 overview 5.jpg
-      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/Yi9WwGQ6tM5GAVJpB3hE-Rifted_V2
-        overview 5.jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/Yi9WwGQ6tM5GAVJpB3hE-Rifted_V2 overview 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FinGameShots%2F3VEW230zD6iHzOcmh9Ld-Rifted_V2%20overview%203.jpg?alt=media&token=96950b31-d3c8-4550-9b52-9eb2f8be6feb
       lastModifiedTS: 1631777962051
       name: Rifted_V2 overview 3.jpg
-      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/3VEW230zD6iHzOcmh9Ld-Rifted_V2
-        overview 3.jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/3VEW230zD6iHzOcmh9Ld-Rifted_V2 overview 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSHA84LfmzYbxT8iIyTtU%2FinGameShots%2FwniTui1piH1xQhyi1xMu-Rifted_V2%20SEO%20(1).jpg?alt=media&token=6e2bef90-50df-4e3f-b833-b198a59abbb8
       lastModifiedTS: 1631778534278
       name: Rifted_V2 SEO (1).jpg
-      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/wniTui1piH1xQhyi1xMu-Rifted_V2 SEO
-        (1).jpg
+      ref: maps/SHA84LfmzYbxT8iIyTtU/inGameShots/wniTui1piH1xQhyi1xMu-Rifted_V2 SEO (1).jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -7340,8 +7262,7 @@ SYB0blENn3hqhEyLC24B:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSYB0blENn3hqhEyLC24B%2FinGameShots%2FhdleSHwnYuRjoRw7l8eD-Throne_V2_SEO%20(1).jpg?alt=media&token=d665ea26-04a9-4577-aa9c-091f5dcc83a9
       lastModifiedTS: 1639057250617
       name: Throne_V2_SEO (1).jpg
-      ref: maps/SYB0blENn3hqhEyLC24B/inGameShots/hdleSHwnYuRjoRw7l8eD-Throne_V2_SEO
-        (1).jpg
+      ref: maps/SYB0blENn3hqhEyLC24B/inGameShots/hdleSHwnYuRjoRw7l8eD-Throne_V2_SEO (1).jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FSYB0blENn3hqhEyLC24B%2FinGameShots%2Fn8qo3lbv3sOUGgiqSByD-Throne_V2_SEO.jpg?alt=media&token=ea5df7cd-8723-4d63-bbaa-6baf6c2d8038
       lastModifiedTS: 1639056903831
@@ -7676,25 +7597,19 @@ UeeBymo7RdXE5ty3amFw:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FbackgroundImage%2FqJs8nd8sQOfvGYmuh5U8-Kolmogorov_Remake_3.0%20overview.jpg?alt=media&token=2455cb47-5c01-41ae-86a6-4d3618ee84b6
       lastModifiedTS: 1644016070063
       name: Kolmogorov_Remake_3.0 overview.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/backgroundImage/qJs8nd8sQOfvGYmuh5U8-Kolmogorov_Remake_3.0
-        overview.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/backgroundImage/qJs8nd8sQOfvGYmuh5U8-Kolmogorov_Remake_3.0 overview.jpg
       type: image/jpeg
   certified: true
-  description: >-
+  description: |-
     Massive Canyon for big battles.
-
 
     Beware that bots can traverse all center hills, while vehicles can only move through the canyons.
 
-
     Only the shoreline cliffs are too steep for bots.
-
 
     Also the canyons have superb grip and offer a 20% speed bonus.
 
-
     The water is however treacherous with strong currents, making movement their harder and 20% slower.
-
 
     Thanks to Bacon for the canyon detail textures and Beherith for the original map!
   displayName: Kolmogorov
@@ -7705,38 +7620,32 @@ UeeBymo7RdXE5ty3amFw:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2Fbmpnq8o4Hc77SwC3ELfv-Kolmogorov_Remake_3.0%20SEO.jpg?alt=media&token=8783178e-fd1e-4836-913f-5d71766b3988
       lastModifiedTS: 1644016064386
       name: Kolmogorov_Remake_3.0 SEO.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/bmpnq8o4Hc77SwC3ELfv-Kolmogorov_Remake_3.0
-        SEO.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/bmpnq8o4Hc77SwC3ELfv-Kolmogorov_Remake_3.0 SEO.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2FjzrMvUW5ZMJ8gGArJYP6-Kolmogorov_Remake_3.0%20screenshot%207.jpg?alt=media&token=0d197215-e2e7-4301-888b-cf77a67cb74b
       lastModifiedTS: 1644016091765
       name: Kolmogorov_Remake_3.0 screenshot 7.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/jzrMvUW5ZMJ8gGArJYP6-Kolmogorov_Remake_3.0
-        screenshot 7.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/jzrMvUW5ZMJ8gGArJYP6-Kolmogorov_Remake_3.0 screenshot 7.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2FpRL7vUQjN4n0DrLDZpSH-Kolmogorov_Remake_3.0%20screenshot%209.jpg?alt=media&token=ca7fb141-e943-475b-8d29-cba2bb09e098
       lastModifiedTS: 1644016103489
       name: Kolmogorov_Remake_3.0 screenshot 9.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/pRL7vUQjN4n0DrLDZpSH-Kolmogorov_Remake_3.0
-        screenshot 9.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/pRL7vUQjN4n0DrLDZpSH-Kolmogorov_Remake_3.0 screenshot 9.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2FMQI0ANZnZxJGVHuB0OYo-Kolmogorov_Remake_3.0%20screenshot%206.jpg?alt=media&token=5595318b-c2c9-41e1-8295-46e0e7e8e9eb
       lastModifiedTS: 1644016085232
       name: Kolmogorov_Remake_3.0 screenshot 6.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/MQI0ANZnZxJGVHuB0OYo-Kolmogorov_Remake_3.0
-        screenshot 6.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/MQI0ANZnZxJGVHuB0OYo-Kolmogorov_Remake_3.0 screenshot 6.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2FmFN5DbipseXZkVCI1czm-Kolmogorov_Remake_3.0%20screenshot%208.jpg?alt=media&token=f11a76f8-8983-4152-9e72-4e85c72f76ab
       lastModifiedTS: 1644016098003
       name: Kolmogorov_Remake_3.0 screenshot 8.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/mFN5DbipseXZkVCI1czm-Kolmogorov_Remake_3.0
-        screenshot 8.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/mFN5DbipseXZkVCI1czm-Kolmogorov_Remake_3.0 screenshot 8.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FinGameShots%2FiUbrtkgyHlxVciDuoKtA-Kolmogorov_Remake_3.0%20screenshot%2010.jpg?alt=media&token=2becbfdb-8cc7-465e-b7ca-f46768f17487
       lastModifiedTS: 1644016059802
       name: Kolmogorov_Remake_3.0 screenshot 10.jpg
-      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/iUbrtkgyHlxVciDuoKtA-Kolmogorov_Remake_3.0
-        screenshot 10.jpg
+      ref: maps/UeeBymo7RdXE5ty3amFw/inGameShots/iUbrtkgyHlxVciDuoKtA-Kolmogorov_Remake_3.0 screenshot 10.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 8
@@ -7744,8 +7653,7 @@ UeeBymo7RdXE5ty3amFw:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUeeBymo7RdXE5ty3amFw%2FperspectiveShot%2FAd6RYh427NhhdbyHEZgB-Kolmogorov_Remake_3.0%20perspect.png?alt=media&token=46bbbd91-7e91-4e02-899d-946cc43a1816
       lastModifiedTS: 1644016077854
       name: Kolmogorov_Remake_3.0 perspect.png
-      ref: maps/UeeBymo7RdXE5ty3amFw/perspectiveShot/Ad6RYh427NhhdbyHEZgB-Kolmogorov_Remake_3.0
-        perspect.png
+      ref: maps/UeeBymo7RdXE5ty3amFw/perspectiveShot/Ad6RYh427NhhdbyHEZgB-Kolmogorov_Remake_3.0 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/UeeBymo7RdXE5ty3amFw/photo/3hqflPxPOFrZSv9HzdBd-Kolmogorov_Remake_3.0.jpg
@@ -7784,10 +7692,8 @@ UhGP9ish5WdFio1VfrU6:
       ref: maps/UhGP9ish5WdFio1VfrU6/backgroundImage/ZLMWfmEQ8ru8D0cxQ7gu-BoulderBeachR_BG.jpg
       type: image/jpeg
   certified: true
-  description: Best for 5v5 Team games, where every factory type has a useful
-    role. All units can cross the shallows and move along the center, while
-    ships can bombard most coastal areas, and hovercraft can easily dominate the
-    map.
+  description: Best for 5v5 Team games, where every factory type has a useful role. All units can cross the shallows and
+    move along the center, while ships can bombard most coastal areas, and hovercraft can easily dominate the map.
   displayName: Boulder Beach
   gameType:
     - team
@@ -8690,9 +8596,8 @@ XLh1oCb0Qdog1h40avFL:
       ref: maps/XLh1oCb0Qdog1h40avFL/backgroundImage/G7LsGN2gS0pnwluJt5gj-centerrock-side-high.png
       type: image/png
   certified: true
-  description: Large map, optimal for 2 teams, up to 6 players each. Fight for the
-    strategically important center hills or push through on the sides. Water
-    around the center focuses fights while also providing amphibious options.
+  description: Large map, optimal for 2 teams, up to 6 players each. Fight for the strategically important center hills or
+    push through on the sides. Water around the center focuses fights while also providing amphibious options.
   displayName: Centerrock
   gameType:
     - team
@@ -8887,32 +8792,27 @@ XipxkGywEz3REbHKrvP6:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FxOwmAfQqWM0ce1DC8Q9a-Taldarim_SS%202.jpg?alt=media&token=88f6f1d6-fe06-4fd8-a310-393da9f128ec
       lastModifiedTS: 1700435384726
       name: Taldarim_SS 2.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/xOwmAfQqWM0ce1DC8Q9a-Taldarim_SS
-        2.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/xOwmAfQqWM0ce1DC8Q9a-Taldarim_SS 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FGkQooX30bCSXWrygVbXA-Taldarim_SS%204.jpg?alt=media&token=818c4877-3d30-4bc3-acf3-ec0ac3b9ea3a
       lastModifiedTS: 1700435401734
       name: Taldarim_SS 4.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/GkQooX30bCSXWrygVbXA-Taldarim_SS
-        4.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/GkQooX30bCSXWrygVbXA-Taldarim_SS 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2Fqq3xikE9qymGtaOKbZnt-Taldarim_SS%205.jpg?alt=media&token=cde6d689-9381-47d3-93a9-b2e1c5ee1d89
       lastModifiedTS: 1700435410945
       name: Taldarim_SS 5.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/qq3xikE9qymGtaOKbZnt-Taldarim_SS
-        5.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/qq3xikE9qymGtaOKbZnt-Taldarim_SS 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FNy1xKLTDFWZaw4JmuOXB-Taldarim_SS%203.jpg?alt=media&token=81912ae7-7f4b-4fce-b017-95455a5cd8f9
       lastModifiedTS: 1700435392351
       name: Taldarim_SS 3.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/Ny1xKLTDFWZaw4JmuOXB-Taldarim_SS
-        3.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/Ny1xKLTDFWZaw4JmuOXB-Taldarim_SS 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FinGameShots%2FszOdqgl2KZOyxbh4xyWj-Taldarim_SS%201.jpg?alt=media&token=9ad12e28-a766-40d6-9252-d25a8a3573ee
       lastModifiedTS: 1700435423547
       name: Taldarim_SS 1.jpg
-      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/szOdqgl2KZOyxbh4xyWj-Taldarim_SS
-        1.jpg
+      ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/szOdqgl2KZOyxbh4xyWj-Taldarim_SS 1.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -8959,12 +8859,11 @@ XnCjzq4LvLB6mik5aib1:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FbackgroundImage%2FgjgVqYp3cR4lV7ovNquN-avalanche%20BG.jpg?alt=media&token=fd4a6084-4d1a-4987-a1f5-111edb3ad821
       lastModifiedTS: 1680293528435
       name: avalanche BG.jpg
-      ref: maps/XnCjzq4LvLB6mik5aib1/backgroundImage/gjgVqYp3cR4lV7ovNquN-avalanche
-        BG.jpg
+      ref: maps/XnCjzq4LvLB6mik5aib1/backgroundImage/gjgVqYp3cR4lV7ovNquN-avalanche BG.jpg
       type: image/jpeg
   certified: true
-  description: Small map,optimal for 1v1. Keep the pressure on your opponent and
-    fight for every metal spot while building your army to finish them off.
+  description: Small map,optimal for 1v1. Keep the pressure on your opponent and fight for every metal spot while building
+    your army to finish them off.
   displayName: Avalanche
   gameType:
     - 1v1
@@ -8972,14 +8871,12 @@ XnCjzq4LvLB6mik5aib1:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FinGameShots%2FM7qeBj8z5ZWtChNtORje-avalanche_SS%203.jpg?alt=media&token=d7c3375d-4c10-4490-908b-f35c62604d24
       lastModifiedTS: 1680293555929
       name: avalanche_SS 3.jpg
-      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/M7qeBj8z5ZWtChNtORje-avalanche_SS
-        3.jpg
+      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/M7qeBj8z5ZWtChNtORje-avalanche_SS 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FinGameShots%2Fg7CpfezVAusmEtUuSIZD-avalanche_SS%202.jpg?alt=media&token=f0473469-15e8-47db-8b6d-5dcd3090c892
       lastModifiedTS: 1680293550157
       name: avalanche_SS 2.jpg
-      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/g7CpfezVAusmEtUuSIZD-avalanche_SS
-        2.jpg
+      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/g7CpfezVAusmEtUuSIZD-avalanche_SS 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FinGameShots%2FfuHS8oiFOoXLkVkOGgSJ-avalanche_SEO.jpg?alt=media&token=bad9ce38-1ba9-4bd6-aaaa-b5baf8f4e94c
       lastModifiedTS: 1680293537160
@@ -8989,8 +8886,7 @@ XnCjzq4LvLB6mik5aib1:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FinGameShots%2FBjtT87k0z2IeAOFY33xi-avalanche_SS%201.jpg?alt=media&token=160e8562-fcd7-47f9-9264-17827cfecbd5
       lastModifiedTS: 1680293543160
       name: avalanche_SS 1.jpg
-      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS
-        1.jpg
+      ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -8998,8 +8894,7 @@ XnCjzq4LvLB6mik5aib1:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
       lastModifiedTS: 1680293561650
       name: avalanche Perspective.png
-      ref: maps/XnCjzq4LvLB6mik5aib1/perspectiveShot/8nTlZtJddAPlZs2ru4CR-avalanche
-        Perspective.png
+      ref: maps/XnCjzq4LvLB6mik5aib1/perspectiveShot/8nTlZtJddAPlZs2ru4CR-avalanche Perspective.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/XnCjzq4LvLB6mik5aib1/photo/zsZJEIhOImwEdhXIieKn-avalanche_3.4.jpg
@@ -9038,14 +8933,15 @@ Xut8FRCmn2h5DuUqzF26:
       type: image/jpeg
   certified: true
   description: >-
-    A classic when it comes to strategy maps. A relative small map, though with
-    lots of room to maneuver and it can hold up to 10 players.
+    A classic when it comes to strategy maps. A relative small map, though with lots of room to maneuver and it can hold
+    up to 10 players.
 
 
     The large craters can be accessed by bots, for staging area's, or refuge when being chased by Bulldogs or a Goliath.
 
 
-    True to the original, with subtle extra details in heighmap and a completely revamped texture, typemap, specular, DNTS splatmap and normalmap.
+    True to the original, with subtle extra details in heighmap and a completely revamped texture, typemap, specular,
+    DNTS splatmap and normalmap.
 
 
     Original map i used for heightmap was from NoiZe!
@@ -9094,8 +8990,7 @@ Xut8FRCmn2h5DuUqzF26:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
       lastModifiedTS: 1699872172465
       name: Red Comet Remaker 1.8 Minimap.jpg
-      ref: maps/Xut8FRCmn2h5DuUqzF26/photo/XKJOASLUXgY6k9muVOGp-Red Comet Remaker 1.8
-        Minimap.jpg
+      ref: maps/Xut8FRCmn2h5DuUqzF26/photo/XKJOASLUXgY6k9muVOGp-Red Comet Remaker 1.8 Minimap.jpg
       type: image/jpeg
   playerCount: 4
   springName: Red Comet Remake 1.8
@@ -9263,8 +9158,7 @@ Ydjj7Fy4NpaLHdkvhsIn:
       ref: maps/Ydjj7Fy4NpaLHdkvhsIn/backgroundImage/UlPOqYaJqy9MhVBbOgm4-screen_2023-11-24_02-21-15-805.png
       type: image/png
   certified: true
-  description: One of the smallest, large playercount maps with a 20% speed boost
-    to all units in the central trench
+  description: One of the smallest, large playercount maps with a 20% speed boost to all units in the central trench
   displayName: Ditched
   gameType:
     - team
@@ -9303,8 +9197,7 @@ Yhwa2neMfDTUXyAiSJXC:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYhwa2neMfDTUXyAiSJXC%2FbackgroundImage%2FFuOtxXSCslIpwaFkqmiP-incandescence_remake_3.1%20overview.jpg?alt=media&token=d8f661b2-63e9-4b19-9d33-c3d521961d3c
       lastModifiedTS: 1647377351767
       name: incandescence_remake_3.1 overview.jpg
-      ref: maps/Yhwa2neMfDTUXyAiSJXC/backgroundImage/FuOtxXSCslIpwaFkqmiP-incandescence_remake_3.1
-        overview.jpg
+      ref: maps/Yhwa2neMfDTUXyAiSJXC/backgroundImage/FuOtxXSCslIpwaFkqmiP-incandescence_remake_3.1 overview.jpg
       type: image/jpeg
   certified: true
   description: A very dynamic team map with many ways to victory!
@@ -9316,14 +9209,12 @@ Yhwa2neMfDTUXyAiSJXC:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYhwa2neMfDTUXyAiSJXC%2FinGameShots%2FLRxtZFF7CBOtj4TfWhOC-incandescence_remake_3.1%20ss.jpg?alt=media&token=7fff4c7c-e09c-4b04-b0da-f9b549488a8a
       lastModifiedTS: 1647378228940
       name: incandescence_remake_3.1 ss.jpg
-      ref: maps/Yhwa2neMfDTUXyAiSJXC/inGameShots/LRxtZFF7CBOtj4TfWhOC-incandescence_remake_3.1
-        ss.jpg
+      ref: maps/Yhwa2neMfDTUXyAiSJXC/inGameShots/LRxtZFF7CBOtj4TfWhOC-incandescence_remake_3.1 ss.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYhwa2neMfDTUXyAiSJXC%2FinGameShots%2FDMm3SSKIa5AUjB884RxW-incandescence_remake_3.1%20SEO.jpg?alt=media&token=69aa7168-1b23-4a7f-b454-7bb1beb45eaa
       lastModifiedTS: 1647378057450
       name: incandescence_remake_3.1 SEO.jpg
-      ref: maps/Yhwa2neMfDTUXyAiSJXC/inGameShots/DMm3SSKIa5AUjB884RxW-incandescence_remake_3.1
-        SEO.jpg
+      ref: maps/Yhwa2neMfDTUXyAiSJXC/inGameShots/DMm3SSKIa5AUjB884RxW-incandescence_remake_3.1 SEO.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -9527,9 +9418,8 @@ Z8YOFQmH2Aic7MsPihzr:
       ref: maps/Z8YOFQmH2Aic7MsPihzr/backgroundImage/yicZ6V7luYkm7T2VGvpC-pinch_point_1.03_background.png
       type: image/png
   certified: true
-  description: An island pair set in a tropical biome featuring a large central
-    crossing and supporting islands to create tactical opportunities for all
-    unit types.
+  description: An island pair set in a tropical biome featuring a large central crossing and supporting islands to create
+    tactical opportunities for all unit types.
   displayName: Pinch Point
   gameType:
     - team
@@ -9592,8 +9482,8 @@ ZJNeHQG2ls2h2Xq1hHUy:
       ref: maps/ZJNeHQG2ls2h2Xq1hHUy/backgroundImage/PY0sEsWwgoLneIGeTd8P-screen_2023-11-25_02-30-25-802.png
       type: image/png
   certified: true
-  description: Enourmous free-for-all map with roads connecting the major resource
-    points. All units can pass the shallow land bridges
+  description: Enourmous free-for-all map with roads connecting the major resource points. All units can pass the shallow
+    land bridges
   displayName: Mediterraneum
   gameType:
     - ffa
@@ -9790,9 +9680,8 @@ ZeOLwTAgEU10BGvcdQ45:
       ref: maps/ZeOLwTAgEU10BGvcdQ45/backgroundImage/cSyEoPHsRUKTRZ62RlWP-screen_2023-11-24_02-29-53-982.png
       type: image/png
   certified: true
-  description: Large Free For All map that supports up to 16 players. Lots of
-    metal and geothermal spot. Be aware that kbots can traverse most hills so
-    attacks can come from any direction.
+  description: Large Free For All map that supports up to 16 players. Lots of metal and geothermal spot. Be aware that
+    kbots can traverse most hills so attacks can come from any direction.
   displayName: DWorld
   gameType:
     - ffa
@@ -10113,15 +10002,13 @@ ZvEmwr9QVP760qJOdBxh:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F6dQtEsFIh91KTN7hjDyB-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=399720a3-4cff-4606-9ca6-5daa4b486ad7
       lastModifiedTS: 1717097785107
       name: Screenshot at 2024-05-24 23-46-07.png
-      ref: maps/ZvEmwr9QVP760qJOdBxh/perspectiveShot/6dQtEsFIh91KTN7hjDyB-Screenshot
-        at 2024-05-24 23-46-07.png
+      ref: maps/ZvEmwr9QVP760qJOdBxh/perspectiveShot/6dQtEsFIh91KTN7hjDyB-Screenshot at 2024-05-24 23-46-07.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2Fphoto%2FmOZSBIGa1CShzYATOSXD-Screenshot%20at%202024-05-23%2002-32-30.png?alt=media&token=4273b037-fb9e-46a1-bdd1-5647cf80ad66
       lastModifiedTS: 1716420751121
       name: Screenshot at 2024-05-23 02-32-30.png
-      ref: maps/ZvEmwr9QVP760qJOdBxh/photo/mOZSBIGa1CShzYATOSXD-Screenshot at
-        2024-05-23 02-32-30.png
+      ref: maps/ZvEmwr9QVP760qJOdBxh/photo/mOZSBIGa1CShzYATOSXD-Screenshot at 2024-05-23 02-32-30.png
       type: image/png
   playerCount: 4
   springName: Aurelia v4.1
@@ -10540,8 +10427,7 @@ bjT21UjhlZ3s2nrZ850V:
       ref: maps/bjT21UjhlZ3s2nrZ850V/backgroundImage/yoRNEDBkNmaqgGDjsjiP-back.png
       type: image/png
   certified: true
-  description: A simple full metal plate. Relive your childhood battles on this
-    TA-inspired map.
+  description: A simple full metal plate. Relive your childhood battles on this TA-inspired map.
   displayName: Full Metal Plate
   gameType:
     - pve
@@ -10605,8 +10491,7 @@ bkIRTcsnvtmQVsm3SsNJ:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FbackgroundImage%2FWhIz6yMuiRdNMspeQujC-Speed_Metal%20overview.jpg?alt=media&token=42d11dfe-69f7-413a-8105-49d0511198b6
       lastModifiedTS: 1680269849698
       name: Speed_Metal overview.jpg
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/backgroundImage/WhIz6yMuiRdNMspeQujC-Speed_Metal
-        overview.jpg
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/backgroundImage/WhIz6yMuiRdNMspeQujC-Speed_Metal overview.jpg
       type: image/jpeg
   certified: true
   description: |-
@@ -10628,20 +10513,17 @@ bkIRTcsnvtmQVsm3SsNJ:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FinGameShots%2FF9BSmCGBKzJrI4FarLW4-Speed_Metal_SS%202.jpg?alt=media&token=172b5d10-9981-4c4a-ba9a-86ad4b399321
       lastModifiedTS: 1680269873618
       name: Speed_Metal_SS 2.jpg
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/F9BSmCGBKzJrI4FarLW4-Speed_Metal_SS
-        2.jpg
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/F9BSmCGBKzJrI4FarLW4-Speed_Metal_SS 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FinGameShots%2FNfdWI5HP02j72Gf5rfre-Speed_Metal_SS%203.jpg?alt=media&token=26f3805e-cad7-4704-8dd7-66987431b71f
       lastModifiedTS: 1680269880275
       name: Speed_Metal_SS 3.jpg
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/NfdWI5HP02j72Gf5rfre-Speed_Metal_SS
-        3.jpg
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/NfdWI5HP02j72Gf5rfre-Speed_Metal_SS 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FinGameShots%2FDuTBrQrG1Si7Tu4ClSLM-Speed_Metal_SS%201.jpg?alt=media&token=b9a25a65-7262-4fe4-96b6-a19601e35d8f
       lastModifiedTS: 1680269866254
       name: Speed_Metal_SS 1.jpg
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/DuTBrQrG1Si7Tu4ClSLM-Speed_Metal_SS
-        1.jpg
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/inGameShots/DuTBrQrG1Si7Tu4ClSLM-Speed_Metal_SS 1.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -10649,8 +10531,7 @@ bkIRTcsnvtmQVsm3SsNJ:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2FperspectiveShot%2F5nu9kPtHQjqNiKweWPIj-Speed_Metal%20perspective.png?alt=media&token=6f770e98-f6b3-45f5-8fb6-fd7728ec43ed
       lastModifiedTS: 1680269884688
       name: Speed_Metal perspective.png
-      ref: maps/bkIRTcsnvtmQVsm3SsNJ/perspectiveShot/5nu9kPtHQjqNiKweWPIj-Speed_Metal
-        perspective.png
+      ref: maps/bkIRTcsnvtmQVsm3SsNJ/perspectiveShot/5nu9kPtHQjqNiKweWPIj-Speed_Metal perspective.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbkIRTcsnvtmQVsm3SsNJ%2Fphoto%2FCJB9syGlsB5i4hSLM2aR-speedmetal-minimap.png?alt=media&token=fc651f10-6916-4bf5-80a2-9d66449fe5d7
@@ -10833,13 +10714,11 @@ byucseTLrpgU0J70dFC0:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbyucseTLrpgU0J70dFC0%2FbackgroundImage%2FLmdbQMe3jyTDxnzikVsv-ghenna_rising_4.0%20overview.jpg?alt=media&token=4673733f-75ba-4442-b29b-5564a158fb98
       lastModifiedTS: 1647377347302
       name: ghenna_rising_4.0 overview.jpg
-      ref: maps/byucseTLrpgU0J70dFC0/backgroundImage/LmdbQMe3jyTDxnzikVsv-ghenna_rising_4.0
-        overview.jpg
+      ref: maps/byucseTLrpgU0J70dFC0/backgroundImage/LmdbQMe3jyTDxnzikVsv-ghenna_rising_4.0 overview.jpg
       type: image/jpeg
   certified: true
-  description: Fight on a dangerous molten lava island, where the lava will rise
-    and drop. The lava will temporarily save you from ground assaults, but
-    beware, it will drop again.
+  description: Fight on a dangerous molten lava island, where the lava will rise and drop. The lava will temporarily save
+    you from ground assaults, but beware, it will drop again.
   displayName: Ghenna Rising
   gameType:
     - ffa
@@ -10848,20 +10727,17 @@ byucseTLrpgU0J70dFC0:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbyucseTLrpgU0J70dFC0%2FinGameShots%2Fs10zHVLTQlHREx6HcIgr-ghenna_rising_4.0%20SEO.jpg?alt=media&token=73ac5aa1-94e5-4004-ad2e-77eb90bd174c
       lastModifiedTS: 1647377367047
       name: ghenna_rising_4.0 SEO.jpg
-      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/s10zHVLTQlHREx6HcIgr-ghenna_rising_4.0
-        SEO.jpg
+      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/s10zHVLTQlHREx6HcIgr-ghenna_rising_4.0 SEO.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbyucseTLrpgU0J70dFC0%2FinGameShots%2FDdZg9RplTAPbNwI0JnY7-ghenna_rising_4.0%20SS2.jpg?alt=media&token=8d92457e-eb98-4bbe-b635-22515599a2e7
       lastModifiedTS: 1647378356184
       name: ghenna_rising_4.0 SS2.jpg
-      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/DdZg9RplTAPbNwI0JnY7-ghenna_rising_4.0
-        SS2.jpg
+      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/DdZg9RplTAPbNwI0JnY7-ghenna_rising_4.0 SS2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbyucseTLrpgU0J70dFC0%2FinGameShots%2FgGYQOLJmqG9ubKmeWEnW-ghenna_rising_4.0%20SEO-2.jpg?alt=media&token=4dfe8dac-44a1-4666-afa4-98367c935a31
       lastModifiedTS: 1647377374088
       name: ghenna_rising_4.0 SEO-2.jpg
-      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/gGYQOLJmqG9ubKmeWEnW-ghenna_rising_4.0
-        SEO-2.jpg
+      ref: maps/byucseTLrpgU0J70dFC0/inGameShots/gGYQOLJmqG9ubKmeWEnW-ghenna_rising_4.0 SEO-2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 12
@@ -10947,10 +10823,9 @@ c8VOLOtft95bMvYUg60R:
       ref: maps/c8VOLOtft95bMvYUg60R/backgroundImage/IGwD40tap9LvyDtejWWu-screen_2023-11-24_00-16-06-381.png
       type: image/png
   certified: true
-  description: Battle in orbit among asteroids conected by girders. Metal can be
-    extracted from the structures anywhere, and the strong solar winds bolster
-    energy production. Naval units cannot be built, and only aircraft can pass
-    over the void.
+  description: Battle in orbit among asteroids conected by girders. Metal can be extracted from the structures anywhere,
+    and the strong solar winds bolster energy production. Naval units cannot be built, and only aircraft can pass over
+    the void.
   displayName: Cloud9
   gameType:
     - ffa
@@ -11218,15 +11093,15 @@ cQ5LLQmNqCPCnYFiTlcb:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FbackgroundImage%2FpoUO1yQ1BVbS5xRGpcg0-KoomValley_Bar%201.5%20BG.jpg?alt=media&token=2dfcf0e9-6f2d-4976-94fb-e94859ef5dfc
       lastModifiedTS: 1612221882000
       name: KoomValley_Bar 1.5 BG.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/backgroundImage/poUO1yQ1BVbS5xRGpcg0-KoomValley_Bar
-        1.5 BG.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/backgroundImage/poUO1yQ1BVbS5xRGpcg0-KoomValley_Bar 1.5 BG.jpg
       type: image/jpeg
   certified: true
   description: >-
     Remake from the original from Beherith.
 
 
-    Awesomely big map, with lots of room to fight. Metal in the center is more rich, so expansion is key. Wind is flakey, so beware.
+    Awesomely big map, with lots of room to fight. Metal in the center is more rich, so expansion is key. Wind is
+    flakey, so beware.
 
 
     Enjoy!
@@ -11237,38 +11112,32 @@ cQ5LLQmNqCPCnYFiTlcb:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2F8REvWAOC5jC9pCVOmTWw-KoomValley_Bar%201.5_SEO%203.jpg?alt=media&token=f348be3f-c58c-4464-b8db-e131954455c2
       lastModifiedTS: 1612221900000
       name: KoomValley_Bar 1.5_SEO 3.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/8REvWAOC5jC9pCVOmTWw-KoomValley_Bar
-        1.5_SEO 3.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/8REvWAOC5jC9pCVOmTWw-KoomValley_Bar 1.5_SEO 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2FeFIyV7dmR1YZj5Cjq7JK-KoomValley_Bar%201.5_SEO%205.jpg?alt=media&token=4ef739ff-de43-4353-8d5a-9bb12dd6ba15
       lastModifiedTS: 1612221910000
       name: KoomValley_Bar 1.5_SEO 5.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/eFIyV7dmR1YZj5Cjq7JK-KoomValley_Bar
-        1.5_SEO 5.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/eFIyV7dmR1YZj5Cjq7JK-KoomValley_Bar 1.5_SEO 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2FY7TMg4AeyqgLT5zisey0-KoomValley_Bar%201.5_SEO%202S.jpg?alt=media&token=f55a3382-5bcb-4d8b-86dc-16340c1ec0d0
       lastModifiedTS: 1612249391000
       name: KoomValley_Bar 1.5_SEO 2S.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/Y7TMg4AeyqgLT5zisey0-KoomValley_Bar
-        1.5_SEO 2S.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/Y7TMg4AeyqgLT5zisey0-KoomValley_Bar 1.5_SEO 2S.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2FfxmuC4GfXGbhVcTCQ4Yl-KoomValley_Bar%201.5_SEO%206.jpg?alt=media&token=1127cc4f-0ab1-4f1f-a452-aae40d2f3dbf
       lastModifiedTS: 1612221915000
       name: KoomValley_Bar 1.5_SEO 6.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/fxmuC4GfXGbhVcTCQ4Yl-KoomValley_Bar
-        1.5_SEO 6.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/fxmuC4GfXGbhVcTCQ4Yl-KoomValley_Bar 1.5_SEO 6.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2Fgt8tjyhEB9mko3V3jX3j-KoomValley_Bar%201.5_SEO%204S.jpg?alt=media&token=7075cbc6-b795-4fdb-947a-482d03e9906a
       lastModifiedTS: 1612249446000
       name: KoomValley_Bar 1.5_SEO 4S.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/gt8tjyhEB9mko3V3jX3j-KoomValley_Bar
-        1.5_SEO 4S.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/gt8tjyhEB9mko3V3jX3j-KoomValley_Bar 1.5_SEO 4S.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2FinGameShots%2FJz9wlfx6jNmokQcLo8bi-KoomValley_Bar%201.5_SEO.jpg?alt=media&token=a146dc82-05a9-4424-9737-d9b14d154af3
       lastModifiedTS: 1612222399000
       name: KoomValley_Bar 1.5_SEO.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/Jz9wlfx6jNmokQcLo8bi-KoomValley_Bar
-        1.5_SEO.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/inGameShots/Jz9wlfx6jNmokQcLo8bi-KoomValley_Bar 1.5_SEO.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -11286,8 +11155,7 @@ cQ5LLQmNqCPCnYFiTlcb:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQ5LLQmNqCPCnYFiTlcb%2Fphoto%2FWB7BxJQfCrOhyNUMKAEu-KoomValley_Bar%201.5_minimap.jpg?alt=media&token=be53122f-47a4-481b-a246-1b9eb3abe8a1
       lastModifiedTS: 1699917291234
       name: KoomValley_Bar 1.5_minimap.jpg
-      ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/WB7BxJQfCrOhyNUMKAEu-KoomValley_Bar
-        1.5_minimap.jpg
+      ref: maps/cQ5LLQmNqCPCnYFiTlcb/photo/WB7BxJQfCrOhyNUMKAEu-KoomValley_Bar 1.5_minimap.jpg
       type: image/jpeg
   playerCount: 16
   springName: Koom Valley 3 3.1
@@ -11425,8 +11293,7 @@ cQbwmwbhWrWyD1bhZNEn:
       ref: maps/cQbwmwbhWrWyD1bhZNEn/backgroundImage/m7Y5DAeZn0ewcJ8XAM10-screen_2024-03-01_02-39-34-123.png
       type: image/png
   certified: true
-  description: Huge island battlefield to fight on the mountains, beaches,
-    grassland, and sea.
+  description: Huge island battlefield to fight on the mountains, beaches, grassland, and sea.
   displayName: Jade Empress
   gameType:
     - team
@@ -11472,16 +11339,16 @@ cYgRxanQzvg7Bx9xXk1H:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FbackgroundImage%2F3oEsCzcVtUbYGGY1PUu6-valles_marineris_2.5%20overview.jpg?alt=media&token=fc2989b2-7f9a-402a-a39d-5782b38c3688
       lastModifiedTS: 1643828945022
       name: valles_marineris_2.5 overview.jpg
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/backgroundImage/3oEsCzcVtUbYGGY1PUu6-valles_marineris_2.5
-        overview.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/backgroundImage/3oEsCzcVtUbYGGY1PUu6-valles_marineris_2.5 overview.jpg
       type: image/jpeg
   certified: true
   description: >-
-    Official remake of the Valles Marineris map from SirArrturi. Inspired by the
-    official canyon-range on Mars.
+    Official remake of the Valles Marineris map from SirArrturi. Inspired by the official canyon-range on Mars.
 
 
-    Bots have paths to climb all cliffs, though some are harder to traverse. So bots have many evasive possibilities compared to vehicles. Though the reasonable shallow and wide ramps will give vehicles access to almost every location. Choose wisely!
+    Bots have paths to climb all cliffs, though some are harder to traverse. So bots have many evasive possibilities
+    compared to vehicles. Though the reasonable shallow and wide ramps will give vehicles access to almost every
+    location. Choose wisely!
 
 
     Enjoy.
@@ -11492,26 +11359,22 @@ cYgRxanQzvg7Bx9xXk1H:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FinGameShots%2FLRH3PF4n3n2ZRiG8O0nx-valles_marineris_2.5%20screenshot%203.jpg?alt=media&token=463104ff-7390-48ef-8298-b1d60781faea
       lastModifiedTS: 1643828925322
       name: valles_marineris_2.5 screenshot 3.jpg
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/LRH3PF4n3n2ZRiG8O0nx-valles_marineris_2.5
-        screenshot 3.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/LRH3PF4n3n2ZRiG8O0nx-valles_marineris_2.5 screenshot 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FinGameShots%2FAL3jAzckCUAMFJcdjRgi-valles_marineris_2.5%20SEO.jpg?alt=media&token=dc03244b-f787-4625-b880-67e85c8ef70c
       lastModifiedTS: 1643828935263
       name: valles_marineris_2.5 SEO.jpg
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/AL3jAzckCUAMFJcdjRgi-valles_marineris_2.5
-        SEO.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/AL3jAzckCUAMFJcdjRgi-valles_marineris_2.5 SEO.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FinGameShots%2FIdsmGvF0srVXQHclTPk8-valles_marineris_2.5%20screenshot%205.jpg?alt=media&token=2efab75b-aabd-4604-bf96-ed9945738980
       lastModifiedTS: 1643828920553
       name: valles_marineris_2.5 screenshot 5.jpg
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/IdsmGvF0srVXQHclTPk8-valles_marineris_2.5
-        screenshot 5.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/IdsmGvF0srVXQHclTPk8-valles_marineris_2.5 screenshot 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FinGameShots%2FUzkH3WS0s1PkMFW5f5Il-valles_marineris_2.5%20screenshot%204.jpg?alt=media&token=85d92a4b-f57b-469e-a810-d8469946e53a
       lastModifiedTS: 1643828930980
       name: valles_marineris_2.5 screenshot 4.jpg
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/UzkH3WS0s1PkMFW5f5Il-valles_marineris_2.5
-        screenshot 4.jpg
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/inGameShots/UzkH3WS0s1PkMFW5f5Il-valles_marineris_2.5 screenshot 4.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 6
@@ -11519,8 +11382,7 @@ cYgRxanQzvg7Bx9xXk1H:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcYgRxanQzvg7Bx9xXk1H%2FperspectiveShot%2FZk7gXXd8gsl9wd6vKhf3-valles_marineris_2.5%20perspect.png?alt=media&token=90207ece-fa80-4f43-9630-f80b7b27b3af
       lastModifiedTS: 1643828939471
       name: valles_marineris_2.5 perspect.png
-      ref: maps/cYgRxanQzvg7Bx9xXk1H/perspectiveShot/Zk7gXXd8gsl9wd6vKhf3-valles_marineris_2.5
-        perspect.png
+      ref: maps/cYgRxanQzvg7Bx9xXk1H/perspectiveShot/Zk7gXXd8gsl9wd6vKhf3-valles_marineris_2.5 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/cYgRxanQzvg7Bx9xXk1H/photo/PLGdCe5NFsZgi30hWW2u-valles_marineris_2.6.jpg
@@ -11559,8 +11421,7 @@ cvpud6KzRzucgumjiBgk:
       ref: maps/cvpud6KzRzucgumjiBgk/backgroundImage/5ASRmkcSZMi4Huiis0oU-screen_2023-11-25_18-38-02-835.png
       type: image/png
   certified: true
-  description: A large map for big battles, can be fought either East vs West or
-    North vs South. Also works for 4-way FFA.
+  description: A large map for big battles, can be fought either East vs West or North vs South. Also works for 4-way FFA.
   displayName: Silveridge
   gameType:
     - ffa
@@ -11626,8 +11487,7 @@ ddpsrgkYM0ujNqHiQKKm:
       ref: maps/ddpsrgkYM0ujNqHiQKKm/backgroundImage/2AlI8vd8CQorrVJZXkMj-screen_2023-12-12_01-37-52-304.png
       type: image/png
   certified: true
-  description: Four islands across a blue bay divide sandy beaches and brilliant
-    crystal plateaus.
+  description: Four islands across a blue bay divide sandy beaches and brilliant crystal plateaus.
   displayName: Azurite Shores
   gameType:
     - team
@@ -11706,8 +11566,7 @@ eR6j6L2F2OSP7QeCfW8O:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FbackgroundImage%2FM7kFZz8dt0iAI907Gmzi-ParadiseLost%20overview.jpg?alt=media&token=800b04a6-4a7c-4667-ad3e-e2d253ba8f00
       lastModifiedTS: 1699877872087
       name: ParadiseLost overview.jpg
-      ref: maps/eR6j6L2F2OSP7QeCfW8O/backgroundImage/M7kFZz8dt0iAI907Gmzi-ParadiseLost
-        overview.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/backgroundImage/M7kFZz8dt0iAI907Gmzi-ParadiseLost overview.jpg
       type: image/jpeg
   certified: true
   displayName: Paradise Lost
@@ -11718,20 +11577,17 @@ eR6j6L2F2OSP7QeCfW8O:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FinGameShots%2FkEdYre8gkHchDvjERIWr-ParadiseLost_SS%200.jpg?alt=media&token=bfa0e9ce-cfc2-49b9-9b5a-bcf2df86557c
       lastModifiedTS: 1699877877916
       name: ParadiseLost_SS 0.jpg
-      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/kEdYre8gkHchDvjERIWr-ParadiseLost_SS
-        0.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/kEdYre8gkHchDvjERIWr-ParadiseLost_SS 0.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FinGameShots%2FNdOT1KfcNKxlu9Exa60L-ParadiseLost_SS%202.jpg?alt=media&token=d4ff19ee-4aeb-4ade-b5cd-942baa3499fc
       lastModifiedTS: 1699877891787
       name: ParadiseLost_SS 2.jpg
-      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/NdOT1KfcNKxlu9Exa60L-ParadiseLost_SS
-        2.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/NdOT1KfcNKxlu9Exa60L-ParadiseLost_SS 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FinGameShots%2F2oahgvlDDCLjC8WbygNt-ParadiseLost_SS%201.jpg?alt=media&token=a5d2fcbf-cdd3-49ff-a192-40f5d8477124
       lastModifiedTS: 1699877885718
       name: ParadiseLost_SS 1.jpg
-      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/2oahgvlDDCLjC8WbygNt-ParadiseLost_SS
-        1.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/inGameShots/2oahgvlDDCLjC8WbygNt-ParadiseLost_SS 1.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 4
@@ -11745,8 +11601,7 @@ eR6j6L2F2OSP7QeCfW8O:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2Fphoto%2F0T5Xhn7aNDFnRBE1jI43-ParadiseLost%20minimap.jpg?alt=media&token=19f85cd6-0727-42ff-af42-15b6d431c02c
       lastModifiedTS: 1699877865997
       name: ParadiseLost minimap.jpg
-      ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/0T5Xhn7aNDFnRBE1jI43-ParadiseLost
-        minimap.jpg
+      ref: maps/eR6j6L2F2OSP7QeCfW8O/photo/0T5Xhn7aNDFnRBE1jI43-ParadiseLost minimap.jpg
       type: image/jpeg
   playerCount: 8
   springName: Paradise_Lost_V4
@@ -11841,12 +11696,10 @@ etCTTwexgYVGMV63rOWy:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FetCTTwexgYVGMV63rOWy%2FbackgroundImage%2F3AGLJxT9THholBAhnVki-FallenDell%201.jpg?alt=media&token=aa9d4111-79b5-47e7-b065-2e91f6c91d38
       lastModifiedTS: 1617890817000
       name: FallenDell 1.jpg
-      ref: maps/etCTTwexgYVGMV63rOWy/backgroundImage/3AGLJxT9THholBAhnVki-FallenDell
-        1.jpg
+      ref: maps/etCTTwexgYVGMV63rOWy/backgroundImage/3AGLJxT9THholBAhnVki-FallenDell 1.jpg
       type: image/jpeg
   certified: true
-  description: Medium small map for 4 players. Interesting terrain and multiple
-    viable strategies are possible. Enjoy.
+  description: Medium small map for 4 players. Interesting terrain and multiple viable strategies are possible. Enjoy.
   displayName: Fallendell
   gameType:
     - team
@@ -11860,8 +11713,7 @@ etCTTwexgYVGMV63rOWy:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FetCTTwexgYVGMV63rOWy%2FinGameShots%2FeREVloaspvOR8JVGdUhg-FallenDell%20SEO%204.jpg?alt=media&token=0295b105-efb0-41fb-a56d-a5266b32cbe7
       lastModifiedTS: 1617890812000
       name: FallenDell SEO 4.jpg
-      ref: maps/etCTTwexgYVGMV63rOWy/inGameShots/eREVloaspvOR8JVGdUhg-FallenDell SEO
-        4.jpg
+      ref: maps/etCTTwexgYVGMV63rOWy/inGameShots/eREVloaspvOR8JVGdUhg-FallenDell SEO 4.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -12004,8 +11856,7 @@ frJOFVdgDIROpNVzgDed:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfrJOFVdgDIROpNVzgDed%2FinGameShots%2FmbA8NUjySzNCU6jaEPR0-Entrenched_SEO%202.jpg?alt=media&token=d06fa2d4-da11-419e-b57d-68b8e0f5e0ed
       lastModifiedTS: 1639090093430
       name: Entrenched_SEO 2.jpg
-      ref: maps/frJOFVdgDIROpNVzgDed/inGameShots/mbA8NUjySzNCU6jaEPR0-Entrenched_SEO
-        2.jpg
+      ref: maps/frJOFVdgDIROpNVzgDed/inGameShots/mbA8NUjySzNCU6jaEPR0-Entrenched_SEO 2.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -12049,13 +11900,12 @@ fvLhZp85DLroyv0Iozhe:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FbackgroundImage%2Fa0jcrR7uX8YzEGRlZiJ9-Eye%20Of%20Horus_1.5%20overview.jpg?alt=media&token=638013fe-df07-4187-8ea9-b3214002f163
       lastModifiedTS: 1643309962927
       name: Eye Of Horus_1.5 overview.jpg
-      ref: maps/fvLhZp85DLroyv0Iozhe/backgroundImage/a0jcrR7uX8YzEGRlZiJ9-Eye Of
-        Horus_1.5 overview.jpg
+      ref: maps/fvLhZp85DLroyv0Iozhe/backgroundImage/a0jcrR7uX8YzEGRlZiJ9-Eye Of Horus_1.5 overview.jpg
       type: image/jpeg
   certified: true
   description: >-
-    Fight your way around the hills with vehicles or use the many routes through
-    the mountains with bots and all-terrain units.
+    Fight your way around the hills with vehicles or use the many routes through the mountains with bots and all-terrain
+    units.
 
 
     Also playable with water level of 270 or higher.
@@ -12066,20 +11916,17 @@ fvLhZp85DLroyv0Iozhe:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FinGameShots%2FWOJhx1PDGGpeGWPT96by-Eye%20Of%20Horus_1.5%20SEO.jpg?alt=media&token=d3c39a27-7e2c-4c1a-8310-54c1eaf40105
       lastModifiedTS: 1643309958312
       name: Eye Of Horus_1.5 SEO.jpg
-      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/WOJhx1PDGGpeGWPT96by-Eye Of Horus_1.5
-        SEO.jpg
+      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/WOJhx1PDGGpeGWPT96by-Eye Of Horus_1.5 SEO.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FinGameShots%2FSU7iNRhuAQLKf9amBJmg-Eye%20Of%20Horus_1.5%20screenshot%201.jpg?alt=media&token=7dd33e51-fa64-41ce-aaf1-3af57b2db0e9
       lastModifiedTS: 1643309947127
       name: Eye Of Horus_1.5 screenshot 1.jpg
-      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/SU7iNRhuAQLKf9amBJmg-Eye Of Horus_1.5
-        screenshot 1.jpg
+      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/SU7iNRhuAQLKf9amBJmg-Eye Of Horus_1.5 screenshot 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FinGameShots%2FpmYvHisom52DQSGATMyB-Eye%20Of%20Horus_1.5%20screenshot%202.jpg?alt=media&token=cc7f83c0-8f8c-4671-8fca-10d64ed0f38d
       lastModifiedTS: 1643309953667
       name: Eye Of Horus_1.5 screenshot 2.jpg
-      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/pmYvHisom52DQSGATMyB-Eye Of Horus_1.5
-        screenshot 2.jpg
+      ref: maps/fvLhZp85DLroyv0Iozhe/inGameShots/pmYvHisom52DQSGATMyB-Eye Of Horus_1.5 screenshot 2.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -12087,8 +11934,7 @@ fvLhZp85DLroyv0Iozhe:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FperspectiveShot%2FWewRZIXQQItNWHuR0u5V-Eye%20Of%20Horus_1.5%20perspect.png?alt=media&token=1b7ca2a7-912d-4e8b-a811-ec58c5df783e
       lastModifiedTS: 1643309941483
       name: Eye Of Horus_1.5 perspect.png
-      ref: maps/fvLhZp85DLroyv0Iozhe/perspectiveShot/WewRZIXQQItNWHuR0u5V-Eye Of
-        Horus_1.5 perspect.png
+      ref: maps/fvLhZp85DLroyv0Iozhe/perspectiveShot/WewRZIXQQItNWHuR0u5V-Eye Of Horus_1.5 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fvLhZp85DLroyv0Iozhe/photo/xadVx3D5ZkhwgzghtQEw-Eye_Of_Horus_1.7.jpg
@@ -12596,9 +12442,8 @@ ggVDNTLRh7HNk4mf9mf6:
       ref: maps/ggVDNTLRh7HNk4mf9mf6/backgroundImage/sQkVi9NUtxEEpcOGXDRL-CCRXR_SF_header.jpg
       type: image/jpeg
   certified: true
-  description: Large, mostly flat, map that can be played both east-west as
-    north-south. Interesting for anything from 1v1 to 8v8. Vehicles do have the
-    upper hand.
+  description: Large, mostly flat, map that can be played both east-west as north-south. Interesting for anything from 1v1
+    to 8v8. Vehicles do have the upper hand.
   displayName: Comet Catcher
   gameType:
     - team
@@ -12814,8 +12659,7 @@ iQZFWB7rheiOseoQXihq:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2FbackgroundImage%2FemF6E0aLUVpSqSz4X3Pi-Great-Divide%20overview.jpg?alt=media&token=23398564-efc3-4490-9680-f82703a8e2e3
       lastModifiedTS: 1680267634592
       name: Great-Divide overview.jpg
-      ref: maps/iQZFWB7rheiOseoQXihq/backgroundImage/emF6E0aLUVpSqSz4X3Pi-Great-Divide
-        overview.jpg
+      ref: maps/iQZFWB7rheiOseoQXihq/backgroundImage/emF6E0aLUVpSqSz4X3Pi-Great-Divide overview.jpg
       type: image/jpeg
   certified: true
   description: Fight through a mountain pass.
@@ -12827,14 +12671,12 @@ iQZFWB7rheiOseoQXihq:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2FinGameShots%2FaXWk27s052iy49gOysb8-Great-Divide_SS%201.jpg?alt=media&token=688c2708-7350-4ed6-8225-be2126e6bc3b
       lastModifiedTS: 1680267657140
       name: Great-Divide_SS 1.jpg
-      ref: maps/iQZFWB7rheiOseoQXihq/inGameShots/aXWk27s052iy49gOysb8-Great-Divide_SS
-        1.jpg
+      ref: maps/iQZFWB7rheiOseoQXihq/inGameShots/aXWk27s052iy49gOysb8-Great-Divide_SS 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2FinGameShots%2FW3WntrjQIIY7ovzvt6TG-Great-Divide_SS%202.jpg?alt=media&token=8bed994a-f24b-4b21-8aab-a0cc56376a1d
       lastModifiedTS: 1680267674817
       name: Great-Divide_SS 2.jpg
-      ref: maps/iQZFWB7rheiOseoQXihq/inGameShots/W3WntrjQIIY7ovzvt6TG-Great-Divide_SS
-        2.jpg
+      ref: maps/iQZFWB7rheiOseoQXihq/inGameShots/W3WntrjQIIY7ovzvt6TG-Great-Divide_SS 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FiQZFWB7rheiOseoQXihq%2FinGameShots%2FLz9lzoZMkHQ6YpirP0dA-Great-Divide_SEO.jpg?alt=media&token=e7c0af75-c46a-4235-bf8d-a69c301c5bd5
       lastModifiedTS: 1680267649218
@@ -12901,8 +12743,7 @@ igcp0iDB12WAKPdtBDna:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Figcp0iDB12WAKPdtBDna%2Fphoto%2FVZW7Ul5Cf5kk4uuZ4TpD-White%20Fire%20Remake%201.1.jpg?alt=media&token=ae085d8e-e238-4ea1-9a3b-7067813ba5ff
       lastModifiedTS: 1687446057415
       name: White Fire Remake 1.1.jpg
-      ref: maps/igcp0iDB12WAKPdtBDna/photo/VZW7Ul5Cf5kk4uuZ4TpD-White Fire Remake
-        1.1.jpg
+      ref: maps/igcp0iDB12WAKPdtBDna/photo/VZW7Ul5Cf5kk4uuZ4TpD-White Fire Remake 1.1.jpg
       type: image/jpeg
   playerCount: 16
   springName: White Fire Remake 1.3
@@ -13178,8 +13019,8 @@ jyQlMYahZbQYgC1ZGRmd:
       ref: maps/jyQlMYahZbQYgC1ZGRmd/backgroundImage/g2cEGvC0f3eLjAJtsWbB-hera_planum_background.jpg
       type: image/jpeg
   certified: false
-  description: Ancient eroded craters leave narrow paths on a vast plateau. Some
-    geothermal activity remains in this barren environment.
+  description: Ancient eroded craters leave narrow paths on a vast plateau. Some geothermal activity remains in this
+    barren environment.
   displayName: Hera Planum
   gameType:
     - team
@@ -13320,9 +13161,8 @@ kesPeWO0ScnmWF2An8qA:
       ref: maps/kesPeWO0ScnmWF2An8qA/backgroundImage/eRIVXYu88Xr4gPHzbG3E-flats_and_forests_overview.jpg
       type: image/jpeg
   certified: true
-  description: Large flat map for team games up to 8 v 8. Expands are the way to
-    victory. Fight for the territory and its metal. Bots are better in the
-    hills/forests while vehicles perform better on the plains.
+  description: Large flat map for team games up to 8 v 8. Expands are the way to victory. Fight for the territory and its
+    metal. Bots are better in the hills/forests while vehicles perform better on the plains.
   displayName: Flats and Forests
   gameType:
     - ffa
@@ -13535,10 +13375,9 @@ kgpwvzDGdXoVcD6whG3C:
       ref: maps/kgpwvzDGdXoVcD6whG3C/backgroundImage/NgOMZpyhhAKogFsyZwo3-Tempest_BG.jpg
       type: image/jpeg
   certified: true
-  description: A large, open map with a resource rich lake in the center. All
-    units can pass in the shallows along the shore. You can set the map to dry
-    with the mapoption WaterLevel 1, and set it to almost completely flooded
-    with WaterLevel 2
+  description: A large, open map with a resource rich lake in the center. All units can pass in the shallows along the
+    shore. You can set the map to dry with the mapoption WaterLevel 1, and set it to almost completely flooded with
+    WaterLevel 2
   displayName: Tempest
   gameType:
     - team
@@ -13546,8 +13385,7 @@ kgpwvzDGdXoVcD6whG3C:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkgpwvzDGdXoVcD6whG3C%2FinGameShots%2FpFysImXy7Zy6rWy34uGI-Tempest_SEO%202.jpg?alt=media&token=c0a2ffe9-e7bf-4176-adab-e48730a912b9
       lastModifiedTS: 1639171382631
       name: Tempest_SEO 2.jpg
-      ref: maps/kgpwvzDGdXoVcD6whG3C/inGameShots/pFysImXy7Zy6rWy34uGI-Tempest_SEO
-        2.jpg
+      ref: maps/kgpwvzDGdXoVcD6whG3C/inGameShots/pFysImXy7Zy6rWy34uGI-Tempest_SEO 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkgpwvzDGdXoVcD6whG3C%2FinGameShots%2FSufySv5JCLl2uIBnV1t5-Tempest_SEO.jpg?alt=media&token=bc9f601a-4836-400b-b071-0c8b21c529b5
       lastModifiedTS: 1639171625589
@@ -13644,8 +13482,7 @@ lJQnSRqDN7rNPS5pe80C:
       ref: maps/lJQnSRqDN7rNPS5pe80C/backgroundImage/3Yk3Tx8keR6nlMnBqz4j-Oort_Cloud_overview.jpg
       type: image/jpeg
   certified: true
-  description: Metal map with strong solar wind, with impassable empty space
-    between the metal structures.
+  description: Metal map with strong solar wind, with impassable empty space between the metal structures.
   displayName: Oort Cloud
   gameType:
     - ffa
@@ -13665,14 +13502,12 @@ lJQnSRqDN7rNPS5pe80C:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FlJQnSRqDN7rNPS5pe80C%2FinGameShots%2FCvwhvtpmMextbJA5LmzV-Oort_Cloud_overview%205.jpg?alt=media&token=3841e5b4-acd3-4345-8a40-55a07968babe
       lastModifiedTS: 1641471404055
       name: Oort_Cloud_overview 5.jpg
-      ref: maps/lJQnSRqDN7rNPS5pe80C/inGameShots/CvwhvtpmMextbJA5LmzV-Oort_Cloud_overview
-        5.jpg
+      ref: maps/lJQnSRqDN7rNPS5pe80C/inGameShots/CvwhvtpmMextbJA5LmzV-Oort_Cloud_overview 5.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FlJQnSRqDN7rNPS5pe80C%2FinGameShots%2Fj16IgLRaACjczEDDt6T3-Oort_Cloud_overview%204.jpg?alt=media&token=cce0a2a6-9458-4cef-9abd-bf04870283b8
       lastModifiedTS: 1641471398970
       name: Oort_Cloud_overview 4.jpg
-      ref: maps/lJQnSRqDN7rNPS5pe80C/inGameShots/j16IgLRaACjczEDDt6T3-Oort_Cloud_overview
-        4.jpg
+      ref: maps/lJQnSRqDN7rNPS5pe80C/inGameShots/j16IgLRaACjczEDDt6T3-Oort_Cloud_overview 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FlJQnSRqDN7rNPS5pe80C%2FinGameShots%2Feoa2Kvcg6qoypCGE4TFl-Oort_Cloud_MAP_Tra.png?alt=media&token=c6b85fe3-7518-4804-9aa7-e443e5b21850
       lastModifiedTS: 1641471379852
@@ -14063,8 +13898,7 @@ mzdkzzTL3zgPanW6zQx4:
       ref: maps/mzdkzzTL3zgPanW6zQx4/backgroundImage/dNKL8XTZ5RJU8mVtx9Pf-screen_2023-11-24_20-35-33-595.png
       type: image/png
   certified: true
-  description: A deep space battle arena; used as a secret final testing ground
-    for upcoming commanders
+  description: A deep space battle arena; used as a secret final testing ground for upcoming commanders
   displayName: Faster Than Light
   gameType:
     - 1v1
@@ -14107,10 +13941,9 @@ oBOBWCmenCo2tbkwYNJt:
       ref: maps/oBOBWCmenCo2tbkwYNJt/backgroundImage/T2zwYoZKpQzUwpqxeuqL-Coastlines_OverviewBG.jpg
       type: image/jpeg
   certified: true
-  description: Large map with start positions supporting up to 9 players per team.
-    Variations of more and less open terrain with small hills. Securing hills
-    helps to control parts of the map. Both kbots and vehicles are valid options
-    to win.
+  description: Large map with start positions supporting up to 9 players per team. Variations of more and less open
+    terrain with small hills. Securing hills helps to control parts of the map. Both kbots and vehicles are valid
+    options to win.
   displayName: Coastlines Dry
   gameType:
     - ffa
@@ -14119,26 +13952,22 @@ oBOBWCmenCo2tbkwYNJt:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2F0a5zHD2HJbpAWlsO8Xms-Coastlines_SS%204.jpg?alt=media&token=4dbe9404-4964-48f6-8c18-7d489abea0fd
       lastModifiedTS: 1700518145090
       name: Coastlines_SS 4.jpg
-      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/0a5zHD2HJbpAWlsO8Xms-Coastlines_SS
-        4.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/0a5zHD2HJbpAWlsO8Xms-Coastlines_SS 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2FYlhheXNELgkMEGyWfXHY-Coastlines_SS%203.jpg?alt=media&token=006a699c-8920-485a-b7e4-8762cb24f079
       lastModifiedTS: 1700518140145
       name: Coastlines_SS 3.jpg
-      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/YlhheXNELgkMEGyWfXHY-Coastlines_SS
-        3.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/YlhheXNELgkMEGyWfXHY-Coastlines_SS 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2FB75LO5BgSjJIggctfMIV-Coastlines_SS%201.jpg?alt=media&token=969acb9b-e5f1-4606-9b6d-160e621afce9
       lastModifiedTS: 1700518152331
       name: Coastlines_SS 1.jpg
-      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/B75LO5BgSjJIggctfMIV-Coastlines_SS
-        1.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/B75LO5BgSjJIggctfMIV-Coastlines_SS 1.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoBOBWCmenCo2tbkwYNJt%2FinGameShots%2F9jIt8ZEs9QiSVIcnyVvo-Coastlines_SS%202.jpg?alt=media&token=2c9f5e06-74f5-4229-8df8-09f986483eb9
       lastModifiedTS: 1700518132505
       name: Coastlines_SS 2.jpg
-      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/9jIt8ZEs9QiSVIcnyVvo-Coastlines_SS
-        2.jpg
+      ref: maps/oBOBWCmenCo2tbkwYNJt/inGameShots/9jIt8ZEs9QiSVIcnyVvo-Coastlines_SS 2.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -14483,8 +14312,7 @@ oX7eHI8mlpVvJUYs4v4Y:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FsCkj0ik3ZN1GJ4MfaGV5-ATG%202.2%203d.png?alt=media&token=fe70f966-fab7-4b48-ab0e-8e407295bc59
       lastModifiedTS: 1715684917291
       name: ATG 2.2 3d.png
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/sCkj0ik3ZN1GJ4MfaGV5-ATG 2.2
-        3d.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/sCkj0ik3ZN1GJ4MfaGV5-ATG 2.2 3d.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2FR43boUPTUQdr3RmbcU1d-ATG%202.2.png?alt=media&token=af9a1ce1-998a-46a0-926a-b49a06a34a2c
@@ -14852,9 +14680,8 @@ pzZ5zAyferpDePxtC2hG:
       ref: maps/pzZ5zAyferpDePxtC2hG/backgroundImage/Beveb1FNXEALk7rvP3Nf-tundra_continents_overview.jpg
       type: image/jpeg
   certified: true
-  description: Large map, optimal for 2 teams, up to 10 players each. Fight for
-    the strategically important center continents or push through the middle
-    water passage. Early fights for reclaim on the middle ridges.
+  description: Large map, optimal for 2 teams, up to 10 players each. Fight for the strategically important center
+    continents or push through the middle water passage. Early fights for reclaim on the middle ridges.
   displayName: Tundra Continents
   gameType:
     - team
@@ -15346,12 +15173,10 @@ s7nrY1vJEItDuPwHAKEO:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fs7nrY1vJEItDuPwHAKEO%2FbackgroundImage%2FNaxLpRWqQpMh0wqwT7uS-MoonQ20%201.jpg?alt=media&token=6f86be33-fb4f-479d-b321-0a3ee6d60d62
       lastModifiedTS: 1617891864000
       name: MoonQ20 1.jpg
-      ref: maps/s7nrY1vJEItDuPwHAKEO/backgroundImage/NaxLpRWqQpMh0wqwT7uS-MoonQ20
-        1.jpg
+      ref: maps/s7nrY1vJEItDuPwHAKEO/backgroundImage/NaxLpRWqQpMh0wqwT7uS-MoonQ20 1.jpg
       type: image/jpeg
   certified: true
-  description: Wide Moon with many craters, which hold more dense metal spots. Use
-    the craters to your advantage. Good Luck!
+  description: Wide Moon with many craters, which hold more dense metal spots. Use the craters to your advantage. Good Luck!
   displayName: MoonQ20XR2
   gameType:
     - team
@@ -15359,20 +15184,17 @@ s7nrY1vJEItDuPwHAKEO:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fs7nrY1vJEItDuPwHAKEO%2FinGameShots%2FQllVUQzz9avfc4BhWXXB-MoonQ20%20SEO%204.jpg?alt=media&token=8278ccbc-5805-4c3c-b5e1-cdfe41353f7f
       lastModifiedTS: 1617891881000
       name: MoonQ20 SEO 4.jpg
-      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/QllVUQzz9avfc4BhWXXB-MoonQ20 SEO
-        4.jpg
+      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/QllVUQzz9avfc4BhWXXB-MoonQ20 SEO 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fs7nrY1vJEItDuPwHAKEO%2FinGameShots%2FtDGVbYropUVw1RjERMVV-MoonQ20%20SEO%206.jpg?alt=media&token=640d0754-b569-4fdc-8430-7866cdfd7b8a
       lastModifiedTS: 1617891897000
       name: MoonQ20 SEO 6.jpg
-      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/tDGVbYropUVw1RjERMVV-MoonQ20 SEO
-        6.jpg
+      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/tDGVbYropUVw1RjERMVV-MoonQ20 SEO 6.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fs7nrY1vJEItDuPwHAKEO%2FinGameShots%2FGSfUSaobztj1PYrv5a2c-MoonQ20%20SEO%205.jpg?alt=media&token=f559c3ba-03e9-493c-8810-e7a1fd206dc0
       lastModifiedTS: 1617891888000
       name: MoonQ20 SEO 5.jpg
-      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/GSfUSaobztj1PYrv5a2c-MoonQ20 SEO
-        5.jpg
+      ref: maps/s7nrY1vJEItDuPwHAKEO/inGameShots/GSfUSaobztj1PYrv5a2c-MoonQ20 SEO 5.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -15685,8 +15507,7 @@ taMTVVZKAKbYywe7tyRb:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
       lastModifiedTS: 1715976377879
       name: tartar 3d.png
-      ref: maps/taMTVVZKAKbYywe7tyRb/perspectiveShot/5QTQknQYcRdoymt8d42T-tartar
-        3d.png
+      ref: maps/taMTVVZKAKbYywe7tyRb/perspectiveShot/5QTQknQYcRdoymt8d42T-tartar 3d.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2Fphoto%2FckRvAIMg4yqNaT3CDPSp-TARTAR1.1.png?alt=media&token=3a73a557-ef8c-4975-9e20-d07d658d945f
@@ -15907,8 +15728,7 @@ u17mWZp6jqx5b5s0Or5z:
       ref: maps/u17mWZp6jqx5b5s0Or5z/backgroundImage/YyJFZuKwsL6NfzjqDQNj-theta_crystals_bg.jpg
       type: image/jpeg
   certified: false
-  description: Team map. 3 metal spots only reachable by air. Color palette based
-    on Crystallized Plains by Moose.
+  description: Team map. 3 metal spots only reachable by air. Color palette based on Crystallized Plains by Moose.
   displayName: Theta Crystals
   gameType:
     - team
@@ -15917,14 +15737,12 @@ u17mWZp6jqx5b5s0Or5z:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FinGameShots%2Ft278SXkwI4Uu2ymbUbP7-theta_crystals_0.8%20ss.jpg?alt=media&token=5d5ad687-6ea7-4f63-8399-c9f30dff1018
       lastModifiedTS: 1680250499224
       name: theta_crystals_0.8 ss.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/inGameShots/t278SXkwI4Uu2ymbUbP7-theta_crystals_0.8
-        ss.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/inGameShots/t278SXkwI4Uu2ymbUbP7-theta_crystals_0.8 ss.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FinGameShots%2FcU86P8cyaDCg8orMrp8g-theta_crystals_0.8%20SEO.jpg?alt=media&token=87efce60-76fb-46e4-8fca-30d716f6e3a9
       lastModifiedTS: 1680250493991
       name: theta_crystals_0.8 SEO.jpg
-      ref: maps/u17mWZp6jqx5b5s0Or5z/inGameShots/cU86P8cyaDCg8orMrp8g-theta_crystals_0.8
-        SEO.jpg
+      ref: maps/u17mWZp6jqx5b5s0Or5z/inGameShots/cU86P8cyaDCg8orMrp8g-theta_crystals_0.8 SEO.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -16471,19 +16289,14 @@ vryCgnmiXKEfnJuBLobP:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvryCgnmiXKEfnJuBLobP%2FbackgroundImage%2FEYtkdbk3BoHvRgZ0tFx7-Greenest_Fields_1.0_BG%202.jpg?alt=media&token=a76711ac-2ab9-4701-9852-49ea3b5c70ed
       lastModifiedTS: 1647517276311
       name: Greenest_Fields_1.0_BG 2.jpg
-      ref: maps/vryCgnmiXKEfnJuBLobP/backgroundImage/EYtkdbk3BoHvRgZ0tFx7-Greenest_Fields_1.0_BG
-        2.jpg
+      ref: maps/vryCgnmiXKEfnJuBLobP/backgroundImage/EYtkdbk3BoHvRgZ0tFx7-Greenest_Fields_1.0_BG 2.jpg
       type: image/jpeg
   certified: true
-  description: >-
-    Fight on a calm and peaceful looking rural area, with nothing more than some
-    old dirt-roads, trees and some rocks.
-
+  description: |-
+    Fight on a calm and peaceful looking rural area, with nothing more than some old dirt-roads, trees and some rocks.
 
     But with no metal spots.
-
     So you're entire economy is based on Energy Converters.
-
 
     Good luck Commander!
   displayName: Greenest Fields
@@ -16499,8 +16312,7 @@ vryCgnmiXKEfnJuBLobP:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvryCgnmiXKEfnJuBLobP%2FinGameShots%2F25OQIJP1WT2cGBvRz7Gc-Greenest_Fields_1.0_BG%203.jpg?alt=media&token=005f0d95-6042-4fd9-abaf-32915c07ce56
       lastModifiedTS: 1647517283306
       name: Greenest_Fields_1.0_BG 3.jpg
-      ref: maps/vryCgnmiXKEfnJuBLobP/inGameShots/25OQIJP1WT2cGBvRz7Gc-Greenest_Fields_1.0_BG
-        3.jpg
+      ref: maps/vryCgnmiXKEfnJuBLobP/inGameShots/25OQIJP1WT2cGBvRz7Gc-Greenest_Fields_1.0_BG 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FvryCgnmiXKEfnJuBLobP%2FinGameShots%2Fndy6FZFKSH42eB2fo5bY-Greenest_Fields_1.0_BG.jpg?alt=media&token=f62aa584-b3ec-4b62-b17b-5fce11966406
       lastModifiedTS: 1647517288810
@@ -16713,9 +16525,8 @@ x0Y6f1ou7U5tF3S9xllC:
       type: image/png
   certified: true
   description: >-
-    Remake of the rather interesting asymmetrical map River Dale V2. This time,
-    a little bit more rocky edges, but still the same special metal lay-out and
-    also asymmetrical values for North and South.
+    Remake of the rather interesting asymmetrical map River Dale V2. This time, a little bit more rocky edges, but still
+    the same special metal lay-out and also asymmetrical values for North and South.
 
 
     Good for team games 1v1 or 2v2
@@ -16903,8 +16714,7 @@ xMrZBOap76goS3ri3pBk:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxMrZBOap76goS3ri3pBk%2FbackgroundImage%2FTtldYz3sfOqZ65DM7HU4-bastion%201.PNG?alt=media&token=eca54db1-8047-4d12-83a6-2eae2f4548af
       lastModifiedTS: 1708900769500
       name: bastion 1.PNG
-      ref: maps/xMrZBOap76goS3ri3pBk/backgroundImage/TtldYz3sfOqZ65DM7HU4-bastion
-        1.PNG
+      ref: maps/xMrZBOap76goS3ri3pBk/backgroundImage/TtldYz3sfOqZ65DM7HU4-bastion 1.PNG
       type: image/png
   certified: true
   description: An Ancient fortress, built to withstand an enemy long forgotten.
@@ -16964,15 +16774,15 @@ xbJTsdeXIKFQmuvBHW3d:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxbJTsdeXIKFQmuvBHW3d%2FbackgroundImage%2FPGls5g8XE6nRrwrcKQm6-Timna_Island_1.0%20overview.jpg?alt=media&token=17fcac3f-aed4-4849-81f6-b90452ba11c9
       lastModifiedTS: 1644103145448
       name: Timna_Island_1.0 overview.jpg
-      ref: maps/xbJTsdeXIKFQmuvBHW3d/backgroundImage/PGls5g8XE6nRrwrcKQm6-Timna_Island_1.0
-        overview.jpg
+      ref: maps/xbJTsdeXIKFQmuvBHW3d/backgroundImage/PGls5g8XE6nRrwrcKQm6-Timna_Island_1.0 overview.jpg
       type: image/jpeg
   certified: true
   description: >-
     A fresh, though unbalanced and asymmetrical island to wage war on.
 
 
-    West has a tad more metal, or at least easier access to it. East has a better defendable position due to the high ground.
+    West has a tad more metal, or at least easier access to it. East has a better defendable position due to the high
+    ground.
 
 
     Great for new players to start east.
@@ -16985,8 +16795,7 @@ xbJTsdeXIKFQmuvBHW3d:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxbJTsdeXIKFQmuvBHW3d%2FinGameShots%2FM22YhTeOtieRfRYYGqiY-Timna_Island_1.0%20SEO.jpg?alt=media&token=f419973e-6dde-47ac-ac7b-93c7e68b5768
       lastModifiedTS: 1644103135685
       name: Timna_Island_1.0 SEO.jpg
-      ref: maps/xbJTsdeXIKFQmuvBHW3d/inGameShots/M22YhTeOtieRfRYYGqiY-Timna_Island_1.0
-        SEO.jpg
+      ref: maps/xbJTsdeXIKFQmuvBHW3d/inGameShots/M22YhTeOtieRfRYYGqiY-Timna_Island_1.0 SEO.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 4
@@ -16994,8 +16803,7 @@ xbJTsdeXIKFQmuvBHW3d:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FxbJTsdeXIKFQmuvBHW3d%2FperspectiveShot%2FdrxJqGEQNrGfVzPNjUoX-Timna_Island_1.0%20perspect.png?alt=media&token=5afc89e4-fd6e-4840-b27d-c3337c6756ce
       lastModifiedTS: 1644103140240
       name: Timna_Island_1.0 perspect.png
-      ref: maps/xbJTsdeXIKFQmuvBHW3d/perspectiveShot/drxJqGEQNrGfVzPNjUoX-Timna_Island_1.0
-        perspect.png
+      ref: maps/xbJTsdeXIKFQmuvBHW3d/perspectiveShot/drxJqGEQNrGfVzPNjUoX-Timna_Island_1.0 perspect.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xbJTsdeXIKFQmuvBHW3d/photo/tDliYQN5TMsMVdahqcha-Timna_Island_1.0.jpg
@@ -17035,8 +16843,7 @@ xn2aVcKlkpTQAakCC3Z8:
       ref: maps/xn2aVcKlkpTQAakCC3Z8/backgroundImage/H9L0tT9cyF0M9P13IE3k-screen_2023-11-24_00-40-27-479.png
       type: image/png
   certified: true
-  description: Smallish map dominated by a hill in the middle. For 1v1, small
-    teamgames also doable.
+  description: Smallish map dominated by a hill in the middle. For 1v1, small teamgames also doable.
   displayName: Copper Hill
   gameType:
     - team
@@ -17246,13 +17053,11 @@ zvBCoDF2TaUPp7AwfCUr:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2FbackgroundImage%2Fp7po5raOkPvOec0s8Y7I-PinewoodDerby%201.jpg?alt=media&token=c9a5c55e-1f20-4f7b-9ae9-46115e7e92bd
       lastModifiedTS: 1617892946000
       name: PinewoodDerby 1.jpg
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/backgroundImage/p7po5raOkPvOec0s8Y7I-PinewoodDerby
-        1.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/backgroundImage/p7po5raOkPvOec0s8Y7I-PinewoodDerby 1.jpg
       type: image/jpeg
   certified: true
-  description: A fun and good map for new players. Though when you already know
-    how to play BAR, please revisit, there are multiple viable strategies
-    possible here.
+  description: A fun and good map for new players. Though when you already know how to play BAR, please revisit, there are
+    multiple viable strategies possible here.
   displayName: Pinewood Derby
   gameType:
     - team
@@ -17261,14 +17066,12 @@ zvBCoDF2TaUPp7AwfCUr:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2FinGameShots%2FT9qdwa8cNAE6D9iuuzDc-PinewoodDerby%20SEO%204.jpg?alt=media&token=56752e16-e93f-4431-86e4-695e713c6e4c
       lastModifiedTS: 1617892931000
       name: PinewoodDerby SEO 4.jpg
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/inGameShots/T9qdwa8cNAE6D9iuuzDc-PinewoodDerby
-        SEO 4.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/inGameShots/T9qdwa8cNAE6D9iuuzDc-PinewoodDerby SEO 4.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2FinGameShots%2FTsdE8DjabOtjeXsSkA3c-PinewoodDerby%20SEO%205.jpg?alt=media&token=5a7e393d-3c37-4451-a311-a18949f5017c
       lastModifiedTS: 1617892937000
       name: PinewoodDerby SEO 5.jpg
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/inGameShots/TsdE8DjabOtjeXsSkA3c-PinewoodDerby
-        SEO 5.jpg
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/inGameShots/TsdE8DjabOtjeXsSkA3c-PinewoodDerby SEO 5.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -17276,8 +17079,7 @@ zvBCoDF2TaUPp7AwfCUr:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2FperspectiveShot%2FeQluounjIRuyxPPoSHfb-PinewoodDerby%202.png?alt=media&token=168506f0-f4fb-4ab4-9ec4-4c10978761b2
       lastModifiedTS: 1699820869425
       name: PinewoodDerby 2.png
-      ref: maps/zvBCoDF2TaUPp7AwfCUr/perspectiveShot/eQluounjIRuyxPPoSHfb-PinewoodDerby
-        2.png
+      ref: maps/zvBCoDF2TaUPp7AwfCUr/perspectiveShot/eQluounjIRuyxPPoSHfb-PinewoodDerby 2.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvBCoDF2TaUPp7AwfCUr%2Fphoto%2FPRjd7wt4mtLqRIwXcRWj-PinewoodDerby-MinimapXL.jpg?alt=media&token=7a112ba8-0817-4afb-a186-6ec44346d5c7
@@ -17315,19 +17117,15 @@ zvTEXnewG2G8LaMjFq4o:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FbackgroundImage%2Fh2AWpndR3RAiOIMHVW1N-nuclear_winter_bar_1.1%20BG.jpg?alt=media&token=e8abf8bb-48f0-43c8-994d-56a7625a6345
       lastModifiedTS: 1699821502842
       name: nuclear_winter_bar_1.1 BG.jpg
-      ref: maps/zvTEXnewG2G8LaMjFq4o/backgroundImage/h2AWpndR3RAiOIMHVW1N-nuclear_winter_bar_1.1
-        BG.jpg
+      ref: maps/zvTEXnewG2G8LaMjFq4o/backgroundImage/h2AWpndR3RAiOIMHVW1N-nuclear_winter_bar_1.1 BG.jpg
       type: image/jpeg
   certified: true
-  description: >-
+  description: |-
     Remake of the original Nuclear Winter V3 - though a tiny bit smaller.
-
 
     Unique feature is the ice in the middle, which speeds up vehicles and hovercraft, but is slippery/slow for bots.
 
-
     The snow is pretty soft, so cratering and terrain deformation will happen.
-
 
     Good luck!!
   displayName: Nuclear Winter
@@ -17337,14 +17135,12 @@ zvTEXnewG2G8LaMjFq4o:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FinGameShots%2FGcz3ENHj5iko45kjLdXP-nuclear_winter_bar_1.1_SEO%203.jpg?alt=media&token=bb5f8581-2781-4cf0-8d03-e45a1336c820
       lastModifiedTS: 1699821487325
       name: nuclear_winter_bar_1.1_SEO 3.jpg
-      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/Gcz3ENHj5iko45kjLdXP-nuclear_winter_bar_1.1_SEO
-        3.jpg
+      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/Gcz3ENHj5iko45kjLdXP-nuclear_winter_bar_1.1_SEO 3.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FinGameShots%2Fe5A7AhLQtNP2dp7i8H9O-nuclear_winter_bar_1.1_SEO%202.jpg?alt=media&token=f69bad5f-b395-468c-9f77-2549774422c9
       lastModifiedTS: 1699821485141
       name: nuclear_winter_bar_1.1_SEO 2.jpg
-      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/e5A7AhLQtNP2dp7i8H9O-nuclear_winter_bar_1.1_SEO
-        2.jpg
+      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/e5A7AhLQtNP2dp7i8H9O-nuclear_winter_bar_1.1_SEO 2.jpg
       type: image/jpeg
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FinGameShots%2F4QU3mLC3IYVxx7xtjRkK-nuclear_winter_bar_1.1_SEO.jpg?alt=media&token=66d56590-2b53-40dc-8e26-2820b12f3807
       lastModifiedTS: 1699821491930
@@ -17354,8 +17150,7 @@ zvTEXnewG2G8LaMjFq4o:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FinGameShots%2FlvU1uShbjobogCEHB7z8-nuclear_winter_bar_1.1_SEO%204.jpg?alt=media&token=bb8b7b38-4285-45ac-bad4-b4024bf4f853
       lastModifiedTS: 1699821489835
       name: nuclear_winter_bar_1.1_SEO 4.jpg
-      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/lvU1uShbjobogCEHB7z8-nuclear_winter_bar_1.1_SEO
-        4.jpg
+      ref: maps/zvTEXnewG2G8LaMjFq4o/inGameShots/lvU1uShbjobogCEHB7z8-nuclear_winter_bar_1.1_SEO 4.jpg
       type: image/jpeg
   inPool: true
   mapLists:
@@ -17366,8 +17161,7 @@ zvTEXnewG2G8LaMjFq4o:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2FperspectiveShot%2FjSfK1mkRnRmahHTiChyQ-nuclear_winter_bar_1.1%20Perspective2.png?alt=media&token=2573581b-e917-43cf-84e3-17089a45bfd6
       lastModifiedTS: 1699821481530
       name: nuclear_winter_bar_1.1 Perspective2.png
-      ref: maps/zvTEXnewG2G8LaMjFq4o/perspectiveShot/jSfK1mkRnRmahHTiChyQ-nuclear_winter_bar_1.1
-        Perspective2.png
+      ref: maps/zvTEXnewG2G8LaMjFq4o/perspectiveShot/jSfK1mkRnRmahHTiChyQ-nuclear_winter_bar_1.1 Perspective2.png
       type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FzvTEXnewG2G8LaMjFq4o%2Fphoto%2FDcy428KUfev8nIT60nBj-nuclear_winter_bar_1.1_minimap.jpg?alt=media&token=a17d1baf-409d-4470-a27c-f8aec91ce8e2
@@ -17491,12 +17285,10 @@ zzzzzzzzzzzzzzzzzzzx:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fzzzzzzzzzzzzzzzzzzzx%2FbackgroundImage%2Fphm3J7Eq1TyWmru4uewX-AcidicQuarry_SEO%205.jpg?alt=media&token=78859539-769f-4a4f-8a43-ff105ab4d962
       lastModifiedTS: 1617888736000
       name: AcidicQuarry_SEO 5.jpg
-      ref: maps/zzzzzzzzzzzzzzzzzzzx/backgroundImage/phm3J7Eq1TyWmru4uewX-AcidicQuarry_SEO
-        5.jpg
+      ref: maps/zzzzzzzzzzzzzzzzzzzx/backgroundImage/phm3J7Eq1TyWmru4uewX-AcidicQuarry_SEO 5.jpg
       type: image/jpeg
   certified: true
-  description: 4 elevated islands amongst a sea of smaller islands. Version 5.17
-    with fixed metal.
+  description: 4 elevated islands amongst a sea of smaller islands. Version 5.17 with fixed metal.
   displayName: Acidic Quarry
   gameType:
     - team
@@ -17505,8 +17297,7 @@ zzzzzzzzzzzzzzzzzzzx:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fzzzzzzzzzzzzzzzzzzzx%2FinGameShots%2FtfqiZSM3um8sg57ex6ni-AcidicQuarry_SS%201.jpg?alt=media&token=2bd72f52-5936-4908-a534-dbbd8898894b
       lastModifiedTS: 1617888737000
       name: AcidicQuarry_SS 1.jpg
-      ref: maps/zzzzzzzzzzzzzzzzzzzx/inGameShots/tfqiZSM3um8sg57ex6ni-AcidicQuarry_SS
-        1.jpg
+      ref: maps/zzzzzzzzzzzzzzzzzzzx/inGameShots/tfqiZSM3um8sg57ex6ni-AcidicQuarry_SS 1.jpg
       type: image/jpeg
   inPool: true
   minPlayerCount: 2
@@ -17514,8 +17305,7 @@ zzzzzzzzzzzzzzzzzzzx:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fzzzzzzzzzzzzzzzzzzzx%2FperspectiveShot%2FdNeNnbzCbJBxm3T4NdYA-AcidicQuarry_SS%202.png?alt=media&token=c4ee638b-19f7-4281-ab42-90780c174b74
       lastModifiedTS: 1617888724000
       name: AcidicQuarry_SS 2.png
-      ref: maps/zzzzzzzzzzzzzzzzzzzx/perspectiveShot/dNeNnbzCbJBxm3T4NdYA-AcidicQuarry_SS
-        2.png
+      ref: maps/zzzzzzzzzzzzzzzzzzzx/perspectiveShot/dNeNnbzCbJBxm3T4NdYA-AcidicQuarry_SS 2.png
       type: image/png
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/zzzzzzzzzzzzzzzzzzzx/photo/AEzy0dju5vzdMZPMnqjH-AcidicQuarry_5.16.jpg
