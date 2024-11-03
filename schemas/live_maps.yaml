@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: https://maps-metadata.beyondallreason.dev/latest/live_maps.schema.json
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/live_maps.json
 title: LiveMapsList
 description: List of maps that need to be present on autohosts and gdrive
 type: array

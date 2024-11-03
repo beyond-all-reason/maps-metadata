@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: https://maps-metadata.beyondallreason.dev/latest/map_list.schema.json
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/map_list.json
 title: MapList
 description: List of maps with their basic metadata
 type: object

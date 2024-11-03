@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: https://maps-metadata.beyondallreason.dev/latest/cdn_maps.schema.json
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/cdn_maps.json
 title: CDNMaps
 description: Map download info from springfiles API.
 type: array

@@ -5,10 +5,10 @@ all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json
 gen/%.json: %.yaml
 	python scripts/py/yaml_to_json.py $< $@
 
-gen/%.validated.json: gen/%.schema.json gen/%.json
+gen/%.validated.json: gen/schemas/%.json gen/%.json
 	tsx scripts/js/src/validate_schema.ts $^ $@
 
-gen/types/%.d.ts: gen/%.schema.json
+gen/types/%.d.ts: gen/schemas/%.json
 	mkdir -p gen/types
 	json2ts $< > $@
 
@@ -60,15 +60,15 @@ check_uses_mapinfo_lua: gen/types/map_list.d.ts gen/map_list.validated.json
 	tsx scripts/js/src/check_uses_mapinfo_lua.ts
 
 # Auxiliary build targets
-types: gen/types/map_list.d.ts gen/map_list.schema.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts
+types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts
 
 clean:
 	rm -rf gen/*
 
-update_all_from_rowy: gen/map_list.schema.json
+update_all_from_rowy: gen/schemas/map_list.json
 	tsx scripts/js/src/update_from_rowy.ts map_list.yaml all
 
-sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/map_list.schema.json gen/types/cdn_maps.d.ts
+sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/schemas/map_list.json gen/types/cdn_maps.d.ts
 	tsx scripts/js/src/sync_to_webflow.ts sync
 
 refresh_webflow_types:
