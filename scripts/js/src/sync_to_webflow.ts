@@ -14,7 +14,7 @@ import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_met
 import { MapList } from '../../../gen/types/map_list.js';
 import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
-import mapSchema from '../../../gen/map_list.schema.json' assert { type: "json" };
+import mapSchema from '../../../gen/map_list.schema.json';
 import {
     WebflowImageRef,
     WebflowMapFieldsRead,

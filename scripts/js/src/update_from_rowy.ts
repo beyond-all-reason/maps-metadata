@@ -2,7 +2,7 @@
 // build using Rowy.
 
 import { Firestore } from '@google-cloud/firestore';
-import mapSchema from '../../../gen/map_list.schema.json' assert { type: "json" };
+import mapSchema from '../../../gen/map_list.schema.json';
 import YAML from 'yaml';
 import pLimit from 'p-limit';
 import { program } from '@commander-js/extra-typings';
@@ -15,7 +15,7 @@ const prog = program
 const [dataFilePath, rowId] = prog.processedArgs;
 
 async function saveDataFile(data: any) {
-    await fs.writeFile(dataFilePath, YAML.stringify(data, { sortMapEntries: true }));
+    await fs.writeFile(dataFilePath, YAML.stringify(data, { sortMapEntries: true, lineWidth: 120 }));
 }
 
 interface TableSchema {
