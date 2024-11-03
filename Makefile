@@ -38,26 +38,15 @@ gen/mapPresets.conf gen/mapBattlePresets.conf &: gen/map_modoptions.validated.js
 	tsx scripts/js/src/gen_spads_map_presets.ts gen/mapPresets.conf gen/mapBattlePresets.conf
 
 # Tests on data
-test: typecheck_scripts check_startboxes check_startpos check_photo_aspect_ratio check_archive_not_solid check_uses_mapinfo_lua
+checks = $(notdir $(basename $(wildcard scripts/js/src/check_*.ts)))
+test: typecheck_scripts $(checks)
 	echo ok
 
 typecheck_scripts: types
 	cd scripts/js && tsc --noEmit
 
-check_startboxes: gen/types/map_list.d.ts gen/map_list.validated.json
-	tsx scripts/js/src/check_startboxes.ts
-
-check_startpos: gen/types/map_list.d.ts gen/map_list.validated.json
-	tsx scripts/js/src/check_startpos.ts
-
-check_photo_aspect_ratio: gen/types/map_list.d.ts gen/map_list.validated.json
-	tsx scripts/js/src/check_photo_aspect_ratio.ts
-
-check_archive_not_solid: gen/types/map_list.d.ts gen/map_list.validated.json
-	tsx scripts/js/src/check_archive_not_solid.ts
-
-check_uses_mapinfo_lua: gen/types/map_list.d.ts gen/map_list.validated.json
-	tsx scripts/js/src/check_uses_mapinfo_lua.ts
+check_%: scripts/js/src/check_%.ts gen/types/map_list.d.ts gen/map_list.validated.json
+	tsx $<
 
 # Auxiliary build targets
 types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts
@@ -74,4 +63,4 @@ sync_to_webflow: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_map
 refresh_webflow_types:
 	tsx scripts/js/src/gen_webflow_types.ts scripts/js/src/webflow_types.ts
 
-.PHONY: clean test typecheck_scripts check_startboxes types update_all_from_rowy sync_to_webflow refresh_webflow_types
+.PHONY: clean test typecheck_scripts types update_all_from_rowy sync_to_webflow refresh_webflow_types
