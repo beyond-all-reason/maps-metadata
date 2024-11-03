@@ -10,7 +10,7 @@ gen/%.validated.json: gen/schemas/%.json gen/%.json
 
 gen/types/%.d.ts: gen/schemas/%.json
 	mkdir -p gen/types
-	json2ts $< > $@
+	json2ts --cwd gen/schemas $< > $@
 
 # Output targets
 gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts 
