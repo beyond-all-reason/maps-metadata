@@ -10,7 +10,7 @@ import Webflow from 'webflow-api';
 import { Item as WebflowItem, Collection as WebflowCollection } from 'webflow-api/dist/api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
-import { readMapList, fetchMapsMetadata, getParsedMapLocation } from './maps_metadata.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
 import { MapList } from '../../../gen/types/map_list.js';
 import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
@@ -26,6 +26,7 @@ import {
 } from './webflow_types.js';
 import assert from 'node:assert';
 import pLimit, { LimitFunction } from 'p-limit';
+import { getDerivedInfo } from './derived_map_info.js';
 
 const mapsCacheDir = process.env.MAPS_CACHE_DIR || '.maps-cache'
 
@@ -400,70 +401,24 @@ async function buildWebflowInfo(
 
     const mapInfo: Map<string, WebsiteMapInfo> = new Map();
     const allMapTags: Map<string, WebsiteMapTag> = new Map();
-    const tagsOrder: Map<string, number> = new Map();
-
-    const terrainsOrder = getRowyMapTerrainsOrder();
 
     for (const [rowyId, map] of Object.entries(maps)) {
         const mi = cdnInfo.get(map.springName);
         if (!mi) {
             throw new Error(`Missing download url for ${map.springName}`);
         }
-        const meta = mapsMetadata.get(rowyId);
 
+        const meta = mapsMetadata.get(rowyId);
         // Just in case cache version changed or something.
-        const metaLoc = await getParsedMapLocation(map.springName);
         for (const img of ['height.png', 'metal.png', 'texture.jpg']) {
             assert(meta.extractedFiles.includes(img));
         }
 
-        const mapTags = new Set<string>();
+        const derivedInfo = getDerivedInfo(map, meta);
 
-        for (const gameType of map.gameType) {
-            // Skip team because almost all maps have it so it doesn't add much value.
-            if (gameType === 'team') {
-                continue;
-            }
-            const name = gameType.toUpperCase();
-            const slug = slugFromName(gameType);
-            allMapTags.set(slug, { name, slug });
-            tagsOrder.set(slug, {
-                'team': 1,
-                'ffa': 2,
-                'pve': 3,
-                '1v1': 1001,
-            }[gameType]);
-            mapTags.add(slug);
-        }
-
-        const startboxes = Array.from(Object.values(map.startboxesSet || {}));
-        for (const startbox of startboxes) {
-            const numTeams = startbox.startboxes.length;
-            if (numTeams < 2 || numTeams > 4) {
-                continue;
-            }
-            const minPlayers = Math.ceil(startbox.maxPlayersPerStartbox * 0.6);
-            for (let numPlayers = minPlayers; numPlayers <= startbox.maxPlayersPerStartbox; ++numPlayers) {
-                if ((numPlayers == 1 && numTeams > 2) || numPlayers > 8) {
-                    continue;
-                }
-                const name = `${numPlayers}V`.repeat(numTeams - 1) + `${numPlayers}`;
-                const slug = slugFromName(name);
-                allMapTags.set(slug, { name, slug });
-                tagsOrder.set(slug, 1000 * numTeams + numPlayers);
-                mapTags.add(slug);
-            }
-        }
-
-        // Special logic for the 1v1v1 tag.
-        if ((map.gameType.includes('ffa') && [3, 6].includes(map.playerCount))
-            || startboxes.some(s => s.startboxes.length === 3 && s.maxPlayersPerStartbox <= 2)
-        ) {
-            const name = '1V1V1';
-            const slug = slugFromName(name);
-            allMapTags.set(slug, { name, slug });
-            tagsOrder.set(slug, 3001);
-            mapTags.add(slug);
+        for (const tag of derivedInfo.tags) {
+            const slug = slugFromName(tag);
+            allMapTags.set(slug, { name: tag.toUpperCase(), slug });
         }
 
         const info: WebsiteMapInfo = {
@@ -472,9 +427,9 @@ async function buildWebflowInfo(
             minimapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
             minimapThumbUrl: `${imagorUrlBase}fit-in/640x640/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
             downloadUrl: mi.mirrors[0],
-            width: meta.smf.mapWidth / 64,
-            height: meta.smf.mapHeight / 64,
-            mapSize: meta.smf.mapWidth * meta.smf.mapHeight / (64 * 64),
+            width: derivedInfo.width,
+            height: derivedInfo.height,
+            mapSize: derivedInfo.width * derivedInfo.height,
             title: map.title || null,
             description: map.description || null,
             author: map.author,
@@ -482,16 +437,16 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
-            windMin: reqR('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind, 5),
-            windMax: reqR('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
-            tidalStrength: ('smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength) || null,
+            windMin: derivedInfo.windMin,
+            windMax: derivedInfo.windMax,
+            tidalStrength: derivedInfo.tidalStrength ?? null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,
-            textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/texture.jpg')}`,
-            heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/height.png')}`,
-            metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${metaLoc.bucket}/${encodeURI(metaLoc.path + '/metal.png')}`,
-            mapTags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
-            mapTerrains: Array.from(map.terrain).sort((a, b) => terrainsOrder.get(a)! - terrainsOrder.get(b)!),
+            textureMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${meta.location.bucket}/${encodeURI(meta.location.path + '/texture.jpg')}`,
+            heightMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(webp):quality(85)/${meta.location.bucket}/${encodeURI(meta.location.path + '/height.png')}`,
+            metalMapUrl: `${imagorUrlBase}fit-in/1024x1024/filters:format(png)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
+            mapTags: derivedInfo.tags,
+            mapTerrains: derivedInfo.terrainOrdered,
         };
 
         // Sanity check because the metadata stuff is using `any` type.
@@ -659,13 +614,8 @@ async function syncMapTerrainsToWebflowRemovals(
 }
 
 function getRowyMapTerrains(): Map<string, WebsiteMapTerrain> {
-    const terrains = mapSchema.additionalProperties.properties.terrain.items.enum;
+    const terrains = mapSchema['$defs'].terrainType.enum;
     return new Map(terrains.map(t => [t, { name: t, slug: t }]));
-}
-
-function getRowyMapTerrainsOrder(): Map<string, number> {
-    const terrains = mapSchema.additionalProperties.properties.terrain.items.enum;
-    return new Map(terrains.map((t, i) => [t, i]));
 }
 
 async function syncMapsToWebflow(
