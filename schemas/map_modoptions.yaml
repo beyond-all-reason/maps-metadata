@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: https://maps-metadata.beyondallreason.dev/latest/map_modoptions.schema.json
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/map_modoptions.json
 description: Modoptions to set per map in lobby/server
 type: array
 items:

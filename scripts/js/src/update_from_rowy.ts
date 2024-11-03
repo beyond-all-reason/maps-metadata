@@ -2,7 +2,7 @@
 // build using Rowy.
 
 import { Firestore } from '@google-cloud/firestore';
-import mapSchema from '../../../gen/map_list.schema.json';
+import mapSchema from '../../../gen/schemas/map_list.json';
 import YAML from 'yaml';
 import pLimit from 'p-limit';
 import { program } from '@commander-js/extra-typings';

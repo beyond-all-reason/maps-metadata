@@ -4,11 +4,14 @@
 import argparse
 import json
 import yaml
+from pathlib import Path
 
 def convert(input_file, output_file):
     with open(input_file) as f:
         contents = yaml.load(f, yaml.Loader)
-    with open(output_file, "w") as f:
+    of = Path(output_file)
+    of.parent.mkdir(parents=True, exist_ok=True)
+    with of.open("w") as f:
         json.dump(contents, f, sort_keys=True, indent=4)
 
 
