@@ -1,0 +1,78 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/lobby_maps.json
+description: Map information for https://github.com/beyond-all-reason/bar-lobby
+type: array
+items:
+  type: object
+  title: LobbyMap
+  properties:
+    springName:
+      type: string
+    displayName:
+      type: string
+    author:
+      type: string
+    description:
+      type: string
+    certified:
+      type: boolean
+    startboxesSet:
+      type: array
+      items:
+        $ref: "map_list.json#/$defs/startboxesInfo"
+    terrain:
+      type: array
+      items:
+        $ref: "map_list.json#/$defs/terrainType"
+    startPos:
+      $ref: "map_list.json#/$defs/startPos"
+    mapLists:
+      type: array
+      items:
+        type: string
+    tags:
+      type: array
+      items:
+        type: string
+    mapWidth:
+      type: integer
+    mapHeight:
+      type: integer
+    windMin:
+      type: integer
+    windMax:
+      type: integer
+    tidalStrength:
+      type: integer
+    filename:
+      type: string
+    images:
+      type: object
+      properties:
+        preview:
+          type: string
+          format: uri
+      required:
+        - preview
+    playerCountMin:
+      type: integer
+    playerCountMax:
+      type: integer
+  required:
+    - springName
+    - displayName
+    - author
+    - certified
+    - startboxesSet
+    - terrain
+    - mapLists
+    - tags
+    - mapWidth
+    - mapHeight
+    - windMin
+    - windMax
+    - filename
+    - images
+    - playerCountMin
+    - playerCountMax
+  additionalProperties: false

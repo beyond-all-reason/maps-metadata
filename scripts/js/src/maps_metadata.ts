@@ -72,7 +72,7 @@ function loadMapLocationCache(): Map<string, MapLocation> {
 
 const mapLocationCache: Map<string, MapLocation> = loadMapLocationCache();
 
-export async function getParsedMapLocation(springName: string): Promise<MapLocation> {
+async function getParsedMapLocation(springName: string): Promise<MapLocation> {
     if (!mapLocationCache.has(springName)) {
         const mapMeta = await got(`${mapsParserURL}/parse-map/${encodeURIComponent(springName)}`).json<ParseMapResponse>();
         mapLocationCache.set(springName, {
@@ -83,22 +83,26 @@ export async function getParsedMapLocation(springName: string): Promise<MapLocat
     return mapLocationCache.get(springName)!;
 }
 
-export async function getMapFilePath(springName: string, fileName: string): Promise<string> {
+async function getMapFilePath(springName: string, fileName: string): Promise<[string, MapLocation]> {
     const location = await getParsedMapLocation(springName);
     const cachePath = path.join(mapsCacheDir, location.path, fileName);
     const fileExists = !!await fs.stat(cachePath).catch(e => null);
     if (!fileExists) {
         await downloadFile(location.bucket, path.join(location.path, fileName), cachePath);
     }
-    return cachePath;
+    return [cachePath, location];
 }
 
 export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>> {
     const limit = pLimit(10);
 
     const metadata = Object.entries(maps).map(([id, m]) => limit(async (): Promise<[string, any]> => {
-        const path = await getMapFilePath(m.springName, 'metadata.json');
+        const [path, location] = await getMapFilePath(m.springName, 'metadata.json');
         const meta = JSON.parse(await fs.readFile(path, { encoding: 'utf8' }));
+        if ('location' in meta) {
+            throw new Error('This should never happen, key conflict!');
+        }
+        meta.location = location;
         return [id, meta];
     }));
     return new Map(await Promise.all(metadata));

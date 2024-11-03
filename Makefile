@@ -1,5 +1,5 @@
 # Default target ran by make
-all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb gen/mapPresets.conf gen/mapBattlePresets.conf
+all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb gen/mapPresets.conf gen/mapBattlePresets.conf gen/lobby_maps.validated.json
 
 # Rules for doing generic data files conversion, e.g yaml to json
 gen/%.json: %.yaml
@@ -37,6 +37,9 @@ gen/map_modoptions.json: gen/map_list.validated.json gen/types/map_list.d.ts gen
 gen/mapPresets.conf gen/mapBattlePresets.conf &: gen/map_modoptions.validated.json gen/types/map_modoptions.d.ts
 	tsx scripts/js/src/gen_spads_map_presets.ts gen/mapPresets.conf gen/mapBattlePresets.conf
 
+gen/lobby_maps.json: gen/map_list.validated.json gen/cdn_maps.validated.json gen/types/map_list.d.ts gen/types/lobby_maps.d.ts
+	tsx scripts/js/src/gen_lobby_maps.ts $@
+
 # Tests on data
 checks = $(notdir $(basename $(wildcard scripts/js/src/check_*.ts)))
 test: typecheck_scripts $(checks)
@@ -49,7 +52,7 @@ check_%: scripts/js/src/check_%.ts gen/types/map_list.d.ts gen/map_list.validate
 	tsx $<
 
 # Auxiliary build targets
-types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts
+types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts gen/types/lobby_maps.d.ts
 
 clean:
 	rm -rf gen/*
