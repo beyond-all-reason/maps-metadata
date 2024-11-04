@@ -24,25 +24,47 @@ interface TableSchema {
     additionalProperties: {
         type: "object";
         properties: { [name: string]: object | TableSchema };
-    }
+    } | { '$ref': string }
 }
 
 function isTableSchema(schema: any): schema is TableSchema {
     return schema.type === "object" && schema.collection === true;
 }
 
+function getTableProps(rootSchema: any, schema: TableSchema): { [name: string]: object | TableSchema } {
+    if ('$ref' in schema.additionalProperties) {
+        const ref = schema.additionalProperties['$ref'];
+        if (!ref.startsWith('#/')) {
+            throw new Error('Only local schema references supported');
+        }
+        // Yeah, yeah, we ignore type safety much here.
+        let obj = rootSchema;
+        for (const seg of ref.split('/').splice(1)) {
+            obj = obj[seg];
+        }
+        return obj.properties;
+    } else {
+        return schema.additionalProperties.properties;
+    }
+}
+
 const fetchConcurrentlyLimit = pLimit(20);
 
-async function fetchDocuments(collection: FirebaseFirestore.CollectionReference<FirebaseFirestore.DocumentData>, schema: TableSchema): Promise<any> {
+async function fetchDocuments(
+    collection: FirebaseFirestore.CollectionReference<FirebaseFirestore.DocumentData>,
+    rootSchema: any,
+    schema: TableSchema
+): Promise<any> {
     const docRefs = await collection.listDocuments();
     if (docRefs.length === 0) {
         return undefined;
     }
     const docs = await firestore.getAll(...docRefs);
     const data: { [name: string]: any } = {};
+    const props = getTableProps(rootSchema, schema);
     const entryKeys = Object
-        .keys(schema.additionalProperties.properties)
-        .filter(key => !isTableSchema(schema.additionalProperties.properties[key]));
+        .keys(props)
+        .filter(key => !isTableSchema(props[key]));
     const subFetches = [];
     for (const doc of docs) {
         const entry = doc.data();
@@ -50,10 +72,10 @@ async function fetchDocuments(collection: FirebaseFirestore.CollectionReference<
             continue;
         }
         data[doc.id] = Object.fromEntries(entryKeys.filter(key => key in entry).map(key => [key, entry[key]]));
-        for (const [key, prop] of Object.entries(schema.additionalProperties.properties)) {
+        for (const [key, prop] of Object.entries(props)) {
             if (isTableSchema(prop)) {
                 subFetches.push(fetchConcurrentlyLimit(async () => {
-                    data[doc.id][key] = await fetchDocuments(doc.ref.collection(key), prop);
+                    data[doc.id][key] = await fetchDocuments(doc.ref.collection(key), rootSchema, prop);
                 }));
             }
         }
@@ -68,7 +90,7 @@ if (!isTableSchema(mapSchema)) {
 }
 const firestore = new Firestore();
 const maps = firestore.collection('maps');
-const rowyData = await fetchDocuments(maps, mapSchema);
+const rowyData = await fetchDocuments(maps, mapSchema, mapSchema);
 
 if (rowId === 'all') {
     await saveDataFile(rowyData);
