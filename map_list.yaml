@@ -7802,29 +7802,29 @@ UpcuKVvMurtZNynDnqiW:
       startboxes:
         - poly:
             - x: 15
-              y: 30
-            - x: 70
-              y: 85
+              y: 35
+            - x: 71
+              y: 86
         - poly:
-            - x: 110
-              y: 135
-            - x: 165
-              y: 190
+            - x: 109
+              y: 136
+            - x: 158
+              y: 189
         - poly:
-            - x: 91
-              y: 13
-            - x: 146
-              y: 68
+            - x: 89
+              y: 14
+            - x: 150
+              y: 69
         - poly:
-            - x: 20
+            - x: 17
               y: 125
             - x: 75
-              y: 180
+              y: 183
         - poly:
-            - x: 140
-              y: 70
-            - x: 195
-              y: 125
+            - x: 141
+              y: 67
+            - x: 189
+              y: 128
     le5dusUSf2fMqsBLUOLF:
       maxPlayersPerStartbox: 1
       startboxes:
