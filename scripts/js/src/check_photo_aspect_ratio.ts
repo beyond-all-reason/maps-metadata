@@ -34,10 +34,12 @@ for (const [rowyId, map] of Object.entries(maps)) {
         const imgPath = path.join(photoCacheDir, hash + '.webp');
         const fileExists = !!await fs.stat(imgPath).catch(e => null);
         if (!fileExists) {
+            const imgTmpPath = imgPath + '.tmp';
             await pipeline(
                 got.stream(url),
-                createWriteStream(imgPath)
+                createWriteStream(imgTmpPath)
             );
+            await fs.rename(imgTmpPath, imgPath);
         }
     }));
 }
