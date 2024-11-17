@@ -37,5 +37,8 @@
     "@types/node": "^22.8.7",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "whatwg-url": "^14.0.0"
   }
 }
