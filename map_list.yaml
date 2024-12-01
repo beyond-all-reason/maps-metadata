@@ -2573,6 +2573,7 @@
   mapLists:
     - testList
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -3591,6 +3592,7 @@ CXD1uv9uv28szDdk3dFR:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCXD1uv9uv28szDdk3dFR%2Fphoto%2FaCb9bywB8OmaCBgEn3KE-Isidis%20crack%201.0.jpg?alt=media&token=a02226e8-0ab7-491a-b622-aabd0432c3d4
@@ -4169,6 +4171,7 @@ ER2B5mT2LU864k1f0UeH:
   inPool: true
   mapLists:
     - testList
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
@@ -8991,6 +8994,8 @@ XnCjzq4LvLB6mik5aib1:
       ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
@@ -9087,6 +9092,8 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/inGameShots/SLb2F3Nn9hs4fZXIhwYX-RCR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
@@ -10495,6 +10502,8 @@ bX4YxbtQ8YCc6G0yMumJ:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
@@ -14762,6 +14771,8 @@ pqGeTK0PB1xPJ6A1u6CO:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
@@ -15364,6 +15375,8 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
@@ -15867,6 +15880,7 @@ u17mWZp6jqx5b5s0Or5z:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
