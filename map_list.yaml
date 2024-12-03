@@ -2924,78 +2924,53 @@ ABBUHinh94O7299Php6p:
 ACgCe99NC8yZFecMwRCm:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FbackgroundImage%2FdVZ6bXvDtcl3xqO98m74-supreme_strait_SS8.jpg?alt=media&token=338e4878-ab6d-490c-8b36-67b2c6bfebd4
-      lastModifiedTS: 1682159983146
-      name: supreme_strait_SS8.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/backgroundImage/dVZ6bXvDtcl3xqO98m74-supreme_strait_SS8.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FbackgroundImage%2FFQXggxNPsT3Z1TCwGJas-screen_2024-12-03_18-10-45-806.png?alt=media&token=c65c7c77-6c2d-48f2-99ac-48e3902db675
+      lastModifiedTS: 1733249447165
+      name: screen_2024-12-03_18-10-45-806.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/backgroundImage/FQXggxNPsT3Z1TCwGJas-screen_2024-12-03_18-10-45-806.png
+      type: image/png
   certified: true
-  description: 24x24 BAR remake of a famous map.
+  description: Merry Christmas and Happy New 2025!
   displayName: Supreme Isthmus
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FMtHdQWWKTilupWkDogqd-supreme_strait_SS8.jpg?alt=media&token=477b8d14-fd95-429e-b873-32828ea88300
-      lastModifiedTS: 1682159983146
-      name: supreme_strait_SS8.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/MtHdQWWKTilupWkDogqd-supreme_strait_SS8.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2Fo6b00YmJe1enR0szifJJ-supreme_strait_SS5.jpg?alt=media&token=263d385c-cf0f-4c90-9e88-5183d74be28f
-      lastModifiedTS: 1682159983110
-      name: supreme_strait_SS5.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/o6b00YmJe1enR0szifJJ-supreme_strait_SS5.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FK9s8gz55tk5iNx2sZvVz-supreme_strait_SS2.jpg?alt=media&token=0b6941c8-c443-4042-89a0-b7a46458943a
-      lastModifiedTS: 1682159982960
-      name: supreme_strait_SS2.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/K9s8gz55tk5iNx2sZvVz-supreme_strait_SS2.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FciOhZcutXZY21gZQWoHa-supreme_strait_SS7.jpg?alt=media&token=0bf94aa0-dc36-4d55-8287-f8096524ef27
-      lastModifiedTS: 1682159983160
-      name: supreme_strait_SS7.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ciOhZcutXZY21gZQWoHa-supreme_strait_SS7.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FyY4BWpLF71wgnXzyqxsb-supreme_strait_overview.jpg?alt=media&token=ab7f2506-2770-4d62-9263-6e560db4a807
-      lastModifiedTS: 1682159982924
-      name: supreme_strait_overview.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/yY4BWpLF71wgnXzyqxsb-supreme_strait_overview.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FGPOya6srjQ94pTl8eyA4-supreme_strait_SS6.jpg?alt=media&token=b98212f4-9d65-4d2b-ad91-eb34fdef78e6
-      lastModifiedTS: 1682159983128
-      name: supreme_strait_SS6.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/GPOya6srjQ94pTl8eyA4-supreme_strait_SS6.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FbM6y6p4RjtuckvL2FBNV-supreme_strait_SS1.jpg?alt=media&token=f9f2531f-c239-46a8-8ffb-6322639c0930
-      lastModifiedTS: 1682159982955
-      name: supreme_strait_SS1.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/bM6y6p4RjtuckvL2FBNV-supreme_strait_SS1.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FSBE0zzT87Xfi53pYNOs1-supreme_strait_SS3.jpg?alt=media&token=6b8b914a-eda2-440c-88eb-49b4dbdac803
-      lastModifiedTS: 1682159982999
-      name: supreme_strait_SS3.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/SBE0zzT87Xfi53pYNOs1-supreme_strait_SS3.jpg
-      type: image/jpeg
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FEJUGAKqeqBRkW6yrj9eO-supreme_strait_SS4.jpg?alt=media&token=7582b6ea-8c03-427e-8fd9-59f7f0f3ea1d
-      lastModifiedTS: 1682159983091
-      name: supreme_strait_SS4.jpg
-      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/EJUGAKqeqBRkW6yrj9eO-supreme_strait_SS4.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FohIDUUcV9kaVF06QnLxY-screen_2024-12-03_18-11-05-907.png?alt=media&token=96ad1481-be14-453d-8129-9f74ab448f51
+      lastModifiedTS: 1733249466988
+      name: screen_2024-12-03_18-11-05-907.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ohIDUUcV9kaVF06QnLxY-screen_2024-12-03_18-11-05-907.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FrNMqMJXxzoWiM74L0dbg-screen_2024-12-03_18-11-18-519.png?alt=media&token=e9eca2f0-7bdb-4938-b29d-8f7357481885
+      lastModifiedTS: 1733249479549
+      name: screen_2024-12-03_18-11-18-519.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/rNMqMJXxzoWiM74L0dbg-screen_2024-12-03_18-11-18-519.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FaJNP56f90tuDaaWlrni5-screen_2024-12-03_18-10-54-996.png?alt=media&token=95a56114-7e87-464b-a716-288c7b445775
+      lastModifiedTS: 1733249455949
+      name: screen_2024-12-03_18-10-54-996.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/aJNP56f90tuDaaWlrni5-screen_2024-12-03_18-10-54-996.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FinGameShots%2FACdlJ4OI97rm6P7J8Gyr-screen_2024-12-03_18-10-40-050.png?alt=media&token=1b35f0a3-923f-4d48-828f-c42fadcaee64
+      lastModifiedTS: 1733249441384
+      name: screen_2024-12-03_18-10-40-050.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/ACdlJ4OI97rm6P7J8Gyr-screen_2024-12-03_18-10-40-050.png
+      type: image/png
   inPool: true
   minPlayerCount: 14
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FEyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png?alt=media&token=5c5e0e30-0076-4875-8ac6-ce9aaaba6bc0
-      lastModifiedTS: 1681499904035
-      name: supreme_strait_3D.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/EyPGMedoGgS1Ix8z1XtM-supreme_strait_3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FYJzkdsjFThvnIYTz3ifL-winter_supreme_perspective.png?alt=media&token=054e2159-4d31-490c-b14f-11a9af6d6ec9
+      lastModifiedTS: 1733252756556
+      name: winter_supreme_perspective.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/YJzkdsjFThvnIYTz3ifL-winter_supreme_perspective.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FaHSMbP1xj0drwsRoChhS-supreme1.8.png?alt=media&token=dcbb052d-0d4c-47a1-8646-009d056a3c18
-      lastModifiedTS: 1720560055425
-      name: supreme1.8.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/photo/aHSMbP1xj0drwsRoChhS-supreme1.8.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2Fu1YRHrD4wmMZFZRUloOn-winter_supreme.png?alt=media&token=a4eaabcd-d10a-4d49-b0ba-f2abf72c558d
+      lastModifiedTS: 1733249869194
+      name: winter_supreme.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/u1YRHrD4wmMZFZRUloOn-winter_supreme.png
       type: image/png
   playerCount: 16
-  springName: Supreme Isthmus v1.8
+  springName: Supreme Isthmus Winter v1.8.1
   startPos:
     positions:
       P1:
@@ -3104,8 +3079,8 @@ ACgCe99NC8yZFecMwRCm:
     - flat
     - hills
     - water
-    - grassy
     - forests
+    - ice
 ACgCe99NC8yZFecMwRCn:
   author: IceXuick, Moose
   backgroundImage:
