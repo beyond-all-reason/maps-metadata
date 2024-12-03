@@ -17013,6 +17013,86 @@ xn2aVcKlkpTQAakCC3Z8:
   teamCount: 2
   terrain:
     - hills
+xzehc1xO45wtSJqrFRlD:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FbackgroundImage%2FIr6FtgIcNEGrHJJpH4hp-screen1.png?alt=media&token=8c36134b-477d-47d9-b1b2-113b7ec222be
+      lastModifiedTS: 1733216045710
+      name: screen1.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/backgroundImage/Ir6FtgIcNEGrHJJpH4hp-screen1.png
+      type: image/png
+  certified: true
+  description: You might want to build some radar cell towers.
+  displayName: Cells
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FinGameShots%2FVkxHCNlOQqBZDOJVelW0-screen2.png?alt=media&token=a70c70ca-e6d8-4298-a640-6660fc1c9932
+      lastModifiedTS: 1733216131000
+      name: screen2.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/inGameShots/VkxHCNlOQqBZDOJVelW0-screen2.png
+      type: image/png
+  inPool: true
+  mapLists:
+    - land16p
+    - popular16p
+    - strict
+  minPlayerCount: 8
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FperspectiveShot%2F5qlD6mJaz7EF24hh4xmM-perspective.png?alt=media&token=6ce7f5f2-3fc4-41ac-90e9-acf40759e6a7
+      lastModifiedTS: 1733217435987
+      name: perspective.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/perspectiveShot/5qlD6mJaz7EF24hh4xmM-perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2Fphoto%2FFjDy1oUdLuvPec6PrzNa-topdown.png?alt=media&token=051f1a92-0dad-4396-9c6c-089b5663dbb5
+      lastModifiedTS: 1733216004051
+      name: topdown.png
+      ref: maps/xzehc1xO45wtSJqrFRlD/photo/FjDy1oUdLuvPec6PrzNa-topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Cells 1.2
+  startboxesSet:
+    jb0Rnwfwxy2RO6lAO3ff:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+    vrtIMpa0hlnwkQL33VAV:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 90
+              y: 60
+        - poly:
+            - x: 110
+              y: 140
+            - x: 200
+              y: 200
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 90
+        - poly:
+            - x: 0
+              y: 110
+            - x: 60
+              y: 200
+  teamCount: 2
+  terrain:
+    - desert
+    - hills
 yhOJI5yH4yGFmx9PMt9T:
   author: Johannes
   backgroundImage:
