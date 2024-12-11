@@ -2632,13 +2632,14 @@
   inPool: true
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2FbX8701QR60LPIw1dcjQy-Topdown.png?alt=media&token=eac9dd3f-3b38-43db-b801-e04343b57ccb
-      lastModifiedTS: 1727888375929
-      name: Topdown.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/bX8701QR60LPIw1dcjQy-Topdown.png
-      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2Fxr2j9LfQ2DtRfr92idJx-Eclipsed.jpg?alt=media&token=09c1368e-c945-4ab2-b778-1b209f3661a7
+      lastModifiedTS: 1733930665224
+      name: Eclipsed.jpg
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/xr2j9LfQ2DtRfr92idJx-Eclipsed.jpg
+      type: image/jpeg
   playerCount: 10
-  springName: Eclipsed 0.8.1
+  springName: Eclipsed 0.9.5
+  startPosActive: false
   startboxesSet:
     bTWaYSKhVS7DxBGNtwBd:
       maxPlayersPerStartbox: 5
