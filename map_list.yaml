@@ -2612,10 +2612,10 @@
 9laQQGzxGwnsLE3CgFQ5:
   author: AidanNaut
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FKD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png?alt=media&token=ee023d2d-086a-4abd-a3dc-e38370d6c5aa
-      lastModifiedTS: 1727736273275
-      name: screen_2024-09-30_22-44-32-511.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/KD5eHXKDWrpCIfeFMo3g-screen_2024-09-30_22-44-32-511.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FbackgroundImage%2FfSDS8TjAChCT7M8Al0TQ-EclipsedDetail3.PNG?alt=media&token=e41bfb1b-21c4-4d16-85fe-c16d5f0d29a6
+      lastModifiedTS: 1734393515699
+      name: EclipsedDetail3.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/backgroundImage/fSDS8TjAChCT7M8Al0TQ-EclipsedDetail3.PNG
       type: image/png
   certified: true
   description: A macro style map. 1v1 recommended. 2v2s to 5v5s are playable.
@@ -2624,13 +2624,29 @@
     - 1v1
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FdZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png?alt=media&token=4dfb8af3-6706-465c-8cfe-9013244a2c6a
-      lastModifiedTS: 1727736350609
-      name: screen_2024-09-30_22-45-49-944.png
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/dZy3iYBJg0dQ9AcQtoZK-screen_2024-09-30_22-45-49-944.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FiiH5V1QOPBJHMy8vmj0o-EclipsedDetail4.PNG?alt=media&token=6dcebaf8-4618-46bf-bef8-d969ccd3a1f7
+      lastModifiedTS: 1734393390923
+      name: EclipsedDetail4.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/iiH5V1QOPBJHMy8vmj0o-EclipsedDetail4.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FApJfCnpJbE03zYGvc9ih-EclipsedDetail5.PNG?alt=media&token=6daa9ff9-18bc-4e27-a917-a1f0c6bdc421
+      lastModifiedTS: 1734393599944
+      name: EclipsedDetail5.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ApJfCnpJbE03zYGvc9ih-EclipsedDetail5.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FinGameShots%2FILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG?alt=media&token=a4be9ada-bdc3-4dab-9412-20ea20eddbc2
+      lastModifiedTS: 1734396105458
+      name: EclipsedDetail6.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG
       type: image/png
   inPool: true
   minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FperspectiveShot%2FsVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG?alt=media&token=a55a01e7-138a-4d9f-90d2-192c92327cfb
+      lastModifiedTS: 1734395848684
+      name: EclipsedPerspective3.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/perspectiveShot/sVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG
+      type: image/png
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2Fxr2j9LfQ2DtRfr92idJx-Eclipsed.jpg?alt=media&token=09c1368e-c945-4ab2-b778-1b209f3661a7
       lastModifiedTS: 1733930665224
@@ -2638,7 +2654,7 @@
       ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/xr2j9LfQ2DtRfr92idJx-Eclipsed.jpg
       type: image/jpeg
   playerCount: 10
-  springName: Eclipsed 0.9.5
+  springName: Eclipsed 0.9.6
   startPosActive: false
   startboxesSet:
     bTWaYSKhVS7DxBGNtwBd:
