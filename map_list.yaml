@@ -2648,13 +2648,13 @@
       ref: maps/9laQQGzxGwnsLE3CgFQ5/perspectiveShot/sVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2Fxr2j9LfQ2DtRfr92idJx-Eclipsed.jpg?alt=media&token=09c1368e-c945-4ab2-b778-1b209f3661a7
-      lastModifiedTS: 1733930665224
-      name: Eclipsed.jpg
-      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/xr2j9LfQ2DtRfr92idJx-Eclipsed.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2Fphoto%2F8IKv91OWQc0wAT7Nxnsv-EclipsedOverheadPhoto.PNG?alt=media&token=d22672e6-db18-4e9e-835d-3b9c3579bdf7
+      lastModifiedTS: 1734542101788
+      name: EclipsedOverheadPhoto.PNG
+      ref: maps/9laQQGzxGwnsLE3CgFQ5/photo/8IKv91OWQc0wAT7Nxnsv-EclipsedOverheadPhoto.PNG
+      type: image/png
   playerCount: 10
-  springName: Eclipsed 0.9.6
+  springName: Eclipsed 0.9.7
   startPosActive: false
   startboxesSet:
     bTWaYSKhVS7DxBGNtwBd:
