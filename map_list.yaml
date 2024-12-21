@@ -9457,7 +9457,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P1
-              - role: tech
+              - role: front
                 spawnPoint: P2
               - role: front
                 spawnPoint: P3
@@ -9474,7 +9474,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P9
-              - role: tech
+              - role: front
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
@@ -14495,13 +14495,13 @@ oX7eHI8mlpVvJUYs4v4Y:
       - playersPerTeam: 8
         sides:
           - starts:
-              - role: front/tech
+              - role: front
                 spawnPoint: P1
               - role: air
                 spawnPoint: P2
               - role: tech
                 spawnPoint: P3
-              - role: front/tech
+              - role: front
                 spawnPoint: P4
               - role: front
                 spawnPoint: P5
@@ -14512,13 +14512,13 @@ oX7eHI8mlpVvJUYs4v4Y:
               - role: front
                 spawnPoint: P8
           - starts:
-              - role: front/tech
+              - role: front
                 spawnPoint: P9
               - role: air
                 spawnPoint: P10
               - role: tech
                 spawnPoint: P11
-              - role: front/tech
+              - role: front
                 spawnPoint: P12
               - role: front
                 spawnPoint: P13
