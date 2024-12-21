@@ -9457,7 +9457,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P1
-              - role: tech
+              - role: front
                 spawnPoint: P2
               - role: front
                 spawnPoint: P3
@@ -9474,7 +9474,7 @@ Z7wmue7EsjaTNpsdBuyx:
           - starts:
               - role: front
                 spawnPoint: P9
-              - role: tech
+              - role: front
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
