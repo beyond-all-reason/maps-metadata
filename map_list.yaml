@@ -8796,14 +8796,14 @@ XMFpTWsDjFSPjJ4nOZSO:
       startboxes:
         - poly:
             - x: 10
-              y: 20
-            - x: 50
-              y: 60
+              y: 19
+            - x: 34
+              y: 43
         - poly:
-            - x: 148
-              y: 42
-            - x: 188
-              y: 82
+            - x: 167
+              y: 43
+            - x: 190
+              y: 67
     xBuN7uzM1akkXKkdVTni:
       maxPlayersPerStartbox: 1
       startboxes:
@@ -8824,9 +8824,9 @@ XMFpTWsDjFSPjJ4nOZSO:
               y: 186
   teamCount: 3
   terrain:
-    - desert
     - island
-    - wasteland
+    - alien
+    - water
 XR0Czafa4dwZRh0r3fTy:
   author: Nikuksis
   backgroundImage:
