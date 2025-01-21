@@ -1,0 +1,40 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://maps-metadata.beyondallreason.dev/latest/schemas/teiserver_maps.json
+description: Map information for https://github.com/beyond-all-reason/teiserver
+type: object
+title: TeiserverMaps
+properties:
+  maps:
+    type: array
+    items:
+      $ref: "#/$defs/teiserverMapInfo"
+required:
+  - maps
+$defs:
+  teiserverMapInfo:
+    title: TeiserverMapInfo
+    type: object
+    properties:
+      springName:
+        type: string
+      modoptions:
+        $ref: "map_modoptions.json#/$defs/mapModoptions"
+        default: {}
+      matchmakingQueues:
+        type: array
+        items:
+          type: string
+          # Values from https://github.com/beyond-all-reason/teiserver/blob/778450852dd63e087174a62853aae563b6723479/lib/teiserver/matchmaking/queue_supervisor.ex#L9
+          # will need to figure out how to evolve it over time
+          enum:
+            - 1v1
+            - 2v2
+        uniqueItems: true
+        default: []
+      startboxesSet:
+        type: array
+        items:
+          $ref: "map_list.json#/$defs/startboxesInfo"
+    required:
+      - springName
+      - startboxesSet

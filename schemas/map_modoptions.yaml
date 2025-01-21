@@ -9,13 +9,17 @@ items:
     springName:
       type: string
     modoptions:
-      type: object
-      patternProperties:
-        '^mapmetadata_[a-z0-9_]+$':
-          type: string
-          $comment: The pattern is really to be on the safe side, it can be less restrictive likely
-          pattern: '^[a-zA-Z0-9_.-]+$'
+      $ref: "#/$defs/mapModoptions"
   required:
    - springName
    - modoptions
   additionalProperties: false
+$defs:
+  mapModoptions:
+    title: MapModoptions
+    type: object
+    patternProperties:
+      '^mapmetadata_[a-z0-9_]+$':
+        type: string
+        $comment: The pattern is really to be on the safe side, it can be less restrictive likely
+        pattern: '^[a-zA-Z0-9_.-]+$'
