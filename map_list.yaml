@@ -770,6 +770,19 @@
   springName: Archsimkats_Valley_V1
   startboxesSet:
     ZrZAqkZTyPLtvf7sMfqk:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 90
+        - poly:
+            - x: 140
+              y: 110
+            - x: 200
+              y: 200
+    mq6dVibwsGA3S01hK4RP:
       maxPlayersPerStartbox: 6
       startboxes:
         - poly:
