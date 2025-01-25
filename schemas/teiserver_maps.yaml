@@ -17,6 +17,11 @@ $defs:
     properties:
       springName:
         type: string
+      displayName:
+        type: string
+      thumbnail:
+        type: string
+        format: uri
       modoptions:
         $ref: "map_modoptions.json#/$defs/mapModoptions"
         default: {}
@@ -38,3 +43,5 @@ $defs:
     required:
       - springName
       - startboxesSet
+      - displayName
+      - thumbnail

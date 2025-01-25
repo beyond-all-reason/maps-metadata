@@ -8,6 +8,9 @@ import type {
 } from "../../../gen/types/teiserver_maps.js";
 import { MapModoptions } from '../../../gen/types/map_modoptions.js';
 
+const imagorUrlBase = 'https://maps-metadata.beyondallreason.dev/i/';
+const rowyBucket = 'rowy-1f075.appspot.com';
+
 async function readMapModoptions(): Promise<{[springName: string]: MapModoptions['modoptions']}> {
     const contents = await fs.readFile('gen/map_modoptions.validated.json', { 'encoding': 'utf8' });
     const mapModoptions = JSON.parse(contents) as MapModoptions[];
@@ -34,6 +37,8 @@ async function genTeiserverMaps(): Promise<string> {
 
     tMaps.push({
       springName: map.springName,
+      displayName: map.displayName,
+      thumbnail: `${imagorUrlBase}fit-in/640x640/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
       startboxesSet: Object.values(map.startboxesSet || {}),
       matchmakingQueues,
       modoptions: mapModoptions[map.springName]

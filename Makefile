@@ -59,7 +59,7 @@ check_%: scripts/js/src/check_%.ts gen/types/map_list.d.ts gen/map_list.validate
 	tsx $<
 
 # Auxiliary build targets
-types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts gen/types/lobby_maps.d.ts
+types: gen/types/map_list.d.ts gen/schemas/map_list.json gen/types/cdn_maps.d.ts gen/types/map_modoptions.d.ts gen/types/live_maps.d.ts gen/types/lobby_maps.d.ts gen/types/teiserver_maps.d.ts
 
 clean:
 	rm -rf gen/*
