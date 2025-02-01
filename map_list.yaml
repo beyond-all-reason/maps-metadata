@@ -17151,6 +17151,20 @@ yC5KYAu9c8LPcGW0TOgu:
       type: image/png
   playerCount: 16
   springName: Why did I let PtaQ talk me into this 1.0
+  startboxesSet:
+    8TUmUAi4i6NUhq1PKMik:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 95
+              y: 200
+        - poly:
+            - x: 109
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 2
   terrain:
     - hills
