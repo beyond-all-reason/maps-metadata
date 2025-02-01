@@ -13127,6 +13127,49 @@ j3X9bepS3FrtzjLLNmmu:
     - grassy
     - shallows
   title: Start Small
+jWIjHBYEHstYSyrSstVr:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2FbackgroundImage%2FWyjKbFg0d1Ms025oYhiU-screen_2025-01-31_19-55-24-048.png?alt=media&token=cfad9c96-e5d3-4429-8146-3f4f5c76f475
+      lastModifiedTS: 1738353324357
+      name: screen_2025-01-31_19-55-24-048.png
+      ref: maps/jWIjHBYEHstYSyrSstVr/backgroundImage/WyjKbFg0d1Ms025oYhiU-screen_2025-01-31_19-55-24-048.png
+      type: image/png
+  certified: false
+  description: Salt Reef 40v40 version for the 40k special event. Ramps on messas and large craters are bots passable
+    only, and few more on the plateaus.
+  displayName: Special Reef
+  gameType:
+    - team
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2Fphoto%2FKcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg?alt=media&token=26cc6e40-6a94-4de4-9d09-c78c28712ef4
+      lastModifiedTS: 1738409308341
+      name: Special_Reef_minimap.jpg
+      ref: maps/jWIjHBYEHstYSyrSstVr/photo/KcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Special Reef 1.0
+  startboxesSet:
+    VlGuAWiYUKVlYHqjd20U:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 78
+              y: 200
+        - poly:
+            - x: 122
+              y: 1
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - flat
+    - hills
 jyQlMYahZbQYgC1ZGRmd:
   author: Phalange
   backgroundImage:
