@@ -17128,6 +17128,34 @@ xzehc1xO45wtSJqrFRlD:
   terrain:
     - desert
     - hills
+yC5KYAu9c8LPcGW0TOgu:
+  author: AmbulatoryCortex
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FyC5KYAu9c8LPcGW0TOgu%2FbackgroundImage%2FStWlUAEL6ugqOjeEoK2Q-screen_2025-02-01_13-43-54-509.png?alt=media&token=6fe12b7b-b840-4d5b-8bf4-cb56e625e196
+      lastModifiedTS: 1738417435133
+      name: screen_2025-02-01_13-43-54-509.png
+      ref: maps/yC5KYAu9c8LPcGW0TOgu/backgroundImage/StWlUAEL6ugqOjeEoK2Q-screen_2025-02-01_13-43-54-509.png
+      type: image/png
+  certified: false
+  description: Temporary for the 40v40
+  displayName: Why did I let PtaQ talk me into this
+  gameType:
+    - team
+  inPool: true
+  minPlayerCount: 10
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FyC5KYAu9c8LPcGW0TOgu%2Fphoto%2FvW21Qabd6LSYufTjTrV8-screen_2025-02-01_13-43-09-129.png?alt=media&token=ee7ba2ac-83d3-44f1-bc61-4b5b7ac7b8e4
+      lastModifiedTS: 1738417536149
+      name: screen_2025-02-01_13-43-09-129.png
+      ref: maps/yC5KYAu9c8LPcGW0TOgu/photo/vW21Qabd6LSYufTjTrV8-screen_2025-02-01_13-43-09-129.png
+      type: image/png
+  playerCount: 16
+  springName: Why did I let PtaQ talk me into this 1.0
+  teamCount: 2
+  terrain:
+    - hills
+    - shallows
+    - sea
 yhOJI5yH4yGFmx9PMt9T:
   author: Johannes
   backgroundImage:
