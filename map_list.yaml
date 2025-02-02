@@ -13158,11 +13158,11 @@ jWIjHBYEHstYSyrSstVr:
         - poly:
             - x: 0
               y: 0
-            - x: 78
+            - x: 75
               y: 200
         - poly:
-            - x: 122
-              y: 1
+            - x: 125
+              y: 0
             - x: 200
               y: 200
   teamCount: 2
