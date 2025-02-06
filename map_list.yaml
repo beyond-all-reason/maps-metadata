@@ -5885,10 +5885,10 @@ LutAHarULFOEKKA21AvQ:
 MDi3gNqaTj3H1DkzpPfz:
   author: Moose, Beherith, Johannes
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2Fq9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png?alt=media&token=ac986dcb-24de-4992-87cb-a330a8a353cb
-      lastModifiedTS: 1700881784662
-      name: screen_2023-11-25_03-09-44-258.png
-      ref: maps/MDi3gNqaTj3H1DkzpPfz/backgroundImage/q9zDsFLKUwBG0AnS7eng-screen_2023-11-25_03-09-44-258.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FbackgroundImage%2FweXbp3WjbvODfIjQB7Go-screen_2025-02-06_03-04-58-506.png?alt=media&token=8ff8514f-075b-44f2-b63e-abffbae0f60d
+      lastModifiedTS: 1738811099177
+      name: screen_2025-02-06_03-04-58-506.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/backgroundImage/weXbp3WjbvODfIjQB7Go-screen_2025-02-06_03-04-58-506.png
       type: image/png
   certified: true
   description: An arena of dark crystal plateaus rise above a winding river.
@@ -5896,18 +5896,34 @@ MDi3gNqaTj3H1DkzpPfz:
   gameType:
     - 1v1
     - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FuwEBGGUOhuVDELs6wfgb-screen_2025-02-06_03-05-28-787.png?alt=media&token=e6946f12-a742-4117-af0a-c74e02353be1
+      lastModifiedTS: 1738811129233
+      name: screen_2025-02-06_03-05-28-787.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/uwEBGGUOhuVDELs6wfgb-screen_2025-02-06_03-05-28-787.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FHmN6sxIM4R1hZ7guTagm-screen_2025-02-06_03-04-32-844.png?alt=media&token=7bbc2d3d-a6c0-404a-b255-93339d429808
+      lastModifiedTS: 1738811073363
+      name: screen_2025-02-06_03-04-32-844.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/HmN6sxIM4R1hZ7guTagm-screen_2025-02-06_03-04-32-844.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2FinGameShots%2FSoEBHiR46lcgXFwfxFUL-screen_2025-02-06_03-06-18-014.png?alt=media&token=bbf16f48-1bea-41a5-b270-69e526c711fc
+      lastModifiedTS: 1738811178553
+      name: screen_2025-02-06_03-06-18-014.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/inGameShots/SoEBHiR46lcgXFwfxFUL-screen_2025-02-06_03-06-18-014.png
+      type: image/png
   inPool: true
   mapLists:
     - competitive2p
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg?alt=media&token=c33edd2a-3f9e-48bc-8261-5d47aa8785ce
-      lastModifiedTS: 1688418781719
-      name: screen00023cropped.jpg
-      ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/ocuSoA35IyFC6zYMkxxF-screen00023cropped.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FU9IKe30WYnKQaM7J07j4-onyxmini.png?alt=media&token=1683f1d0-22fb-49f2-b05f-eb477ca62f56
+      lastModifiedTS: 1738811527455
+      name: onyxmini.png
+      ref: maps/MDi3gNqaTj3H1DkzpPfz/photo/U9IKe30WYnKQaM7J07j4-onyxmini.png
+      type: image/png
   playerCount: 2
-  springName: Onyx Cauldron 2.2.1
+  springName: Onyx Cauldron 2.2.2
   startboxesSet:
     rN1b1dKs245WjkLpjlDb:
       maxPlayersPerStartbox: 1
