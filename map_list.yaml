@@ -13156,9 +13156,9 @@ jWIjHBYEHstYSyrSstVr:
     only, and few more on the plateaus.
   displayName: Special Reef
   gameType:
-    - team
+    - pve
   inPool: true
-  minPlayerCount: 2
+  minPlayerCount: 16
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2Fphoto%2FKcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg?alt=media&token=26cc6e40-6a94-4de4-9d09-c78c28712ef4
       lastModifiedTS: 1738409308341
