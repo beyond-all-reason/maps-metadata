@@ -368,6 +368,7 @@
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1JL7kMOT8mYsx2OEQnv8%2Fphoto%2FfhpxCL7Y1qCS9C47xgME-sertagatta_v6.0.jpg?alt=media&token=55e38608-c45d-4e71-a548-316a3df81941
@@ -1465,6 +1466,7 @@
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
@@ -2573,7 +2575,6 @@
   mapLists:
     - testList
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -2640,6 +2641,8 @@
       ref: maps/9laQQGzxGwnsLE3CgFQ5/inGameShots/ILsXS3j4qWb1ap1GUTLo-EclipsedDetail6.PNG
       type: image/png
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9laQQGzxGwnsLE3CgFQ5%2FperspectiveShot%2FsVgGRUoXktWQ1fQwM0cu-EclipsedPerspective3.PNG?alt=media&token=a55a01e7-138a-4d9f-90d2-192c92327cfb
@@ -4163,7 +4166,6 @@ ER2B5mT2LU864k1f0UeH:
   inPool: true
   mapLists:
     - testList
-    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FER2B5mT2LU864k1f0UeH%2Fphoto%2FJny8IWIsgemKzwK1HWGb-coast_to_coast_bar_v1.0.jpg?alt=media&token=d43c0daa-8869-4e38-8353-8c3201547177
@@ -5915,6 +5917,7 @@ MDi3gNqaTj3H1DkzpPfz:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMDi3gNqaTj3H1DkzpPfz%2Fphoto%2FU9IKe30WYnKQaM7J07j4-onyxmini.png?alt=media&token=1683f1d0-22fb-49f2-b05f-eb477ca62f56
@@ -9100,8 +9103,7 @@ Xut8FRCmn2h5DuUqzF26:
       ref: maps/Xut8FRCmn2h5DuUqzF26/inGameShots/SLb2F3Nn9hs4fZXIhwYX-RCR_SF_closeup.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXut8FRCmn2h5DuUqzF26%2Fphoto%2FXKJOASLUXgY6k9muVOGp-Red%20Comet%20Remaker%201.8%20Minimap.jpg?alt=media&token=8a158f7c-e096-4925-a84c-d1282aaf5a67
@@ -10510,8 +10512,7 @@ bX4YxbtQ8YCc6G0yMumJ:
     - 1v1
     - team
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbX4YxbtQ8YCc6G0yMumJ%2Fphoto%2FrkJyQASXYwFwj5x5zYLL-sertaleina_v9.0.jpg?alt=media&token=f664f824-cb46-43d0-a4c3-2179549c09b8
@@ -11933,6 +11934,7 @@ fkhBIvsAdLiL9CvVlp2l:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/fkhBIvsAdLiL9CvVlp2l/photo/Np5wxgfUELY0C07nyo2x-Silent_Sea_v1.jpg
@@ -12170,6 +12172,7 @@ g7NeIaS3XxFSn2KcrCiL:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
@@ -12608,6 +12611,7 @@ ggVDNTLRh7HNk4mf9mf6:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2FperspectiveShot%2FZRaKL3vIJyL2qHMv5gwr-CometCatcherRemakeBAR.png?alt=media&token=2e0bb670-9749-4614-846a-0be3b0709d94
@@ -13156,9 +13160,9 @@ jWIjHBYEHstYSyrSstVr:
     only, and few more on the plateaus.
   displayName: Special Reef
   gameType:
-    - team
+    - pve
   inPool: true
-  minPlayerCount: 2
+  minPlayerCount: 16
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjWIjHBYEHstYSyrSstVr%2Fphoto%2FKcQKKXoka9oS1UASfsDB-Special_Reef_minimap.jpg?alt=media&token=26cc6e40-6a94-4de4-9d09-c78c28712ef4
       lastModifiedTS: 1738409308341
@@ -15850,6 +15854,7 @@ te9bV2b9aiw8w9qgzTJg:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
@@ -15931,7 +15936,6 @@ u17mWZp6jqx5b5s0Or5z:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
@@ -17144,48 +17148,6 @@ xzehc1xO45wtSJqrFRlD:
   terrain:
     - desert
     - hills
-yC5KYAu9c8LPcGW0TOgu:
-  author: AmbulatoryCortex
-  backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FyC5KYAu9c8LPcGW0TOgu%2FbackgroundImage%2FStWlUAEL6ugqOjeEoK2Q-screen_2025-02-01_13-43-54-509.png?alt=media&token=6fe12b7b-b840-4d5b-8bf4-cb56e625e196
-      lastModifiedTS: 1738417435133
-      name: screen_2025-02-01_13-43-54-509.png
-      ref: maps/yC5KYAu9c8LPcGW0TOgu/backgroundImage/StWlUAEL6ugqOjeEoK2Q-screen_2025-02-01_13-43-54-509.png
-      type: image/png
-  certified: false
-  description: Temporary for the 40v40
-  displayName: Why did I let PtaQ talk me into this
-  gameType:
-    - team
-  inPool: true
-  minPlayerCount: 10
-  photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FyC5KYAu9c8LPcGW0TOgu%2Fphoto%2FvW21Qabd6LSYufTjTrV8-screen_2025-02-01_13-43-09-129.png?alt=media&token=ee7ba2ac-83d3-44f1-bc61-4b5b7ac7b8e4
-      lastModifiedTS: 1738417536149
-      name: screen_2025-02-01_13-43-09-129.png
-      ref: maps/yC5KYAu9c8LPcGW0TOgu/photo/vW21Qabd6LSYufTjTrV8-screen_2025-02-01_13-43-09-129.png
-      type: image/png
-  playerCount: 16
-  springName: Why did I let PtaQ talk me into this 1.0
-  startboxesSet:
-    8TUmUAi4i6NUhq1PKMik:
-      maxPlayersPerStartbox: 8
-      startboxes:
-        - poly:
-            - x: 0
-              y: 0
-            - x: 95
-              y: 200
-        - poly:
-            - x: 109
-              y: 0
-            - x: 200
-              y: 200
-  teamCount: 2
-  terrain:
-    - hills
-    - shallows
-    - sea
 yhOJI5yH4yGFmx9PMt9T:
   author: Johannes
   backgroundImage:
