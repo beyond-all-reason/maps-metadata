@@ -46,19 +46,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.SSH_SELF_DEPLOY_KEY }}
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: ./.github/actions/scripts-setup
         with:
-          python-version: 3.11
-          cache: pip
-          cache-dependency-path: scripts/py/requirements.txt
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22.11
-          cache: npm
-          cache-dependency-path: scripts/js/package-lock.json
-      - name: Install dependencies
-        run: ./scripts/install.sh
+          cache-name: sync_map
+          download-artifacts: 'false'
       - name: Authenticate to Google Cloud
         id: auth
         uses: google-github-actions/auth@v2

@@ -1,0 +1,39 @@
+name: Setup maps-metadata scripts
+inputs:
+  cache-name:
+    description: Name od cache
+    required: true
+  download-artifacts:
+    description: Whatever to try to fetch pre-build artifact for usage in CI workflow
+    required: false
+    default: 'true'
+runs:
+  using: "composite"
+  steps:
+    - name: Download artifacts
+      if: ${{ inputs.download-artifacts == 'true' }}
+      uses: actions/download-artifact@v4
+      with:
+        name: gen-artifacts
+        path: gen
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+        cache: pip
+        cache-dependency-path: scripts/py/requirements.txt
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22.11
+        cache: npm
+        cache-dependency-path: scripts/js/package-lock.json
+    - uses: actions/cache@v4
+      if: ${{ !env.ACT }}
+      with:
+        path: .maps-cache
+        key: maps-cache-cache-v2-${{ inputs.cache-name }}-${{ github.sha }}
+        restore-keys: |
+          maps-cache-cache-v2-${{ inputs.cache-name }}-
+    - name: Install dependencies
+      shell: bash
+      run: ./scripts/install.sh
