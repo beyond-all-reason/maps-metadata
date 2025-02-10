@@ -26,6 +26,7 @@
     "image-size": "^1.1.1",
     "json-schema-to-typescript": "^15.0.2",
     "json-stable-stringify": "^1.1.1",
+    "openid-client": "^6.1.7",
     "p-limit": "^6.1.0",
     "proper-lockfile": "^4.1.2",
     "webflow-api": "^2.4.2",
