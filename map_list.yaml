@@ -8525,29 +8525,45 @@ WuwJQPBtwMfJR9czmWuQ:
 X0N11knnIS4fWqkoFPBC:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FbackgroundImage%2F6K2WcRyhJPWoKIePC5qb-screen00014.png?alt=media&token=077f5371-2f3f-4d27-b91d-631449eb19dc
-      lastModifiedTS: 1700526218226
-      name: screen00014.png
-      ref: maps/X0N11knnIS4fWqkoFPBC/backgroundImage/6K2WcRyhJPWoKIePC5qb-screen00014.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FbackgroundImage%2Fz3FODEkoKN2bhPzs7UCI-screen_2025-02-13_20-44-51-034.png?alt=media&token=ef5ba349-c044-478b-b673-baf68e77c5dc
+      lastModifiedTS: 1739479491533
+      name: screen_2025-02-13_20-44-51-034.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/backgroundImage/z3FODEkoKN2bhPzs7UCI-screen_2025-02-13_20-44-51-034.png
       type: image/png
   certified: true
   description: Large mountains and many passes.
   displayName: Twin Lakes Park
   gameType:
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2FR0iZ1CL35oGRQbIqsQVm-screen_2025-02-13_20-46-12-190.png?alt=media&token=25d918e8-4381-4bea-8627-7d083e5c3994
+      lastModifiedTS: 1739479572735
+      name: screen_2025-02-13_20-46-12-190.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/R0iZ1CL35oGRQbIqsQVm-screen_2025-02-13_20-46-12-190.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2F73tMfwee9mO6wBTrbroN-screen_2025-02-13_20-45-47-964.png?alt=media&token=883d78f6-9618-4491-afd1-0c1cea227e86
+      lastModifiedTS: 1739479548428
+      name: screen_2025-02-13_20-45-47-964.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/73tMfwee9mO6wBTrbroN-screen_2025-02-13_20-45-47-964.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2FinGameShots%2Fg8xQWzdHKGdeqbpN3XWJ-screen_2025-02-13_20-45-24-028.png?alt=media&token=7c787087-aa62-4bca-a148-c73f3bfa8fb9
+      lastModifiedTS: 1739479524530
+      name: screen_2025-02-13_20-45-24-028.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/inGameShots/g8xQWzdHKGdeqbpN3XWJ-screen_2025-02-13_20-45-24-028.png
+      type: image/png
   inPool: true
   mapLists:
     - land16p
     - popular16p
   minPlayerCount: 12
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
-      lastModifiedTS: 1683982288630
-      name: Twin_Lakes_Park_Redux_1.2.jpg
-      ref: maps/X0N11knnIS4fWqkoFPBC/photo/YrsrTUOzkT6tA2Gk4RZt-Twin_Lakes_Park_Redux_1.2.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FX0N11knnIS4fWqkoFPBC%2Fphoto%2FXZrG25z9ZDik3X84wQQj-tlpmini.png?alt=media&token=d7a575cc-794d-4215-93b2-8a15e50e83dd
+      lastModifiedTS: 1739490713637
+      name: tlpmini.png
+      ref: maps/X0N11knnIS4fWqkoFPBC/photo/XZrG25z9ZDik3X84wQQj-tlpmini.png
+      type: image/png
   playerCount: 16
-  springName: Twin Lakes Park Redux 1.21
+  springName: Twin Lakes Park Redux 1.2.2
   startPos:
     positions:
       P1:
