@@ -1904,6 +1904,72 @@
     - sea
     - chokepoints
     - island
+621pQeCRmxhbgvz3lDzS:
+  author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FbackgroundImage%2FQx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG?alt=media&token=0ba94d78-5c4f-4c25-b965-0188a5b3e29f
+      lastModifiedTS: 1739563392866
+      name: GasbagGrabensDetail4.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/backgroundImage/Qx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG
+      type: image/png
+  certified: false
+  description: |-
+    The terraforming mission in Sector G026 has failed. Destroy all opposition before the acid claims you.
+
+    1v1 recommended. 2v2s and 3v3s playable. Texture resources provided by Nikuksis.
+  displayName: Gasbag Grabens
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FamMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG?alt=media&token=a36cba19-ad0d-47e5-8f01-0cf2af2893ad
+      lastModifiedTS: 1739563255175
+      name: GasbagGrabensDetail1.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/amMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FxDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG?alt=media&token=63680c61-254f-405a-94d6-dfa33a2b8ef5
+      lastModifiedTS: 1739563292038
+      name: GasbagGrabensDetail2.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/xDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FyHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG?alt=media&token=aa91bff8-46f4-4b5c-a9e3-97c80319d3f9
+      lastModifiedTS: 1739571260218
+      name: GasbagGrabensThumb.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/photo/yHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG
+      type: image/png
+  playerCount: 6
+  springName: Gasbag Grabens 0.9.1
+  startPos:
+    positions:
+      P1:
+        x: 1640
+        y: 2595
+      P2:
+        x: 7620
+        y: 3515
+  startboxesSet:
+    SItZn0xkOoG4oHYkLoWc:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 25
+              y: 75
+            - x: 55
+              y: 160
+        - poly:
+            - x: 145
+              y: 40
+            - x: 175
+              y: 125
+  teamCount: 2
+  terrain:
+    - acidic
+    - chokepoints
+    - island
+  title: A world melting apart
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   backgroundImage:
