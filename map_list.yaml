@@ -1074,10 +1074,10 @@
     - rotatoApprentice
   minPlayerCount: 10
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2Fphoto%2FjfBlw30nfFNgo2id1v1F-rosettamini.png?alt=media&token=7a988c4d-538d-482e-84bc-1155db3f56ee
-      lastModifiedTS: 1739582515036
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2Fphoto%2FyrKgw55AuDtEjTQNqKXn-rosettamini.png?alt=media&token=7196a95a-72ca-4c46-b1c3-bff6a22c17d0
+      lastModifiedTS: 1739583937780
       name: rosettamini.png
-      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/jfBlw30nfFNgo2id1v1F-rosettamini.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/yrKgw55AuDtEjTQNqKXn-rosettamini.png
       type: image/png
   playerCount: 16
   springName: Rosetta 1.4.4
