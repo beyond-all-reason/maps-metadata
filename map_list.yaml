@@ -1034,10 +1034,10 @@
 3QOjI5FJqvQEJElcRgTQ:
   author: Moose
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FbackgroundImage%2FgfgOwuhi25gOegFPyCSi-screen00013.png?alt=media&token=6340cb5b-d047-4ca2-87ab-e2ab1d9f7a68
-      lastModifiedTS: 1700525462156
-      name: screen00013.png
-      ref: maps/3QOjI5FJqvQEJElcRgTQ/backgroundImage/gfgOwuhi25gOegFPyCSi-screen00013.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FbackgroundImage%2FBFswnPLkNMaP16UkpSVu-screen_2025-02-15_01-05-53-474.png?alt=media&token=1f87cb3b-70ad-4821-8a03-ccc5f6f4114f
+      lastModifiedTS: 1739581554209
+      name: screen_2025-02-15_01-05-53-474.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/backgroundImage/BFswnPLkNMaP16UkpSVu-screen_2025-02-15_01-05-53-474.png
       type: image/png
   certified: true
   description: This desolate asteroid is fought over only for the rich metal deposits.
@@ -1045,6 +1045,27 @@
   gameType:
     - ffa
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FYQY4UqAXyjxhv7H5uGDN-screen_2025-02-15_01-02-47-472.png?alt=media&token=17422793-aa41-432c-ab78-fc6d887b960c
+      lastModifiedTS: 1739581368146
+      name: screen_2025-02-15_01-02-47-472.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/YQY4UqAXyjxhv7H5uGDN-screen_2025-02-15_01-02-47-472.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FoFMD3eSv5cs7tLQS7zxH-screen_2025-02-15_01-03-14-864.png?alt=media&token=2185ec8d-5c5a-4766-8a89-5aee83308c97
+      lastModifiedTS: 1739581395327
+      name: screen_2025-02-15_01-03-14-864.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/oFMD3eSv5cs7tLQS7zxH-screen_2025-02-15_01-03-14-864.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FxT0Btnhkaltxw3JMEBpL-screen_2025-02-15_01-05-34-917.png?alt=media&token=079a45f0-36df-4904-80d2-926d7c571256
+      lastModifiedTS: 1739581535510
+      name: screen_2025-02-15_01-05-34-917.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/xT0Btnhkaltxw3JMEBpL-screen_2025-02-15_01-05-34-917.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2FinGameShots%2FlViNolU1h1iU1hLCR6B5-screen_2025-02-15_01-04-48-595.png?alt=media&token=e996a3e3-4129-4c28-b4ba-e62ab69181d8
+      lastModifiedTS: 1739581489143
+      name: screen_2025-02-15_01-04-48-595.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/inGameShots/lViNolU1h1iU1hLCR6B5-screen_2025-02-15_01-04-48-595.png
+      type: image/png
   inPool: true
   mapLists:
     - land16p
@@ -1053,13 +1074,13 @@
     - rotatoApprentice
   minPlayerCount: 10
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
-      lastModifiedTS: 1683982253960
-      name: Rosetta_1.4.jpg
-      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/c1YfABwG4KYbgJETodFv-Rosetta_1.4.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F3QOjI5FJqvQEJElcRgTQ%2Fphoto%2FjfBlw30nfFNgo2id1v1F-rosettamini.png?alt=media&token=7a988c4d-538d-482e-84bc-1155db3f56ee
+      lastModifiedTS: 1739582515036
+      name: rosettamini.png
+      ref: maps/3QOjI5FJqvQEJElcRgTQ/photo/jfBlw30nfFNgo2id1v1F-rosettamini.png
+      type: image/png
   playerCount: 16
-  springName: Rosetta 1.42
+  springName: Rosetta 1.4.4
   startPos:
     positions:
       P1:
