@@ -1954,6 +1954,8 @@
       ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/xDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG
       type: image/png
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FyHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG?alt=media&token=aa91bff8-46f4-4b5c-a9e3-97c80319d3f9
@@ -2662,6 +2664,7 @@
   mapLists:
     - testList
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -5805,6 +5808,8 @@ KAQ69kPLvMZgMuLXIoyU:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKAQ69kPLvMZgMuLXIoyU%2Fphoto%2FwhPysupyZ1FViJL3yHRr-Screenshot%20at%202023-08-13%2023-03-50.png?alt=media&token=e56f6213-e6c8-4fc7-af5f-647c1006e54e
@@ -9108,8 +9113,7 @@ XnCjzq4LvLB6mik5aib1:
       ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
@@ -11817,6 +11821,7 @@ eR6j6L2F2OSP7QeCfW8O:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FperspectiveShot%2FrtaUpiq805KZION8vexS-Paradise_Lost_BAR.png?alt=media&token=a8994931-fa7d-4662-b087-2bcdc3cf7029
@@ -12714,7 +12719,6 @@ ggVDNTLRh7HNk4mf9mf6:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FggVDNTLRh7HNk4mf9mf6%2FperspectiveShot%2FZRaKL3vIJyL2qHMv5gwr-CometCatcherRemakeBAR.png?alt=media&token=2e0bb670-9749-4614-846a-0be3b0709d94
@@ -15533,8 +15537,7 @@ sKu3wAd6qfR5jG8fC6KU:
     - team
     - 1v1
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/sKu3wAd6qfR5jG8fC6KU/photo/UxrBBnJbYDI1B9EIWyYo-Shallow_Straits_v1.jpg
@@ -15957,7 +15960,6 @@ te9bV2b9aiw8w9qgzTJg:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
