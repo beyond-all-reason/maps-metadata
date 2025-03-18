@@ -11641,6 +11641,126 @@ cYgRxanQzvg7Bx9xXk1H:
     - hills
     - desert
     - wasteland
+cZDvGpmzKFHbAS6LTqh7:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FbackgroundImage%2FCvvHJKRAz4tdl4s2k7qS-screen_2025-03-18_18-15-59-343.png?alt=media&token=eef5be69-d1d0-4189-86ab-fd00a9041632
+      lastModifiedTS: 1742321759945
+      name: screen_2025-03-18_18-15-59-343.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/backgroundImage/CvvHJKRAz4tdl4s2k7qS-screen_2025-03-18_18-15-59-343.png
+      type: image/png
+  certified: true
+  description: A little space to glaze.
+  displayName: Project SD-129
+  gameType:
+    - ffa
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2FWEHzzVZ8R4ug0onRXgYJ-screen_2025-03-18_18-16-31-301.png?alt=media&token=2369f2a7-8f29-4e5e-bf99-54f10ee891dd
+      lastModifiedTS: 1742321791975
+      name: screen_2025-03-18_18-16-31-301.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/WEHzzVZ8R4ug0onRXgYJ-screen_2025-03-18_18-16-31-301.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2FOL0UCSiNfFpRBgdUeq9g-screen_2025-03-18_18-15-59-343.png?alt=media&token=8cf2fe65-3ae0-452e-b5d1-b13e9dd90d72
+      lastModifiedTS: 1742321759945
+      name: screen_2025-03-18_18-15-59-343.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/OL0UCSiNfFpRBgdUeq9g-screen_2025-03-18_18-15-59-343.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2FMjP7FuJlH0KXgX4fS2BB-screen_2025-03-18_18-17-21-978.png?alt=media&token=10d64b0e-1be4-4fe6-abab-c847c3fd8392
+      lastModifiedTS: 1742321842966
+      name: screen_2025-03-18_18-17-21-978.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/MjP7FuJlH0KXgX4fS2BB-screen_2025-03-18_18-17-21-978.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2F1fGP0YYPtbscVZwN6KVf-screen_2025-03-18_18-16-47-448.png?alt=media&token=8837eb6f-4d62-43cf-8f97-f75a5c1938a4
+      lastModifiedTS: 1742321808465
+      name: screen_2025-03-18_18-16-47-448.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/1fGP0YYPtbscVZwN6KVf-screen_2025-03-18_18-16-47-448.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2FX5KMgGDylLXHfwv6CXLO-screen_2025-03-18_18-16-59-275.png?alt=media&token=c99d3af5-deaf-425d-984a-862983fca13e
+      lastModifiedTS: 1742321820733
+      name: screen_2025-03-18_18-16-59-275.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/X5KMgGDylLXHfwv6CXLO-screen_2025-03-18_18-16-59-275.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FinGameShots%2Fvsnnz3DEAJChpMNv2v3B-screen_2025-03-18_18-17-40-961.png?alt=media&token=8c85beee-0fbf-46ca-9472-41e09868c787
+      lastModifiedTS: 1742321861807
+      name: screen_2025-03-18_18-17-40-961.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/inGameShots/vsnnz3DEAJChpMNv2v3B-screen_2025-03-18_18-17-40-961.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 4
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2FperspectiveShot%2FVB4QJHglMtjbYHzBVIZs-SD129%203D.png?alt=media&token=4b3bee0c-eb92-4105-a2cb-6c8046b8ace3
+      lastModifiedTS: 1742322122055
+      name: SD129 3D.png
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/perspectiveShot/VB4QJHglMtjbYHzBVIZs-SD129 3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcZDvGpmzKFHbAS6LTqh7%2Fphoto%2Fd0I2S7EHPzkW8XoBWoa0-SD129%20Mini.jpg?alt=media&token=fb7fcbce-846f-4cd4-90e7-ee8a1274e52d
+      lastModifiedTS: 1742322708119
+      name: SD129 Mini.jpg
+      ref: maps/cZDvGpmzKFHbAS6LTqh7/photo/d0I2S7EHPzkW8XoBWoa0-SD129 Mini.jpg
+      type: image/jpeg
+  playerCount: 32
+  springName: Project SD-129 v1.0
+  startboxesSet:
+    O3yriqfnDw7d1B0ryopb:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 64
+              y: 90
+        - poly:
+            - x: 136
+              y: 0
+            - x: 200
+              y: 90
+        - poly:
+            - x: 68
+              y: 126
+            - x: 129
+              y: 200
+    ODAU2o6EHAslfTDKWCub:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 200
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 200
+    yXxT4FmVvTghgKBa4jzl:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 80
+              y: 80
+        - poly:
+            - x: 120
+              y: 120
+            - x: 200
+              y: 200
+        - poly:
+            - x: 0
+              y: 120
+            - x: 80
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 80
+  teamCount: 4
+  terrain:
+    - asteroid
+    - space
 cvpud6KzRzucgumjiBgk:
   author: Johannes
   backgroundImage:
