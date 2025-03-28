@@ -16441,74 +16441,106 @@ uV4t5gveu4Ru1Lrm1e1l:
 uZq5zZ1FTcdZ7FS4k3lc:
   author: Nikuksis (original by BA_Baracus)
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FbackgroundImage%2FrrqifWXGTHDRTGOUDc5n-screen_2023-11-24_21-44-21-927.png?alt=media&token=3f682667-ea8f-4739-ade1-ec15cd783c4e
-      lastModifiedTS: 1700862262380
-      name: screen_2023-11-24_21-44-21-927.png
-      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/backgroundImage/rrqifWXGTHDRTGOUDc5n-screen_2023-11-24_21-44-21-927.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FbackgroundImage%2FgXPXUsdxCGQY4l6g9MtS-screen_2025-03-28_16-09-04-372.png?alt=media&token=b12adef2-cfa5-4d15-8814-cf8f2a32e8c7
+      lastModifiedTS: 1743178145478
+      name: screen_2025-03-28_16-09-04-372.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/backgroundImage/gXPXUsdxCGQY4l6g9MtS-screen_2025-03-28_16-09-04-372.png
       type: image/png
   certified: false
   displayName: Hotlips
   gameType:
     - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FinGameShots%2Ff75ZPHmAKZ5hl8CZvBNJ-screen_2025-03-28_16-09-38-066.png?alt=media&token=71e23a24-d008-4d35-8d1a-70942ca0e869
+      lastModifiedTS: 1743178179621
+      name: screen_2025-03-28_16-09-38-066.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/inGameShots/f75ZPHmAKZ5hl8CZvBNJ-screen_2025-03-28_16-09-38-066.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FinGameShots%2FyV4I1rg23as0vTHYl9rl-screen_2025-03-28_16-04-43-469.png?alt=media&token=1ac683d6-2aa4-4707-b4c8-a3e07496b528
+      lastModifiedTS: 1743177884567
+      name: screen_2025-03-28_16-04-43-469.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/inGameShots/yV4I1rg23as0vTHYl9rl-screen_2025-03-28_16-04-43-469.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FinGameShots%2F03y8mTHgDXL235na93Ga-screen_2025-03-28_16-08-48-608.png?alt=media&token=58877181-8783-4c56-811f-e247db70af3b
+      lastModifiedTS: 1743178129953
+      name: screen_2025-03-28_16-08-48-608.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/inGameShots/03y8mTHgDXL235na93Ga-screen_2025-03-28_16-08-48-608.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FinGameShots%2FJfZ8moIZ4z0OIa3bEU7y-screen_2025-03-28_16-09-12-862.png?alt=media&token=60918252-f834-428d-85b2-bb5fd25204b0
+      lastModifiedTS: 1743178153978
+      name: screen_2025-03-28_16-09-12-862.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/inGameShots/JfZ8moIZ4z0OIa3bEU7y-screen_2025-03-28_16-09-12-862.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FinGameShots%2FnuQWNbbr3t7AKGrnJpKU-screen_2025-03-28_16-09-04-372.png?alt=media&token=1bd158d7-2220-4b8e-8201-5d5505ff7454
+      lastModifiedTS: 1743178145478
+      name: screen_2025-03-28_16-09-04-372.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/inGameShots/nuQWNbbr3t7AKGrnJpKU-screen_2025-03-28_16-09-04-372.png
+      type: image/png
   inPool: true
   mapLists:
     - land16p
     - popular16p
   minPlayerCount: 12
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2FperspectiveShot%2FzyGJuaAx6iM8u5w9E7T4-Hotlips3.2%203D.png?alt=media&token=0eaf5dd5-cba4-4bc5-a383-f485e1effcad
+      lastModifiedTS: 1743180554485
+      name: Hotlips3.2 3D.png
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/perspectiveShot/zyGJuaAx6iM8u5w9E7T4-Hotlips3.2 3D.png
+      type: image/png
   photo:
-    - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
-      lastModifiedTS: 1683982324522
-      name: hotlips_remake_v3.1.jpg
-      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/photo/DHy3Ln8fdQHpBZzq40BD-hotlips_remake_v3.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FuZq5zZ1FTcdZ7FS4k3lc%2Fphoto%2Fu14Vq80l0O65Ey3q19oH-Hotlips3.2%20mini.jpg?alt=media&token=528919ef-1448-4b3c-9fbd-6dda5fd7442b
+      lastModifiedTS: 1743180485794
+      name: Hotlips3.2 mini.jpg
+      ref: maps/uZq5zZ1FTcdZ7FS4k3lc/photo/u14Vq80l0O65Ey3q19oH-Hotlips3.2 mini.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Hotlips Remake v3.1.1
+  springName: Hotlips Remake v3.2
   startPos:
     positions:
       P1:
-        x: 1926
-        y: 616
+        x: 1900
+        y: 611
       P10:
-        x: 10797
-        y: 7360
+        x: 10800
+        y: 6750
       P11:
-        x: 9166
-        y: 7372
+        x: 9150
+        y: 7050
       P12:
-        x: 9869
-        y: 5788
+        x: 9750
+        y: 5550
       P13:
         x: 11096
         y: 4598
       P14:
-        x: 9870
-        y: 3449
+        x: 9600
+        y: 3300
       P15:
         x: 10797
         y: 1985
       P16:
-        x: 9625
-        y: 485
+        x: 9600
+        y: 500
       P2:
-        x: 471
-        y: 1850
+        x: 400
+        y: 2450
       P3:
-        x: 2115
-        y: 1850
+        x: 2100
+        y: 2150
       P4:
-        x: 1382
-        y: 3450
+        x: 1500
+        y: 3700
       P5:
         x: 202
         y: 4609
       P6:
-        x: 1403
-        y: 5757
+        x: 1600
+        y: 5900
       P7:
-        x: 493
-        y: 7222
+        x: 500
+        y: 7200
       P8:
-        x: 1662
+        x: 1612
         y: 8710
       P9:
         x: 9363
