@@ -370,7 +370,6 @@
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - fightnight2p
     - popular2p
     - popular8p
@@ -769,6 +768,7 @@
   mapLists:
     - popular2p
     - popular8p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
@@ -1966,7 +1966,6 @@
       type: image/png
   inPool: true
   mapLists:
-    - tourney2p
     - fightnight2p
     - popular2p
     - competitive2p
@@ -2679,7 +2678,6 @@
   mapLists:
     - testList
     - competitive2p
-    - tourney2p
     - popular2p
     - popular8p
   minPlayerCount: 2
@@ -2749,7 +2747,6 @@
       type: image/png
   inPool: true
   mapLists:
-    - tourney2p
     - fightnight2p
     - popular2p
   minPlayerCount: 2
@@ -3718,7 +3715,6 @@ CXD1uv9uv28szDdk3dFR:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - popular2p
     - popular8p
   minPlayerCount: 2
@@ -4798,6 +4794,7 @@ GT4UKIBCLBwdONdOMChl:
     - popular8p
     - fightnight2p
     - apprentice2p
+    - tourney2p
   minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GT4UKIBCLBwdONdOMChl/photo/MQqPwx31SAoWlD7w63dq-Cirolata_1.02.jpg
@@ -5864,7 +5861,6 @@ KAQ69kPLvMZgMuLXIoyU:
     - team
   inPool: true
   mapLists:
-    - tourney2p
     - fightnight2p
     - popular2p
     - competitive2p
@@ -6008,6 +6004,7 @@ LutAHarULFOEKKA21AvQ:
   mapLists:
     - competitive2p
     - popular2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
@@ -9182,8 +9179,7 @@ XnCjzq4LvLB6mik5aib1:
       ref: maps/XnCjzq4LvLB6mik5aib1/inGameShots/BjtT87k0z2IeAOFY33xi-avalanche_SS 1.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - popular2p
+  mapLists: []
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXnCjzq4LvLB6mik5aib1%2FperspectiveShot%2F8nTlZtJddAPlZs2ru4CR-avalanche%20Perspective.png?alt=media&token=e547b8ed-c21b-43bd-9bce-d252003e5ace
@@ -12019,7 +12015,6 @@ eR6j6L2F2OSP7QeCfW8O:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - fightnight2p
     - popular2p
   minPlayerCount: 4
@@ -12243,7 +12238,6 @@ fkhBIvsAdLiL9CvVlp2l:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - fightnight2p
     - popular2p
     - popular8p
@@ -14158,6 +14152,7 @@ ljx3Fdz1TLbewjyAIoVw:
     - competitive2p
     - popular2p
     - popular8p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fljx3Fdz1TLbewjyAIoVw%2FperspectiveShot%2FZnPfWYUIOLjlaVx0W2fI-Tundra_V2_BAR.png?alt=media&token=847ad640-d536-4bc3-8f4b-fe5faac6dd3c
@@ -15157,8 +15152,7 @@ pqGeTK0PB1xPJ6A1u6CO:
     - 1v1
     - team
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/pqGeTK0PB1xPJ6A1u6CO/photo/8nfaUN9dUFhDnvAK6r5k-TitanDuel_V3.jpg
@@ -16937,6 +16931,7 @@ wADO80q9xacu6SAV1cZU:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2FperspectiveShot%2FqBhDfCx4fXFH1JbCv0uX-Feast_of_Hades_perspective.png?alt=media&token=fbf1340b-50d7-4af1-b95b-4dd75de32351
