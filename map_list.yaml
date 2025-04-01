@@ -1865,6 +1865,58 @@
     - metal
     - island
     - chokepoints
+5dy2Thg5cVT6FT1s5n0y:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2FbackgroundImage%2Fvn5FVos0WByAnyemj9Sb-screen_2025-04-01_20-40-54-356.png?alt=media&token=2940e277-188c-490e-836a-d8786587a449
+      lastModifiedTS: 1743540055445
+      name: screen_2025-04-01_20-40-54-356.png
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/backgroundImage/vn5FVos0WByAnyemj9Sb-screen_2025-04-01_20-40-54-356.png
+      type: image/png
+  certified: false
+  description: Fighting on 3 mesas.
+  displayName: The Desert Triad
+  gameType:
+    - 1v1
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2FinGameShots%2FEgLuHlcEJQhB9n5ySFd6-screen_2025-04-01_20-43-04-715.png?alt=media&token=9e4b952b-782b-4f0e-a092-b871ac850e3a
+      lastModifiedTS: 1743540185705
+      name: screen_2025-04-01_20-43-04-715.png
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/inGameShots/EgLuHlcEJQhB9n5ySFd6-screen_2025-04-01_20-43-04-715.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2FinGameShots%2FntdJqurfUrnqEQyncy4V-screen_2025-04-01_20-43-18-744.png?alt=media&token=fbfbd674-65b3-4e7c-a550-01891af1d583
+      lastModifiedTS: 1743540199697
+      name: screen_2025-04-01_20-43-18-744.png
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/inGameShots/ntdJqurfUrnqEQyncy4V-screen_2025-04-01_20-43-18-744.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2FinGameShots%2FBo5ixoNvZjOIHRc2sozS-screen_2025-04-01_20-41-58-410.png?alt=media&token=2295cc94-c6fe-4d09-a8fb-a6f1b6d8ac49
+      lastModifiedTS: 1743540119360
+      name: screen_2025-04-01_20-41-58-410.png
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/inGameShots/Bo5ixoNvZjOIHRc2sozS-screen_2025-04-01_20-41-58-410.png
+      type: image/png
+  inPool: true
+  mapLists:
+    - apprentice2p
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2FperspectiveShot%2FMm2BwPCteMwlrmeCeo0Y-triad_3D.png?alt=media&token=e68d1b88-5fba-4067-90fe-688c9e3c59ec
+      lastModifiedTS: 1743540595803
+      name: triad_3D.png
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/perspectiveShot/Mm2BwPCteMwlrmeCeo0Y-triad_3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5dy2Thg5cVT6FT1s5n0y%2Fphoto%2FGRTrJtqsaZFwwtDJJCvR-Triad_Mini.jpg?alt=media&token=fbb0d169-9f26-4cc5-a89b-fbe293a123fd
+      lastModifiedTS: 1743541166355
+      name: Triad_Mini.jpg
+      ref: maps/5dy2Thg5cVT6FT1s5n0y/photo/GRTrJtqsaZFwwtDJJCvR-Triad_Mini.jpg
+      type: image/jpeg
+  playerCount: 3
+  springName: The Desert Triad Remake v1.0
+  teamCount: 3
+  terrain:
+    - hills
+    - desert
 5qY4GxEPrIG1wfxBkbQ0:
   author: Nikuksis
   backgroundImage:
