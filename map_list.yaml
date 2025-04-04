@@ -370,7 +370,6 @@
   inPool: true
   mapLists:
     - competitive2p
-    - fightnight2p
     - popular2p
     - popular8p
     - apprentice2p
@@ -769,6 +768,7 @@
     - popular2p
     - popular8p
     - tourney2p
+    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
@@ -2018,7 +2018,6 @@
       type: image/png
   inPool: true
   mapLists:
-    - fightnight2p
     - popular2p
     - competitive2p
     - apprentice2p
@@ -2799,7 +2798,6 @@
       type: image/png
   inPool: true
   mapLists:
-    - fightnight2p
     - popular2p
   minPlayerCount: 2
   perspectiveShot:
@@ -5913,7 +5911,6 @@ KAQ69kPLvMZgMuLXIoyU:
     - team
   inPool: true
   mapLists:
-    - fightnight2p
     - popular2p
     - competitive2p
     - apprentice2p
@@ -6057,6 +6054,7 @@ LutAHarULFOEKKA21AvQ:
     - competitive2p
     - popular2p
     - tourney2p
+    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
@@ -12421,6 +12419,8 @@ fvLhZp85DLroyv0Iozhe:
     - competitive2p
     - popular2p
     - popular8p
+    - tourney2p
+    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FperspectiveShot%2FWewRZIXQQItNWHuR0u5V-Eye%20Of%20Horus_1.5%20perspect.png?alt=media&token=1b7ca2a7-912d-4e8b-a811-ec58c5df783e
@@ -13580,7 +13580,6 @@ jyQlMYahZbQYgC1ZGRmd:
     - land16p
     - strict
     - popular16p
-    - fightnight2p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjyQlMYahZbQYgC1ZGRmd%2FperspectiveShot%2FU8C7JwyGHGXmVlokfaWT-hera_planum_perspective.png?alt=media&token=2e0868d1-4a8a-42d0-a5b4-4adb4c02b348
@@ -14205,6 +14204,7 @@ ljx3Fdz1TLbewjyAIoVw:
     - popular2p
     - popular8p
     - tourney2p
+    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fljx3Fdz1TLbewjyAIoVw%2FperspectiveShot%2FZnPfWYUIOLjlaVx0W2fI-Tundra_V2_BAR.png?alt=media&token=847ad640-d536-4bc3-8f4b-fe5faac6dd3c
@@ -15809,7 +15809,6 @@ sKu3wAd6qfR5jG8fC6KU:
   inPool: true
   mapLists:
     - popular2p
-    - fightnight2p
     - competitive2p
     - apprentice2p
   minPlayerCount: 2
@@ -16984,6 +16983,7 @@ wADO80q9xacu6SAV1cZU:
   mapLists:
     - competitive2p
     - tourney2p
+    - fightnight2p
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FwADO80q9xacu6SAV1cZU%2FperspectiveShot%2FqBhDfCx4fXFH1JbCv0uX-Feast_of_Hades_perspective.png?alt=media&token=fbf1340b-50d7-4af1-b95b-4dd75de32351
@@ -17464,6 +17464,9 @@ xn2aVcKlkpTQAakCC3Z8:
     - team
     - 1v1
   inPool: true
+  mapLists:
+    - fightnight2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
