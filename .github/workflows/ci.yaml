@@ -92,6 +92,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: BYAR-Chobby
+          commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
           commit_message: |
             Automatic update of maps from maps-metadata
 
@@ -124,6 +125,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: spads_config_bar
+          commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
           commit_message: |
             Automatic update of maps from maps-metadata
 
