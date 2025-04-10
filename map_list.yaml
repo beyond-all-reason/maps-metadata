@@ -3156,19 +3156,19 @@ ACgCe99NC8yZFecMwRCm:
   inPool: true
   minPlayerCount: 10
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FdTrDLc7YMDWcRQdkM1M6-Isthmus2.0%203D.png?alt=media&token=19965b7d-37d2-4b4b-ad83-f91952f65953
-      lastModifiedTS: 1742660681148
-      name: Isthmus2.0 3D.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/dTrDLc7YMDWcRQdkM1M6-Isthmus2.0 3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FWMaLjuiWwBDyzCclo4PZ-supreme2.1%203D.png?alt=media&token=e091a6d6-8714-460a-ac27-6f0d68a18a5a
+      lastModifiedTS: 1744319685011
+      name: supreme2.1 3D.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/perspectiveShot/WMaLjuiWwBDyzCclo4PZ-supreme2.1 3D.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FUdkqcGZFbLIY6l6R1Vy3-Isthmus2.0%20mini.png?alt=media&token=61a4b3a0-7ca2-4490-94c4-1df747a64fdb
-      lastModifiedTS: 1742660756344
-      name: Isthmus2.0 mini.png
-      ref: maps/ACgCe99NC8yZFecMwRCm/photo/UdkqcGZFbLIY6l6R1Vy3-Isthmus2.0 mini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2Fphoto%2FUqqPuTiEnwSHueRztAHk-supreme2.1mini.png?alt=media&token=518e0557-70c1-4356-b8f8-e3dd094e54a2
+      lastModifiedTS: 1744319131403
+      name: supreme2.1mini.png
+      ref: maps/ACgCe99NC8yZFecMwRCm/photo/UqqPuTiEnwSHueRztAHk-supreme2.1mini.png
       type: image/png
   playerCount: 16
-  springName: Supreme Isthmus v2.0
+  springName: Supreme Isthmus v2.1
   startPos:
     positions:
       P1:
