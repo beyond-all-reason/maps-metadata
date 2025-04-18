@@ -1998,7 +1998,7 @@
       type: image/png
   certified: false
   description: |-
-    The terraforming mission in Sector G026 has failed. Destroy all opposition before the acid claims you.
+    The terraforming mission in Sector 026G has failed. Destroy all opposition before the acid claims you.
 
     1v1 recommended. 2v2s and 3v3s playable. Texture resources provided by Nikuksis.
   displayName: Gasbag Grabens
@@ -2029,7 +2029,7 @@
       ref: maps/621pQeCRmxhbgvz3lDzS/photo/yHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG
       type: image/png
   playerCount: 6
-  springName: Gasbag Grabens 1.0.1
+  springName: Gasbag Grabens 1.0.2
   startPos:
     positions:
       P1:
