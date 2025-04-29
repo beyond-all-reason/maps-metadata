@@ -9492,6 +9492,108 @@ Y5e7sl891wO5G2ttwjmr:
     - water
     - forests
     - shallows
+YBTyf6TkjFK9l910vyvg:
+  author: Zagupi
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FbackgroundImage%2FE5CO9Fcv4iZrIrHOB6eD-header_background.jpg?alt=media&token=8d38fb4c-b8d1-4b8c-93b4-5b07bea5a0fb
+      lastModifiedTS: 1745876457353
+      name: header_background.jpg
+      ref: maps/YBTyf6TkjFK9l910vyvg/backgroundImage/E5CO9Fcv4iZrIrHOB6eD-header_background.jpg
+      type: image/jpeg
+  certified: true
+  description: Flat terrain with a bunch of tall obstacles. North vs South. Optimal 3vs3 or duel.
+  displayName: Prismatic Anomaly
+  gameType:
+    - ffa
+    - 1v1
+    - team
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FinGameShots%2FlLVlW7rDlOGCtkzrF2y2-screenshot2.jpg?alt=media&token=981d366e-b0b8-4194-b11f-00e3304cfc09
+      lastModifiedTS: 1745876631522
+      name: screenshot2.jpg
+      ref: maps/YBTyf6TkjFK9l910vyvg/inGameShots/lLVlW7rDlOGCtkzrF2y2-screenshot2.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FinGameShots%2FDjwIF3EnZvploM7duLv8-screenshot3.jpg?alt=media&token=a5d0586f-1fc6-4080-9075-ca1d48f6395f
+      lastModifiedTS: 1745876541562
+      name: screenshot3.jpg
+      ref: maps/YBTyf6TkjFK9l910vyvg/inGameShots/DjwIF3EnZvploM7duLv8-screenshot3.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FinGameShots%2FD8ZlInZ9YTU7gh58DGCS-screenshot1.jpg?alt=media&token=d95a27f0-5db0-465e-a861-1687e38f68ac
+      lastModifiedTS: 1745876618833
+      name: screenshot1.jpg
+      ref: maps/YBTyf6TkjFK9l910vyvg/inGameShots/D8ZlInZ9YTU7gh58DGCS-screenshot1.jpg
+      type: image/jpeg
+  inPool: true
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FperspectiveShot%2FTPBSoVbmgfeRXngU4XzF-overviewpic_transparent.png?alt=media&token=18f0ed24-8aa8-4a8f-85a2-8930c1e9a14e
+      lastModifiedTS: 1745876397831
+      name: overviewpic_transparent.png
+      ref: maps/YBTyf6TkjFK9l910vyvg/perspectiveShot/TPBSoVbmgfeRXngU4XzF-overviewpic_transparent.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2Fphoto%2FRS8QuMWvPkVuDAIlWbVE-topdown.jpg?alt=media&token=ecf8a3c4-283e-4a48-88c6-5e4d37603324
+      lastModifiedTS: 1745876318621
+      name: topdown.jpg
+      ref: maps/YBTyf6TkjFK9l910vyvg/photo/RS8QuMWvPkVuDAIlWbVE-topdown.jpg
+      type: image/jpeg
+  playerCount: 6
+  springName: Prismatic Anomaly v1.01
+  startPos:
+    positions:
+      P1:
+        x: 430
+        y: 9822
+      P2:
+        x: 9844
+        y: 350
+      P3:
+        x: 9762
+        y: 9946
+      P4:
+        x: 291
+        y: 256
+      P5:
+        x: 5089
+        y: 10039
+      P6:
+        x: 5432
+        y: 273
+    team:
+      - playersPerTeam: 3
+        sides:
+          - starts:
+              - spawnPoint: P1
+              - spawnPoint: P3
+              - spawnPoint: P5
+          - starts:
+              - spawnPoint: P2
+              - spawnPoint: P4
+              - spawnPoint: P6
+        teamCount: 2
+  startPosActive: true
+  startboxesSet:
+    xbaEN6t7ayzxO1jV82KT:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 176
+            - x: 198
+              y: 200
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 27
+  teamCount: 2
+  terrain:
+    - alien
+    - asteroid
+    - space
+    - flat
+  title: Caught in the middle of crystal formations
 Ydjj7Fy4NpaLHdkvhsIn:
   author: Beherith
   backgroundImage:
