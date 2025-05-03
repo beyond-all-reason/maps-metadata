@@ -16034,6 +16034,65 @@ snRldJIaPiKTiNiEAPEg:
     - flat
     - hills
     - wasteland
+suiptWi42AOG8o7p6OHw:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsuiptWi42AOG8o7p6OHw%2FbackgroundImage%2FDtVEQZ8PhjCte5UjLLhH-sand_crows_background.jpg?alt=media&token=9b2ea3a6-693c-4e27-b6b6-93453885762d
+      lastModifiedTS: 1746284542297
+      name: sand_crows_background.jpg
+      ref: maps/suiptWi42AOG8o7p6OHw/backgroundImage/DtVEQZ8PhjCte5UjLLhH-sand_crows_background.jpg
+      type: image/jpeg
+  certified: true
+  description: Sand crowns surrounding secluted sharp rocky peaks. Up to 4v4v4v4 map.
+  displayName: Sand Crowns
+  gameType:
+    - team
+    - ffa
+  inPool: true
+  minPlayerCount: 4
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsuiptWi42AOG8o7p6OHw%2FperspectiveShot%2FiftoV4UN9H8WDtDYDEAJ-sand_crowns_perspective.jpg?alt=media&token=21bf4c4e-1aeb-4cd4-99a9-e1c259ee8439
+      lastModifiedTS: 1746284639699
+      name: sand_crowns_perspective.jpg
+      ref: maps/suiptWi42AOG8o7p6OHw/perspectiveShot/iftoV4UN9H8WDtDYDEAJ-sand_crowns_perspective.jpg
+      type: image/jpeg
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FsuiptWi42AOG8o7p6OHw%2Fphoto%2Fc0OLOuhcFTrsF8tOejKr-Sand_Crowns_minimap.jpg?alt=media&token=db981ce5-7342-44a4-9059-85ca433047c8
+      lastModifiedTS: 1746184495865
+      name: Sand_Crowns_minimap.jpg
+      ref: maps/suiptWi42AOG8o7p6OHw/photo/c0OLOuhcFTrsF8tOejKr-Sand_Crowns_minimap.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Sand Crowns 1.0
+  startboxesSet:
+    Bh9RUgDXcyMZkHgcWmaA:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 70
+              y: 0
+            - x: 125
+              y: 40
+        - poly:
+            - x: 75
+              y: 160
+            - x: 125
+              y: 200
+        - poly:
+            - x: 0
+              y: 75
+            - x: 40
+              y: 130
+        - poly:
+            - x: 160
+              y: 70
+            - x: 200
+              y: 120
+  teamCount: 4
+  terrain:
+    - alien
+    - flat
+    - hills
 t85qIzP8X1hqJ5gWEPGM:
   author: Phalange
   backgroundImage:
