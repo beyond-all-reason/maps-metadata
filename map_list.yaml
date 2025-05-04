@@ -10870,6 +10870,55 @@ bX4YxbtQ8YCc6G0yMumJ:
   terrain:
     - flat
     - desert
+baVFh1flukl12cYIXLMl:
+  author: neb_
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbaVFh1flukl12cYIXLMl%2FbackgroundImage%2FAFaY6UJPDP4QOma208QW-screen_2025-05-03_03-10-03-603.png?alt=media&token=f04221d4-493e-4c59-b067-7b70a8ed2e7f
+      lastModifiedTS: 1746241804582
+      name: screen_2025-05-03_03-10-03-603.png
+      ref: maps/baVFh1flukl12cYIXLMl/backgroundImage/AFaY6UJPDP4QOma208QW-screen_2025-05-03_03-10-03-603.png
+      type: image/png
+  certified: true
+  description: Crucial geothermal vents were discovered on the surface of Ilys. Make landfall and secure. Designed for 1v1
+    - 3v3, up to 5v5 possible.
+  displayName: Pools of Ilys
+  gameType:
+    - 1v1
+    - team
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbaVFh1flukl12cYIXLMl%2Fphoto%2Fv4QvoMx8ZFIMy2Mx1jpe-SolidSlate.jpg?alt=media&token=64a92f00-db88-432a-9aa8-a58af3ffdf0c
+      lastModifiedTS: 1746233130529
+      name: SolidSlate.jpg
+      ref: maps/baVFh1flukl12cYIXLMl/photo/v4QvoMx8ZFIMy2Mx1jpe-SolidSlate.jpg
+      type: image/jpeg
+  playerCount: 6
+  springName: Pools of Ilys 0.9.9
+  startPosActive: false
+  startboxesSet:
+    oFm7j6IVHMQ6ZKOb8JxH:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 1
+              y: 1
+            - x: 58
+              y: 67
+        - poly:
+            - x: 142
+              y: 133
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - chokepoints
+    - hills
+    - ice
+    - water
+    - asteroid
+  title: ""
 bjT21UjhlZ3s2nrZ850V:
   author: RebelNode
   backgroundImage:
