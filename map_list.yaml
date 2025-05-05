@@ -10886,15 +10886,18 @@ baVFh1flukl12cYIXLMl:
     - 1v1
     - team
   inPool: true
+  mapLists:
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbaVFh1flukl12cYIXLMl%2Fphoto%2Fv4QvoMx8ZFIMy2Mx1jpe-SolidSlate.jpg?alt=media&token=64a92f00-db88-432a-9aa8-a58af3ffdf0c
-      lastModifiedTS: 1746233130529
-      name: SolidSlate.jpg
-      ref: maps/baVFh1flukl12cYIXLMl/photo/v4QvoMx8ZFIMy2Mx1jpe-SolidSlate.jpg
-      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbaVFh1flukl12cYIXLMl%2Fphoto%2FSR2wLrtdCiGS81YA3qLR-SolidSlate_minimap.png?alt=media&token=8ec15fb6-ec19-4793-927a-8ba16cdb77ea
+      lastModifiedTS: 1746417063419
+      name: SolidSlate_minimap.png
+      ref: maps/baVFh1flukl12cYIXLMl/photo/SR2wLrtdCiGS81YA3qLR-SolidSlate_minimap.png
+      type: image/png
   playerCount: 6
-  springName: Pools of Ilys 0.9.9
+  springName: Pools of Ilys 0.9.11
   startPosActive: false
   startboxesSet:
     oFm7j6IVHMQ6ZKOb8JxH:
@@ -10917,7 +10920,6 @@ baVFh1flukl12cYIXLMl:
     - hills
     - ice
     - water
-    - asteroid
   title: ""
 bjT21UjhlZ3s2nrZ850V:
   author: RebelNode
