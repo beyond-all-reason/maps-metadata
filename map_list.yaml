@@ -14617,6 +14617,8 @@ mzdkzzTL3zgPanW6zQx4:
   mapLists:
     - popular2p
     - popular8p
+    - tourney6p
+    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/mzdkzzTL3zgPanW6zQx4/photo/ipAhkXQGdeX0kYWcEHoj-faster_than_light_1.1.jpg
