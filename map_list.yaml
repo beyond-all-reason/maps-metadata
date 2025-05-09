@@ -768,7 +768,6 @@
     - popular2p
     - popular8p
     - tourney2p
-    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
@@ -1497,7 +1496,6 @@
   mapLists:
     - competitive2p
     - tourney2p
-    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
@@ -2021,6 +2019,8 @@
     - popular2p
     - competitive2p
     - apprentice2p
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FyHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG?alt=media&token=aa91bff8-46f4-4b5c-a9e3-97c80319d3f9
@@ -2731,6 +2731,8 @@
     - competitive2p
     - popular2p
     - popular8p
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F9jHSyg8smAwuk6d3HZgm%2FperspectiveShot%2FjLwHgGMWAYQPOmu3EKxB-canis_river_perspective.png?alt=media&token=cbd48b5c-9a6b-42a1-98c0-3d01be8a6163
@@ -3839,6 +3841,7 @@ Cs5xNBZyuBzWCmPJKDbO:
     - competitive2p
     - popular2p
     - apprentice2p
+    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCs5xNBZyuBzWCmPJKDbO%2FperspectiveShot%2F4Nul3f4SG2ocyDCMy3m7-ravaged_3D.png?alt=media&token=77ec628f-c0a0-468c-951e-f362dfba8316
@@ -4842,7 +4845,6 @@ GT4UKIBCLBwdONdOMChl:
   mapLists:
     - popular2p
     - popular8p
-    - fightnight2p
     - apprentice2p
     - tourney2p
   minPlayerCount: 4
@@ -5914,6 +5916,7 @@ KAQ69kPLvMZgMuLXIoyU:
     - popular2p
     - competitive2p
     - apprentice2p
+    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKAQ69kPLvMZgMuLXIoyU%2Fphoto%2FwhPysupyZ1FViJL3yHRr-Screenshot%20at%202023-08-13%2023-03-50.png?alt=media&token=e56f6213-e6c8-4fc7-af5f-647c1006e54e
@@ -6055,6 +6058,7 @@ LutAHarULFOEKKA21AvQ:
     - popular2p
     - tourney2p
     - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/LutAHarULFOEKKA21AvQ/photo/jjRW4AyXRw6f17KpYBGz-Desolation_v1.jpg
@@ -6117,7 +6121,6 @@ MDi3gNqaTj3H1DkzpPfz:
   mapLists:
     - competitive2p
     - tourney2p
-    - fightnight2p
     - popular2p
   minPlayerCount: 2
   photo:
@@ -9525,6 +9528,9 @@ YBTyf6TkjFK9l910vyvg:
       ref: maps/YBTyf6TkjFK9l910vyvg/inGameShots/D8ZlInZ9YTU7gh58DGCS-screenshot1.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FperspectiveShot%2FTPBSoVbmgfeRXngU4XzF-overviewpic_transparent.png?alt=media&token=18f0ed24-8aa8-4a8f-85a2-8930c1e9a14e
@@ -9665,6 +9671,8 @@ Yhwa2neMfDTUXyAiSJXC:
   mapLists:
     - popular2p
     - popular8p
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYhwa2neMfDTUXyAiSJXC%2FperspectiveShot%2FZ7SWY56UhS3XT97DzCW5-Incandenscence_Perspective.png?alt=media&token=bf03f8dc-c6f5-44d7-9385-0f4ecc959a48
@@ -10447,6 +10455,8 @@ ZvEmwr9QVP760qJOdBxh:
   inPool: true
   mapLists:
     - competitive2p
+    - tourney6p
+    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F6dQtEsFIh91KTN7hjDyB-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=399720a3-4cff-4606-9ca6-5daa4b486ad7
@@ -12218,7 +12228,6 @@ eR6j6L2F2OSP7QeCfW8O:
   inPool: true
   mapLists:
     - competitive2p
-    - fightnight2p
     - popular2p
   minPlayerCount: 4
   perspectiveShot:
@@ -12441,7 +12450,6 @@ fkhBIvsAdLiL9CvVlp2l:
   inPool: true
   mapLists:
     - competitive2p
-    - fightnight2p
     - popular2p
     - popular8p
     - apprentice2p
@@ -12573,7 +12581,6 @@ fvLhZp85DLroyv0Iozhe:
     - popular2p
     - popular8p
     - tourney2p
-    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FperspectiveShot%2FWewRZIXQQItNWHuR0u5V-Eye%20Of%20Horus_1.5%20perspect.png?alt=media&token=1b7ca2a7-912d-4e8b-a811-ec58c5df783e
@@ -12688,7 +12695,6 @@ g7NeIaS3XxFSn2KcrCiL:
     - competitive2p
     - tourney2p
     - popular2p
-    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fg7NeIaS3XxFSn2KcrCiL%2Fphoto%2Fn2pJT5svY3Z0PnYbv6Cg-crystalmini.png?alt=media&token=579da67e-83ce-4776-94b8-039330819f93
@@ -14357,7 +14363,6 @@ ljx3Fdz1TLbewjyAIoVw:
     - popular2p
     - popular8p
     - tourney2p
-    - fightnight2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fljx3Fdz1TLbewjyAIoVw%2FperspectiveShot%2FZnPfWYUIOLjlaVx0W2fI-Tundra_V2_BAR.png?alt=media&token=847ad640-d536-4bc3-8f4b-fe5faac6dd3c
@@ -14617,6 +14622,8 @@ mzdkzzTL3zgPanW6zQx4:
   mapLists:
     - popular2p
     - popular8p
+    - tourney6p
+    - fightnight2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/mzdkzzTL3zgPanW6zQx4/photo/ipAhkXQGdeX0kYWcEHoj-faster_than_light_1.1.jpg
@@ -16533,6 +16540,8 @@ u17mWZp6jqx5b5s0Or5z:
     - popular2p
     - popular8p
     - apprentice2p
+    - fightnight2p
+    - tourney6p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fu17mWZp6jqx5b5s0Or5z%2FperspectiveShot%2FsdI69Es0KGG2ffEp5DOZ-theta_crystals_perspective.png?alt=media&token=1b7f8dd3-864d-4c64-83f9-0446f512af3c
@@ -17677,7 +17686,6 @@ xn2aVcKlkpTQAakCC3Z8:
     - 1v1
   inPool: true
   mapLists:
-    - fightnight2p
     - tourney2p
   minPlayerCount: 2
   photo:
