@@ -13,7 +13,7 @@ for (const map of Object.values(maps)) {
     for (const startboxesInfo of Object.values(map.startboxesSet)) {
         const startboxes = startboxesInfo.startboxes;
         if (players.has(startboxes.length)) {
-            console.error(`Map ${map.springName} has multiple startboxes with for the same number (${startboxes.length}) of players.`);
+            console.error(`Map ${map.springName} has multiple startbox configurations for the same number (${startboxes.length}) of teams.`);
             error = true;
         }
         players.add(startboxes.length);
