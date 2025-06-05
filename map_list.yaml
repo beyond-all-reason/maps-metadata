@@ -15184,19 +15184,19 @@ oX7eHI8mlpVvJUYs4v4Y:
     - testList
   minPlayerCount: 12
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2FI6d0o14BqhCrWuFusNVP-smolders%203d.png?alt=media&token=485ce6fc-5824-41cf-9c20-ecd1febd2349
-      lastModifiedTS: 1749042842232
-      name: smolders 3d.png
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/I6d0o14BqhCrWuFusNVP-smolders 3d.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2Fzwb0tuUgOtrS48zW3PTC-smolders%2012%203d.png?alt=media&token=a745ddbc-f4df-4ac8-a805-b1cfd5fc1b0f
+      lastModifiedTS: 1749152194987
+      name: smolders 12 3d.png
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/perspectiveShot/zwb0tuUgOtrS48zW3PTC-smolders 12 3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2FbdvxWHg6rKM6Q74wahPU-smolders%20mini.jpg?alt=media&token=fb11825c-1a22-4fc0-92dd-511997ab226f
-      lastModifiedTS: 1749042878976
-      name: smolders mini.jpg
-      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/bdvxWHg6rKM6Q74wahPU-smolders mini.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2Fphoto%2FgMNa1jqIjY0qBwbgnz5y-smolders%2012%20mini.jpg?alt=media&token=4de3a855-b116-4695-9fd5-72e371010836
+      lastModifiedTS: 1749152210657
+      name: smolders 12 mini.jpg
+      ref: maps/oX7eHI8mlpVvJUYs4v4Y/photo/gMNa1jqIjY0qBwbgnz5y-smolders 12 mini.jpg
       type: image/jpeg
   playerCount: 16
-  springName: All That Smolders v1.1.1
+  springName: All That Smolders v1.2
   startPos:
     positions:
       P1:
