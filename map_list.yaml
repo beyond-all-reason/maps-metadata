@@ -12432,6 +12432,8 @@ fR1RVNhtF6IpcVo9ULC0:
       ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/H1ly4m3qmZ9rHEyKJaYg-screen_2025-06-01_09-46-51-626.png
       type: image/png
   inPool: true
+  mapLists:
+    - AllThatRotates
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FperspectiveShot%2F9pRMfjyJrrTaVPH3O7Rj-glitters2.2%203d.png?alt=media&token=237b4adb-6b74-4850-b418-0fd95c4e7ffd
@@ -15182,6 +15184,7 @@ oX7eHI8mlpVvJUYs4v4Y:
   inPool: true
   mapLists:
     - testList
+    - AllThatRotates
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FoX7eHI8mlpVvJUYs4v4Y%2FperspectiveShot%2Fzwb0tuUgOtrS48zW3PTC-smolders%2012%203d.png?alt=media&token=a745ddbc-f4df-4ac8-a805-b1cfd5fc1b0f
