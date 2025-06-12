@@ -16049,10 +16049,10 @@ rQ8v6BePPrXIaQaaQjam:
 raa5whdozdwuBRAWJkVu:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FbackgroundImage%2FVp1NhmQWbDbGqoiqI8ts-screen_2025-06-11_14-01-39-422.png?alt=media&token=35ad9997-27c2-4863-859a-8fa6d9f41748
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FbackgroundImage%2F9SLjGWsBMpNtppibUFma-screen_2025-06-11_14-01-39-422.png?alt=media&token=f0c8c2e4-9e4c-4492-88e8-1d6b444d65dc
       lastModifiedTS: 1749650500458
       name: screen_2025-06-11_14-01-39-422.png
-      ref: maps/raa5whdozdwuBRAWJkVu/backgroundImage/Vp1NhmQWbDbGqoiqI8ts-screen_2025-06-11_14-01-39-422.png
+      ref: maps/raa5whdozdwuBRAWJkVu/backgroundImage/9SLjGWsBMpNtppibUFma-screen_2025-06-11_14-01-39-422.png
       type: image/png
   certified: true
   description: Warning! Enemy scouts will peek through the steam clouds.
@@ -16060,65 +16060,25 @@ raa5whdozdwuBRAWJkVu:
   gameType:
     - team
     - pve
-  inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FFUwOAIK0HddZmKitVJgR-screen_2025-06-11_14-01-39-422.png?alt=media&token=aa43ee5c-b558-4d2e-8495-9c2a09d8aad4
-      lastModifiedTS: 1749650500458
-      name: screen_2025-06-11_14-01-39-422.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/FUwOAIK0HddZmKitVJgR-screen_2025-06-11_14-01-39-422.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2F3g5KEPqmRebdgQLR8xc6-screen_2025-06-11_14-02-48-329.png?alt=media&token=ee83a717-3699-4513-a8e9-efe0203ac9ba
-      lastModifiedTS: 1749650569371
-      name: screen_2025-06-11_14-02-48-329.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/3g5KEPqmRebdgQLR8xc6-screen_2025-06-11_14-02-48-329.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2F9l7IIE1BnKHwm6dMOwrh-screen_2025-06-11_14-02-13-000.png?alt=media&token=3d1a09c7-9502-4ec0-8b0a-97260f8d2486
-      lastModifiedTS: 1749650534002
-      name: screen_2025-06-11_14-02-13-000.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/9l7IIE1BnKHwm6dMOwrh-screen_2025-06-11_14-02-13-000.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FIy3yBkln3WAj5ddBY8mM-screen_2025-06-11_14-02-04-794.png?alt=media&token=287ae624-9937-4fb4-ace4-3c5f15077b37
-      lastModifiedTS: 1749650525646
-      name: screen_2025-06-11_14-02-04-794.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/Iy3yBkln3WAj5ddBY8mM-screen_2025-06-11_14-02-04-794.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2F4XXdOFMP3Cmz6D2xEiJ9-screen_2025-06-11_14-01-27-062.png?alt=media&token=4e458725-40ea-4cdd-ad54-6a49c2887adf
-      lastModifiedTS: 1749650487987
-      name: screen_2025-06-11_14-01-27-062.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/4XXdOFMP3Cmz6D2xEiJ9-screen_2025-06-11_14-01-27-062.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FXDq0mOTXQ7vaqLXz3fwb-screen_2025-06-11_14-01-20-538.png?alt=media&token=6b3ac576-85d3-4d3b-ba5d-50b0876a7174
-      lastModifiedTS: 1749650481477
-      name: screen_2025-06-11_14-01-20-538.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/XDq0mOTXQ7vaqLXz3fwb-screen_2025-06-11_14-01-20-538.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FfNuPHl8lwnY7LHe7gU3C-screen_2025-06-11_14-02-32-350.png?alt=media&token=8dd0ea67-5059-40c4-bf5c-de27a36bb3fe
-      lastModifiedTS: 1749650553298
-      name: screen_2025-06-11_14-02-32-350.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/fNuPHl8lwnY7LHe7gU3C-screen_2025-06-11_14-02-32-350.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FG1S7BbEp3S9oPxvSzoD5-screen_2025-06-11_14-02-17-804.png?alt=media&token=e5fdee3f-0e9a-475f-9c69-7aa045d8657e
-      lastModifiedTS: 1749650538578
-      name: screen_2025-06-11_14-02-17-804.png
-      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/G1S7BbEp3S9oPxvSzoD5-screen_2025-06-11_14-02-17-804.png
-      type: image/png
+  inGameShots: []
   inPool: true
   mapLists:
     - AllThatRotates
   minPlayerCount: 8
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FperspectiveShot%2FRjWTOTOAKbXmyMZjvAro-simmers%203D.png?alt=media&token=d0c0bdec-b5d8-4e7e-b957-e9cde15196cf
-      lastModifiedTS: 1749653921155
-      name: simmers 3D.png
-      ref: maps/raa5whdozdwuBRAWJkVu/perspectiveShot/RjWTOTOAKbXmyMZjvAro-simmers 3D.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FperspectiveShot%2FV0Ljsf9fwvOmbE25TRCw-simmers%201%201%203D%20.png?alt=media&token=aaa81425-0be8-49b0-b74f-993c15a28798
+      lastModifiedTS: 1749746063976
+      name: simmers 1 1 3D .png
+      ref: maps/raa5whdozdwuBRAWJkVu/perspectiveShot/V0Ljsf9fwvOmbE25TRCw-simmers 1 1 3D .png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2Fphoto%2FxIPPpZpgT3gZJ05VUoZl-simmers%20mini.jpg?alt=media&token=e478fc36-080b-4354-8e07-b0bd446a4db9
-      lastModifiedTS: 1749653933698
-      name: simmers mini.jpg
-      ref: maps/raa5whdozdwuBRAWJkVu/photo/xIPPpZpgT3gZJ05VUoZl-simmers mini.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2Fphoto%2FDXWdHM12JjNQ6oEM1lSI-simmers%201%201%20mini%20.jpg?alt=media&token=046dbbb5-efe0-4a7f-a4b5-66771aa0aa30
+      lastModifiedTS: 1749745886980
+      name: simmers 1 1 mini .jpg
+      ref: maps/raa5whdozdwuBRAWJkVu/photo/DXWdHM12JjNQ6oEM1lSI-simmers 1 1 mini .jpg
       type: image/jpeg
   playerCount: 16
-  springName: All That Simmers v1.0.2
+  springName: All That Simmers v1.1
   startPos:
     positions:
       P1:
@@ -16231,6 +16191,7 @@ raa5whdozdwuBRAWJkVu:
     - shallows
     - forests
     - grassy
+    - chokepoints
 s7nrY1vJEItDuPwHAKEO:
   author: IceXuick
   backgroundImage:
