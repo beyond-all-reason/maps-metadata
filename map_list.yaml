@@ -16060,7 +16060,42 @@ raa5whdozdwuBRAWJkVu:
   gameType:
     - team
     - pve
-  inGameShots: []
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2F31meHDnXWjfboyYhRLL9-screen_2025-06-12_16-20-42-970.png?alt=media&token=76dbbe8f-a133-41e7-9fc7-279c53d9b937
+      lastModifiedTS: 1749745243808
+      name: screen_2025-06-12_16-20-42-970.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/31meHDnXWjfboyYhRLL9-screen_2025-06-12_16-20-42-970.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FPJ82FBJzAGrOQkjBMREX-screen_2025-06-12_16-20-15-597.png?alt=media&token=99a2de97-44e3-40da-9f75-a0f4ecbf649c
+      lastModifiedTS: 1749745216559
+      name: screen_2025-06-12_16-20-15-597.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/PJ82FBJzAGrOQkjBMREX-screen_2025-06-12_16-20-15-597.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FX5362RMrmRi5FbHvDS04-screen_2025-06-12_16-21-20-958.png?alt=media&token=325e209b-9676-40a0-a306-05939728e41c
+      lastModifiedTS: 1749745281973
+      name: screen_2025-06-12_16-21-20-958.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/X5362RMrmRi5FbHvDS04-screen_2025-06-12_16-21-20-958.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2F4nz4sbjgjkkQCQoHwVuD-screen_2025-06-12_16-20-00-836.png?alt=media&token=2a2ba93b-95c6-41df-861e-bc50db68f773
+      lastModifiedTS: 1749745201883
+      name: screen_2025-06-12_16-20-00-836.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/4nz4sbjgjkkQCQoHwVuD-screen_2025-06-12_16-20-00-836.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FoUrUrEGIU5YndYb4H2Sd-screen_2025-06-12_16-20-26-340.png?alt=media&token=074efffb-f104-4d84-9bda-71511a8c0268
+      lastModifiedTS: 1749745227474
+      name: screen_2025-06-12_16-20-26-340.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/oUrUrEGIU5YndYb4H2Sd-screen_2025-06-12_16-20-26-340.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2FwKnaECFS6B6yxOqmCuaQ-screen_2025-06-12_16-20-50-878.png?alt=media&token=d0f304fc-76a0-4982-90ce-587b60f8b509
+      lastModifiedTS: 1749745251887
+      name: screen_2025-06-12_16-20-50-878.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/wKnaECFS6B6yxOqmCuaQ-screen_2025-06-12_16-20-50-878.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fraa5whdozdwuBRAWJkVu%2FinGameShots%2Fv3weT2ZvyUcBQm6ahiUk-screen_2025-06-12_16-20-10-294.png?alt=media&token=de96e4fd-6fe5-40ff-862c-19c0fd23e8ff
+      lastModifiedTS: 1749745211242
+      name: screen_2025-06-12_16-20-10-294.png
+      ref: maps/raa5whdozdwuBRAWJkVu/inGameShots/v3weT2ZvyUcBQm6ahiUk-screen_2025-06-12_16-20-10-294.png
+      type: image/png
   inPool: true
   mapLists:
     - AllThatRotates
@@ -16078,7 +16113,7 @@ raa5whdozdwuBRAWJkVu:
       ref: maps/raa5whdozdwuBRAWJkVu/photo/DXWdHM12JjNQ6oEM1lSI-simmers 1 1 mini .jpg
       type: image/jpeg
   playerCount: 16
-  springName: All That Simmers v1.1
+  springName: All That Simmers v1.1.1
   startPos:
     positions:
       P1:
