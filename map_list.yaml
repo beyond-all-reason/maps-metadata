@@ -17647,6 +17647,29 @@ wQa6jdSr4HBUH6p21eI8:
     - hills
     - grassy
     - water
+wel448H7SXzi96dEl5Qt:
+  author: AidanNaut
+  certified: false
+  description: Test map.
+  displayName: 32x32 Hotstepper
+  gameType:
+    - ffa
+    - pve
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2Fphoto%2FFiurL4fMTVvtU6AWVLgL-32x32hotstepper.png?alt=media&token=ea06c50b-c661-4901-8693-c212cd150ecc
+      lastModifiedTS: 1750291585015
+      name: 32x32hotstepper.png
+      ref: maps/wel448H7SXzi96dEl5Qt/photo/FiurL4fMTVvtU6AWVLgL-32x32hotstepper.png
+      type: image/png
+  playerCount: 64
+  springName: 32x32 Hotstepper 0.5
+  teamCount: 4
+  terrain:
+    - lava
+    - hills
+  title: It's Hotstepper, but hotter and stepper... er.
 wyCcSCcx7UYOY5bT4d5P:
   author: Raghna
   backgroundImage:
