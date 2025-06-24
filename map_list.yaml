@@ -6946,6 +6946,76 @@ PlmJPs87RuAnAlL6inG1:
     - flat
     - hills
     - ice
+PridcMZhggu4EwEbMOJn:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPridcMZhggu4EwEbMOJn%2FbackgroundImage%2F5VOPwOciSqYsY7knQaPQ-eskerback.avif?alt=media&token=014de90b-be91-4344-97e5-5b8434ad3904
+      lastModifiedTS: 1750752728313
+      name: eskerback.avif
+      ref: maps/PridcMZhggu4EwEbMOJn/backgroundImage/5VOPwOciSqYsY7knQaPQ-eskerback.avif
+      type: image/avif
+  certified: false
+  description: 50v50 map for events.
+  displayName: Special Creek
+  gameType:
+    - pve
+  inPool: true
+  minPlayerCount: 16
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPridcMZhggu4EwEbMOJn%2FperspectiveShot%2FIJxEnnEFYfazYsLTXomy-perspective.png?alt=media&token=fc103404-c9ab-4d14-bfdf-a0276426b8ba
+      lastModifiedTS: 1750752289326
+      name: perspective.png
+      ref: maps/PridcMZhggu4EwEbMOJn/perspectiveShot/IJxEnnEFYfazYsLTXomy-perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FPridcMZhggu4EwEbMOJn%2Fphoto%2FQ9fXuk9SLJrudXk7QGTT-topdown.png?alt=media&token=55e9a480-9d63-4ac4-8e67-4e9a75377c1c
+      lastModifiedTS: 1750752231786
+      name: topdown.png
+      ref: maps/PridcMZhggu4EwEbMOJn/photo/Q9fXuk9SLJrudXk7QGTT-topdown.png
+      type: image/png
+  playerCount: 16
+  springName: Special Creek 1.0
+  startboxesSet:
+    Lq539VfB07WONrBkiH4m:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 85
+              y: 85
+        - poly:
+            - x: 115
+              y: 0
+            - x: 200
+              y: 85
+        - poly:
+            - x: 0
+              y: 115
+            - x: 85
+              y: 200
+        - poly:
+            - x: 115
+              y: 115
+            - x: 200
+              y: 200
+    UDvqkOV85sBwLVsYlfTi:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 85
+              y: 200
+        - poly:
+            - x: 115
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - hills
+    - forests
 QaENCgzeDrnkRnRsgnVT:
   author: DavetheBrave
   backgroundImage:
