@@ -5945,6 +5945,71 @@ KAQ69kPLvMZgMuLXIoyU:
     - flat
     - alien
     - desert
+KN5s2R7hTum3M9y1r7ry:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2FbackgroundImage%2Fu1HTaXzbXR1RBozE67qJ-screen_2025-06-25_18-00-41-892.png?alt=media&token=10c40e0e-116c-4a54-b088-62bcac39dae1
+      lastModifiedTS: 1750874442758
+      name: screen_2025-06-25_18-00-41-892.png
+      ref: maps/KN5s2R7hTum3M9y1r7ry/backgroundImage/u1HTaXzbXR1RBozE67qJ-screen_2025-06-25_18-00-41-892.png
+      type: image/png
+  certified: true
+  description: Extended All That Glitters for event.
+  displayName: All That Glitters Extended
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2FinGameShots%2FhfB7IHuuCXGic14x8OlR-screen_2025-06-25_18-00-41-892.png?alt=media&token=a6c97ac8-7f7e-4cdc-934c-a0e4620baf8a
+      lastModifiedTS: 1750874442758
+      name: screen_2025-06-25_18-00-41-892.png
+      ref: maps/KN5s2R7hTum3M9y1r7ry/inGameShots/hfB7IHuuCXGic14x8OlR-screen_2025-06-25_18-00-41-892.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2FinGameShots%2FVMENVu0XQ00LV88t39FL-screen_2025-06-25_18-10-38-301.png?alt=media&token=fe78ab3c-aace-4b6c-ac4b-628ecb67cf86
+      lastModifiedTS: 1750875039205
+      name: screen_2025-06-25_18-10-38-301.png
+      ref: maps/KN5s2R7hTum3M9y1r7ry/inGameShots/VMENVu0XQ00LV88t39FL-screen_2025-06-25_18-10-38-301.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2FinGameShots%2FEdlYCsh4sP6d6URQt6SZ-screen_2025-06-25_18-10-29-093.png?alt=media&token=757b8460-e74f-46dd-88cc-9e37a3f04ad8
+      lastModifiedTS: 1750875030223
+      name: screen_2025-06-25_18-10-29-093.png
+      ref: maps/KN5s2R7hTum3M9y1r7ry/inGameShots/EdlYCsh4sP6d6URQt6SZ-screen_2025-06-25_18-10-29-093.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2FperspectiveShot%2FyN4mzcvGrqito418XLjh-ATGX%203D.png?alt=media&token=56a0642f-38f0-47f9-af0a-a8433e5dae85
+      lastModifiedTS: 1750880017756
+      name: ATGX 3D.png
+      ref: maps/KN5s2R7hTum3M9y1r7ry/perspectiveShot/yN4mzcvGrqito418XLjh-ATGX 3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FKN5s2R7hTum3M9y1r7ry%2Fphoto%2F1WkH7ox85myceovrraPz-ATGX.jpg?alt=media&token=86aebe48-fae2-470a-b7c5-65865d83d5d3
+      lastModifiedTS: 1750879983716
+      name: ATGX.jpg
+      ref: maps/KN5s2R7hTum3M9y1r7ry/photo/1WkH7ox85myceovrraPz-ATGX.jpg
+      type: image/jpeg
+  playerCount: 48
+  springName: All That Glitters Extended v1.0
+  startboxesSet:
+    MiHqYTyd2ItqlmePDrJi:
+      maxPlayersPerStartbox: 16
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 40
+        - poly:
+            - x: 0
+              y: 160
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - flat
+    - chokepoints
+    - desert
+  title: All That Glitters A Lot
 LSbOSBM6bqPCs5heCJ9X:
   author: Nikuksis
   backgroundImage:
