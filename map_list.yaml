@@ -17784,22 +17784,373 @@ wQa6jdSr4HBUH6p21eI8:
     - water
 wel448H7SXzi96dEl5Qt:
   author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FbackgroundImage%2F7XDy0kLD3X123m55oYw1-Detail1.PNG?alt=media&token=3734bdb8-4563-4ea7-88eb-7342d5231136
+      lastModifiedTS: 1750970937943
+      name: Detail1.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/backgroundImage/7XDy0kLD3X123m55oYw1-Detail1.PNG
+      type: image/png
   certified: false
-  description: Test map.
+  description: A special event map made for the 50k Discord Member event, held in June 2025.
   displayName: 32x32 Hotstepper
   gameType:
     - ffa
     - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FinGameShots%2FZ7E3vRib81pH5FfskjwV-Detail2.PNG?alt=media&token=9a266c51-351a-430d-9fd9-1b24ffcd35b5
+      lastModifiedTS: 1750970957719
+      name: Detail2.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/inGameShots/Z7E3vRib81pH5FfskjwV-Detail2.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FinGameShots%2FuTGNaIYbwVn8Gdor697Q-Detail3.PNG?alt=media&token=f8484e3a-fb79-4e66-b006-4b11b93be05e
+      lastModifiedTS: 1750970979138
+      name: Detail3.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/inGameShots/uTGNaIYbwVn8Gdor697Q-Detail3.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FinGameShots%2F4BbhYTJEPKGRWj4Ycm6I-Detail6.PNG?alt=media&token=e77de7f2-0714-40c9-8c79-4bb896882efa
+      lastModifiedTS: 1750971098082
+      name: Detail6.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/inGameShots/4BbhYTJEPKGRWj4Ycm6I-Detail6.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FinGameShots%2FrviKWLD1uPtv4el0oVXn-Detail5.PNG?alt=media&token=94bcc124-72a6-4f07-9544-94f2a13bccab
+      lastModifiedTS: 1750971054654
+      name: Detail5.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/inGameShots/rviKWLD1uPtv4el0oVXn-Detail5.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2FinGameShots%2Fe1C3vmygc2f6xE9gAvL5-Detail4.PNG?alt=media&token=61bb3ad4-3883-447a-aeba-9b90ece90aca
+      lastModifiedTS: 1750971014518
+      name: Detail4.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/inGameShots/e1C3vmygc2f6xE9gAvL5-Detail4.PNG
+      type: image/png
   inPool: true
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2Fphoto%2FFiurL4fMTVvtU6AWVLgL-32x32hotstepper.png?alt=media&token=ea06c50b-c661-4901-8693-c212cd150ecc
-      lastModifiedTS: 1750291585015
-      name: 32x32hotstepper.png
-      ref: maps/wel448H7SXzi96dEl5Qt/photo/FiurL4fMTVvtU6AWVLgL-32x32hotstepper.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fwel448H7SXzi96dEl5Qt%2Fphoto%2FXFOS1ZjPM5CDwEnlbrKB-Preview.PNG?alt=media&token=5f0e8824-219e-405b-9e4e-11b3e4993614
+      lastModifiedTS: 1750973698613
+      name: Preview.PNG
+      ref: maps/wel448H7SXzi96dEl5Qt/photo/XFOS1ZjPM5CDwEnlbrKB-Preview.PNG
       type: image/png
-  playerCount: 64
-  springName: 32x32 Hotstepper 0.5
+  playerCount: 100
+  springName: Special Hotstepper 0.9
+  startPos:
+    positions:
+      P0:
+        x: 1178
+        y: 1232
+      P1:
+        x: 8192
+        y: 8192
+      P10:
+        x: 13723
+        y: 4924
+      P100:
+        x: 14923
+        y: 1264
+      P11:
+        x: 4283
+        y: 1317
+      P12:
+        x: 15300
+        y: 7010
+      P13:
+        x: 1775
+        y: 4436
+      P14:
+        x: 13753
+        y: 7673
+      P15:
+        x: 1491
+        y: 5312
+      P16:
+        x: 15482
+        y: 8484
+      P17:
+        x: 658
+        y: 8381
+      P18:
+        x: 15975
+        y: 9693
+      P19:
+        x: 692
+        y: 9766
+      P2:
+        x: 14338
+        y: 2059
+      P20:
+        x: 15547
+        y: 10548
+      P21:
+        x: 595
+        y: 10684
+      P22:
+        x: 15368
+        y: 11543
+      P23:
+        x: 1035
+        y: 11452
+      P24:
+        x: 14426
+        y: 12728
+      P25:
+        x: 1015
+        y: 13392
+      P26:
+        x: 14433
+        y: 13768
+      P27:
+        x: 1354
+        y: 14234
+      P28:
+        x: 13993
+        y: 14707
+      P29:
+        x: 2295
+        y: 15291
+      P3:
+        x: 2467
+        y: 1352
+      P30:
+        x: 12700
+        y: 14749
+      P31:
+        x: 4222
+        y: 15441
+      P32:
+        x: 11501
+        y: 15216
+      P33:
+        x: 5826
+        y: 15504
+      P34:
+        x: 10107
+        y: 15426
+      P35:
+        x: 7919
+        y: 15615
+      P36:
+        x: 5551
+        y: 1313
+      P37:
+        x: 6613
+        y: 1438
+      P38:
+        x: 6991
+        y: 450
+      P39:
+        x: 8626
+        y: 552
+      P4:
+        x: 13269
+        y: 2346
+      P40:
+        x: 8955
+        y: 1613
+      P41:
+        x: 10453
+        y: 2360
+      P42:
+        x: 11792
+        y: 3044
+      P43:
+        x: 12709
+        y: 4366
+      P44:
+        x: 14586
+        y: 5915
+      P45:
+        x: 14358
+        y: 8466
+      P46:
+        x: 14253
+        y: 10105
+      P47:
+        x: 13358
+        y: 11408
+      P48:
+        x: 12615
+        y: 13467
+      P49:
+        x: 9770
+        y: 14138
+      P5:
+        x: 2779
+        y: 3107
+      P50:
+        x: 8236
+        y: 14576
+      P51:
+        x: 6827
+        y: 13964
+      P52:
+        x: 4530
+        y: 13781
+      P53:
+        x: 2893
+        y: 11599
+      P54:
+        x: 2070
+        y: 10245
+      P55:
+        x: 2193
+        y: 8727
+      P56:
+        x: 1581
+        y: 6241
+      P57:
+        x: 3317
+        y: 4407
+      P58:
+        x: 4401
+        y: 3058
+      P59:
+        x: 5917
+        y: 2645
+      P6:
+        x: 14811
+        y: 3123
+      P60:
+        x: 7938
+        y: 1672
+      P61:
+        x: 7384
+        y: 4677
+      P62:
+        x: 9009
+        y: 4716
+      P63:
+        x: 10543
+        y: 4922
+      P64:
+        x: 11331
+        y: 6385
+      P65:
+        x: 11705
+        y: 7908
+      P66:
+        x: 12104
+        y: 9439
+      P67:
+        x: 10860
+        y: 10530
+      P68:
+        x: 9530
+        y: 11445
+      P69:
+        x: 8253
+        y: 12271
+      P7:
+        x: 1785
+        y: 4498
+      P70:
+        x: 6783
+        y: 11555
+      P71:
+        x: 5506
+        y: 10600
+      P72:
+        x: 4470
+        y: 9489
+      P73:
+        x: 4634
+        y: 7849
+      P74:
+        x: 5105
+        y: 6335
+      P75:
+        x: 5802
+        y: 4970
+      P76:
+        x: 8203
+        y: 6640
+      P77:
+        x: 9627
+        y: 7663
+      P78:
+        x: 9107
+        y: 9380
+      P79:
+        x: 7343
+        y: 9542
+      P8:
+        x: 15308
+        y: 4173
+      P80:
+        x: 6709
+        y: 7734
+      P81:
+        x: 7362
+        y: 7029
+      P82:
+        x: 8953
+        y: 6997
+      P83:
+        x: 9483
+        y: 8620
+      P84:
+        x: 8156
+        y: 9691
+      P85:
+        x: 6882
+        y: 8652
+      P86:
+        x: 6001
+        y: 8926
+      P87:
+        x: 6948
+        y: 6332
+      P88:
+        x: 9698
+        y: 6217
+      P89:
+        x: 10485
+        y: 9077
+      P9:
+        x: 3437
+        y: 1613
+      P90:
+        x: 8139
+        y: 10711
+      P91:
+        x: 8202
+        y: 13436
+      P92:
+        x: 3164
+        y: 10067
+      P93:
+        x: 3307
+        y: 6800
+      P94:
+        x: 5077
+        y: 4140
+      P95:
+        x: 7878
+        y: 3354
+      P96:
+        x: 10454
+        y: 4197
+      P97:
+        x: 12456
+        y: 6236
+      P98:
+        x: 13289
+        y: 9759
+      P99:
+        x: 11048
+        y: 12107
+  startboxesSet:
+    zO5eZDNMkno5KB5EOZXI:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 199
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 4
   terrain:
     - lava
