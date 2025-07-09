@@ -1989,10 +1989,10 @@
 621pQeCRmxhbgvz3lDzS:
   author: AidanNaut
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FbackgroundImage%2FQx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG?alt=media&token=0ba94d78-5c4f-4c25-b965-0188a5b3e29f
-      lastModifiedTS: 1739563392866
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FbackgroundImage%2FNoGJlwS1LO5yAmIUYvyN-GasbagGrabensDetail4.PNG?alt=media&token=3ba262fc-5dcb-4ccc-8dfe-60cef4512544
+      lastModifiedTS: 1751819747785
       name: GasbagGrabensDetail4.PNG
-      ref: maps/621pQeCRmxhbgvz3lDzS/backgroundImage/Qx5C8HkmATkatFoF3EsH-GasbagGrabensDetail4.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/backgroundImage/NoGJlwS1LO5yAmIUYvyN-GasbagGrabensDetail4.PNG
       type: image/png
   certified: false
   description: |-
@@ -2004,15 +2004,30 @@
     - 1v1
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FamMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG?alt=media&token=a36cba19-ad0d-47e5-8f01-0cf2af2893ad
-      lastModifiedTS: 1739563255175
-      name: GasbagGrabensDetail1.PNG
-      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/amMFePmmCVsxEdpi50YM-GasbagGrabensDetail1.PNG
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FqUeQBkKTXP90xp5838KC-GasbagGrabensDetail3.PNG?alt=media&token=851ea36f-eb8f-4897-a6eb-423226cda699
+      lastModifiedTS: 1751819384789
+      name: GasbagGrabensDetail3.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/qUeQBkKTXP90xp5838KC-GasbagGrabensDetail3.PNG
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FxDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG?alt=media&token=63680c61-254f-405a-94d6-dfa33a2b8ef5
-      lastModifiedTS: 1739563292038
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FVX8SAxmsBvL1hZ6P2Ho3-GasbagGrabensDetail1.PNG?alt=media&token=61778394-2dad-48e8-8cc5-4c41b02ad3f5
+      lastModifiedTS: 1751819270133
+      name: GasbagGrabensDetail1.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/VX8SAxmsBvL1hZ6P2Ho3-GasbagGrabensDetail1.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2Fb2nZAZvkokkIgvo7zNzD-GasbagGrabensDetail4.PNG?alt=media&token=c7f6288f-1924-4afe-a269-636868f6bac5
+      lastModifiedTS: 1751819747785
+      name: GasbagGrabensDetail4.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/b2nZAZvkokkIgvo7zNzD-GasbagGrabensDetail4.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2Fbts0q96VcodwUbwdQtrS-GasbagGrabensDetail5.PNG?alt=media&token=2bca9c89-7d33-4be0-852e-f8209476ddff
+      lastModifiedTS: 1751819794827
+      name: GasbagGrabensDetail5.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/bts0q96VcodwUbwdQtrS-GasbagGrabensDetail5.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2FinGameShots%2FwMf9UabGjP3qDhMkP7Yd-GasbagGrabensDetail2.PNG?alt=media&token=6fd1262e-430f-45ac-9fa1-11bafe44c5ca
+      lastModifiedTS: 1751819350399
       name: GasbagGrabensDetail2.PNG
-      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/xDBO8yVH6bCsfJ7JcScW-GasbagGrabensDetail2.PNG
+      ref: maps/621pQeCRmxhbgvz3lDzS/inGameShots/wMf9UabGjP3qDhMkP7Yd-GasbagGrabensDetail2.PNG
       type: image/png
   inPool: true
   mapLists:
@@ -2021,15 +2036,16 @@
     - apprentice2p
     - fightnight2p
     - tourney6p
+    - tourney2p
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FyHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG?alt=media&token=aa91bff8-46f4-4b5c-a9e3-97c80319d3f9
-      lastModifiedTS: 1739571260218
-      name: GasbagGrabensThumb.PNG
-      ref: maps/621pQeCRmxhbgvz3lDzS/photo/yHSPf164uei4D5GD92Zj-GasbagGrabensThumb.PNG
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F621pQeCRmxhbgvz3lDzS%2Fphoto%2FlI99kjLLSlXlCowRcebk-GasbagGrabensThumb4.png?alt=media&token=7c453082-cbd8-48d1-aec5-a061e63d3262
+      lastModifiedTS: 1751866061302
+      name: GasbagGrabensThumb4.png
+      ref: maps/621pQeCRmxhbgvz3lDzS/photo/lI99kjLLSlXlCowRcebk-GasbagGrabensThumb4.png
       type: image/png
   playerCount: 6
-  springName: Gasbag Grabens 1.0.2
+  springName: Gasbag Grabens 1.1.1
   startPos:
     positions:
       P1:
@@ -2043,15 +2059,15 @@
       maxPlayersPerStartbox: 3
       startboxes:
         - poly:
-            - x: 25
-              y: 75
-            - x: 55
+            - x: 28
+              y: 80
+            - x: 48
               y: 160
         - poly:
-            - x: 145
+            - x: 152
               y: 40
-            - x: 175
-              y: 125
+            - x: 172
+              y: 120
   teamCount: 2
   terrain:
     - acidic
