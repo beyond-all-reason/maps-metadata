@@ -11050,6 +11050,8 @@ baVFh1flukl12cYIXLMl:
   mapLists:
     - fightnight2p
     - tourney6p
+    - tourney2p
+    - competitive2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbaVFh1flukl12cYIXLMl%2Fphoto%2FSR2wLrtdCiGS81YA3qLR-SolidSlate_minimap.png?alt=media&token=8ec15fb6-ec19-4793-927a-8ba16cdb77ea
@@ -11058,7 +11060,7 @@ baVFh1flukl12cYIXLMl:
       ref: maps/baVFh1flukl12cYIXLMl/photo/SR2wLrtdCiGS81YA3qLR-SolidSlate_minimap.png
       type: image/png
   playerCount: 6
-  springName: Pools of Ilys 0.9.11
+  springName: Pools of Ilys 1.1.2
   startPosActive: false
   startboxesSet:
     oFm7j6IVHMQ6ZKOb8JxH:
