@@ -6234,12 +6234,7 @@ MDi3gNqaTj3H1DkzpPfz:
     - shallows
 MIHFHzbaF3j4OMqvreh9:
   author: Nikuksis
-  backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2FbackgroundImage%2FotStBiKQ7npI6N3bLtHC-screen_2023-11-24_00-07-18-020.png?alt=media&token=c9bbe5b6-1223-45da-a2ce-a9ad84ca0279
-      lastModifiedTS: 1700784438433
-      name: screen_2023-11-24_00-07-18-020.png
-      ref: maps/MIHFHzbaF3j4OMqvreh9/backgroundImage/otStBiKQ7npI6N3bLtHC-screen_2023-11-24_00-07-18-020.png
-      type: image/png
+  backgroundImage: []
   certified: false
   description: 4v4. Slug it out in the middle, but watch out for planes!
   displayName: Charlie In The Hills
@@ -6249,13 +6244,13 @@ MIHFHzbaF3j4OMqvreh9:
   inPool: true
   minPlayerCount: 4
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2Fq0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg?alt=media&token=fc79635f-8571-429b-bd0a-45cd811e4d44
-      lastModifiedTS: 1689767527532
-      name: charlie_in_the_hills_remake_v1.1.jpg
-      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FMIHFHzbaF3j4OMqvreh9%2Fphoto%2FsqFOoHqmGa1Ub2ZN1XVZ-q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg?alt=media&token=8008263f-ae4c-4df6-8410-4e9ff7c4c74d
+      lastModifiedTS: 1755807465636
+      name: q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg
+      ref: maps/MIHFHzbaF3j4OMqvreh9/photo/sqFOoHqmGa1Ub2ZN1XVZ-q0ck3OVpPcmdNpc2z7qa-charlie_in_the_hills_remake_v1.1.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Charlie In The Hills Remake v1.1
+  springName: Charlie In The Hills Remake v1.1.1
   startboxesSet:
     m4aqOUpLge2WCpHvSZqD:
       maxPlayersPerStartbox: 4
