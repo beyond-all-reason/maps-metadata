@@ -5913,6 +5913,64 @@ Jdb4pZyLQPb0IkSmaVrO:
     - flat
     - grassy
     - island
+K2GZu2RxxpwQBJmCqd90:
+  author: AidanNaut
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FbackgroundImage%2Fzcpou9Y7yezQL0oxULOH-detail1.PNG?alt=media&token=bd40c0e5-0076-45f2-b175-06ed848a4f97
+      lastModifiedTS: 1757959812106
+      name: detail1.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/backgroundImage/zcpou9Y7yezQL0oxULOH-detail1.PNG
+      type: image/png
+  certified: false
+  description: A competitive one versus one map. Towering basalt-like structures carry crucial resources at the top, while
+    the murky shallows prevent most construction. Army positioning and movement will be paramount.
+  displayName: Devil's Postpiles
+  gameType:
+    - 1v1
+    - team
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FinGameShots%2F9NDc4YwirYbkVTEoYi2v-detail1.PNG?alt=media&token=e51fb8bb-2e4a-4e29-a456-643994f0561e
+      lastModifiedTS: 1757959812106
+      name: detail1.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/inGameShots/9NDc4YwirYbkVTEoYi2v-detail1.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FinGameShots%2FE778Qeg13iBD4Krm3sC9-detail3.PNG?alt=media&token=a3a4767e-5a2d-4c07-9d4a-add85743d54c
+      lastModifiedTS: 1757959851260
+      name: detail3.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/inGameShots/E778Qeg13iBD4Krm3sC9-detail3.PNG
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FinGameShots%2FwIJxUhUZI9iFtguuRpXh-detail2.PNG?alt=media&token=336e4d22-97f3-451c-be0a-3e3fcb1c2a3c
+      lastModifiedTS: 1757959832444
+      name: detail2.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/inGameShots/wIJxUhUZI9iFtguuRpXh-detail2.PNG
+      type: image/png
+  inPool: true
+  mapLists:
+    - competitive2p
+    - apprentice2p
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FperspectiveShot%2F8zTtFAKkKuSV7EL6KhDJ-Perspective.PNG?alt=media&token=a965b0fb-06c6-4364-8cf8-d45a9650a2ef
+      lastModifiedTS: 1757960680582
+      name: Perspective.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/perspectiveShot/8zTtFAKkKuSV7EL6KhDJ-Perspective.PNG
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2Fphoto%2F9spUFKDJwx6FggcC9gpl-preview.PNG?alt=media&token=944c0e96-8e53-45ab-9131-c749a9164450
+      lastModifiedTS: 1757960290158
+      name: preview.PNG
+      ref: maps/K2GZu2RxxpwQBJmCqd90/photo/9spUFKDJwx6FggcC9gpl-preview.PNG
+      type: image/png
+  playerCount: 8
+  springName: Devil's Postpiles 1.0
+  teamCount: 4
+  terrain:
+    - swamp
+    - chokepoints
+    - grassy
+    - hills
+  title: Skirmish of Swamp and Sky
 KAQ69kPLvMZgMuLXIoyU:
   author: Johannes
   backgroundImage:
