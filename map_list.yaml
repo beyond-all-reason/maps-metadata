@@ -14977,6 +14977,48 @@ mkBFR3xXMP9u8dhD8kFW:
     - chokepoints
     - asymmetrical
     - island
+mzKwuWFz1VASHj9M4xeV:
+  author: Ambulatory Cortex
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmzKwuWFz1VASHj9M4xeV%2FbackgroundImage%2F99tjsZFh9HtueZOlecZL-screen_2025-02-01_13-43-54-509.png?alt=media&token=4a8a6896-3c58-412b-b3c5-e791a9fb1151
+      lastModifiedTS: 1738417435133
+      name: screen_2025-02-01_13-43-54-509.png
+      ref: maps/mzKwuWFz1VASHj9M4xeV/backgroundImage/99tjsZFh9HtueZOlecZL-screen_2025-02-01_13-43-54-509.png
+      type: image/png
+  certified: true
+  description: Huge island battlefield to fight on the mountains, beaches, grassland, and sea.
+  displayName: Why did I let PtaQ talk me into this
+  gameType:
+    - team
+    - pve
+  inPool: true
+  minPlayerCount: 8
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FmzKwuWFz1VASHj9M4xeV%2Fphoto%2F3D24qvD6lUCYYGxtkWX2-screen_2025-02-01_13-43-09-129.png?alt=media&token=3ee369f7-0b13-496b-b4c4-b8070997dd35
+      lastModifiedTS: 1738417536149
+      name: screen_2025-02-01_13-43-09-129.png
+      ref: maps/mzKwuWFz1VASHj9M4xeV/photo/3D24qvD6lUCYYGxtkWX2-screen_2025-02-01_13-43-09-129.png
+      type: image/png
+  playerCount: 16
+  springName: Why did I let PtaQ talk me into this 1.0
+  startboxesSet:
+    9L1MyzQ8Affpa6qfFGDC:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 21
+              y: 62
+            - x: 80
+              y: 193
+        - poly:
+            - x: 122
+              y: 58
+            - x: 189
+              y: 193
+  teamCount: 2
+  terrain:
+    - island
+    - hills
 mzdkzzTL3zgPanW6zQx4:
   author: ShaunJS
   backgroundImage:
