@@ -216,9 +216,8 @@
       type: image/jpeg
   inPool: true
   mapLists:
-    - competitive2p
-    - popular2p
     - popular8p
+    - popular2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0rkuPKU4nx2GuhlUC8sH%2FperspectiveShot%2F499i7KCiHtHc8Bv15hj1-sphagnum_bog_3D.png?alt=media&token=e02a42c3-8a93-46e9-81cd-5168560e90aa
@@ -767,7 +766,7 @@
   mapLists:
     - popular2p
     - popular8p
-    - tourney2p
+    - competitive2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2NeyVyHXbe13LF9P85pz/photo/g06Yq51TCS0wV6AdUP4Y-archsimkats_valley_v1.jpg
@@ -1011,6 +1010,7 @@
   inPool: true
   mapLists:
     - competitive2p
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/2sZ9PltxKHn43NG3OA2y/photo/1zE82SBmugwxdCdzDeHT-Mithril_Mountain_V2.jpg
@@ -1495,7 +1495,6 @@
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F44vuVzD9DD5wyzZz0L7i%2Fphoto%2FaM9vt5DiowJMZqxOJJBf-Heartbreak%20Hill.jpg?alt=media&token=943f6fd3-84dc-445b-9547-5dd6901ae8e5
@@ -1749,6 +1748,8 @@
     - 1v1
   inGameShots: []
   inPool: true
+  mapLists:
+    - tourney2p
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4egdlg54rpZQh1bvbS8p%2Fphoto%2Fs8x0aJbzRlLlzJb2VnWj-otagoscreen1.png?alt=media&token=3a783f8b-fec2-435c-9869-fc5c8ed1be28
@@ -4862,7 +4863,7 @@ GT4UKIBCLBwdONdOMChl:
     - popular2p
     - popular8p
     - apprentice2p
-    - tourney2p
+    - competitive2p
   minPlayerCount: 4
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/GT4UKIBCLBwdONdOMChl/photo/MQqPwx31SAoWlD7w63dq-Cirolata_1.02.jpg
@@ -5964,6 +5965,20 @@ K2GZu2RxxpwQBJmCqd90:
       type: image/png
   playerCount: 8
   springName: Devil's Postpiles 1.0
+  startboxesSet:
+    N0Lz5CPGoDxv8KPXkpQt:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 28
+              y: 200
+        - poly:
+            - x: 168
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 4
   terrain:
     - swamp
@@ -6195,7 +6210,6 @@ LutAHarULFOEKKA21AvQ:
   mapLists:
     - competitive2p
     - popular2p
-    - tourney2p
     - fightnight2p
     - tourney6p
   minPlayerCount: 2
@@ -6259,7 +6273,6 @@ MDi3gNqaTj3H1DkzpPfz:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - popular2p
   minPlayerCount: 2
   photo:
@@ -8652,9 +8665,9 @@ WOlmGcTZXUtV5iy57Kc9:
       type: image/jpeg
   inPool: true
   mapLists:
-    - competitive2p
     - popular2p
     - popular8p
+    - competitive2p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWOlmGcTZXUtV5iy57Kc9%2FperspectiveShot%2FEQvepYRx6Q8XXAMiR9U8-mariposa_island_3D.png?alt=media&token=982297ce-b485-416e-8aa7-40c7a241dc21
@@ -9292,7 +9305,6 @@ XR0Czafa4dwZRh0r3fTy:
     - team
   inPool: true
   mapLists:
-    - competitive2p
     - popular2p
   minPlayerCount: 2
   photo:
@@ -9735,6 +9747,8 @@ YBTyf6TkjFK9l910vyvg:
   mapLists:
     - fightnight2p
     - tourney6p
+    - tourney2p
+    - competitive2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FYBTyf6TkjFK9l910vyvg%2FperspectiveShot%2FTPBSoVbmgfeRXngU4XzF-overviewpic_transparent.png?alt=media&token=18f0ed24-8aa8-4a8f-85a2-8930c1e9a14e
@@ -10661,6 +10675,7 @@ ZvEmwr9QVP760qJOdBxh:
     - competitive2p
     - tourney6p
     - fightnight2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZvEmwr9QVP760qJOdBxh%2FperspectiveShot%2F6dQtEsFIh91KTN7hjDyB-Screenshot%20at%202024-05-24%2023-46-07.png?alt=media&token=399720a3-4cff-4606-9ca6-5daa4b486ad7
@@ -12435,6 +12450,7 @@ eR6j6L2F2OSP7QeCfW8O:
   mapLists:
     - competitive2p
     - popular2p
+    - tourney2p
   minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FeR6j6L2F2OSP7QeCfW8O%2FperspectiveShot%2FrtaUpiq805KZION8vexS-Paradise_Lost_BAR.png?alt=media&token=a8994931-fa7d-4662-b087-2bcdc3cf7029
@@ -12564,6 +12580,7 @@ etCTTwexgYVGMV63rOWy:
   mapLists:
     - competitive2p
     - popular2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FetCTTwexgYVGMV63rOWy%2FperspectiveShot%2F9v2Py4pqvTK9aBvYePIe-FallenDell_Perspective.png?alt=media&token=6ee6260b-1a89-4072-ac86-5dd16f460aae
@@ -12953,7 +12970,6 @@ fvLhZp85DLroyv0Iozhe:
     - competitive2p
     - popular2p
     - popular8p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfvLhZp85DLroyv0Iozhe%2FperspectiveShot%2FWewRZIXQQItNWHuR0u5V-Eye%20Of%20Horus_1.5%20perspect.png?alt=media&token=1b7ca2a7-912d-4e8b-a811-ec58c5df783e
@@ -13066,7 +13082,6 @@ g7NeIaS3XxFSn2KcrCiL:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - popular2p
   minPlayerCount: 2
   photo:
@@ -14735,7 +14750,6 @@ ljx3Fdz1TLbewjyAIoVw:
     - competitive2p
     - popular2p
     - popular8p
-    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fljx3Fdz1TLbewjyAIoVw%2FperspectiveShot%2FZnPfWYUIOLjlaVx0W2fI-Tundra_V2_BAR.png?alt=media&token=847ad640-d536-4bc3-8f4b-fe5faac6dd3c
@@ -17043,6 +17057,7 @@ te9bV2b9aiw8w9qgzTJg:
     - popular8p
     - popular16p
     - apprentice2p
+    - tourney2p
   minPlayerCount: 3
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fte9bV2b9aiw8w9qgzTJg%2FperspectiveShot%2Fv0kOA8S6g3Ah9846BUjB-the_cold_place_bar_3D.png?alt=media&token=d01f8378-c889-425d-a142-14f3cc9af147
@@ -17790,7 +17805,6 @@ wADO80q9xacu6SAV1cZU:
   inPool: true
   mapLists:
     - competitive2p
-    - tourney2p
     - fightnight2p
   minPlayerCount: 6
   perspectiveShot:
@@ -18646,8 +18660,7 @@ xn2aVcKlkpTQAakCC3Z8:
     - team
     - 1v1
   inPool: true
-  mapLists:
-    - tourney2p
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/xn2aVcKlkpTQAakCC3Z8/photo/x7WGKkpAanMbKVbNLBkQ-copper_hill_v1.jpg
