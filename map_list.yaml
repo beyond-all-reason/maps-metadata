@@ -5963,7 +5963,21 @@ K2GZu2RxxpwQBJmCqd90:
       ref: maps/K2GZu2RxxpwQBJmCqd90/photo/9spUFKDJwx6FggcC9gpl-preview.PNG
       type: image/png
   playerCount: 8
-  springName: Devil's Postpiles 1.0
+  springName: Devil's Postpiles 1.1
+  startboxesSet:
+    N0Lz5CPGoDxv8KPXkpQt:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 28
+              y: 200
+        - poly:
+            - x: 168
+              y: 0
+            - x: 200
+              y: 200
   teamCount: 4
   terrain:
     - swamp
