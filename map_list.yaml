@@ -5949,6 +5949,7 @@ K2GZu2RxxpwQBJmCqd90:
   mapLists:
     - competitive2p
     - apprentice2p
+    - tourney2p
   minPlayerCount: 2
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK2GZu2RxxpwQBJmCqd90%2FperspectiveShot%2F8zTtFAKkKuSV7EL6KhDJ-Perspective.PNG?alt=media&token=a965b0fb-06c6-4364-8cf8-d45a9650a2ef
@@ -5971,7 +5972,7 @@ K2GZu2RxxpwQBJmCqd90:
         - poly:
             - x: 0
               y: 0
-            - x: 28
+            - x: 32
               y: 200
         - poly:
             - x: 168
