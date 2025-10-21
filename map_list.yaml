@@ -3766,6 +3766,80 @@ BHxtx4DPxKgPkUTkRg9e:
     - water
     - grassy
     - tropical
+CPq3JgpOYYEC7iMdCkgJ:
+  author: Takeo Kurita
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FbackgroundImage%2F8VBJHSRQPCH56SnhOkoL-Screenshot_1.jpg?alt=media&token=6e5137c8-b4cc-4929-b920-7209c02ac349
+      lastModifiedTS: 1761032964138
+      name: Screenshot_1.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/backgroundImage/8VBJHSRQPCH56SnhOkoL-Screenshot_1.jpg
+      type: image/jpeg
+  certified: true
+  description: Large map for teamplay up to 3v3 with one big chokepoint in the center.
+  displayName: Aethermoor Creek
+  gameType:
+    - team
+    - 1v1
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FinGameShots%2FpGvsD6kpTOYLKvBzraWy-Screenshot_1.jpg?alt=media&token=399f14fa-b38a-4dac-922a-d226406122cb
+      lastModifiedTS: 1761032964138
+      name: Screenshot_1.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/inGameShots/pGvsD6kpTOYLKvBzraWy-Screenshot_1.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FinGameShots%2Fapt3YLTe49Clqd8xaveZ-Screenshot_2.jpg?alt=media&token=88ae33d9-ed02-4e5d-8bc2-404c4b723047
+      lastModifiedTS: 1761032970034
+      name: Screenshot_2.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/inGameShots/apt3YLTe49Clqd8xaveZ-Screenshot_2.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FinGameShots%2FQ4jklVxsbMbpczxp58xZ-Screenshot_5.jpg?alt=media&token=7de95e46-2d97-4e4a-88f7-21b73755d2ef
+      lastModifiedTS: 1761032980810
+      name: Screenshot_5.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/inGameShots/Q4jklVxsbMbpczxp58xZ-Screenshot_5.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FinGameShots%2FNysbVW8vSjVGsEiFThZ8-Screenshot_3.jpg?alt=media&token=2032a0a2-92f4-414b-88b6-924af666dbbb
+      lastModifiedTS: 1761032973546
+      name: Screenshot_3.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/inGameShots/NysbVW8vSjVGsEiFThZ8-Screenshot_3.jpg
+      type: image/jpeg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FinGameShots%2FKM0G4wVwIaFxqdgchLYB-Screenshot_4.jpg?alt=media&token=3a9658fe-f06e-4d34-963d-511a986da407
+      lastModifiedTS: 1761032977113
+      name: Screenshot_4.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/inGameShots/KM0G4wVwIaFxqdgchLYB-Screenshot_4.jpg
+      type: image/jpeg
+  inPool: true
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2FperspectiveShot%2FYpAsO8GI0aFDF05mg1Ym-Perspective_1_cut.png?alt=media&token=e8ed8448-1373-4a99-943d-8da9f0ef23f6
+      lastModifiedTS: 1761032991090
+      name: Perspective_1_cut.png
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/perspectiveShot/YpAsO8GI0aFDF05mg1Ym-Perspective_1_cut.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCPq3JgpOYYEC7iMdCkgJ%2Fphoto%2FH5jadokuHXuNmnSJR53t-Minimap.jpg?alt=media&token=651e2377-f25d-4009-95e6-d7b9f5339adc
+      lastModifiedTS: 1761032958616
+      name: Minimap.jpg
+      ref: maps/CPq3JgpOYYEC7iMdCkgJ/photo/H5jadokuHXuNmnSJR53t-Minimap.jpg
+      type: image/jpeg
+  playerCount: 6
+  springName: Aethermoor Creek 1.0
+  startboxesSet:
+    pqOsR29SxI19Gu9hPNMq:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 40
+              y: 200
+        - poly:
+            - x: 160
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - forests
+    - chokepoints
 CXD1uv9uv28szDdk3dFR:
   author: Phalange
   backgroundImage:
