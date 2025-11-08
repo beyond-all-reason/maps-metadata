@@ -4491,6 +4491,95 @@ EiT2c89HcHhHeuZxXako:
       type: image/jpeg
   playerCount: 16
   springName: The Rock 3.0.1
+  startPos:
+    positions:
+      P1:
+        x: 773
+        y: 228
+      P10:
+        x: 9563
+        y: 5455
+      P11:
+        x: 8152
+        y: 4428
+      P12:
+        x: 9817
+        y: 3826
+      P13:
+        x: 9750
+        y: 2216
+      P14:
+        x: 9760
+        y: 1116
+      P15:
+        x: 9554
+        y: 282
+      P16:
+        x: 8500
+        y: 1395
+      P2:
+        x: 305
+        y: 2124
+      P3:
+        x: 2090
+        y: 3267
+      P4:
+        x: 369
+        y: 4034
+      P5:
+        x: 485
+        y: 5871
+      P6:
+        x: 535
+        y: 7018
+      P7:
+        x: 466
+        y: 7906
+      P8:
+        x: 2018
+        y: 6709
+      P9:
+        x: 9740
+        y: 7684
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     J18op0AkUW5jXwT7yNsB:
       maxPlayersPerStartbox: 8
