@@ -1749,6 +1749,7 @@
     - 1v1
   inGameShots: []
   inPool: true
+  mapLists: []
   minPlayerCount: 2
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4egdlg54rpZQh1bvbS8p%2Fphoto%2Fs8x0aJbzRlLlzJb2VnWj-otagoscreen1.png?alt=media&token=3a783f8b-fec2-435c-9869-fc5c8ed1be28
@@ -1758,6 +1759,103 @@
       type: image/png
   playerCount: 6
   springName: Otago 1.43
+  startPos:
+    positions:
+      P1:
+        x: 2365
+        y: 365
+      P10:
+        x: 7435
+        y: 260
+      P11:
+        x: 8368
+        y: 790
+      P12:
+        x: 8786
+        y: 1631
+      P13:
+        x: 6934
+        y: 5735
+      P14:
+        x: 8604
+        y: 4421
+      P15:
+        x: 6853
+        y: 3772
+      P16:
+        x: 7433
+        y: 2742
+      P17:
+        x: 6868
+        y: 2218
+      P18:
+        x: 6404
+        y: 1875
+      P2:
+        x: 612
+        y: 1709
+      P3:
+        x: 2422
+        y: 2358
+      P4:
+        x: 1811
+        y: 3375
+      P5:
+        x: 432
+        y: 4506
+      P6:
+        x: 849
+        y: 5348
+      P7:
+        x: 1778
+        y: 5912
+      P8:
+        x: 2243
+        y: 3903
+      P9:
+        x: 2764
+        y: 4271
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: tech
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - baseCenter: P9
+                role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P10
+              - role: air
+                spawnPoint: P11
+              - role: tech
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+              - baseCenter: P18
+                role: front
+                spawnPoint: P17
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     WOXNttpMmEQ9yATN24w3:
       maxPlayersPerStartbox: 3
