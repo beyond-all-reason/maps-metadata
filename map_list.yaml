@@ -8198,6 +8198,95 @@ UeeBymo7RdXE5ty3amFw:
       type: image/jpeg
   playerCount: 16
   springName: Kolmogorov Remake 3.0.1
+  startPos:
+    positions:
+      P1:
+        x: 1342
+        y: 9049
+      P10:
+        x: 5796
+        y: 2298
+      P11:
+        x: 6466
+        y: 3727
+      P12:
+        x: 7858
+        y: 4342
+      P13:
+        x: 9478
+        y: 5145
+      P14:
+        x: 9309
+        y: 3122
+      P15:
+        x: 7327
+        y: 684
+      P16:
+        x: 9250
+        y: 1160
+      P2:
+        x: 2281
+        y: 6119
+      P3:
+        x: 675
+        y: 5286
+      P4:
+        x: 3886
+        y: 6532
+      P5:
+        x: 5080
+        y: 9578
+      P6:
+        x: 4290
+        y: 7918
+      P7:
+        x: 3180
+        y: 9385
+      P8:
+        x: 886
+        y: 7215
+      P9:
+        x: 5071
+        y: 745
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: air
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Ygu3WlAq6kP0uawS7KSh:
       maxPlayersPerStartbox: 8
