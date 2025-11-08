@@ -10987,6 +10987,95 @@ aDu1H6XNI6Jh5OZUcagp:
       type: image/jpeg
   playerCount: 16
   springName: Glacial Gap v1.1
+  startPos:
+    positions:
+      P1:
+        x: 502
+        y: 1115
+      P10:
+        x: 12556
+        y: 1404
+      P11:
+        x: 12544
+        y: 2552
+      P12:
+        x: 13888
+        y: 2239
+      P13:
+        x: 12909
+        y: 3911
+      P14:
+        x: 13653
+        y: 4603
+      P15:
+        x: 12606
+        y: 5963
+      P16:
+        x: 13486
+        y: 6860
+      P2:
+        x: 1770
+        y: 1394
+      P3:
+        x: 1772
+        y: 2551
+      P4:
+        x: 451
+        y: 2230
+      P5:
+        x: 1733
+        y: 5961
+      P6:
+        x: 863
+        y: 6871
+      P7:
+        x: 695
+        y: 4615
+      P8:
+        x: 1418
+        y: 3928
+      P9:
+        x: 13835
+        y: 1120
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: sea
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: sea
+                spawnPoint: P13
+              - role: sea
+                spawnPoint: P14
+              - role: air
+                spawnPoint: P15
+              - role: tech
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     joeXOKGFmKquZCSrC8eP:
       maxPlayersPerStartbox: 8
