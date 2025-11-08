@@ -14582,6 +14582,95 @@ kgpwvzDGdXoVcD6whG3C:
       type: image/jpeg
   playerCount: 16
   springName: Tempest_V3
+  startPos:
+    positions:
+      P1:
+        x: 554
+        y: 601
+      P10:
+        x: 2984
+        y: 7194
+      P11:
+        x: 4479
+        y: 7637
+      P12:
+        x: 6057
+        y: 7676
+      P13:
+        x: 4529
+        y: 9988
+      P14:
+        x: 5711
+        y: 9875
+      P15:
+        x: 9626
+        y: 9634
+      P16:
+        x: 7227
+        y: 7556
+      P2:
+        x: 4498
+        y: 310
+      P3:
+        x: 5654
+        y: 275
+      P4:
+        x: 2906
+        y: 2744
+      P5:
+        x: 4177
+        y: 2539
+      P6:
+        x: 5733
+        y: 2588
+      P7:
+        x: 7195
+        y: 3022
+      P8:
+        x: 9605
+        y: 414
+      P9:
+        x: 571
+        y: 9830
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: air
+                spawnPoint: P2
+              - role: tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: sea
+                spawnPoint: P5
+              - role: sea
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: sea
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     AoChK6up1lAtVxTHQ6dD:
       maxPlayersPerStartbox: 8
