@@ -14117,6 +14117,94 @@ j3X9bepS3FrtzjLLNmmu:
       type: image/jpeg
   playerCount: 10
   springName: Angel Crossing 1.5.1
+  startPos:
+    positions:
+      P1:
+        x: 462
+        y: 522
+      P10:
+        x: 6361
+        y: 7989
+      P11:
+        x: 6723
+        y: 6736
+      P12:
+        x: 3950
+        y: 6807
+      P13:
+        x: 5687
+        y: 6554
+      P14:
+        x: 1487
+        y: 7818
+      P15:
+        x: 353
+        y: 5833
+      P16:
+        x: 2392
+        y: 6562
+      P2:
+        x: 1836
+        y: 256
+      P3:
+        x: 1448
+        y: 1419
+      P4:
+        x: 4266
+        y: 1362
+      P5:
+        x: 2510
+        y: 1740
+      P6:
+        x: 6739
+        y: 356
+      P7:
+        x: 7847
+        y: 2368
+      P8:
+        x: 5755
+        y: 1659
+      P9:
+        x: 7766
+        y: 7747
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
   startboxesSet:
     fYAl6nPprYL3MD7Iekcd:
       maxPlayersPerStartbox: 5
