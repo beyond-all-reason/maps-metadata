@@ -12985,6 +12985,95 @@ frJOFVdgDIROpNVzgDed:
       type: image/jpeg
   playerCount: 20
   springName: Entrenched_Plains_V2
+  startPos:
+    positions:
+      P1:
+        x: 417
+        y: 317
+      P10:
+        x: 10611
+        y: 714
+      P11:
+        x: 10775
+        y: 2201
+      P12:
+        x: 11854
+        y: 1586
+      P13:
+        x: 11859
+        y: 3760
+      P14:
+        x: 10617
+        y: 3809
+      P15:
+        x: 10700
+        y: 5210
+      P16:
+        x: 11867
+        y: 5823
+      P2:
+        x: 1634
+        y: 906
+      P3:
+        x: 450
+        y: 4498
+      P4:
+        x: 423
+        y: 2338
+      P5:
+        x: 1671
+        y: 2351
+      P6:
+        x: 526
+        y: 5707
+      P7:
+        x: 1623
+        y: 5452
+      P8:
+        x: 1527
+        y: 3938
+      P9:
+        x: 11765
+        y: 415
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: tech
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Q8LzCwSefDZU6BIyICA7:
       maxPlayersPerStartbox: 10
