@@ -16726,6 +16726,95 @@ snRldJIaPiKTiNiEAPEg:
       type: image/png
   playerCount: 16
   springName: Stronghold v5.0.1
+  startPos:
+    positions:
+      P1:
+        x: 525
+        y: 1831
+      P10:
+        x: 7014
+        y: 7533
+      P11:
+        x: 6484
+        y: 6441
+      P12:
+        x: 4686
+        y: 7491
+      P13:
+        x: 3641
+        y: 6649
+      P14:
+        x: 1711
+        y: 6504
+      P15:
+        x: 612
+        y: 6906
+      P16:
+        x: 1704
+        y: 7657
+      P2:
+        x: 1097
+        y: 663
+      P3:
+        x: 1633
+        y: 1795
+      P4:
+        x: 3403
+        y: 724
+      P5:
+        x: 4559
+        y: 1531
+      P6:
+        x: 6402
+        y: 1718
+      P7:
+        x: 7526
+        y: 1260
+      P8:
+        x: 6425
+        y: 496
+      P9:
+        x: 7673
+        y: 6442
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: air
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: tech
+                spawnPoint: P8
+          - starts:
+              - role: air
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: tech
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Ab3VYqLTOaxCrnWOLtSw:
       maxPlayersPerStartbox: 8
