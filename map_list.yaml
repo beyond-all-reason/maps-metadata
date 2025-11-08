@@ -6921,6 +6921,95 @@ PekWgagUAJmWoOua3BKS:
       type: image/png
   playerCount: 16
   springName: The Rock Jungle 2.1
+  startPos:
+    positions:
+      P1:
+        x: 926
+        y: 693
+      P10:
+        x: 7646
+        y: 1614
+      P11:
+        x: 9816
+        y: 2368
+      P12:
+        x: 8789
+        y: 3363
+      P13:
+        x: 7599
+        y: 4671
+      P14:
+        x: 9725
+        y: 5196
+      P15:
+        x: 7954
+        y: 7130
+      P16:
+        x: 9313
+        y: 7536
+      P2:
+        x: 2460
+        y: 1110
+      P3:
+        x: 499
+        y: 2882
+      P4:
+        x: 2539
+        y: 3394
+      P5:
+        x: 1417
+        y: 4801
+      P6:
+        x: 338
+        y: 5953
+      P7:
+        x: 723
+        y: 7506
+      P8:
+        x: 2585
+        y: 6551
+      P9:
+        x: 9510
+        y: 698
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: sea
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     hH36OTRHDx2Dg2JCtqYs:
       maxPlayersPerStartbox: 8
