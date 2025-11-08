@@ -18803,6 +18803,95 @@ xzehc1xO45wtSJqrFRlD:
       type: image/png
   playerCount: 16
   springName: Cells 1.2
+  startPos:
+    positions:
+      P1:
+        x: 795
+        y: 508
+      P10:
+        x: 9568
+        y: 640
+      P11:
+        x: 9254
+        y: 2990
+      P12:
+        x: 7763
+        y: 4117
+      P13:
+        x: 7862
+        y: 5823
+      P14:
+        x: 9338
+        y: 7410
+      P15:
+        x: 7825
+        y: 8929
+      P16:
+        x: 9409
+        y: 9688
+      P2:
+        x: 2366
+        y: 1277
+      P3:
+        x: 816
+        y: 2782
+      P4:
+        x: 2319
+        y: 4371
+      P5:
+        x: 2426
+        y: 6093
+      P6:
+        x: 929
+        y: 7226
+      P7:
+        x: 644
+        y: 9556
+      P8:
+        x: 2463
+        y: 9643
+      P9:
+        x: 7731
+        y: 581
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     jb0Rnwfwxy2RO6lAO3ff:
       maxPlayersPerStartbox: 8
