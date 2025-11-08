@@ -10200,6 +10200,95 @@ Z8YOFQmH2Aic7MsPihzr:
       type: image/png
   playerCount: 16
   springName: Pinch Point 1.03
+  startPos:
+    positions:
+      P1:
+        x: 980
+        y: 551
+      P10:
+        x: 13851
+        y: 3801
+      P11:
+        x: 14678
+        y: 1606
+      P12:
+        x: 15834
+        y: 768
+      P13:
+        x: 14608
+        y: 8288
+      P14:
+        x: 15375
+        y: 9680
+      P15:
+        x: 11780
+        y: 7719
+      P16:
+        x: 10532
+        y: 5199
+      P2:
+        x: 1769
+        y: 1928
+      P3:
+        x: 4578
+        y: 2485
+      P4:
+        x: 5867
+        y: 5038
+      P5:
+        x: 5657
+        y: 7519
+      P6:
+        x: 549
+        y: 9463
+      P7:
+        x: 1718
+        y: 8613
+      P8:
+        x: 2539
+        y: 6421
+      P9:
+        x: 10725
+        y: 2714
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: sea
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: sea
+                spawnPoint: P7
+              - role: tech
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: tech
+                spawnPoint: P10
+              - role: sea
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front/tech
+                spawnPoint: P13
+              - role: sea
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     1LFGneSokrjxE8sTzln3:
       maxPlayersPerStartbox: 8
