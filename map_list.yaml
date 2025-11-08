@@ -7552,6 +7552,95 @@ RLZ07b2DZS9vYPn5dvFX:
   playerCount: 16
   special: Shallows
   springName: Red River Estuary v1.1
+  startPos:
+    positions:
+      P1:
+        x: 2219
+        y: 811
+      P10:
+        x: 7909
+        y: 2203
+      P11:
+        x: 8253
+        y: 4846
+      P12:
+        x: 9518
+        y: 4534
+      P13:
+        x: 8048
+        y: 7960
+      P14:
+        x: 9846
+        y: 7100
+      P15:
+        x: 8337
+        y: 9211
+      P16:
+        x: 9797
+        y: 9730
+      P2:
+        x: 2169
+        y: 2375
+      P3:
+        x: 1996
+        y: 4626
+      P4:
+        x: 596
+        y: 5131
+      P5:
+        x: 1997
+        y: 7208
+      P6:
+        x: 342
+        y: 7889
+      P7:
+        x: 1842
+        y: 9119
+      P8:
+        x: 403
+        y: 9732
+      P9:
+        x: 7872
+        y: 768
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: tech
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: sea
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: tech
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: sea
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Fl4d1MGhk5U8MGpkCo1p:
       maxPlayersPerStartbox: 8
