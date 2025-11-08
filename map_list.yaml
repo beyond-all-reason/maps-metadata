@@ -12429,6 +12429,95 @@ ddpsrgkYM0ujNqHiQKKm:
       type: image/png
   playerCount: 16
   springName: Azurite Shores 1.01
+  startPos:
+    positions:
+      P1:
+        x: 2103
+        y: 804
+      P10:
+        x: 8206
+        y: 822
+      P11:
+        x: 7234
+        y: 3202
+      P12:
+        x: 8560
+        y: 3189
+      P13:
+        x: 7031
+        y: 4879
+      P14:
+        x: 8436
+        y: 4894
+      P15:
+        x: 7156
+        y: 7474
+      P16:
+        x: 8373
+        y: 7318
+      P2:
+        x: 806
+        y: 814
+      P3:
+        x: 725
+        y: 3374
+      P4:
+        x: 2212
+        y: 3333
+      P5:
+        x: 1931
+        y: 4975
+      P6:
+        x: 638
+        y: 5050
+      P7:
+        x: 2253
+        y: 7390
+      P8:
+        x: 864
+        y: 7215
+      P9:
+        x: 6906
+        y: 748
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: air
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     r9d96DXWa2fLdkL7vSQT:
       maxPlayersPerStartbox: 8
