@@ -1965,6 +1965,95 @@
       type: image/png
   playerCount: 16
   springName: Hellas Basin v1.4
+  startPos:
+    positions:
+      P1:
+        x: 989
+        y: 4882
+      P10:
+        x: 7667
+        y: 7654
+      P11:
+        x: 8370
+        y: 8565
+      P12:
+        x: 8495
+        y: 8007
+      P13:
+        x: 7389
+        y: 11250
+      P14:
+        x: 9553
+        y: 11008
+      P15:
+        x: 11411
+        y: 10397
+      P16:
+        x: 11274
+        y: 7312
+      P2:
+        x: 1259
+        y: 2683
+      P3:
+        x: 1893
+        y: 912
+      P4:
+        x: 4942
+        y: 987
+      P5:
+        x: 3704
+        y: 3892
+      P6:
+        x: 4259
+        y: 3767
+      P7:
+        x: 3496
+        y: 4764
+      P8:
+        x: 4652
+        y: 4638
+      P9:
+        x: 7531
+        y: 8739
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: sea
+                spawnPoint: P1
+              - role: air
+                spawnPoint: P2
+              - role: tech
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: tech
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     qxnzzifwTy5FTgDHvQpl:
       maxPlayersPerStartbox: 8
