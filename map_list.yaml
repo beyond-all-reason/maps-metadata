@@ -10835,6 +10835,95 @@ ZxFS2VuODjyLH5V8mHfR:
       type: image/jpeg
   playerCount: 16
   springName: Mescaline_V2
+  startPos:
+    positions:
+      P1:
+        x: 877
+        y: 647
+      P10:
+        x: 9156
+        y: 547
+      P11:
+        x: 7781
+        y: 2014
+      P12:
+        x: 9519
+        y: 2127
+      P13:
+        x: 7747
+        y: 3768
+      P14:
+        x: 9425
+        y: 3561
+      P15:
+        x: 8185
+        y: 5141
+      P16:
+        x: 9376
+        y: 5205
+      P2:
+        x: 2163
+        y: 544
+      P3:
+        x: 1022
+        y: 2244
+      P4:
+        x: 2396
+        y: 2127
+      P5:
+        x: 946
+        y: 3757
+      P6:
+        x: 2028
+        y: 3507
+      P7:
+        x: 937
+        y: 5131
+      P8:
+        x: 2272
+        y: 5174
+      P9:
+        x: 7807
+        y: 532
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     wjaGmK17zcRGp95DnDtD:
       maxPlayersPerStartbox: 8
