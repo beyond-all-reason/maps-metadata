@@ -4335,6 +4335,95 @@ DyHExxTkkRB4DweNDViM:
       type: image/jpeg
   playerCount: 16
   springName: Melting Glacier v1.1.1
+  startPos:
+    positions:
+      P1:
+        x: 2248
+        y: 9281
+      P10:
+        x: 9238
+        y: 2454
+      P11:
+        x: 8906
+        y: 4441
+      P12:
+        x: 9570
+        y: 5931
+      P13:
+        x: 8540
+        y: 6444
+      P14:
+        x: 7985
+        y: 8019
+      P15:
+        x: 8266
+        y: 3167
+      P16:
+        x: 8988
+        y: 9394
+      P2:
+        x: 902
+        y: 7986
+      P3:
+        x: 2144
+        y: 7053
+      P4:
+        x: 1469
+        y: 4725
+      P5:
+        x: 478
+        y: 3988
+      P6:
+        x: 1002
+        y: 3078
+      P7:
+        x: 1638
+        y: 1133
+      P8:
+        x: 2062
+        y: 2935
+      P9:
+        x: 8773
+        y: 841
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: sea
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: sea
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     6UijoWv1VTnXKbXgdpRz:
       maxPlayersPerStartbox: 8
