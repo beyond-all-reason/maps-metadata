@@ -12281,6 +12281,95 @@ cZDvGpmzKFHbAS6LTqh7:
       type: image/jpeg
   playerCount: 32
   springName: Project SD-129 v1.0
+  startPos:
+    positions:
+      P1:
+        x: 3960
+        y: 2088
+      P10:
+        x: 10191
+        y: 4359
+      P11:
+        x: 12244
+        y: 3917
+      P12:
+        x: 10991
+        y: 7142
+      P13:
+        x: 12982
+        y: 8460
+      P14:
+        x: 9945
+        y: 9820
+      P15:
+        x: 10358
+        y: 12107
+      P16:
+        x: 12117
+        y: 10404
+      P2:
+        x: 4042
+        y: 4070
+      P3:
+        x: 2199
+        y: 3781
+      P4:
+        x: 2952
+        y: 7063
+      P5:
+        x: 4158
+        y: 9873
+      P6:
+        x: 3396
+        y: 11779
+      P7:
+        x: 2028
+        y: 10200
+      P8:
+        x: 1394
+        y: 5678
+      P9:
+        x: 10790
+        y: 2396
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: tech
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: tech
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     O3yriqfnDw7d1B0ryopb:
       maxPlayersPerStartbox: 5
