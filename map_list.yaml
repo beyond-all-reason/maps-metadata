@@ -9768,6 +9768,95 @@ Y5e7sl891wO5G2ttwjmr:
       type: image/png
   playerCount: 12
   springName: Rustcrown Canyon 1.3
+  startPos:
+    positions:
+      P1:
+        x: 522
+        y: 468
+      P10:
+        x: 9863
+        y: 319
+      P11:
+        x: 9908
+        y: 1406
+      P12:
+        x: 10065
+        y: 2490
+      P13:
+        x: 8582
+        y: 3070
+      P14:
+        x: 9938
+        y: 3637
+      P15:
+        x: 9962
+        y: 4721
+      P16:
+        x: 8772
+        y: 4491
+      P2:
+        x: 1962
+        y: 655
+      P3:
+        x: 690
+        y: 1420
+      P4:
+        x: 196
+        y: 2532
+      P5:
+        x: 1741
+        y: 3289
+      P6:
+        x: 421
+        y: 3876
+      P7:
+        x: 513
+        y: 4836
+      P8:
+        x: 1518
+        y: 4568
+      P9:
+        x: 8645
+        y: 394
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Wld9X78iaTL095TweT4A:
       maxPlayersPerStartbox: 6
