@@ -7150,6 +7150,95 @@ PlmJPs87RuAnAlL6inG1:
       type: image/jpeg
   playerCount: 16
   springName: Ice Scream v2.5.1
+  startPos:
+    positions:
+      P1:
+        x: 565
+        y: 4713
+      P10:
+        x: 14300
+        y: 1586
+      P11:
+        x: 13223
+        y: 2788
+      P12:
+        x: 12338
+        y: 3462
+      P13:
+        x: 11223
+        y: 4605
+      P14:
+        x: 14812
+        y: 2688
+      P15:
+        x: 11416
+        y: 533
+      P16:
+        x: 11073
+        y: 1752
+      P2:
+        x: 1075
+        y: 3512
+      P3:
+        x: 2174
+        y: 2373
+      P4:
+        x: 2979
+        y: 1634
+      P5:
+        x: 4134
+        y: 497
+      P6:
+        x: 589
+        y: 2652
+      P7:
+        x: 3952
+        y: 4570
+      P8:
+        x: 4320
+        y: 3317
+      P9:
+        x: 14870
+        y: 576
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: air
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: air
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     ZMdO1P5cCn7gYb8c7OeP:
       maxPlayersPerStartbox: 8
