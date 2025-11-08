@@ -11089,6 +11089,95 @@ bLBXDWyEuUqG825WYzHj:
       type: image/jpeg
   playerCount: 16
   springName: Deeploria Fields v1.5.1
+  startPos:
+    positions:
+      P1:
+        x: 676
+        y: 1042
+      P10:
+        x: 8400
+        y: 1929
+      P11:
+        x: 9537
+        y: 2910
+      P12:
+        x: 7990
+        y: 4122
+      P13:
+        x: 8265
+        y: 5700
+      P14:
+        x: 9530
+        y: 7345
+      P15:
+        x: 8472
+        y: 8220
+      P16:
+        x: 9493
+        y: 9479
+      P2:
+        x: 1690
+        y: 2087
+      P3:
+        x: 623
+        y: 3038
+      P4:
+        x: 2116
+        y: 4520
+      P5:
+        x: 2119
+        y: 5810
+      P6:
+        x: 776
+        y: 7161
+      P7:
+        x: 1685
+        y: 8442
+      P8:
+        x: 686
+        y: 9431
+      P9:
+        x: 9467
+        y: 761
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: sea
+                spawnPoint: P1
+              - role: sea
+                spawnPoint: P2
+              - role: sea
+                spawnPoint: P3
+              - role: sea
+                spawnPoint: P4
+              - role: sea
+                spawnPoint: P5
+              - role: sea
+                spawnPoint: P6
+              - role: sea
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: sea
+                spawnPoint: P9
+              - role: sea
+                spawnPoint: P10
+              - role: sea
+                spawnPoint: P11
+              - role: sea
+                spawnPoint: P12
+              - role: sea
+                spawnPoint: P13
+              - role: sea
+                spawnPoint: P14
+              - role: sea
+                spawnPoint: P15
+              - role: sea
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     Hv0WVvVGRS6EOuvgqojK:
       maxPlayersPerStartbox: 3
