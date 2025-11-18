@@ -10172,6 +10172,12 @@ X0N11knnIS4fWqkoFPBC:
     - desert
 XAYu2CrwVdR5GlcpOxL0:
   author: IceXuick
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXAYu2CrwVdR5GlcpOxL0%2FbackgroundImage%2Fv3ftba5HaBNHIdTMbY4F-screen_2025-11-18_04-08-25-470.png?alt=media&token=1baf82a9-6247-4cb3-9aa6-401012556651
+      lastModifiedTS: 1763438905893
+      name: screen_2025-11-18_04-08-25-470.png
+      ref: maps/XAYu2CrwVdR5GlcpOxL0/backgroundImage/v3ftba5HaBNHIdTMbY4F-screen_2025-11-18_04-08-25-470.png
+      type: image/png
   certified: true
   description: A slightly different eroded map
   displayName: Supreme Crossing 2
@@ -10186,7 +10192,7 @@ XAYu2CrwVdR5GlcpOxL0:
       ref: maps/XAYu2CrwVdR5GlcpOxL0/photo/3WEjStNWVSaUyrXCCB1O-Supreme_Crossing_2.2.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Supreme_Crossing 2.2
+  springName: Supreme_Crossing 2.2.1
   startboxesSet:
     4cYtAR85ZKe6gs85kkRe:
       maxPlayersPerStartbox: 4
