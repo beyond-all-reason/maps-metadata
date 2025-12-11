@@ -14305,10 +14305,10 @@ etCTTwexgYVGMV63rOWy:
 fR1RVNhtF6IpcVo9ULC0:
   author: Nikuksis
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FbackgroundImage%2FW3Fly7SRc4nnmzwUDPp5-screen_2025-12-11_16-23-19-693.png?alt=media&token=0447a400-0f02-42fd-9a42-ac8bcfb3fbdb
-      lastModifiedTS: 1765470200863
-      name: screen_2025-12-11_16-23-19-693.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/backgroundImage/W3Fly7SRc4nnmzwUDPp5-screen_2025-12-11_16-23-19-693.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FbackgroundImage%2FgepL45HTgFk8rzRc2HvP-screen_2025-06-01_09-46-35-730.png?alt=media&token=4fe897aa-be15-4fb3-9917-4c4ed80c807c
+      lastModifiedTS: 1748771196902
+      name: screen_2025-06-01_09-46-35-730.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/backgroundImage/gepL45HTgFk8rzRc2HvP-screen_2025-06-01_09-46-35-730.png
       type: image/png
   certified: false
   description: Classic version.
@@ -14316,49 +14316,44 @@ fR1RVNhtF6IpcVo9ULC0:
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2Fek5r3nsoqDAjrsPUwG2C-screen_2025-12-11_16-23-52-658.png?alt=media&token=47ba6dab-fae9-4252-981e-82a41d21233a
-      lastModifiedTS: 1765470233939
-      name: screen_2025-12-11_16-23-52-658.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/ek5r3nsoqDAjrsPUwG2C-screen_2025-12-11_16-23-52-658.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2F6rNGtxwsx5aVBMfYHfRu-screen_2025-06-01_09-46-35-730.png?alt=media&token=84713589-ccab-4287-bb6a-9f2b63d57fa0
+      lastModifiedTS: 1748771196902
+      name: screen_2025-06-01_09-46-35-730.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/6rNGtxwsx5aVBMfYHfRu-screen_2025-06-01_09-46-35-730.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FruplGNsCy9TmmnsrVumd-screen_2025-12-11_16-24-06-816.png?alt=media&token=5b5089db-4029-4798-8965-3669564b2ff6
-      lastModifiedTS: 1765470248157
-      name: screen_2025-12-11_16-24-06-816.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/ruplGNsCy9TmmnsrVumd-screen_2025-12-11_16-24-06-816.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2F6W8S6kyrNf1R17KEvTUw-screen_2025-06-01_09-47-20-485.png?alt=media&token=9a3376ad-d886-494b-b7ba-e3dea91eaa39
+      lastModifiedTS: 1748771241638
+      name: screen_2025-06-01_09-47-20-485.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/6W8S6kyrNf1R17KEvTUw-screen_2025-06-01_09-47-20-485.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FMhkKu2rqgD5P4c74gAY7-screen_2025-12-11_16-24-17-041.png?alt=media&token=ad162aaf-de59-43f5-99fe-656b0efd5167
-      lastModifiedTS: 1765470258331
-      name: screen_2025-12-11_16-24-17-041.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/MhkKu2rqgD5P4c74gAY7-screen_2025-12-11_16-24-17-041.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FPSuo64ZHGgxLpaz79l3P-screen_2025-06-01_09-47-10-626.png?alt=media&token=e80d224a-7f62-421e-b5af-a623ea1143b8
+      lastModifiedTS: 1748771231995
+      name: screen_2025-06-01_09-47-10-626.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/PSuo64ZHGgxLpaz79l3P-screen_2025-06-01_09-47-10-626.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FFDljBwIUs3W9ZaUyBt3X-screen_2025-12-11_16-24-47-277.png?alt=media&token=04890d50-9bd5-475b-9c6b-68d277b6c1c4
-      lastModifiedTS: 1765470288542
-      name: screen_2025-12-11_16-24-47-277.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/FDljBwIUs3W9ZaUyBt3X-screen_2025-12-11_16-24-47-277.png
-      type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FIGTRW7B4pMPjIXXUxVEo-screen_2025-12-11_16-22-46-346.png?alt=media&token=6e2b0428-02dc-4f91-a519-8d29c29147db
-      lastModifiedTS: 1765470167685
-      name: screen_2025-12-11_16-22-46-346.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/IGTRW7B4pMPjIXXUxVEo-screen_2025-12-11_16-22-46-346.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FinGameShots%2FMzEanbmENt6ejwnaBpSS-screen_2025-06-01_09-46-51-626.png?alt=media&token=672c2c03-a20a-4e17-a1af-4c1f0c47b7e1
+      lastModifiedTS: 1748771212849
+      name: screen_2025-06-01_09-46-51-626.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/inGameShots/MzEanbmENt6ejwnaBpSS-screen_2025-06-01_09-46-51-626.png
       type: image/png
   inPool: true
   mapLists:
     - AllThatRotates
   minPlayerCount: 12
   perspectiveShot:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FperspectiveShot%2FMGpEhblJM5QbXs98Yzez-atg221_3d.png?alt=media&token=e3c3882c-2946-48a7-820d-86ff07a9c95a
-      lastModifiedTS: 1765470418328
-      name: atg221_3d.png
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/perspectiveShot/MGpEhblJM5QbXs98Yzez-atg221_3d.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2FperspectiveShot%2FTCmewmmvvlC8GtOcvNe4-glitters2.2%203d.png?alt=media&token=ea63df45-4845-41b7-91bb-87ea3b052b3b
+      lastModifiedTS: 1748771463971
+      name: glitters2.2 3d.png
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/perspectiveShot/TCmewmmvvlC8GtOcvNe4-glitters2.2 3d.png
       type: image/png
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2Fphoto%2FVdG02DPxszpbAYhWWI8Q-atg221_mini.jpg?alt=media&token=7013de41-9fe0-4b56-96e8-7a6fc13100a3
-      lastModifiedTS: 1765470376016
-      name: atg221_mini.jpg
-      ref: maps/fR1RVNhtF6IpcVo9ULC0/photo/VdG02DPxszpbAYhWWI8Q-atg221_mini.jpg
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FfR1RVNhtF6IpcVo9ULC0%2Fphoto%2F6cOed4NQiD5AAFLRZsbV-glitters2.2.jpg?alt=media&token=1ae34f7d-45b7-47f7-b76b-8cefefba7399
+      lastModifiedTS: 1748771404891
+      name: glitters2.2.jpg
+      ref: maps/fR1RVNhtF6IpcVo9ULC0/photo/6cOed4NQiD5AAFLRZsbV-glitters2.2.jpg
       type: image/jpeg
   playerCount: 16
-  springName: All That Glitters v2.2.1
+  springName: All That Glitters v2.2
   startPos:
     positions:
       P1:
