@@ -10443,8 +10443,7 @@ XipxkGywEz3REbHKrvP6:
       ref: maps/XipxkGywEz3REbHKrvP6/inGameShots/szOdqgl2KZOyxbh4xyWj-Taldarim_SS 1.jpg
       type: image/jpeg
   inPool: true
-  mapLists:
-    - popular16p
+  mapLists: []
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FXipxkGywEz3REbHKrvP6%2FperspectiveShot%2FrWMo5zVWXmWWtz2OtTxH-Taldarim_perspective.png?alt=media&token=9220d544-d819-4c88-b09a-2088724d4ae0
@@ -10749,8 +10748,7 @@ Y5e7sl891wO5G2ttwjmr:
       ref: maps/Y5e7sl891wO5G2ttwjmr/inGameShots/kHuCxIQJ8FSxsjw35uS4-screen_2024-09-03_20-53-03-130.png
       type: image/png
   inPool: true
-  mapLists:
-    - popular16p
+  mapLists: []
   minPlayerCount: 8
   perspectiveShot: []
   photo:
@@ -17778,11 +17776,11 @@ pFTrUA4OGRNoSNpSAzx2:
     - asteroid
 pZko6a1Lqs5ZYeVO0BqS:
   author: Beherith
-  certified: true
+  certified: false
   displayName: Supreme Crossing
   gameType:
     - team
-  inPool: true
+  inPool: false
   minPlayerCount: 4
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpZko6a1Lqs5ZYeVO0BqS%2FperspectiveShot%2FRth7jCypWi1d91GnFTfL-SupremeCrossing_BAR.png?alt=media&token=d1e43893-f469-44bd-a270-5e36e1580048
@@ -19193,7 +19191,6 @@ te9bV2b9aiw8w9qgzTJg:
     - competitive2p
     - popular2p
     - popular8p
-    - popular16p
     - apprentice2p
   minPlayerCount: 3
   perspectiveShot:
