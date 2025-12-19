@@ -7521,9 +7521,9 @@ PekWgagUAJmWoOua3BKS:
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
-              - role: front
-                spawnPoint: P3
               - role: air
+                spawnPoint: P3
+              - role: front
                 spawnPoint: P4
               - role: sea
                 spawnPoint: P5
@@ -7542,9 +7542,9 @@ PekWgagUAJmWoOua3BKS:
                 spawnPoint: P11
               - role: sea
                 spawnPoint: P12
-              - role: air
-                spawnPoint: P13
               - role: front
+                spawnPoint: P13
+              - role: air
                 spawnPoint: P14
               - role: front
                 spawnPoint: P15
