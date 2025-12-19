@@ -2128,7 +2128,7 @@
                 spawnPoint: P4
               - role: front
                 spawnPoint: P5
-              - role: front
+              - role: sea
                 spawnPoint: P6
               - role: front
                 spawnPoint: P7
@@ -2141,9 +2141,9 @@
                 spawnPoint: P10
               - role: front
                 spawnPoint: P11
-              - role: front
+              - role: sea
                 spawnPoint: P12
-              - role: front
+              - role: sea
                 spawnPoint: P13
               - role: air
                 spawnPoint: P14
