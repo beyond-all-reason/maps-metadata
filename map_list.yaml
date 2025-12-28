@@ -8892,6 +8892,81 @@ TBlG9YF5CxIvchMI0DZX:
   terrain:
     - hills
     - alien
+Ti8kGjiegotB9EdlC2co:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FbackgroundImage%2Flg6ZUYfHxZt3TrfmfCKV-screen_2025-12-26_19-25-45-257.png?alt=media&token=d45dbb5c-3f30-4616-b94a-dd4ec9287093
+      lastModifiedTS: 1766777146319
+      name: screen_2025-12-26_19-25-45-257.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/backgroundImage/lg6ZUYfHxZt3TrfmfCKV-screen_2025-12-26_19-25-45-257.png
+      type: image/png
+  certified: false
+  description: Battle in the Many Mesas area. OTA classic.
+  displayName: Painted Desert
+  gameType:
+    - ffa
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FinGameShots%2FOuomOL6WFcPLYKW2Gg61-screen_2025-12-26_19-25-29-287.png?alt=media&token=6db70f5d-a45e-476b-9bdc-2b3791cdd6d3
+      lastModifiedTS: 1766777130263
+      name: screen_2025-12-26_19-25-29-287.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/inGameShots/OuomOL6WFcPLYKW2Gg61-screen_2025-12-26_19-25-29-287.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FinGameShots%2FjRgIsxneu9lhLCvLbqKK-screen_2025-12-26_19-25-45-257.png?alt=media&token=02340bf3-841f-4ccc-b62b-31c61a326aa4
+      lastModifiedTS: 1766777146319
+      name: screen_2025-12-26_19-25-45-257.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/inGameShots/jRgIsxneu9lhLCvLbqKK-screen_2025-12-26_19-25-45-257.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FinGameShots%2FblMSXCFI1ZMIkKwZP8uW-screen_2025-12-26_19-26-02-308.png?alt=media&token=36db5f11-917d-41dd-9849-f1345cc2a4a2
+      lastModifiedTS: 1766777163163
+      name: screen_2025-12-26_19-26-02-308.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/inGameShots/blMSXCFI1ZMIkKwZP8uW-screen_2025-12-26_19-26-02-308.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FinGameShots%2FTudeZcqi0FDKhehcPLY3-screen_2025-12-26_19-25-14-667.png?alt=media&token=1b4b6c12-0ebb-4f54-aa50-8cb7a0d46a0b
+      lastModifiedTS: 1766777115696
+      name: screen_2025-12-26_19-25-14-667.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/inGameShots/TudeZcqi0FDKhehcPLY3-screen_2025-12-26_19-25-14-667.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FinGameShots%2FTBqivHMAoviigPvvGdbt-screen_2025-12-26_19-25-09-943.png?alt=media&token=3816e780-8a9f-4334-acb2-fa78610970a3
+      lastModifiedTS: 1766777111133
+      name: screen_2025-12-26_19-25-09-943.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/inGameShots/TBqivHMAoviigPvvGdbt-screen_2025-12-26_19-25-09-943.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2FperspectiveShot%2FshknlSuqpDHWUjPwlphO-PD%203D.png?alt=media&token=cd670272-257c-47f0-99ae-d68588ed0d2b
+      lastModifiedTS: 1766921037421
+      name: PD 3D.png
+      ref: maps/Ti8kGjiegotB9EdlC2co/perspectiveShot/shknlSuqpDHWUjPwlphO-PD 3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FTi8kGjiegotB9EdlC2co%2Fphoto%2FULRAHOFJnzXdQkVzbVux-PD%20mini.jpg?alt=media&token=51471f31-d97f-48cb-89fe-bef0b3261028
+      lastModifiedTS: 1766920958996
+      name: PD mini.jpg
+      ref: maps/Ti8kGjiegotB9EdlC2co/photo/ULRAHOFJnzXdQkVzbVux-PD mini.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Painted Desert v1.0
+  startboxesSet:
+    0sDkbbkii8LlDcNmqSK5:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 30
+        - poly:
+            - x: 0
+              y: 170
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - desert
+    - hills
 U8PJYIPdYQoMXGJND2Kg:
   author: IceXuick
   backgroundImage:
