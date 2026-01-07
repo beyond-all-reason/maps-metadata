@@ -18430,6 +18430,91 @@ rQ8v6BePPrXIaQaaQjam:
   terrain:
     - flat
     - desert
+rZ07lZgj17RUrIMsIuWj:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FbackgroundImage%2Fc6YGjswrbNZh1hx9ry5g-screen_2026-01-07_10-30-40-384.png?alt=media&token=0bf0a983-dce0-41da-8718-e01516405c6b
+      lastModifiedTS: 1767781841342
+      name: screen_2026-01-07_10-30-40-384.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/backgroundImage/c6YGjswrbNZh1hx9ry5g-screen_2026-01-07_10-30-40-384.png
+      type: image/png
+  certified: true
+  description: Prove yourself.
+  displayName: Proving Grounds
+  gameType:
+    - team
+    - pve
+    - ffa
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2FliIchZPSULKu3vmckmRX-screen_2026-01-07_10-30-40-384.png?alt=media&token=c0924e6d-7dbe-4530-a12c-b051e4cbbe11
+      lastModifiedTS: 1767781841342
+      name: screen_2026-01-07_10-30-40-384.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/liIchZPSULKu3vmckmRX-screen_2026-01-07_10-30-40-384.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2FB3TGqrd77BYWoYIXj1sp-screen_2026-01-07_10-31-26-039.png?alt=media&token=501f132e-df42-4d19-bb79-33ecc9c92469
+      lastModifiedTS: 1767781887209
+      name: screen_2026-01-07_10-31-26-039.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/B3TGqrd77BYWoYIXj1sp-screen_2026-01-07_10-31-26-039.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2FVvXKPIrjN5T0aHa2ETLc-screen_2026-01-07_10-30-33-501.png?alt=media&token=b0638e14-4d32-4d8c-93f6-ed9a5fb0a867
+      lastModifiedTS: 1767781834740
+      name: screen_2026-01-07_10-30-33-501.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/VvXKPIrjN5T0aHa2ETLc-screen_2026-01-07_10-30-33-501.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2FydxHfI1H5VzqpQMNaIQB-screen_2026-01-07_10-30-14-354.png?alt=media&token=3f57c4ed-e2fa-400a-9162-a57df14af916
+      lastModifiedTS: 1767781815500
+      name: screen_2026-01-07_10-30-14-354.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/ydxHfI1H5VzqpQMNaIQB-screen_2026-01-07_10-30-14-354.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2F08fO2cELA8Jy9eJJcoJU-screen_2026-01-07_10-31-00-641.png?alt=media&token=01fc27cf-56a5-4e49-83ba-4027d0765c52
+      lastModifiedTS: 1767781861747
+      name: screen_2026-01-07_10-31-00-641.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/08fO2cELA8Jy9eJJcoJU-screen_2026-01-07_10-31-00-641.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2FhbLwH53FBhYJzWJ3BPdZ-screen_2026-01-07_10-30-02-394.png?alt=media&token=68dd6115-3961-4490-9c65-27f63967cfa9
+      lastModifiedTS: 1767781803424
+      name: screen_2026-01-07_10-30-02-394.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/hbLwH53FBhYJzWJ3BPdZ-screen_2026-01-07_10-30-02-394.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FinGameShots%2F1DqjwT527IfDrwiUzSDr-screen_2026-01-07_10-31-12-486.png?alt=media&token=664c37eb-422d-4333-8a1a-03af9b0fe1b4
+      lastModifiedTS: 1767781873426
+      name: screen_2026-01-07_10-31-12-486.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/inGameShots/1DqjwT527IfDrwiUzSDr-screen_2026-01-07_10-31-12-486.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 4
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2FperspectiveShot%2FwBhq5RZiJ2B8dCCRJIva-PG3D.png?alt=media&token=0c4bf746-8093-49cb-b1ed-99471cd40ca5
+      lastModifiedTS: 1767783111428
+      name: PG3D.png
+      ref: maps/rZ07lZgj17RUrIMsIuWj/perspectiveShot/wBhq5RZiJ2B8dCCRJIva-PG3D.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FrZ07lZgj17RUrIMsIuWj%2Fphoto%2Fk4Asmh8PHfjNU4YKT83t-PGmini.jpg?alt=media&token=d99b9583-da35-4001-9f65-ba617ef69446
+      lastModifiedTS: 1767782650036
+      name: PGmini.jpg
+      ref: maps/rZ07lZgj17RUrIMsIuWj/photo/k4Asmh8PHfjNU4YKT83t-PGmini.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Proving Grounds v1.0
+  startboxesSet:
+    MIkDLLIuJdc28f3WLPLI:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 50
+              y: 200
+        - poly:
+            - x: 150
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - asteroid
+    - space
 raa5whdozdwuBRAWJkVu:
   author: Nikuksis
   backgroundImage:
