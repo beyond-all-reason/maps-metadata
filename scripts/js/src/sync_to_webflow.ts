@@ -286,6 +286,8 @@ interface WebsiteMapInfo {
     bgImageUrl: string | null;
     perspectiveShotUrl: string | null;
     moreImagesUrl: string[];
+    minHeight: number;
+    maxHeight: number;
     windMin: number;
     windMax: number;
     tidalStrength: number | null;
@@ -449,6 +451,8 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
+            minHeight: derivedInfo.minHeight,
+            maxHeight: derivedInfo.maxHeight,
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
             tidalStrength: derivedInfo.tidalStrength ?? null,
