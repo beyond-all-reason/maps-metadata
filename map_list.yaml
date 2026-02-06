@@ -18517,6 +18517,95 @@ rZ07lZgj17RUrIMsIuWj:
       type: image/jpeg
   playerCount: 16
   springName: Proving Grounds v1.0
+  startPos:
+    positions:
+      P1:
+        x: 2524
+        y: 4194
+      P10:
+        x: 13400
+        y: 8894
+      P11:
+        x: 12000
+        y: 8230
+      P12:
+        x: 13351
+        y: 6412
+      P13:
+        x: 11458
+        y: 5561
+      P14:
+        x: 12759
+        y: 3496
+      P15:
+        x: 11049
+        y: 3668
+      P16:
+        x: 10816
+        y: 1833
+      P2:
+        x: 921
+        y: 5436
+      P3:
+        x: 2350
+        y: 6070
+      P4:
+        x: 980
+        y: 7900
+      P5:
+        x: 2900
+        y: 8750
+      P6:
+        x: 1570
+        y: 10830
+      P7:
+        x: 3270
+        y: 10650
+      P8:
+        x: 3470
+        y: 12476
+      P9:
+        x: 11805
+        y: 10125
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front/tech
+                spawnPoint: P2
+              - role: front
+                spawnPoint: P3
+              - role: air
+                spawnPoint: P4
+              - role: front
+                spawnPoint: P5
+              - role: front/tech
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: front
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front/tech
+                spawnPoint: P10
+              - role: front
+                spawnPoint: P11
+              - role: air
+                spawnPoint: P12
+              - role: front
+                spawnPoint: P13
+              - role: front/tech
+                spawnPoint: P14
+              - role: front
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
   startboxesSet:
     MIkDLLIuJdc28f3WLPLI:
       maxPlayersPerStartbox: 8
