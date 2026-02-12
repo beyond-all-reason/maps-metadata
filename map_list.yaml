@@ -16116,6 +16116,66 @@ j3X9bepS3FrtzjLLNmmu:
     - grassy
     - shallows
   title: Start Small
+jFAPuh7Ymqyq0YD4n5e1:
+  author: Moose, IceXuick
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FbackgroundImage%2FWxNR0GfdKp45QrdP5PWk-screen_2026-02-09_23-45-51-468.png?alt=media&token=5beb3027-8863-44ae-8847-5daf5464cba8
+      lastModifiedTS: 1770680752434
+      name: screen_2026-02-09_23-45-51-468.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/backgroundImage/WxNR0GfdKp45QrdP5PWk-screen_2026-02-09_23-45-51-468.png
+      type: image/png
+  certified: true
+  description: Fields of flowers and purple forests surround an abandoned excavation site. 5v5 NE vs SW.
+  displayName: Digsite
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2FT79t6nFfevwm1KM9hktv-screen_2026-02-09_23-44-39-397.png?alt=media&token=593c77d7-b563-40ce-bb3d-89a3a5c3f2ce
+      lastModifiedTS: 1770680680094
+      name: screen_2026-02-09_23-44-39-397.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/T79t6nFfevwm1KM9hktv-screen_2026-02-09_23-44-39-397.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2FCqKN5E7WCmErgwTgJMec-screen_2026-02-09_23-44-51-606.png?alt=media&token=b30f4fd3-9947-4514-916a-e67373c8d85f
+      lastModifiedTS: 1770680692235
+      name: screen_2026-02-09_23-44-51-606.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/CqKN5E7WCmErgwTgJMec-screen_2026-02-09_23-44-51-606.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2F8a0x1ZTIfMovJAlzX8zm-screen_2026-02-09_23-44-12-688.png?alt=media&token=25225b23-4795-40c2-aebb-cf16e33707a6
+      lastModifiedTS: 1770680653453
+      name: screen_2026-02-09_23-44-12-688.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/8a0x1ZTIfMovJAlzX8zm-screen_2026-02-09_23-44-12-688.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2Fphoto%2FbtXqmXxxnVub3MPPsP4D-digsitemini.png?alt=media&token=5b2541f0-feb1-4769-aec5-e8cd549c5699
+      lastModifiedTS: 1770854479674
+      name: digsitemini.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/photo/btXqmXxxnVub3MPPsP4D-digsitemini.png
+      type: image/png
+  playerCount: 10
+  springName: Digsite 2.0
+  startboxesSet:
+    hBYlLUGzBeBGBcGqNENu:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 0
+              y: 132
+            - x: 81
+              y: 200
+        - poly:
+            - x: 119
+              y: 1
+            - x: 200
+              y: 68
+  teamCount: 2
+  terrain:
+    - grassy
+    - forests
+    - hills
+    - asymmetrical
+    - alien
 jWIjHBYEHstYSyrSstVr:
   author: Phalange
   backgroundImage:
