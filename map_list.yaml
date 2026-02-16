@@ -16119,10 +16119,10 @@ j3X9bepS3FrtzjLLNmmu:
 jFAPuh7Ymqyq0YD4n5e1:
   author: Moose, IceXuick
   backgroundImage:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FbackgroundImage%2FWxNR0GfdKp45QrdP5PWk-screen_2026-02-09_23-45-51-468.png?alt=media&token=5beb3027-8863-44ae-8847-5daf5464cba8
-      lastModifiedTS: 1770680752434
-      name: screen_2026-02-09_23-45-51-468.png
-      ref: maps/jFAPuh7Ymqyq0YD4n5e1/backgroundImage/WxNR0GfdKp45QrdP5PWk-screen_2026-02-09_23-45-51-468.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FbackgroundImage%2FfJKwlmjF55HogCqudIrR-screen_2026-02-09_23-44-39-397.png?alt=media&token=a2dc1ec6-b39f-42c3-a1f6-d14e10b6da78
+      lastModifiedTS: 1770680680094
+      name: screen_2026-02-09_23-44-39-397.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/backgroundImage/fJKwlmjF55HogCqudIrR-screen_2026-02-09_23-44-39-397.png
       type: image/png
   certified: true
   description: Fields of flowers and purple forests surround an abandoned excavation site. 5v5 NE vs SW.
@@ -16130,11 +16130,6 @@ jFAPuh7Ymqyq0YD4n5e1:
   gameType:
     - team
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2FT79t6nFfevwm1KM9hktv-screen_2026-02-09_23-44-39-397.png?alt=media&token=593c77d7-b563-40ce-bb3d-89a3a5c3f2ce
-      lastModifiedTS: 1770680680094
-      name: screen_2026-02-09_23-44-39-397.png
-      ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/T79t6nFfevwm1KM9hktv-screen_2026-02-09_23-44-39-397.png
-      type: image/png
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2FCqKN5E7WCmErgwTgJMec-screen_2026-02-09_23-44-51-606.png?alt=media&token=b30f4fd3-9947-4514-916a-e67373c8d85f
       lastModifiedTS: 1770680692235
       name: screen_2026-02-09_23-44-51-606.png
@@ -16144,6 +16139,11 @@ jFAPuh7Ymqyq0YD4n5e1:
       lastModifiedTS: 1770680653453
       name: screen_2026-02-09_23-44-12-688.png
       ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/8a0x1ZTIfMovJAlzX8zm-screen_2026-02-09_23-44-12-688.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FjFAPuh7Ymqyq0YD4n5e1%2FinGameShots%2FPaPniePVsh7hPm1DloLF-screen_2026-02-09_23-45-51-468.png?alt=media&token=7b203368-4913-4067-a8ae-97bd91cbe59b
+      lastModifiedTS: 1770680752434
+      name: screen_2026-02-09_23-45-51-468.png
+      ref: maps/jFAPuh7Ymqyq0YD4n5e1/inGameShots/PaPniePVsh7hPm1DloLF-screen_2026-02-09_23-45-51-468.png
       type: image/png
   inPool: true
   minPlayerCount: 2
