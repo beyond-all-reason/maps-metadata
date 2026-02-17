@@ -51,12 +51,12 @@
               y: 0
             - x: 200
               y: 35
-  teamCount: 3
+  teamCount: 2
   terrain:
     - forests
     - ice
     - hills
-  title: Winter Wonderland
+  title: Winter Wonderland!
 0jMFtrg8MuFKGgxmk6Nn:
   author: Nikuksis
   backgroundImage:
