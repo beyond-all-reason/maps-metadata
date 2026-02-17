@@ -1,3 +1,62 @@
+0jMFtrg8MuFKGgxmk6Nm:
+  author: pk76, Anka
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nm%2FbackgroundImage%2FknsABCwRGsGfZZm7NFQE-screen_2026-02-17_18-44-09-938.png?alt=media&token=fcfe31da-9437-4ead-8aad-10e4662e9392
+      lastModifiedTS: 1771353850694
+      name: screen_2026-02-17_18-44-09-938.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nm/backgroundImage/knsABCwRGsGfZZm7NFQE-screen_2026-02-17_18-44-09-938.png
+      type: image/png
+  certified: true
+  description: 1v1, 2v2 or 3v3 battle on ice and snow.
+  displayName: Boreal Falls
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nm%2FinGameShots%2FKMUKkZV6KwtvF2QtkMcJ-screen_2026-02-17_18-42-28-298.png?alt=media&token=45c2523d-7333-410d-b7d0-71ed327bb418
+      lastModifiedTS: 1771353748913
+      name: screen_2026-02-17_18-42-28-298.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nm/inGameShots/KMUKkZV6KwtvF2QtkMcJ-screen_2026-02-17_18-42-28-298.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nm%2FinGameShots%2Fy9NJfFk1UtC06Hx7bj5R-screen_2026-02-17_18-41-01-474.png?alt=media&token=c6e9c04b-2964-4e82-be4c-6a98b3934126
+      lastModifiedTS: 1771353662075
+      name: screen_2026-02-17_18-41-01-474.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nm/inGameShots/y9NJfFk1UtC06Hx7bj5R-screen_2026-02-17_18-41-01-474.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nm%2FinGameShots%2FGvWbN5w3KGzLvnEV9K9C-screen_2026-02-17_18-44-17-701.png?alt=media&token=e51eef2e-fcd5-4d11-ac8e-0f82d8eafddc
+      lastModifiedTS: 1771353858456
+      name: screen_2026-02-17_18-44-17-701.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nm/inGameShots/GvWbN5w3KGzLvnEV9K9C-screen_2026-02-17_18-44-17-701.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nm%2Fphoto%2FCCrlJrjgVLcbz0b4Zh8Y-borealfallsmini.png?alt=media&token=35021c4f-6f8a-4e1c-8e9c-6c2e96d989a9
+      lastModifiedTS: 1771354022251
+      name: borealfallsmini.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nm/photo/CCrlJrjgVLcbz0b4Zh8Y-borealfallsmini.png
+      type: image/png
+  playerCount: 6
+  springName: Boreal Falls 1.0
+  startboxesSet:
+    5sGkOgQ7Ao7M8vtxrBro:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 165
+            - x: 35
+              y: 200
+        - poly:
+            - x: 165
+              y: 0
+            - x: 200
+              y: 35
+  teamCount: 3
+  terrain:
+    - forests
+    - ice
+    - hills
+  title: Winter Wonderland
 0jMFtrg8MuFKGgxmk6Nn:
   author: Nikuksis
   backgroundImage:
