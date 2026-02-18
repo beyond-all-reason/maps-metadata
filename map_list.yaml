@@ -43,14 +43,14 @@
       startboxes:
         - poly:
             - x: 0
-              y: 165
-            - x: 35
+              y: 130
+            - x: 70
               y: 200
         - poly:
-            - x: 165
+            - x: 130
               y: 0
             - x: 200
-              y: 35
+              y: 70
   teamCount: 2
   terrain:
     - forests
