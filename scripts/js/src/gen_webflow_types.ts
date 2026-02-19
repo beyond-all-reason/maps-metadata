@@ -1,7 +1,6 @@
 // Generates the webflow_types.ts based on the collection information returned via API.
 
-import { WebflowClient } from 'webflow-api';
-import type { Field, FieldType } from 'webflow-api/api/types';
+import { WebflowClient, Webflow } from 'webflow-api';
 import { compile } from 'json-schema-to-typescript';
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
@@ -51,14 +50,7 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
     res[schemaRead.title] = schemaRead;
     res[schemaWrite.title] = schemaWrite;
 
-    // We have to do this because WebFlow OpenAPI Spec is incomplete
-    // https://github.com/webflow/openapi-spec/issues/3
-    interface RealField extends Omit<Field, 'type'> {
-        validations: any;
-        type: FieldType | 'Option' | 'MultiReference';
-    }
-
-    for (const field of collection.fields as RealField[]) {
+    for (const field of collection.fields) {
         const desc: any = {};
         if (!field.slug) {
             throw new Error(`Webflow API: slug was not present for field ${field.displayName}`);
@@ -69,31 +61,51 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
         let propsRead: any;
         let propsWrite: any;
         switch (field.type) {
-            case 'PlainText':
-            case 'Link':
-            case 'Color':
+            case Webflow.FieldType.PlainText:
+            case Webflow.FieldType.Link:
+            case Webflow.FieldType.Color:
+            case Webflow.FieldType.Email:
+            case Webflow.FieldType.Phone:
+            case Webflow.FieldType.VideoLink:
                 propsRead = { type: 'string', ...desc };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
-            case 'Switch':
+            case Webflow.FieldType.RichText:
+                // RichText is returned as HTML string
+                propsRead = { type: 'string', ...desc };
+                propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
+                break;
+            case Webflow.FieldType.DateTime:
+                // DateTime is returned as ISO 8601 string
+                propsRead = { type: 'string', format: 'date-time', ...desc };
+                propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], format: 'date-time', ...desc };
+                break;
+            case Webflow.FieldType.Switch:
                 propsRead = { type: 'boolean', ...desc };
                 propsWrite = { type: field.isRequired ? 'boolean' : ['boolean', 'null'], ...desc };
                 break;
-            case 'Image':
+            case Webflow.FieldType.Image:
                 propsRead = { '$ref': '#/$defs/imageRef' };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
-            case 'Option': {
-                const values = field.validations.options.map((o: any) => o.name);
+            case Webflow.FieldType.File:
+            case Webflow.FieldType.ExtFileRef:
+                // File references are returned as URLs
+                propsRead = { type: 'string', ...desc };
+                propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
+                break;
+            case Webflow.FieldType.Option: {
+                const validations = field.validations as any;
+                const values = validations?.options?.map((o: any) => o.name) || [];
                 propsRead = { type: 'string', ...desc };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], enum: values, ...desc };
                 break;
             }
-            case 'Number':
+            case Webflow.FieldType.Number:
                 propsRead = { type: 'number', ...desc }
                 propsWrite = { type: field.isRequired ? 'number' : ['number', 'null'], ...desc };
                 break;
-            case 'MultiImage':
+            case Webflow.FieldType.MultiImage:
                 propsRead = { type: 'array', items: { '$ref': '#/$defs/imageRef' }, ...desc };
                 propsWrite = {
                     type: field.isRequired ? 'array' : ['array', 'null'],
@@ -101,7 +113,7 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
                     ...desc
                 };
                 break;
-            case 'MultiReference':
+            case Webflow.FieldType.MultiReference:
                 propsRead = { type: 'array', items: { type: 'string' }, ...desc };
                 propsWrite = {
                     type: field.isRequired ? 'array' : ['array', 'null'],
@@ -109,10 +121,19 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
                     ...desc
                 };
 
-                const subType = await generateTypes(field.validations.collectionId, baseTypeNames);
+                const subType = await generateTypes((field.validations as any)?.collectionId, baseTypeNames);
                 // It might be not optimal if the same collection is referenced multiple times,
                 // but it's not a problem for now.
                 res = { ...res, ...subType };
+                break;
+            case Webflow.FieldType.Reference:
+                // Single reference (not array)
+                propsRead = { type: 'string', ...desc };
+                propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
+
+                // Recursively generate types for referenced collection
+                const refSubType = await generateTypes((field.validations as any)?.collectionId, baseTypeNames);
+                res = { ...res, ...refSubType };
                 break;
             default:
                 throw new Error(`Unknown field type: ${field.type}`);

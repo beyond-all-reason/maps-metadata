@@ -29,7 +29,7 @@
     "openid-client": "^6.1.7",
     "p-limit": "^6.1.0",
     "proper-lockfile": "^4.1.2",
-    "webflow-api": "^2.4.2",
+    "webflow-api": "^3.2.1",
     "yaml": "^2.6.0"
   },
   "devDependencies": {

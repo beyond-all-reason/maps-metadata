@@ -6,8 +6,7 @@ import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 import { createHash } from 'node:crypto';
 import got from 'got';
-import { WebflowClient } from 'webflow-api';
-import type * as Webflow from 'webflow-api/api/types';
+import { WebflowClient, Webflow } from 'webflow-api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
 import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
@@ -485,7 +484,7 @@ async function getFieldCollection(field: keyof WebflowMapFieldsRead, mapCollecti
     if (fields.length !== 1) {
         throw new Error(`Expected one field with slug '${field}' in ${mapCollection.slug}, got ${fields.length}`);
     }
-    return await webflow.collections.get(fields[0].validations!.collectionId);
+    return await webflow.collections.get(fields[0].validations.collectionId);
 }
 
 
@@ -499,7 +498,7 @@ function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field:
                 }
                 throw new Error(`Missing ${field} ${ref}`);
             }
-            return t.item.id;
+            return t.item.id!;
         });
     }
 }
@@ -578,7 +577,7 @@ async function syncCollectionToWebflowAdditions(
                 itemPatch.id = webflowTag.item.id;
                 const item = await limiter.schedule(
                     () => webflow.collections.items.updateItem(
-                        collection.id, webflowTag.item.id, itemPatch));
+                        collection.id, webflowTag.item.id!, itemPatch));
                 assert(item.fieldData!.slug!);
                 dest.set(item.fieldData!.slug!, new webflowItemType(item));
             } else {
@@ -600,7 +599,7 @@ async function syncCollectionToWebflowRemovals(
         if (!src.has(item.slug)) {
             console.log(`Removing ${typeName} ${item.name}`);
             if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(collection.id, item.item.id));
+                await limiter.schedule(() => webflow.collections.items.deleteItem(collection.id, item.item.id!));
                 dest.delete(item.slug);
             }
         }
@@ -676,7 +675,7 @@ async function syncMapsToWebflow(
         if (!src.has(map.rowyId)) {
             console.log(`Removing ${map.name}`);
             if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(mapsCollection.id, map.item.id));
+                await limiter.schedule(() => webflow.collections.items.deleteItem(mapsCollection.id, map.item.id!));
                 dest.delete(map.rowyId);
             }
         }
@@ -690,7 +689,7 @@ async function syncMapsToWebflow(
             itemPatch.id = webflowMap.item.id;
             const item = await limiter.schedule(
                 () => webflow.collections.items.updateItem(
-                    mapsCollection.id, webflowMap.item.id, itemPatch));
+                    mapsCollection.id, webflowMap.item.id!, itemPatch));
             dest.set(map.rowyId, new WebflowMapInfo(item));
         } else {
             console.log(webflowMap);
@@ -703,7 +702,7 @@ async function publishUpdatedWebflowItems(collection: Webflow.Collection, items:
     const itemIds = Array.from(items.values())
         .map(i => i.item)
         .filter(i => !i.lastPublished || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated!))
-        .map(i => i.id);
+        .map(i => i.id!);
     console.log(`Publishing ${itemIds.length} items`);
     if (!dryRun) {
         const chunkSize = 100;
