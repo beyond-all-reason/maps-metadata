@@ -27,6 +27,14 @@ export interface WebflowMapFieldsRead {
    */
   "terrain-types"?: string[];
   rowyid?: string;
+  /**
+   * The mapper that made this map
+   */
+  author?: string;
+  /**
+   * Linked to Team member
+   */
+  "author-team-member"?: string;
   minimap?: WebflowImageRef;
   "minimap-photo-thumb"?: WebflowImageRef;
   minimapurl?: string;
@@ -55,10 +63,6 @@ export interface WebflowMapFieldsRead {
    */
   description?: string;
   /**
-   * The mapper that made this map
-   */
-  author?: string;
-  /**
    * Unique Sketchfab Identifier that will be used if there is a 3D sketchfab version available.
    */
   sketchfabcode?: string;
@@ -70,6 +74,7 @@ export interface WebflowMapFieldsRead {
   "more-images"?: WebflowImageRef[];
   "wind-min"?: number;
   "wind-max"?: number;
+  "wind-avg"?: number;
   "tidal-strength"?: number;
   /**
    * Maximum players or startpositions for this map
@@ -83,11 +88,34 @@ export interface WebflowMapFieldsRead {
   "metal-map"?: WebflowImageRef;
   "height-map"?: WebflowImageRef;
   "normal-map"?: WebflowImageRef;
+  skybox?: WebflowImageRef;
   /**
    * Surface of the map (W * H)
    */
   mapsize?: number;
   "startpos-code"?: string;
+  "map-height-min"?: number;
+  "map-height-max"?: number;
+  sd7date?: string;
+  "void-water"?: boolean;
+  /**
+   * if filled, will use lava-shader on set height
+   */
+  lavalevel?: number;
+  /**
+   * IF set, then water or lava wil get this color/hue. (slug = water-lava-color-tint)
+   */
+  "water-lava-color-tint"?: string;
+  "water-basecolor"?: string;
+  "water-min"?: string;
+  "water-absorb"?: string;
+  version?: string;
+  /**
+   * Where does this map live
+   */
+  "on-planet"?: string;
+  "planet-latitude"?: number;
+  "planet-longitude"?: number;
   name: string;
   slug: string;
 }
@@ -105,6 +133,14 @@ export interface WebflowMapFieldsWrite {
    */
   "terrain-types"?: string[] | null;
   rowyid?: string | null;
+  /**
+   * The mapper that made this map
+   */
+  author?: string | null;
+  /**
+   * Linked to Team member
+   */
+  "author-team-member"?: string | null;
   /**
    * Top-down minimap - longest side should be at least 1024px
    */
@@ -139,10 +175,6 @@ export interface WebflowMapFieldsWrite {
    */
   description?: string | null;
   /**
-   * The mapper that made this map
-   */
-  author?: string | null;
-  /**
    * Unique Sketchfab Identifier that will be used if there is a 3D sketchfab version available.
    */
   sketchfabcode?: string | null;
@@ -160,6 +192,7 @@ export interface WebflowMapFieldsWrite {
   "more-images"?: string[] | null;
   "wind-min"?: number | null;
   "wind-max"?: number | null;
+  "wind-avg"?: number | null;
   "tidal-strength"?: number | null;
   /**
    * Maximum players or startpositions for this map
@@ -179,11 +212,34 @@ export interface WebflowMapFieldsWrite {
    */
   "height-map"?: string | null;
   "normal-map"?: string | null;
+  skybox?: string | null;
   /**
    * Surface of the map (W * H)
    */
   mapsize?: number | null;
   "startpos-code"?: string | null;
+  "map-height-min"?: number | null;
+  "map-height-max"?: number | null;
+  sd7date?: string | null;
+  "void-water"?: boolean | null;
+  /**
+   * if filled, will use lava-shader on set height
+   */
+  lavalevel?: number | null;
+  /**
+   * IF set, then water or lava wil get this color/hue. (slug = water-lava-color-tint)
+   */
+  "water-lava-color-tint"?: string | null;
+  "water-basecolor"?: string | null;
+  "water-min"?: string | null;
+  "water-absorb"?: string | null;
+  version?: string | null;
+  /**
+   * Where does this map live
+   */
+  "on-planet"?: string | null;
+  "planet-latitude"?: number | null;
+  "planet-longitude"?: number | null;
   name: string;
   slug: string;
 }
