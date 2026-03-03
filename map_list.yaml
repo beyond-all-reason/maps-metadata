@@ -382,6 +382,8 @@
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1FfJKeljSZeWodN5FZsW%2Fphoto%2FFd2UJv7r7nm3j44ymV5B-tropical_assault_v3.0.jpg?alt=media&token=175c9e43-d4e5-4fae-826e-8342024b8a5f
@@ -496,6 +498,8 @@
       ref: maps/1kGT39gW0lJEkp6VxeZU/inGameShots/TX2wDGxjlIXI344WSjFV-CrescentBay_V2_SEO 5.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F1kGT39gW0lJEkp6VxeZU%2FperspectiveShot%2FT1y487BE02Khpas9qZLL-CrescentBay_V2_3D.png?alt=media&token=4dccd780-2fb5-4d21-b05a-a4b28415ea24
@@ -864,6 +868,7 @@
   inPool: true
   mapLists:
     - popular16p
+    - WaterMapPool
   minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2NlrSE2CMUyFpxlComtj%2Fphoto%2F8FEQycvtDunBdXWLrthU-Erebos_minimap.jpg?alt=media&token=a25c6d09-e5b1-4104-a79d-b4193003acd7
@@ -1018,6 +1023,8 @@
       ref: maps/2foOuFOeWdmm1DkMqfJv/inGameShots/aGtUn9OZc8kywSayGuhg-red_river_SS3.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F2foOuFOeWdmm1DkMqfJv%2FperspectiveShot%2FPYgMOsdCaubkb2m2Zswo-red_river_3D.png?alt=media&token=33c43317-fa05-41eb-9cac-9e5c6fbb2db3
@@ -2108,6 +2115,8 @@
       ref: maps/5qY4GxEPrIG1wfxBkbQ0/inGameShots/bGB3LokpJItBK0OKm3FE-screen_2024-04-21_18-00-16-123.png
       type: image/png
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FLCzPEPUn9vJVpayJuGaM-hellas1.43d.png?alt=media&token=7e75812f-cb6d-4c20-bd5a-9c9928a3201e
@@ -4391,6 +4400,7 @@ DUxqUMUDGiYr1y5jx3sq:
   inPool: true
   mapLists:
     - popular16p
+    - WaterMapPool
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDUxqUMUDGiYr1y5jx3sq%2Fphoto%2FnsNdaTlOvKWk5zsVvOEA-fn_minimap.jpg?alt=media&token=8f52e950-9fbf-4655-aff6-2aab9fa17147
@@ -4567,6 +4577,8 @@ DyHExxTkkRB4DweNDViM:
       ref: maps/DyHExxTkkRB4DweNDViM/inGameShots/xXzmbaYEI5OTFechTkJi-melting_glacier_SS3.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FDyHExxTkkRB4DweNDViM%2FperspectiveShot%2F3DxKYzLB9GdSIJAWxy2v-melting_glacier_3D.png?alt=media&token=c95b8351-d6e2-4639-a94c-4c54fa5341f3
@@ -5450,6 +5462,8 @@ Gkh9KVgCUNbGTXWBjPoV:
       ref: maps/Gkh9KVgCUNbGTXWBjPoV/inGameShots/51c8ShqS3epnIzjM5wTI-serene_caldera_SS7.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGkh9KVgCUNbGTXWBjPoV%2FperspectiveShot%2F45cKgw6vg6r72opX9GvW-serene_caldera_3D.png?alt=media&token=734c7263-e34c-4b52-8a2f-a49e781083e9
@@ -6810,6 +6824,8 @@ LSbOSBM6bqPCs5heCJ9X:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FLSbOSBM6bqPCs5heCJ9X%2Fphoto%2FS72iDK1l4MKUrYyhOnXs-the_barrier_reef_remake_v1.0.jpg?alt=media&token=bfeb1c1d-fa32-4523-97f0-a49971e2df63
@@ -7419,6 +7435,8 @@ OgYCeZrIVMN1b9sUbweo:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 8
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/OgYCeZrIVMN1b9sUbweo/photo/zc4138j6fDu20DBqTKnR-Tau12.jpg
@@ -8341,6 +8359,8 @@ RLZ07b2DZS9vYPn5dvFX:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2Fi1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg?alt=media&token=fcd701c2-0a3c-4530-bdd1-f237630667ef
@@ -9311,6 +9331,8 @@ UhGP9ish5WdFio1VfrU6:
       ref: maps/UhGP9ish5WdFio1VfrU6/inGameShots/2n1UGcJzmlUYe0hiiA3t-BoulderBeachR_SS2.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FUhGP9ish5WdFio1VfrU6%2FperspectiveShot%2FrwBRZGe3lkxWzvTga8uO-BoulderBeach_Pers.png?alt=media&token=308f6844-d332-4986-8e98-e266357dadad
@@ -9796,6 +9818,7 @@ WOlmGcTZXUtV5iy57Kc9:
     - popular2p
     - popular8p
     - competitive2p
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FWOlmGcTZXUtV5iy57Kc9%2FperspectiveShot%2FEQvepYRx6Q8XXAMiR9U8-mariposa_island_3D.png?alt=media&token=982297ce-b485-416e-8aa7-40c7a241dc21
@@ -11420,6 +11443,8 @@ Z8YOFQmH2Aic7MsPihzr:
       ref: maps/Z8YOFQmH2Aic7MsPihzr/inGameShots/T20UZexggzrd3B2fsV9D-pinch_point_1.03_in_game_shot_2.png
       type: image/png
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FZ8YOFQmH2Aic7MsPihzr%2FperspectiveShot%2FHz3t6U5J6DlgicFSmt2b-pinch_point_1.03_perspective.png?alt=media&token=d1419d56-7de6-4eb7-b2ad-4dcdcddbe823
@@ -12391,6 +12416,8 @@ aDu1H6XNI6Jh5OZUcagp:
       ref: maps/aDu1H6XNI6Jh5OZUcagp/inGameShots/07BozdzXrnGy7iT3bDPi-screen_2023-11-29_16-00-12-431.png
       type: image/png
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FaDu1H6XNI6Jh5OZUcagp%2Fphoto%2FMw2Vb5zj8lXIz3XQO9Ri-glacial_gap11.jpg?alt=media&token=b28f349f-9fc9-40a9-b11e-2092e6ea2aa4
@@ -12576,6 +12603,8 @@ bLBXDWyEuUqG825WYzHj:
       ref: maps/bLBXDWyEuUqG825WYzHj/inGameShots/dZFAJ8S9mIv20snoo8St-deeploria_fields_SS1.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbLBXDWyEuUqG825WYzHj%2FperspectiveShot%2FUyAID7IvF7g8FyRxatHL-deeploria_fields_3D.png?alt=media&token=8c9fe9d7-789a-40bb-8779-ef14a7b04322
@@ -13697,6 +13726,8 @@ cQbwmwbhWrWyD1bhZNEn:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 16
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcQbwmwbhWrWyD1bhZNEn%2FperspectiveShot%2FfBtUOYbIQ1mhC1evR9Xo-screen_2024-03-01_02-40-05-298.png?alt=media&token=bb17406b-a1af-477d-b13c-d60a89f8caa8
@@ -14100,6 +14131,8 @@ ddpsrgkYM0ujNqHiQKKm:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FddpsrgkYM0ujNqHiQKKm%2Fphoto%2FaPyfxrngmM8q3rncSrFD-screen_2023-12-12_02-38-23-242SAPP.png?alt=media&token=1d35f23c-e5d5-4b86-b6ed-bc08ad9379f8
@@ -16663,6 +16696,7 @@ kgpwvzDGdXoVcD6whG3C:
   inPool: true
   mapLists:
     - popular16p
+    - WaterMapPool
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkgpwvzDGdXoVcD6whG3C%2FperspectiveShot%2F5RH6xP6l3KaGdvjk7Pp6-Tempest_3D.png?alt=media&token=a2113e3d-1d89-4398-89c0-6ad66980f6ab
@@ -18105,6 +18139,8 @@ pzZ5zAyferpDePxtC2hG:
       ref: maps/pzZ5zAyferpDePxtC2hG/inGameShots/O5rsl3CHrVW52W7lhNxh-tundra_continents_SS2.jpg
       type: image/jpeg
   inPool: true
+  mapLists:
+    - WaterMapPool
   minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpzZ5zAyferpDePxtC2hG%2FperspectiveShot%2FpGnYMSNUY1xwIvt66jlm-tundra_continents_3D.png?alt=media&token=adc2f39f-4b51-450d-b468-aea14b0f0a21
