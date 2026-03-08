@@ -4947,6 +4947,73 @@ EiT2c89HcHhHeuZxXako:
     - hills
     - wasteland
     - shallows
+EnstsecbggtzPl6Im1aU:
+  author: RebelNode
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEnstsecbggtzPl6Im1aU%2FbackgroundImage%2F50DjSgbgdtcsr5PpmHcC-pers.png?alt=media&token=09fbe1f1-e5a8-45fe-bb98-5c16bd9332a2
+      lastModifiedTS: 1772947356791
+      name: pers.png
+      ref: maps/EnstsecbggtzPl6Im1aU/backgroundImage/50DjSgbgdtcsr5PpmHcC-pers.png
+      type: image/png
+  certified: true
+  description: Did you build your house out of straw or metal?
+  displayName: Houses of Tripolis
+  gameType:
+    - team
+  inPool: true
+  minPlayerCount: 3
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEnstsecbggtzPl6Im1aU%2FperspectiveShot%2F9H2AbQ9Dy3QAnklIgetR-pers.png?alt=media&token=57e537f3-ec08-41a6-8f67-570ce9135647
+      lastModifiedTS: 1772947356791
+      name: pers.png
+      ref: maps/EnstsecbggtzPl6Im1aU/perspectiveShot/9H2AbQ9Dy3QAnklIgetR-pers.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEnstsecbggtzPl6Im1aU%2Fphoto%2FTqm7HNzV9E5Qv1f6x83U-top.png?alt=media&token=3b16b72a-90c1-4686-84fb-1a6c10eed299
+      lastModifiedTS: 1772947427481
+      name: top.png
+      ref: maps/EnstsecbggtzPl6Im1aU/photo/Tqm7HNzV9E5Qv1f6x83U-top.png
+      type: image/png
+  playerCount: 16
+  springName: Houses of Tripolis 1.2
+  startPosActive: false
+  startboxesSet:
+    YsaTltlcLdXTPNjxuBDv:
+      maxPlayersPerStartbox: 5
+      startboxes:
+        - poly:
+            - x: 21
+              y: 13
+            - x: 72
+              y: 64
+        - poly:
+            - x: 21
+              y: 144
+            - x: 71
+              y: 194
+        - poly:
+            - x: 134
+              y: 78
+            - x: 182
+              y: 129
+    hZFGX764Pd0vzFyo7qOP:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 21
+              y: 13
+            - x: 72
+              y: 64
+        - poly:
+            - x: 21
+              y: 144
+            - x: 71
+              y: 194
+  teamCount: 3
+  terrain:
+    - metal
+    - space
+    - asteroid
 F40FJFEjKm3hcVzdnIvA:
   author: IceXuick
   backgroundImage:
