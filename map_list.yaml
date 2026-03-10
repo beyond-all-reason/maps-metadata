@@ -11022,6 +11022,7 @@ XyspXgig1fp54pmAcYIo:
     - alien
     - chokepoints
     - flat
+    - ice
   title: Colossal Fossil!
 Y5e7sl891wO5G2ttwjmr:
   author: Moose, PtaQ
@@ -14377,6 +14378,8 @@ ddpsrgkYM0ujNqHiQKKm:
   terrain:
     - water
     - hills
+    - alien
+    - ice
   title: The Blue Beach!
 eLHwUEMIb0S3qLy0OT6G:
   author: SirArtturi
