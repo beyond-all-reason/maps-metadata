@@ -2329,6 +2329,67 @@
     - chokepoints
     - island
   title: A world melting apart
+6w2JE0kEjbty1F8ZgBo0:
+  author: Moose, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FbackgroundImage%2FMmiKdFE4q80w2ocPXxVV-screen_2026-03-10_00-47-13-566.png?alt=media&token=5180a1ba-6c7b-48ef-9c87-27bf08e8a0f1
+      lastModifiedTS: 1773103634188
+      name: screen_2026-03-10_00-47-13-566.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/backgroundImage/MmiKdFE4q80w2ocPXxVV-screen_2026-03-10_00-47-13-566.png
+      type: image/png
+  certified: true
+  description: A frozen island with icey plateaus and multiple pathways to the center.
+  displayName: Argent Strata
+  gameType:
+    - 1v1
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FvS0aDpfE2UDvFPLWliOA-screen_2026-03-10_00-45-52-627.png?alt=media&token=7e51166e-4801-420b-8eca-1d3867a4634a
+      lastModifiedTS: 1773103553368
+      name: screen_2026-03-10_00-45-52-627.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/vS0aDpfE2UDvFPLWliOA-screen_2026-03-10_00-45-52-627.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FTwU9EPcPSHEG3t1AwRDn-screen_2026-03-10_00-46-13-414.png?alt=media&token=3b1c5141-6efd-4cc5-a936-8825a9a77a3c
+      lastModifiedTS: 1773103573937
+      name: screen_2026-03-10_00-46-13-414.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/TwU9EPcPSHEG3t1AwRDn-screen_2026-03-10_00-46-13-414.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FtjbewcZzdpNMKAaEcHNz-screen_2026-03-10_00-45-04-464.png?alt=media&token=fa674e55-8df1-4e07-83f3-f01c40f248c9
+      lastModifiedTS: 1773103505120
+      name: screen_2026-03-10_00-45-04-464.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/tjbewcZzdpNMKAaEcHNz-screen_2026-03-10_00-45-04-464.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2Fphoto%2F3VNojGsaMQgTP6jf5PeE-argentstratamini.png?alt=media&token=051bb043-9f36-4570-a2e8-d5d7d3b967ee
+      lastModifiedTS: 1773103451910
+      name: argentstratamini.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/photo/3VNojGsaMQgTP6jf5PeE-argentstratamini.png
+      type: image/png
+  playerCount: 2
+  springName: Argent Strata 1.0
+  startboxesSet:
+    NMFl5j4mkJkFY0rwTDps:
+      maxPlayersPerStartbox: 1
+      startboxes:
+        - poly:
+            - x: 24
+              y: 144
+            - x: 52
+              y: 177
+        - poly:
+            - x: 148
+              y: 23
+            - x: 176
+              y: 56
+  teamCount: 2
+  terrain:
+    - alien
+    - flat
+    - chokepoints
+    - ice
+    - island
+  title: Icey Island
 7lBJDhvj1t0JYUNiCZED:
   author: Nikuksis
   backgroundImage:
