@@ -1,3 +1,6 @@
+# IDE-specific files
+.idea
+
 .pyenv/
 .maps-cache/
 gha-creds-*.json

@@ -67,6 +67,8 @@ export function getDerivedInfo(
     const info = {
         width: meta.smf.mapWidth / 64,
         height: meta.smf.mapHeight / 64,
+        mapHeightMin: meta.minHeight / 64,
+        mapHeightMax: meta.maxHeight / 64,
         // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
         windMin: orDefault('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind, 5),
         windMax: orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
