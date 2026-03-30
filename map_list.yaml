@@ -2343,31 +2343,31 @@
   gameType:
     - 1v1
   inGameShots:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FvS0aDpfE2UDvFPLWliOA-screen_2026-03-10_00-45-52-627.png?alt=media&token=7e51166e-4801-420b-8eca-1d3867a4634a
-      lastModifiedTS: 1773103553368
-      name: screen_2026-03-10_00-45-52-627.png
-      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/vS0aDpfE2UDvFPLWliOA-screen_2026-03-10_00-45-52-627.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FpOH63eV9daEVDARhMkdP-screen_2026-03-30_01-03-37-934.png?alt=media&token=817bfc25-593d-4233-bf8d-1c451a1c9586
+      lastModifiedTS: 1774832618458
+      name: screen_2026-03-30_01-03-37-934.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/pOH63eV9daEVDARhMkdP-screen_2026-03-30_01-03-37-934.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FTwU9EPcPSHEG3t1AwRDn-screen_2026-03-10_00-46-13-414.png?alt=media&token=3b1c5141-6efd-4cc5-a936-8825a9a77a3c
-      lastModifiedTS: 1773103573937
-      name: screen_2026-03-10_00-46-13-414.png
-      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/TwU9EPcPSHEG3t1AwRDn-screen_2026-03-10_00-46-13-414.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FGi7CWjqGurGCqLLqZbBX-screen_2026-03-30_01-03-57-151.png?alt=media&token=2a23a2bf-3eac-4224-9368-1e864b16b8b3
+      lastModifiedTS: 1774832637675
+      name: screen_2026-03-30_01-03-57-151.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/Gi7CWjqGurGCqLLqZbBX-screen_2026-03-30_01-03-57-151.png
       type: image/png
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FtjbewcZzdpNMKAaEcHNz-screen_2026-03-10_00-45-04-464.png?alt=media&token=fa674e55-8df1-4e07-83f3-f01c40f248c9
-      lastModifiedTS: 1773103505120
-      name: screen_2026-03-10_00-45-04-464.png
-      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/tjbewcZzdpNMKAaEcHNz-screen_2026-03-10_00-45-04-464.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2FinGameShots%2FGu4Hp3xwSehnXh3xkT55-screen_2026-03-30_01-03-42-850.png?alt=media&token=cfd42c9a-94ae-44ff-a662-73030bf54fa5
+      lastModifiedTS: 1774832623429
+      name: screen_2026-03-30_01-03-42-850.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/inGameShots/Gu4Hp3xwSehnXh3xkT55-screen_2026-03-30_01-03-42-850.png
       type: image/png
   inPool: true
   minPlayerCount: 2
   photo:
-    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2Fphoto%2F3VNojGsaMQgTP6jf5PeE-argentstratamini.png?alt=media&token=051bb043-9f36-4570-a2e8-d5d7d3b967ee
-      lastModifiedTS: 1773103451910
-      name: argentstratamini.png
-      ref: maps/6w2JE0kEjbty1F8ZgBo0/photo/3VNojGsaMQgTP6jf5PeE-argentstratamini.png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F6w2JE0kEjbty1F8ZgBo0%2Fphoto%2F0rm6ewNnPc1tFZfRY9s7-argentstratamini2.png?alt=media&token=d8b18a92-0549-484a-a531-78fdb9aa99a3
+      lastModifiedTS: 1774832930734
+      name: argentstratamini2.png
+      ref: maps/6w2JE0kEjbty1F8ZgBo0/photo/0rm6ewNnPc1tFZfRY9s7-argentstratamini2.png
       type: image/png
   playerCount: 2
-  springName: Argent Strata 1.0.1
+  springName: Argent Strata 1.1
   startboxesSet:
     NMFl5j4mkJkFY0rwTDps:
       maxPlayersPerStartbox: 1
