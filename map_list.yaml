@@ -5076,6 +5076,61 @@ EnstsecbggtzPl6Im1aU:
     - metal
     - space
     - asteroid
+Eternal Consequences v1:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEternal%20Consequences%20v1%2FbackgroundImage%2FWSoVmcdOPJMfmIGkJYiY-EC_background.jpg?alt=media&token=b8c3a44a-efc9-4849-b03e-c256f44a41c8
+      lastModifiedTS: 1774692964861
+      name: EC_background.jpg
+      ref: maps/Eternal Consequences v1/backgroundImage/WSoVmcdOPJMfmIGkJYiY-EC_background.jpg
+      type: image/jpeg
+  certified: true
+  description: Up to 4v4 map. The beginnings of the ridges are bot passable.
+  displayName: Eternal Consequences
+  gameType:
+    - team
+    - 1v1
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEternal%20Consequences%20v1%2FinGameShots%2FfA7jvrx5PDDdPU4PQw8b-screen_2026-03-27_22-08-40-761.png?alt=media&token=f9a285c2-9d53-4b05-82b0-a667b43b5aeb
+      lastModifiedTS: 1774649321064
+      name: screen_2026-03-27_22-08-40-761.png
+      ref: maps/Eternal Consequences v1/inGameShots/fA7jvrx5PDDdPU4PQw8b-screen_2026-03-27_22-08-40-761.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEternal%20Consequences%20v1%2FperspectiveShot%2FMICSSgZzvYXFNTyvDoLn-EC_perspective.png?alt=media&token=acfdb6b9-172b-4b7f-9b52-4b2295a760a4
+      lastModifiedTS: 1774692667799
+      name: EC_perspective.png
+      ref: maps/Eternal Consequences v1/perspectiveShot/MICSSgZzvYXFNTyvDoLn-EC_perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEternal%20Consequences%20v1%2Fphoto%2Fxjg67VGjQEygkPx1gVlx-EC_Minimap.jpg?alt=media&token=4c788ae9-b217-4997-a36e-bbd769e89f34
+      lastModifiedTS: 1774649848116
+      name: EC_Minimap.jpg
+      ref: maps/Eternal Consequences v1/photo/xjg67VGjQEygkPx1gVlx-EC_Minimap.jpg
+      type: image/jpeg
+  playerCount: 8
+  springName: Eternal Consequences 1.0
+  startboxesSet:
+    "1":
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 130
+            - x: 70
+              y: 200
+        - poly:
+            - x: 130
+              y: 0
+            - x: 200
+              y: 70
+  teamCount: 2
+  terrain:
+    - flat
+    - hills
+    - alien
 F40FJFEjKm3hcVzdnIvA:
   author: IceXuick
   backgroundImage:
