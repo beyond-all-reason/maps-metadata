@@ -5111,7 +5111,7 @@ Eternal Consequences v1:
       ref: maps/Eternal Consequences v1/photo/xjg67VGjQEygkPx1gVlx-EC_Minimap.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Eternal Consequences 1.0
+  springName: Eternal Consequences 1.2
   startboxesSet:
     "1":
       maxPlayersPerStartbox: 4
