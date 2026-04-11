@@ -89,9 +89,9 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
             case Webflow.FieldType.File:
-            case Webflow.FieldType.ExtFileRef:
-                // File references are returned as URLs
-                propsRead = { type: 'string', ...desc };
+                // File fields return an object ref {fileId, url, alt?}, same structure as Image.
+                // For writes, pass a URL (to upload a new file) or a fileId (to reuse an existing one).
+                propsRead = { '$ref': '#/$defs/imageRef' };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
             case Webflow.FieldType.Option: {

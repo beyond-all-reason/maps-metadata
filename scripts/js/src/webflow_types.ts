@@ -116,6 +116,10 @@ export interface WebflowMapFieldsRead {
   "on-planet"?: string;
   "planet-latitude"?: number;
   "planet-longitude"?: number;
+  /**
+   * for storing feature placement
+   */
+  "features-json"?: string;
   name: string;
   slug: string;
 }
@@ -240,6 +244,10 @@ export interface WebflowMapFieldsWrite {
   "on-planet"?: string | null;
   "planet-latitude"?: number | null;
   "planet-longitude"?: number | null;
+  /**
+   * for storing feature placement
+   */
+  "features-json"?: string | null;
   name: string;
   slug: string;
 }

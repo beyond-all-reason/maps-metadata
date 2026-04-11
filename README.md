@@ -35,14 +35,14 @@ environment for the development.
 ./scripts/install.sh
 ```
 
-Then we need to setup a few environment variables to make sure that installed
-dependencies are correctly visible in `PATH`
+Create a copy of the environment variables file
 
 ```
 cp .env.example .env
 ```
 
-Populate the necessary values in .env
+For testing some scripts that push data to external services, setting env variables
+in the .env might be necessary. Values must be obtained from current webflow maintainers
 
 
 ```
