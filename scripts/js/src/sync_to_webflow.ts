@@ -283,8 +283,8 @@ interface WebsiteMapInfo {
     bgImageUrl: string | null;
     perspectiveShotUrl: string | null;
     moreImagesUrl: string[];
-    mapHeightMin: number;
-    mapHeightMax: number;
+    // mapHeightMin: number;
+    // mapHeightMax: number;
     windMin: number;
     windMax: number;
     tidalStrength: number | null;
@@ -319,8 +319,8 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.title === b.title &&
         a.description === b.description &&
         a.author === b.author &&
-        a.mapHeightMin === b.mapHeightMin &&
-        a.mapHeightMax === b.mapHeightMax &&
+        // a.mapHeightMin === b.mapHeightMin &&
+        // a.mapHeightMax === b.mapHeightMax &&
         a.windMin === b.windMin &&
         a.windMax === b.windMax &&
         a.tidalStrength === b.tidalStrength &&
@@ -357,8 +357,8 @@ class WebflowMapInfo {
         this.moreImagesUrl = reqRArr(o['more-images']?.map(i => i.url));
         this.windMin = reqRNum(o['wind-min']);
         this.windMax = reqRNum(o['wind-max']);
-        this.mapHeightMin = reqRNum(o['map-height-min']);
-        this.mapHeightMax = reqRNum(o['map-height-max']);
+        // this.mapHeightMin = reqRNum(o['map-height-min']);
+        // this.mapHeightMax = reqRNum(o['map-height-max']);
         this.tidalStrength = optR(o['tidal-strength']);
         this.teamCount = reqRNum(o['team-count']);
         this.maxPlayers = reqRNum(o['max-players']);
@@ -388,8 +388,8 @@ class WebflowMapInfo {
             'more-images': await pickImages(info.moreImagesUrl, base?.item.fieldData['more-images']),
             'wind-min': info.windMin,
             'wind-max': info.windMax,
-            'map-height-min': info.mapHeightMin,
-            'map-height-max': info.mapHeightMax,
+            // 'map-height-min': info.mapHeightMin,
+            // 'map-height-max': info.mapHeightMax,
             'tidal-strength': info.tidalStrength,
             'team-count': info.teamCount,
             'max-players': info.maxPlayers,
@@ -449,8 +449,8 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
-            mapHeightMin: derivedInfo.mapHeightMin,
-            mapHeightMax: derivedInfo.mapHeightMax,
+            // mapHeightMin: derivedInfo.mapHeightMin,
+            // mapHeightMax: derivedInfo.mapHeightMax,
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
             tidalStrength: derivedInfo.tidalStrength ?? null,
