@@ -194,13 +194,11 @@ interface IWebflowItemType {
 }
 
 function fieldsToItem(fields: Webflow.CollectionItemFieldData): Webflow.CollectionItem {
-    // Need to cast because no id, that's because of
-    // https://github.com/webflow/openapi-spec/issues/4
     return {
         isDraft: false,
         isArchived: false,
         fieldData: fields
-    } as Webflow.CollectionItem;
+    };
 }
 
 interface IWebflowItem extends IWebsiteItem {
@@ -334,18 +332,13 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
 
 interface WebflowMapInfo extends WebsiteMapInfo { }
 
-// fieldData is marked as possibly not set for some reason.
-type CollectionItemWithData = Webflow.CollectionItem & { fieldData: Webflow.CollectionItemFieldData };
-
 // WebflowMap is the native Webflow representation of data as used by the
 // Webflow API.
 class WebflowMapInfo {
-    // fieldData is always set.
-    item: CollectionItemWithData;
+    item: Webflow.CollectionItem;
 
     constructor(item: Webflow.CollectionItem) {
-        assert(item.fieldData);
-        this.item = item as CollectionItemWithData;
+        this.item = item;
         const o = item.fieldData as WebflowMapFieldsRead;
 
         this.name = o.name;
