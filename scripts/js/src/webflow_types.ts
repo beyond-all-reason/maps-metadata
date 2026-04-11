@@ -6,9 +6,9 @@
 
 /**
  * This interface was referenced by `undefined`'s JSON-Schema
- * via the `definition` "imageRef".
+ * via the `definition` "fileRef".
  */
-export interface WebflowImageRef {
+export interface WebflowFileRef {
   fileId: string;
   url: string;
   alt?: string;
@@ -35,8 +35,8 @@ export interface WebflowMapFieldsRead {
    * Linked to Team member
    */
   "author-team-member"?: string;
-  minimap?: WebflowImageRef;
-  "minimap-photo-thumb"?: WebflowImageRef;
+  minimap?: WebflowFileRef;
+  "minimap-photo-thumb"?: WebflowFileRef;
   minimapurl?: string;
   /**
    * Map width in elmos
@@ -66,12 +66,12 @@ export interface WebflowMapFieldsRead {
    * Unique Sketchfab Identifier that will be used if there is a 3D sketchfab version available.
    */
   sketchfabcode?: string;
-  "bg-image"?: WebflowImageRef;
-  "perspective-shot"?: WebflowImageRef;
+  "bg-image"?: WebflowFileRef;
+  "perspective-shot"?: WebflowFileRef;
   /**
    * Additional images to be shown with more details / eye-candy
    */
-  "more-images"?: WebflowImageRef[];
+  "more-images"?: WebflowFileRef[];
   "wind-min"?: number;
   "wind-max"?: number;
   "wind-avg"?: number;
@@ -84,11 +84,11 @@ export interface WebflowMapFieldsRead {
    * Total amount of teams that can spawn / amount of (max.) preset startboxes or amount of AllyTeams.
    */
   "team-count"?: number;
-  "mini-map"?: WebflowImageRef;
-  "metal-map"?: WebflowImageRef;
-  "height-map"?: WebflowImageRef;
-  "normal-map"?: WebflowImageRef;
-  skybox?: WebflowImageRef;
+  "mini-map"?: WebflowFileRef;
+  "metal-map"?: WebflowFileRef;
+  "height-map"?: WebflowFileRef;
+  "normal-map"?: WebflowFileRef;
+  skybox?: WebflowFileRef;
   /**
    * Surface of the map (W * H)
    */
@@ -258,7 +258,7 @@ export interface WebflowMapFieldsWrite {
 export interface WebflowMapTagFieldsRead {
   description?: string;
   color?: string;
-  icon?: WebflowImageRef;
+  icon?: WebflowFileRef;
   name: string;
   slug: string;
 }
@@ -278,7 +278,7 @@ export interface WebflowMapTagFieldsWrite {
  * via the `definition` "WebflowMapTerrainFieldsRead".
  */
 export interface WebflowMapTerrainFieldsRead {
-  icon?: WebflowImageRef;
+  icon?: WebflowFileRef;
   description?: string;
   glow?: string;
   /**

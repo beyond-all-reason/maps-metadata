@@ -15,7 +15,7 @@ import { readMapCDNInfos } from './cdn_maps.js';
 import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
 import mapSchema from '../../../gen/schemas/map_list.json';
 import {
-    WebflowImageRef,
+    WebflowFileRef,
     WebflowMapFieldsRead,
     WebflowMapFieldsWrite,
     WebflowMapTagFieldsRead,
@@ -133,14 +133,14 @@ async function sameImages(urls1: string[], urls2: string[]): Promise<boolean> {
     return h1.every((v, i) => v === h2[i]);
 }
 
-async function pickImage(url: string, base?: WebflowImageRef): Promise<string> {
+async function pickImage(url: string, base?: WebflowFileRef): Promise<string> {
     if (base && await sameImage(url, base.url)) {
         return base.fileId;
     }
     return url;
 }
 
-async function pickImages(urls: string[], base?: WebflowImageRef[]): Promise<string[]> {
+async function pickImages(urls: string[], base?: WebflowFileRef[]): Promise<string[]> {
     const [h, hBaseEntries] = await Promise.all([
         Promise.all(urls.map(async url => {
             return [url, await getImageHash(url)] as [string, string];

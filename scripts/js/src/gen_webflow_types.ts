@@ -85,13 +85,13 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
                 propsWrite = { type: field.isRequired ? 'boolean' : ['boolean', 'null'], ...desc };
                 break;
             case Webflow.FieldType.Image:
-                propsRead = { '$ref': '#/$defs/imageRef' };
+                propsRead = { '$ref': '#/$defs/fileRef' };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
             case Webflow.FieldType.File:
                 // File fields return an object ref {fileId, url, alt?}, same structure as Image.
                 // For writes, pass a URL (to upload a new file) or a fileId (to reuse an existing one).
-                propsRead = { '$ref': '#/$defs/imageRef' };
+                propsRead = { '$ref': '#/$defs/fileRef' };
                 propsWrite = { type: field.isRequired ? 'string' : ['string', 'null'], ...desc };
                 break;
             case Webflow.FieldType.Option: {
@@ -106,7 +106,7 @@ async function generateTypes(collectionId: string, baseTypeNames: { [k: string]:
                 propsWrite = { type: field.isRequired ? 'number' : ['number', 'null'], ...desc };
                 break;
             case Webflow.FieldType.MultiImage:
-                propsRead = { type: 'array', items: { '$ref': '#/$defs/imageRef' }, ...desc };
+                propsRead = { type: 'array', items: { '$ref': '#/$defs/fileRef' }, ...desc };
                 propsWrite = {
                     type: field.isRequired ? 'array' : ['array', 'null'],
                     items: { type: 'string', minItems: field.isRequired ? 1 : 0 },
@@ -160,8 +160,8 @@ const types = await generateTypes(rootCollectionId, {
 const schema: any = {
     '$schema': 'https://json-schema.org/draft/2020-12/schema',
     '$defs': {
-        imageRef: {
-            title: 'WebflowImageRef',
+        fileRef: {
+            title: 'WebflowFileRef',
             type: 'object',
             properties: {
                 fileId: { type: 'string' },
