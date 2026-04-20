@@ -1,5 +1,5 @@
 # Default target ran by make
-all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb gen/mapPresets.conf gen/mapBattlePresets.conf gen/lobby_maps.validated.json gen/teiserver_maps.validated.json
+all: gen/map_list.validated.json gen/mapDetails.lua gen/live_maps.validated.json gen/mapBoxes.conf gen/mapLists.conf gen/custom_map_lists.json gen/discordPresenceThumb gen/mapPresets.conf gen/mapBattlePresets.conf gen/lobby_maps.validated.json gen/teiserver_maps.validated.json gen/webflow_rowy_data.json
 
 # Rules for doing generic data files conversion, e.g yaml to json
 gen/%.json: %.yaml
@@ -17,7 +17,7 @@ gen/schemas/teiserver_maps.json: gen/schemas/map_modoptions.json gen/schemas/map
 gen/schemas/lobby_maps.json: gen/schemas/map_list.json
 
 # Output targets
-gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts 
+gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts
 	tsx scripts/js/src/gen_map_details_lua.ts $@
 
 gen/cdn_maps.json: gen/map_list.validated.json gen/types/map_list.d.ts
@@ -46,6 +46,10 @@ gen/lobby_maps.json: gen/map_list.validated.json gen/cdn_maps.validated.json gen
 
 gen/teiserver_maps.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/map_modoptions.validated.json gen/types/map_modoptions.d.ts gen/types/teiserver_maps.d.ts
 	tsx scripts/js/src/gen_teiserver_maps.ts $@
+
+# This target exists only for the diffing purpose in the PRs, the data is not consumed by the sync step in this script.
+gen/webflow_rowy_data.json: gen/map_list.validated.json gen/types/map_list.d.ts gen/cdn_maps.validated.json gen/schemas/map_list.json gen/types/cdn_maps.d.ts
+	tsx scripts/js/src/sync_to_webflow.ts gen-rowy-data $@
 
 # Tests on data
 checks = $(notdir $(basename $(wildcard scripts/js/src/check_*.ts)))

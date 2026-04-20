@@ -3,9 +3,11 @@
 import { writeFileSync, readFileSync } from 'node:fs';
 import util from 'util';
 import path from 'node:path';
+import fs from 'node:fs/promises';
 import { pipeline } from 'node:stream/promises';
 import { createHash } from 'node:crypto';
 import got from 'got';
+import stringify from "json-stable-stringify";
 import { WebflowClient, Webflow } from 'webflow-api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
@@ -714,38 +716,54 @@ async function publishUpdatedWebflowItems(collection: Webflow.Collection, items:
 
 program.name('sync_to_webflow');
 
-if (!process.env.WEBFLOW_COLLECTION_ID || !process.env.WEBFLOW_API_TOKEN) {
-    console.error('Missing WEBFLOW_COLLECTION_ID or WEBFLOW_API_TOKEN');
-    process.exit(1);
+function checkWebflowEnvs() {
+    if (!process.env.WEBFLOW_COLLECTION_ID || !process.env.WEBFLOW_API_TOKEN) {
+        console.error('Missing WEBFLOW_COLLECTION_ID or WEBFLOW_API_TOKEN');
+        process.exit(1);
+    }
 }
+
 const webflow = new WebflowClient({ accessToken: process.env.WEBFLOW_API_TOKEN });
 const limiter = new Bottleneck({ maxConcurrent: 1, minTime: 600 });
-const mapsCollectionId = process.env.WEBFLOW_COLLECTION_ID;
+const mapsCollectionId = process.env.WEBFLOW_COLLECTION_ID!;
+
+async function genRowyData(): Promise<{
+    mapsInfo: Map<string, WebsiteMapInfo>,
+    tagsInfo: Map<string, WebsiteMapTag>,
+    mapTerrainsInfo: Map<string, WebsiteMapTerrain>
+}> {
+    const maps = await readMapList();
+    const cdnInfo = await readMapCDNInfos();
+    const mapsMetadata = await fetchMapsMetadata(maps);
+    const [rowyMapsInfo, rowyMapTagsInfo] = await buildWebflowInfo(maps, cdnInfo, mapsMetadata);
+    const rowyMapTerrainsInfo = getRowyMapTerrains();
+    return {
+        mapsInfo: rowyMapsInfo,
+        tagsInfo: rowyMapTagsInfo,
+        mapTerrainsInfo: rowyMapTerrainsInfo,
+    }
+}
 
 async function syncCommand(dryRun: boolean) {
+    checkWebflowEnvs();
     const mapsCollection = await limiter.schedule(() => webflow.collections.get(mapsCollectionId));
     const webflowMaps = await getAllWebflowMaps(mapsCollection);
     const mapTagsCollection = await getFieldCollection('game-tags-ref-2', mapsCollection, webflow);
     const webflowMapTags = await getAllWebflowMapTags(mapTagsCollection);
     const mapTerrainsCollection = await getFieldCollection('terrain-types', mapsCollection, webflow);
     const webflowMapTerrains = await getAllWebflowMapTerrains(mapTerrainsCollection);
-    const maps = await readMapList();
-    const cdnInfo = await readMapCDNInfos();
-    const mapsMetadata = await fetchMapsMetadata(maps);
-    const [rowyMapsInfo, rowyMapTagsInfo] = await buildWebflowInfo(maps, cdnInfo, mapsMetadata);
-    const rowyMapTerrainsInfo = getRowyMapTerrains();
-
+    const rowyData = await genRowyData();
     try {
-        await syncMapTagsToWebflowAdditions(rowyMapTagsInfo, webflowMapTags, mapTagsCollection, dryRun);
-        resolveItemRefsInMapInfos(rowyMapsInfo, 'mapTags', webflowMapTags, dryRun);
-        await syncMapTerrainsToWebflowAdditions(rowyMapTerrainsInfo, webflowMapTerrains, mapTerrainsCollection, dryRun);
-        resolveItemRefsInMapInfos(rowyMapsInfo, 'mapTerrains', webflowMapTerrains, dryRun);
-        await syncMapsToWebflow(rowyMapsInfo, webflowMaps, mapsCollection, dryRun);
+        await syncMapTagsToWebflowAdditions(rowyData.tagsInfo, webflowMapTags, mapTagsCollection, dryRun);
+        resolveItemRefsInMapInfos(rowyData.mapsInfo, 'mapTags', webflowMapTags, dryRun);
+        await syncMapTerrainsToWebflowAdditions(rowyData.mapTerrainsInfo, webflowMapTerrains, mapTerrainsCollection, dryRun);
+        resolveItemRefsInMapInfos(rowyData.mapsInfo, 'mapTerrains', webflowMapTerrains, dryRun);
+        await syncMapsToWebflow(rowyData.mapsInfo, webflowMaps, mapsCollection, dryRun);
         await publishUpdatedWebflowItems(mapTerrainsCollection, webflowMapTerrains, dryRun);
         await publishUpdatedWebflowItems(mapTagsCollection, webflowMapTags, dryRun);
         await publishUpdatedWebflowItems(mapsCollection, webflowMaps, dryRun);
-        await syncMapTagsToWebflowRemovals(mapTagsCollection, rowyMapTagsInfo, webflowMapTags, dryRun);
-        await syncMapTerrainsToWebflowRemovals(mapTerrainsCollection, rowyMapTerrainsInfo, webflowMapTerrains, dryRun);
+        await syncMapTagsToWebflowRemovals(mapTagsCollection, rowyData.tagsInfo, webflowMapTags, dryRun);
+        await syncMapTerrainsToWebflowRemovals(mapTerrainsCollection, rowyData.mapTerrainsInfo, webflowMapTerrains, dryRun);
     } catch (e: any) {
         // To make sure we will get full info from inside of the response.
         if ('message' in e) {
@@ -768,6 +786,7 @@ program.command('sync')
 program.command('dump-data')
     .description('Dumps Webflow collection data.')
     .action(async () => {
+        checkWebflowEnvs();
         const mapsCollection = await limiter.schedule(() => webflow.collections.get(mapsCollectionId));
         const webflowMaps = await getAllWebflowMaps(mapsCollection);
         console.log(util.inspect(webflowMaps, { showHidden: false, depth: null, colors: true }));
@@ -779,6 +798,18 @@ program.command('dump-data')
         const mapTerrainsCollection = await getFieldCollection('terrain-types', mapsCollection, webflow);
         const webflowTerrains = await getAllWebflowMapTerrains(mapTerrainsCollection);
         console.log(util.inspect(webflowTerrains, { showHidden: false, depth: null, colors: true }));
+    });
+
+program.command('gen-rowy-data')
+    .description('Dumps the data that will be pushed to webflow.')
+    .argument('<rowyDataPath>', 'Path to output file.')
+    .action(async (rowyDataPath: string) => {
+        const rowyData = await genRowyData();
+        await fs.writeFile(rowyDataPath, stringify({
+            mapsInfo: Object.fromEntries(rowyData.mapsInfo),
+            tagsInfo: Object.fromEntries(rowyData.tagsInfo),
+            mapTerrainsInfo: Object.fromEntries(rowyData.mapTerrainsInfo),
+        }, { space: "    " }));
     });
 
 program.parse();
