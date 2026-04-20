@@ -449,8 +449,9 @@ async function buildWebflowInfo(
             perspectiveShotUrl: (map.perspectiveShot.length > 0 ? `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.perspectiveShot[0]!.ref)}` : null),
             moreImagesUrl: map.inGameShots.map(i => `${imagorUrlBase}fit-in/2250x/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(i.ref)}`),
             // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
-            mapHeightMin: derivedInfo.mapHeightMin,
-            mapHeightMax: derivedInfo.mapHeightMax,
+            // webflow min/max height fields are integers, round to ensure consistent value comparisons
+            mapHeightMin: Math.round(derivedInfo.mapHeightMin),
+            mapHeightMax: Math.round(derivedInfo.mapHeightMax),
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
             tidalStrength: derivedInfo.tidalStrength ?? null,
