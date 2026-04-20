@@ -1,0 +1,198 @@
+name: Diff Generated Outputs
+on:
+  pull_request:
+    paths-ignore:
+      - "tools/**"
+      - "cloud/**"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  diff-gen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine merge base
+        id: merge-base
+        run: |
+          BASE_SHA=$(git merge-base "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}")
+          echo "sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "Merge base: $BASE_SHA"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: scripts/py/requirements.txt
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.11'
+          cache: npm
+          cache-dependency-path: scripts/js/package-lock.json
+
+      - name: Restore maps cache
+        uses: actions/cache@v4
+        with:
+          path: .maps-cache
+          key: maps-cache-cache-v2-diff-${{ github.sha }}
+          restore-keys: |
+            maps-cache-cache-v2-diff-
+            maps-cache-cache-v2-build-
+
+      # --- Build at merge base ---
+      - name: Checkout merge base
+        run: git checkout "${{ steps.merge-base.outputs.sha }}"
+
+      - name: Install dependencies (base)
+        run: ./scripts/install.sh
+
+      - name: Build at base
+        run: source .envrc && make -j $(nproc)
+
+      - name: Save base outputs
+        run: cp -r gen /tmp/gen-base
+
+      - name: Clean gen
+        run: source .envrc && make clean
+
+      # --- Build at PR head ---
+      - name: Checkout PR head
+        run: git checkout "${{ github.event.pull_request.head.sha }}"
+
+      - name: Install dependencies (head)
+        run: ./scripts/install.sh
+
+      - name: Build at head
+        run: source .envrc && make -j $(nproc)
+
+      - name: Save head outputs
+        run: cp -r gen /tmp/gen-head
+
+      # --- Diff ---
+      - name: Generate diff
+        run: |
+          set -euo pipefail
+
+          BASE_DIR=/tmp/gen-base
+          HEAD_DIR=/tmp/gen-head
+
+          # Collect files from a directory, excluding schemas/, types/, .gitignore, map_list.validated.json
+          find_files() {
+            find "$1" -type f \
+              ! -path "*/schemas/*" \
+              ! -path "*/types/*" \
+              ! -name ".gitignore" \
+              ! -name "map_list.validated.json" \
+              -printf '%P\n'
+          }
+
+          # Union of files from both dirs, deterministically sorted
+          { find_files "$BASE_DIR"; find_files "$HEAD_DIR"; } | LC_ALL=C sort -u > /tmp/all_files.txt
+
+          # Filter: if X.validated.json exists in either base or head, skip X.json
+          > /tmp/diff_files.txt
+          while IFS= read -r f; do
+            if [[ "$f" == *.json && "$f" != *.validated.json ]]; then
+              validated="${f%.json}.validated.json"
+              if [[ -f "$BASE_DIR/$validated" || -f "$HEAD_DIR/$validated" ]]; then
+                continue
+              fi
+            fi
+            echo "$f" >> /tmp/diff_files.txt
+          done < /tmp/all_files.txt
+
+          # Generate markdown diff
+          DIFF_MD=/tmp/diff-output.md
+          > "$DIFF_MD"
+          > /tmp/changed_files.md
+          > /tmp/unchanged_files.md
+
+          while IFS= read -r f; do
+            BASE_FILE="$BASE_DIR/$f"
+            HEAD_FILE="$HEAD_DIR/$f"
+
+            if [[ ! -f "$BASE_FILE" ]]; then
+              {
+                echo "<details>"
+                echo "<summary><code>gen/$f</code> (new file)</summary>"
+                echo ""
+                echo '```'
+                cat "$HEAD_FILE"
+                echo '```'
+                echo "</details>"
+                echo ""
+              } >> /tmp/changed_files.md
+            elif [[ ! -f "$HEAD_FILE" ]]; then
+              {
+                echo "<details>"
+                echo "<summary><code>gen/$f</code> (deleted)</summary>"
+                echo ""
+                echo '```'
+                cat "$BASE_FILE"
+                echo '```'
+                echo "</details>"
+                echo ""
+              } >> /tmp/changed_files.md
+            else
+              DIFF_OUTPUT=$(diff -u --label "base/gen/$f" --label "head/gen/$f" "$BASE_FILE" "$HEAD_FILE" || true)
+              if [[ -n "$DIFF_OUTPUT" ]]; then
+                {
+                  echo "<details>"
+                  echo "<summary><code>gen/$f</code></summary>"
+                  echo ""
+                  echo '```diff'
+                  printf '%s\n' "$DIFF_OUTPUT"
+                  echo '```'
+                  echo "</details>"
+                  echo ""
+                } >> /tmp/changed_files.md
+              else
+                echo "- \`gen/$f\`" >> /tmp/unchanged_files.md
+              fi
+            fi
+          done < /tmp/diff_files.txt
+
+          {
+            echo "# Generated Output Diff"
+            echo ""
+            echo "Comparing merge base (\`${{ steps.merge-base.outputs.sha }}\`) to PR head (\`${{ github.event.pull_request.head.sha }}\`)."
+            echo ""
+            echo "> **Note:** If this summary appears truncated, download the full diff from the workflow artifacts."
+            echo ""
+
+            if [[ -s /tmp/changed_files.md ]]; then
+              echo "## Changed files"
+              echo ""
+              cat /tmp/changed_files.md
+            fi
+
+            if [[ -s /tmp/unchanged_files.md ]]; then
+              echo "## Unchanged files"
+              echo ""
+              cat /tmp/unchanged_files.md
+              echo ""
+            fi
+
+            if [[ ! -s /tmp/changed_files.md && ! -s /tmp/unchanged_files.md ]]; then
+              echo "No generated files to compare."
+            elif [[ ! -s /tmp/changed_files.md ]]; then
+              echo "No differences found in generated outputs."
+            fi
+          } > "$DIFF_MD"
+
+          cp "$DIFF_MD" "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload diff artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gen-diff
+          path: /tmp/diff-output.md
