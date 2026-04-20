@@ -180,22 +180,36 @@ function chunk<T>(arr: T[], size: number): T[][] {
     return chunks;
 }
 
+// Items fetched from or returned by the Webflow API always include an id.
+// The SDK marks id as optional because the OpenAPI spec incorrectly made it
+// optional for all operations instead of just POST.
+// See: https://github.com/webflow/openapi-spec/issues/4
+type ExistingCollectionItem = Webflow.CollectionItem & { id: string };
+
+function assertExistingItem(item: Webflow.CollectionItem): asserts item is ExistingCollectionItem {
+    assert(item.id, 'Webflow API returned item without id');
+}
+
 // The SDK's BulkCollectionItem type omits the `items` array returned by the
 // REST API. Preserved at runtime via the SDK's passthrough deserialization.
 interface BulkCreateResponse extends Webflow.BulkCollectionItem {
-    items?: Webflow.CollectionItem[];
+    items?: ExistingCollectionItem[];
 }
 
-// Normalizes the union response from updateItems into an array of CollectionItems.
+// Normalizes the union response from updateItems into an array of ExistingCollectionItems.
 // The SDK types this as CollectionItem | CollectionItemList; at runtime it's
 // always a CollectionItemList when updating multiple items, but we guard both cases.
 function normalizeUpdateResponse(
     response: Webflow.CollectionItem | Webflow.CollectionItemList
-): Webflow.CollectionItem[] {
+): ExistingCollectionItem[] {
+    let items: Webflow.CollectionItem[];
     if ('items' in response && Array.isArray((response as Webflow.CollectionItemList).items)) {
-        return (response as Webflow.CollectionItemList).items!;
+        items = (response as Webflow.CollectionItemList).items!;
+    } else {
+        items = [response as Webflow.CollectionItem];
     }
-    return [response as Webflow.CollectionItem];
+    items.forEach(assertExistingItem);
+    return items as ExistingCollectionItem[];
 }
 
 /**
@@ -220,12 +234,12 @@ interface IWebsiteItem {
 }
 
 interface IWebflowItemType {
-    new(i: Webflow.CollectionItem): IWebflowItem
+    new(i: ExistingCollectionItem): IWebflowItem
     generateFields(i: IWebsiteItem): Webflow.CollectionItemFieldData;
 }
 
 interface IWebflowItem extends IWebsiteItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 }
 
 // WebsiteMapTag is the internal representation of a map tag used in this script.
@@ -240,9 +254,9 @@ interface WebflowMapTag extends WebsiteMapTag { }
 // WebflowMapTag is the native Webflow representation of a tag as used by the
 // Webflow API.
 class WebflowMapTag implements IWebflowItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapTagFieldsRead;
 
@@ -270,9 +284,9 @@ interface WebflowMapTerrain extends WebsiteMapTerrain { }
 // WebflowMapTerrain is the native Webflow representation of a Terrain as used by the
 // Webflow API.
 class WebflowMapTerrain implements IWebflowItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapTerrainFieldsRead;
 
@@ -358,9 +372,9 @@ interface WebflowMapInfo extends WebsiteMapInfo { }
 // WebflowMap is the native Webflow representation of data as used by the
 // Webflow API.
 class WebflowMapInfo {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapFieldsRead;
 
@@ -521,12 +535,12 @@ function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field:
                 }
                 throw new Error(`Missing ${field} ${ref}`);
             }
-            return t.item.id!;
+            return t.item.id;
         });
     }
 }
 
-async function getAllWebflowItems(collection: Webflow.Collection): Promise<Webflow.CollectionItem[]> {
+async function getAllWebflowItems(collection: Webflow.Collection): Promise<ExistingCollectionItem[]> {
     const items: Webflow.CollectionItem[] = [];
     const limit = 100;
     for (let offset = 0; true; offset += limit) {
@@ -536,7 +550,8 @@ async function getAllWebflowItems(collection: Webflow.Collection): Promise<Webfl
         }
         items.push(...response.items);
     }
-    return items;
+    items.forEach(assertExistingItem);
+    return items as ExistingCollectionItem[];
 }
 
 // getAllWebflowMaps returns all maps from the Webflow collection mapped by rowyId.
@@ -598,7 +613,7 @@ async function syncCollectionToWebflowAdditions(
                 console.log(webflowTag);
                 console.log(fields);
             } else {
-                toUpdate.push({ id: webflowTag.item.id!, fields });
+                toUpdate.push({ id: webflowTag.item.id, fields });
             }
         }
     }
@@ -615,6 +630,7 @@ async function syncCollectionToWebflowAdditions(
         const createdItems = (response as BulkCreateResponse).items;
         if (createdItems) {
             for (const item of createdItems) {
+                assertExistingItem(item);
                 assert(item.fieldData?.slug, `Created ${typeName} missing slug in response`);
                 dest.set(item.fieldData.slug!, new webflowItemType(item));
             }
@@ -650,7 +666,7 @@ async function syncCollectionToWebflowRemovals(
         if (!src.has(item.slug)) {
             console.log(`Removing ${typeName} ${item.name}`);
             if (!dryRun) {
-                toDelete.push({ id: item.item.id!, slug: item.slug });
+                toDelete.push({ id: item.item.id, slug: item.slug });
             }
         }
     }
@@ -733,7 +749,7 @@ async function syncMapsToWebflow(
     for (const map of dest.values()) {
         if (!src.has(map.rowyId)) {
             console.log(`Removing ${map.name}`);
-            toDelete.push({ id: map.item.id!, rowyId: map.rowyId, name: map.name });
+            toDelete.push({ id: map.item.id, rowyId: map.rowyId, name: map.name });
         }
     }
 
@@ -763,6 +779,7 @@ async function syncMapsToWebflow(
             const createdItems = (response as BulkCreateResponse).items;
             if (createdItems) {
                 for (const item of createdItems) {
+                    assertExistingItem(item);
                     const rowyId = (item.fieldData as WebflowMapFieldsRead).rowyid;
                     assert(rowyId, `Created map missing rowyid in response`);
                     dest.set(rowyId, new WebflowMapInfo(item));
@@ -812,7 +829,7 @@ async function syncMapsToWebflow(
         const response = await limiter.schedule(
             () => webflow.collections.items.updateItems(mapsCollection.id, {
                 items: batch.map(({ webflowMap, fields }) => ({
-                    id: webflowMap.item.id!,
+                    id: webflowMap.item.id,
                     isDraft: false,
                     isArchived: false,
                     fieldData: fields,
@@ -826,11 +843,11 @@ async function syncMapsToWebflow(
     }
 }
 
-async function publishUpdatedWebflowItems(collection: Webflow.Collection, items: Map<any, { item: Webflow.CollectionItem }>, dryRun: boolean) {
+async function publishUpdatedWebflowItems(collection: Webflow.Collection, items: Map<any, { item: ExistingCollectionItem }>, dryRun: boolean) {
     const itemIds = Array.from(items.values())
         .map(i => i.item)
-        .filter(i => !i.lastPublished || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated!))
-        .map(i => i.id!);
+        .filter(i => !i.lastPublished || !i.lastUpdated || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated))
+        .map(i => i.id);
     console.log(`Publishing ${itemIds.length} items`);
     if (!dryRun) {
         for (const itemIdsChunk of chunk(itemIds, BULK_LIMIT)) {
