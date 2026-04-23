@@ -1680,6 +1680,7 @@
     - popular16p
     - competitive2p
     - popular2p
+    - lanemaps16p
   minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F4WiZnMfXPyjUARuQumRM%2Fphoto%2FBpwVNhTcDKyexq8276Le-hades_ponds_v1_minimap.jpg?alt=media&token=77c5f3bf-e6dd-4e4a-9c3d-3d2b1de45a23
@@ -2553,6 +2554,7 @@
     - strict
     - land16p
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F7pm2zaEOk8QaxaEeOnZJ%2FperspectiveShot%2F6XSFYzuoSgchVBjAq6Cp-29Yy53CFDlfRmh72g3EHdFWC_o65LTiKP5-gE4cHji0.png?alt=media&token=f92331b9-8eaf-478f-9916-adafe12b2813
@@ -4320,6 +4322,7 @@ Cz4OYo0Z2yht9PUP8vcN:
   mapLists:
     - land16p
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FCz4OYo0Z2yht9PUP8vcN%2FperspectiveShot%2FaNXWxPONiX6l2fbBjif1-sulphur_springs_3D.png?alt=media&token=be90ab91-6ac2-4888-9f66-24be4d3159c2
@@ -4891,6 +4894,8 @@ EiT2c89HcHhHeuZxXako:
   gameType:
     - team
   inPool: true
+  mapLists:
+    - lanemaps16p
   minPlayerCount: 10
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FEiT2c89HcHhHeuZxXako%2Fphoto%2FMVUXHKeoWSURhqcdKsY9-The-Rock-minimap.jpg?alt=media&token=7eb5b6c2-9f5b-4e0a-80d0-987673b31f83
@@ -5249,6 +5254,7 @@ FEkKsVrHELjFh7HQstFq:
     - land16p
     - strict
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FFEkKsVrHELjFh7HQstFq%2FperspectiveShot%2FL5sBhNNiPTjddgSCv3OZ-kassa3D.png?alt=media&token=437ea3ae-5506-486e-9102-d6c801b276a7
@@ -6058,6 +6064,7 @@ GuTvi5G3QCGO8KASbbs1:
   mapLists:
     - land16p
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FGuTvi5G3QCGO8KASbbs1%2FperspectiveShot%2F072jblIAwwQJeCh0bimn-darkside_3d.png?alt=media&token=5dd8bd16-0669-41df-8613-616b916a072d
@@ -6522,6 +6529,7 @@ J8V3PInQjJJ2KERt9A1F:
   mapLists:
     - land16p
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FJ8V3PInQjJJ2KERt9A1F%2FperspectiveShot%2FSp8F6Hsb5LUrDrhO2kyO-persec.png?alt=media&token=c93c3acc-81cc-4438-9eb6-8f89f87dc574
@@ -8545,6 +8553,7 @@ RLZ07b2DZS9vYPn5dvFX:
   inPool: true
   mapLists:
     - WaterMapPool
+    - lanemaps16p
   minPlayerCount: 12
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FRLZ07b2DZS9vYPn5dvFX%2Fphoto%2Fi1WaN03OlPHZzW13uvWl-red_river_estuary_v1.1.jpg?alt=media&token=fcd701c2-0a3c-4530-bdd1-f237630667ef
@@ -12109,6 +12118,7 @@ ZrnTf20mPzbrMjtHa9Wg:
   mapLists:
     - land16p
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   photo:
     - downloadURL: https://storage.googleapis.com/rowy-1f075.appspot.com/maps/ZrnTf20mPzbrMjtHa9Wg/photo/sFr9Rlw0Y9l52luQ1qoF-Riverrun_V1.jpg
@@ -13198,6 +13208,7 @@ bunTXErE1ZLWV9t8jFHw:
     - land16p
     - strict
     - popular16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FbunTXErE1ZLWV9t8jFHw%2FperspectiveShot%2FQTfFf9Fvn5xoDuO65JSg-perspective.png?alt=media&token=4f3f1075-33cd-44d7-bcbd-faebd0ce4fe9
@@ -15330,6 +15341,7 @@ gEgiWXCvonENJseDsfjj:
     - strict
     - popular16p
     - rotatoApprentice
+    - lanemaps16p
   minPlayerCount: 14
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FgEgiWXCvonENJseDsfjj%2FperspectiveShot%2FQE63Qa9Hu5LC5KPCEXPc-bismuth3d.png?alt=media&token=a3d5ee77-65f2-4e68-b48e-31f7c7a19d50
@@ -16707,6 +16719,7 @@ kesPeWO0ScnmWF2An8qA:
     - strict
     - popular16p
     - rotatoApprentice
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FkesPeWO0ScnmWF2An8qA%2FperspectiveShot%2Fc59TV3OUb3z3GJ0gL68s-flats_and_forests_3D.png?alt=media&token=68bab0b5-2cee-4636-b2a6-e89c9e80be2d
@@ -18087,6 +18100,7 @@ pFTrUA4OGRNoSNpSAzx2:
   mapLists:
     - popular16p
     - land16p
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FpFTrUA4OGRNoSNpSAzx2%2FperspectiveShot%2Fz96Nww6hJirZKcTReXJ9-moonshine3D.png?alt=media&token=c9b3aa1b-548f-4468-bbad-5e2c06cc030b
@@ -18378,6 +18392,7 @@ qrpwI83FonOR43KTBxZE:
   inPool: true
   mapLists:
     - popular16p
+    - lanemaps16p
   minPlayerCount: 8
   photo:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqrpwI83FonOR43KTBxZE%2Fphoto%2FkiLyeQuUB0Cv9UiqPdI8-salmiakki_topdown.png?alt=media&token=91ebc5b5-ab45-4674-9209-119d7648f357
@@ -19634,6 +19649,7 @@ taMTVVZKAKbYywe7tyRb:
     - strict
     - popular16p
     - rotatoApprentice
+    - lanemaps16p
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FtaMTVVZKAKbYywe7tyRb%2FperspectiveShot%2F5QTQknQYcRdoymt8d42T-tartar%203d.png?alt=media&token=616a8671-ba2b-4abe-972a-cdca5c2a4571
@@ -21457,6 +21473,7 @@ xzehc1xO45wtSJqrFRlD:
     - popular16p
     - strict
     - popular2p
+    - lanemaps16p
   minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2Fxzehc1xO45wtSJqrFRlD%2FperspectiveShot%2F5qlD6mJaz7EF24hh4xmM-perspective.png?alt=media&token=6ce7f5f2-3fc4-41ac-90e9-acf40759e6a7
