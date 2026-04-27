@@ -42,6 +42,8 @@ items:
       type: integer
     windMax:
       type: integer
+    windAvg:
+      type: number
     tidalStrength:
       type: integer
     filename:
