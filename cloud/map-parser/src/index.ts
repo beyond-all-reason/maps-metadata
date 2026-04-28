@@ -28,7 +28,7 @@ const publicUrlBase = process.env.PUBLIC_URL || `https://storage.googleapis.com/
 const storage = new Storage();
 
 // Must change this value when making incompatible change to the cache.
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 
 async function is7zArchiveSolid(archivePath: string): Promise<boolean> {
     const { stdout } = await execFile(
@@ -147,7 +147,7 @@ app.get('/parse-map/:springName', async (req, res) => {
         }
 
         const writePromises = Object.entries(images).map(([fileName, image]) => {
-            return image.writeAsync(path.join(tempDir, fileName));  
+            return image.writeAsync(path.join(tempDir, fileName));
         });
         await Promise.all(writePromises);
 
