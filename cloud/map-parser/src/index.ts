@@ -121,6 +121,7 @@ app.get('/parse-map/:springName', async (req, res) => {
             verbose: true,
             mipmapSize: 16,
             skipSmt: false,
+            water: false,
             // For now skip parsing resources, we will enable it once we better
             // know what kind of formats are useful for export as raw files
             // are just massive and not that usefull in cache.
@@ -143,7 +144,7 @@ app.get('/parse-map/:springName', async (req, res) => {
         }
 
         const writePromises = Object.entries(images).map(([fileName, image]) => {
-            return image.writeAsync(path.join(tempDir, fileName));  
+            return image.writeAsync(path.join(tempDir, fileName));
         });
         await Promise.all(writePromises);
 
