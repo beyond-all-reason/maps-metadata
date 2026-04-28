@@ -121,10 +121,9 @@ app.get('/parse-map/:springName', async (req, res) => {
             verbose: true,
             mipmapSize: 16,
             skipSmt: false,
-            // For now skip parsing resources, we will enable it once we better
-            // know what kind of formats are useful for export as raw files
-            // are just massive and not that usefull in cache.
-            parseResources: false,
+            parseResources: true,
+            resources: ['detailNormalTex', 'specularTex'],
+            parseSkybox: true,
         });
         const map = await parser.parseMap(mapPath);
 
@@ -136,10 +135,15 @@ app.get('/parse-map/:springName', async (req, res) => {
             'metal.png': map.metalMap!,
             'mini.jpg': map.miniMap!.clone().quality(85)
         };
-        for (const [resource, image] of Object.entries(map.resources ?? {})) {
-            if (image) {
-                images[`res_${resource}.png`] = image;
+        if (map.resources) {
+            for (const [resource, image] of Object.entries(map.resources)) {
+                if (image) {
+                    images[`res_${resource}.png`] = image;
+                }
             }
+        }
+        if (map.skybox) {
+            images['skybox.png'] = map.skybox;
         }
 
         const writePromises = Object.entries(images).map(([fileName, image]) => {
