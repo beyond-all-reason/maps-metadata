@@ -19486,6 +19486,19 @@ suiptWi42AOG8o7p6OHw:
   playerCount: 16
   springName: Sand Crowns 1.0
   startboxesSet:
+    779jgqTPR2reCjxLVWjQ:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 75
+              y: 160
+            - x: 125
+              y: 200
+        - poly:
+            - x: 0
+              y: 75
+            - x: 40
+              y: 130
     Bh9RUgDXcyMZkHgcWmaA:
       maxPlayersPerStartbox: 4
       startboxes:
