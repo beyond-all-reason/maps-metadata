@@ -289,6 +289,7 @@ interface WebsiteMapInfo {
     mapHeightMax: number;
     windMin: number;
     windMax: number;
+    windAvg: number | null;
     tidalStrength: number | null;
     teamCount: number;
     maxPlayers: number;
@@ -325,6 +326,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.mapHeightMax === b.mapHeightMax &&
         a.windMin === b.windMin &&
         a.windMax === b.windMax &&
+        a.windAvg === b.windAvg &&
         a.tidalStrength === b.tidalStrength &&
         a.teamCount === b.teamCount &&
         a.maxPlayers === b.maxPlayers &&
@@ -359,6 +361,7 @@ class WebflowMapInfo {
         this.moreImagesUrl = reqRArr(o['more-images']?.map(i => i.url));
         this.windMin = reqRNum(o['wind-min']);
         this.windMax = reqRNum(o['wind-max']);
+        this.windAvg = optR(o['wind-avg']);
         this.mapHeightMin = reqRNum(o['map-height-min']);
         this.mapHeightMax = reqRNum(o['map-height-max']);
         this.tidalStrength = optR(o['tidal-strength']);
@@ -390,6 +393,7 @@ class WebflowMapInfo {
             'more-images': await pickImages(info.moreImagesUrl, base?.item.fieldData['more-images']),
             'wind-min': info.windMin,
             'wind-max': info.windMax,
+            'wind-avg': info.windAvg,
             'map-height-min': info.mapHeightMin,
             'map-height-max': info.mapHeightMax,
             'tidal-strength': info.tidalStrength,
@@ -456,6 +460,7 @@ async function buildWebflowInfo(
             mapHeightMax: Math.round(derivedInfo.mapHeightMax),
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
+            windAvg: derivedInfo.windAvg ?? null,
             tidalStrength: derivedInfo.tidalStrength ?? null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,

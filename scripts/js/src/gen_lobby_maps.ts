@@ -42,6 +42,7 @@ async function genLobbyMaps(): Promise<string> {
             mapHeight: derivedInfo.height,
             windMin: derivedInfo.windMin,
             windMax: derivedInfo.windMax,
+            windAvg: derivedInfo.windAvg,
             tidalStrength: derivedInfo.tidalStrength,
             filename: mi.filename,
             images: {
