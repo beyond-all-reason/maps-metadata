@@ -501,7 +501,7 @@ async function buildWebflowInfo(
             metalMapUrl: `${imagorUrlBase}filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
             mapTags: derivedInfo.tags,
             mapTerrains: derivedInfo.terrainOrdered,
-            version: derivedInfo.version ?? null,
+            version: derivedInfo.version || null,
             voidWater: derivedInfo.voidWater,
             waterSurfaceColor: meta.mapInfo?.water?.surfaceColor ? rgbFloatToHex(meta.mapInfo.water.surfaceColor) : null,
             waterBaseColor: meta.mapInfo?.water?.baseColor ? rgbFloatToHex(meta.mapInfo.water.baseColor) : null,
