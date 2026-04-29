@@ -29,6 +29,14 @@ import assert from 'node:assert';
 import pLimit, { LimitFunction } from 'p-limit';
 import { getDerivedInfo } from './derived_map_info.js';
 
+// Converts a float RGB array (0.0–1.0 per channel) to a hex color string.
+function rgbFloatToHex(rgb: number[]): string {
+    const r = Math.round(Math.min(1, Math.max(0, rgb[0])) * 255);
+    const g = Math.round(Math.min(1, Math.max(0, rgb[1])) * 255);
+    const b = Math.round(Math.min(1, Math.max(0, rgb[2])) * 255);
+    return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+}
+
 const mapsCacheDir = process.env.MAPS_CACHE_DIR || '.maps-cache'
 
 // ImageHashesCache is a cache from url to image hash so we don't
@@ -298,6 +306,12 @@ interface WebsiteMapInfo {
     metalMapUrl: string;
     mapTags: string[];
     mapTerrains: string[];
+    version: string | null;
+    voidWater: boolean;
+    waterSurfaceColor: string | null;
+    waterBaseColor: string | null;
+    waterMinColor: string | null;
+    waterAbsorb: string | null;
 }
 
 async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Promise<boolean> {
@@ -330,6 +344,12 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.tidalStrength === b.tidalStrength &&
         a.teamCount === b.teamCount &&
         a.maxPlayers === b.maxPlayers &&
+        a.version === b.version &&
+        a.voidWater === b.voidWater &&
+        a.waterSurfaceColor === b.waterSurfaceColor &&
+        a.waterBaseColor === b.waterBaseColor &&
+        a.waterMinColor === b.waterMinColor &&
+        a.waterAbsorb === b.waterAbsorb &&
         isSameRefs(a.mapTags, b.mapTags) &&
         isSameRefs(a.mapTerrains, b.mapTerrains);
 }
@@ -372,6 +392,12 @@ class WebflowMapInfo {
         this.metalMapUrl = reqRStr(o['metal-map']?.url);
         this.mapTags = reqRArr(o['game-tags-ref-2']);
         this.mapTerrains = reqRArr(o['terrain-types']);
+        this.version = optR(o.version);
+        this.voidWater = o['void-water'] ?? false;
+        this.waterSurfaceColor = optR(o['water-lava-color-tint']);
+        this.waterBaseColor = optR(o['water-basecolor']);
+        this.waterMinColor = optR(o['water-min']);
+        this.waterAbsorb = optR(o['water-absorb']);
     }
 
     static async generateFields(info: WebsiteMapInfo, base?: WebflowMapInfo): Promise<WebflowMapFieldsWrite> {
@@ -404,6 +430,12 @@ class WebflowMapInfo {
             'metal-map': await pickImage(info.metalMapUrl, base?.item.fieldData['metal-map']),
             'game-tags-ref-2': info.mapTags,
             'terrain-types': info.mapTerrains,
+            version: info.version,
+            'void-water': info.voidWater,
+            'water-lava-color-tint': info.waterSurfaceColor,
+            'water-basecolor': info.waterBaseColor,
+            'water-min': info.waterMinColor,
+            'water-absorb': info.waterAbsorb,
         };
     }
 }
@@ -469,6 +501,12 @@ async function buildWebflowInfo(
             metalMapUrl: `${imagorUrlBase}filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
             mapTags: derivedInfo.tags,
             mapTerrains: derivedInfo.terrainOrdered,
+            version: derivedInfo.version ?? null,
+            voidWater: derivedInfo.voidWater,
+            waterSurfaceColor: meta.mapInfo?.water?.surfaceColor ? rgbFloatToHex(meta.mapInfo.water.surfaceColor) : null,
+            waterBaseColor: meta.mapInfo?.water?.baseColor ? rgbFloatToHex(meta.mapInfo.water.baseColor) : null,
+            waterMinColor: meta.mapInfo?.water?.minColor ? rgbFloatToHex(meta.mapInfo.water.minColor) : null,
+            waterAbsorb: meta.mapInfo?.water?.absorb ? meta.mapInfo.water.absorb.join(', ') : null,
         };
 
         // Sanity check because the metadata stuff is using `any` type.

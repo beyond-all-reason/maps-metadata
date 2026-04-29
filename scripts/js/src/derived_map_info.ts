@@ -113,6 +113,8 @@ export function getDerivedInfo(
             orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
         ),
         tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength,
+        version: meta.mapInfo?.version as string | undefined,
+        voidWater: orDefault(meta.mapInfo?.voidWater as boolean | undefined, false),
         tags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
         terrainOrdered: Array.from(map.terrain).sort((a, b) => terrainsOrder.get(a)! - terrainsOrder.get(b)!),
         minPlayerCount: map.minPlayerCount ?? Math.ceil(map.playerCount * 0.6)
@@ -121,6 +123,7 @@ export function getDerivedInfo(
     // Sanity check because the metadata stuff is using `any` type.
     for (const [k, v] of Object.entries(info)) {
         if (k === 'windAvg') continue;
+        if (k === 'version') continue; // version is optional in mapinfo.lua
         if (v === undefined || v === '') {
             throw new Error(`Missing value for map ${map.springName} key ${k}`);
         }
