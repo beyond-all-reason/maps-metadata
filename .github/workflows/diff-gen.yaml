@@ -43,10 +43,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .maps-cache
-          key: maps-cache-cache-v3-diff-${{ github.sha }}
+          key: maps-cache-cache-v2-diff-${{ github.sha }}
           restore-keys: |
-            maps-cache-cache-v3-diff-
-            maps-cache-cache-v3-build-
+            maps-cache-cache-v2-diff-
+            maps-cache-cache-v2-build-
 
       # --- Build at merge base ---
       - name: Checkout merge base
