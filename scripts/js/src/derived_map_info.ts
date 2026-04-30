@@ -49,6 +49,29 @@ function getAvgWind(windMin: number, windMax: number): number | undefined {
     return avgWindTable[windMin]?.[windMax];
 }
 
+// Normalizes a version string: strips leading "v"/"V" prefix, trims whitespace.
+// If mapInfo.version is missing, attempts to extract from springName.
+function extractVersion(mapInfoVersion: string | undefined, springName: string): string | undefined {
+    let version = mapInfoVersion;
+
+    if (!version || version.trim() === '') {
+        // Try to extract version from springName suffix patterns:
+        // "Map Name 1.2.3", "Map_Name_V2", "Map Name v1.0"
+        const match = springName.match(/[_\s][vV]?(\d+(?:\.\d+)*)$/);
+        if (match) {
+            version = match[1];
+        }
+    }
+
+    if (!version || version.trim() === '') {
+        return undefined;
+    }
+
+    // Strip leading v/V prefix
+    version = version.trim().replace(/^[vV]/, '');
+    return version || undefined;
+}
+
 const terrainsOrder = getRowyMapTerrainsOrder();
 
 export function getDerivedInfo(
@@ -113,7 +136,7 @@ export function getDerivedInfo(
             orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
         ),
         tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength,
-        version: meta.mapInfo?.version as string | undefined,
+        version: extractVersion(meta.mapInfo?.version, map.springName),
         voidWater: orDefault(meta.mapInfo?.voidWater as boolean | undefined, false),
         tags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
         terrainOrdered: Array.from(map.terrain).sort((a, b) => terrainsOrder.get(a)! - terrainsOrder.get(b)!),
