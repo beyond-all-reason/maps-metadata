@@ -295,8 +295,6 @@ interface WebsiteMapInfo {
     textureMapUrl: string;
     heightMapUrl: string;
     metalMapUrl: string;
-    normalMapUrl: string | null;
-    skyboxUrl: string | null;
     mapTags: string[];
     mapTerrains: string[];
 }
@@ -310,9 +308,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         sameImages(a.moreImagesUrl, b.moreImagesUrl),
         sameImage(a.textureMapUrl, b.textureMapUrl),
         sameImage(a.heightMapUrl, b.heightMapUrl),
-        sameImage(a.metalMapUrl, b.metalMapUrl),
-        sameImage(a.normalMapUrl, b.normalMapUrl),
-        sameImage(a.skyboxUrl, b.skyboxUrl)
+        sameImage(a.metalMapUrl, b.metalMapUrl)
     ])).every(x => x);
 
     return allImagesSame &&
@@ -371,8 +367,6 @@ class WebflowMapInfo {
         this.textureMapUrl = reqRStr(o['mini-map']?.url);
         this.heightMapUrl = reqRStr(o['height-map']?.url);
         this.metalMapUrl = reqRStr(o['metal-map']?.url);
-        this.normalMapUrl = optR(o['normal-map']?.url);
-        this.skyboxUrl = optR(o.skybox?.url);
         this.mapTags = reqRArr(o['game-tags-ref-2']);
         this.mapTerrains = reqRArr(o['terrain-types']);
     }
@@ -404,8 +398,6 @@ class WebflowMapInfo {
             'mini-map': await pickImage(info.textureMapUrl, base?.item.fieldData['mini-map']),
             'height-map': await pickImage(info.heightMapUrl, base?.item.fieldData['height-map']),
             'metal-map': await pickImage(info.metalMapUrl, base?.item.fieldData['metal-map']),
-            'normal-map': info.normalMapUrl ? await pickImage(info.normalMapUrl, base?.item.fieldData['normal-map']) : null,
-            skybox: info.skyboxUrl ? await pickImage(info.skyboxUrl, base?.item.fieldData.skybox) : null,
             'game-tags-ref-2': info.mapTags,
             'terrain-types': info.mapTerrains,
         };
@@ -470,12 +462,6 @@ async function buildWebflowInfo(
             textureMapUrl: `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/texture.jpg')}`,
             heightMapUrl: `${imagorUrlBase}filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
-            normalMapUrl: meta.extractedFiles.includes('res_detailNormalTex.png')
-                ? `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/res_detailNormalTex.png')}`
-                : null,
-            skyboxUrl: meta.extractedFiles.includes('skybox.png')
-                ? `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/skybox.png')}`
-                : null,
             mapTags: derivedInfo.tags,
             mapTerrains: derivedInfo.terrainOrdered,
         };
