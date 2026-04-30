@@ -127,9 +127,11 @@ app.get('/parse-map/:springName', async (req, res) => {
         });
         const map = await parser.parseMap(mapPath);
 
+        const textureMap = map.textureMapDry ?? map.textureMap!;
         const images: Record<string, Jimp> = {
-            'texture.jpg': map.textureMap!.clone().quality(90),
-            'texture-preview.jpg': map.textureMap!.clone().scaleToFit(600, 600).quality(80),
+            'texture.jpg': textureMap.clone().quality(90),
+            'texture-preview.jpg': textureMap.clone().scaleToFit(600, 600).quality(80),
+            'texture-wet.jpg': map.textureMap!.clone().quality(90),
             'height.png': map.heightMap!,
             'type.png': map.typeMap!,
             'metal.png': map.metalMap!,
