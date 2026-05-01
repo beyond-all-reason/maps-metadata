@@ -312,6 +312,7 @@ interface WebsiteMapInfo {
     waterBaseColor: string | null;
     waterMinColor: string | null;
     waterAbsorb: string | null;
+    startposCode: string | null;
 }
 
 async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Promise<boolean> {
@@ -350,6 +351,7 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         a.waterBaseColor === b.waterBaseColor &&
         a.waterMinColor === b.waterMinColor &&
         a.waterAbsorb === b.waterAbsorb &&
+        a.startposCode === b.startposCode &&
         isSameRefs(a.mapTags, b.mapTags) &&
         isSameRefs(a.mapTerrains, b.mapTerrains);
 }
@@ -398,6 +400,7 @@ class WebflowMapInfo {
         this.waterBaseColor = optR(o['water-basecolor']);
         this.waterMinColor = optR(o['water-min']);
         this.waterAbsorb = optR(o['water-absorb']);
+        this.startposCode = optR(o['startpos-code']);
     }
 
     static async generateFields(info: WebsiteMapInfo, base?: WebflowMapInfo): Promise<WebflowMapFieldsWrite> {
@@ -436,6 +439,7 @@ class WebflowMapInfo {
             'water-basecolor': info.waterBaseColor,
             'water-min': info.waterMinColor,
             'water-absorb': info.waterAbsorb,
+            'startpos-code': info.startposCode,
         };
     }
 }
@@ -507,6 +511,7 @@ async function buildWebflowInfo(
             waterBaseColor: meta.mapInfo?.water?.baseColor ? rgbFloatToHex(meta.mapInfo.water.baseColor) : null,
             waterMinColor: meta.mapInfo?.water?.minColor ? rgbFloatToHex(meta.mapInfo.water.minColor) : null,
             waterAbsorb: meta.mapInfo?.water?.absorb ? meta.mapInfo.water.absorb.join(', ') : null,
+            startposCode: map.startboxesSet ? stringify(map.startboxesSet) : null,
         };
 
         // Sanity check because the metadata stuff is using `any` type.
