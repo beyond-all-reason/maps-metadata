@@ -138,11 +138,12 @@ app.get('/parse-map/:springName', async (req, res) => {
             'mini.jpg': map.miniMap!.clone().quality(85)
         };
         if (map.resources) {
+            const texW = map.textureMap!.getWidth();
+            const texH = map.textureMap!.getHeight();
             for (const [resource, image] of Object.entries(map.resources)) {
                 if (image) {
-                    images[`res_${resource}.jpg`] = image.clone()
-                        .scaleToFit(4096, 4096, Jimp.RESIZE_BICUBIC)
-                        .quality(90);
+                    images[`res_${resource}.png`] = image.clone()
+                        .scaleToFit(texW, texH, Jimp.RESIZE_BICUBIC);
                 }
             }
         }
