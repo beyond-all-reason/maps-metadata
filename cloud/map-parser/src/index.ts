@@ -131,7 +131,7 @@ app.get('/parse-map/:springName', async (req, res) => {
             'texture.jpg': map.textureMap!.clone().quality(90),
             'texture-preview.jpg': map.textureMap!.clone().scaleToFit(600, 600).quality(80),
             'texture-dry.jpg': map.textureMapDry!.clone().quality(90),
-            'texture-dry-preview.jpg': map.textureMapDry!.clone().quality(90),
+            'texture-dry-preview.jpg': map.textureMapDry!.clone().scaleToFit(600, 600).quality(80),
             'height.png': map.heightMap!,
             'type.png': map.typeMap!,
             'metal.png': map.metalMap!,
@@ -143,7 +143,7 @@ app.get('/parse-map/:springName', async (req, res) => {
             for (const [resource, image] of Object.entries(map.resources)) {
                 if (image) {
                     images[`res_${resource}.png`] = image.clone()
-                        .scaleToFit(texW, texH, Jimp.RESIZE_BICUBIC);
+                        .scaleToFit(texW, texH);
                 }
             }
         }
