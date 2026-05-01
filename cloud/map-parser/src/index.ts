@@ -140,7 +140,9 @@ app.get('/parse-map/:springName', async (req, res) => {
         if (map.resources) {
             for (const [resource, image] of Object.entries(map.resources)) {
                 if (image) {
-                    images[`res_${resource}.png`] = image;
+                    images[`res_${resource}.jpg`] = image.clone()
+                        .scaleToFit(4096, 4096, Jimp.RESIZE_BICUBIC)
+                        .quality(90);
                 }
             }
         }
