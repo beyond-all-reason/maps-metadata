@@ -1,14 +1,12 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "commonjs",
-    "lib": ["ES2022"],
-    "strict": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "dist",
-    "sourceMap": true
+    "noEmit": true,
+    "types": ["node", "express"],
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true
   },
   "include": ["src"]
 }

@@ -1,7 +1,6 @@
 import express from 'express';
 import { Storage } from '@google-cloud/storage';
 import { MapParser } from 'spring-map-parser';
-import axios from 'axios';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
@@ -65,19 +64,26 @@ async function isMapArchiveSolid(archivePath: string): Promise<boolean> {
 }
 
 async function downloadMap(springName: string, destination: string): Promise<string | null> {
-    const response = await axios.get(`https://files-cdn.beyondallreason.dev/find?category=map&springname=${encodeURIComponent(springName)}`);
+    const findResponse = await fetch(`https://files-cdn.beyondallreason.dev/find?category=map&springname=${encodeURIComponent(springName)}`);
+    if (!findResponse.ok) {
+        throw new Error(`Failed to find map "${springName}": ${findResponse.status} ${findResponse.statusText}`);
+    }
+    const findData = await findResponse.json() as Array<{ mirrors: string[], filename: string }>;
 
-    if (response.data.length === 0) {
+    if (findData.length === 0) {
         return null;
     }
 
-    const mapUrl = response.data[0].mirrors[0];
-    const fileName = path.join(destination, response.data[0].filename);
+    const mapUrl = findData[0].mirrors[0];
+    const fileName = path.join(destination, findData[0].filename);
 
-    const { data: mapData } = await axios.get<Readable>(mapUrl, { responseType: 'stream' });
+    const mapResponse = await fetch(mapUrl);
+    if (!mapResponse.ok) {
+        throw new Error(`Failed to download map from "${mapUrl}": ${mapResponse.status} ${mapResponse.statusText}`);
+    }
     const mapFile = await fs.open(fileName, 'w');
     try {
-        await stream.pipeline(mapData, mapFile.createWriteStream());
+        await stream.pipeline(Readable.fromWeb(mapResponse.body!), mapFile.createWriteStream());
     } finally {
         await mapFile.close();
     }

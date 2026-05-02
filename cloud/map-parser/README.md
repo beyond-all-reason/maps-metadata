@@ -11,7 +11,7 @@ To run the application locally, and write files to local disk and not GCS Bucket
 ```
 $ npm install
 $ export BUCKET=local
-$ npm run dev
+$ npm run start
 ```
 
 Then call like:
