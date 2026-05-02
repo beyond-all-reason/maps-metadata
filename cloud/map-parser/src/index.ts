@@ -28,7 +28,7 @@ const publicUrlBase = process.env.PUBLIC_URL || `https://storage.googleapis.com/
 const storage = new Storage();
 
 // Must change this value when making incompatible change to the cache.
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 
 async function is7zArchiveSolid(archivePath: string): Promise<boolean> {
     const { stdout } = await execFile(
@@ -121,29 +121,38 @@ app.get('/parse-map/:springName', async (req, res) => {
             verbose: true,
             mipmapSize: 16,
             skipSmt: false,
-            // For now skip parsing resources, we will enable it once we better
-            // know what kind of formats are useful for export as raw files
-            // are just massive and not that usefull in cache.
-            parseResources: false,
+            parseResources: true,
+            resources: ['detailNormalTex', 'specularTex'],
+            parseSkybox: true,
         });
         const map = await parser.parseMap(mapPath);
 
         const images: Record<string, Jimp> = {
             'texture.jpg': map.textureMap!.clone().quality(90),
             'texture-preview.jpg': map.textureMap!.clone().scaleToFit(600, 600).quality(80),
+            'texture-dry.jpg': map.textureMapDry!.clone().quality(90),
+            'texture-dry-preview.jpg': map.textureMapDry!.clone().scaleToFit(600, 600).quality(80),
             'height.png': map.heightMap!,
             'type.png': map.typeMap!,
             'metal.png': map.metalMap!,
             'mini.jpg': map.miniMap!.clone().quality(85)
         };
-        for (const [resource, image] of Object.entries(map.resources ?? {})) {
-            if (image) {
-                images[`res_${resource}.png`] = image;
+        if (map.resources) {
+            const texW = map.textureMap!.getWidth();
+            const texH = map.textureMap!.getHeight();
+            for (const [resource, image] of Object.entries(map.resources)) {
+                if (image) {
+                    images[`res_${resource}.png`] = image.clone()
+                        .scaleToFit(texW, texH);
+                }
             }
+        }
+        if (map.skybox) {
+            images['skybox.png'] = map.skybox;
         }
 
         const writePromises = Object.entries(images).map(([fileName, image]) => {
-            return image.writeAsync(path.join(tempDir, fileName));  
+            return image.writeAsync(path.join(tempDir, fileName));
         });
         await Promise.all(writePromises);
 
