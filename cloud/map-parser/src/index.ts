@@ -122,48 +122,72 @@ app.get('/parse-map/:springName', async (req, res) => {
 
         const isArchiveSolid = await isMapArchiveSolid((mapPath));
 
-        // Parse map
-        const parser = new MapParser({
+        const map = await new MapParser({
             verbose: true,
             mipmapSize: 16,
             skipSmt: false,
             parseResources: true,
             resources: ['detailNormalTex', 'specularTex'],
             parseSkybox: true,
-        });
-        const map = await parser.parseMap(mapPath);
+        }).parseMap(mapPath);
 
-        const images: Record<string, Jimp> = {
-            'texture.jpg': map.textureMap!.clone().quality(90),
-            'texture-preview.jpg': map.textureMap!.clone().scaleToFit(600, 600).quality(80),
-            'texture-dry.jpg': map.textureMapDry!.clone().quality(90),
-            'texture-dry-preview.jpg': map.textureMapDry!.clone().scaleToFit(600, 600).quality(80),
-            'height.png': map.heightMap!,
-            'type.png': map.typeMap!,
-            'metal.png': map.metalMap!,
-            'mini.jpg': map.miniMap!.clone().quality(85)
+        // Write images sequentially to limit peak memory usage.
+        // Large textures are written first, then destructively scaled for
+        // previews so the full-resolution buffer can be garbage-collected.
+        const extractedFiles: string[] = [];
+
+        const writeImage = async (fileName: string, image: Jimp): Promise<void> => {
+            await image.writeAsync(path.join(tempDir, fileName));
+            extractedFiles.push(fileName);
         };
+
+        // Capture texture dimensions before any destructive scaling
+        const texW = map.textureMap!.getWidth();
+        const texH = map.textureMap!.getHeight();
+
+        // Texture map (largest images)
+        await writeImage('texture.jpg', map.textureMap!.quality(90));
+        await writeImage('texture-preview.jpg', map.textureMap!.scaleToFit(600, 600).quality(80));
+
+        // Dry texture (without water overlay)
+        await writeImage('texture-dry.jpg', map.textureMapDry!.quality(90));
+        await writeImage('texture-dry-preview.jpg', map.textureMapDry!.scaleToFit(600, 600).quality(80));
+
+        // Smaller maps can be written in parallel
+        await Promise.all([
+            writeImage('height.png', map.heightMap!),
+            writeImage('type.png', map.typeMap!),
+            writeImage('metal.png', map.metalMap!),
+            writeImage('mini.jpg', map.miniMap!.quality(85)),
+        ]);
+
+        // Resource images — scale down to fit texture dimensions but never upscale
         if (map.resources) {
-            const texW = map.textureMap!.getWidth();
-            const texH = map.textureMap!.getHeight();
-            for (const [resource, image] of Object.entries(map.resources)) {
+            for (const [resource, image] of Object.entries(map.resources) as [string, Jimp | undefined][]) {
                 if (image) {
-                    images[`res_${resource}.png`] = image.clone()
-                        .scaleToFit(texW, texH);
+                    try {
+                        if (image.getWidth() > texW || image.getHeight() > texH) {
+                            image.scaleToFit(texW, texH);
+                        }
+                        await writeImage(`res_${resource}.png`, image);
+                    } catch (err) {
+                        console.warn(`Failed to write resource ${resource}:`, err);
+                    }
                 }
             }
         }
+
+        // Skybox
         if (map.skybox) {
-            images['skybox.png'] = map.skybox;
+            try {
+                await writeImage('skybox.png', map.skybox);
+            } catch (err) {
+                console.warn(`Failed to write skybox:`, err);
+            }
         }
 
-        const writePromises = Object.entries(images).map(([fileName, image]) => {
-            return image.writeAsync(path.join(tempDir, fileName));
-        });
-        await Promise.all(writePromises);
-
         if (bucketName !== 'local') {
-            const uploadPromises = Object.keys(images).map(fileName => {
+            const uploadPromises = extractedFiles.map(fileName => {
                 const filePath = path.join(tempDir, fileName);
                 return storage.bucket(bucketName).upload(filePath, { destination: `${baseBucketPath}/${fileName}` });
             });
@@ -190,7 +214,7 @@ app.get('/parse-map/:springName', async (req, res) => {
             smd: map.smd,
             smf: smfCopy,
             cacheVersion: CACHE_VERSION,
-            extractedFiles: Object.keys(images)
+            extractedFiles
         };
 
         const metadataPath = path.join(tempDir, 'metadata.json');

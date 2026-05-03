@@ -18,7 +18,7 @@ Then call like:
 
 ```
 $ curl 'http://localhost:8080/parse-map/Neurope_Remake%204.2'
-{"message":"Cache generated.","bucket":"local","path":"/tmp/parse-map-OMW6tw","baseUrl":"https://storage.googleapis.com/local/Aberdeen3v3v3/cache-v2"}
+{"message":"Cache generated.","bucket":"local","path":"/tmp/parse-map-OMW6tw","baseUrl":"https://storage.googleapis.com/local/Aberdeen3v3v3/cache-v3"}
 ```
 
 and in `path` property (`/tmp/parse-map-OMW6tw` in example) you will have result of parsing.
