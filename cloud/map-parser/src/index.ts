@@ -165,25 +165,17 @@ app.get('/parse-map/:springName', async (req, res) => {
         if (map.resources) {
             for (const [resource, image] of Object.entries(map.resources) as [string, Jimp | undefined][]) {
                 if (image) {
-                    try {
-                        if (image.getWidth() > texW || image.getHeight() > texH) {
-                            image.scaleToFit(texW, texH);
-                        }
-                        await writeImage(`res_${resource}.png`, image);
-                    } catch (err) {
-                        console.warn(`Failed to write resource ${resource}:`, err);
+                    if (image.getWidth() > texW || image.getHeight() > texH) {
+                        image.scaleToFit(texW, texH);
                     }
+                    await writeImage(`res_${resource}.png`, image);
                 }
             }
         }
 
         // Skybox
         if (map.skybox) {
-            try {
-                await writeImage('skybox.png', map.skybox);
-            } catch (err) {
-                console.warn(`Failed to write skybox:`, err);
-            }
+            await writeImage('skybox.png', map.skybox);
         }
 
         if (bucketName !== 'local') {
