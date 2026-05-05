@@ -38,9 +38,26 @@ const HEADER = `#
 #?mapName:nbTeams|boxes
 `;
 
+// SPADS only understands rectangles in mapBoxes.conf (the format is
+// "x1 y1 x2 y2" per startbox). Collapse N-point polygons to their
+// bounding-box rectangle so the conf file stays valid; the polygon shape
+// is preserved in the map archive's mapconfig/map_startboxes.lua and
+// consumed game-side.
+function polyToRectCorners(poly: Startbox['poly']): { x: number; y: number }[] {
+    if (poly.length === 2) return poly;
+    let xmin = Infinity, ymin = Infinity, xmax = -Infinity, ymax = -Infinity;
+    for (const p of poly) {
+        if (p.x < xmin) xmin = p.x;
+        if (p.x > xmax) xmax = p.x;
+        if (p.y < ymin) ymin = p.y;
+        if (p.y > ymax) ymax = p.y;
+    }
+    return [{ x: xmin, y: ymin }, { x: xmax, y: ymax }];
+}
+
 function serializeStartboxes(startboxes: Startbox[]): string {
     return startboxes
-        .map(s => s.poly.map(p => `${p.x} ${p.y}`).join(' '))
+        .map(s => polyToRectCorners(s.poly).map(p => `${p.x} ${p.y}`).join(' '))
         .join(';');
 }
 

@@ -19,10 +19,28 @@ for (const map of Object.values(maps)) {
         players.add(startboxes.length);
 
         for (const startbox of startboxes) {
-            const [a, b] = startbox.poly;
-            if (a.x >= b.x || a.y >= b.y) {
-                console.error(`Map ${map.springName} has a startbox for players ${startboxes.length} with invalid coordinates: ${JSON.stringify(startbox)}`);
-                error = true;
+            const poly = startbox.poly;
+            if (poly.length === 2) {
+                // Legacy 2-point rectangle: top-left and bottom-right corners.
+                const [a, b] = poly;
+                if (a.x >= b.x || a.y >= b.y) {
+                    console.error(`Map ${map.springName} has a startbox for players ${startboxes.length} with invalid rectangle coordinates: ${JSON.stringify(startbox)}`);
+                    error = true;
+                }
+            } else {
+                // N-point polygon: require non-degenerate area. Self-intersection
+                // and concavity are not checked here — both are valid shapes for
+                // game-side containment, which uses ray-casting.
+                let area2 = 0;
+                for (let i = 0; i < poly.length; i++) {
+                    const a = poly[i];
+                    const b = poly[(i + 1) % poly.length];
+                    area2 += a.x * b.y - b.x * a.y;
+                }
+                if (Math.abs(area2) < 1) {
+                    console.error(`Map ${map.springName} has a degenerate polygon startbox for players ${startboxes.length}: ${JSON.stringify(startbox)}`);
+                    error = true;
+                }
             }
         }
 

@@ -7,6 +7,37 @@ import type {
   TeiserverMaps,
 } from "../../../gen/types/teiserver_maps.js";
 import { MapModoptions } from '../../../gen/types/map_modoptions.js';
+import type { StartboxesInfo } from '../../../gen/types/map_list.js';
+
+// TEIServer's data model and Tachyon protocol only carry axis-aligned
+// rectangles ({top, bottom, left, right} in [0,1] coords). When a map ships
+// an N-point polygon (or a Catmull-Rom spline) startbox, collapse it to its
+// bounding-box rectangle here so TEIServer keeps validating without a
+// schema change on its side. The polygon shape is preserved in the map
+// archive's mapconfig/map_startboxes.lua and consumed game-side.
+function rectifyStartboxes(set: StartboxesInfo[]): StartboxesInfo[] {
+  return set.map(info => ({
+    ...info,
+    // The cast covers two unrelated narrowing issues:
+    //   1) json2ts renders `minItems: 1` as a non-empty tuple
+    //      `[Startbox, ...Startbox[]]`, but `.map()` returns plain `Startbox[]`.
+    //   2) json2ts renders `minItems: 2 / maxItems: 2` as a tuple too, and the
+    //      array literal `[{x,y},{x,y}]` widens to `{x,y}[]` rather than the
+    //      tuple shape, so the `oneOf` rect branch wouldn't match without help.
+    // The runtime shape is correct in both cases; we just bypass the inference.
+    startboxes: info.startboxes.map(box => {
+      if (box.poly.length === 2) return box;
+      let xmin = Infinity, ymin = Infinity, xmax = -Infinity, ymax = -Infinity;
+      for (const p of box.poly) {
+        if (p.x < xmin) xmin = p.x;
+        if (p.x > xmax) xmax = p.x;
+        if (p.y < ymin) ymin = p.y;
+        if (p.y > ymax) ymax = p.y;
+      }
+      return { poly: [{ x: xmin, y: ymin }, { x: xmax, y: ymax }] };
+    }) as StartboxesInfo['startboxes']
+  }));
+}
 
 const imagorUrlBase = 'https://maps-metadata.beyondallreason.dev/i/';
 const rowyBucket = 'rowy-1f075.appspot.com';
@@ -39,7 +70,7 @@ async function genTeiserverMaps(): Promise<string> {
       springName: map.springName,
       displayName: map.displayName,
       thumbnail: `${imagorUrlBase}fit-in/640x640/filters:format(webp):quality(85)/${rowyBucket}/${encodeURI(map.photo[0].ref)}`,
-      startboxesSet: Object.values(map.startboxesSet || {}),
+      startboxesSet: rectifyStartboxes(Object.values(map.startboxesSet || {})),
       matchmakingQueues,
       modoptions: mapModoptions[map.springName]
     });
