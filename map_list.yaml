@@ -8290,7 +8290,7 @@ QaENCgzeDrnkRnRsgnVT:
     - hills
     - island
 QlanwpEXsYOy3ZYYp3iu:
-  author: IceXuick
+  author: Hunterw, IceXuick
   backgroundImage:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FbackgroundImage%2FJ7ILQcYfUOYsowZzpZBl-Tabula_Remake_SEO%202-tinified.jpg?alt=media&token=0ecbb770-7d89-4949-9f02-81c5ff61f3b5
       lastModifiedTS: 1639055468523
@@ -8319,6 +8319,7 @@ QlanwpEXsYOy3ZYYp3iu:
       ref: maps/QlanwpEXsYOy3ZYYp3iu/inGameShots/bEPhnOCYdCRmh1x1byDa-Tabula_Remake_SEO 2-tinified.jpg
       type: image/jpeg
   inPool: true
+  mapLists: []
   minPlayerCount: 6
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FQlanwpEXsYOy3ZYYp3iu%2FperspectiveShot%2F1HJobkop94AnnS8eWOak-Tabula_Remake_3D-tinified%20(Large).png?alt=media&token=09971179-543e-4b96-9feb-2f88ecc80fa2
@@ -8333,7 +8334,7 @@ QlanwpEXsYOy3ZYYp3iu:
       ref: maps/QlanwpEXsYOy3ZYYp3iu/photo/EG9ZHJ3p3xQjqvMGX98W-Tabula_Remake_1.5.jpg
       type: image/jpeg
   playerCount: 8
-  springName: Tabula_Remake 1.5
+  springName: Tabula_Remake 1.5.1
   startboxesSet:
     dMAKL9b5WCZRYcP4TbiI:
       maxPlayersPerStartbox: 4
