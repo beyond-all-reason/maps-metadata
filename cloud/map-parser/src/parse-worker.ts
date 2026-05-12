@@ -111,6 +111,9 @@ async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<P
     }).parseMap(mapPath);
     console.log('Parsing map done');
 
+    // Cleanup map file as it's not needed anymore and wastes ram.
+    await fs.rm(mapPath);
+
     // Write images sequentially to limit peak memory usage.
     // Large textures are written first, then destructively scaled for
     // previews so the full-resolution buffer can be garbage-collected.
