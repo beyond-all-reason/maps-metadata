@@ -107,6 +107,7 @@ async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<P
         parseResources: true,
         resources: ['detailNormalTex', 'specularTex'],
         parseSkybox: true,
+        tmpDir: path.join(tempDir, 'extract'),
     }).parseMap(mapPath);
     console.log('Parsing map done');
 

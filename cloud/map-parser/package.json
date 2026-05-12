@@ -17,7 +17,7 @@
     "express": "^5.2.1",
     "jimp": "^0.22.7",
     "piscina": "^5.1.4",
-    "spring-map-parser": "^6.4.1"
+    "spring-map-parser": "^6.4.2"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
