@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node ./src/index.ts",
-    "build": "tsc"
+    "typecheck": "tsc"
   },
   "keywords": [],
   "author": "BAR Developers",
@@ -16,7 +16,8 @@
     "7zip-bin": "5.1.1",
     "express": "^5.2.1",
     "jimp": "^0.22.7",
-    "spring-map-parser": "^6.4.0"
+    "piscina": "^5.1.4",
+    "spring-map-parser": "^6.4.2"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",

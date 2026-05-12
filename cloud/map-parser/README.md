@@ -33,6 +33,6 @@ gcloud run deploy --project=rowy-1f075 map-parser \
   --image=europe-west1-docker.pkg.dev/rowy-1f075/main/map-parser:latest \
   --region=europe-west1 \
   --service-account=rowy-functions@rowy-1f075.iam.gserviceaccount.com \
-  --memory=1Gi --cpu=1 --concurrency=2 --allow-unauthenticated \
+  --memory=8Gi --cpu=2 --concurrency=2 --allow-unauthenticated \
   --set-env-vars=BUCKET=maps-cache-8512
 ```
