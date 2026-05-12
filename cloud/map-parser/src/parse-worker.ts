@@ -8,20 +8,13 @@ import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
 import sevenBin from '7zip-bin';
 import Jimp from 'jimp';
-import { CACHE_VERSION } from './shared.ts';
+import { CACHE_VERSION, checkCached } from './shared.ts';
 import type { ParseResult, WorkerInput } from './shared.ts';
 
 const execFile = promisify(child_process.execFile);
 
 const storage = new Storage();
 const bucketName: string = process.env.BUCKET!;
-
-async function checkCached(springName: string): Promise<boolean> {
-    if (bucketName === 'local') return false;
-    const baseBucketPath = `${springName}/cache-${CACHE_VERSION}`;
-    const [exists] = await storage.bucket(bucketName).file(`${baseBucketPath}/metadata.json`).exists();
-    return exists;
-}
 
 async function is7zArchiveSolid(archivePath: string): Promise<boolean> {
     const { stdout } = await execFile(sevenBin.path7za, ['l', '-x!*', archivePath]);
@@ -85,7 +78,7 @@ async function downloadMap(springName: string, destination: string): Promise<str
 async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<ParseResult> {
     // Re-check cache: while this task was queued (potentially minutes behind
     // an in-flight parse), another instance may have populated the bucket.
-    if (await checkCached(springName)) {
+    if (await checkCached(storage, bucketName, springName)) {
         return { status: 'cached' };
     }
 

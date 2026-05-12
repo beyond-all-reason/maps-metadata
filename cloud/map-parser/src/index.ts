@@ -4,7 +4,7 @@ import { Piscina } from 'piscina';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
-import { CACHE_VERSION } from './shared.ts';
+import { CACHE_VERSION, checkCached } from './shared.ts';
 import type { ParseResult, WorkerInput } from './shared.ts';
 
 const app = express();
@@ -52,13 +52,6 @@ const pool = new Piscina({
 // into skipQueue, which is unbounded), so we track in-flight requests here.
 let inFlight = 0;
 
-async function checkCached(springName: string): Promise<boolean> {
-    if (bucketName === 'local') return false;
-    const baseBucketPath = `${springName}/cache-${CACHE_VERSION}`;
-    const [exists] = await storage.bucket(bucketName).file(`${baseBucketPath}/metadata.json`).exists();
-    return exists;
-}
-
 app.get('/parse-map/:springName', async (req, res) => {
     const springName = req.params.springName;
     const baseBucketPath = `${springName}/cache-${CACHE_VERSION}`;
@@ -79,7 +72,7 @@ app.get('/parse-map/:springName', async (req, res) => {
         // Fast-path: skip the queue entirely if the cache is already populated.
         // Runs on the main thread so cached requests are served while a parse
         // is in flight in the worker.
-        if (await checkCached(springName)) {
+        if (await checkCached(storage, bucketName, springName)) {
             res.status(200).json({ message: 'Cache found.', ...baseOkRes });
             return;
         }
