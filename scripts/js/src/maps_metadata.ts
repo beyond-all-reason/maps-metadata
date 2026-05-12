@@ -47,7 +47,7 @@ async function downloadFile(bucket: string, filePath: string, outputPath: string
 }
 
 function loadMapLocationCache(): Map<string, MapLocation> {
-    const mapLocationCacheVersion = 1;
+    const mapLocationCacheVersion = 2;
     mkdirSync(mapsCacheDir, { recursive: true });
     const locationCachePath = path.join(mapsCacheDir, 'mapLocationCache.json');
 

@@ -31,9 +31,9 @@ runs:
       if: ${{ !env.ACT }}
       with:
         path: .maps-cache
-        key: maps-cache-cache-v2-${{ inputs.cache-name }}-${{ github.sha }}
+        key: maps-cache-cache-v3-${{ inputs.cache-name }}-${{ github.sha }}
         restore-keys: |
-          maps-cache-cache-v2-${{ inputs.cache-name }}-
+          maps-cache-cache-v3-${{ inputs.cache-name }}-
     - name: Install dependencies
       shell: bash
       run: ./scripts/install.sh
