@@ -16,6 +16,7 @@
     "7zip-bin": "5.1.1",
     "express": "^5.2.1",
     "jimp": "^0.22.7",
+    "piscina": "^5.1.4",
     "spring-map-parser": "^6.4.1"
   },
   "devDependencies": {
