@@ -500,7 +500,7 @@ async function buildWebflowInfo(
             tidalStrength: derivedInfo.tidalStrength ?? null,
             teamCount: map.teamCount,
             maxPlayers: map.playerCount,
-            textureMapUrl: `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/texture.jpg')}`,
+            textureMapUrl: `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/texture-dry.jpg')}`,
             heightMapUrl: `${imagorUrlBase}filters:format(webp):lossless():quality(100)/${meta.location.bucket}/${encodeURI(meta.location.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}filters:format(webp):lossless():quality(100)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
             mapTags: derivedInfo.tags,
