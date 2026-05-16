@@ -102,6 +102,22 @@ async function getMapFilePath(springName: string, fileName: string): Promise<[st
     return [cachePath, location];
 }
 
+function lowerKeys(value: any): any {
+    if (Array.isArray(value)) {
+        return value.map(lowerKeys);
+    }
+    if (value !== null && typeof value === 'object') {
+        const result: Record<string, any> = {};
+        for (const [k, v] of Object.entries(value)) {
+            const lk = k.toLowerCase();
+            if (lk in result) continue;
+            result[lk] = lowerKeys(v);
+        }
+        return result;
+    }
+    return value;
+}
+
 export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>> {
     const limit = pLimit(10);
     // Don't fetch maps metadata from multiple processes in parallel, which happens
@@ -124,6 +140,10 @@ export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>
                 throw new Error('This should never happen, key conflict!');
             }
             meta.location = location;
+            // We lower keys, because in Recoil engine, the keys are case insensitive in mapinfo..
+            if (meta.mapInfo) {
+                meta.mapInfo = lowerKeys(meta.mapInfo);
+            }
             return [id, meta];
         }));
         return new Map(await Promise.all(metadata));
