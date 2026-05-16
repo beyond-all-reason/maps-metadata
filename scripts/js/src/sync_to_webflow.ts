@@ -507,9 +507,9 @@ async function buildWebflowInfo(
             mapTerrains: derivedInfo.terrainOrdered,
             version: derivedInfo.version || null,
             voidWater: derivedInfo.voidWater,
-            waterSurfaceColor: meta.mapInfo?.water?.surfaceColor ? rgbFloatToHex(meta.mapInfo.water.surfaceColor) : null,
-            waterBaseColor: meta.mapInfo?.water?.baseColor ? rgbFloatToHex(meta.mapInfo.water.baseColor) : null,
-            waterMinColor: meta.mapInfo?.water?.minColor ? rgbFloatToHex(meta.mapInfo.water.minColor) : null,
+            waterSurfaceColor: meta.mapInfo?.water?.surfacecolor ? rgbFloatToHex(meta.mapInfo.water.surfacecolor) : null,
+            waterBaseColor: meta.mapInfo?.water?.basecolor ? rgbFloatToHex(meta.mapInfo.water.basecolor) : null,
+            waterMinColor: meta.mapInfo?.water?.mincolor ? rgbFloatToHex(meta.mapInfo.water.mincolor) : null,
             waterAbsorb: meta.mapInfo?.water?.absorb ? meta.mapInfo.water.absorb.join(', ') : null,
             startposCode: map.startboxesSet ? stringify(map.startboxesSet) : null,
         };

@@ -129,15 +129,15 @@ export function getDerivedInfo(
         mapHeightMin: meta.minHeight,
         mapHeightMax: meta.maxHeight,
         // Defaults from spring/cont/base/maphelper/maphelper/mapdefaults.lua
-        windMin: orDefault('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind, 5),
-        windMax: orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
+        windMin: orDefault('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minwind, 5),
+        windMax: orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxwind, 25),
         windAvg: getAvgWind(
-            orDefault('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minWind, 5),
-            orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxWind, 25),
+            orDefault('smd' in meta ? meta.smd.minWind : meta.mapInfo.atmosphere.minwind, 5),
+            orDefault('smd' in meta ? meta.smd.maxWind : meta.mapInfo.atmosphere.maxwind, 25),
         ),
-        tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalStrength,
+        tidalStrength: 'smd' in meta ? meta.smd.tidalStrength : meta.mapInfo.tidalstrength,
         version: extractVersion(meta.mapInfo?.version, map.springName),
-        voidWater: orDefault(meta.mapInfo?.voidWater as boolean | undefined, false),
+        voidWater: orDefault(meta.mapInfo?.voidwater as boolean | undefined, false),
         tags: Array.from(mapTags).sort((a, b) => tagsOrder.get(a)! - tagsOrder.get(b)!),
         terrainOrdered: Array.from(map.terrain).sort((a, b) => terrainsOrder.get(a)! - terrainsOrder.get(b)!),
         minPlayerCount: map.minPlayerCount ?? Math.ceil(map.playerCount * 0.6)
