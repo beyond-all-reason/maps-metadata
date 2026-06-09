@@ -18432,14 +18432,14 @@ qTLInrgvg9m3tXyqPbLy:
       maxPlayersPerStartbox: 2
       startboxes:
         - poly:
-            - x: 52
+            - x: 58
               y: 0
-            - x: 143
-              y: 34
+            - x: 142
+              y: 26
         - poly:
-            - x: 52
-              y: 166
-            - x: 143
+            - x: 58
+              y: 174
+            - x: 142
               y: 200
   teamCount: 2
   terrain:
