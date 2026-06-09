@@ -18377,6 +18377,78 @@ pzZ5zAyferpDePxtC2hG:
     - hills
     - sea
     - wasteland
+qTLInrgvg9m3tXyqPbLy:
+  author: Moose, Beherith
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FbackgroundImage%2F2YDzHsAORndDdGpMpSoE-screen_2026-06-08_22-18-12-861.png?alt=media&token=dadcd929-5827-4835-ab60-a87a0d6211ed
+      lastModifiedTS: 1780957093357
+      name: screen_2026-06-08_22-18-12-861.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/backgroundImage/2YDzHsAORndDdGpMpSoE-screen_2026-06-08_22-18-12-861.png
+      type: image/png
+  certified: true
+  description: Close quarters combat over grassy plateaus and cliffs. 1v1 - 2v2 N vs S.
+  displayName: Vittra
+  gameType:
+    - team
+    - 1v1
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FinGameShots%2FGw05KMKh7qqSAPWZdO46-screen_2026-06-08_22-18-00-675.png?alt=media&token=f3830e8a-80f0-4b96-bb3a-3adc0b3ddea6
+      lastModifiedTS: 1780957081603
+      name: screen_2026-06-08_22-18-00-675.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/inGameShots/Gw05KMKh7qqSAPWZdO46-screen_2026-06-08_22-18-00-675.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FinGameShots%2Fo0I5sorEgIR4LAU6kOuF-screen_2026-06-08_22-17-16-735.png?alt=media&token=b1779208-1705-498b-85da-ab6e2c2b2981
+      lastModifiedTS: 1780957037296
+      name: screen_2026-06-08_22-17-16-735.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/inGameShots/o0I5sorEgIR4LAU6kOuF-screen_2026-06-08_22-17-16-735.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FinGameShots%2FymsF9jYv3GkvialBBFiV-screen_2026-06-08_22-17-48-221.png?alt=media&token=9eff32c1-220e-445d-82c8-09f5895a7d37
+      lastModifiedTS: 1780957068751
+      name: screen_2026-06-08_22-17-48-221.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/inGameShots/ymsF9jYv3GkvialBBFiV-screen_2026-06-08_22-17-48-221.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FinGameShots%2FuPVW2ObsMA0QOG5dmZ8h-screen_2026-06-08_22-17-31-343.png?alt=media&token=ce3baa2e-5fba-45f3-a5d1-73d7efb13a27
+      lastModifiedTS: 1780957051791
+      name: screen_2026-06-08_22-17-31-343.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/inGameShots/uPVW2ObsMA0QOG5dmZ8h-screen_2026-06-08_22-17-31-343.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2FinGameShots%2F0vUmgYeXaM7DNmJyzv2j-screen_2026-06-08_22-16-59-931.png?alt=media&token=feaa5c93-fbac-4f7a-8112-3bc0495ae292
+      lastModifiedTS: 1780957020556
+      name: screen_2026-06-08_22-16-59-931.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/inGameShots/0vUmgYeXaM7DNmJyzv2j-screen_2026-06-08_22-16-59-931.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 2
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FqTLInrgvg9m3tXyqPbLy%2Fphoto%2FCjP9Qy1KmTml5hedZyR2-vittramini.png?alt=media&token=1b0894f0-b602-415d-ad6e-ea5ecf0293f7
+      lastModifiedTS: 1781032097039
+      name: vittramini.png
+      ref: maps/qTLInrgvg9m3tXyqPbLy/photo/CjP9Qy1KmTml5hedZyR2-vittramini.png
+      type: image/png
+  playerCount: 4
+  springName: Vittra 3
+  startboxesSet:
+    nMLtZE0I8ulmlLWP88LZ:
+      maxPlayersPerStartbox: 2
+      startboxes:
+        - poly:
+            - x: 52
+              y: 0
+            - x: 143
+              y: 34
+        - poly:
+            - x: 52
+              y: 166
+            - x: 143
+              y: 200
+  teamCount: 2
+  terrain:
+    - chokepoints
+    - forests
+    - grassy
+    - hills
+    - shallows
+  title: Spirits of the forest
 qrpwI83FonOR43KTBxZE:
   author: RebelNode
   backgroundImage:
