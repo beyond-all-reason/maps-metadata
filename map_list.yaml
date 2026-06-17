@@ -13922,7 +13922,7 @@ cQbwmwbhWrWyD1bhZNEn:
   displayName: Jade Empress
   gameType:
     - team
-  inPool: true
+  inPool: false
   mapLists:
     - WaterMapPool
   minPlayerCount: 16
