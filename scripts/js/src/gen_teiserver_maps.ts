@@ -13,8 +13,10 @@ import type { StartboxesInfo } from '../../../gen/types/map_list.js';
 // rectangles ({top, bottom, left, right} in [0,1] coords). When a map ships
 // an N-point polygon (or a Catmull-Rom spline) startbox, collapse it to its
 // bounding-box rectangle here so TEIServer keeps validating without a
-// schema change on its side. The polygon shape is preserved in the map
-// archive's mapconfig/map_startboxes.lua and consumed game-side.
+// schema change on its side. The full polygon shape is preserved in the
+// mapmetadata_startboxes_set modoption (see gen_map_modoptions.ts) and
+// decoded game-side; this rectified copy is only the rect-only view for
+// TEIServer/Tachyon.
 function rectifyStartboxes(set: StartboxesInfo[]): StartboxesInfo[] {
   return set.map(info => ({
     ...info,

@@ -40,9 +40,9 @@ const HEADER = `#
 
 // SPADS only understands rectangles in mapBoxes.conf (the format is
 // "x1 y1 x2 y2" per startbox). Collapse N-point polygons to their
-// bounding-box rectangle so the conf file stays valid; the polygon shape
-// is preserved in the map archive's mapconfig/map_startboxes.lua and
-// consumed game-side.
+// bounding-box rectangle so the conf file stays valid; the full polygon
+// shape is preserved in the mapmetadata_startboxes_set modoption (see
+// gen_map_modoptions.ts) and decoded game-side.
 function polyToRectCorners(poly: Startbox['poly']): { x: number; y: number }[] {
     if (poly.length === 2) return poly;
     let xmin = Infinity, ymin = Infinity, xmax = -Infinity, ymax = -Infinity;
