@@ -13920,9 +13920,8 @@ cQbwmwbhWrWyD1bhZNEn:
   certified: true
   description: Huge island battlefield to fight on the mountains, beaches, grassland, and sea.
   displayName: Jade Empress
-  gameType:
-    - team
-  inPool: false
+  gameType: []
+  inPool: true
   mapLists:
     - WaterMapPool
   minPlayerCount: 16
