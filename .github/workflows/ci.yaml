@@ -88,6 +88,7 @@ jobs:
           tsx scripts/js/src/update_byar_chobby_images.ts BYAR-Chobby
           cp gen/mapDetails.lua BYAR-Chobby/LuaMenu/configs/gameConfig/byar/mapDetails.lua
           cp gen/mapBoxes.conf BYAR-Chobby/LuaMenu/configs/gameConfig/byar/savedBoxes.dat
+          cp gen/lobby_maps.validated.json BYAR-Chobby/LuaMenu/configs/gameConfig/byar/lobby_maps.validated.json
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
