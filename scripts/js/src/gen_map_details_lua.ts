@@ -4,6 +4,7 @@ import { fetchMapsMetadata, readMapList } from './maps_metadata.js';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapList } from '../../../gen/types/map_list.js';
+import { MapModoptions } from '../../../gen/types/map_modoptions.js';
 
 export interface MapDetails {
     [k: string]: {
@@ -23,7 +24,20 @@ export interface MapDetails {
         Author?: string;
         InfoText?: string;
         LastUpdate: number;
+        // base64url(zlib(json)) encoded mapmetadata_startboxes_set modoption
+        // value (see gen_map_modoptions.ts). Chobby injects it as-is and
+        // decodes it for the polygon startbox preview; absent for maps with
+        // no startbox set.
+        StartboxesSet?: string;
     };
+}
+
+type ModoptionsBySpringName = { [springName: string]: MapModoptions['modoptions'] };
+
+async function readMapModoptions(): Promise<ModoptionsBySpringName> {
+    const contents = await fs.readFile('gen/map_modoptions.validated.json', { encoding: 'utf8' });
+    const mapModoptions = JSON.parse(contents) as MapModoptions[];
+    return Object.fromEntries(mapModoptions.map(m => [m.springName, m.modoptions]));
 }
 
 function intersection<T>(a: Iterable<T>, b: Iterable<T>): T[] {
@@ -37,7 +51,7 @@ function intersection<T>(a: Iterable<T>, b: Iterable<T>): T[] {
     return intersection;
 }
 
-function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDetails {
+function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>, modoptions: ModoptionsBySpringName): MapDetails {
     const mapDetails: MapDetails = {};
     for (const id of Object.keys(maps)) {
         const mapInfo = maps[id];
@@ -62,6 +76,7 @@ function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDeta
             Author: mapInfo.author != 'UNKNOWN' ? mapInfo.author : undefined,
             InfoText: mapInfo.description,
             LastUpdate: Math.round(mapInfo.photo[0].lastModifiedTS / 1000),
+            StartboxesSet: modoptions[mapInfo.springName]?.mapmetadata_startboxes_set,
         }
     }
     return mapDetails;
@@ -84,7 +99,8 @@ function serializeMapDetails(mapDetails: MapDetails): string {
         'TeamCount',
         'Author',
         'InfoText',
-        'LastUpdate'
+        'LastUpdate',
+        'StartboxesSet'
     ];
 
     function escapeLuaString(str: string): string {
@@ -120,7 +136,8 @@ function serializeMapDetails(mapDetails: MapDetails): string {
             } else {
                 value = `'${escapeLuaString(details[field].toString())}'`;
             }
-            if (field !== 'Author' || value !== 'nil') {
+            const omitWhenNil = field === 'Author' || field === 'StartboxesSet';
+            if (!omitWhenNil || value !== 'nil') {
                 fields.push(`${field}=${value}`);
             }
         }
@@ -139,4 +156,4 @@ const maps = await readMapList();
 
 await fs.writeFile(mapDetailsPath,
     serializeMapDetails(
-        buildMapDetails(maps, await fetchMapsMetadata(maps))));
+        buildMapDetails(maps, await fetchMapsMetadata(maps), await readMapModoptions())));
