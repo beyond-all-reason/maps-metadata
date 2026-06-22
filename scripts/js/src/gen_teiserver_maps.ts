@@ -8,37 +8,22 @@ import type {
 } from "../../../gen/types/teiserver_maps.js";
 import { MapModoptions } from '../../../gen/types/map_modoptions.js';
 import type { StartboxesInfo } from '../../../gen/types/map_list.js';
+import { polyBoundingRect } from './startbox_utils.js';
 
-// TEIServer's data model and Tachyon protocol only carry axis-aligned
-// rectangles ({top, bottom, left, right} in [0,1] coords). When a map ships
-// an N-point polygon (or a Catmull-Rom spline) startbox, collapse it to its
-// bounding-box rectangle here so TEIServer keeps validating without a
-// schema change on its side. The full polygon shape is preserved in the
-// mapmetadata_startboxes_set modoption (see gen_map_modoptions.ts) and
-// decoded game-side; this rectified copy is only the rect-only view for
-// TEIServer/Tachyon.
+// TEIServer/Tachyon only carry axis-aligned rectangles, so collapse polygon
+// startboxes to their bounding box (see polyBoundingRect). Rebuilt via
+// [first, ...rest] so the result stays a non-empty tuple (minItems: 1).
 function rectifyStartboxes(set: StartboxesInfo[]): StartboxesInfo[] {
-  return set.map(info => ({
-    ...info,
-    // The cast covers two unrelated narrowing issues:
-    //   1) json2ts renders `minItems: 1` as a non-empty tuple
-    //      `[Startbox, ...Startbox[]]`, but `.map()` returns plain `Startbox[]`.
-    //   2) json2ts renders `minItems: 2 / maxItems: 2` as a tuple too, and the
-    //      array literal `[{x,y},{x,y}]` widens to `{x,y}[]` rather than the
-    //      tuple shape, so the `oneOf` rect branch wouldn't match without help.
-    // The runtime shape is correct in both cases; we just bypass the inference.
-    startboxes: info.startboxes.map(box => {
-      if (box.poly.length === 2) return box;
-      let xmin = Infinity, ymin = Infinity, xmax = -Infinity, ymax = -Infinity;
-      for (const p of box.poly) {
-        if (p.x < xmin) xmin = p.x;
-        if (p.x > xmax) xmax = p.x;
-        if (p.y < ymin) ymin = p.y;
-        if (p.y > ymax) ymax = p.y;
-      }
-      return { poly: [{ x: xmin, y: ymin }, { x: xmax, y: ymax }] };
-    }) as StartboxesInfo['startboxes']
-  }));
+  return set.map(info => {
+    const [first, ...rest] = info.startboxes;
+    return {
+      ...info,
+      startboxes: [
+        { poly: polyBoundingRect(first.poly) },
+        ...rest.map(box => ({ poly: polyBoundingRect(box.poly) })),
+      ],
+    };
+  });
 }
 
 const imagorUrlBase = 'https://maps-metadata.beyondallreason.dev/i/';
