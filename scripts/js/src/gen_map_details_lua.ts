@@ -93,6 +93,9 @@ function serializeMapDetails(mapDetails: MapDetails): string {
         'StartboxesSet'
     ];
 
+    // Optional fields omitted when absent rather than emitted as nil.
+    const omitWhenNil = new Set(['Author', 'StartboxesSet']);
+
     function escapeLuaString(str: string): string {
         return str
             .replaceAll('\\', '\\\\')
@@ -126,8 +129,7 @@ function serializeMapDetails(mapDetails: MapDetails): string {
             } else {
                 value = `'${escapeLuaString(details[field].toString())}'`;
             }
-            const omitWhenNil = field === 'Author' || field === 'StartboxesSet';
-            if (!omitWhenNil || value !== 'nil') {
+            if (!omitWhenNil.has(field) || value !== 'nil') {
                 fields.push(`${field}=${value}`);
             }
         }
