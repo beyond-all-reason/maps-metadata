@@ -6,9 +6,8 @@ import stringify from "json-stable-stringify";
 import { MapModoptions } from '../../../gen/types/map_modoptions.js';
 import { StartPosConf, StartboxesInfo } from '../../../gen/types/map_list.js';
 
-// JSON -> zlib deflate -> base64url with padding stripped. Matches the transport
-// the game decoder expects and the map_modoptions value pattern
-// (^[a-zA-Z0-9_.-]+$), which forbids '=' padding.
+// base64url(zlib(json)), padding stripped: the transport the game decoder
+// expects, and the map_modoptions value pattern (^[a-zA-Z0-9_.-]+$) forbids '='.
 function encodeModoptionValue(value: unknown): string {
     const compressed = zlib.deflateSync(stringify(value));
     return compressed.toString('base64url').replace(/=+$/, '');
@@ -18,10 +17,9 @@ function encodeStartPos(startPos: StartPosConf): string {
     return encodeModoptionValue(startPos);
 }
 
-// The game resolves a startboxes arrangement by team count (set[tostring(numTeams)]).
-// maps-metadata keys startboxesSet by document id, so re-key by the arrangement's
-// team count here. check_startboxes.ts guarantees team counts are unique within a
-// set, so no key collides.
+// The game looks up arrangements by team count (set[tostring(numTeams)]), but
+// maps-metadata keys startboxesSet by document id; re-key by team count.
+// check_startboxes guarantees unique team counts per set, so none collide.
 function encodeStartboxesSet(set: Record<string, StartboxesInfo>): string {
     const byTeamCount: Record<string, StartboxesInfo> = {};
     for (const info of Object.values(set)) {

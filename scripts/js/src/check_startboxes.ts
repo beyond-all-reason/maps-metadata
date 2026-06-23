@@ -28,9 +28,10 @@ for (const map of Object.values(maps)) {
                     error = true;
                 }
             } else {
-                // N-point polygon: require non-degenerate area. Self-intersection
-                // and concavity are not checked here — both are valid shapes for
-                // game-side containment, which uses ray-casting.
+                // N-point polygon: reject rings with ~zero signed (shoelace) area.
+                // Concavity and most self-intersections pass (game-side containment
+                // uses ray-casting), but a self-intersecting ring whose signed area
+                // cancels to ~0 is rejected here too.
                 let area2 = 0;
                 for (let i = 0; i < poly.length; i++) {
                     const a = poly[i];

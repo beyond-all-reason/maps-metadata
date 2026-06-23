@@ -144,14 +144,10 @@ $defs:
           type: object
           title: Startbox
           properties:
-            # Two shapes are accepted, discriminated by length:
-            #   - 2 points  → axis-aligned rectangle (top-left, bottom-right)
-            #   - 3+ points → closed polygon ring; each point may carry an
-            #                 optional `strength` field for Catmull-Rom spline
-            #                 tessellation (game-side / lobby-side feature).
-            # Downstream consumers that only understand rectangles
-            # (TEIServer, SPADS) compute a bounding-box rectangle from the
-            # polygon vertices in their respective generators.
+            # Two shapes, discriminated by point count:
+            #   - 2 points: axis-aligned rectangle (top-left, bottom-right corner).
+            #   - 3+ points: closed polygon ring; each point may carry an optional
+            #     `strength` for Catmull-Rom spline tessellation (game/lobby side).
             poly:
               oneOf:
                 - $ref: "#/$defs/startboxRect"
@@ -171,9 +167,8 @@ $defs:
     title: StartboxRect
     description: >
       Legacy 2-point rectangle: top-left and bottom-right corners in the
-      0–200 normalized coordinate space. The format every existing map ships
-      today; remains the only shape the engine, SPADS and TEIServer protocols
-      understand directly.
+      0-200 normalized coordinate space. Every existing map ships this, and it
+      is the only shape the engine, SPADS and TEIServer understand directly.
     type: array
     minItems: 2
     maxItems: 2
@@ -196,12 +191,10 @@ $defs:
   startboxPolygon:
     title: StartboxPolygon
     description: >
-      Closed polygon ring of 3 or more anchor points in the 0–200 normalized
-      coordinate space. Each point may optionally carry a Catmull-Rom spline
-      strength in [0, 1] — 0 (or omitted) is a sharp polygon corner, 1 is a
-      full smooth curve. The Rowy editor snaps strength values to multiples
-      of 0.025; the schema enforces only the range so other tooling can write
-      arbitrary precision if needed.
+      Closed polygon ring of 3 or more anchor points in the 0-200 normalized
+      coordinate space. Each point may carry a Catmull-Rom spline strength in
+      [0, 1]: 0 (or omitted) is a sharp corner, 1 a full smooth curve. Rowy
+      snaps strength to multiples of 0.025; the schema enforces only the range.
     type: array
     minItems: 3
     items:
