@@ -1,10 +1,9 @@
 // Script generating mapDetails.lua used in BYAR-Chobby repo for maps list.
 
-import { fetchMapsMetadata, readMapList } from './maps_metadata.js';
+import { fetchMapsMetadata, readMapList, readMapModoptionsBySpringName, type ModoptionsBySpringName } from './maps_metadata.js';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapList } from '../../../gen/types/map_list.js';
-import { MapModoptions } from '../../../gen/types/map_modoptions.js';
 
 export interface MapDetails {
     [k: string]: {
@@ -24,20 +23,11 @@ export interface MapDetails {
         Author?: string;
         InfoText?: string;
         LastUpdate: number;
-        // base64url(zlib(json)) encoded mapmetadata_startboxes_set modoption
-        // value (see gen_map_modoptions.ts). Chobby injects it as-is and
-        // decodes it for the polygon startbox preview; absent for maps with
-        // no startbox set.
+        // Encoded mapmetadata_startboxes_set modoption value; Chobby injects it
+        // as-is and decodes it for the polygon startbox preview. Omitted when a
+        // map has no startbox set.
         StartboxesSet?: string;
     };
-}
-
-type ModoptionsBySpringName = { [springName: string]: MapModoptions['modoptions'] };
-
-async function readMapModoptions(): Promise<ModoptionsBySpringName> {
-    const contents = await fs.readFile('gen/map_modoptions.validated.json', { encoding: 'utf8' });
-    const mapModoptions = JSON.parse(contents) as MapModoptions[];
-    return Object.fromEntries(mapModoptions.map(m => [m.springName, m.modoptions]));
 }
 
 function intersection<T>(a: Iterable<T>, b: Iterable<T>): T[] {
@@ -156,4 +146,4 @@ const maps = await readMapList();
 
 await fs.writeFile(mapDetailsPath,
     serializeMapDetails(
-        buildMapDetails(maps, await fetchMapsMetadata(maps), await readMapModoptions())));
+        buildMapDetails(maps, await fetchMapsMetadata(maps), await readMapModoptionsBySpringName())));

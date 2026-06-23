@@ -4,11 +4,7 @@
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapModoptions } from '../../../gen/types/map_modoptions.js';
-
-async function readMapModoptions(): Promise<MapModoptions[]> {
-    const contents = await fs.readFile('gen/map_modoptions.validated.json', { 'encoding': 'utf8' });
-    return JSON.parse(contents) as MapModoptions[];
-}
+import { readMapModoptions } from './maps_metadata.js';
 
 const AUTOMATED_HEADER = `#
 # AUTOMATICALLY GENERATED FILE, DO NOT EDIT!

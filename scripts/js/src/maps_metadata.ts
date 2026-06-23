@@ -9,6 +9,7 @@ import { randomUUID } from 'node:crypto';
 import stream from 'node:stream/promises';
 import process from 'node:process';
 import type { MapList } from '../../../gen/types/map_list.js';
+import type { MapModoptions } from '../../../gen/types/map_modoptions.js';
 import pLimit from 'p-limit';
 import { lock } from 'proper-lockfile';
 
@@ -135,4 +136,15 @@ export async function fetchMapsMetadata(maps: MapList): Promise<Map<string, any>
 export async function readMapList(): Promise<MapList> {
     const contents = await fs.readFile('gen/map_list.validated.json', { 'encoding': 'utf8' });
     return JSON.parse(contents) as MapList;
+}
+
+export type ModoptionsBySpringName = { [springName: string]: MapModoptions['modoptions'] };
+
+export async function readMapModoptions(): Promise<MapModoptions[]> {
+    const contents = await fs.readFile('gen/map_modoptions.validated.json', { 'encoding': 'utf8' });
+    return JSON.parse(contents) as MapModoptions[];
+}
+
+export async function readMapModoptionsBySpringName(): Promise<ModoptionsBySpringName> {
+    return Object.fromEntries((await readMapModoptions()).map(m => [m.springName, m.modoptions]));
 }
