@@ -1,3 +1,69 @@
+0jMFtrg8MuFKGgxmk6Nl:
+  author: Moose, IceXuick
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nl%2FbackgroundImage%2FHW0X3tRdRpSi4qbQHAOk-screen_2026-06-21_01-05-56-893.png?alt=media&token=8e18f03d-d9b2-43aa-84a7-2d2c4df58dcb
+      lastModifiedTS: 1782003957804
+      name: screen_2026-06-21_01-05-56-893.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nl/backgroundImage/HW0X3tRdRpSi4qbQHAOk-screen_2026-06-21_01-05-56-893.png
+      type: image/png
+  certified: true
+  description: Islands of forests and wildflowers above the sea. 8v8 N vs S.
+  displayName: SailAway
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nl%2FinGameShots%2F9B7tmhOXIg56zYHhR0zu-screen_2026-06-21_01-07-23-175.png?alt=media&token=6f81d3d0-cb54-4337-b9a9-e546e88e6320
+      lastModifiedTS: 1782004043901
+      name: screen_2026-06-21_01-07-23-175.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nl/inGameShots/9B7tmhOXIg56zYHhR0zu-screen_2026-06-21_01-07-23-175.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nl%2FinGameShots%2Fn9HcXIgjvpyVXavcBz2O-screen_2026-06-21_01-08-02-461.png?alt=media&token=e1381dee-404f-4821-b393-f11c78797205
+      lastModifiedTS: 1782004083171
+      name: screen_2026-06-21_01-08-02-461.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nl/inGameShots/n9HcXIgjvpyVXavcBz2O-screen_2026-06-21_01-08-02-461.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nl%2FinGameShots%2FPkfrDIO4rj14VMLLm91C-screen_2026-06-21_01-07-03-734.png?alt=media&token=ee8a07a5-1d1c-4fa1-90e4-acc88a1856f1
+      lastModifiedTS: 1782004024380
+      name: screen_2026-06-21_01-07-03-734.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nl/inGameShots/PkfrDIO4rj14VMLLm91C-screen_2026-06-21_01-07-03-734.png
+      type: image/png
+  inPool: true
+  mapLists:
+    - WaterMapPool
+  minPlayerCount: 4
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F0jMFtrg8MuFKGgxmk6Nl%2Fphoto%2FOEbBHDyGJnyON3efSsbU-SailAwayMini.png?alt=media&token=27dc3dd9-379f-4362-99b7-3929be65da29
+      lastModifiedTS: 1782238774594
+      name: SailAwayMini.png
+      ref: maps/0jMFtrg8MuFKGgxmk6Nl/photo/OEbBHDyGJnyON3efSsbU-SailAwayMini.png
+      type: image/png
+  playerCount: 16
+  springName: SailAway 2
+  startboxesSet:
+    JtY3sNrchBz4cNA5aZS8:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 200
+              y: 48
+        - poly:
+            - x: 0
+              y: 152
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - island
+    - jungle
+    - water
+    - tropical
+    - sea
+    - forests
+    - grassy
+    - chokepoints
+    - hills
 0jMFtrg8MuFKGgxmk6Nm:
   author: pk76, Anka
   backgroundImage:
