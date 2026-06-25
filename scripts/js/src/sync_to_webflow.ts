@@ -130,6 +130,17 @@ async function sameImage(url1: string | null, url2: string | null): Promise<bool
     return h1 === h2;
 }
 
+// skybox/normal-map are managed from GCS like the other map images, with one
+// carve-out: when the parser extracted no such asset we keep any existing upload
+// rather than clearing it (some maps have a hand-uploaded skybox/normal the parser
+// can't reproduce). So a null desired value counts as unchanged.
+async function sameManagedImage(desired: string | null, existing: string | null): Promise<boolean> {
+    if (desired === null) {
+        return true;
+    }
+    return sameImage(desired, existing);
+}
+
 async function sameImages(urls1: string[], urls2: string[]): Promise<boolean> {
     const [h1, h2] = await Promise.all([
         Promise.all(urls1.map(getImageHash)),
@@ -304,6 +315,8 @@ interface WebsiteMapInfo {
     textureMapUrl: string;
     heightMapUrl: string;
     metalMapUrl: string;
+    skyboxUrl: string | null;
+    normalMapUrl: string | null;
     mapTags: string[];
     mapTerrains: string[];
     version: string | null;
@@ -324,7 +337,9 @@ async function isWebflowMapInfoEqual(a: WebsiteMapInfo, b: WebsiteMapInfo): Prom
         sameImages(a.moreImagesUrl, b.moreImagesUrl),
         sameImage(a.textureMapUrl, b.textureMapUrl),
         sameImage(a.heightMapUrl, b.heightMapUrl),
-        sameImage(a.metalMapUrl, b.metalMapUrl)
+        sameImage(a.metalMapUrl, b.metalMapUrl),
+        sameManagedImage(a.skyboxUrl, b.skyboxUrl),
+        sameManagedImage(a.normalMapUrl, b.normalMapUrl)
     ])).every(x => x);
 
     return allImagesSame &&
@@ -392,6 +407,8 @@ class WebflowMapInfo {
         this.textureMapUrl = reqRStr(o['mini-map']?.url);
         this.heightMapUrl = reqRStr(o['height-map']?.url);
         this.metalMapUrl = reqRStr(o['metal-map']?.url);
+        this.skyboxUrl = optR(o['skybox']?.url);
+        this.normalMapUrl = optR(o['normal-map']?.url);
         this.mapTags = reqRArr(o['game-tags-ref-2']);
         this.mapTerrains = reqRArr(o['terrain-types']);
         this.version = optR(o.version);
@@ -431,6 +448,14 @@ class WebflowMapInfo {
             'mini-map': await pickImage(info.textureMapUrl, base?.item.fieldData['mini-map']),
             'height-map': await pickImage(info.heightMapUrl, base?.item.fieldData['height-map']),
             'metal-map': await pickImage(info.metalMapUrl, base?.item.fieldData['metal-map']),
+            // Managed from GCS, but never clear: replace when the parser produced an asset,
+            // otherwise keep any existing (manually-uploaded) value.
+            skybox: info.skyboxUrl
+                ? await pickImage(info.skyboxUrl, base?.item.fieldData['skybox'])
+                : (base?.item.fieldData['skybox']?.fileId ?? null),
+            'normal-map': info.normalMapUrl
+                ? await pickImage(info.normalMapUrl, base?.item.fieldData['normal-map'])
+                : (base?.item.fieldData['normal-map']?.fileId ?? null),
             'game-tags-ref-2': info.mapTags,
             'terrain-types': info.mapTerrains,
             version: info.version,
@@ -503,6 +528,12 @@ async function buildWebflowInfo(
             textureMapUrl: `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(80)/${meta.location.bucket}/${encodeURI(meta.location.path + '/texture-dry.jpg')}`,
             heightMapUrl: `${imagorUrlBase}filters:format(webp):lossless():quality(100)/${meta.location.bucket}/${encodeURI(meta.location.path + '/height.png')}`,
             metalMapUrl: `${imagorUrlBase}filters:format(webp):lossless():quality(100)/${meta.location.bucket}/${encodeURI(meta.location.path + '/metal.png')}`,
+            skyboxUrl: meta.extractedFiles.includes('skybox.png')
+                ? `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(85)/${meta.location.bucket}/${encodeURI(meta.location.path + '/skybox.png')}`
+                : null,
+            normalMapUrl: meta.extractedFiles.includes('res_detailNormalTex.png')
+                ? `${imagorUrlBase}fit-in/4096x4096/filters:format(webp):quality(85)/${meta.location.bucket}/${encodeURI(meta.location.path + '/res_detailNormalTex.png')}`
+                : null,
             mapTags: derivedInfo.tags,
             mapTerrains: derivedInfo.terrainOrdered,
             version: derivedInfo.version || null,
