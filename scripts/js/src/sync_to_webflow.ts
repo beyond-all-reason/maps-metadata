@@ -177,6 +177,49 @@ function slugFromName(name: string): string {
     return name.toLowerCase().replace(/[. _]/g, '-').replace(/[^a-z0-9-]/g, '');
 }
 
+// Max items per Webflow bulk API request.
+const BULK_LIMIT = 100;
+
+function chunk<T>(arr: T[], size: number): T[][] {
+    const chunks: T[][] = [];
+    for (let i = 0; i < arr.length; i += size) {
+        chunks.push(arr.slice(i, i + size));
+    }
+    return chunks;
+}
+
+// Items fetched from or returned by the Webflow API always include an id.
+// The SDK marks id as optional because the OpenAPI spec incorrectly made it
+// optional for all operations instead of just POST.
+// See: https://github.com/webflow/openapi-spec/issues/4
+type ExistingCollectionItem = Webflow.CollectionItem & { id: string };
+
+function assertExistingItem(item: Webflow.CollectionItem): asserts item is ExistingCollectionItem {
+    assert(item.id, 'Webflow API returned item without id');
+}
+
+// The SDK's BulkCollectionItem type omits the `items` array returned by the
+// REST API. Preserved at runtime via the SDK's passthrough deserialization.
+interface BulkCreateResponse extends Webflow.BulkCollectionItem {
+    items?: ExistingCollectionItem[];
+}
+
+// Normalizes the union response from updateItems into an array of ExistingCollectionItems.
+// The SDK types this as CollectionItem | CollectionItemList; at runtime it's
+// always a CollectionItemList when updating multiple items, but we guard both cases.
+function normalizeUpdateResponse(
+    response: Webflow.CollectionItem | Webflow.CollectionItemList
+): ExistingCollectionItem[] {
+    let items: Webflow.CollectionItem[];
+    if ('items' in response && Array.isArray((response as Webflow.CollectionItemList).items)) {
+        items = (response as Webflow.CollectionItemList).items!;
+    } else {
+        items = [response as Webflow.CollectionItem];
+    }
+    items.forEach(assertExistingItem);
+    return items as ExistingCollectionItem[];
+}
+
 /**
  * There are 3 layers of data mapping in this script:
  * 1. Source of data in the format of MapList as used in this repository
@@ -199,20 +242,12 @@ interface IWebsiteItem {
 }
 
 interface IWebflowItemType {
-    new(i: Webflow.CollectionItem): IWebflowItem
+    new(i: ExistingCollectionItem): IWebflowItem
     generateFields(i: IWebsiteItem): Webflow.CollectionItemFieldData;
 }
 
-function fieldsToItem(fields: Webflow.CollectionItemFieldData): Webflow.CollectionItem {
-    return {
-        isDraft: false,
-        isArchived: false,
-        fieldData: fields
-    };
-}
-
 interface IWebflowItem extends IWebsiteItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 }
 
 // WebsiteMapTag is the internal representation of a map tag used in this script.
@@ -227,9 +262,9 @@ interface WebflowMapTag extends WebsiteMapTag { }
 // WebflowMapTag is the native Webflow representation of a tag as used by the
 // Webflow API.
 class WebflowMapTag implements IWebflowItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapTagFieldsRead;
 
@@ -257,9 +292,9 @@ interface WebflowMapTerrain extends WebsiteMapTerrain { }
 // WebflowMapTerrain is the native Webflow representation of a Terrain as used by the
 // Webflow API.
 class WebflowMapTerrain implements IWebflowItem {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapTerrainFieldsRead;
 
@@ -361,9 +396,9 @@ interface WebflowMapInfo extends WebsiteMapInfo { }
 // WebflowMap is the native Webflow representation of data as used by the
 // Webflow API.
 class WebflowMapInfo {
-    item: Webflow.CollectionItem;
+    item: ExistingCollectionItem;
 
-    constructor(item: Webflow.CollectionItem) {
+    constructor(item: ExistingCollectionItem) {
         this.item = item;
         const o = item.fieldData as WebflowMapFieldsRead;
 
@@ -548,12 +583,12 @@ function resolveItemRefsInMapInfos(mapInfos: Map<string, WebsiteMapInfo>, field:
                 }
                 throw new Error(`Missing ${field} ${ref}`);
             }
-            return t.item.id!;
+            return t.item.id;
         });
     }
 }
 
-async function getAllWebflowItems(collection: Webflow.Collection): Promise<Webflow.CollectionItem[]> {
+async function getAllWebflowItems(collection: Webflow.Collection): Promise<ExistingCollectionItem[]> {
     const items: Webflow.CollectionItem[] = [];
     const limit = 100;
     for (let offset = 0; true; offset += limit) {
@@ -563,7 +598,8 @@ async function getAllWebflowItems(collection: Webflow.Collection): Promise<Webfl
         }
         items.push(...response.items);
     }
-    return items;
+    items.forEach(assertExistingItem);
+    return items as ExistingCollectionItem[];
 }
 
 // getAllWebflowMaps returns all maps from the Webflow collection mapped by rowyId.
@@ -605,35 +641,63 @@ async function syncCollectionToWebflowAdditions(
     collection: Webflow.Collection,
     dryRun: boolean,
 ) {
+    const toCreate: Webflow.CollectionItemFieldData[] = [];
+    const toUpdate: { id: string, fields: Webflow.CollectionItemFieldData }[] = [];
+
     for (const item of src.values()) {
         const webflowTag = dest.get(item.slug);
         if (!webflowTag) {
-            const fields = webflowItemType.generateFields(item);
             console.log(`Adding ${typeName} ${item.name}`);
-            if (!dryRun) {
-                const item = await limiter.schedule(
-                    () => webflow.collections.items.createItem(
-                        collection.id, fieldsToItem(fields)));
-                assert(item.fieldData!.slug!);
-                dest.set(item.fieldData!.slug!, new webflowItemType(item));
-            } else {
+            const fields = webflowItemType.generateFields(item);
+            if (dryRun) {
                 console.log(fields);
+            } else {
+                toCreate.push(fields);
             }
         } else if (!equals(item, webflowTag)) {
             console.log(`Updating ${typeName} ${item.name}`);
             const fields = webflowItemType.generateFields(item);
-            if (!dryRun) {
-                const itemPatch = fieldsToItem(fields);
-                itemPatch.id = webflowTag.item.id;
-                const item = await limiter.schedule(
-                    () => webflow.collections.items.updateItem(
-                        collection.id, webflowTag.item.id!, itemPatch));
-                assert(item.fieldData!.slug!);
-                dest.set(item.fieldData!.slug!, new webflowItemType(item));
-            } else {
+            if (dryRun) {
                 console.log(webflowTag);
                 console.log(fields);
+            } else {
+                toUpdate.push({ id: webflowTag.item.id, fields });
             }
+        }
+    }
+
+    if (dryRun) return;
+
+    for (const batch of chunk(toCreate, BULK_LIMIT)) {
+        const response = await limiter.schedule(
+            () => webflow.collections.items.createItems(collection.id, {
+                fieldData: batch as Webflow.collections.CreateBulkCollectionItemRequestBodyFieldDataItem[],
+                isDraft: false,
+                isArchived: false,
+            }));
+        const createdItems = (response as BulkCreateResponse).items;
+        if (createdItems) {
+            for (const item of createdItems) {
+                assertExistingItem(item);
+                assert(item.fieldData?.slug, `Created ${typeName} missing slug in response`);
+                dest.set(item.fieldData.slug!, new webflowItemType(item));
+            }
+        }
+    }
+
+    for (const batch of chunk(toUpdate, BULK_LIMIT)) {
+        const response = await limiter.schedule(
+            () => webflow.collections.items.updateItems(collection.id, {
+                items: batch.map(({ id, fields }) => ({
+                    id,
+                    isDraft: false,
+                    isArchived: false,
+                    fieldData: fields,
+                })),
+            }));
+        for (const item of normalizeUpdateResponse(response)) {
+            assert(item.fieldData?.slug, `Updated ${typeName} missing slug in response`);
+            dest.set(item.fieldData.slug!, new webflowItemType(item));
         }
     }
 }
@@ -645,13 +709,25 @@ async function syncCollectionToWebflowRemovals(
     dest: Map<string, IWebflowItem>,
     dryRun: boolean,
 ) {
+    const toDelete: { id: string, slug: string }[] = [];
     for (const item of dest.values()) {
         if (!src.has(item.slug)) {
             console.log(`Removing ${typeName} ${item.name}`);
             if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(collection.id, item.item.id!));
-                dest.delete(item.slug);
+                toDelete.push({ id: item.item.id, slug: item.slug });
             }
+        }
+    }
+
+    if (dryRun) return;
+
+    for (const batch of chunk(toDelete, BULK_LIMIT)) {
+        await limiter.schedule(
+            () => webflow.collections.items.deleteItems(collection.id, {
+                items: batch.map(({ id }) => ({ id })),
+            }));
+        for (const { slug } of batch) {
+            dest.delete(slug);
         }
     }
 }
@@ -680,7 +756,7 @@ async function syncMapTerrainsToWebflowAdditions(
     mapTerrainsCollection: Webflow.Collection,
     dryRun: boolean
 ) {
-    return syncCollectionToWebflowAdditions(WebflowMapTag, isWebsiteMapTerrainEqual, 'terrain', src, dest, mapTerrainsCollection, dryRun);
+    return syncCollectionToWebflowAdditions(WebflowMapTerrain, isWebsiteMapTerrainEqual, 'terrain', src, dest, mapTerrainsCollection, dryRun);
 }
 
 async function syncMapTerrainsToWebflowRemovals(
@@ -703,61 +779,126 @@ async function syncMapsToWebflow(
     mapsCollection: Webflow.Collection,
     dryRun: boolean
 ) {
+    // Phase 1: Categorize maps into new, existing (to compare), and deleted.
+    const newMaps: WebsiteMapInfo[] = [];
     const updatesP: Promise<[boolean, WebsiteMapInfo, WebflowMapInfo]>[] = [];
+
     for (const map of src.values()) {
         const webflowMap = dest.get(map.rowyId);
         if (!webflowMap) {
-            const fields = await WebflowMapInfo.generateFields(map);
             console.log(`Adding ${map.name}`);
-            if (!dryRun) {
-                const item = await limiter.schedule(
-                    () => webflow.collections.items.createItem(
-                        mapsCollection.id, fieldsToItem(fields)));
-                dest.set(map.rowyId, new WebflowMapInfo(item));
-            } else {
-                console.log(fields);
-            }
+            newMaps.push(map);
         } else {
             updatesP.push((async () => [await isWebflowMapInfoEqual(map, webflowMap), map, webflowMap])())
         }
     }
+
+    const toDelete: { id: string, rowyId: string, name: string }[] = [];
     for (const map of dest.values()) {
         if (!src.has(map.rowyId)) {
             console.log(`Removing ${map.name}`);
-            if (!dryRun) {
-                await limiter.schedule(() => webflow.collections.items.deleteItem(mapsCollection.id, map.item.id!));
-                dest.delete(map.rowyId);
+            toDelete.push({ id: map.item.id, rowyId: map.rowyId, name: map.name });
+        }
+    }
+
+    // Phase 2: Generate fields for new maps.
+    const newMapsFields = await Promise.all(
+        newMaps.map(async map => ({
+            map,
+            fields: await WebflowMapInfo.generateFields(map),
+        }))
+    );
+
+    if (dryRun) {
+        for (const { fields } of newMapsFields) {
+            console.log(fields);
+        }
+    }
+
+    // Phase 3: Bulk create new maps.
+    if (!dryRun) {
+        for (const batch of chunk(newMapsFields, BULK_LIMIT)) {
+            const response = await limiter.schedule(
+                () => webflow.collections.items.createItems(mapsCollection.id, {
+                    fieldData: batch.map(({ fields }) => fields) as Webflow.collections.CreateBulkCollectionItemRequestBodyFieldDataItem[],
+                    isDraft: false,
+                    isArchived: false,
+                }));
+            const createdItems = (response as BulkCreateResponse).items;
+            if (createdItems) {
+                for (const item of createdItems) {
+                    assertExistingItem(item);
+                    const rowyId = (item.fieldData as WebflowMapFieldsRead).rowyid;
+                    assert(rowyId, `Created map missing rowyid in response`);
+                    dest.set(rowyId, new WebflowMapInfo(item));
+                }
             }
         }
     }
+
+    // Phase 4: Bulk delete removed maps.
+    if (!dryRun) {
+        for (const batch of chunk(toDelete, BULK_LIMIT)) {
+            await limiter.schedule(
+                () => webflow.collections.items.deleteItems(mapsCollection.id, {
+                    items: batch.map(({ id }) => ({ id })),
+                }));
+            for (const { rowyId } of batch) {
+                dest.delete(rowyId);
+            }
+        }
+    }
+
+    // Phase 5: Resolve comparisons and generate fields for updates.
     const updates = await Promise.all(updatesP);
-    for (const [_, map, webflowMap] of updates.filter(([same]) => !same)) {
-        console.log(`Updating ${map.name}`);
-        const fields = await WebflowMapInfo.generateFields(map, webflowMap);
-        if (!dryRun) {
-            const itemPatch = fieldsToItem(fields);
-            itemPatch.id = webflowMap.item.id;
-            const item = await limiter.schedule(
-                () => webflow.collections.items.updateItem(
-                    mapsCollection.id, webflowMap.item.id!, itemPatch));
-            dest.set(map.rowyId, new WebflowMapInfo(item));
-        } else {
+    const changedMaps = updates.filter(([same]) => !same);
+
+    const updateMapsFields = await Promise.all(
+        changedMaps.map(async ([_, map, webflowMap]) => {
+            console.log(`Updating ${map.name}`);
+            return {
+                map,
+                webflowMap,
+                fields: await WebflowMapInfo.generateFields(map, webflowMap),
+            };
+        })
+    );
+
+    if (dryRun) {
+        for (const { webflowMap, fields } of updateMapsFields) {
             console.log(webflowMap);
             console.log(fields);
+        }
+        return;
+    }
+
+    // Phase 6: Bulk update changed maps.
+    for (const batch of chunk(updateMapsFields, BULK_LIMIT)) {
+        const response = await limiter.schedule(
+            () => webflow.collections.items.updateItems(mapsCollection.id, {
+                items: batch.map(({ webflowMap, fields }) => ({
+                    id: webflowMap.item.id,
+                    isDraft: false,
+                    isArchived: false,
+                    fieldData: fields,
+                })),
+            }));
+        for (const item of normalizeUpdateResponse(response)) {
+            const rowyId = (item.fieldData as WebflowMapFieldsRead).rowyid;
+            assert(rowyId, `Updated map missing rowyid in response`);
+            dest.set(rowyId, new WebflowMapInfo(item));
         }
     }
 }
 
-async function publishUpdatedWebflowItems(collection: Webflow.Collection, items: Map<any, { item: Webflow.CollectionItem }>, dryRun: boolean) {
+async function publishUpdatedWebflowItems(collection: Webflow.Collection, items: Map<any, { item: ExistingCollectionItem }>, dryRun: boolean) {
     const itemIds = Array.from(items.values())
         .map(i => i.item)
-        .filter(i => !i.lastPublished || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated!))
-        .map(i => i.id!);
+        .filter(i => !i.lastPublished || !i.lastUpdated || Date.parse(i.lastPublished) < Date.parse(i.lastUpdated))
+        .map(i => i.id);
     console.log(`Publishing ${itemIds.length} items`);
     if (!dryRun) {
-        const chunkSize = 100;
-        for (let i = 0; i < itemIds.length; i += chunkSize) {
-            const itemIdsChunk = itemIds.slice(i, i + chunkSize);
+        for (const itemIdsChunk of chunk(itemIds, BULK_LIMIT)) {
             await limiter.schedule(() => webflow.collections.items.publishItem(collection.id, { itemIds: itemIdsChunk }));
         }
     }
