@@ -14313,6 +14313,81 @@ cZDvGpmzKFHbAS6LTqh7:
   terrain:
     - asteroid
     - space
+caBTixVKqo2uSsiEoT7w:
+  author: Nikuksis
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FbackgroundImage%2FrDDmZlubtq7pNMaMFytA-Supreme1.7Mini.jpg?alt=media&token=33f71e93-26db-46d3-9ed0-18d53c09641c
+      lastModifiedTS: 1782936687589
+      name: Supreme1.7Mini.jpg
+      ref: maps/caBTixVKqo2uSsiEoT7w/backgroundImage/rDDmZlubtq7pNMaMFytA-Supreme1.7Mini.jpg
+      type: image/jpeg
+  certified: false
+  description: Classic version.
+  displayName: Supreme Isthmus
+  gameType:
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FinGameShots%2Fo0FOnXMSmRsKS9FasUiR-screen_2026-07-01_20-09-01-074.png?alt=media&token=12f17d9c-365b-458c-a6a8-0488bcf7aba6
+      lastModifiedTS: 1782936542406
+      name: screen_2026-07-01_20-09-01-074.png
+      ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/o0FOnXMSmRsKS9FasUiR-screen_2026-07-01_20-09-01-074.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FinGameShots%2F1PmXCdaSjiejEqdnjGaC-screen_2026-07-01_20-09-14-328.png?alt=media&token=a5f56b50-5e0f-4707-a65f-703a4817eaab
+      lastModifiedTS: 1782936555718
+      name: screen_2026-07-01_20-09-14-328.png
+      ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/1PmXCdaSjiejEqdnjGaC-screen_2026-07-01_20-09-14-328.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FinGameShots%2FqmZEyjLxPeErRUaiRYhk-screen_2026-07-01_20-09-07-065.png?alt=media&token=908e86e8-c05e-40b9-b11a-daaf7137658f
+      lastModifiedTS: 1782936548118
+      name: screen_2026-07-01_20-09-07-065.png
+      ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/qmZEyjLxPeErRUaiRYhk-screen_2026-07-01_20-09-07-065.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FinGameShots%2FTJUBi2MXw20ZEhANPkDf-screen_2026-07-01_20-09-27-224.png?alt=media&token=0a4dbb10-57ec-4fa7-bac2-74410a987d05
+      lastModifiedTS: 1782936568599
+      name: screen_2026-07-01_20-09-27-224.png
+      ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/TJUBi2MXw20ZEhANPkDf-screen_2026-07-01_20-09-27-224.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FinGameShots%2FBDVrQ7JuVhcA1F94jIo3-screen_2026-07-01_20-09-48-631.png?alt=media&token=acb2b8e4-5dab-4069-bc9a-06acd98d65ef
+      lastModifiedTS: 1782936589474
+      name: screen_2026-07-01_20-09-48-631.png
+      ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/BDVrQ7JuVhcA1F94jIo3-screen_2026-07-01_20-09-48-631.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 8
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FperspectiveShot%2F7gNxWr1VDviTTMKgl8lK-Supreme1.7_3d.jpg?alt=media&token=1116ea65-2ae3-45a3-9b8d-aae3e72ee89d
+      lastModifiedTS: 1782936948207
+      name: Supreme1.7_3d.jpg
+      ref: maps/caBTixVKqo2uSsiEoT7w/perspectiveShot/7gNxWr1VDviTTMKgl8lK-Supreme1.7_3d.jpg
+      type: image/jpeg
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2Fphoto%2FXHtDv7lR67ASO35tLwtu-Supreme1.7Mini.jpg?alt=media&token=ecf2f237-4e69-4972-9b9e-e272f6262195
+      lastModifiedTS: 1782936687589
+      name: Supreme1.7Mini.jpg
+      ref: maps/caBTixVKqo2uSsiEoT7w/photo/XHtDv7lR67ASO35tLwtu-Supreme1.7Mini.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Supreme Isthmus v1.7
+  startboxesSet:
+    I4Lw9NkzPNWLNxLQYj22:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 120
+            - x: 80
+              y: 200
+        - poly:
+            - x: 120
+              y: 0
+            - x: 200
+              y: 80
+  teamCount: 2
+  terrain:
+    - hills
+    - island
+    - sea
+    - chokepoints
 cvpud6KzRzucgumjiBgk:
   author: Johannes
   backgroundImage:
