@@ -144,26 +144,14 @@ $defs:
           type: object
           title: Startbox
           properties:
+            # Two shapes, discriminated by point count:
+            #   - 2 points: axis-aligned rectangle (top-left, bottom-right corner).
+            #   - 3+ points: closed polygon ring; each point may carry an optional
+            #     `strength` for Catmull-Rom spline tessellation (game/lobby side).
             poly:
-              type: array
-              minItems: 2
-              maxItems: 2
-              items:
-                title: Point
-                type: object
-                properties:
-                  x:
-                    type: integer
-                    minimum: 0
-                    maximum: 200
-                  y:
-                    type: integer
-                    minimum: 0
-                    maximum: 200
-                additionalProperties: false
-                required:
-                  - x
-                  - y
+              oneOf:
+                - $ref: "#/$defs/startboxRect"
+                - $ref: "#/$defs/startboxPolygon"
           additionalProperties: false
           required:
             - poly
@@ -175,6 +163,60 @@ $defs:
     required:
       - startboxes
       - maxPlayersPerStartbox
+  startboxRect:
+    title: StartboxRect
+    description: >
+      Legacy 2-point rectangle: top-left and bottom-right corners in the
+      0-200 normalized coordinate space. Every existing map ships this, and it
+      is the only shape the engine, SPADS and TEIServer understand directly.
+    type: array
+    minItems: 2
+    maxItems: 2
+    items:
+      title: RectCorner
+      type: object
+      properties:
+        x:
+          type: integer
+          minimum: 0
+          maximum: 200
+        y:
+          type: integer
+          minimum: 0
+          maximum: 200
+      additionalProperties: false
+      required:
+        - x
+        - y
+  startboxPolygon:
+    title: StartboxPolygon
+    description: >
+      Closed polygon ring of 3 or more anchor points in the 0-200 normalized
+      coordinate space. Each point may carry a Catmull-Rom spline strength in
+      [0, 1]: 0 (or omitted) is a sharp corner, 1 a full smooth curve. Rowy
+      snaps strength to multiples of 0.025; the schema enforces only the range.
+    type: array
+    minItems: 3
+    items:
+      title: PolygonPoint
+      type: object
+      properties:
+        x:
+          type: integer
+          minimum: 0
+          maximum: 200
+        y:
+          type: integer
+          minimum: 0
+          maximum: 200
+        strength:
+          type: number
+          minimum: 0
+          maximum: 1
+      additionalProperties: false
+      required:
+        - x
+        - y
   uploadedFile:
     title: UploadedFile
     type: object

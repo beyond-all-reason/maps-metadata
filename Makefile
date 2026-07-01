@@ -17,7 +17,7 @@ gen/schemas/teiserver_maps.json: gen/schemas/map_modoptions.json gen/schemas/map
 gen/schemas/lobby_maps.json: gen/schemas/map_list.json
 
 # Output targets
-gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts
+gen/mapDetails.lua: gen/map_list.validated.json gen/types/map_list.d.ts gen/map_modoptions.validated.json gen/types/map_modoptions.d.ts
 	tsx scripts/js/src/gen_map_details_lua.ts $@
 
 gen/cdn_maps.json: gen/map_list.validated.json gen/types/map_list.d.ts

@@ -4,6 +4,7 @@ import { readMapList } from './maps_metadata.js';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapList, Startbox } from '../../../gen/types/map_list.js';
+import { polyBoundingRect } from './startbox_utils.js';
 
 const HEADER = `#
 # AUTOMATICALLY GENERATED FILE, DO NOT EDIT!
@@ -40,7 +41,7 @@ const HEADER = `#
 
 function serializeStartboxes(startboxes: Startbox[]): string {
     return startboxes
-        .map(s => s.poly.map(p => `${p.x} ${p.y}`).join(' '))
+        .map(s => polyBoundingRect(s.poly).map(p => `${p.x} ${p.y}`).join(' '))
         .join(';');
 }
 

@@ -1,6 +1,6 @@
 // Script generating mapDetails.lua used in BYAR-Chobby repo for maps list.
 
-import { fetchMapsMetadata, readMapList } from './maps_metadata.js';
+import { fetchMapsMetadata, readMapList, readMapModoptionsBySpringName, type ModoptionsBySpringName } from './maps_metadata.js';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import { MapList } from '../../../gen/types/map_list.js';
@@ -23,6 +23,10 @@ export interface MapDetails {
         Author?: string;
         InfoText?: string;
         LastUpdate: number;
+        // Encoded mapmetadata_startboxes_set modoption value; Chobby injects it
+        // as-is and decodes it for the polygon startbox preview. Omitted when a
+        // map has no startbox set.
+        StartboxesSet?: string;
     };
 }
 
@@ -37,7 +41,7 @@ function intersection<T>(a: Iterable<T>, b: Iterable<T>): T[] {
     return intersection;
 }
 
-function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDetails {
+function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>, modoptions: ModoptionsBySpringName): MapDetails {
     const mapDetails: MapDetails = {};
     for (const id of Object.keys(maps)) {
         const mapInfo = maps[id];
@@ -62,6 +66,7 @@ function buildMapDetails(maps: MapList, mapsMetadata: Map<string, any>): MapDeta
             Author: mapInfo.author != 'UNKNOWN' ? mapInfo.author : undefined,
             InfoText: mapInfo.description,
             LastUpdate: Math.round(mapInfo.photo[0].lastModifiedTS / 1000),
+            StartboxesSet: modoptions[mapInfo.springName]?.mapmetadata_startboxes_set,
         }
     }
     return mapDetails;
@@ -84,8 +89,12 @@ function serializeMapDetails(mapDetails: MapDetails): string {
         'TeamCount',
         'Author',
         'InfoText',
-        'LastUpdate'
+        'LastUpdate',
+        'StartboxesSet'
     ];
+
+    // Optional fields omitted when absent rather than emitted as nil.
+    const omitWhenNil = new Set(['Author', 'StartboxesSet']);
 
     function escapeLuaString(str: string): string {
         return str
@@ -120,7 +129,7 @@ function serializeMapDetails(mapDetails: MapDetails): string {
             } else {
                 value = `'${escapeLuaString(details[field].toString())}'`;
             }
-            if (field !== 'Author' || value !== 'nil') {
+            if (!omitWhenNil.has(field) || value !== 'nil') {
                 fields.push(`${field}=${value}`);
             }
         }
@@ -139,4 +148,4 @@ const maps = await readMapList();
 
 await fs.writeFile(mapDetailsPath,
     serializeMapDetails(
-        buildMapDetails(maps, await fetchMapsMetadata(maps))));
+        buildMapDetails(maps, await fetchMapsMetadata(maps), await readMapModoptionsBySpringName())));
