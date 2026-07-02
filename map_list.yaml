@@ -2184,6 +2184,7 @@
   inPool: true
   mapLists:
     - WaterMapPool
+    - SupremeRotato
   minPlayerCount: 12
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2F5qY4GxEPrIG1wfxBkbQ0%2FperspectiveShot%2FLCzPEPUn9vJVpayJuGaM-hellas1.43d.png?alt=media&token=7e75812f-cb6d-4c20-bd5a-9c9928a3201e
@@ -3111,6 +3112,10 @@
     - forests
     - asymmetrical
     - water
+9iwBZ5IBbGxSyhtNmrM4:
+  certified: false
+  displayName: Supreme Isthmus
+  inPool: true
 9jHSyg8smAwuk6d3HZgm:
   author: Phalange
   backgroundImage:
@@ -3557,6 +3562,8 @@ ACgCe99NC8yZFecMwRCm:
       ref: maps/ACgCe99NC8yZFecMwRCm/inGameShots/YyluVuSG9Qyc1I7Z1RU4-screen_2025-03-22_16-06-59-606.png
       type: image/png
   inPool: true
+  mapLists:
+    - SupremeRotato
   minPlayerCount: 10
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FACgCe99NC8yZFecMwRCm%2FperspectiveShot%2FWMaLjuiWwBDyzCclo4PZ-supreme2.1%203D.png?alt=media&token=e091a6d6-8714-460a-ac27-6f0d68a18a5a
@@ -14353,6 +14360,8 @@ caBTixVKqo2uSsiEoT7w:
       ref: maps/caBTixVKqo2uSsiEoT7w/inGameShots/BDVrQ7JuVhcA1F94jIo3-screen_2026-07-01_20-09-48-631.png
       type: image/png
   inPool: true
+  mapLists:
+    - SupremeRotato
   minPlayerCount: 8
   perspectiveShot:
     - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FcaBTixVKqo2uSsiEoT7w%2FperspectiveShot%2F7gNxWr1VDviTTMKgl8lK-Supreme1.7_3d.jpg?alt=media&token=1116ea65-2ae3-45a3-9b8d-aae3e72ee89d
