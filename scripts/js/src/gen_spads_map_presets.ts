@@ -52,6 +52,16 @@ const prog = program
     .argument('<mapBattlePresets>', 'Map battle presets output path.')
     .parse();
 const [mapPresetsPath, mapBattlePresetsPath] = prog.processedArgs;
-const [mapPresets, mapBattlePresets] = genPresets(await readMapModoptions());
+
+// TEMPORARY MITIGATION: don't emit the mapmetadata_startboxes_set modoption via
+// SPADS presets, drop it from all maps before generating the presets. Maps that
+// are left without any modoptions are dropped entirely.
+const allMapModoptions = await readMapModoptions();
+for (const m of allMapModoptions) {
+    delete m.modoptions.mapmetadata_startboxes_set;
+}
+const mapModoptions = allMapModoptions.filter(m => Object.keys(m.modoptions).length > 0);
+
+const [mapPresets, mapBattlePresets] = genPresets(mapModoptions);
 await fs.writeFile(mapPresetsPath, mapPresets);
 await fs.writeFile(mapBattlePresetsPath, mapBattlePresets);
