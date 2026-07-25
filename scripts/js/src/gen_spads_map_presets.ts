@@ -25,7 +25,7 @@ battlePreset:map_DEFAULT
     let battlePreset =
 `${AUTOMATED_HEADER}
 [map_DEFAULT] (transparent)
-${Object.keys(mapModoptions[0].modoptions).join(':\n')}:
+${Array.from(new Set(mapModoptions.flatMap(m => Object.keys(m.modoptions)))).join(':\n')}:
 `;
 
     for (const m of mapModoptions) {
