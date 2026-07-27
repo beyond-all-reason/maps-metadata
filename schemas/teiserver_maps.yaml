@@ -34,6 +34,10 @@ $defs:
           enum:
             - 1v1
             - 2v2
+            - 3v3
+            - 4v4
+            - 5v5
+            - ffa
         uniqueItems: true
         default: []
       startboxesSet:

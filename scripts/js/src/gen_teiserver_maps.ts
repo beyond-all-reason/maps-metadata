@@ -39,10 +39,26 @@ async function genTeiserverMaps(): Promise<string> {
 
     // TODO: Do some better mapping, maybe add dedicated clear map lists
     // in Rowy for exactly this purpose. Atm just reusing the one that
-    // exists for competitive 1v1.
+    // exists for predefined categories.
     const matchmakingQueues: TeiserverMapInfo["matchmakingQueues"] = [];
-    if (map.mapLists?.includes("competitive2p")) {
+    if (["competitive2p", "fightnight2p"].some(category => map.mapLists?.includes(category))) {
       matchmakingQueues.push("1v1");
+    }
+    if (["popular8p", "popular16p", "lanesmap16p", "AllThatRotates"].some(category =>
+      map.mapLists?.includes(category)
+    )) {
+      matchmakingQueues.push("2v2");
+      matchmakingQueues.push("3v3");
+      matchmakingQueues.push("4v4");
+    }
+    if (["popular16p", "lanesmap16p", "AllThatRotates"].some(category =>
+      map.mapLists?.includes(category)
+    )) {
+      matchmakingQueues.push("5v5");
+    }
+
+    if (map.gameType?.includes("ffa")) {
+      matchmakingQueues.push("ffa")
     }
 
     tMaps.push({
