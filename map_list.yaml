@@ -5589,20 +5589,47 @@ GPSFfpSd1wtmx4CZRGA6:
       maxPlayersPerStartbox: 2
       startboxes:
         - poly:
-            - x: 19
-              y: 40
-            - x: 65
-              y: 82
-        - poly:
-            - x: 132
-              y: 40
-            - x: 182
-              y: 81
-        - poly:
+            - x: 55
+              y: 35
             - x: 76
-              y: 135
-            - x: 123
-              y: 176
+              y: 65
+            - x: 62
+              y: 89
+            - x: 24
+              y: 89
+            - strength: 0.45
+              x: 27
+              y: 75
+            - strength: 0.45
+              x: 44
+              y: 43
+        - poly:
+            - x: 127
+              y: 64
+            - x: 150
+              y: 36
+            - strength: 0.525
+              x: 172
+              y: 70
+            - x: 178
+              y: 87
+            - x: 141
+              y: 92
+        - poly:
+            - x: 87
+              y: 132
+            - x: 119
+              y: 133
+            - x: 131
+              y: 167
+            - strength: 0.45
+              x: 115
+              y: 170
+            - strength: 0.425
+              x: 83
+              y: 170
+            - x: 70
+              y: 166
   teamCount: 3
   terrain:
     - flat
@@ -10764,33 +10791,62 @@ XMFpTWsDjFSPjJ4nOZSO:
       maxPlayersPerStartbox: 1
       startboxes:
         - poly:
-            - x: 10
-              y: 19
-            - x: 34
-              y: 43
+            - strength: 1
+              x: 18
+              y: 63
+            - strength: 0.975
+              x: 15
+              y: 40
+            - strength: 0.875
+              x: 31
+              y: 25
+            - strength: 0.9
+              x: 54
+              y: 25
+            - strength: 0.875
+              x: 49
+              y: 36
+            - strength: 0.95
+              x: 29
+              y: 56
         - poly:
-            - x: 167
-              y: 43
-            - x: 190
-              y: 67
-    xBuN7uzM1akkXKkdVTni:
-      maxPlayersPerStartbox: 1
-      startboxes:
+            - strength: 1
+              x: 151
+              y: 45
+            - strength: 0.725
+              x: 180
+              y: 50
+            - strength: 0.725
+              x: 185
+              y: 65
+            - strength: 1
+              x: 182
+              y: 84
+            - strength: 0.525
+              x: 175
+              y: 82
+            - strength: 0.7
+              x: 149
+              y: 51
         - poly:
-            - x: 9
-              y: 18
-            - x: 57
-              y: 67
-        - poly:
-            - x: 144
-              y: 42
-            - x: 189
-              y: 90
-        - poly:
-            - x: 62
-              y: 154
-            - x: 117
-              y: 186
+            - strength: 1
+              x: 63
+              y: 166
+            - strength: 0.425
+              x: 73
+              y: 157
+            - strength: 0.85
+              x: 98
+              y: 157
+            - strength: 1
+              x: 114
+              y: 164
+            - strength: 0.925
+              x: 108
+              y: 174
+            - strength: 0.825
+              x: 79
+              y: 180
   teamCount: 3
   terrain:
     - island
@@ -14011,15 +14067,44 @@ cQbwmwbhWrWyD1bhZNEn:
       maxPlayersPerStartbox: 8
       startboxes:
         - poly:
-            - x: 37
+            - x: 57
               y: 26
-            - x: 105
-              y: 73
+            - x: 98
+              y: 32
+            - x: 110
+              y: 78
+            - strength: 0.75
+              x: 52
+              y: 142
+            - strength: 1
+              x: 37
+              y: 149
+            - strength: 1
+              x: 28
+              y: 123
+            - strength: 0.475
+              x: 37
+              y: 70
         - poly:
-            - x: 129
-              y: 87
-            - x: 172
-              y: 157
+            - x: 123
+              y: 90
+            - x: 168
+              y: 93
+            - strength: 0.875
+              x: 165
+              y: 134
+            - strength: 0.65
+              x: 150
+              y: 158
+            - strength: 0.775
+              x: 86
+              y: 175
+            - strength: 1
+              x: 56
+              y: 165
+            - strength: 0.775
+              x: 63
+              y: 152
   teamCount: 2
   terrain:
     - hills
