@@ -12808,9 +12808,9 @@ aDu1H6XNI6Jh5OZUcagp:
                 spawnPoint: P3
               - role: front
                 spawnPoint: P4
-              - role: air
+              - role: sea
                 spawnPoint: P5
-              - role: tech
+              - role: air
                 spawnPoint: P6
               - role: sea
                 spawnPoint: P7
@@ -12829,9 +12829,9 @@ aDu1H6XNI6Jh5OZUcagp:
                 spawnPoint: P13
               - role: sea
                 spawnPoint: P14
-              - role: air
+              - role: sea
                 spawnPoint: P15
-              - role: tech
+              - role: air
                 spawnPoint: P16
         teamCount: 2
   startPosActive: true
