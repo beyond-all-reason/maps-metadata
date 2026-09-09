@@ -2255,9 +2255,9 @@
           - starts:
               - role: sea
                 spawnPoint: P1
-              - role: air
-                spawnPoint: P2
               - role: tech
+                spawnPoint: P2
+              - role: air
                 spawnPoint: P3
               - role: sea
                 spawnPoint: P4
@@ -2280,9 +2280,9 @@
                 spawnPoint: P12
               - role: sea
                 spawnPoint: P13
-              - role: air
-                spawnPoint: P14
               - role: tech
+                spawnPoint: P14
+              - role: air
                 spawnPoint: P15
               - role: sea
                 spawnPoint: P16
