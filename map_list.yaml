@@ -9563,15 +9563,27 @@ UeeBymo7RdXE5ty3amFw:
       maxPlayersPerStartbox: 8
       startboxes:
         - poly:
+            - x: 101
+              y: 200
+            - x: 101
+              y: 145
+            - x: 59
+              y: 103
             - x: 0
-              y: 105
-            - x: 95
+              y: 104
+            - x: 0
               y: 200
         - poly:
-            - x: 105
+            - x: 99
               y: 0
+            - x: 99
+              y: 55
+            - x: 141
+              y: 97
             - x: 200
-              y: 95
+              y: 96
+            - x: 200
+              y: 0
   teamCount: 2
   terrain:
     - hills
