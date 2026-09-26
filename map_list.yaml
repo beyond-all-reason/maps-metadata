@@ -6963,6 +6963,59 @@ K2GZu2RxxpwQBJmCqd90:
     - grassy
     - hills
   title: Skirmish of Swamp and Sky
+K6D3KeP3Zn4TgwTUIZo4:
+  author: Phalange
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK6D3KeP3Zn4TgwTUIZo4%2FbackgroundImage%2FibOySJ6r9n4iZO0IxfFS-screen_2026-09-25_21-14-54-890.png?alt=media&token=7e715229-dcc6-496b-bf1e-90c7486ac893
+      lastModifiedTS: 1790370895498
+      name: screen_2026-09-25_21-14-54-890.png
+      ref: maps/K6D3KeP3Zn4TgwTUIZo4/backgroundImage/ibOySJ6r9n4iZO0IxfFS-screen_2026-09-25_21-14-54-890.png
+      type: image/png
+  certified: true
+  description: An ancient canyon with few remaining cliffs once left 2 sides with no choice.
+  displayName: Ceasefire
+  gameType:
+    - 1v1
+    - team
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK6D3KeP3Zn4TgwTUIZo4%2FinGameShots%2F1ceOPvrOdcVje2DnEr50-screen_2026-09-25_21-14-54-890.png?alt=media&token=4d9d8cca-7840-41fb-9033-f949dda1dcc7
+      lastModifiedTS: 1790370895498
+      name: screen_2026-09-25_21-14-54-890.png
+      ref: maps/K6D3KeP3Zn4TgwTUIZo4/inGameShots/1ceOPvrOdcVje2DnEr50-screen_2026-09-25_21-14-54-890.png
+      type: image/png
+  inPool: true
+  perspectiveShot:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK6D3KeP3Zn4TgwTUIZo4%2FperspectiveShot%2FdYiLCiPUegpqfX0I2DZ7-ceasefire_perspective.png?alt=media&token=b2f27529-8e4e-42ca-8701-6b21325a3897
+      lastModifiedTS: 1790416077987
+      name: ceasefire_perspective.png
+      ref: maps/K6D3KeP3Zn4TgwTUIZo4/perspectiveShot/dYiLCiPUegpqfX0I2DZ7-ceasefire_perspective.png
+      type: image/png
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FK6D3KeP3Zn4TgwTUIZo4%2Fphoto%2FetyRROZgqDmNX0SKRFLx-Ceasefire_minimap.jpg?alt=media&token=197d9799-77b0-4952-b523-7a5e0f0a0c7f
+      lastModifiedTS: 1790415725895
+      name: Ceasefire_minimap.jpg
+      ref: maps/K6D3KeP3Zn4TgwTUIZo4/photo/etyRROZgqDmNX0SKRFLx-Ceasefire_minimap.jpg
+      type: image/jpeg
+  playerCount: 6
+  springName: Ceasefire 1.0
+  startboxesSet:
+    AIIOPfJTMovti9vzbRBr:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 35
+              y: 200
+        - poly:
+            - x: 165
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - alien
+    - hills
 KAQ69kPLvMZgMuLXIoyU:
   author: Johannes
   backgroundImage:
