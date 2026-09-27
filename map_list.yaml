@@ -6537,6 +6537,156 @@ HdwZWKydw2luEc8EascR:
     - flat
     - island
     - tropical
+I0CEr41zjs5HEpURwL1g:
+  author: Cinnamon18
+  backgroundImage:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FI0CEr41zjs5HEpURwL1g%2FbackgroundImage%2FNpZZvaA5cHZHEav0HW8z-screen_2026-09-27_17-48-56-995.png?alt=media&token=b750995c-0514-4ae5-9b8e-495e3be16717
+      lastModifiedTS: 1790531338010
+      name: screen_2026-09-27_17-48-56-995.png
+      ref: maps/I0CEr41zjs5HEpURwL1g/backgroundImage/NpZZvaA5cHZHEav0HW8z-screen_2026-09-27_17-48-56-995.png
+      type: image/png
+  certified: true
+  description: A highly asymmetric battle fought amongst the debris of a volcanic eruption. Designed for PvE or 8v8.
+  displayName: Pyroclast
+  gameType:
+    - team
+    - pve
+  inGameShots:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FI0CEr41zjs5HEpURwL1g%2FinGameShots%2FJpBE7O5RbBm8XD4siz2w-screen_2026-09-27_17-50-34-379.png?alt=media&token=a74ec6dd-727e-4055-a84b-2d8bc03565d6
+      lastModifiedTS: 1790531435101
+      name: screen_2026-09-27_17-50-34-379.png
+      ref: maps/I0CEr41zjs5HEpURwL1g/inGameShots/JpBE7O5RbBm8XD4siz2w-screen_2026-09-27_17-50-34-379.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FI0CEr41zjs5HEpURwL1g%2FinGameShots%2FxP6zkhQzNGA7NZ5BAMDS-screen_2026-09-27_17-49-24-113.png?alt=media&token=99fe0dd3-0b79-4aa8-a259-f2e409950131
+      lastModifiedTS: 1790531364767
+      name: screen_2026-09-27_17-49-24-113.png
+      ref: maps/I0CEr41zjs5HEpURwL1g/inGameShots/xP6zkhQzNGA7NZ5BAMDS-screen_2026-09-27_17-49-24-113.png
+      type: image/png
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FI0CEr41zjs5HEpURwL1g%2FinGameShots%2Feo5Onldd7skW5YUbVWCb-screen_2026-09-27_17-49-40-262.png?alt=media&token=aa7e0f12-55ca-451e-a68f-b287f39c476d
+      lastModifiedTS: 1790531380884
+      name: screen_2026-09-27_17-49-40-262.png
+      ref: maps/I0CEr41zjs5HEpURwL1g/inGameShots/eo5Onldd7skW5YUbVWCb-screen_2026-09-27_17-49-40-262.png
+      type: image/png
+  inPool: true
+  minPlayerCount: 0
+  photo:
+    - downloadURL: https://firebasestorage.googleapis.com/v0/b/rowy-1f075.appspot.com/o/maps%2FI0CEr41zjs5HEpURwL1g%2Fphoto%2FH1UOIcNrq4n5IXJC7Vsn-pyroclastmini.jpg?alt=media&token=70b09df1-783a-4b7d-ab28-df7422c6afb2
+      lastModifiedTS: 1790531564409
+      name: pyroclastmini.jpg
+      ref: maps/I0CEr41zjs5HEpURwL1g/photo/H1UOIcNrq4n5IXJC7Vsn-pyroclastmini.jpg
+      type: image/jpeg
+  playerCount: 16
+  springName: Pyroclast 1.0.3
+  startPos:
+    positions:
+      P1:
+        x: 1792
+        y: 840
+      P10:
+        x: 6636
+        y: 1976
+      P11:
+        x: 7736
+        y: 522
+      P12:
+        x: 7953
+        y: 3947
+      P13:
+        x: 7642
+        y: 2913
+      P14:
+        x: 6176
+        y: 6625
+      P15:
+        x: 7971
+        y: 8191
+      P16:
+        x: 7336
+        y: 7273
+      P2:
+        x: 1407
+        y: 2173
+      P3:
+        x: 421
+        y: 3989
+      P4:
+        x: 2125
+        y: 4907
+      P5:
+        x: 795
+        y: 6223
+      P6:
+        x: 2046
+        y: 6945
+      P7:
+        x: 893
+        y: 7424
+      P8:
+        x: 643
+        y: 9743
+      P9:
+        x: 6082
+        y: 330
+    team:
+      - playersPerTeam: 8
+        sides:
+          - starts:
+              - role: front
+                spawnPoint: P1
+              - role: front
+                spawnPoint: P2
+              - role: tech
+                spawnPoint: P3
+              - role: front
+                spawnPoint: P4
+              - role: air
+                spawnPoint: P5
+              - role: front
+                spawnPoint: P6
+              - role: front
+                spawnPoint: P7
+              - role: sea
+                spawnPoint: P8
+          - starts:
+              - role: front
+                spawnPoint: P9
+              - role: front
+                spawnPoint: P10
+              - role: tech
+                spawnPoint: P11
+              - role: front
+                spawnPoint: P12
+              - role: air
+                spawnPoint: P13
+              - role: front
+                spawnPoint: P14
+              - role: sea
+                spawnPoint: P15
+              - role: front
+                spawnPoint: P16
+        teamCount: 2
+  startPosActive: true
+  startboxesSet:
+    5LFmWCQ9ffYnVOn4WkEn:
+      maxPlayersPerStartbox: 8
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 52
+              y: 200
+        - poly:
+            - x: 148
+              y: 0
+            - x: 200
+              y: 200
+  teamCount: 2
+  terrain:
+    - water
+    - grassy
+    - hills
+    - chokepoints
+    - asymmetrical
 I7GpETWic750BOdwvkdh:
   author: Beherith
   backgroundImage:
