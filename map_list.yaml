@@ -6576,7 +6576,7 @@ I0CEr41zjs5HEpURwL1g:
       ref: maps/I0CEr41zjs5HEpURwL1g/photo/H1UOIcNrq4n5IXJC7Vsn-pyroclastmini.jpg
       type: image/jpeg
   playerCount: 16
-  springName: Pyroclast 1.0.3
+  springName: Pyroclast 1.0.4
   startPos:
     positions:
       P1:
@@ -6635,11 +6635,11 @@ I0CEr41zjs5HEpURwL1g:
                 spawnPoint: P1
               - role: front
                 spawnPoint: P2
-              - role: tech
+              - role: air/tech
                 spawnPoint: P3
               - role: front
                 spawnPoint: P4
-              - role: air
+              - role: air/tech
                 spawnPoint: P5
               - role: front
                 spawnPoint: P6
@@ -6652,11 +6652,11 @@ I0CEr41zjs5HEpURwL1g:
                 spawnPoint: P9
               - role: front
                 spawnPoint: P10
-              - role: tech
+              - role: air/tech
                 spawnPoint: P11
               - role: front
                 spawnPoint: P12
-              - role: air
+              - role: air/tech
                 spawnPoint: P13
               - role: front
                 spawnPoint: P14
