@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.11'
+          node-version: '26.12'
           cache: npm
           cache-dependency-path: scripts/js/package-lock.json
 

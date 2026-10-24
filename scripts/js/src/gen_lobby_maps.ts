@@ -53,7 +53,7 @@ async function genLobbyMaps(): Promise<string> {
         });
     }
     lobbyMaps.sort((a, b) => a.springName.localeCompare(b.springName));
-    return stringify(lobbyMaps);
+    return stringify(lobbyMaps)!;
 }
 
 const prog = program

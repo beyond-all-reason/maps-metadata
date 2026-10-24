@@ -17,7 +17,7 @@ async function genCDNMaps(): Promise<string> {
         }).json()));
     const mapsInfo = await Promise.all(requests);
     mapsInfo.sort((a: any, b: any) => a[0].springname.localeCompare(b[0].springname));
-    return stringify(mapsInfo);
+    return stringify(mapsInfo)!;
 }
 
 const prog = program

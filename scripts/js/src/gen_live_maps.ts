@@ -23,7 +23,7 @@ async function genLiveMaps(): Promise<string> {
             }
         });
     liveMaps.sort((a, b) => a.springName.localeCompare(b.springName));
-    return stringify(liveMaps);
+    return stringify(liveMaps)!;
 }
 
 const prog = program

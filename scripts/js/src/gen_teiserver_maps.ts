@@ -73,7 +73,7 @@ async function genTeiserverMaps(): Promise<string> {
 
   tMaps.sort((a, b) => a.springName.localeCompare(b.springName));
   const teiserverMaps: TeiserverMaps = { maps: tMaps };
-  return stringify(teiserverMaps);
+  return stringify(teiserverMaps)!;
 }
 
 const prog = program

@@ -9,7 +9,7 @@ import { StartPosConf, StartboxesInfo } from '../../../gen/types/map_list.js';
 // base64url(zlib(json)), padding stripped: the transport the game decoder
 // expects, and the map_modoptions value pattern (^[a-zA-Z0-9_.-]+$) forbids '='.
 function encodeModoptionValue(value: unknown): string {
-    const compressed = zlib.deflateSync(stringify(value));
+    const compressed = zlib.deflateSync(stringify(value)!);
     return compressed.toString('base64url').replace(/=+$/, '');
 }
 
@@ -49,7 +49,7 @@ async function genLiveMaps(): Promise<string> {
     }
 
     mapModoptions.sort((a, b) => a.springName.localeCompare(b.springName));
-    return stringify(mapModoptions);
+    return stringify(mapModoptions)!;
 }
 
 const prog = program
