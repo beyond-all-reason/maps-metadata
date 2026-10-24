@@ -1,4 +1,4 @@
-FROM docker.io/library/node:24 AS package-env
+FROM docker.io/library/node:26 AS package-env
 
 WORKDIR /package
 COPY package.json package-lock.json ./
@@ -8,7 +8,7 @@ RUN npm ci --omit=dev \
  && find . -regex '^./.*/test/.*$' -delete \
  && rm -rf tga/testFiles
 
-FROM gcr.io/distroless/nodejs24-debian13
+FROM gcr.io/distroless/nodejs26-debian13
 
 WORKDIR /app
 COPY src src

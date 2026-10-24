@@ -1,5 +1,6 @@
 import { Storage } from '@google-cloud/storage';
 import { MapParser } from 'spring-map-parser';
+import type { SpringMap } from 'spring-map-parser';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { promisify } from 'node:util';
@@ -7,9 +8,11 @@ import child_process from 'node:child_process';
 import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
 import sevenBin from '7zip-bin';
-import Jimp from 'jimp';
 import { CACHE_VERSION, checkCached } from './shared.ts';
 import type { ParseResult, WorkerInput } from './shared.ts';
+
+// Image type as returned by spring-map-parser (it bundles its own jimp version).
+type Image = NonNullable<SpringMap['textureMap']>;
 
 const execFile = promisify(child_process.execFile);
 
@@ -112,7 +115,7 @@ async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<P
     // previews so the full-resolution buffer can be garbage-collected.
     const extractedFiles: string[] = [];
 
-    const writeImage = async (fileName: string, image: Jimp): Promise<void> => {
+    const writeImage = async (fileName: string, image: Image): Promise<void> => {
         await image.writeAsync(path.join(tempDir, fileName));
         console.log(`Wrote ${fileName}`);
         extractedFiles.push(fileName);
@@ -140,7 +143,7 @@ async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<P
 
     // Resource images — scale down to fit texture dimensions but never upscale
     if (map.resources) {
-        for (const [resource, image] of Object.entries(map.resources) as [string, Jimp | undefined][]) {
+        for (const [resource, image] of Object.entries(map.resources) as [string, Image | undefined][]) {
             if (image) {
                 if (image.getWidth() > texW || image.getHeight() > texH) {
                     image.scaleToFit(texW, texH);

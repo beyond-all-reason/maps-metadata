@@ -12,17 +12,16 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@google-cloud/storage": "^7.19.0",
+    "@google-cloud/storage": "^8.4.0",
     "7zip-bin": "5.1.1",
-    "express": "^5.2.1",
-    "jimp": "^0.22.7",
-    "piscina": "^5.1.4",
+    "express": "^5.3.0",
+    "piscina": "^5.3.2",
     "spring-map-parser": "^6.4.2"
   },
   "devDependencies": {
-    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/node26": "^26.0.1",
     "@types/express": "^5.0.6",
-    "@types/node": "^24",
-    "typescript": "^6.0.3"
+    "@types/node": "^26",
+    "typescript": "^7.0.2"
   }
 }
