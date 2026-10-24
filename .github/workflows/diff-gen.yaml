@@ -10,12 +10,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  diff-gen:
+  merge-base:
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.merge-base.outputs.sha }}
     steps:
       - name: Checkout PR head
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
       - name: Determine merge base
@@ -24,6 +27,20 @@ jobs:
           BASE_SHA=$(git merge-base "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}")
           echo "sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
           echo "Merge base: $BASE_SHA"
+
+  # Each side is built from its own checkout with its own toolchain versions
+  # (e.g. Node.js from .nvmrc), so a PR changing them still builds the base.
+  build:
+    needs: merge-base
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        side: [base, head]
+    steps:
+      - name: Checkout ${{ matrix.side }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.side == 'base' && needs.merge-base.outputs.sha || github.event.pull_request.head.sha }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,7 +52,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '26.12'
+          node-version-file: .nvmrc
           cache: npm
           cache-dependency-path: scripts/js/package-lock.json
 
@@ -43,41 +60,39 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .maps-cache
-          key: maps-cache-cache-v3-diff-${{ github.sha }}
+          key: maps-cache-cache-v3-diff-${{ matrix.side }}-${{ github.sha }}
           restore-keys: |
             maps-cache-cache-v3-diff-
             maps-cache-cache-v3-build-
 
-      # --- Build at merge base ---
-      - name: Checkout merge base
-        run: git checkout "${{ steps.merge-base.outputs.sha }}"
-
-      - name: Install dependencies (base)
+      - name: Install dependencies
         run: ./scripts/install.sh
 
-      - name: Build at base
+      - name: Build
         run: source .envrc && make -j $(nproc)
 
-      - name: Save base outputs
-        run: cp -r gen /tmp/gen-base
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: gen-${{ matrix.side }}
+          path: gen
 
-      - name: Clean gen
-        run: source .envrc && make clean
+  diff:
+    needs: [merge-base, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download base outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: gen-base
+          path: /tmp/gen-base
 
-      # --- Build at PR head ---
-      - name: Checkout PR head
-        run: git checkout "${{ github.event.pull_request.head.sha }}"
+      - name: Download head outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: gen-head
+          path: /tmp/gen-head
 
-      - name: Install dependencies (head)
-        run: ./scripts/install.sh
-
-      - name: Build at head
-        run: source .envrc && make -j $(nproc)
-
-      - name: Save head outputs
-        run: cp -r gen /tmp/gen-head
-
-      # --- Diff ---
       - name: Generate diff
         run: |
           set -euo pipefail
@@ -164,7 +179,7 @@ jobs:
           {
             echo "# Generated Output Diff"
             echo ""
-            echo "Comparing merge base (\`${{ steps.merge-base.outputs.sha }}\`) to PR head (\`${{ github.event.pull_request.head.sha }}\`)."
+            echo "Comparing merge base (\`${{ needs.merge-base.outputs.sha }}\`) to PR head (\`${{ github.event.pull_request.head.sha }}\`)."
             echo ""
             echo "> **Note:** If this summary appears truncated, download the full diff from the workflow artifacts."
             echo ""
