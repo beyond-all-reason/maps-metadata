@@ -7,12 +7,14 @@ import { promisify } from 'node:util';
 import child_process from 'node:child_process';
 import stream from 'node:stream/promises';
 import { Readable } from 'node:stream';
-import sevenBin from '7zip-bin';
 import { CACHE_VERSION, checkCached } from './shared.ts';
 import type { ParseResult, WorkerInput } from './shared.ts';
 
 // Image type as returned by spring-map-parser (it bundles its own jimp version).
 type Image = NonNullable<SpringMap['textureMap']>;
+
+// Use system 7-Zip: 7zip-bin bundles an outdated p7zip 16.02 build.
+const path7za = process.env.PATH_7ZA ?? '7za';
 
 const execFile = promisify(child_process.execFile);
 
@@ -20,7 +22,7 @@ const storage = new Storage();
 const bucketName: string = process.env.BUCKET!;
 
 async function is7zArchiveSolid(archivePath: string): Promise<boolean> {
-    const { stdout } = await execFile(sevenBin.path7za, ['l', '-x!*', archivePath]);
+    const { stdout } = await execFile(path7za, ['l', '-x!*', archivePath]);
 
     const solidLine = stdout
         .split('\n')
@@ -104,6 +106,7 @@ async function parseAndCacheMap({ springName, tempDir }: WorkerInput): Promise<P
         resources: ['detailNormalTex', 'specularTex'],
         parseSkybox: true,
         tmpDir: path.join(tempDir, 'extract'),
+        path7za,
     }).parseMap(mapPath);
     console.log('Parsing map done');
 
