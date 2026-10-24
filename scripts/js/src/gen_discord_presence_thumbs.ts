@@ -11,7 +11,7 @@
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { readMapList } from './maps_metadata.js';
+import { readMapList } from './maps_metadata.ts';
 
 const prog = program
     .argument('<outputPath>', 'Discord presence thumbs output directory.')

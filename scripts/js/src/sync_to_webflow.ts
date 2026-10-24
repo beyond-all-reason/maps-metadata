@@ -11,12 +11,12 @@ import stringify from "json-stable-stringify";
 import { WebflowClient, Webflow } from 'webflow-api';
 import Bottleneck from 'bottleneck';
 import { program } from '@commander-js/extra-typings';
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
-import { MapList } from '../../../gen/types/map_list.js';
-import { readMapCDNInfos } from './cdn_maps.js';
-import { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
-import mapSchema from '../../../gen/schemas/map_list.json';
-import {
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
+import type { MapList } from '../../../gen/types/map_list.js';
+import { readMapCDNInfos } from './cdn_maps.ts';
+import type { MapCDNInfo } from '../../../gen/types/cdn_maps.js';
+import mapSchema from '../../../gen/schemas/map_list.json' with { type: 'json' };
+import type {
     WebflowFileRef,
     WebflowMapFieldsRead,
     WebflowMapFieldsWrite,
@@ -24,10 +24,10 @@ import {
     WebflowMapTagFieldsWrite,
     WebflowMapTerrainFieldsRead,
     WebflowMapTerrainFieldsWrite,
-} from './webflow_types.js';
+} from './webflow_types.ts';
 import assert from 'node:assert';
-import pLimit, { LimitFunction } from 'p-limit';
-import { getDerivedInfo } from './derived_map_info.js';
+import pLimit, { type LimitFunction } from 'p-limit';
+import { getDerivedInfo } from './derived_map_info.ts';
 
 // Converts a float RGB array (0.0–1.0 per channel) to a hex color string.
 function rgbFloatToHex(rgb: number[]): string {
@@ -542,7 +542,7 @@ async function buildWebflowInfo(
             waterBaseColor: meta.mapInfo?.water?.basecolor ? rgbFloatToHex(meta.mapInfo.water.basecolor) : null,
             waterMinColor: meta.mapInfo?.water?.mincolor ? rgbFloatToHex(meta.mapInfo.water.mincolor) : null,
             waterAbsorb: meta.mapInfo?.water?.absorb ? meta.mapInfo.water.absorb.join(', ') : null,
-            startposCode: map.startboxesSet ? stringify(map.startboxesSet) : null,
+            startposCode: map.startboxesSet ? stringify(map.startboxesSet)! : null,
         };
 
         // Sanity check because the metadata stuff is using `any` type.
@@ -803,7 +803,7 @@ function checkWebflowEnvs() {
     }
 }
 
-const webflow = new WebflowClient({ accessToken: process.env.WEBFLOW_API_TOKEN });
+const webflow = new WebflowClient({ accessToken: process.env.WEBFLOW_API_TOKEN! });
 const limiter = new Bottleneck({ maxConcurrent: 1, minTime: 600 });
 const mapsCollectionId = process.env.WEBFLOW_COLLECTION_ID!;
 
@@ -889,7 +889,7 @@ program.command('gen-rowy-data')
             mapsInfo: Object.fromEntries(rowyData.mapsInfo),
             tagsInfo: Object.fromEntries(rowyData.tagsInfo),
             mapTerrainsInfo: Object.fromEntries(rowyData.mapTerrainsInfo),
-        }, { space: "    " }));
+        }, { space: "    " })!);
     });
 
 program.parse();

@@ -2,7 +2,7 @@
 // information for usage across consumers.
 
 import type { MapInfo } from '../../../gen/types/map_list.js';
-import mapSchema from '../../../gen/schemas/map_list.json';
+import mapSchema from '../../../gen/schemas/map_list.json' with { type: 'json' };
 
 function getRowyMapTerrainsOrder(): Map<string, number> {
     const terrains = mapSchema['$defs'].terrainType.enum;

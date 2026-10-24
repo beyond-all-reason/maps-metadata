@@ -1,9 +1,9 @@
 // Script generating mapDetails.lua used in BYAR-Chobby repo for maps list.
 
-import { fetchMapsMetadata, readMapList, readMapModoptionsBySpringName, type ModoptionsBySpringName } from './maps_metadata.js';
+import { fetchMapsMetadata, readMapList, readMapModoptionsBySpringName, type ModoptionsBySpringName } from './maps_metadata.ts';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
-import { MapList } from '../../../gen/types/map_list.js';
+import type { MapList } from '../../../gen/types/map_list.js';
 
 export interface MapDetails {
     [k: string]: {

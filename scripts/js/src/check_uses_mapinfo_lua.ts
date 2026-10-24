@@ -1,6 +1,6 @@
 // Verifies all maps use mapinfo.lua and not older methods.
 
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
 
 const maps = await readMapList();
 const mapsMetadata = await fetchMapsMetadata(maps);

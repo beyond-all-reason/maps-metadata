@@ -3,10 +3,10 @@
 import { createWriteStream } from 'node:fs';
 import { pipeline } from 'node:stream/promises';
 import path from 'node:path';
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
 import pLimit from 'p-limit';
 import got from 'got';
-import { imageSize } from 'image-size';
+import { imageSizeFromFile } from 'image-size/fromFile';
 import { createHash } from 'node:crypto';
 import fs from 'node:fs/promises';
 
@@ -51,7 +51,7 @@ let allOk = true;
 const whitelist: Set<string> = new Set([]);
 
 for (const [rowyId, map] of Object.entries(maps)) {
-    const imgSizes = imageSize(path.join(photoCacheDir, photoUrlHash.get(rowyId) + '.webp'));
+    const imgSizes = await imageSizeFromFile(path.join(photoCacheDir, photoUrlHash.get(rowyId) + '.webp'));
     const imageRatio = imgSizes.width! / imgSizes.height!;
     const meta = mapsMetadata.get(rowyId);
     const mapRatio = meta.smf.mapWidth / meta.smf.mapHeight;

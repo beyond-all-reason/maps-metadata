@@ -53,4 +53,4 @@ if (!validate(data)) {
     process.exit(1);
 }
 
-await fs.writeFile(outputFilePath, stringify(data, { space: "    " }));
+await fs.writeFile(outputFilePath, stringify(data, { space: "    " })!);

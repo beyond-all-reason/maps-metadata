@@ -1,4 +1,4 @@
-import { readMapList, readMapModoptionsBySpringName } from "./maps_metadata.js";
+import { readMapList, readMapModoptionsBySpringName } from "./maps_metadata.ts";
 import fs from "node:fs/promises";
 import { program } from "@commander-js/extra-typings";
 import stringify from "json-stable-stringify";
@@ -7,7 +7,7 @@ import type {
   TeiserverMaps,
 } from "../../../gen/types/teiserver_maps.js";
 import type { StartboxesInfo } from '../../../gen/types/map_list.js';
-import { polyBoundingRect } from './startbox_utils.js';
+import { polyBoundingRect } from './startbox_utils.ts';
 
 // Collapse polygons to their bounding box for rect-only TEIServer/Tachyon.
 // [first, ...rest] keeps the result a non-empty tuple (minItems: 1).
@@ -73,7 +73,7 @@ async function genTeiserverMaps(): Promise<string> {
 
   tMaps.sort((a, b) => a.springName.localeCompare(b.springName));
   const teiserverMaps: TeiserverMaps = { maps: tMaps };
-  return stringify(teiserverMaps);
+  return stringify(teiserverMaps)!;
 }
 
 const prog = program

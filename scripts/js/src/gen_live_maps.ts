@@ -1,5 +1,5 @@
-import { readMapList } from './maps_metadata.js';
-import { readMapCDNInfos } from './cdn_maps.js';
+import { readMapList } from './maps_metadata.ts';
+import { readMapCDNInfos } from './cdn_maps.ts';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import stringify from "json-stable-stringify";
@@ -23,7 +23,7 @@ async function genLiveMaps(): Promise<string> {
             }
         });
     liveMaps.sort((a, b) => a.springName.localeCompare(b.springName));
-    return stringify(liveMaps);
+    return stringify(liveMaps)!;
 }
 
 const prog = program

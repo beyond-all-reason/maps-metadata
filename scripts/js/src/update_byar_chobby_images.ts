@@ -6,7 +6,7 @@ import fs from 'node:fs/promises';
 import { createWriteStream } from 'node:fs';
 import { pipeline } from 'node:stream/promises';
 import path from 'node:path';
-import { readMapList } from './maps_metadata.js';
+import { readMapList } from './maps_metadata.ts';
 import pLimit from 'p-limit';
 import got from 'got';
 import { createHash } from 'node:crypto';
@@ -22,8 +22,10 @@ const [byarChobbyRepoPath] = prog.processedArgs;
 // not create duplicates.
 class ImagePathMapper {
     private fileLookup: Map<string, string> = new Map();
+    private readonly imagesPath: string;
+    private readonly extension: '.png' | '.jpg';
 
-    private constructor(private readonly imagesPath: string, private readonly extension: '.png' | '.jpg') {
+    private constructor(imagesPath: string, extension: '.png' | '.jpg') {
         this.imagesPath = imagesPath;
         this.extension = extension;
     }
