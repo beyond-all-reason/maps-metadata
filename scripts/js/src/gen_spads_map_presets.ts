@@ -3,8 +3,8 @@
 
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
-import { MapModoptions } from '../../../gen/types/map_modoptions.js';
-import { readMapModoptions } from './maps_metadata.js';
+import type { MapModoptions } from '../../../gen/types/map_modoptions.js';
+import { readMapModoptions } from './maps_metadata.ts';
 
 const AUTOMATED_HEADER = `#
 # AUTOMATICALLY GENERATED FILE, DO NOT EDIT!

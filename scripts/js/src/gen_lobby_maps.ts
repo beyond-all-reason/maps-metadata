@@ -1,10 +1,10 @@
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
-import { readMapCDNInfos } from './cdn_maps.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
+import { readMapCDNInfos } from './cdn_maps.ts';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import stringify from "json-stable-stringify";
 import type { LobbyMap } from '../../../gen/types/lobby_maps.js';
-import { getDerivedInfo } from './derived_map_info.js';
+import { getDerivedInfo } from './derived_map_info.ts';
 
 const imagorUrlBase = 'https://maps-metadata.beyondallreason.dev/i/';
 const rowyBucket = 'rowy-1f075.appspot.com';

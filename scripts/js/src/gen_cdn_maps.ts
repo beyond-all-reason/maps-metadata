@@ -1,4 +1,4 @@
-import { readMapList } from './maps_metadata.js';
+import { readMapList } from './maps_metadata.ts';
 import pLimit from 'p-limit';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';

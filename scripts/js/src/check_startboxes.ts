@@ -1,6 +1,6 @@
 // Verifies additional properties of startboxes that are not checked by the schema.
 
-import { readMapList } from './maps_metadata.js';
+import { readMapList } from './maps_metadata.ts';
 
 let error = false;
 

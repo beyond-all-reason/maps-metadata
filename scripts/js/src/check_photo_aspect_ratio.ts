@@ -3,7 +3,7 @@
 import { createWriteStream } from 'node:fs';
 import { pipeline } from 'node:stream/promises';
 import path from 'node:path';
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
 import pLimit from 'p-limit';
 import got from 'got';
 import { imageSizeFromFile } from 'image-size/fromFile';

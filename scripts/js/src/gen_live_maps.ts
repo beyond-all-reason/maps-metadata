@@ -1,5 +1,5 @@
-import { readMapList } from './maps_metadata.js';
-import { readMapCDNInfos } from './cdn_maps.js';
+import { readMapList } from './maps_metadata.ts';
+import { readMapCDNInfos } from './cdn_maps.ts';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
 import stringify from "json-stable-stringify";

@@ -1,6 +1,6 @@
 // Verifies no map archives are solid.
 
-import { readMapList, fetchMapsMetadata } from './maps_metadata.js';
+import { readMapList, fetchMapsMetadata } from './maps_metadata.ts';
 
 const maps = await readMapList();
 const mapsMetadata = await fetchMapsMetadata(maps);

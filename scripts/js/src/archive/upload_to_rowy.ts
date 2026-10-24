@@ -5,7 +5,7 @@ import { Firestore } from '@google-cloud/firestore';
 import { program } from '@commander-js/extra-typings';
 import fs from 'node:fs/promises';
 import type { MapList } from '../../../gen/types/map_list.js';
-import type { MapDetails } from './gen_map_details_lua.js';
+import type { MapDetails } from './gen_map_details_lua.ts';
 
 /*
 To create dump:

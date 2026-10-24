@@ -1,10 +1,10 @@
 // Script generating mapBoxes.conf used by SPADS and BYAR-Chobby repo.
 
-import { readMapList } from './maps_metadata.js';
+import { readMapList } from './maps_metadata.ts';
 import fs from 'node:fs/promises';
 import { program } from '@commander-js/extra-typings';
-import { MapList, Startbox } from '../../../gen/types/map_list.js';
-import { polyBoundingRect } from './startbox_utils.js';
+import type { MapList, Startbox } from '../../../gen/types/map_list.js';
+import { polyBoundingRect } from './startbox_utils.ts';
 
 const HEADER = `#
 # AUTOMATICALLY GENERATED FILE, DO NOT EDIT!
