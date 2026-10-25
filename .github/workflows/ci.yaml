@@ -176,14 +176,11 @@ jobs:
   deploy-teiserver:
     runs-on: ubuntu-latest
     needs: build-and-test
-    if: vars.TEISERVER_INSTANCES && vars.TEISERVER_INSTANCES != '[]' && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
+    if: vars.TEISERVER_INSTANCES && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     strategy:
       fail-fast: false
       matrix:
-        # JSON list of instance names, e.g. ["lobby-dev", "integration", "main"]
         instance: ${{ fromJSON(vars.TEISERVER_INSTANCES) }}
-    # Each GitHub environment holds TEISERVER_URL and TEISERVER_CLIENT_ID
-    # variables and the TEISERVER_CLIENT_SECRET secret for its instance.
     environment: teiserver-${{ matrix.instance }}
     steps:
       - uses: actions/checkout@v4
