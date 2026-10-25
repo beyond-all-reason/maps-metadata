@@ -176,25 +176,21 @@ jobs:
   deploy-teiserver:
     runs-on: ubuntu-latest
     needs: build-and-test
-    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
+    if: vars.TEISERVER_INSTANCES && vars.TEISERVER_INSTANCES != '[]' && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     strategy:
       fail-fast: false
       matrix:
-        instance: [lobby-dev, integration, main]
+        # JSON list of instance names, e.g. ["lobby-dev", "integration", "main"]
+        instance: ${{ fromJSON(vars.TEISERVER_INSTANCES) }}
     # Each GitHub environment holds TEISERVER_URL and TEISERVER_CLIENT_ID
     # variables and the TEISERVER_CLIENT_SECRET secret for its instance.
     environment: teiserver-${{ matrix.instance }}
-    # Environment-level vars are not visible in job-level `if`, so the check
-    # whether the instance is configured is done on each step instead.
     steps:
       - uses: actions/checkout@v4
-        if: vars.TEISERVER_URL
       - uses: ./.github/actions/scripts-setup
-        if: vars.TEISERVER_URL
         with:
           cache-name: website
       - name: Push to teiserver ${{ matrix.instance }}
-        if: vars.TEISERVER_URL
         uses: nick-fields/retry@v3
         with:
           timeout_minutes: 10
