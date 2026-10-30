@@ -2,7 +2,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "maps-metadata",
 	"main": "src/index.ts",
-	"compatibility_date": "2026-10-19",
+	"compatibility_date": "2026-10-23",
 	"account_id": "5e015123d861c65819b733acb27db18e",
 	"r2_buckets": [
 		{
