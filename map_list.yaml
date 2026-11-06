@@ -12570,6 +12570,29 @@ ZrnTf20mPzbrMjtHa9Wg:
               y: 0
             - x: 200
               y: 200
+    My7NhlLOHvTRJDfvWESm:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 60
+            - x: 60
+              y: 120
+        - poly:
+            - x: 80
+              y: 0
+            - x: 140
+              y: 60
+        - poly:
+            - x: 60
+              y: 140
+            - x: 120
+              y: 200
+        - poly:
+            - x: 140
+              y: 80
+            - x: 200
+              y: 140
     NjoklrEuM7k1E9fuf9XR:
       maxPlayersPerStartbox: 1
       startboxes:
