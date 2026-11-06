@@ -3667,15 +3667,127 @@ ACgCe99NC8yZFecMwRCm:
       maxPlayersPerStartbox: 8
       startboxes:
         - poly:
+            - x: 113
+              y: 200
+            - strength: 0.5
+              x: 112
+              y: 197
+            - strength: 0.5
+              x: 105
+              y: 194
+            - strength: 0.5
+              x: 96
+              y: 188
+            - strength: 0.5
+              x: 91
+              y: 180
+            - strength: 0.5
+              x: 89
+              y: 172
+            - strength: 1
+              x: 91
+              y: 143
+            - strength: 1
+              x: 78
+              y: 116
+            - strength: 0.5
+              x: 62
+              y: 118
+            - strength: 0.5
+              x: 51
+              y: 117
+            - strength: 0.5
+              x: 40
+              y: 111
+            - strength: 0.5
+              x: 36
+              y: 102
+            - strength: 0.5
+              x: 37
+              y: 95
+            - strength: 0.5
+              x: 34
+              y: 88
+            - strength: 0.5
+              x: 19
+              y: 75
+            - strength: 0.5
+              x: 10
+              y: 73
+            - strength: 0.225
+              x: 5
+              y: 73
             - x: 0
-              y: 120
-            - x: 80
+              y: 73
+            - x: 0
+              y: 134
+            - x: 0
+              y: 200
+            - x: 29
+              y: 200
+            - x: 59
               y: 200
         - poly:
-            - x: 120
+            - x: 87
               y: 0
+            - strength: 0.5
+              x: 88
+              y: 3
+            - strength: 0.5
+              x: 95
+              y: 6
+            - strength: 0.5
+              x: 104
+              y: 12
+            - strength: 0.5
+              x: 109
+              y: 20
+            - strength: 0.5
+              x: 111
+              y: 28
+            - strength: 1
+              x: 109
+              y: 57
+            - strength: 1
+              x: 122
+              y: 84
+            - strength: 0.5
+              x: 138
+              y: 82
+            - strength: 0.5
+              x: 149
+              y: 83
+            - strength: 0.5
+              x: 160
+              y: 89
+            - strength: 0.5
+              x: 164
+              y: 98
+            - strength: 0.5
+              x: 163
+              y: 105
+            - strength: 0.5
+              x: 166
+              y: 112
+            - strength: 0.5
+              x: 181
+              y: 125
+            - strength: 0.5
+              x: 190
+              y: 127
+            - strength: 0.225
+              x: 195
+              y: 127
             - x: 200
-              y: 80
+              y: 127
+            - x: 200
+              y: 66
+            - x: 200
+              y: 0
+            - x: 171
+              y: 0
+            - x: 141
+              y: 0
   teamCount: 2
   terrain:
     - flat
