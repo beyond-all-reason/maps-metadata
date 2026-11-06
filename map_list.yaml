@@ -20283,6 +20283,29 @@ taMTVVZKAKbYywe7tyRb:
         teamCount: 2
   startPosActive: true
   startboxesSet:
+    C3RuLIwBuvIl7H53SCwM:
+      maxPlayersPerStartbox: 4
+      startboxes:
+        - poly:
+            - x: 0
+              y: 0
+            - x: 60
+              y: 60
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 60
+        - poly:
+            - x: 0
+              y: 140
+            - x: 60
+              y: 200
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
     tzBDplnMfTRPH0H4BYcH:
       maxPlayersPerStartbox: 8
       startboxes:
