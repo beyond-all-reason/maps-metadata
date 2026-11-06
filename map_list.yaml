@@ -15635,6 +15635,29 @@ fzRTg60xfSVnG44Zw42D:
   playerCount: 16
   springName: To Kill The Middle v1.1
   startboxesSet:
+    id4cWEn3dfX6auSDmmnp:
+      maxPlayersPerStartbox: 3
+      startboxes:
+        - poly:
+            - x: 22
+              y: 0
+            - x: 82
+              y: 60
+        - poly:
+            - x: 140
+              y: 0
+            - x: 200
+              y: 60
+        - poly:
+            - x: 17
+              y: 140
+            - x: 77
+              y: 200
+        - poly:
+            - x: 140
+              y: 140
+            - x: 200
+              y: 200
     vpPT5qJ21gkqpaxjcxrI:
       maxPlayersPerStartbox: 8
       startboxes:
