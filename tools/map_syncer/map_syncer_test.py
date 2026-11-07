@@ -29,8 +29,6 @@ def test_main_default_args(mocker: MockerFixture) -> None:
     mqtt_trigger.return_value = nullcontext()
     timer_trigger = mocker.patch("map_syncer.timer_sync_trigger")
     timer_trigger.return_value = nullcontext()
-    timer_trigger = mocker.patch("map_syncer.timer_sync_trigger")
-    timer_trigger.return_value = nullcontext()
     log_basic_config = mocker.patch("logging.basicConfig")
     map_syncer.main(["map_syncer.py", "map_dir"])
     polling_sync.assert_called_once_with(
@@ -112,7 +110,7 @@ def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
         "/live_maps.json", headers={"Cache-Control": "no-cache"}
     ).respond_with_json(response)
     live_maps = map_syncer.fetch_live_maps(httpserver.url_for("/live_maps.json"))
-    excepted_live_maps = [
+    expected_live_maps = [
         map_syncer.LiveMapEntry(
             "Map 1",
             "map1.sd7",
@@ -126,7 +124,7 @@ def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
             "1234567890abcdef1234567890abcdef",
         ),
     ]
-    assert live_maps == excepted_live_maps
+    assert live_maps == expected_live_maps
 
 
 def test_download_file(httpserver: HTTPServer, fs: FakeFilesystem) -> None:
@@ -200,7 +198,7 @@ def test_mqtt_triggers_on_message(
         assert sync_trigger.get(timeout=0.5) == (map_syncer.SyncOp.SYNC, "MQTT")
 
 
-def test_timer_triggers_on_interval(mocker: MockerFixture) -> None:
+def test_timer_triggers_on_interval() -> None:
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
 
     interval = 0.02
@@ -215,7 +213,7 @@ def test_timer_triggers_on_interval(mocker: MockerFixture) -> None:
             t, msg = sync_trigger.get(timeout=10 * interval)
             assert (t, msg) == (map_syncer.SyncOp.SYNC, "timer")
         duration = time.time() - start
-        assert duration > min_duration and duration < max_duration
+        assert min_duration < duration < max_duration
 
 
 def test_poller_starts_sync_correctly(mocker: MockerFixture) -> None:

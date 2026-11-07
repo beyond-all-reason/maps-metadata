@@ -34,9 +34,8 @@ uv sync
 ### Lint
 
 ```sh
-uv run black .
-uv run isort .
-uv run ruff check .
+uv run ruff format .
+uv run ruff check --fix .
 uv run mypy
 ```
 

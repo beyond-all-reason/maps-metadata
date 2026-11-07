@@ -9,6 +9,7 @@ on:
   pull_request:
     paths:
     - 'tools/map_syncer/**'
+    - '.github/workflows/ci_tools_map_syncer.yaml'
   workflow_dispatch:
 jobs:
   lint-and-test:
@@ -25,8 +26,7 @@ jobs:
         uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
         with:
           python-version: ${{ matrix.python-version }}
-          enable-cache: true
-          cache-dependency-glob: tools/map_syncer/uv.lock
+          working-directory: tools/map_syncer
       - name: Install dependencies
         run: uv sync --locked
       # pytest-mqtt uses an already running broker on localhost:1883 instead
@@ -38,9 +38,7 @@ jobs:
           sudo apt-get install -y mosquitto
           timeout 30 bash -c 'until (echo > /dev/tcp/localhost/1883) 2>/dev/null; do sleep 1; done'
       - name: Check formatting
-        run: |
-          uv run black --check --diff .
-          uv run isort --check --diff .
+        run: uv run ruff format --check --diff .
       - name: Check Types
         run: uv run mypy
       - name: Lint
