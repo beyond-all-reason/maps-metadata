@@ -6,6 +6,9 @@ Cloud Run service to parse assets from maps into GCS Bucket.
 Local dev
 ---------
 
+Requires 7-Zip `7za` on `PATH` (or set `PATH_7ZA` to the binary). Use a
+current 7-Zip (e.g. Debian/Ubuntu `7zip` package), not the unmaintained p7zip.
+
 To run the application locally, and write files to local disk and not GCS Bucket:
 
 ```
