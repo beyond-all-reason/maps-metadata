@@ -6,20 +6,25 @@
     "serve": "npm run build && firebase emulators:start --only functions",
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
+    "deploy": "firebase deploy --only functions:rowy-helpers",
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "18"
+    "node": "24"
   },
   "main": "lib/index.js",
   "dependencies": {
-    "firebase-admin": "^11.7.0",
-    "firebase-functions": "^4.3.1"
+    "firebase-admin": "^14.5.0",
+    "firebase-functions": "^7.4.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.4",
-    "firebase-tools": "^11.28.0"
+    "firebase-tools": "^15.35.0",
+    "typescript": "^7.0.2"
   },
-  "private": true
+  "private": true,
+  "allowScripts": {
+    "@firebase/util": false,
+    "protobufjs": false,
+    "re2": false
+  }
 }
