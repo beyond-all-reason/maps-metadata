@@ -14,7 +14,7 @@ import pytest
 from pyfakefs.fake_filesystem import FakeFilesystem
 from pytest_httpserver import HTTPServer
 from pytest_mock import MockerFixture
-from pytest_mqtt.capmqtt import MqttCaptureFixture  # type: ignore
+from pytest_mqtt.capmqtt import MqttCaptureFixture
 from werkzeug.wrappers.request import Request as HTTPRequest
 from werkzeug.wrappers.response import Response as HTTPResponse
 
@@ -111,9 +111,7 @@ def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
     httpserver.expect_request(
         "/live_maps.json", headers={"Cache-Control": "no-cache"}
     ).respond_with_json(response)
-    live_maps = map_syncer.fetch_live_maps(
-        cast(str, httpserver.url_for("/live_maps.json"))
-    )
+    live_maps = map_syncer.fetch_live_maps(httpserver.url_for("/live_maps.json"))
     excepted_live_maps = [
         map_syncer.LiveMapEntry(
             "Map 1",
@@ -135,7 +133,7 @@ def test_download_file(httpserver: HTTPServer, fs: FakeFilesystem) -> None:
     httpserver.expect_request("/map1.sd7").respond_with_data(b"map1contents")
     map1md5 = "462e462688fddf33e4bf4b756015f9a1"
     map_syncer.download_file(
-        cast(str, httpserver.url_for("/map1.sd7")),
+        httpserver.url_for("/map1.sd7"),
         pathlib.Path("map1.sd7"),
         map1md5,
     )
@@ -151,13 +149,13 @@ def test_send_healthcheck_basic(httpserver: HTTPServer) -> None:
         return HTTPResponse("OK")
 
     httpserver.expect_request("/health").respond_with_handler(handler)
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")))
+    map_syncer.send_healthcheck(httpserver.url_for("/health"))
     assert called
 
 
 def test_send_healthcheck_ignores_failures(httpserver: HTTPServer) -> None:
     httpserver.expect_request("/health").respond_with_data(b"NOT OK", status=500)
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")))
+    map_syncer.send_healthcheck(httpserver.url_for("/health"))
 
 
 def test_send_healthcheck_timeout(httpserver: HTTPServer) -> None:
@@ -167,7 +165,7 @@ def test_send_healthcheck_timeout(httpserver: HTTPServer) -> None:
 
     httpserver.expect_request("/health").respond_with_handler(handler)
     start = time.time()
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")), timeout=0.1)
+    map_syncer.send_healthcheck(httpserver.url_for("/health"), timeout=0.1)
     assert time.time() - start < 0.2
 
 
@@ -181,7 +179,7 @@ def test_download_file_md5_mismatch(httpserver: HTTPServer, fs: FakeFilesystem) 
     httpserver.expect_request("/map1.sd7").respond_with_data(b"map1contents")
     with pytest.raises(RuntimeError) as excinfo:
         map_syncer.download_file(
-            cast(str, httpserver.url_for("/map1.sd7")),
+            httpserver.url_for("/map1.sd7"),
             pathlib.Path("map1.sd7"),
             "asdasdasd",
         )
@@ -198,7 +196,7 @@ def test_mqtt_triggers_on_message(
     with map_syncer.mqtt_sync_trigger(mqtt_config, sync_trigger):
         with pytest.raises(queue.Empty):
             sync_trigger.get(timeout=0.5)
-        capmqtt.publish("topic", "random stuff")  # type: ignore
+        capmqtt.publish("topic", "random stuff")
         assert sync_trigger.get(timeout=0.5) == (map_syncer.SyncOp.SYNC, "MQTT")
 
 
@@ -281,7 +279,7 @@ def live_maps_url(httpserver: HTTPServer) -> str:
         {
             "springName": name,
             "fileName": file,
-            "downloadURL": cast(str, httpserver.url_for("/map/" + file)),
+            "downloadURL": httpserver.url_for("/map/" + file),
             "md5": md5,
         }
         for (name, file, _, md5) in maps
@@ -289,7 +287,7 @@ def live_maps_url(httpserver: HTTPServer) -> str:
     httpserver.expect_request("/live_maps.json").respond_with_json(response)
     for _, file, contents, _ in maps:
         httpserver.expect_request("/map/" + file).respond_with_data(contents)
-    return cast(str, httpserver.url_for("/live_maps.json"))
+    return httpserver.url_for("/live_maps.json")
 
 
 def test_sync_files_simple(live_maps_url: str, fs: FakeFilesystem) -> None:

@@ -32,6 +32,10 @@ from types import FrameType
 from typing import TYPE_CHECKING, cast
 
 import paho.mqtt.client as mqtt
+from paho.mqtt.client import ConnectFlags
+from paho.mqtt.enums import CallbackAPIVersion
+from paho.mqtt.properties import Properties
+from paho.mqtt.reasoncodes import ReasonCode
 
 USER_AGENT = "maps-metadata-sync-maps/1.0"
 DEFAULT_LIVE_MAPS_URL = (
@@ -40,6 +44,7 @@ DEFAULT_LIVE_MAPS_URL = (
 DEFAULT_MQTT_TOPIC = "dev.beyondallreason.maps-metadata/live_maps/updated:v1"
 DEFAULT_DELETE_AFTER = 4 * 60 * 60  # 4 hours
 DEFAULT_POLL_INTERVAL = 10 * 60  # 10 minutes
+LOG_LEVELS = ("DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL")
 
 # In some rare instances, sockets can get stuck. Let's make sure that
 # we timeout them after some time for all socket oprations.
@@ -193,11 +198,18 @@ def mqtt_sync_trigger(
             sync_trigger.put((SyncOp.SYNC, "MQTT"))
 
     def on_mqtt_connect(
-        client: mqtt.Client, userdata: None, flags: dict[str, int], rc: int
+        client: mqtt.Client,
+        userdata: None,
+        flags: ConnectFlags,
+        reason_code: ReasonCode,
+        properties: Properties | None,
     ) -> None:
+        if reason_code.is_failure:
+            logging.error("MQTT connection failed: %s", reason_code)
+            return
         client.subscribe(mqtt_config.topic)
 
-    mqtt_client = mqtt.Client()
+    mqtt_client = mqtt.Client(CallbackAPIVersion.VERSION2)
     mqtt_client.on_message = on_mqtt_message
     mqtt_client.on_connect = on_mqtt_connect
     if mqtt_config.username is not None:
@@ -312,7 +324,7 @@ def main(argv: list[str]) -> None:
         "--log-level",
         metavar="LEVEL",
         default="WARNING",
-        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        choices=LOG_LEVELS,
         help="Set the logging level (default: WARNING)",
     )
     parser.add_argument(

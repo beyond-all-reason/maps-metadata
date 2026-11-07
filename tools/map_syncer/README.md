@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```sh
 black .
 isort .
-ruff .
+ruff check .
 mypy
 ```
 

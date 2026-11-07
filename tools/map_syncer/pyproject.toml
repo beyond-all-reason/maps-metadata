@@ -10,7 +10,6 @@ extend_skip = [".pyenv"]
 [tool.mypy]
 files = "*.py"
 pretty = true
-mypy_path = "$MYPY_CONFIG_FILE_DIR/stubs"
 show_error_context = true
 
 # Mypy rules:
@@ -30,7 +29,7 @@ no_implicit_reexport = true
 strict_equality = true
 disallow_any_expr = true
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
     "E", "F", "C90", "N", "UP", "YTT", "B", "A", "C4", "EM", "ISC",
     "G", "RUF", "PIE", "SIM", "PTH", "PLC", "PLE", "PLW"
