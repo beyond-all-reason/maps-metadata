@@ -16,7 +16,7 @@ jobs:
       sha: ${{ steps.merge-base.outputs.sha }}
     steps:
       - name: Checkout PR head
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
@@ -38,26 +38,26 @@ jobs:
         side: [base, head]
     steps:
       - name: Checkout ${{ matrix.side }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ matrix.side == 'base' && needs.merge-base.outputs.sha || github.event.pull_request.head.sha }}
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version-file: scripts/py/.python-version
           cache: pip
           cache-dependency-path: scripts/py/requirements.txt
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
           cache: npm
           cache-dependency-path: scripts/js/package-lock.json
 
       - name: Restore maps cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .maps-cache
           key: maps-cache-cache-v3-diff-${{ matrix.side }}-${{ github.sha }}
@@ -72,7 +72,7 @@ jobs:
         run: source .envrc && make -j $(nproc)
 
       - name: Upload outputs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gen-${{ matrix.side }}
           path: gen
@@ -82,13 +82,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download base outputs
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: gen-base
           path: /tmp/gen-base
 
       - name: Download head outputs
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: gen-head
           path: /tmp/gen-head
@@ -207,7 +207,7 @@ jobs:
           cp "$DIFF_MD" "$GITHUB_STEP_SUMMARY"
 
       - name: Upload diff artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gen-diff
           path: /tmp/diff-output.md

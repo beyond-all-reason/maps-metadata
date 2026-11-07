@@ -24,7 +24,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ./.github/actions/scripts-setup
         with:
           cache-name: build
@@ -34,7 +34,7 @@ jobs:
       - name: Test
         run: source .envrc && make -j $(nproc) test
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: gen-artifacts
           path: gen
@@ -43,9 +43,9 @@ jobs:
     needs: build-and-test
     if: vars.MAPS_METADATA_BUCKET_NAME && (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: gen-artifacts
           path: gen
@@ -59,25 +59,24 @@ jobs:
           CLOUDFLARE_ACCESS_KEY_ID: ${{ vars.CLOUDFLARE_R2_ACCESS_KEY_ID }}
           CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
           R2_BUCKET_NAME: ${{ vars.MAPS_METADATA_BUCKET_NAME }}
+      # Plain MQTT: curl on runner images doesn't support mqtts:// (needs
+      # curl >= 8.19). The broker is public and unauthenticated anyway.
       - name: Publish update on MQTT
-        uses: juhrlass/mqtt-action@1.2.0
-        with:
-          protocol: mqtts
-          host: broker.hivemq.com
-          port: 8883
-          topic: dev.beyondallreason.maps-metadata/live_maps/updated:v1
-          message: ${{ github.sha }}
+        run: >-
+          curl -sS --connect-timeout 10 --max-time 30
+          -d "$GITHUB_SHA"
+          'mqtt://broker.hivemq.com/dev.beyondallreason.maps-metadata/live_maps/updated:v1'
   deploy-chobby:
     runs-on: ubuntu-latest
     needs: build-and-test
     if: vars.ENABLE_BYAR_CHOBBY_PUSH && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ./.github/actions/scripts-setup
         with:
           cache-name: chobby
       - name: Checkout BYAR-Chobby
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.repository_owner }}/BYAR-Chobby
           path: BYAR-Chobby
@@ -89,7 +88,7 @@ jobs:
           cp gen/mapDetails.lua BYAR-Chobby/LuaMenu/configs/gameConfig/byar/mapDetails.lua
           cp gen/mapBoxes.conf BYAR-Chobby/LuaMenu/configs/gameConfig/byar/savedBoxes.dat
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
         with:
           repository: BYAR-Chobby
           commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
@@ -102,14 +101,14 @@ jobs:
     needs: build-and-test
     if: vars.ENABLE_SPADS_CONFIG_PUSH && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: gen-artifacts
           path: gen
       - name: Checkout SPADS Config
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.repository_owner }}/spads_config_bar
           path: spads_config_bar
@@ -122,7 +121,7 @@ jobs:
           cp gen/mapBattlePresets.conf spads_config_bar/etc/mapBattlePresets.conf
           python3 scripts/py/update_spads_conf.py spads_config_bar/etc/spads_cluster.conf
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
         with:
           repository: spads_config_bar
           commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
@@ -135,12 +134,12 @@ jobs:
     needs: build-and-test
     if: vars.WEBFLOW_COLLECTION_ID && ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch')
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ./.github/actions/scripts-setup
         with:
           cache-name: website
       - name: Push to website
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4.0.0
         with:
           timeout_minutes: 10
           max_attempts: 3
@@ -159,13 +158,13 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ./.github/actions/scripts-setup
         with:
           cache-name: gdrive
       - name: Authenticate to Google Cloud
         id: auth
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v3
         with:
           workload_identity_provider: projects/187238959541/locations/global/workloadIdentityPools/github-actions/providers/github
           service_account: gdrive-owner@rowy-1f075.iam.gserviceaccount.com
@@ -183,12 +182,12 @@ jobs:
         instance: ${{ fromJSON(vars.TEISERVER_INSTANCES) }}
     environment: teiserver-${{ matrix.instance }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ./.github/actions/scripts-setup
         with:
           cache-name: website
       - name: Push to teiserver ${{ matrix.instance }}
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4.0.0
         with:
           timeout_minutes: 10
           max_attempts: 3
