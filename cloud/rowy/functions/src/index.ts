@@ -10,7 +10,7 @@ initializeApp();
 
 export const processSignUp = onUserCreated({
     region: "europe-west1",
-    serviceAccount: "rowy-functions@rowy-1f075.iam.gserviceaccount.com",
+    serviceAccount: "rowy-1f075@appspot.gserviceaccount.com",
 }, async (event) => {
     const user = event.data;
     try {
