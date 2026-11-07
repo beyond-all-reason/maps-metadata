@@ -2,10 +2,25 @@
 name = 'map_syncer'
 version = '0.0.1'
 requires-python = ">=3.11"
+dependencies = [
+    "paho-mqtt>=2.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.10.1",
+    "isort>=9.0.2",
+    "mypy>=2.4.1",
+    "pyfakefs>=6.3.2",
+    "pytest>=9.2.0",
+    "pytest-httpserver>=1.2.0",
+    "pytest-mock>=3.17.0",
+    "pytest-mqtt>=0.7.1",
+    "ruff>=0.17.4",
+]
 
 [tool.isort]
 profile = "black"
-extend_skip = [".pyenv"]
 
 [tool.mypy]
 files = "*.py"

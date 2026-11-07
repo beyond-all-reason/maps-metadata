@@ -22,25 +22,25 @@ based systems it's `python3-paho-mqtt` package.
 Development
 -----------
 
+Dependencies are managed with [uv](https://docs.astral.sh/uv/).
+
 ### Setup
 
 ```sh
-python3 -m venv .pyenv
-source .pyenv/bin/activate
-pip install -r requirements.txt
+uv sync
 ```
 
 ### Lint
 
 ```sh
-black .
-isort .
-ruff check .
-mypy
+uv run black .
+uv run isort .
+uv run ruff check .
+uv run mypy
 ```
 
 ### Test
 
 ```sh
-pytest
+uv run pytest
 ```
