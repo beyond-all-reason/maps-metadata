@@ -45,3 +45,7 @@ uv run mypy
 ```sh
 uv run pytest
 ```
+
+The MQTT test needs a broker: it uses one already listening on
+`localhost:1883` (e.g. distro `mosquitto` package), otherwise pytest-mqtt
+starts a mosquitto Docker container.

@@ -24,7 +24,6 @@ profile = "black"
 
 [tool.mypy]
 files = "*.py"
-mypy_path = "$MYPY_CONFIG_FILE_DIR/stubs"
 pretty = true
 show_error_context = true
 
