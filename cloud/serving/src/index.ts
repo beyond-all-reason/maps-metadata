@@ -1,9 +1,3 @@
-export interface Env {
-	R2_MAPS_METADATA: R2Bucket;
-	R2_IMAGOR_RESULTS: R2Bucket;
-	IMAGOR_URL: string;
-}
-
 const CACHE_FOREVER = 'public, max-age=31536000, immutable';
 const CACHE_HEAD = 'public, max-age=600';
 const CACHE_LATEST = 'public, max-age=1800, stale-while-revalidate=1800, stale-if-error=86400';
@@ -203,11 +197,7 @@ async function getFile(request: Request, env: Env, ctx: ExecutionContext): Promi
 }
 
 export default {
-	async fetch(
-		request: Request,
-		env: Env,
-		ctx: ExecutionContext
-	): Promise<Response> {
+	async fetch(request, env, ctx): Promise<Response> {
 		try {
 			const allowedMethods = ['GET', 'HEAD'];
 			if (!allowedMethods.includes(request.method)) {
@@ -228,4 +218,4 @@ export default {
 			return new Response(`Internal error: ${e.stack}`, { status: 500 });
 		}
 	},
-};
+} satisfies ExportedHandler<Env>;
