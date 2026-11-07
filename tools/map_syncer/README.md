@@ -16,7 +16,7 @@ Production
 Copy `map_syncer.py` to target and run `./map_syncer.py --help` to see
 available options.
 
-The only runtime dependency on top of Python >= 3.8 is `paho-mqtt`. On Debian
+The only runtime dependency on top of Python >= 3.11 is `paho-mqtt`. On Debian
 based systems it's `python3-paho-mqtt` package.
 
 Development

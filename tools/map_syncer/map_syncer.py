@@ -22,22 +22,14 @@ import sys
 import threading
 import time
 import urllib.request
-from contextlib import contextmanager, nullcontext
+from collections.abc import Iterator
+from contextlib import AbstractContextManager, contextmanager, nullcontext
 from dataclasses import dataclass
 from enum import Enum
 from http.client import HTTPResponse
 from pathlib import Path
 from types import FrameType
-from typing import (
-    TYPE_CHECKING,
-    ContextManager,
-    Dict,
-    Iterator,
-    List,
-    Optional,
-    Tuple,
-    cast,
-)
+from typing import TYPE_CHECKING, cast
 
 import paho.mqtt.client as mqtt
 
@@ -68,11 +60,11 @@ class MQTTConfig:
     port: int
     tls: bool
     topic: str
-    username: Optional[str]
-    password: Optional[str]
+    username: str | None
+    password: str | None
 
 
-def fetch_live_maps(url: str) -> List[LiveMapEntry]:
+def fetch_live_maps(url: str) -> list[LiveMapEntry]:
     """Fetches live maps list from given URL and parses it."""
 
     req = urllib.request.Request(
@@ -85,7 +77,7 @@ def fetch_live_maps(url: str) -> List[LiveMapEntry]:
     res: HTTPResponse
     with urllib.request.urlopen(req) as res:
         # We assume that read url is well typed according to json schema
-        data: List[Dict[str, str]] = json.loads(res.read().decode())
+        data: list[dict[str, str]] = json.loads(res.read().decode())
         return [
             LiveMapEntry(d["springName"], d["fileName"], d["downloadURL"], d["md5"])
             for d in data
@@ -145,7 +137,7 @@ def sync_files(directory: Path, url: str, delete_after: int) -> None:
 
     # Load tombstones file if it exists.
     tombstones_file = directory.joinpath("tombstones.json")
-    not_seen_since: Dict[str, int] = {}
+    not_seen_since: dict[str, int] = {}
     if tombstones_file.exists():
         with tombstones_file.open() as f:
             not_seen_since = json.load(f)
@@ -154,7 +146,7 @@ def sync_files(directory: Path, url: str, delete_after: int) -> None:
     live_map_files = {file_info.file_name for file_info in live_maps}
 
     # Delete files that are not seen for long enough and rebuild the tombstones
-    new_not_seen_since: Dict[str, int] = {}
+    new_not_seen_since: dict[str, int] = {}
     for file_path in directory.iterdir():
         if file_path.name in live_map_files or file_path.suffix not in {
             ".sd7",
@@ -183,7 +175,7 @@ class SyncOp(Enum):
 
 
 if TYPE_CHECKING:
-    SyncQueue = queue.Queue[Tuple[SyncOp, str]]
+    SyncQueue = queue.Queue[tuple[SyncOp, str]]
 else:
     SyncQueue = queue.Queue
 
@@ -201,7 +193,7 @@ def mqtt_sync_trigger(
             sync_trigger.put((SyncOp.SYNC, "MQTT"))
 
     def on_mqtt_connect(
-        client: mqtt.Client, userdata: None, flags: Dict[str, int], rc: int
+        client: mqtt.Client, userdata: None, flags: dict[str, int], rc: int
     ) -> None:
         client.subscribe(mqtt_config.topic)
 
@@ -261,7 +253,7 @@ def signal_sync_trigger(sync_trigger: SyncQueue) -> Iterator[None]:
     """Pushes STOP trigger to the queue when SIGINT or SIGTERM is received."""
     first_signal = True
 
-    def signal_handler(sig: int, frame: Optional[FrameType]) -> None:
+    def signal_handler(sig: int, frame: FrameType | None) -> None:
         nonlocal first_signal
         if not first_signal:
             logging.warning("Got signal again, exiting immediately")
@@ -286,7 +278,7 @@ def polling_sync(
     url: str,
     delete_after: int,
     sync_trigger: SyncQueue,
-    healthcheck_url: Optional[str] = None,
+    healthcheck_url: str | None = None,
 ) -> None:
     """Syncs maps in a loop triggered by queue until STOP is received."""
 
@@ -313,7 +305,7 @@ def polling_sync(
             logging.exception("Error while syncing maps")
 
 
-def main(argv: List[str]) -> None:
+def main(argv: list[str]) -> None:
     parser = argparse.ArgumentParser(description="Sync live maps to directory.")
     parser.add_argument("maps_directory", help="Directory where the maps are stored")
     parser.add_argument(
@@ -401,15 +393,15 @@ def main(argv: List[str]) -> None:
     logging.basicConfig(level=getattr(logging, args.log_level))  # type: ignore
 
     sync_trigger: SyncQueue = queue.Queue()
-    mqtt_ctx: ContextManager[None] = nullcontext()
-    if cast(Optional[str], args.mqtt_host) is not None:
+    mqtt_ctx: AbstractContextManager[None] = nullcontext()
+    if cast(str | None, args.mqtt_host) is not None:
         mqtt_config = MQTTConfig(
             cast(str, args.mqtt_host),
             cast(int, args.mqtt_port),
             not cast(bool, args.mqtt_no_tls),
             cast(str, args.mqtt_topic),
-            cast(Optional[str], args.mqtt_username),
-            cast(Optional[str], args.mqtt_password),
+            cast(str | None, args.mqtt_username),
+            cast(str | None, args.mqtt_password),
         )
         mqtt_ctx = mqtt_sync_trigger(mqtt_config, sync_trigger)
 
@@ -421,7 +413,7 @@ def main(argv: List[str]) -> None:
             cast(str, args.live_maps_url),
             cast(int, args.delete_after),
             sync_trigger,
-            cast(Optional[str], args.healthcheck_url),
+            cast(str | None, args.healthcheck_url),
         )
 
 

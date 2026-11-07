@@ -1,7 +1,7 @@
 [project]
 name = 'map_syncer'
 version = '0.0.1'
-requires-python = ">=3.8.0"
+requires-python = ">=3.11"
 
 [tool.isort]
 profile = "black"

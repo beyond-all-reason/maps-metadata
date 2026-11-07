@@ -7,7 +7,7 @@ import secrets
 import threading
 import time
 from contextlib import nullcontext
-from typing import Dict, List, Tuple, Union, cast
+from typing import cast
 from unittest.mock import ANY
 
 import pytest
@@ -94,7 +94,7 @@ def test_main_all_args(mocker: MockerFixture) -> None:
 
 
 def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
-    response: List[Dict[str, str]] = [
+    response: list[dict[str, str]] = [
         {
             "springName": "Map 1",
             "fileName": "map1.sd7",
@@ -189,7 +189,7 @@ def test_download_file_md5_mismatch(httpserver: HTTPServer, fs: FakeFilesystem) 
 
 
 def test_mqtt_triggers_on_message(
-    mosquitto: Tuple[str, Union[int, str]], capmqtt: MqttCaptureFixture
+    mosquitto: tuple[str, int | str], capmqtt: MqttCaptureFixture
 ) -> None:
     mqtt_config = map_syncer.MQTTConfig(
         mosquitto[0], int(mosquitto[1]), False, "topic", None, None
@@ -277,7 +277,7 @@ def live_maps_url(httpserver: HTTPServer) -> str:
         ("Map 2", "map2.sd7", b"map2contents", "a4b06ce39970cb157729504ac1d740a3"),
         ("Map 3", "map3.sd7", b"map3contents", "d8720a22142996af63b6b962e4d338c7"),
     ]
-    response: List[Dict[str, str]] = [
+    response: list[dict[str, str]] = [
         {
             "springName": name,
             "fileName": file,
@@ -310,7 +310,7 @@ def test_sync_files_deletes_only_old(live_maps_url: str, fs: FakeFilesystem) -> 
     fs.create_dir(d)
     fs.create_file(d / "map_old_1.sd7")
     fs.create_file(d / "map_old_2.sd7")
-    initial_tombstones: Dict[str, int] = {
+    initial_tombstones: dict[str, int] = {
         "map_old_1.sd7": int(time.time()) - 100,
         "map_old_2.sd7": int(time.time()) - 300,
     }
@@ -322,7 +322,7 @@ def test_sync_files_deletes_only_old(live_maps_url: str, fs: FakeFilesystem) -> 
     assert fs.exists(d / "map_old_1.sd7")
     assert not fs.exists(d / "map_old_2.sd7")
     assert cast(
-        Dict[str, int],
+        dict[str, int],
         json.loads(fs.get_object(d / "tombstones.json").contents or "{}"),
     ) == {
         "map_old_1.sd7": initial_tombstones["map_old_1.sd7"],

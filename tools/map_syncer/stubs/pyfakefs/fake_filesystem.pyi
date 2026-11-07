@@ -1,6 +1,6 @@
 # Partially generated using stubgen and left only pieces we need.
 import os
-from typing import Callable
+from collections.abc import Callable
 
 AnyPath = str | bytes | os.PathLike
 AnyString = str | bytes
