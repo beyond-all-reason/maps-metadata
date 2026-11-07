@@ -12,22 +12,22 @@ runs:
   steps:
     - name: Download artifacts
       if: ${{ inputs.download-artifacts == 'true' }}
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v8
       with:
         name: gen-artifacts
         path: gen
     - name: Setup Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v7
       with:
-        python-version: 3.11
+        python-version-file: scripts/py/.python-version
         cache: pip
         cache-dependency-path: scripts/py/requirements.txt
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v7
       with:
-        node-version: 26.12
+        node-version-file: .nvmrc
         cache: npm
         cache-dependency-path: scripts/js/package-lock.json
-    - uses: actions/cache@v4
+    - uses: actions/cache@v6
       if: ${{ !env.ACT }}
       with:
         path: .maps-cache

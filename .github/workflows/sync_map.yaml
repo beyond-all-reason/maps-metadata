@@ -43,7 +43,7 @@ jobs:
           else
             echo "pr_title=Update map ${to_sync} from rowy" >> $GITHUB_OUTPUT
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ssh-key: ${{ secrets.SSH_SELF_DEPLOY_KEY }}
       - uses: ./.github/actions/scripts-setup
@@ -52,7 +52,7 @@ jobs:
           download-artifacts: 'false'
       - name: Authenticate to Google Cloud
         id: auth
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v3
         with:
           workload_identity_provider: projects/187238959541/locations/global/workloadIdentityPools/github-actions/providers/github
           service_account: github-actions@rowy-1f075.iam.gserviceaccount.com
@@ -62,7 +62,7 @@ jobs:
             make types
             node scripts/js/src/update_from_rowy.ts map_list.yaml ${{ steps.set_properties.outputs.map_to_sync }}
       - name: Commit and create or update PR
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           commit-message: Update map_list.yaml with new map data
           branch: sync-map-${{ steps.set_properties.outputs.map_to_sync }}
