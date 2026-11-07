@@ -89,7 +89,7 @@ def fetch_live_maps(url: str) -> list[LiveMapEntry]:
         ]
 
 
-def send_healthcheck(url: str, timeout: float = 5000) -> None:
+def send_healthcheck(url: str, timeout: float = 5) -> None:
     """Sends a healthcheck to the given URL."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
@@ -228,18 +228,13 @@ def mqtt_sync_trigger(
 def timer_sync_trigger(interval: float, sync_trigger: SyncQueue) -> Generator[None]:
     """Pushes SYNC trigger to the queue every interval seconds."""
 
-    lock = threading.Lock()
-    cv = threading.Condition(lock)
-    stop = False
+    stop = threading.Event()
 
     def thread() -> None:
-        nonlocal stop
-        while not stop:
+        while True:
             sync_trigger.put((SyncOp.SYNC, "timer"))
-            start = time.time()
-            with cv:
-                while not stop and time.time() - start < interval:
-                    cv.wait(interval - (time.time() - start))
+            if stop.wait(interval):
+                return
 
     t = threading.Thread(target=thread)
     t.start()
@@ -247,9 +242,7 @@ def timer_sync_trigger(interval: float, sync_trigger: SyncQueue) -> Generator[No
     try:
         yield
     finally:
-        with cv:
-            stop = True
-            cv.notify()
+        stop.set()
         t.join()
 
 
@@ -305,9 +298,9 @@ def polling_sync(
                 break
         logging.info("Syncing maps (%s)", msg)
         try:
-            start = time.time()
+            start = time.monotonic()
             sync_files(directory, url, delete_after)
-            logging.info("Synced maps in %f seconds", time.time() - start)
+            logging.info("Synced maps in %f seconds", time.monotonic() - start)
             if healthcheck_url is not None:
                 send_healthcheck(healthcheck_url)
         except Exception:
