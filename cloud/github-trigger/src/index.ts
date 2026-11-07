@@ -1,10 +1,9 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 import { Octokit } from '@octokit/rest';
 import { createAppAuth } from '@octokit/auth-app';
 
 const app = express();
-app.use(bodyParser.json());
+app.use(express.json());
 
 const appId = process.env.APP_ID;
 const installationId = process.env.INSTALLATION_ID;
