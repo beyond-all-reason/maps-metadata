@@ -21,5 +21,10 @@
     "firebase-tools": "^15.35.0",
     "typescript": "^7.0.2"
   },
-  "private": true
+  "private": true,
+  "allowScripts": {
+    "@firebase/util": false,
+    "protobufjs": false,
+    "re2": false
+  }
 }
