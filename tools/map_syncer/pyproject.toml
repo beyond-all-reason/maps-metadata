@@ -1,37 +1,33 @@
 [project]
 name = 'map_syncer'
 version = '0.0.1'
-requires-python = ">=3.8.0"
+requires-python = ">=3.11"
+dependencies = [
+    "paho-mqtt>=2.0",
+]
 
-[tool.isort]
-profile = "black"
-extend_skip = [".pyenv"]
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pyfakefs>=6.3.2",
+    "pytest>=9.2.0",
+    "pytest-httpserver>=1.2.0",
+    "pytest-mock>=3.17.0",
+    "pytest-mqtt>=0.7.1",
+    "ruff>=0.17.4",
+]
 
 [tool.mypy]
 files = "*.py"
 pretty = true
-mypy_path = "$MYPY_CONFIG_FILE_DIR/stubs"
 show_error_context = true
 
-# Mypy rules:
-warn_unused_configs = true
-disallow_any_generics = true
-disallow_subclassing_any = true
-disallow_untyped_calls = true
-disallow_untyped_defs = true
-disallow_incomplete_defs = true
-check_untyped_defs = true
-disallow_untyped_decorators = true
-no_implicit_optional = true
-warn_redundant_casts = true
-warn_unused_ignores = true
-warn_return_any = true
-no_implicit_reexport = true
-strict_equality = true
+strict = true
 disallow_any_expr = true
+enable_error_code = ["ignore-without-code"]
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
-    "E", "F", "C90", "N", "UP", "YTT", "B", "A", "C4", "EM", "ISC",
+    "E", "F", "I", "C90", "N", "UP", "YTT", "B", "A", "C4", "EM", "ISC",
     "G", "RUF", "PIE", "SIM", "PTH", "PLC", "PLE", "PLW"
 ]

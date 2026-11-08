@@ -21,25 +21,21 @@ import socket
 import sys
 import threading
 import time
+import urllib.error
 import urllib.request
-from contextlib import contextmanager, nullcontext
+from collections.abc import Generator
+from contextlib import AbstractContextManager, contextmanager, nullcontext
 from dataclasses import dataclass
 from enum import Enum
 from http.client import HTTPResponse
 from pathlib import Path
 from types import FrameType
-from typing import (
-    TYPE_CHECKING,
-    ContextManager,
-    Dict,
-    Iterator,
-    List,
-    Optional,
-    Tuple,
-    cast,
-)
 
 import paho.mqtt.client as mqtt
+from paho.mqtt.client import ConnectFlags
+from paho.mqtt.enums import CallbackAPIVersion
+from paho.mqtt.properties import Properties
+from paho.mqtt.reasoncodes import ReasonCode
 
 USER_AGENT = "maps-metadata-sync-maps/1.0"
 DEFAULT_LIVE_MAPS_URL = (
@@ -48,6 +44,7 @@ DEFAULT_LIVE_MAPS_URL = (
 DEFAULT_MQTT_TOPIC = "dev.beyondallreason.maps-metadata/live_maps/updated:v1"
 DEFAULT_DELETE_AFTER = 4 * 60 * 60  # 4 hours
 DEFAULT_POLL_INTERVAL = 10 * 60  # 10 minutes
+LOG_LEVELS = ("DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL")
 
 # In some rare instances, sockets can get stuck. Let's make sure that
 # we timeout them after some time for all socket oprations.
@@ -68,11 +65,11 @@ class MQTTConfig:
     port: int
     tls: bool
     topic: str
-    username: Optional[str]
-    password: Optional[str]
+    username: str | None
+    password: str | None
 
 
-def fetch_live_maps(url: str) -> List[LiveMapEntry]:
+def fetch_live_maps(url: str) -> list[LiveMapEntry]:
     """Fetches live maps list from given URL and parses it."""
 
     req = urllib.request.Request(
@@ -85,21 +82,24 @@ def fetch_live_maps(url: str) -> List[LiveMapEntry]:
     res: HTTPResponse
     with urllib.request.urlopen(req) as res:
         # We assume that read url is well typed according to json schema
-        data: List[Dict[str, str]] = json.loads(res.read().decode())
+        data: list[dict[str, str]] = json.load(res)
         return [
             LiveMapEntry(d["springName"], d["fileName"], d["downloadURL"], d["md5"])
             for d in data
         ]
 
 
-def send_healthcheck(url: str, timeout: float = 5000) -> None:
+def send_healthcheck(url: str, timeout: float = 5) -> None:
     """Sends a healthcheck to the given URL."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         res: HTTPResponse
         with urllib.request.urlopen(req, timeout=timeout) as res:
             res.read()
-    except (urllib.error.URLError, OSError) as e:
+    except urllib.error.HTTPError as e:
+        e.close()
+        logging.warning("Error while sending healthcheck: %s", e)
+    except OSError as e:
         logging.warning("Error while sending healthcheck: %s", e)
 
 
@@ -122,11 +122,8 @@ def download_file(url: str, destination: Path, md5: str) -> None:
 def md5_match(file_path: Path, expected_md5: str) -> bool:
     """Checks the MD5 checksum of a file."""
 
-    hasher = hashlib.md5()
     with file_path.open("rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            hasher.update(chunk)
-    return hasher.hexdigest() == expected_md5
+        return hashlib.file_digest(f, "md5").hexdigest() == expected_md5
 
 
 def sync_files(directory: Path, url: str, delete_after: int) -> None:
@@ -145,7 +142,7 @@ def sync_files(directory: Path, url: str, delete_after: int) -> None:
 
     # Load tombstones file if it exists.
     tombstones_file = directory.joinpath("tombstones.json")
-    not_seen_since: Dict[str, int] = {}
+    not_seen_since: dict[str, int] = {}
     if tombstones_file.exists():
         with tombstones_file.open() as f:
             not_seen_since = json.load(f)
@@ -154,7 +151,7 @@ def sync_files(directory: Path, url: str, delete_after: int) -> None:
     live_map_files = {file_info.file_name for file_info in live_maps}
 
     # Delete files that are not seen for long enough and rebuild the tombstones
-    new_not_seen_since: Dict[str, int] = {}
+    new_not_seen_since: dict[str, int] = {}
     for file_path in directory.iterdir():
         if file_path.name in live_map_files or file_path.suffix not in {
             ".sd7",
@@ -182,16 +179,13 @@ class SyncOp(Enum):
     STOP = 2
 
 
-if TYPE_CHECKING:
-    SyncQueue = queue.Queue[Tuple[SyncOp, str]]
-else:
-    SyncQueue = queue.Queue
+SyncQueue = queue.Queue[tuple[SyncOp, str]]
 
 
 @contextmanager
 def mqtt_sync_trigger(
     mqtt_config: MQTTConfig, sync_trigger: SyncQueue
-) -> Iterator[None]:
+) -> Generator[None]:
     """Pushes SYNC trigger to the queue when a message is received on the MQTT topic."""
 
     def on_mqtt_message(
@@ -201,11 +195,18 @@ def mqtt_sync_trigger(
             sync_trigger.put((SyncOp.SYNC, "MQTT"))
 
     def on_mqtt_connect(
-        client: mqtt.Client, userdata: None, flags: Dict[str, int], rc: int
+        client: mqtt.Client,
+        userdata: None,
+        flags: ConnectFlags,
+        reason_code: ReasonCode,
+        properties: Properties | None,
     ) -> None:
+        if reason_code.is_failure:
+            logging.error("MQTT connection failed: %s", reason_code)
+            return
         client.subscribe(mqtt_config.topic)
 
-    mqtt_client = mqtt.Client()
+    mqtt_client = mqtt.Client(CallbackAPIVersion.VERSION2)
     mqtt_client.on_message = on_mqtt_message
     mqtt_client.on_connect = on_mqtt_connect
     if mqtt_config.username is not None:
@@ -224,21 +225,16 @@ def mqtt_sync_trigger(
 
 
 @contextmanager
-def timer_sync_trigger(interval: float, sync_trigger: SyncQueue) -> Iterator[None]:
+def timer_sync_trigger(interval: float, sync_trigger: SyncQueue) -> Generator[None]:
     """Pushes SYNC trigger to the queue every interval seconds."""
 
-    lock = threading.Lock()
-    cv = threading.Condition(lock)
-    stop = False
+    stop = threading.Event()
 
     def thread() -> None:
-        nonlocal stop
-        while not stop:
+        while True:
             sync_trigger.put((SyncOp.SYNC, "timer"))
-            start = time.time()
-            with cv:
-                while not stop and time.time() - start < interval:
-                    cv.wait(interval - (time.time() - start))
+            if stop.wait(interval):
+                return
 
     t = threading.Thread(target=thread)
     t.start()
@@ -246,9 +242,7 @@ def timer_sync_trigger(interval: float, sync_trigger: SyncQueue) -> Iterator[Non
     try:
         yield
     finally:
-        with cv:
-            stop = True
-            cv.notify()
+        stop.set()
         t.join()
 
 
@@ -257,15 +251,15 @@ class TerminateException(BaseException):
 
 
 @contextmanager
-def signal_sync_trigger(sync_trigger: SyncQueue) -> Iterator[None]:
+def signal_sync_trigger(sync_trigger: SyncQueue) -> Generator[None]:
     """Pushes STOP trigger to the queue when SIGINT or SIGTERM is received."""
     first_signal = True
 
-    def signal_handler(sig: int, frame: Optional[FrameType]) -> None:
+    def signal_handler(sig: int, frame: FrameType | None) -> None:
         nonlocal first_signal
         if not first_signal:
             logging.warning("Got signal again, exiting immediately")
-            raise TerminateException()
+            raise TerminateException
 
         logging.warning("Got signal, stopping sync loop...")
         sync_trigger.put((SyncOp.STOP, "signal"))
@@ -286,7 +280,7 @@ def polling_sync(
     url: str,
     delete_after: int,
     sync_trigger: SyncQueue,
-    healthcheck_url: Optional[str] = None,
+    healthcheck_url: str | None = None,
 ) -> None:
     """Syncs maps in a loop triggered by queue until STOP is received."""
 
@@ -304,23 +298,38 @@ def polling_sync(
                 break
         logging.info("Syncing maps (%s)", msg)
         try:
-            start = time.time()
+            start = time.monotonic()
             sync_files(directory, url, delete_after)
-            logging.info("Synced maps in %f seconds", time.time() - start)
+            logging.info("Synced maps in %f seconds", time.monotonic() - start)
             if healthcheck_url is not None:
                 send_healthcheck(healthcheck_url)
         except Exception:
             logging.exception("Error while syncing maps")
 
 
-def main(argv: List[str]) -> None:
+class Args(argparse.Namespace):
+    maps_directory: str
+    log_level: str
+    live_maps_url: str
+    delete_after: int
+    polling_interval: int
+    mqtt_host: str | None
+    mqtt_port: int
+    mqtt_no_tls: bool
+    mqtt_topic: str
+    mqtt_username: str | None
+    mqtt_password: str | None
+    healthcheck_url: str | None
+
+
+def main(argv: list[str]) -> None:
     parser = argparse.ArgumentParser(description="Sync live maps to directory.")
     parser.add_argument("maps_directory", help="Directory where the maps are stored")
     parser.add_argument(
         "--log-level",
         metavar="LEVEL",
         default="WARNING",
-        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        choices=LOG_LEVELS,
         help="Set the logging level (default: WARNING)",
     )
     parser.add_argument(
@@ -397,31 +406,31 @@ def main(argv: List[str]) -> None:
         ),
         default=None,
     )
-    args = parser.parse_args(args=argv[1:])
-    logging.basicConfig(level=getattr(logging, args.log_level))  # type: ignore
+    args = parser.parse_args(argv[1:], namespace=Args())
+    logging.basicConfig(level=logging.getLevelNamesMapping()[args.log_level])
 
     sync_trigger: SyncQueue = queue.Queue()
-    mqtt_ctx: ContextManager[None] = nullcontext()
-    if cast(Optional[str], args.mqtt_host) is not None:
+    mqtt_ctx: AbstractContextManager[None] = nullcontext()
+    if args.mqtt_host is not None:
         mqtt_config = MQTTConfig(
-            cast(str, args.mqtt_host),
-            cast(int, args.mqtt_port),
-            not cast(bool, args.mqtt_no_tls),
-            cast(str, args.mqtt_topic),
-            cast(Optional[str], args.mqtt_username),
-            cast(Optional[str], args.mqtt_password),
+            args.mqtt_host,
+            args.mqtt_port,
+            not args.mqtt_no_tls,
+            args.mqtt_topic,
+            args.mqtt_username,
+            args.mqtt_password,
         )
         mqtt_ctx = mqtt_sync_trigger(mqtt_config, sync_trigger)
 
-    timer_ctx = timer_sync_trigger(cast(int, args.polling_interval), sync_trigger)
+    timer_ctx = timer_sync_trigger(args.polling_interval, sync_trigger)
 
     with signal_sync_trigger(sync_trigger), mqtt_ctx, timer_ctx:
         polling_sync(
-            Path(cast(str, args.maps_directory)),
-            cast(str, args.live_maps_url),
-            cast(int, args.delete_after),
+            Path(args.maps_directory),
+            args.live_maps_url,
+            args.delete_after,
             sync_trigger,
-            cast(Optional[str], args.healthcheck_url),
+            args.healthcheck_url,
         )
 
 

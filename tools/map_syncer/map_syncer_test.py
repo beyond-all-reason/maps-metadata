@@ -7,14 +7,14 @@ import secrets
 import threading
 import time
 from contextlib import nullcontext
-from typing import Dict, List, Tuple, Union, cast
+from typing import cast
 from unittest.mock import ANY
 
 import pytest
 from pyfakefs.fake_filesystem import FakeFilesystem
 from pytest_httpserver import HTTPServer
 from pytest_mock import MockerFixture
-from pytest_mqtt.capmqtt import MqttCaptureFixture  # type: ignore
+from pytest_mqtt.capmqtt import MqttCaptureFixture
 from werkzeug.wrappers.request import Request as HTTPRequest
 from werkzeug.wrappers.response import Response as HTTPResponse
 
@@ -27,8 +27,6 @@ def test_main_default_args(mocker: MockerFixture) -> None:
     polling_sync = mocker.patch("map_syncer.polling_sync")
     mqtt_trigger = mocker.patch("map_syncer.mqtt_sync_trigger")
     mqtt_trigger.return_value = nullcontext()
-    timer_trigger = mocker.patch("map_syncer.timer_sync_trigger")
-    timer_trigger.return_value = nullcontext()
     timer_trigger = mocker.patch("map_syncer.timer_sync_trigger")
     timer_trigger.return_value = nullcontext()
     log_basic_config = mocker.patch("logging.basicConfig")
@@ -94,7 +92,7 @@ def test_main_all_args(mocker: MockerFixture) -> None:
 
 
 def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
-    response: List[Dict[str, str]] = [
+    response: list[dict[str, str]] = [
         {
             "springName": "Map 1",
             "fileName": "map1.sd7",
@@ -111,10 +109,8 @@ def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
     httpserver.expect_request(
         "/live_maps.json", headers={"Cache-Control": "no-cache"}
     ).respond_with_json(response)
-    live_maps = map_syncer.fetch_live_maps(
-        cast(str, httpserver.url_for("/live_maps.json"))
-    )
-    excepted_live_maps = [
+    live_maps = map_syncer.fetch_live_maps(httpserver.url_for("/live_maps.json"))
+    expected_live_maps = [
         map_syncer.LiveMapEntry(
             "Map 1",
             "map1.sd7",
@@ -128,14 +124,14 @@ def test_fetch_live_maps_parsing(httpserver: HTTPServer) -> None:
             "1234567890abcdef1234567890abcdef",
         ),
     ]
-    assert live_maps == excepted_live_maps
+    assert live_maps == expected_live_maps
 
 
 def test_download_file(httpserver: HTTPServer, fs: FakeFilesystem) -> None:
     httpserver.expect_request("/map1.sd7").respond_with_data(b"map1contents")
     map1md5 = "462e462688fddf33e4bf4b756015f9a1"
     map_syncer.download_file(
-        cast(str, httpserver.url_for("/map1.sd7")),
+        httpserver.url_for("/map1.sd7"),
         pathlib.Path("map1.sd7"),
         map1md5,
     )
@@ -151,13 +147,13 @@ def test_send_healthcheck_basic(httpserver: HTTPServer) -> None:
         return HTTPResponse("OK")
 
     httpserver.expect_request("/health").respond_with_handler(handler)
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")))
+    map_syncer.send_healthcheck(httpserver.url_for("/health"))
     assert called
 
 
 def test_send_healthcheck_ignores_failures(httpserver: HTTPServer) -> None:
     httpserver.expect_request("/health").respond_with_data(b"NOT OK", status=500)
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")))
+    map_syncer.send_healthcheck(httpserver.url_for("/health"))
 
 
 def test_send_healthcheck_timeout(httpserver: HTTPServer) -> None:
@@ -167,7 +163,7 @@ def test_send_healthcheck_timeout(httpserver: HTTPServer) -> None:
 
     httpserver.expect_request("/health").respond_with_handler(handler)
     start = time.time()
-    map_syncer.send_healthcheck(cast(str, httpserver.url_for("/health")), timeout=0.1)
+    map_syncer.send_healthcheck(httpserver.url_for("/health"), timeout=0.1)
     assert time.time() - start < 0.2
 
 
@@ -181,7 +177,7 @@ def test_download_file_md5_mismatch(httpserver: HTTPServer, fs: FakeFilesystem) 
     httpserver.expect_request("/map1.sd7").respond_with_data(b"map1contents")
     with pytest.raises(RuntimeError) as excinfo:
         map_syncer.download_file(
-            cast(str, httpserver.url_for("/map1.sd7")),
+            httpserver.url_for("/map1.sd7"),
             pathlib.Path("map1.sd7"),
             "asdasdasd",
         )
@@ -189,7 +185,7 @@ def test_download_file_md5_mismatch(httpserver: HTTPServer, fs: FakeFilesystem) 
 
 
 def test_mqtt_triggers_on_message(
-    mosquitto: Tuple[str, Union[int, str]], capmqtt: MqttCaptureFixture
+    mosquitto: tuple[str, int | str], capmqtt: MqttCaptureFixture
 ) -> None:
     mqtt_config = map_syncer.MQTTConfig(
         mosquitto[0], int(mosquitto[1]), False, "topic", None, None
@@ -198,11 +194,11 @@ def test_mqtt_triggers_on_message(
     with map_syncer.mqtt_sync_trigger(mqtt_config, sync_trigger):
         with pytest.raises(queue.Empty):
             sync_trigger.get(timeout=0.5)
-        capmqtt.publish("topic", "random stuff")  # type: ignore
+        capmqtt.publish("topic", "random stuff")
         assert sync_trigger.get(timeout=0.5) == (map_syncer.SyncOp.SYNC, "MQTT")
 
 
-def test_timer_triggers_on_interval(mocker: MockerFixture) -> None:
+def test_timer_triggers_on_interval() -> None:
     sync_trigger: map_syncer.SyncQueue = queue.Queue()
 
     interval = 0.02
@@ -217,7 +213,7 @@ def test_timer_triggers_on_interval(mocker: MockerFixture) -> None:
             t, msg = sync_trigger.get(timeout=10 * interval)
             assert (t, msg) == (map_syncer.SyncOp.SYNC, "timer")
         duration = time.time() - start
-        assert duration > min_duration and duration < max_duration
+        assert min_duration < duration < max_duration
 
 
 def test_poller_starts_sync_correctly(mocker: MockerFixture) -> None:
@@ -277,11 +273,11 @@ def live_maps_url(httpserver: HTTPServer) -> str:
         ("Map 2", "map2.sd7", b"map2contents", "a4b06ce39970cb157729504ac1d740a3"),
         ("Map 3", "map3.sd7", b"map3contents", "d8720a22142996af63b6b962e4d338c7"),
     ]
-    response: List[Dict[str, str]] = [
+    response: list[dict[str, str]] = [
         {
             "springName": name,
             "fileName": file,
-            "downloadURL": cast(str, httpserver.url_for("/map/" + file)),
+            "downloadURL": httpserver.url_for("/map/" + file),
             "md5": md5,
         }
         for (name, file, _, md5) in maps
@@ -289,7 +285,7 @@ def live_maps_url(httpserver: HTTPServer) -> str:
     httpserver.expect_request("/live_maps.json").respond_with_json(response)
     for _, file, contents, _ in maps:
         httpserver.expect_request("/map/" + file).respond_with_data(contents)
-    return cast(str, httpserver.url_for("/live_maps.json"))
+    return httpserver.url_for("/live_maps.json")
 
 
 def test_sync_files_simple(live_maps_url: str, fs: FakeFilesystem) -> None:
@@ -310,7 +306,7 @@ def test_sync_files_deletes_only_old(live_maps_url: str, fs: FakeFilesystem) -> 
     fs.create_dir(d)
     fs.create_file(d / "map_old_1.sd7")
     fs.create_file(d / "map_old_2.sd7")
-    initial_tombstones: Dict[str, int] = {
+    initial_tombstones: dict[str, int] = {
         "map_old_1.sd7": int(time.time()) - 100,
         "map_old_2.sd7": int(time.time()) - 300,
     }
@@ -322,7 +318,7 @@ def test_sync_files_deletes_only_old(live_maps_url: str, fs: FakeFilesystem) -> 
     assert fs.exists(d / "map_old_1.sd7")
     assert not fs.exists(d / "map_old_2.sd7")
     assert cast(
-        Dict[str, int],
+        dict[str, int],
         json.loads(fs.get_object(d / "tombstones.json").contents or "{}"),
     ) == {
         "map_old_1.sd7": initial_tombstones["map_old_1.sd7"],
